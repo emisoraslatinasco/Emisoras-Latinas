@@ -9,27 +9,10 @@ const config: Config = {
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        neon: {
-          blue: '#00FFFF',
-          green: '#39FF14',
-          pink: '#FF009D',
-          purple: '#B026FF',
-          yellow: '#F5FF00',
-          orange: '#FF6B00',
-          turquoise: '#00F6FF',
-          red: '#FF073A',
-        },
-        background: {
-          dark: '#0A0A0A',
-          carbon: '#121212',
-        },
-      },
-    },
+    extend: {},
   },
   darkMode: "class",
-  plugins: [heroui()],
+  plugins: [heroui() as any],
 };
 
 export default config;

@@ -1,0 +1,2481 @@
+[
+    {
+        "nombre": "Azul 101.9 FM",
+        "url_stream": "https://azul-1.nty.uy/",
+        "logo_local": "logos_emisoras\\Azul_1019_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Adult Contemporary",
+            "News"
+        ],
+        "descripcion": "Escuchar Azul 101.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/pages/Azul-FM-1019-935-Punta-del-Este/147833865230744",
+            "https://twitter.com/azulfmuy",
+            "https://www.instagram.com/azulfmuy/"
+        ],
+        "sitio_web": "http://azulfm.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Del Sol FM",
+        "url_stream": "https://delsol-2.nty.uy/stream/1/?dbl=0&nocache=2780&type=http",
+        "logo_local": "logos_emisoras\\Del_Sol_FM.jpg",
+        "generos": [
+            "Adult Contemporary"
+        ],
+        "descripcion": "Escuchar Del Sol FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/MagnolioSala",
+            "https://www.facebook.com/MagnolioSala",
+            "https://www.instagram.com/MagnolioSala/"
+        ],
+        "sitio_web": "http://delsol.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Disney Uruguay",
+        "url_stream": "https://24413.live.streamtheworld.com/DISNEY_URY_MV_SC",
+        "logo_local": "logos_emisoras\\Radio_Disney_Uruguay.jpg",
+        "generos": [
+            "Pop Music",
+            "Romantic",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Disney Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioDisneyLA/",
+            "https://twitter.com/RadioDisneyLA",
+            "https://www.youtube.com/user/RadioDisneyLA"
+        ],
+        "sitio_web": "https://radiodisney.disneylatino.com/uruguay",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Inolvidable 93.1 FM",
+        "url_stream": "https://inolvidable-1.nty.uy/",
+        "logo_local": "logos_emisoras\\Inolvidable_931_FM.jpg",
+        "generos": [
+            "News",
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "Emisora de Radio que emite las 24 horas desde Las Piedras, Canelones, Uruguay",
+        "redes_sociales": [
+            "https://twitter.com/inolvidable_fm",
+            "https://www.facebook.com/fm93.1/"
+        ],
+        "sitio_web": "http://www.inolvidablefm.com.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Carve 850 AM",
+        "url_stream": "https://icecast3.innovanexo.com:9000/radiocarve850.mp3",
+        "logo_local": "logos_emisoras\\Carve_850_AM.jpg",
+        "generos": [
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Escuchar Carve 850 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioCarve",
+            "https://twitter.com/carve850",
+            "https://www.instagram.com/radiocarve/",
+            "https://www.youtube.com/channel/UCRo965hYq2-9V_50iQ9ESFQ"
+        ],
+        "sitio_web": "http://www.carve850.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Metrópolis 104.9 FM",
+        "url_stream": "https://metropolis-web-1.nty.uy/",
+        "logo_local": "logos_emisoras\\Metropolis_1049_FM.jpg",
+        "generos": [
+            "Culture",
+            "Latino"
+        ],
+        "descripcion": "Metrópolis FM se acerca a sus oyentes mediante esta red, para compartir toda la información sobre artistas y novedades de la radio. Enterate de la programación, invitados y sorteos de tu emisora, Metrópolis FM: música y compañía las 24 horas.",
+        "redes_sociales": [
+            "http://www.facebook.com/metropolisfmuruguay",
+            "http://www.youtube.com/channel/UCcTCeYHzYH4xM5HHAl6X95g?sub_confirmation=1"
+        ],
+        "sitio_web": "http://www.metropolisfm.com/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Radio Monte Carlo 930",
+        "url_stream": "https://icecast1.innovanexo.com:9000/montecarlo.mp3",
+        "logo_local": "logos_emisoras\\Radio_Monte_Carlo_930.jpg",
+        "generos": [
+            "Sports",
+            "Talk"
+        ],
+        "descripcion": "CX 20 Radio Monte Carlo es la emisora radial de mayor audiencia de Uruguay.",
+        "redes_sociales": [
+            "https://twitter.com/montecarlo930",
+            "https://www.facebook.com/montecarlo930"
+        ],
+        "sitio_web": "http://www.radiomontecarlo.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Concierto Punta 95.1 FM",
+        "url_stream": "https://conectperu.com/8012/stream",
+        "logo_local": "logos_emisoras\\Concierto_Punta_951_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Concierto Punta 95.1 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/conciertopunta/",
+            "https://www.facebook.com/conciertopunta/"
+        ],
+        "sitio_web": "https://www.conciertofm.com/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Carve Deportiva 1010 AM",
+        "url_stream": "https://icecast2.innovanexo.com:9000/carvedeportiva.mp3",
+        "logo_local": "logos_emisoras\\Carve_Deportiva_1010_AM.jpg",
+        "generos": [
+            "Sports",
+            "News"
+        ],
+        "descripcion": "Escuchar Carve Deportiva 1010 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/CarveDeportiva",
+            "https://www.facebook.com/CarveDeportiva/"
+        ],
+        "sitio_web": "https://carvedeportiva.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "970 AM Universal",
+        "url_stream": "https://970universal-3.nty.uy/;",
+        "logo_local": "logos_emisoras\\970_AM_Universal.jpg",
+        "generos": [
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Escuchar 970 AM Universal en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/Universal970",
+            "https://www.facebook.com/970AMUniversal",
+            "https://www.youtube.com/channel/UCYfmi4AKY-kMDkt7BtvOKxg"
+        ],
+        "sitio_web": "http://970universal.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Océano FM",
+        "url_stream": "https://oceano-2.nty.uy/",
+        "logo_local": "logos_emisoras\\Oceano_FM.jpg",
+        "generos": [
+            "Variety",
+            "Classic Hits",
+            "Talk"
+        ],
+        "descripcion": "Escuchar Océano FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/Oceano939",
+            "https://www.facebook.com/oceanofm939/",
+            "https://www.youtube.com/user/Oceano939"
+        ],
+        "sitio_web": "https://oceanofm.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "RadioCero 104.3",
+        "url_stream": "https://icecast3.innovanexo.com:9000/radiocero.mp3",
+        "logo_local": "logos_emisoras\\RadioCero_1043.jpg",
+        "generos": [
+            "Pop Music",
+            "Variety"
+        ],
+        "descripcion": "Escuchar RadioCero 104.3 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/ListaRadiocero/radiocero",
+            "https://www.facebook.com/Radiocero1043",
+            "http://www.youtube.com/radiocero1043ok",
+            "https://www.instagram.com/radiocero1043/"
+        ],
+        "sitio_web": "http://www.radiocero.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "FM Hit 90.3 FM",
+        "url_stream": "https://hit-1.nty.uy/stream",
+        "logo_local": "logos_emisoras\\FM_Hit_903_FM.jpg",
+        "generos": [
+            "Classic Hits",
+            "Top 40"
+        ],
+        "descripcion": "Escuchar FM Hit 90.3 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/fmhituy",
+            "https://www.facebook.com/fmhituy/",
+            "https://www.instagram.com/fmhituy/"
+        ],
+        "sitio_web": "https://fmhit.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Canto y Fogon Radio",
+        "url_stream": "https://sp04.servidorrprivado.com:8052/;",
+        "logo_local": "logos_emisoras\\Canto_y_Fogon_Radio.jpg",
+        "generos": [
+            "Folk"
+        ],
+        "descripcion": "Escuchar Canto y Fogon Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/cantoyfogon/",
+            "https://twitter.com/cantoyfogon",
+            "https://www.youtube.com/channel/UCQiTAuv54M9pkF9jtUtoixA/videos",
+            "https://www.facebook.com/cantoyfogon"
+        ],
+        "sitio_web": "http://www.cantoyfogon.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Rural 610 AM",
+        "url_stream": "https://radiolatina.live/9206/stream",
+        "logo_local": "logos_emisoras\\Radio_Rural_610_AM.jpg",
+        "generos": [
+            "Culture",
+            "Talk"
+        ],
+        "descripcion": "Un hilo conductor recorre toda nuestra programación:el valor de lo nuestro,el sentir paisano y el rescate de las tradiciones.",
+        "redes_sociales": [
+            "https://twitter.com/610rural",
+            "https://www.facebook.com/RadioRural610",
+            "https://www.instagram.com/radiorural610am/"
+        ],
+        "sitio_web": "http://radiorural.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Uruguay 1050 AM",
+        "url_stream": "https://radios.iwstreaming.uy/8036/stream",
+        "logo_local": "logos_emisoras\\Radio_Uruguay_1050_AM.jpg",
+        "generos": [
+            "Variety",
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Escuchar Radio Uruguay 1050 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioUruguayUy",
+            "https://twitter.com/RadioUruguayUy",
+            "https://www.youtube.com/user/RadioUruguay1050"
+        ],
+        "sitio_web": "https://mediospublicos.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "La Voz de Melo",
+        "url_stream": "https://rr5100.globalhost1.com/8448/stream",
+        "logo_local": "logos_emisoras\\La_Voz_de_Melo.jpg",
+        "generos": [
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar La Voz de Melo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/LaVozMelo",
+            "https://www.facebook.com/lavozdemelo1340/"
+        ],
+        "sitio_web": "http://www.lavozdemelo.com/",
+        "ciudad": "Cerro Largo"
+    },
+    {
+        "nombre": "FM Gente 107.1",
+        "url_stream": "https://cast1.asurahosting.com/proxy/btsasalv/stream",
+        "logo_local": "logos_emisoras\\FM_Gente_1071.jpg",
+        "generos": [
+            "Sports",
+            "Classic Hits",
+            "News"
+        ],
+        "descripcion": "Desde su nacimiento alcanzó los primeros lugares de audiencia en el departamento de Maldonado y luego en la región, hasta la actualidad. FM GENTE ha tenido un gran impacto en el departamento de Maldonado y ha trascendido las fronteras regionales para destacarse en el concierto nacional. Es una radio jóven, moderna, que ha basado su éxito en la interacción con su gente, que la adoptado como su medio de comunicación para hacer sentir sus inquietudes. Es básicamente periodística-informativa, muy interactiva, pero también musical, con lugar para el entretenimiento, la cultura, el deporte,etc. Es una tribuna abierta a todas las inquietudes y manifestaciones.",
+        "redes_sociales": [
+            "https://www.facebook.com/fmgente107.1/",
+            "https://twitter.com/fmgenteradio"
+        ],
+        "sitio_web": "http://www.fmgente.com.uy/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "M24 97.9 FM",
+        "url_stream": "https://streaming1.hostingmontevideo.com/8034/stream",
+        "logo_local": "logos_emisoras\\M24_979_FM.jpg",
+        "generos": [
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Nos mueve la información. Política, economía, cultura y deporte. Radio en vivo",
+        "redes_sociales": [
+            "https://www.facebook.com/m24radio",
+            "https://twitter.com/M24radio",
+            "https://www.instagram.com/m24radio/",
+            "https://www.youtube.com/channel/UCu-U3hwhBTR3lzyZnPUL2Hg"
+        ],
+        "sitio_web": "http://m24.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Café Express Radio",
+        "url_stream": "https://emisora.zonasinergia.com/8198/stream",
+        "logo_local": "logos_emisoras\\Cafe_Express_Radio.jpg",
+        "generos": [
+            "Variety",
+            "Easy Listening",
+            "Oldies"
+        ],
+        "descripcion": "Escuchar Café Express Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/cafeexpressradio/",
+            "https://www.facebook.com/cafeexpressradio/"
+        ],
+        "sitio_web": "https://www.cafeexpressradio.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Clarin AM580",
+        "url_stream": "https://radioclarin-zikoxweb.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Radio_Clarin_AM580.jpg",
+        "generos": [
+            "Folk",
+            "Oldies",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Clarin AM580 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioclarin.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "La 30 Radio Nacional",
+        "url_stream": "https://stream-151.zeno.fm/gl6lqyahef5tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnbDZscXlhaGVmNXR2IiwiaG9zdCI6InN0cmVhbS0xNTEuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicklBaWpacWRSWkdPLTdzRmZIQlRPZyIsImlhdCI6MTc2Njg5NTgwOSwiZXhwIjoxNzY2ODk1ODY5fQ.s-QBMmEOEC3rIb3rYphXfgYXT60Cg8HGY4cxrKOa1cI",
+        "logo_local": "logos_emisoras\\La_30_Radio_Nacional.jpg",
+        "generos": [
+            "Public"
+        ],
+        "descripcion": "Escuchar La 30 Radio Nacional en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/lanacional1130",
+            "https://www.instagram.com/lanacional1130",
+            "https://www.youtube.com/c/LaTreintaTV"
+        ],
+        "sitio_web": "http://www.radionacional.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "CX140 Radio Zorrilla",
+        "url_stream": "https://server-usa2.radioseninternet.net/9312/stream",
+        "logo_local": "logos_emisoras\\CX140_Radio_Zorrilla.jpg",
+        "generos": [],
+        "descripcion": "Radio Zorrilla de San Martín CX140, emisora de Tacuarembó, Uruguay con reconocida trayectoria por su programación de noticias y actualidad.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-ZSM-1625532574179554/",
+            "https://twitter.com/RadioZSM/status/1182074858248773632"
+        ],
+        "sitio_web": "http://www.radiozorrilla.com/",
+        "ciudad": "Tacuarembó"
+    },
+    {
+        "nombre": "RADIO DEL CASTILLO ONLINE",
+        "url_stream": "https://stream-177.zeno.fm/2thfc6t0rwutv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIydGhmYzZ0MHJ3dXR2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiNmlUQjB2X29RRmFLdzdGc0l4dVVuQSIsImlhdCI6MTc2Njg5NTg4MiwiZXhwIjoxNzY2ODk1OTQyfQ.KS34zId3glo_9to4OjRfOXs-eEnVMalRcDRmj5MqLw0",
+        "logo_local": "logos_emisoras\\RADIO_DEL_CASTILLO_ONLINE.jpg",
+        "generos": [
+            "Alternative Rock",
+            "Blues",
+            "Arabic Music"
+        ],
+        "descripcion": "Escuchar RADIO DEL CASTILLO ONLINE en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radios-uruguay.com/la-vereda-webradio",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Radio Folclorisima Uruguay",
+        "url_stream": "https://stream-163.zeno.fm/ds3s00u3ry8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkczNzMDB1M3J5OHV2IiwiaG9zdCI6InN0cmVhbS0xNjMuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUEdNUXA5WndSbC15b08wNXRGQl9CUSIsImlhdCI6MTc2Njg5NTkwMywiZXhwIjoxNzY2ODk1OTYzfQ.2R4rB23uXuPjoQoVHJ85HIGwOUq0sXJkgAKnRaLX8Hg&_=1&rj-tok=AAABgm8FfaMAhWsH5OQ9BewINQ&rj-ttl=5",
+        "logo_local": "logos_emisoras\\Radio_Folclorisima_Uruguay.jpg",
+        "generos": [
+            "Folk",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Folclorisima Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioFolclorisimaUruguay/"
+        ],
+        "sitio_web": "https://radiofolclorisimauruguay.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Babel 97.1 FM",
+        "url_stream": "https://radios.iwstreaming.uy/8030/stream",
+        "logo_local": "logos_emisoras\\Babel_971_FM.jpg",
+        "generos": [
+            "Classical",
+            "Jazz",
+            "World Music"
+        ],
+        "descripcion": "Es una radio pública uruguaya que forma parte del Secan, unidad ejecutora del MEC. Música de calidad para perder los prejuicios.",
+        "redes_sociales": [
+            "https://www.facebook.com/BabelUy",
+            "https://twitter.com/BabelUy"
+        ],
+        "sitio_web": "https://mediospublicos.uy/category/radio/radio-babel/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Onda Marina 106.3 FM",
+        "url_stream": "https://marina-2.nty.uy/",
+        "logo_local": "logos_emisoras\\Onda_Marina_1063_FM.jpg",
+        "generos": [
+            "Folk",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Onda Marina 106.3 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/106.3FMONDAMARINA/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Rocha"
+    },
+    {
+        "nombre": "La Zurda",
+        "url_stream": "https://radios.solumedia.com:6270/stream",
+        "logo_local": "logos_emisoras\\La_Zurda.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Escuchar La Zurda en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/radiolazurda"
+        ],
+        "sitio_web": "http://www.radiolazurda.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Del Molino 89.3 FM",
+        "url_stream": "https://sp2.servidorrprivado.com:10878/;?ver=239051",
+        "logo_local": "logos_emisoras\\Del_Molino_893_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Del Molino 89.3 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/DelMolino89.3FM",
+            "https://twitter.com/delmolino893"
+        ],
+        "sitio_web": "http://www.delmolinofm.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Exito FM 99.7",
+        "url_stream": "https://salida.stream.com.uy:8506/stream",
+        "logo_local": "logos_emisoras\\Exito_FM_997.jpg",
+        "generos": [
+            "Pop Music",
+            "Top 40"
+        ],
+        "descripcion": "EXITO FM Comenzó a transmitir el 21 de setiembre de 1995. Desde el principio se apuntó a la excelencia en sonido y a la profesionalidad en el grupo humano, caracteristicas que dan como resultado ser la RADIO N°1 en el litoral Uruguayo Argentino.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.exitofm.com.uy/",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Emisora del Sur",
+        "url_stream": "https://radios.iwstreaming.uy/8034/stream",
+        "logo_local": "logos_emisoras\\Emisora_del_Sur.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Emisora del Sur en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.youtube.com/user/EmisoradelSur947"
+        ],
+        "sitio_web": "http://www.emisoradelsur.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Sunset Melodies Uruguay",
+        "url_stream": "https://sc10.conectarhosting.com/proxy/sunsetmelodies/stream",
+        "logo_local": "logos_emisoras\\Sunset_Melodies_Uruguay.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Sunset Melodies Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/sunsetmelodies.uy"
+        ],
+        "sitio_web": "https://sunsetmelodiesradio.com/",
+        "ciudad": "Soriano"
+    },
+    {
+        "nombre": "Sur FM",
+        "url_stream": "https://dattavolt.com/8268/stream",
+        "logo_local": "logos_emisoras\\Sur_FM.jpg",
+        "generos": [
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Sur FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.surfm.net/",
+        "ciudad": "Flores"
+    },
+    {
+        "nombre": "Internacional 94.5 FM",
+        "url_stream": "https://srv2.radiostreamuy.com/8022/stream",
+        "logo_local": "logos_emisoras\\Internacional_945_FM.jpg",
+        "generos": [
+            "Variety",
+            "Classic Hits",
+            "News"
+        ],
+        "descripcion": "Escuchar Internacional 94.5 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://internacionalamyfm.com/",
+        "ciudad": "Rivera"
+    },
+    {
+        "nombre": "Nostalgia Radio Montevideo",
+        "url_stream": "https://stm6.xcast.com.br:9494/;",
+        "logo_local": "logos_emisoras\\Nostalgia_Radio_Montevideo.jpg",
+        "generos": [
+            "Variety",
+            "Oldies"
+        ],
+        "descripcion": "Escuchar Nostalgia Radio Montevideo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://nostalgiaradiomontevideo.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "CX40 Radio Fenix 1330 AM",
+        "url_stream": "https://sp3.servidorrprivado.com/8070/;",
+        "logo_local": "logos_emisoras\\CX40_Radio_Fenix_1330_AM.jpg",
+        "generos": [
+            "Variety",
+            "Talk"
+        ],
+        "descripcion": "Radio Fénix , CX40 1330 AM , Montevideo , Uruguay. Emisora de Radio de larga trayectoria con programación variada e interactiva que trasmite las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiofenix1330am",
+            "https://twitter.com/1330amFenix",
+            "https://www.youtube.com/channel/UCqxOiSWW7soFr0dY4QWNO2Q",
+            "https://www.instagram.com/fenix1330radio/"
+        ],
+        "sitio_web": "https://radiofenix.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Internacional 1480 AM",
+        "url_stream": "https://srv2.radiostreamuy.com/8024/stream",
+        "logo_local": "logos_emisoras\\Internacional_1480_AM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Internacional 1480 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://internacionalamyfm.com/",
+        "ciudad": "Rivera"
+    },
+    {
+        "nombre": "Perfil FM 90.9 Treinta y Tres Uruguay",
+        "url_stream": "https://radiosar.com:8086/stream",
+        "logo_local": "logos_emisoras\\Perfil_FM_909_Treinta_y_Tres_Uruguay.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Perfil FM 90.9 Treinta y Tres Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/perfil90",
+            "https://twitter.com/perfilfm"
+        ],
+        "sitio_web": "http://www.perfilfm.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "91.5 ESPACIO FM",
+        "url_stream": "https://medios.ciudaddigital.com.uy:18098/EspacioFM",
+        "logo_local": "logos_emisoras\\915_ESPACIO_FM.jpg",
+        "generos": [
+            "Sports",
+            "News",
+            "Local"
+        ],
+        "descripcion": "Escuchar 91.5 ESPACIO FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Espacio-Basketbol/100011532912508",
+            "https://twitter.com/Espacio915"
+        ],
+        "sitio_web": "http://www.915espaciofm.com/",
+        "ciudad": "Soriano"
+    },
+    {
+        "nombre": "Rosario FM 89.9",
+        "url_stream": "https://streamrosariofm.digital:8004/stream",
+        "logo_local": "logos_emisoras\\Rosario_FM_899.jpg",
+        "generos": [
+            "Local"
+        ],
+        "descripcion": "Escuchar Rosario FM 89.9 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCOA70n2CDfgcJiY3aPxhn9g/videos?view=0&sort=dd&shelf_id=0",
+            "https://www.facebook.com/www.rosariofm.uy/"
+        ],
+        "sitio_web": "https://rosariofm.uy/",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "Radio Continental 1600 AM",
+        "url_stream": "https://server-usa2.radioseninternet.net/9316/stream",
+        "logo_local": "logos_emisoras\\Radio_Continental_1600_AM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Continental 1600 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioContinental1600AM/"
+        ],
+        "sitio_web": "http://www.radiocontinental.com.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Radio Clásica 650 AM",
+        "url_stream": "https://radios.iwstreaming.uy/8032/stream",
+        "logo_local": "logos_emisoras\\Radio_Clasica_650_AM.jpg",
+        "generos": [
+            "Classical"
+        ],
+        "descripcion": "Escuchar Radio Clásica 650 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/ClasicaUy"
+        ],
+        "sitio_web": "http://mediospublicos.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Bohemia FM 98.9",
+        "url_stream": "https://stream.radiopro.uy/listen/bohemia/bohemia",
+        "logo_local": "logos_emisoras\\Bohemia_FM_989.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Bohemia FM 98.9 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/BohemiaFm989/",
+            "https://www.instagram.com/bohemiafm989/"
+        ],
+        "sitio_web": "http://bohemiafm.com/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Mega FM 89.7 - Tacuarembó",
+        "url_stream": "https://emisiones.com.uy:8191/mega",
+        "logo_local": "logos_emisoras\\Mega_FM_897_Tacuarembo.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Mega FM 89.7 - Tacuarembó en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/megafm89.7tacuarembo.5"
+        ],
+        "sitio_web": "https://lamegafm.uy/",
+        "ciudad": "Tacuarembó"
+    },
+    {
+        "nombre": "Tacuarembo 90.3FM",
+        "url_stream": "https://tacuarembo-zikoxweb2.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Tacuarembo_903FM.jpg",
+        "generos": [
+            "Sports",
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "CXC212D 90.3 Tacuarembó FM, perteneciente al CLUB SPORTIVO Y CIRCULO POLICIAL, administrada, dirigida y supervisada por los integrantes de la Comisión Directiva. Actualmente el perfil de la emisora está enfocado a la promoción, difusión e información de los valores culturales, sociales, deportivos de nuestra ciudad y el departamento, como así también la difusión y promoción de trabajos musicales de artistas locales, nacionales e internacionales, en su gran mayoría correspondientes al género latino. Por lo tanto estamos abocando a perfeccionar la nueva reestructura de la emisora, donde hasta el momento hemos tenido una gran aceptación por la audiencia debido al gran alcance por aire a toda la ciudad. Estos logros han dado lugar a la aceptación, permanencia y renovación de la audiencia que escucha nuestros programas, hechos justificados por la participación de los oyentes a través de nuestras líneas de comunicación, lo que permite que podamos conocer las necesidades, inquietudes y difund",
+        "redes_sociales": [
+            "https://www.facebook.com/tacuarembofm.tacuarembofm.5",
+            "https://www.instagram.com/tacuarembofm90.3/"
+        ],
+        "sitio_web": "http://www.tacuarembofm.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Celeste Corazón",
+        "url_stream": "https://streamingraddios.online/proxy/celeste?mp=/stream/1/",
+        "logo_local": "logos_emisoras\\Celeste_Corazon.jpg",
+        "generos": [
+            "Classic Hits",
+            "90s",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Celeste Corazón en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/celesteradio"
+        ],
+        "sitio_web": "https://www.radiocelestecorazon.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Coronilla 102.3 FM",
+        "url_stream": "https://streaming01.shockmedia.com.ar/9184/stream",
+        "logo_local": "logos_emisoras\\Coronilla_1023_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Coronilla 102.3 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/fm_coronilla",
+            "https://www.facebook.com/1023-FM-Coronilla-696142477183743/"
+        ],
+        "sitio_web": "http://www.fmcoronilla.com.uy/",
+        "ciudad": "Rocha"
+    },
+    {
+        "nombre": "ACTIVAradio",
+        "url_stream": "https://a7.asurahosting.com/listen/www.activaradio.com.uy/radio.mp3",
+        "logo_local": "logos_emisoras\\ACTIVAradio.jpg",
+        "generos": [
+            "Pop Music",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escuchar ACTIVAradio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61571856850871",
+            "https://www.instagram.com/activaradio.uy/"
+        ],
+        "sitio_web": "http://www.activaradio.com.uy/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Latina 95.3 FM",
+        "url_stream": "https://medios.ciudaddigital.com.uy:18168/LatinaFM",
+        "logo_local": "logos_emisoras\\Latina_953_FM.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Escuchar Latina 95.3 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/LatinaFmTv",
+            "https://twitter.com/latinatvpdu"
+        ],
+        "sitio_web": "http://www.latinafm.com.uy/",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Impacto 98.9",
+        "url_stream": "https://a3.asurahosting.com:7740/radio.mp3",
+        "logo_local": "logos_emisoras\\Impacto_989.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Impacto 98.9 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/impactofm98.9fraybentos/"
+        ],
+        "sitio_web": "https://impacto989.com.uy/",
+        "ciudad": "Río Negro"
+    },
+    {
+        "nombre": "Difusora Rochense 1260 AM",
+        "url_stream": "https://rochense-1.nty.uy/",
+        "logo_local": "logos_emisoras\\Difusora_Rochense_1260_AM.jpg",
+        "generos": [
+            "Local"
+        ],
+        "descripcion": "Escuchar Difusora Rochense 1260 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Difusora-Rochense-581951435197545/?fref=ts"
+        ],
+        "sitio_web": "http://www.difusorarochense.com.uy/",
+        "ciudad": "Rocha"
+    },
+    {
+        "nombre": "Montevideo Jazz Radio",
+        "url_stream": "https://stream-178.zeno.fm/2ykx0xbm6gruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyeWt4MHhibTZncnV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiaDdVZFhaamRTZWEwRE05aHlvcHE5ZyIsImlhdCI6MTc2NjkzMTYyNCwiZXhwIjoxNzY2OTMxNjg0fQ.xSFAmwgFhR1A14N0C42VkVtEbD-tKibWSpjPaOkf-Io&amp=&rj-tok=AAABgm2eM4kAu624E1-RBNBWgQ&rj-ttl=5",
+        "logo_local": "logos_emisoras\\Montevideo_Jazz_Radio.jpg",
+        "generos": [
+            "Jazz",
+            "Smooth Jazz"
+        ],
+        "descripcion": "Escuchar Montevideo Jazz Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/montevideojazzradio/"
+        ],
+        "sitio_web": "http://www.montevideojazzradio.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Paysandú",
+        "url_stream": "https://salida.stream.com.uy:8510/stream",
+        "logo_local": "logos_emisoras\\Radio_Paysandu.jpg",
+        "generos": [
+            "Classic Hits",
+            "Talk",
+            "60s"
+        ],
+        "descripcion": "Escuchar Radio Paysandú en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiopaysandu.com.uy/",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Musica en el Aire",
+        "url_stream": "https://server-usa2.radioseninternet.net:7047/;",
+        "logo_local": "logos_emisoras\\Musica_en_el_Aire.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "MÚSICA EN EL AIRE comenzó a emitirse en Onda Marina 106.3 FM de La Paloma, Rocha, Uruguay, un 15 noviembre de 1997. Estuvo al aire durante 10 años, hasta el 2007. En 2002 ganó un premio Tabaré como \"Mejor programa Magazine Musical\" del interior del país. Un 17 de noviembre de 2009, MÚSICA EN EL AIRE desembarcó sus sonidos en Emisora del Sauce 89.1 FM de Juan Lacaze, Colonia, Uruguay en el horario de 17 a 19 hrs. Dos años más tarde, un 4 de julio de 2011, comenzó su tercer ciclo en su actual horario de lunes a viernes de 08:00 a 10:00 horas también por Emisora del Sauce 89.1 FM. Adaptándose a los nuevos tiempos, MÚSICA EN EL AIRE desarrolla hoy contenido multimedia en su web www.musicaenelaire.net",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCNsZyQZw14fRg2fRI3zHquA",
+            "https://www.instagram.com/musicaenelaireok/",
+            "https://twitter.com/_MUSICAENELAIRE",
+            "https://www.facebook.com/musicaenelaire.net"
+        ],
+        "sitio_web": "https://musicaenelaire.net/",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "CW33 La Nueva Radio 1200 AM",
+        "url_stream": "https://streaming1.hostingmontevideo.com:7017/;stream.mp3",
+        "logo_local": "logos_emisoras\\CW33_La_Nueva_Radio_1200_AM.jpg",
+        "generos": [
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar CW33 La Nueva Radio 1200 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/exitorama"
+        ],
+        "sitio_web": "http://www.cw33florida.com.uy/",
+        "ciudad": "Florida"
+    },
+    {
+        "nombre": "Más FM",
+        "url_stream": "https://one.cloudstreaming.eu:7002/live",
+        "logo_local": "logos_emisoras\\Mas_FM.jpg",
+        "generos": [
+            "Talk"
+        ],
+        "descripcion": "En 101.3 acompañamos el ritmo de la ciudad durante las 24 horas. Brindando el equilibrio perfecto con una diversa programación, musical e informativa. Periodistas, conductores, locutores, musicalizadores y editores, un grupo humano destacado y premiado a nivel nacional acompañados de tecnología de primera calidad. Hacemos de la mejor manera que cada producto y servicio promocionado en nuestra emisora llegue a la mayor franja de consumidores de la región. Generando siempre un resultado positivo, dando tranquilidad a nuestros clientes y amigos. No dude en ser parte del equipo, juntos somos MAS.",
+        "redes_sociales": [],
+        "sitio_web": "http://masfm.com.uy/",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Radio Viva 96.7 FM",
+        "url_stream": "https://radioviva-3.nty.uy/?ver=650999",
+        "logo_local": "logos_emisoras\\Radio_Viva_967_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Viva 96.7 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/radioviva967/",
+            "https://twitter.com/RadioViva967",
+            "https://www.youtube.com/channel/UClgVpWf6r5OjtozjrtzKLnA"
+        ],
+        "sitio_web": "https://radiovivafm.uy/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Radio Cristal AM 1470",
+        "url_stream": "https://medios.ciudaddigital.com.uy:18126/CristalAM",
+        "logo_local": "logos_emisoras\\Radio_Cristal_AM_1470.jpg",
+        "generos": [
+            "Variety",
+            "Sports",
+            "Local"
+        ],
+        "descripcion": "Escuchar Radio Cristal AM 1470 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/laprimeradecanelones",
+            "https://www.instagram.com/laprimeradecanelones"
+        ],
+        "sitio_web": "https://www.radiocristal.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "FM Ideal 90.1",
+        "url_stream": "https://streaming3.locucionar.com/proxy/fmideal901?mp=/stream",
+        "logo_local": "logos_emisoras\\FM_Ideal_901.jpg",
+        "generos": [
+            "Sports",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar FM Ideal 90.1 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/fmideal",
+            "http://www.facebook.com/pages/901-Fm-ideal/74178524224"
+        ],
+        "sitio_web": "https://www.fmideal.com.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Milenium 88.7 FM - Punta Del Este",
+        "url_stream": "https://server-usa2.radioseninternet.net/9302/stream",
+        "logo_local": "logos_emisoras\\Milenium_887_FM_Punta_Del_Este.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Milenium 88.7 FM - Punta Del Este en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/milenium.puntadeleste.oficial",
+            "https://twitter.com/milenium_7"
+        ],
+        "sitio_web": "http://mileniumfm.net/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Radio Acuarela Cerro Largo 1520 AM",
+        "url_stream": "https://emisora.zonasinergia.com:7020/stream",
+        "logo_local": "logos_emisoras\\Radio_Acuarela_Cerro_Largo_1520_AM.jpg",
+        "generos": [
+            "Folk",
+            "Talk",
+            "Local"
+        ],
+        "descripcion": "Escuchar Radio Acuarela Cerro Largo 1520 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/radioacuareladecerrolargo/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cerro Largo"
+    },
+    {
+        "nombre": "Radio San Salvador AM 1580",
+        "url_stream": "https://server-usa2.radioseninternet.net/8270/stream",
+        "logo_local": "logos_emisoras\\Radio_San_Salvador_AM_1580.jpg",
+        "generos": [
+            "Local"
+        ],
+        "descripcion": "Radio de amplitud modulada de la cuidad de Dolores, depto de Soriano, República Oriental del Uruguay.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiosansalvador/"
+        ],
+        "sitio_web": "http://radiosansalvador.com.uy/",
+        "ciudad": "Soriano"
+    },
+    {
+        "nombre": "FM Magica 93.5",
+        "url_stream": "https://27383.live.streamtheworld.com/MAGICA_SC",
+        "logo_local": "logos_emisoras\\FM_Magica_935.jpg",
+        "generos": [],
+        "descripcion": "Somos la FM que posee la mayor audiencia en todo el departamento de Colonia y todo el corredor litoral del pais.",
+        "redes_sociales": [
+            "https://www.instagram.com/Fmmagica/?fbclid=IwAR1saCmqQV2vSP6dYUWjPiYi2r8GPux6sjicMpihWgKbxguCmI7r2ogzOhk",
+            "https://www.facebook.com/magica935"
+        ],
+        "sitio_web": "http://www.fmmagica.com/",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "Metrópolis 95.9 FM",
+        "url_stream": "https://metropolis-punta-1.nty.uy/stream",
+        "logo_local": "logos_emisoras\\Metropolis_959_FM.jpg",
+        "generos": [
+            "Culture",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Metrópolis 95.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.metropolisfm.com/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Señales Marindia 88.9 FM",
+        "url_stream": "https://radios.iwstreaming.uy/8004/stream",
+        "logo_local": "logos_emisoras\\Senales_Marindia_889_FM.jpg",
+        "generos": [
+            "Folk",
+            "Classic Hits",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Señales Marindia 88.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radiomarindia.wixsite.com/emisora-marindia",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Just Love Songs",
+        "url_stream": "https://lovesongs-zikoxweb.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Just_Love_Songs.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Just Love Songs en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://jstlovesongs.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Kairos 87.7 FM",
+        "url_stream": "https://panel.streamenviron.com:8264/radiokairos",
+        "logo_local": "logos_emisoras\\Kairos_877_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Talk",
+            "Local"
+        ],
+        "descripcion": "Escuchar Kairos 87.7 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Kairos-FM-877-275521862626490/"
+        ],
+        "sitio_web": "http://radiokairos.net/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Al Rojo Vivo",
+        "url_stream": "https://radio11.servidorderadio.net/8024/stream",
+        "logo_local": "logos_emisoras\\Al_Rojo_Vivo.jpg",
+        "generos": [
+            "80s",
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Al Rojo Vivo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://siemprealrojovivo.com/",
+        "ciudad": "Río Negro"
+    },
+    {
+        "nombre": "88.7 Tu lugar de encuentro",
+        "url_stream": "https://stream-175.zeno.fm/rwypsb82gd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyd3lwc2I4MmdkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiSGdrZ0h3WDZRdWE2WTZXSV9sSVo2ZyIsImlhdCI6MTc2NjkzMjMyNywiZXhwIjoxNzY2OTMyMzg3fQ.MeOqsueLkZOBnyNUANQTUxIbQSDQiFjuMfNA3Z8f3PU",
+        "logo_local": "logos_emisoras\\887_Tu_lugar_de_encuentro.jpg",
+        "generos": [
+            "Classical"
+        ],
+        "descripcion": "Escuchar 88.7 Tu lugar de encuentro en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Neutral FM 101.1",
+        "url_stream": "https://sp.dattavolt.com/8050/stream",
+        "logo_local": "logos_emisoras\\Neutral_FM_1011.jpg",
+        "generos": [
+            "Community",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Neutral FM 101.1 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/neutralfm"
+        ],
+        "sitio_web": "https://www.radioneutralfm.com/",
+        "ciudad": "Florida"
+    },
+    {
+        "nombre": "Radio Lavalleja",
+        "url_stream": "https://server-usa2.radioseninternet.net/8320/stream",
+        "logo_local": "logos_emisoras\\Radio_Lavalleja.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Lavalleja en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioLavalleja/"
+        ],
+        "sitio_web": "https://radiolavalleja.com/",
+        "ciudad": "Lavalleja"
+    },
+    {
+        "nombre": "Emisora Del Hum",
+        "url_stream": "https://medios.ciudaddigital.com.uy:18102/DelHumFM",
+        "logo_local": "logos_emisoras\\Emisora_Del_Hum.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Emisora Del Hum en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/fmdelhum/",
+            "https://www.instagram.com/fmdelhum893/"
+        ],
+        "sitio_web": "https://fmdelhum893.com.uy/",
+        "ciudad": "Soriano"
+    },
+    {
+        "nombre": "89.3 FM Diversidad",
+        "url_stream": "https://radios.solumedia.com/6600/stream",
+        "logo_local": "logos_emisoras\\893_FM_Diversidad.jpg",
+        "generos": [
+            "Rock",
+            "Pop Music",
+            "Latino"
+        ],
+        "descripcion": "Escuchar 89.3 FM Diversidad en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/la89.3",
+            "https://www.instagram.com/la89.3/"
+        ],
+        "sitio_web": "https://viveconvos.com/",
+        "ciudad": "Durazno"
+    },
+    {
+        "nombre": "La Vereda WebRadio",
+        "url_stream": "https://srv2.radiostreamuy.com/8012/stream",
+        "logo_local": "logos_emisoras\\La_Vereda_WebRadio.jpg",
+        "generos": [
+            "Rock",
+            "Classic Rock",
+            "Blues"
+        ],
+        "descripcion": "Escuchar La Vereda WebRadio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/LAVEREDAWEB",
+            "https://instagram.com/laveredawebradio"
+        ],
+        "sitio_web": "https://laveredawebradio.com/",
+        "ciudad": "Rivera"
+    },
+    {
+        "nombre": "Radio Carmelo 1460 AM",
+        "url_stream": "https://server.laradio.online/proxy/martin_barragan05?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Carmelo_1460_AM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Carmelo 1460 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/cx146",
+            "https://www.youtube.com/channel/UCncSnmKRsFIG9KMA9o6DuDQ",
+            "https://www.facebook.com/RadioCarmelo1460AM/"
+        ],
+        "sitio_web": "http://radiocarmelo.com/",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "AntiTodo Radio",
+        "url_stream": "https://stream-176.zeno.fm/e0yevnywczjvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlMHlldm55d2N6anZ2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUTVMOV9KcUVTSEdfZzVKN0F3VmFkdyIsImlhdCI6MTc2NjkzMjc1OSwiZXhwIjoxNzY2OTMyODE5fQ.MfSO_aR0DMFeWcnx1G6ufGTS_pKf7Vp33tNLrCe6hQE",
+        "logo_local": "logos_emisoras\\AntiTodo_Radio.jpg",
+        "generos": [
+            "Classic Rock",
+            "Metal",
+            "80s"
+        ],
+        "descripcion": "Escuchar AntiTodo Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/francogioa/",
+            "https://www.facebook.com/fgioachini"
+        ],
+        "sitio_web": "https://zeno.fm/radio/antitodo-rock-metal-punk/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Colonia AM 550",
+        "url_stream": "https://23033.live.streamtheworld.com/COLONIAAAC_SC?dist=triton-widget&pname=tdwidgets",
+        "logo_local": "logos_emisoras\\Radio_Colonia_AM_550.jpg",
+        "generos": [],
+        "descripcion": "Al servicio de la verdad\nHistoria Radio AM uruguaya con cobertura en Colonia y Montevideo",
+        "redes_sociales": [
+            "https://www.facebook.com/radiocoloniaam550"
+        ],
+        "sitio_web": "https://radiocolonia.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Acuario FM 94.9",
+        "url_stream": "https://radio25-zikoxstream.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Acuario_FM_949.jpg",
+        "generos": [
+            "Local",
+            "Top 40",
+            "Latino"
+        ],
+        "descripcion": "Somos Acuario, somos Café Express, La Pecera, Bruno y El Deporte, La Mesa de los Galanes, Subrayado, Fútbol por Kesman, Abran Cancha, El Nacional.",
+        "redes_sociales": [
+            "https://www.facebook.com/acuario949",
+            "https://twitter.com/acuario949",
+            "https://instagram.com/acuario949"
+        ],
+        "sitio_web": "http://www.acuariofm.uy/",
+        "ciudad": "Rocha"
+    },
+    {
+        "nombre": "Tacuarembo Radio",
+        "url_stream": "https://s2.servicioderadio.com/8084/stream",
+        "logo_local": "logos_emisoras\\Tacuarembo_Radio.jpg",
+        "generos": [
+            "Salsa",
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Tacuarembo Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.tacuaremboradio.com/",
+        "ciudad": "Tacuarembó"
+    },
+    {
+        "nombre": "CW 39 La Voz de Paysandú",
+        "url_stream": "https://salida.stream.com.uy:8508/stream",
+        "logo_local": "logos_emisoras\\CW_39_La_Voz_de_Paysandu.jpg",
+        "generos": [
+            "Classic Hits"
+        ],
+        "descripcion": "Escuchar CW 39 La Voz de Paysandú en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/CW-39-La-Voz-de-Paysand%C3%BA-367636243694946/"
+        ],
+        "sitio_web": "http://paysandu.com/radiocw39/index.html",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "CONAICOP",
+        "url_stream": "https://i.clean.gg/1a",
+        "logo_local": "logos_emisoras\\CONAICOP.jpg",
+        "generos": [
+            "Variety",
+            "Public",
+            "International"
+        ],
+        "descripcion": "Escuchar CONAICOP en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Contacto-Sur-Radio-1660074860877228/"
+        ],
+        "sitio_web": "http://radioconaicop.blogspot.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Del Oeste 1490 AM",
+        "url_stream": "https://radiolatina.live/8106/stream",
+        "logo_local": "logos_emisoras\\Radio_Del_Oeste_1490_AM.jpg",
+        "generos": [
+            "News"
+        ],
+        "descripcion": "Escuchar Radio Del Oeste 1490 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-del-Oeste-285126627622/",
+            "https://twitter.com/deloesteradio"
+        ],
+        "sitio_web": "http://ro.com.uy/",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "El Libertador 1210 AM",
+        "url_stream": "https://streamingraddios.online/proxy/llamadad?mp=/stream",
+        "logo_local": "logos_emisoras\\El_Libertador_1210_AM.jpg",
+        "generos": [
+            "Sports",
+            "Religious"
+        ],
+        "descripcion": "Escuchar El Libertador 1210 AM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100001076101279&v=wall&ref=ts#!/profile.php?id=100001076101279&v=wall",
+            "https://www.youtube.com/channel/UCwA7QPFJdr-rAc0tdCwyzGg/featured"
+        ],
+        "sitio_web": "http://www.ellibertador.com.uy/",
+        "ciudad": "Treinta y Tres"
+    },
+    {
+        "nombre": "Emisora Principal 107.9 FM",
+        "url_stream": "https://s7.myradiostream.com/:10764/listen.mp3?ver=525950?nocache%3D1659546593",
+        "logo_local": "logos_emisoras\\Emisora_Principal_1079_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Emisora Principal 107.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/emisoraprincipal/",
+            "https://twitter.com/principal1079"
+        ],
+        "sitio_web": "http://www.emisoraprincipal.com/",
+        "ciudad": "San José"
+    },
+    {
+        "nombre": "La Bottega Radio",
+        "url_stream": "https://radio.servidorstreaming.com:7043/;",
+        "logo_local": "logos_emisoras\\La_Bottega_Radio.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Los clásicos de los 70's , 80's y 90's sin cortes comerciales. 24 horas de éxitos donde también tiene lugar la buena música del 2000 a la fecha. Porque nos gusta actualizarnos.",
+        "redes_sociales": [
+            "https://www.facebook.com/labottegaradioonline"
+        ],
+        "sitio_web": "https://www.labottegaonline.com/radio/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "RadioCafe",
+        "url_stream": "https://stream-178.zeno.fm/pxb0dygrgzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJweGIwZHlncmd6enV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiODZNX1F0Yl9UOHlxZnVjZ2tFdkt3QSIsImlhdCI6MTc2NjkzMzMwNiwiZXhwIjoxNzY2OTMzMzY2fQ.WoShhamwseJWH-Gb4mccuU6XIgs-48BscrWZm40HVWQ",
+        "logo_local": "logos_emisoras\\RadioCafe.jpg",
+        "generos": [
+            "Jazz",
+            "Chillout",
+            "Lounge"
+        ],
+        "descripcion": "Escuchar RadioCafe en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radio-cafe.webnode.com.uy/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Nova",
+        "url_stream": "https://server.laradio.online:58338/live",
+        "logo_local": "logos_emisoras\\Nova.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Nova en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/nova983fm?mibextid=ZbWKwL",
+            "https://www.instagram.com/nova98.3?igsh=ZjBnNGFiZGhoazQx"
+        ],
+        "sitio_web": "http://nova983.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "BRAVA FM 91.5",
+        "url_stream": "https://fmbrava-2.nty.uy/",
+        "logo_local": "logos_emisoras\\BRAVA_FM_915.jpg",
+        "generos": [],
+        "descripcion": "Escuchar BRAVA FM 91.5 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Atlantida 89.9 FM",
+        "url_stream": "https://server-usa2.radioseninternet.net/8034/stream",
+        "logo_local": "logos_emisoras\\Atlantida_899_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Atlantida 89.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Atlantida-FM-149043418469718/"
+        ],
+        "sitio_web": "http://www.atlantidafm.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Universo AM 1480",
+        "url_stream": "https://streamingraddios.online/proxy/universoam?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Universo_AM_1480.jpg",
+        "generos": [
+            "Folk",
+            "Sports",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Universo AM 1480 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Universo-127991797283181/"
+        ],
+        "sitio_web": "http://www.radiouniverso.uy/",
+        "ciudad": "Rocha"
+    },
+    {
+        "nombre": "San Ramon 91.3 FM",
+        "url_stream": "https://sanramon-zikoxweb.radioca.st/stream",
+        "logo_local": "logos_emisoras\\San_Ramon_913_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "La compañía perfecta para crear momentos perfectos.",
+        "redes_sociales": [
+            "https://twitter.com/FMSanRamon",
+            "https://www.youtube.com/user/fmsanramon913",
+            "https://instagram.com/fmsanramon/",
+            "https://www.facebook.com/FMSanRamon/"
+        ],
+        "sitio_web": "http://www.fmsanramon.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Agraria",
+        "url_stream": "https://stm.gmpro.top:7034/stream",
+        "logo_local": "logos_emisoras\\Radio_Agraria.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Agraria en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radioagrariadeluruguay.com/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "La Diaria Radio",
+        "url_stream": "https://stream.radio.co/se91f453a2/listen",
+        "logo_local": "logos_emisoras\\La_Diaria_Radio.jpg",
+        "generos": [],
+        "descripcion": "Escuchar La Diaria Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://ladiaria.com.uy/radio/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Cristiana Uruguay",
+        "url_stream": "https://stream-160.zeno.fm/2ymusw8xcfhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyeW11c3c4eGNmaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicDBZWDlDRXNUR0NSaThCNy10azF3dyIsImlhdCI6MTc2NjkzMzY4OCwiZXhwIjoxNzY2OTMzNzQ4fQ.e7TroIbODmwMOD3IQZFWX3JxSnjrtjzeQJU1Y6vWOGs",
+        "logo_local": "logos_emisoras\\Radio_Cristiana_Uruguay.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Radio Cristiana Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radiocristianauruguay.rd-o.com/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "ESTACIÓN SAYAGO",
+        "url_stream": "https://sonic-ca.instainternet.com/8180/stream",
+        "logo_local": "logos_emisoras\\ESTACION_SAYAGO.jpg",
+        "generos": [],
+        "descripcion": "Escuchar ESTACIÓN SAYAGO en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://estacionsayago.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Punta del Este",
+        "url_stream": "https://stream1.svrdedicado.org:7017/;",
+        "logo_local": "logos_emisoras\\Punta_del_Este.jpg",
+        "generos": [
+            "Christian",
+            "Eclectic"
+        ],
+        "descripcion": "Escuchar Punta del Este en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://puntadelestelive.blogspot.com/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Del Éxodo FM",
+        "url_stream": "https://emisiones.com.uy:8181/exodo",
+        "logo_local": "logos_emisoras\\Del_Exodo_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Del Éxodo FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/delexodofm1065"
+        ],
+        "sitio_web": "https://exodofm.com/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Radio Uno FM",
+        "url_stream": "https://radio.hostlagarto.com/9822/stream",
+        "logo_local": "logos_emisoras\\Radio_Uno_FM.jpg",
+        "generos": [],
+        "descripcion": "Radio Uno FM es una emisora con más de 10 años en la región. Hoy encaramos una nueva etapa presentando una seleccionada programación junto a un gran equipo de profesionales en la comunicación. Asumimos el compromiso de ser una radio abierta a todos los vecinos de la región, a las diversas manifestaciones de la sociedad aportando a su promoción y desarrollo. Asumimos el compromiso de informar con responsabilidad y objetividad. Asumimos el compromiso de entretener y divertir. Asumimos el compromiso de ser un medio al servicio de la comunidad, esa es nuestra vocación. Nuestros estudios se ubican en José Alonso y Trelles, ciudad de Tala, Canelones. Su posición geográfica nos permite cubrir gran parte de los departamentos de Canelones, Florida y Lavalleja, llegando de esa manera a un amplio público concentrado en varias localidades. Nuestra ubicación y programación son una combinación que asegura su inversión publicitaria. Somos un vehículo eficaz y decisivo para la promoción de su producto",
+        "redes_sociales": [
+            "https://twitter.com/radiouno1007",
+            "https://www.facebook.com/radiounofmoficial/"
+        ],
+        "sitio_web": "http://www.radiounofm.com.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "FM Musica 88.9",
+        "url_stream": "https://server-usa2.radioseninternet.net/8260/stream",
+        "logo_local": "logos_emisoras\\FM_Musica_889.jpg",
+        "generos": [],
+        "descripcion": "Escuchar FM Musica 88.9 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.fmmusica.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio ON",
+        "url_stream": "https://streaming01.shockmedia.com.ar:10185/;",
+        "logo_local": "logos_emisoras\\Radio_ON.jpg",
+        "generos": [
+            "Pop Music",
+            "Top 40"
+        ],
+        "descripcion": "Escuchar Radio ON en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Onmediauy/"
+        ],
+        "sitio_web": "http://www.onmedia.uy/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Renovación 95.1 FM",
+        "url_stream": "https://stream-167.zeno.fm/shiddwxu5wnvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzaGlkZHd4dTV3bnZ2IiwiaG9zdCI6InN0cmVhbS0xNjcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTVpNSWZ3MjZRci0wMWIzLWhneGRoQSIsImlhdCI6MTc2NjkzNDAyMiwiZXhwIjoxNzY2OTM0MDgyfQ.AhO9k8EbHzHP1fxQvCkHWQWAky94t9W5UpAVoVAhjkw",
+        "logo_local": "logos_emisoras\\Renovacion_951_FM.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Renovación 95.1 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://renovacionfm951.wixsite.com/online",
+        "ciudad": "Cerro Largo"
+    },
+    {
+        "nombre": "Radio Punto Centro",
+        "url_stream": "https://stream-175.zeno.fm/ks3a5u8yfm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrczNhNXU4eWZtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiOWM2b2Iwc0RSTGVENE9NeTVGTHdNUSIsImlhdCI6MTc2NjkzNDE0MiwiZXhwIjoxNzY2OTM0MjAyfQ.cYLD3XGYoKexWLCoslPTFxx7e5kheuyuFHoOXVKl9D0",
+        "logo_local": "logos_emisoras\\Radio_Punto_Centro.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Escuchar Radio Punto Centro en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioPuntoCentroTarariras/"
+        ],
+        "sitio_web": "http://www.puntocentro.ga/?i=1",
+        "ciudad": "Colonia"
+    },
+    {
+        "nombre": "La Tridimania Internacional Radio",
+        "url_stream": "https://stream-165.zeno.fm/zbozrdiw1etuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6Ym96cmRpdzFldHV2IiwiaG9zdCI6InN0cmVhbS0xNjUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoidllvRUo1THNSMHFwd1ZPVHNnRnNUdyIsImlhdCI6MTc2NjkzNDIwMywiZXhwIjoxNzY2OTM0MjYzfQ.t2e360VWbjRPYCb0MPx55zhYfyMoPLIDCBYR1s98Dew",
+        "logo_local": "logos_emisoras\\La_Tridimania_Internacional_Radio.jpg",
+        "generos": [
+            "Reggaeton",
+            "International",
+            "Classic Country"
+        ],
+        "descripcion": "Escuchar La Tridimania Internacional Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100090529032511"
+        ],
+        "sitio_web": "https://zeno.fm/radio/la-tridimania-internacional-radio/",
+        "ciudad": "Flores"
+    },
+    {
+        "nombre": "Radio Este",
+        "url_stream": "https://sonic.sistemahost.es/8022/stream",
+        "logo_local": "logos_emisoras\\Radio_Este.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Este en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://sonic.sistemahost.es/8022/stream",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Radio Sanducito",
+        "url_stream": "https://cast2.my-control-panel.com/proxy/sanduc13/stream",
+        "logo_local": "logos_emisoras\\Radio_Sanducito.jpg",
+        "generos": [
+            "90s",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Sanducito en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/radiosanducitouy",
+            "https://www.instagram.com/radiosanducito",
+            "https://www.youtube.com/@SanducitoTelevision"
+        ],
+        "sitio_web": "https://www.top-charts.com/s/miamor-aitana-rels-b",
+        "ciudad": "Durazno"
+    },
+    {
+        "nombre": "FM Ciudad del Plata 90.9",
+        "url_stream": "https://s1.radiosenialesfm.com:8040/radio.mp3",
+        "logo_local": "logos_emisoras\\FM_Ciudad_del_Plata_909.jpg",
+        "generos": [],
+        "descripcion": "Escuchar FM Ciudad del Plata 90.9 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/uruguay.fmciudad"
+        ],
+        "sitio_web": "https://fmciudad.com.uy/",
+        "ciudad": "San José"
+    },
+    {
+        "nombre": "Extravagante FM",
+        "url_stream": "https://stream-175.zeno.fm/61epffwku0quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2MWVwZmZ3a3UwcXV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiS3p0Q05POFhSdWU4NXJZa29pTDY1USIsImlhdCI6MTc2NjkzNDQ2NCwiZXhwIjoxNzY2OTM0NTI0fQ.WTqizEuNtTIlV-APip1k7naEyNeU4JmJhbOHu1PI4Os",
+        "logo_local": "logos_emisoras\\Extravagante_FM.jpg",
+        "generos": [
+            "Salsa",
+            "Top 40",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Extravagante FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/radioextravagante/"
+        ],
+        "sitio_web": "https://extravagantefm9.webnode.es/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Máxima FM 97.7",
+        "url_stream": "https://salida.stream.com.uy:8514/stream",
+        "logo_local": "logos_emisoras\\Maxima_FM_977.jpg",
+        "generos": [
+            "Classic Hits",
+            "Top 40"
+        ],
+        "descripcion": "¡Solo tenes que escucharnos para notar la diferencia!",
+        "redes_sociales": [
+            "https://www.facebook.com/Maximafm977paysandu/"
+        ],
+        "sitio_web": "https://maximafm.com.uy/",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Laser FM",
+        "url_stream": "https://server.laradio.online/proxy/eduardo_correa?1659707195188=&mp=/stream",
+        "logo_local": "logos_emisoras\\Laser_FM.jpg",
+        "generos": [
+            "Variety",
+            "Adult Contemporary",
+            "Local"
+        ],
+        "descripcion": "Escuchar Laser FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/laserfmpunta/"
+        ],
+        "sitio_web": "https://laserfm.com.uy/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "La Isla de Mayo",
+        "url_stream": "https://stream-168.zeno.fm/tu0rdmljabbvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0dTByZG1samFiYnZ2IiwiaG9zdCI6InN0cmVhbS0xNjguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiS0QxREhNSkdRMkd4a1lpWHpQUkNGZyIsImlhdCI6MTc2NjkzNDY4NiwiZXhwIjoxNzY2OTM0NzQ2fQ.rEhqoqgZ9WObAem0_MGr2y9jWG7yupAn57LtASponQs",
+        "logo_local": "logos_emisoras\\La_Isla_de_Mayo.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar La Isla de Mayo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.laislademayo.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "24 de Agosto",
+        "url_stream": "https://24deagosto-zikoxweb.radioca.st/stream",
+        "logo_local": "logos_emisoras\\24_de_Agosto.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Escuchar 24 de Agosto en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/radio24deagosto/"
+        ],
+        "sitio_web": "http://24deagosto.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Planeta UY",
+        "url_stream": "https://stream-177.zeno.fm/yfknt486sk8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5ZmtudDQ4NnNrOHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoic2JJb0c4cDRSY2VYTmJvNm1ZR1R4QSIsImlhdCI6MTc2NjkzNDc5OCwiZXhwIjoxNzY2OTM0ODU4fQ.2YgyKiYvf6SITHNVwoWT-DqFbBXS1E7w_eE0r4cUXh0",
+        "logo_local": "logos_emisoras\\Radio_Planeta_UY.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Radio Planeta UY en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/planetaradiouy/",
+            "https://www.instagram.com/radio_planeta_salto"
+        ],
+        "sitio_web": "https://www.planetaretro.webnode.com.uy/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Radio Rincón",
+        "url_stream": "https://rinconam-zikoxweb.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Radio_Rincon.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Rincón en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://multimediosrincon.com.uy/",
+        "ciudad": "Río Negro"
+    },
+    {
+        "nombre": "Radio UNO Digital",
+        "url_stream": "https://server-usa2.radioseninternet.net:10979/;",
+        "logo_local": "logos_emisoras\\Radio_UNO_Digital.jpg",
+        "generos": [
+            "Folk",
+            "Classic Rock",
+            "Country"
+        ],
+        "descripcion": "Escuchar Radio UNO Digital en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/radiounodigital"
+        ],
+        "sitio_web": "http://www.radiounodigital.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Cultura",
+        "url_stream": "https://radios.iwstreaming.uy/8034/stream",
+        "logo_local": "logos_emisoras\\Radio_Cultura.jpg",
+        "generos": [
+            "Culture"
+        ],
+        "descripcion": "Escuchar Radio Cultura en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://mediospublicos.uy/category/radio/radio-cultura/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Lider FM 89.1",
+        "url_stream": "https://liderfm-zikoxweb2.radioca.st/;",
+        "logo_local": "logos_emisoras\\Lider_FM_891.jpg",
+        "generos": [
+            "News",
+            "Local"
+        ],
+        "descripcion": "Escuchar Lider FM 89.1 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://liderfm891.com/",
+        "ciudad": "Treinta y Tres"
+    },
+    {
+        "nombre": "Chanel Music VIP",
+        "url_stream": "https://stream-176.zeno.fm/7g9w3aemtp8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3Zzl3M2FlbXRwOHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiMkVzb2U0Q01TZXF3cTRtQVlhc1pkdyIsImlhdCI6MTc2NjkzNTAwMSwiZXhwIjoxNzY2OTM1MDYxfQ.0Nz8bYksohDw1tVoHtYnQqxVWQasj8Ggp41_ALBb68o&an-uid=7685063028959519215&aw_0_req_lsid=fc926b0ac4090daaec5a1a1c19054701&cto-uid=0fc9dde8-a95d-4bc1-adae-3f423c2878ca-62bf0fe1-5553&triton-uid=cookie%3A92248c29-4740-4454-9198-35e1bbe99f4a&",
+        "logo_local": "logos_emisoras\\Chanel_Music_VIP.jpg",
+        "generos": [
+            "Pop Music",
+            "Romantic",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Chanel Music VIP en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://xat.com/chanelmusicvip",
+        "ciudad": "Río Negro"
+    },
+    {
+        "nombre": "Radio Mix",
+        "url_stream": "https://s1.radiosenialesfm.com:8000/radio.mp3",
+        "logo_local": "logos_emisoras\\Radio_Mix.jpg",
+        "generos": [
+            "Variety",
+            "Top 40"
+        ],
+        "descripcion": "Escuchar Radio Mix en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/quiero-creer-luck-ra-la-t-y-la-m-rusherking",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Activa Online",
+        "url_stream": "https://stream-179.zeno.fm/v6ay1m67gwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2NmF5MW02N2d3enV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiOHRmUW94N3dTYWFHcWJTN3pkRDBGUSIsImlhdCI6MTc2NjkzNTA4MywiZXhwIjoxNzY2OTM1MTQzfQ.oivJdCnSuEMtnPH6K1raBJq9g-m1rotIdmMlfCuLu_w",
+        "logo_local": "logos_emisoras\\Activa_Online.jpg",
+        "generos": [
+            "Pop Music",
+            "Oldies",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Activa Online en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Activa-Online-113156990351899"
+        ],
+        "sitio_web": "http://activawebradio.blogspot.com/",
+        "ciudad": "Artigas"
+    },
+    {
+        "nombre": "Radio Nuevo Tiempo",
+        "url_stream": "https://stream.live.novotempo.com/radio/smil:radionuevotiempo.smil/chunklist_b96000_slesp.m3u8",
+        "logo_local": "logos_emisoras\\Radio_Nuevo_Tiempo.jpg",
+        "generos": [
+            "Pop Music",
+            "Talk",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Nuevo Tiempo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/tvnuevotiempo"
+        ],
+        "sitio_web": "https://www.nuevotiempo.org/radio/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Zoe FM 91.5",
+        "url_stream": "https://panel.lifestreammedia.net:8010/stream",
+        "logo_local": "logos_emisoras\\Zoe_FM_915.jpg",
+        "generos": [
+            "Local",
+            "Gospel",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Zoe FM 91.5 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/ZoeFm915",
+            "https://www.instagram.com/zoefm915/",
+            "https://twitter.com/zoefm915"
+        ],
+        "sitio_web": "http://www.zoe.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Φ Radio",
+        "url_stream": "https://cruradio.stream.laut.fm/cruradio",
+        "logo_local": "logos_emisoras\\Φ_Radio.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Sports",
+            "Classic Hits"
+        ],
+        "descripcion": "Somos un proyecto de 4 personas (por ahora), que decidió crear una radio online que tenga una música variada, la mayoría de nuestra programación diaria esta compuesta por repertorio creado por nuestros integrantes (separado obviamente en franjas horarias), que cubren gran parte del día. Pero no importa, porque las horas sin esas secciones, están cubiertas por música variada.",
+        "redes_sociales": [
+            "https://twitter.com/fi_radiouy"
+        ],
+        "sitio_web": "http://firadio.rf.gd/?i=1",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Hosting Web",
+        "url_stream": "https://rr5100.globalhost1.com/8500/stream",
+        "logo_local": "logos_emisoras\\Radio_Hosting_Web.jpg",
+        "generos": [
+            "EDM - Electronic Dance Music"
+        ],
+        "descripcion": "Escuchar Radio Hosting Web en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radiohostingweb.uy/",
+        "ciudad": "Cerro Largo"
+    },
+    {
+        "nombre": "Sonica Digital Radio",
+        "url_stream": "https://srv2.radiostreamuy.com/8026/stream",
+        "logo_local": "logos_emisoras\\Sonica_Digital_Radio.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Sonica Digital Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/por-si-no-te-vuelvo-a-ver-morat",
+        "ciudad": "Tacuarembó"
+    },
+    {
+        "nombre": "Ecos Musicales Radio",
+        "url_stream": "https://sonic.panelchs.com/8150/stream",
+        "logo_local": "logos_emisoras\\Ecos_Musicales_Radio.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Escuchar Ecos Musicales Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://x.com/tabacouruguayo",
+            "https://www.instagram.com/laserelectronicaok/",
+            "https://www.youtube.com/@tabaco62"
+        ],
+        "sitio_web": "https://ecosmusicalesradio.com/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Radio Fray Bentos Online",
+        "url_stream": "https://stream-176.zeno.fm/yq1cxv99a48uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5cTFjeHY5OWE0OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoibVNleGp4Y1VTcWVnZHZEYzZqV1R2USIsImlhdCI6MTc2NjkzNTM5NywiZXhwIjoxNzY2OTM1NDU3fQ.yy3dYjdHkRuFimS5xmrj__ISyxLklm5zA6mWbtEL74A",
+        "logo_local": "logos_emisoras\\Radio_Fray_Bentos_Online.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Radio Fray Bentos Online en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100086443616248"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Chef músic radio",
+        "url_stream": "https://technoplayerserver.net/8136/stream",
+        "logo_local": "logos_emisoras\\Chef_music_radio.jpg",
+        "generos": [
+            "Salsa",
+            "Reggaeton",
+            "Merengue"
+        ],
+        "descripcion": "Escuchar Chef músic radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://xat.com/chefmusic",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Objetivo",
+        "url_stream": "https://server-usa2.radioseninternet.net/8042/stream",
+        "logo_local": "logos_emisoras\\Radio_Objetivo.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Escuchar Radio Objetivo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://radioobjetivo.com.uy/",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "La POPU FM Uruguay",
+        "url_stream": "https://stream-177.zeno.fm/jbftwip1xentv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqYmZ0d2lwMXhlbnR2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYUVNUDlPbGdURC1panlncHdUNVVBQSIsImlhdCI6MTc2NjkzNTQ5MiwiZXhwIjoxNzY2OTM1NTUyfQ.ulFViA_HjKjYKwIV8EaXpj8Ryj5Kj-hAoEvQe1-h9_U",
+        "logo_local": "logos_emisoras\\La_POPU_FM_Uruguay.jpg",
+        "generos": [],
+        "descripcion": "Escuchar La POPU FM Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/ConectaRadiosLA",
+            "https://x.com/ConectaRadios"
+        ],
+        "sitio_web": "https://uy.conecta-la.com/",
+        "ciudad": "Maldonado"
+    },
+    {
+        "nombre": "Radio Atalaias Mundo",
+        "url_stream": "https://stream-176.zeno.fm/n3s14cwc1rhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuM3MxNGN3YzFyaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYUdPSDJhS2tTY3kwYUdvSDVKbkdDdyIsImlhdCI6MTc2NjkzNTUzNSwiZXhwIjoxNzY2OTM1NTk1fQ.9h2Cpnq4ugEK3ToefqSvXAaeXH3fsztjQiIeIHqCz8M",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_Mundo.jpg",
+        "generos": [
+            "Christian",
+            "Gospel",
+            "Brazilian Music"
+        ],
+        "descripcion": "Escuchar Radio Atalaias Mundo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/radio-atalaias-mundo/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Metro FM",
+        "url_stream": "https://cast1.asurahosting.com/proxy/radiom12/stream",
+        "logo_local": "logos_emisoras\\Metro_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Metro FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61558132064626"
+        ],
+        "sitio_web": "http://metrofm.uy/",
+        "ciudad": "Tacuarembó"
+    },
+    {
+        "nombre": "Sonora Classic Rock - Hard & Metal",
+        "url_stream": "https://s18.myradiostream.com/:6664/;?nocache=1751381735?0.6861020871691501&type=http",
+        "logo_local": "logos_emisoras\\Sonora_Classic_Rock_Hard_Metal.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Sonora Classic Rock - Hard & Metal en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/sonoraclassicrock/"
+        ],
+        "sitio_web": "https://www.sonoraclassicrock.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio 098",
+        "url_stream": "https://stream-178.zeno.fm/aam2ts855p8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhYW0ydHM4NTVwOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiVXJWLUFDY2NTRktRQVBsSDNSTEcwZyIsImlhdCI6MTc2NjkzNTY1NSwiZXhwIjoxNzY2OTM1NzE1fQ.X-bhnCp00y64eGDgbA2f-Absm4LV9Lojs6GcVoNTw1U",
+        "logo_local": "logos_emisoras\\Radio_098.jpg",
+        "generos": [
+            "Pop Music",
+            "Top 40",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio 098 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/radio0981/",
+            "https://twitter.com/radio0981/",
+            "https://www.facebook.com/Radio-098-M%C3%A1s-m%C3%BAsica-101263005338792/"
+        ],
+        "sitio_web": "https://radio098.wixsite.com/radio098",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "NOTICIASC21",
+        "url_stream": "https://emisiones.com.uy:8165/circuito",
+        "logo_local": "logos_emisoras\\NOTICIASC21.jpg",
+        "generos": [],
+        "descripcion": "Escuchar NOTICIASC21 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100063622774343"
+        ],
+        "sitio_web": "http://www.noticiasc21.uy/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Circuito21",
+        "url_stream": "https://emisiones.com.uy:8165/circuito",
+        "logo_local": "logos_emisoras\\Circuito21.jpg",
+        "generos": [
+            "Alternative Rock"
+        ],
+        "descripcion": "Escuchar Circuito21 en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/circuito21.uy/"
+        ],
+        "sitio_web": "http://www.circuito21.uy/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Neo DJ Radio",
+        "url_stream": "https://stream-164.zeno.fm/lmxfiint0efvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJsbXhmaWludDBlZnZ2IiwiaG9zdCI6InN0cmVhbS0xNjQuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiVWpqT1RqVzFSd09xT2ZWUjR5OW42QSIsImlhdCI6MTc2NjkzNTc1MSwiZXhwIjoxNzY2OTM1ODExfQ.HMGJltQkOzTbIloVttY2lknjrVGaYJAx8GvoCtrJlV8",
+        "logo_local": "logos_emisoras\\Neo_DJ_Radio.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Neo DJ Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/neodjradio"
+        ],
+        "sitio_web": "https://zeno.fm/radio/neodjradio/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Atalaias Universo",
+        "url_stream": "https://stream-179.zeno.fm/tpzx2mdypuhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0cHp4Mm1keXB1aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiNEZBY0VLcGhSYlNlc0lVQ09XMXc4QSIsImlhdCI6MTc2NjkzNTg0MiwiZXhwIjoxNzY2OTM1OTAyfQ.P0AumN8xH0Dl8EFrOXvT5f7lzAcFa1V0RaKRl6-r_cU",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_Universo.jpg",
+        "generos": [
+            "Variety",
+            "Christian",
+            "Gospel"
+        ],
+        "descripcion": "Escuchar Radio Atalaias Universo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100081154277727"
+        ],
+        "sitio_web": "https://zeno.fm/radio/radio-atalaias-universo/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Montevideo Night Online",
+        "url_stream": "https://radio13.servidorderadio.net:7107/stream",
+        "logo_local": "logos_emisoras\\Montevideo_Night_Online.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Montevideo Night Online en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/montevideonight",
+            "https://www.instagram.com/montevideonight/"
+        ],
+        "sitio_web": "http://www.montevideonight.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Ciudad Live",
+        "url_stream": "https://sonicpanel.oficialserver.com/8298/stream",
+        "logo_local": "logos_emisoras\\Radio_Ciudad_Live.jpg",
+        "generos": [
+            "Christian",
+            "Eclectic",
+            "Brazilian Music"
+        ],
+        "descripcion": "Escuchar Radio Ciudad Live en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radiociudadlive.blogspot.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Uruguay CB FM",
+        "url_stream": "https://stream-175.zeno.fm/w0052n2dbchvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3MDA1Mm4yZGJjaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoia2NjSXhUOTNTUEdCQnNTc0Jvejl0QSIsImlhdCI6MTc2NjkzNTkzOSwiZXhwIjoxNzY2OTM1OTk5fQ.WBiRlh83JdO8pIrTqZzVaBWgLAbN9cyWEWQWIz-7a0k",
+        "logo_local": "logos_emisoras\\Radio_Uruguay_CB_FM.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Classic Hits",
+            "90s"
+        ],
+        "descripcion": "Escuchar Radio Uruguay CB FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Prado Sur",
+        "url_stream": "https://usa2.fastcast4u.com/proxy/wqzjjais?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Prado_Sur.jpg",
+        "generos": [
+            "Oldies",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Prado Sur en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://twitter.com/RadioPradoSur",
+            "https://www.facebook.com/RADIOPRADOSUR.URUGUAY/"
+        ],
+        "sitio_web": "http://www.radiopradosur.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Full Metal City Radio",
+        "url_stream": "https://stream-179.zeno.fm/nj7tucnw8ozvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuajd0dWNudzhvenZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZUUyaUVWbUlSNm1kNkRDRjBlVlh2QSIsImlhdCI6MTc2NjkzNjAwNywiZXhwIjoxNzY2OTM2MDY3fQ.I9fTcHv2pCX1bHTVeq5SQPWsKh6ox8JzcL2rmYXpKNg",
+        "logo_local": "logos_emisoras\\Full_Metal_City_Radio.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Full Metal City Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/FullMetalCityRadio"
+        ],
+        "sitio_web": "https://fullmetalcityradio.blogspot.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Bautista Uruguay",
+        "url_stream": "https://stream-176.zeno.fm/5pbhr28svtzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1cGJocjI4c3Z0enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoieVhSQXk2THZUSG1PVXV1UGJqNjJ2QSIsImlhdCI6MTc2NjkzNjA2OSwiZXhwIjoxNzY2OTM2MTI5fQ.VQMpqqACcS2ETqc2lLSfNg2adIoEu0AQmcsLbzGE2Ms",
+        "logo_local": "logos_emisoras\\Radio_Bautista_Uruguay.jpg",
+        "generos": [
+            "Spirituality",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Radio Bautista Uruguay en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Atalaias Channel",
+        "url_stream": "https://stream-178.zeno.fm/5z4w6tp5muhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1ejR3NnRwNW11aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYlh5UVBDMGxTeW16bXJvQklOc0p0ZyIsImlhdCI6MTc2NjkzNjA5OSwiZXhwIjoxNzY2OTM2MTU5fQ.2ZWorkLpUtrubBZ1ytGtvoPl2yuQpl1LX1FJTe1iYsU",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_Channel.jpg",
+        "generos": [
+            "Variety",
+            "Christian",
+            "Gospel"
+        ],
+        "descripcion": "Escuchar Radio Atalaias Channel en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100083613401171"
+        ],
+        "sitio_web": "https://zeno.fm/radio/radio-atalaias-channel/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "La Regional",
+        "url_stream": "https://emisora.unorte.edu.uy/",
+        "logo_local": "logos_emisoras\\La_Regional.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Educational",
+            "Regional"
+        ],
+        "descripcion": "Escuchar La Regional en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/radiolaregional/",
+            "https://www.youtube.com/@radiolaregional",
+            "http://www.facebook.com/radiolaregionalsalto"
+        ],
+        "sitio_web": "https://laregionalmedios.litoralnorte.udelar.edu.uy/",
+        "ciudad": "Salto"
+    },
+    {
+        "nombre": "Emisora Logos",
+        "url_stream": "https://radios.iwstreaming.uy/8006/stream",
+        "logo_local": "logos_emisoras\\Emisora_Logos.jpg",
+        "generos": [
+            "Spirituality",
+            "Gospel"
+        ],
+        "descripcion": "Somos una radio cristiana, llevando la luz de Jesucristo a las naciones. Somos una radio que crece con fe.",
+        "redes_sociales": [
+            "https://www.facebook.com/Emisora-LOGOS-102700551741405"
+        ],
+        "sitio_web": "",
+        "ciudad": "Canelones"
+    },
+    {
+        "nombre": "Digital 100.1 FM",
+        "url_stream": "https://sh1.radioonlinehd.com:8001/stream",
+        "logo_local": "logos_emisoras\\Digital_1001_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Variety"
+        ],
+        "descripcion": "Escuchar Digital 100.1 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Digital100.1/"
+        ],
+        "sitio_web": "http://www.fmdigital.net/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "LA CLAVE 92.9 FM",
+        "url_stream": "https://stream-175.zeno.fm/ndwvn44vebruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuZHd2bjQ0dmVicnV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZXptbkJKSUZUM1duYU1qSGx4R2hyZyIsImlhdCI6MTc2NjkzNjQ0NywiZXhwIjoxNzY2OTM2NTA3fQ.IwTpaTGsuzk7BqDNdE9zj5P9Y7jVvAOWagExs5Igr4U",
+        "logo_local": "logos_emisoras\\LA_CLAVE_929_FM.jpg",
+        "generos": [
+            "Salsa"
+        ],
+        "descripcion": "Escuchar LA CLAVE 92.9 FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCx2Xc0jn7AnHCiQkDzZRCxQ?view_as=subscriber",
+            "https://twitter.com/fm_clave",
+            "https://www.facebook.com/FM-929-LA-CLAVE-815494328531511"
+        ],
+        "sitio_web": "https://la-clave-92-9-fm.webnode.es/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Fusion",
+        "url_stream": "https://stream-178.zeno.fm/0ybezr1yk2zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIweWJlenIxeWsyenV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiclg0VUtHQy1RZXF3bjZiVGN2V3JfUSIsImlhdCI6MTc2NjkzNjUxOSwiZXhwIjoxNzY2OTM2NTc5fQ.gAgMf8Q6OyF11ItYDiGXSpN97x_2kup3EU9s-1Xk7Ss",
+        "logo_local": "logos_emisoras\\Radio_Fusion.jpg",
+        "generos": [
+            "House",
+            "Trance",
+            "Electronic"
+        ],
+        "descripcion": "Escuchar Radio Fusion en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/fusion.uy.es"
+        ],
+        "sitio_web": "",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Uno Montevideo",
+        "url_stream": "https://radiounom-zikoxweb2.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Radio_Uno_Montevideo.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Uno Montevideo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioUnoMontevideo/"
+        ],
+        "sitio_web": "https://www.radiounomontevideo.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "La Metro",
+        "url_stream": "https://sc10.conectarhosting.com/proxy/lametro/stream",
+        "logo_local": "logos_emisoras\\La_Metro.jpg",
+        "generos": [],
+        "descripcion": "Escuchar La Metro en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/somoslametro/",
+            "https://www.instagram.com/somoslametro/"
+        ],
+        "sitio_web": "http://www.lametro.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Universalismo Espiritual Hastinapura",
+        "url_stream": "https://cast5.asurahosting.com/proxy/asociac2/stream",
+        "logo_local": "logos_emisoras\\Universalismo_Espiritual_Hastinapura.jpg",
+        "generos": [
+            "Spirituality",
+            "Variety",
+            "Community"
+        ],
+        "descripcion": "Una selección de canciones de las distintas culturas junto con enseñanzas de los Grandes Maestros de la Humanidad.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiouniversalismoespiritual"
+        ],
+        "sitio_web": "http://universalismoespiritual.weebly.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio 3 Montevideo",
+        "url_stream": "https://sc10.conectarhosting.com/proxy/radio3montevideo?mp=/stream%3A8820/stream",
+        "logo_local": "logos_emisoras\\Radio_3_Montevideo.jpg",
+        "generos": [
+            "Salsa",
+            "Reggaeton",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio 3 Montevideo en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/AlexisGalvanMartin/"
+        ],
+        "sitio_web": "https://www.radio3montevideo.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "RADIO FELICIDAD",
+        "url_stream": "https://medios.ciudaddigital.com.uy:18042/Felicidad",
+        "logo_local": "logos_emisoras\\RADIO_FELICIDAD.jpg",
+        "generos": [],
+        "descripcion": "Escuchar RADIO FELICIDAD en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Paysandú"
+    },
+    {
+        "nombre": "Recital Radio",
+        "url_stream": "https://recital-zikoxweb2.radioca.st/;",
+        "logo_local": "logos_emisoras\\Recital_Radio.jpg",
+        "generos": [
+            "Classic Hits",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Recital Radio en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://recitalradio.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Litoral Digital",
+        "url_stream": "https://stream-176.zeno.fm/akq90e99uv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJha3E5MGU5OXV2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiWUF0ZjkwZDNRUXU5THV6QVFtZ2cwUSIsImlhdCI6MTc2NjkzNjgzMSwiZXhwIjoxNzY2OTM2ODkxfQ.LFsc9zAxwt6dux8qOneuXBFPWjQyiRwtSWvB79RNdZc",
+        "logo_local": "logos_emisoras\\Radio_Litoral_Digital.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Litoral Digital en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiolitoral.com.uy/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Buscando Esperanza 108.1 FM",
+        "url_stream": "https://stream-175.zeno.fm/467fwbz4cm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0Njdmd2J6NGNtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoid0szclZqTUVSdC1UZXFyY0Jhd3lwZyIsImlhdCI6MTc2NjkzNjg4MiwiZXhwIjoxNzY2OTM2OTQyfQ.kpHwyCl-MrYTAMIY65W7ppvjSDB3_dcsEU--qVEdyfM",
+        "logo_local": "logos_emisoras\\Radio_Buscando_Esperanza_1081_FM.jpg",
+        "generos": [
+            "Christian",
+            "Gospel",
+            "Religious"
+        ],
+        "descripcion": "Nuestra Visión: ser un vehículo de comunicación que lleva el mensaje de los eventos finales, dando una oportunidad de salvación a todos, hasta que la última decisión sea tomada. Nuestra Misión: utilizar la música, la palabra hablada y los mensajes de inspiración a través de los recursos tecnológicos, para transmitir la esperanza del regreso de Jesús.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCZiezdKJR91XMZgV4y8MoeA?view_as=subscriber",
+            "https://www.facebook.com/radiobuscandoesperanza108.1fm/"
+        ],
+        "sitio_web": "https://zeno.fm/RBE-108-1FM/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "JyJProducciones",
+        "url_stream": "https://stream-179.zeno.fm/s247h1ewhrhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzMjQ3aDFld2hyaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUFBkMDYxYmxSUHF2TkNqU2FJOTdsZyIsImlhdCI6MTc2NjkzNjkxMiwiZXhwIjoxNzY2OTM2OTcyfQ.qHXpaIBRk4yS6m-5g2AG1bWcqfXOlYXRdpkLegvxmHk",
+        "logo_local": "logos_emisoras\\JyJProducciones.jpg",
+        "generos": [
+            "Pop Music",
+            "Reggaeton",
+            "News"
+        ],
+        "descripcion": "Escuchar JyJProducciones en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://x.com/JyJproduc22",
+            "https://www.instagram.com/jyjproducciones2022/",
+            "https://www.youtube.com/channel/UCQaNNB8DXuG7ep5oH623pSQ"
+        ],
+        "sitio_web": "https://www.jyjproducciones.net/",
+        "ciudad": "Florida"
+    },
+    {
+        "nombre": "Radio Star One",
+        "url_stream": "https://stream-177.zeno.fm/z6m94dn3kwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6Nm05NGRuM2t3enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoic2ZfZjFNVjJSNEM4VnQ0NHJxREJ3QSIsImlhdCI6MTc2NjkzNjk1NSwiZXhwIjoxNzY2OTM3MDE1fQ.tbRSFoWI1WK6bmtgab-EkUaf1nod5AQtL1AC6ECqULo",
+        "logo_local": "logos_emisoras\\Radio_Star_One.jpg",
+        "generos": [
+            "Classical",
+            "World Music"
+        ],
+        "descripcion": "Escuchar Radio Star One en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.instagram.com/radiostarone?igsh=MTIxY2RybWQ2bnJtNQ=="
+        ],
+        "sitio_web": "https://radiostar727.wixsite.com/radiostar",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "MAS FM",
+        "url_stream": "https://s1.radiosenialesfm.com:8020/radio.mp3",
+        "logo_local": "logos_emisoras\\MAS_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Indie",
+            "Latino"
+        ],
+        "descripcion": "Escuchar MAS FM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/auto-rojo-vilma-palma",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Atalaias El Shaddai",
+        "url_stream": "https://stream-175.zeno.fm/fnf0xody53zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmbmYweG9keTUzenV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiamM2ODd4WVFRX0cyS3pkRHN6dzJhQSIsImlhdCI6MTc2NjkzNzAxOCwiZXhwIjoxNzY2OTM3MDc4fQ.NLkOCI0crDWGw-y6Xw2xW6fELQmCFBMKufQgwKd0CV4",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_El_Shaddai.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Escuchar Radio Atalaias El Shaddai en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Emisoraatalaias"
+        ],
+        "sitio_web": "https://zeno.fm/radio/radio-atalaias-el-shaddai/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "RebobinadoFM",
+        "url_stream": "https://stream-162.zeno.fm/ydmnweo0bfzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5ZG1ud2VvMGJmenV2IiwiaG9zdCI6InN0cmVhbS0xNjIuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiNGtScGYzdHBRTFNDUGR4bVllaGU2ZyIsImlhdCI6MTc2NjkzNzA1MCwiZXhwIjoxNzY2OTM3MTEwfQ.Kb4nWtN7yr7Fa4dYaLljjFkMbyt8PC3pdQ96R8QWUBk",
+        "logo_local": "logos_emisoras\\RebobinadoFM.jpg",
+        "generos": [
+            "Sports",
+            "News",
+            "World Music"
+        ],
+        "descripcion": "Escuchar RebobinadoFM en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/rebobinado-fm/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Atalaias Rou",
+        "url_stream": "https://stream-177.zeno.fm/v9o0lzd1poqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2OW8wbHpkMXBvcXZ2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoid25lOFFmVF9Tai1kdHNKNTlvd1VRdyIsImlhdCI6MTc2NjkzOTA1NiwiZXhwIjoxNzY2OTM5MTE2fQ.-hQXUi9qUuKkm49mNgIdJA5cyYpffhNp8MxDTJBP0Z4",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_Rou.jpg",
+        "generos": [
+            "Christian",
+            "Gospel"
+        ],
+        "descripcion": "Escuchar Radio Atalaias Rou en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Emisoraatalaias"
+        ],
+        "sitio_web": "https://zeno.fm/radio/Radio-atalaias-rou/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Nazca Radio On-Line",
+        "url_stream": "https://stream-176.zeno.fm/nt72nkpuwd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJudDcybmtwdXdkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoia01YUGtfZ25UYkdVM2phUDIxRkxSQSIsImlhdCI6MTc2NjkzOTEyMCwiZXhwIjoxNzY2OTM5MTgwfQ.Avc_L0YcNAiJjOAU3CMhNjrfrPTsQVGW3mwL5y0eS3I&1659712286432=&",
+        "logo_local": "logos_emisoras\\Radio_Nazca_Radio_OnLine.jpg",
+        "generos": [
+            "Local",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Nazca Radio On-Line en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://radionazca.com/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Atalaias Soft",
+        "url_stream": "https://stream-178.zeno.fm/2gc616ztpc9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyZ2M2MTZ6dHBjOXV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoia2x1M2FoelBTQ0NpcGlNUnhkVzdaZyIsImlhdCI6MTc2NjkzOTI5OCwiZXhwIjoxNzY2OTM5MzU4fQ.Ixe4EIRU8zqC1Mbth6yZxR-oIsjbPFv9oV4XEQ4q4fA",
+        "logo_local": "logos_emisoras\\Radio_Atalaias_Soft.jpg",
+        "generos": [
+            "Community",
+            "Christian",
+            "Gospel"
+        ],
+        "descripcion": "Escuchar Radio Atalaias Soft en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/mn.daluz"
+        ],
+        "sitio_web": "https://zeno.fm/radio/radio-atalaias-soft/",
+        "ciudad": "Montevideo"
+    },
+    {
+        "nombre": "Radio Fernadina",
+        "url_stream": "https://stream.zeno.fm/g4rsjbnhqsyuv.m3u",
+        "logo_local": "logos_emisoras\\Radio_Fernadina.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Escuchar Radio Fernadina en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.youtube.com/@radiofernandinaoficial",
+            "https://www.facebook.com/radiofernandina/",
+            "https://www.instagram.com/radiofernandina/"
+        ],
+        "sitio_web": "http://www.radiofernandina.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "La RedFM On Line",
+        "url_stream": "https://servidor32.brlogic.com:7052/live",
+        "logo_local": "logos_emisoras\\La_RedFM_On_Line.jpg",
+        "generos": [],
+        "descripcion": "Escuchar La RedFM On Line en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://lared24.webradiosite.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Septiembre Radio Streaming",
+        "url_stream": "https://chino.republicahosting.com:2343/live",
+        "logo_local": "logos_emisoras\\Septiembre_Radio_Streaming.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Septiembre Radio Streaming en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61578205749748"
+        ],
+        "sitio_web": "https://septiembreonline.radiodigitales.com/",
+        "ciudad": "Río Negro"
+    },
+    {
+        "nombre": "Radio Señales",
+        "url_stream": "https://s1.radiosenialesfm.com:8030/radio.mp3",
+        "logo_local": "logos_emisoras\\Radio_Senales.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Señales en vivo. Todas las radios de Uruguay online en radios-uruguay.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/el-bus-yelsid",
+        "ciudad": "Montevideo"
+    }
+]

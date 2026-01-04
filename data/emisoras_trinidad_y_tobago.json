@@ -1,0 +1,985 @@
+[
+    {
+        "nombre": "Boom Champions 94.1 FM",
+        "url_stream": "https://s8.yesstreaming.net:17103/stream",
+        "logo_local": "logos_emisoras\\Boom_Champions_941_FM.jpg",
+        "generos": [
+            "Categories: \nHip Hop",
+            "Reggae",
+            "Top 40"
+        ],
+        "descripcion": "Listen to Boom Champions 94.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/boomchampionstt/",
+            "https://www.instagram.com/boomchampionstt/",
+            "https://twitter.com/Boomchampionstt"
+        ],
+        "sitio_web": "http://boomchampionstt.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Slam 100.5 FM",
+        "url_stream": "https://audio-edge-es6pf.mia.g.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6",
+        "logo_local": "logos_emisoras\\Slam_1005_FM.jpg",
+        "generos": [
+            "Categories: \nHip Hop",
+            "R&B"
+        ],
+        "descripcion": "Listen to Slam 100.5 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/slam1005fm"
+        ],
+        "sitio_web": "http://www.slam1005.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Sweet 100 FM",
+        "url_stream": "https://media.streambrothers.com:8448/stream",
+        "logo_local": "logos_emisoras\\Sweet_100_FM.jpg",
+        "generos": [
+            "Categories: \nAdult Contemporary"
+        ],
+        "descripcion": "Listen to Sweet 100 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.sweet100fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "I955 FM",
+        "url_stream": "https://ice31.securenetsystems.net/I95",
+        "logo_local": "logos_emisoras\\I955_FM.jpg",
+        "generos": [
+            "Categories: \nSports",
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Listen to I955 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/i955fm",
+            "https://www.facebook.com/i955fm/"
+        ],
+        "sitio_web": "http://i955fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Next 99.1 FM",
+        "url_stream": "https://media.streambrothers.com:8442/stream",
+        "logo_local": "logos_emisoras\\Next_991_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to Next 99.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/next99.1fm/"
+        ],
+        "sitio_web": "http://www.next99fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Vibe CT 105.1 FM",
+        "url_stream": "https://audio-edge-es6pf.mia.g.radiomast.io/c35d311e-cc60-41b9-b0c5-339e62c14dee",
+        "logo_local": "logos_emisoras\\Vibe_CT_1051_FM.jpg",
+        "generos": [
+            "Categories: \nSports",
+            "Caribbean"
+        ],
+        "descripcion": "Listen to Vibe CT 105.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/VIBECT105fm?ref=ts&fref=ts",
+            "https://twitter.com/search/vibect105fm",
+            "http://www.youtube.com/user/VibeCT105FM"
+        ],
+        "sitio_web": "http://www.vibect1051.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "More 104.7 FM",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\More_1047_FM.jpg",
+        "generos": [
+            "Categories: \nVariety",
+            "Talk",
+            "90s"
+        ],
+        "descripcion": "Listen to More 104.7 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/more1047/",
+            "https://twitter.com/morefm1047",
+            "http://instagram.com/officialmore1047fm"
+        ],
+        "sitio_web": "https://iconic1047.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Music Radio 97.1 FM",
+        "url_stream": "https://ice42.securenetsystems.net/MR97",
+        "logo_local": "logos_emisoras\\Music_Radio_971_FM.jpg",
+        "generos": [
+            "Categories: \nEasy Listening",
+            "Adult Contemporary"
+        ],
+        "descripcion": "Listen to Music Radio 97.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/musicradio97fm",
+            "https://www.facebook.com/musicradio97"
+        ],
+        "sitio_web": "https://www.musicradio97.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "ISAAC 98.1 FM",
+        "url_stream": "https://ice66.securenetsystems.net/FFBN",
+        "logo_local": "logos_emisoras\\ISAAC_981_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to ISAAC 98.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/isaacthepromise/"
+        ],
+        "sitio_web": "https://www.flowcode.com/page/isaacthepromise",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Lit 102.3 FM",
+        "url_stream": "https://s8.yesstreaming.net:17106/stream",
+        "logo_local": "logos_emisoras\\Lit_1023_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to Lit 102.3 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/accounts/login/?next=/lit102fm/",
+            "https://www.facebook.com/lit102fm/"
+        ],
+        "sitio_web": "https://lit102fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Aakash Vani",
+        "url_stream": "https://audio-edge-ey5nr.ams.s.radiomast.io/3ccc1156-fcf8-4ba7-9a0c-28e3a465e1ae",
+        "logo_local": "logos_emisoras\\Aakash_Vani.jpg",
+        "generos": [
+            "Categories: \nHindi"
+        ],
+        "descripcion": "Listen to Aakash Vani live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/aakashvani1065",
+            "https://www.facebook.com/AakashVani1065fm/"
+        ],
+        "sitio_web": "http://www.aakashvani1065.co.tt/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Hott 93",
+        "url_stream": "https://ice41.securenetsystems.net/HOTT93",
+        "logo_local": "logos_emisoras\\Hott_93.jpg",
+        "generos": [
+            "Categories: \nPop Music",
+            "Adult Contemporary",
+            "Top 40"
+        ],
+        "descripcion": "Listen to Hott 93 live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Hott93fm/?fref=ts",
+            "https://twitter.com/hott93tt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+        ],
+        "sitio_web": "http://www.hott93.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Talk City 91.1 FM",
+        "url_stream": "https://media.streambrothers.com:8450/stream",
+        "logo_local": "logos_emisoras\\Talk_City_911_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to Talk City 91.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://talkcity91fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "WEFM 96.1 FM",
+        "url_stream": "https://fms.ttrn.org/live/961wefm.sdp/playlist.m3u8",
+        "logo_local": "logos_emisoras\\WEFM_961_FM.jpg",
+        "generos": [
+            "Categories: \nVariety"
+        ],
+        "descripcion": "Listen to WEFM 96.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/961wefm",
+            "http://www.twitter.com/961wefm"
+        ],
+        "sitio_web": "http://96wefm.com/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "Tambrin 92.7 FM",
+        "url_stream": "https://ice42.securenetsystems.net/TAMBRIN",
+        "logo_local": "logos_emisoras\\Tambrin_927_FM.jpg",
+        "generos": [
+            "Categories: \nLocal"
+        ],
+        "descripcion": "Listen to Tambrin 92.7 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/tambrintobago/",
+            "https://twitter.com/927fm?ref_src=twsrc^tfw"
+        ],
+        "sitio_web": "http://tambrintobago.com/",
+        "ciudad": "Tobago"
+    },
+    {
+        "nombre": "WIN 101 FM",
+        "url_stream": "https://stream.radio.co/s9f46a9bb1/listen",
+        "logo_local": "logos_emisoras\\WIN_101_FM.jpg",
+        "generos": [
+            "Categories: \nCaribbean"
+        ],
+        "descripcion": "Listen to WIN 101 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.winradio101.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "103.1 FM",
+        "url_stream": "https://s4.myradiostream.com/sc1/:14348/listen.mp3",
+        "logo_local": "logos_emisoras\\1031_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to 103.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/103fmtrinidad",
+            "https://www.youtube.com/channel/UCp_KqKWgkC490ccrzzvSt6g",
+            "https://www.instagram.com/103fmtrinidad/",
+            "https://www.tiktok.com/@103fmtrinidad"
+        ],
+        "sitio_web": "https://103fm.tt/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "107.7 FM Music For Life",
+        "url_stream": "https://fms.ttrn.org/live/1077fm.sdp/playlist.m3u8",
+        "logo_local": "logos_emisoras\\1077_FM_Music_For_Life.jpg",
+        "generos": [],
+        "descripcion": "Listen to 107.7 FM Music For Life live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/107musicforlife",
+            "https://www.facebook.com/1077musicforlife/"
+        ],
+        "sitio_web": "https://ojoworldtt.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Heartbeat 104.1 FM",
+        "url_stream": "https://ice42.securenetsystems.net/CLCL",
+        "logo_local": "logos_emisoras\\Heartbeat_1041_FM.jpg",
+        "generos": [
+            "Categories: \nPop Music",
+            "Euro Hits",
+            "Adult Contemporary"
+        ],
+        "descripcion": "Listen to Heartbeat 104.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "http://www.youtube.com/heartbeatradiott",
+            "https://www.instagram.com/heartbeatradiott",
+            "http://twitter.com/heartbeattnt",
+            "https://www.facebook.com/heartbeatradio"
+        ],
+        "sitio_web": "http://www.heartbeatradiott.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Sky 99.5 FM",
+        "url_stream": "https://audio-edge-fvq45.ams.d.radiomast.io/efe56859-e3cb-4563-8e94-0320488b7cbd",
+        "logo_local": "logos_emisoras\\Sky_995_FM.jpg",
+        "generos": [
+            "Categories: \nGospel"
+        ],
+        "descripcion": "Listen to Sky 99.5 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Sky995fm",
+            "https://twitter.com/sky995fm",
+            "https://instagram.com/sky995fm"
+        ],
+        "sitio_web": "http://www.sky995fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Sangeet 106.1 FM",
+        "url_stream": "https://audio-edge-es6pf.mia.g.radiomast.io/22e2c991-fc0c-4242-8cba-0a64d0aea809",
+        "logo_local": "logos_emisoras\\Sangeet_1061_FM.jpg",
+        "generos": [
+            "Categories: \nWorld Music"
+        ],
+        "descripcion": "Listen to Sangeet 106.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Sangeet1061/"
+        ],
+        "sitio_web": "http://www.sangeet106fm.co.tt/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "95.1 Remix",
+        "url_stream": "https://audio-edge-es6pf.mia.g.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6",
+        "logo_local": "logos_emisoras\\951_Remix.jpg",
+        "generos": [
+            "Categories: \nPop Music"
+        ],
+        "descripcion": "Listen to 95.1 Remix live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/951thebestmix-110499642346997/"
+        ],
+        "sitio_web": "https://tbcradionetwork.co.tt/951remix/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Wack Radio 90.1 FM",
+        "url_stream": "https://stream-143.zeno.fm/231zgkfyrxmtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyMzF6Z2tmeXJ4bXR2IiwiaG9zdCI6InN0cmVhbS0xNDMuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiaVJGQWdZUEpTenUyNWFOcFhickM1USIsImlhdCI6MTc2NzExMDExNiwiZXhwIjoxNzY3MTEwMTc2fQ.XjdJKeCbl_TOOI7SjCmkeUTrDR3-VqU3F-_q8ukDAU8",
+        "logo_local": "logos_emisoras\\Wack_Radio_901_FM.jpg",
+        "generos": [
+            "Categories: \nCaribbean",
+            "Local"
+        ],
+        "descripcion": "Listen to Wack Radio 90.1 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/wack901fmTT/"
+        ],
+        "sitio_web": "http://www.wackradio901fm.com/",
+        "ciudad": "City of San Fernando"
+    },
+    {
+        "nombre": "PLATINUM HITS",
+        "url_stream": "https://ice42.securenetsystems.net/PLATHITS",
+        "logo_local": "logos_emisoras\\PLATINUM_HITS.jpg",
+        "generos": [
+            "Categories: \nClassic Hits"
+        ],
+        "descripcion": "Listen to PLATINUM HITS live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.platinumhitstt.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Power 102 FM",
+        "url_stream": "https://s8.yesstreaming.net:17169/stream",
+        "logo_local": "logos_emisoras\\Power_102_FM.jpg",
+        "generos": [
+            "Categories: \nTalk",
+            "World Music"
+        ],
+        "descripcion": "Listen to Power 102 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Power102fm/",
+            "https://twitter.com/power102fm?lang=en",
+            "https://www.instagram.com/power102.1fm/"
+        ],
+        "sitio_web": "https://power102fm.com/",
+        "ciudad": "Tobago"
+    },
+    {
+        "nombre": "eNFX Radio Trinidad",
+        "url_stream": "https://enfxradio.radioca.st/;",
+        "logo_local": "logos_emisoras\\eNFX_Radio_Trinidad.jpg",
+        "generos": [],
+        "descripcion": "Listen to eNFX Radio Trinidad live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/gsmtrackers/"
+        ],
+        "sitio_web": "http://enfxradio.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Radio 90.5 FM",
+        "url_stream": "https://ice42.securenetsystems.net/CR90",
+        "logo_local": "logos_emisoras\\Radio_905_FM.jpg",
+        "generos": [
+            "Categories: \nBollywood"
+        ],
+        "descripcion": "Listen to Radio 90.5 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/radio905",
+            "http://www.youtube.com/radio90fmtt",
+            "https://twitter.com/radio905",
+            "https://www.facebook.com/radio90fm"
+        ],
+        "sitio_web": "http://www.radio90fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Taj 92.3 FM",
+        "url_stream": "https://ice66.securenetsystems.net/TAJ",
+        "logo_local": "logos_emisoras\\Taj_923_FM.jpg",
+        "generos": [
+            "Categories: \nVariety"
+        ],
+        "descripcion": "Listen to Taj 92.3 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/taj923fm/"
+        ],
+        "sitio_web": "http://www.taj923fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Soca Fever",
+        "url_stream": "https://centova87.shoutcastservices.com/proxy/socafever/stream",
+        "logo_local": "logos_emisoras\\Soca_Fever.jpg",
+        "generos": [
+            "Categories: \nCaribbean"
+        ],
+        "descripcion": "Listen to Soca Fever live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "LUV Radio Trinidad and Tobago",
+        "url_stream": "https://stream-152.zeno.fm/f07qmquzmc9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmMDdxbXF1em1jOXV2IiwiaG9zdCI6InN0cmVhbS0xNTIuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiWTBhdU9vMExUSm1vd0VJMFN0dzMyZyIsImlhdCI6MTc2NzExMDM0MCwiZXhwIjoxNzY3MTEwNDAwfQ.jBQdztf7xnKWhzingvIADHlJmuZmnbrmfyvlI2WzRAc",
+        "logo_local": "logos_emisoras\\LUV_Radio_Trinidad_and_Tobago.jpg",
+        "generos": [
+            "Categories: \nWorld Music"
+        ],
+        "descripcion": "Listen to LUV Radio Trinidad and Tobago live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.youtube.com/user/UltimateSelect0r",
+            "https://www.facebook.com/groups/267657576681648"
+        ],
+        "sitio_web": "https://zeno.fm/radio/luv-radio-trinidad-tobago/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "OMG Hits Radio",
+        "url_stream": "https://streaming.radio.co/s3928a1fef/listen",
+        "logo_local": "logos_emisoras\\OMG_Hits_Radio.jpg",
+        "generos": [
+            "Categories: \nCaribbean",
+            "Top 40"
+        ],
+        "descripcion": "Listen to OMG Hits Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCpSbt2M36KfmEIwaqXEGa1A",
+            "https://twitter.com/OMGMagazinett",
+            "https://www.instagram.com/omgmagtt/",
+            "https://www.facebook.com/omgtt"
+        ],
+        "sitio_web": "",
+        "ciudad": "Borough of Arima"
+    },
+    {
+        "nombre": "Soca Switch Radio",
+        "url_stream": "https://stream-155.zeno.fm/4f738mzizi1uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0ZjczOG16aXppMXV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiM1VSMUZvVTBTTzJNRVU5LUo0SmpMdyIsImlhdCI6MTc2NzExMDQwMiwiZXhwIjoxNzY3MTEwNDYyfQ.dGR8ZRvmZvbGLqrJ67c4pSyFnjoE3Hc3kcmPy9Qd5Ug",
+        "logo_local": "logos_emisoras\\Soca_Switch_Radio.jpg",
+        "generos": [
+            "Categories: \nCaribbean"
+        ],
+        "descripcion": "Listen to Soca Switch Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://socaswitch.nicepage.io/",
+        "ciudad": "Sangre Grande"
+    },
+    {
+        "nombre": "Fresh Fire Gospel Radio TT",
+        "url_stream": "https://stream-178.zeno.fm/t7hky208ab5vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0N2hreTIwOGFiNXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicGxPS285NThUQ3kzWV9lSHNFQ1lCQSIsImlhdCI6MTc2NzExMDQzNSwiZXhwIjoxNzY3MTEwNDk1fQ.ypqPygV_Tm8t5qGEIzOdxU3GBFiq810-oPpWLndv3vY",
+        "logo_local": "logos_emisoras\\Fresh_Fire_Gospel_Radio_TT.jpg",
+        "generos": [],
+        "descripcion": "Listen to Fresh Fire Gospel Radio TT live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/freshfiregospelradio/"
+        ],
+        "sitio_web": "https://www.freshfiregospel.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Jaagriti FM 102.7",
+        "url_stream": "https://radio.sibercdn.com/Radio_Jaagriti-15/tracks-a1/mono.m3u8",
+        "logo_local": "logos_emisoras\\Jaagriti_FM_1027.jpg",
+        "generos": [
+            "Categories: \nReligious"
+        ],
+        "descripcion": "Listen to Jaagriti FM 102.7 live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://sdmsjaagriti.com/radio-jaagriti",
+        "ciudad": "Tunapuna/Piarco"
+    },
+    {
+        "nombre": "dj chuby Radio",
+        "url_stream": "https://listen.radioking.com/radio/786656/stream/854371",
+        "logo_local": "logos_emisoras\\dj_chuby_Radio.jpg",
+        "generos": [
+            "Categories: \nHip Hop",
+            "Reggae",
+            "R&B"
+        ],
+        "descripcion": "Listen to dj chuby Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Caribbean Gospel and Prayerline",
+        "url_stream": "https://stream-177.zeno.fm/fq4caq1n7yzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmcTRjYXExbjd5enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTEVzMnB1TWpUUW12REsyTVEzMmphdyIsImlhdCI6MTc2NzExMDUyOSwiZXhwIjoxNzY3MTEwNTg5fQ.e1etR1BVbOUQ95V7N0MOO87c1K87HZ5uXZlp84J7PcQ",
+        "logo_local": "logos_emisoras\\Caribbean_Gospel_and_Prayerline.jpg",
+        "generos": [
+            "Categories: \nCaribbean"
+        ],
+        "descripcion": "Listen to Caribbean Gospel and Prayerline live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/prayerline24",
+            "https://www.facebook.com/ayimkorankye"
+        ],
+        "sitio_web": "http://www.faithconnect.live/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "STAR 947",
+        "url_stream": "https://fms.ttrn.org/live/star947.sdp/playlist.m3u8",
+        "logo_local": "logos_emisoras\\STAR_947.jpg",
+        "generos": [],
+        "descripcion": "Listen to STAR 947 live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/star947tt",
+            "https://www.facebook.com/star947tt"
+        ],
+        "sitio_web": "https://ojoworldtt.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Smash Radio TT",
+        "url_stream": "https://ep.onlineaudience.co.uk:8544/stream",
+        "logo_local": "logos_emisoras\\Smash_Radio_TT.jpg",
+        "generos": [
+            "Categories: \nR&B"
+        ],
+        "descripcion": "Listen to Smash Radio TT live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.smashradiott.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Elegant Treasures Radio",
+        "url_stream": "https://stream-177.zeno.fm/kikyuh9f7bttv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJraWt5dWg5ZjdidHR2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoieFctdVdKdlBRcHlDQ1g3Nlg1MW1HdyIsImlhdCI6MTc2NzExMDYyMywiZXhwIjoxNzY3MTEwNjgzfQ.SNWDj-zFHrSmcX0h_Z4Hr85ON8LRISX7eMBS92_Yejs",
+        "logo_local": "logos_emisoras\\Elegant_Treasures_Radio.jpg",
+        "generos": [
+            "Categories: \nAdult Contemporary",
+            "Caribbean",
+            "Christmas"
+        ],
+        "descripcion": "Listen to Elegant Treasures Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/eleganttreasurestt"
+        ],
+        "sitio_web": "",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Love&Life Radio",
+        "url_stream": "https://listen.radioking.com/radio/643939/stream/707092",
+        "logo_local": "logos_emisoras\\LoveLife_Radio.jpg",
+        "generos": [
+            "Categories: \nGospel",
+            "Country",
+            "Romantic"
+        ],
+        "descripcion": "Listen to Love&Life Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://aliciaparejo87.wixsite.com/loveandliferadio",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Real Radio",
+        "url_stream": "https://streaming.radio.co/s3928a1fef/listen",
+        "logo_local": "logos_emisoras\\Real_Radio.jpg",
+        "generos": [
+            "Categories: \nPop Music",
+            "Local"
+        ],
+        "descripcion": "Listen to Real Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/realradiott?ref=ts&fref=ts"
+        ],
+        "sitio_web": "http://www.realcompanylimited.com/",
+        "ciudad": "Borough of Arima"
+    },
+    {
+        "nombre": "Woods Hit Radio AC",
+        "url_stream": "https://cast4.asurahosting.com/proxy/nigel/stream",
+        "logo_local": "logos_emisoras\\Woods_Hit_Radio_AC.jpg",
+        "generos": [
+            "Categories: \nAdult Contemporary",
+            "Classic Hits",
+            "Oldies"
+        ],
+        "descripcion": "Listen to Woods Hit Radio AC live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://facebook.com/woodsradio",
+            "https://twitter.com/woodshitradio"
+        ],
+        "sitio_web": "https://whrfm.webnode.page/",
+        "ciudad": "Diego Martin"
+    },
+    {
+        "nombre": "TDG Radio",
+        "url_stream": "https://stream-176.zeno.fm/s9heq9mspwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzOWhlcTltc3B3enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoickZ1a0MtSTlTbUM3RWNlelVEOUFfQSIsImlhdCI6MTc2NzExMDc0OSwiZXhwIjoxNzY3MTEwODA5fQ.9b_UHaJFO8P2rT6LZcyUJMjUR45v2KiYEMucP9TmHA0",
+        "logo_local": "logos_emisoras\\TDG_Radio.jpg",
+        "generos": [],
+        "descripcion": "Listen to TDG Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/tdg-radio/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Woods Hit Radio",
+        "url_stream": "https://stream-178.zeno.fm/2f33725t4mzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyZjMzNzI1dDRtenV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUGZXTEVCWEdTdmlfREYwMG9naWlEUSIsImlhdCI6MTc2NzExMDc4MiwiZXhwIjoxNzY3MTEwODQyfQ.qab-oYQtMY2AtEeV1y0OHTVWc8UYNS1f6mTvYdG3naI",
+        "logo_local": "logos_emisoras\\Woods_Hit_Radio.jpg",
+        "generos": [
+            "Categories: \n80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Listen to Woods Hit Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "http://facebook.com/woodsradio",
+            "http://twitter.com/woodshitradio"
+        ],
+        "sitio_web": "https://whrfm.webnode.page/",
+        "ciudad": "Diego Martin"
+    },
+    {
+        "nombre": "Caribbean Wave Radio QX93",
+        "url_stream": "https://stream-176.zeno.fm/xzzxq317ps8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4enp4cTMxN3BzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoib25PT3FSVGpSYnl1THBOX2hkU1hkdyIsImlhdCI6MTc2NzExMDgzOCwiZXhwIjoxNzY3MTEwODk4fQ.qbv1khglbA4yQKobVWf47HuRRi7xaLth3vBJxVMq6aU",
+        "logo_local": "logos_emisoras\\Caribbean_Wave_Radio_QX93.jpg",
+        "generos": [],
+        "descripcion": "Listen to Caribbean Wave Radio QX93 live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://www.caribbeanwaveqx93.com/",
+        "ciudad": "City of San Fernando"
+    },
+    {
+        "nombre": "High Energy FM",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\High_Energy_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to High Energy FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/highenergyfm"
+        ],
+        "sitio_web": "https://www.top-charts.com/s/245-mimi-webb",
+        "ciudad": "City of San Fernando"
+    },
+    {
+        "nombre": "GEN10Radio",
+        "url_stream": "https://streaming.radio.co/s2fe166ea0/listen",
+        "logo_local": "logos_emisoras\\GEN10Radio.jpg",
+        "generos": [
+            "Categories: \nEDM - Electronic Dance Music",
+            "AAA - Adult Album Alternative",
+            "House"
+        ],
+        "descripcion": "Listen to GEN10Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61580656610941",
+            "https://www.instagram.com/gen10radiodigital"
+        ],
+        "sitio_web": "http://gen10radio.com/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "ONDIRECT - UNPLUGGED ONLINE",
+        "url_stream": "https://stream-165.zeno.fm/5kaefatyumzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1a2FlZmF0eXVtenV2IiwiaG9zdCI6InN0cmVhbS0xNjUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTndZZ0pDRnhUOHlwcGN0MDlRNjNjZyIsImlhdCI6MTc2NzExMDkzNCwiZXhwIjoxNzY3MTEwOTk0fQ.dvTiKW5R-eqLHadQ8oW76RCU55VUFekK51jYmcJ2T7o",
+        "logo_local": "logos_emisoras\\ONDIRECT_UNPLUGGED_ONLINE.jpg",
+        "generos": [
+            "Categories: \nAdult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Listen to ONDIRECT - UNPLUGGED ONLINE live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/ravelo4844/",
+            "https://www.facebook.com/ondirectmoviemusicconcert.pedroravelo.5"
+        ],
+        "sitio_web": "https://ondirectunpluggedonline.blogspot.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "JO Radio HD",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMDxmNlZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPSZcp0FjpD0jJaNxn3Y9JzN1ZGx9pGyjLU13QWgMq0yfTVM0n05gSWuOREUyM0QzqXNypyVBPU1irzyfoGEyMxY1LwAyMwAyMwuXnW5xo3qmJTIjTyQyMwAkMC4jJTNCJTIjV2yhNwQyM0IyMwB4NwQyMwxyMwBBpHBfZVqyYxgcqCUlRwUmNl4mNvUlMCUlOEgIVE1MJTJDJTIjoGyeZSUlMEqyY2giJTI5JTIjQ2ulo21yJTJGMTIjLwAhMC4jJTIjU2FzYXJcJTJGNTM3LwM2JzNmqXVcZD02OTUmZwMkY2U5MGU2JzNioaRyoaRGnWkySWQ9MCZgZWRcYVBfYXyMnXN0SWQ9MCZgZWRcYUkcp3RJZD0jJzR1pw04MDAzZ2Rjpw0jJzqxpHJDo25mZW50PSZcp1qyUGFmp0qxpHI9MSZwY3BuPTAzY2NjYUNioaNyoaQ9JzNvqXN0ZXI9MTp2NmEkMDx2MTpmNSZ1nWQ9U2VenW5xo1NQoGF5ZXI2OTUmZwxkOTp4ZDZxJaB1YyVloD1bqHRjplUmQSUlRvUlRaq3ql5lYWRcol10pzyhnWRuZC5wo20yMxZiozRcpzVwqC11oaBfqWqaZWQgo25fnW5yJzZfo2F0U3RuqHVmPWZuoHNyJzVcZHNjPXBlZWJcZCZjrGyxPTquODNxZzFzM2Q3MDNyNwVzNDI5Zwx1YWI2OWEkMwU4",
+        "logo_local": "logos_emisoras\\JO_Radio_HD.jpg",
+        "generos": [
+            "Categories: \nChristian Contemporary",
+            "Gospel",
+            "R&B"
+        ],
+        "descripcion": "Listen to JO Radio HD live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://lm.fm/jomedia",
+        "ciudad": "Borough of Arima"
+    },
+    {
+        "nombre": "Caribbean Light Radio",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Caribbean_Light_Radio.jpg",
+        "generos": [
+            "Categories: \nChristian",
+            "International",
+            "Gospel"
+        ],
+        "descripcion": "Listen to Caribbean Light Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://facebook.com/caribbeanlightmedia"
+        ],
+        "sitio_web": "https://caribbeanlightmedia.com/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "Zess FM",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Zess_FM.jpg",
+        "generos": [],
+        "descripcion": "Listen to Zess FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/zessfm/"
+        ],
+        "sitio_web": "",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "The Best Latino Music By ONDIRECT",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMTAmNSZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPSZcp0FjpD0jJaNxn3Y9JzN1ZGx9pGyjLU13QWgMq0yfTVM0n05gSWuOREUyM0QzqXNypyVBPU1irzyfoGEyMxY1LwAyMwAyMwuXnW5xo3qmJTIjTyQyMwAkMC4jJTNCJTIjV2yhNwQyM0IyMwB4NwQyMwxyMwBBpHBfZVqyYxgcqCUlRwUmNl4mNvUlMCUlOEgIVE1MJTJDJTIjoGyeZSUlMEqyY2giJTI5JTIjQ2ulo21yJTJGMTIjLwAhMC4jJTIjU2FzYXJcJTJGNTM3LwM2JzNmqXVcZD02OTUmZwMkY2U5MGU2JzNioaRyoaRGnWkySWQ9MCZgZWRcYVBfYXyMnXN0SWQ9MCZgZWRcYUkcp3RJZD0jJzR1pw04MDAzZ2Rjpw0jJzqxpHJDo25mZW50PSZcp1qyUGFmp0qxpHI9MSZwY3BuPTAzY2NjYUNioaNyoaQ9JzNvqXN0ZXI9MTp2NmEkMTA1OTx2MlZ1nWQ9U2VenW5xo1NQoGF5ZXI2OTUmZwx3YzI0OGQ5JaB1YyVloD1bqHRjplUmQSUlRvUlRaq3ql5lYWRcol10pzyhnWRuZC5wo20yMxZ6ZXNmLWZgJzZfo2F0U3RuqHVmPWZuoHNyJzVcZHNjPXBlZWJcZCZjrGyxPTt5ZwIlMDQ2ZzNyYWUmYwJvNmY1MGZvOGEjNDI0ZWYj",
+        "logo_local": "logos_emisoras\\The_Best_Latino_Music_By_ONDIRECT.jpg",
+        "generos": [
+            "Categories: \nAdult Contemporary",
+            "Latino"
+        ],
+        "descripcion": "Listen to The Best Latino Music By ONDIRECT live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/ravelo4844/",
+            "https://www.facebook.com/ondirectmoviemusicconcert.pedroravelo.5"
+        ],
+        "sitio_web": "https://ondirectunpluggedonline.blogspot.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "LUV Radio Hott Soca",
+        "url_stream": "https://stream-161.zeno.fm/zbqmtzajagxuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6YnFtdHphamFneHV2IiwiaG9zdCI6InN0cmVhbS0xNjEuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYTNDMmplSUhRQm1RZ1hpNnY2c2hZZyIsImlhdCI6MTc2NzExMTEwOSwiZXhwIjoxNzY3MTExMTY5fQ.KO2XFq24BfoRYLivsQeJhFE_IvfAkrH6S-zt325g7z4",
+        "logo_local": "logos_emisoras\\LUV_Radio_Hott_Soca.jpg",
+        "generos": [
+            "Categories: \nInternational",
+            "Caribbean"
+        ],
+        "descripcion": "Listen to LUV Radio Hott Soca live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/267657576681648",
+            "https://twitter.com/LUVRadio3",
+            "https://www.instagram.com/luv_radio5dradioflix/",
+            "https://www.youtube.com/@UltimateSelector"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "OMG Unwind",
+        "url_stream": "https://cast3.my-control-panel.com/proxy/omgmedi1/stream",
+        "logo_local": "logos_emisoras\\OMG_Unwind.jpg",
+        "generos": [
+            "Categories: \nEasy Listening",
+            "Adult Contemporary",
+            "Classic Hits"
+        ],
+        "descripcion": "Listen to OMG Unwind live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "TC Radio",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMTEmMSZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPSZcp0FjpD0jJaNxn3Y9JzN1ZGx9pGyjLU13QWgMq0yfTVM0n05gSWuOREUyM0QzqXNypyVBPU1irzyfoGEyMxY1LwAyMwAyMwuXnW5xo3qmJTIjTyQyMwAkMC4jJTNCJTIjV2yhNwQyM0IyMwB4NwQyMwxyMwBBpHBfZVqyYxgcqCUlRwUmNl4mNvUlMCUlOEgIVE1MJTJDJTIjoGyeZSUlMEqyY2giJTI5JTIjQ2ulo21yJTJGMTIjLwAhMC4jJTIjU2FzYXJcJTJGNTM3LwM2JzNmqXVcZD02OTUmZwMkY2U5MGU2JzNioaRyoaRGnWkySWQ9MCZgZWRcYVBfYXyMnXN0SWQ9MCZgZWRcYUkcp3RJZD0jJzR1pw04MDAzZ2Rjpw0jJzqxpHJDo25mZW50PSZcp1qyUGFmp0qxpHI9MSZwY3BuPTAzY2NjYUNioaNyoaQ9JzNvqXN0ZXI9MTp2NmEkMTE1NTp0NCZ1nWQ9U2VenW5xo1NQoGF5ZXI2OTUmZwyxYwuwMDM2JaB1YyVloD1bqHRjplUmQSUlRvUlRaq3ql5lYWRcol10pzyhnWRuZC5wo20yMxZioWpgqW53nW5xJzZfo2F0U3RuqHVmPWZuoHNyJzVcZHNjPXBlZWJcZCZjrGyxPTtmOGZwMWQjMwqzZzYjZTqwZTNvMTU4MmQlYTp4NwFu",
+        "logo_local": "logos_emisoras\\TC_Radio.jpg",
+        "generos": [],
+        "descripcion": "Listen to TC Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://twitter.com/socajamzhd"
+        ],
+        "sitio_web": "",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "Pulse 89.5 FM",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMTE2MvZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPUFCVCUlMCUlRvUlMEZMUvUlMCUlRvUlMDEyMwAyMxYyMwBxZWZuqWk0JzymQXBjPTAzp2Reqw0zY3VxnT1jnXAgTXqBn0k3SWkNUmReTz1JnE5ERSUmRCZ1p2VlVUE9TW96nWkfYSUlRwUhMCUlMCUlOFqcozRiq3MyMwBOVCUlMDEjLwAyM0IyMwBXnW42NCUmQvUlMHt2NCUlOSUlMEFjpGkyV2VvS2y0JTJGNTM3LwM2JTIjJTI4S0uUTUjyMxMyMwBfnWgyJTIjR2Vwn28yMwxyMwBDnHJioWUyMxYkMwAhMC4jLwAyMwBTYWZupzxyMxY1MmphMmYzY3N1qWyxPTY5NTNzMmFwZTxjZTYzY29hqGVhqEZcoGVJZD0jJz1yZGyuUGkurUkcp3RJZD0jJz1yZGyuTGymqEyxPTAzZHVlPTtjMCZaZHBlPTAzZ2RjpxNioaNyoaQ9JzymV2VQYXNmR2Rjpw0kJzNwpGE9MCZwY3BuQ29hp2VhqD0zY2J1p3Rypw0kNmY3MTEkMTt2NmI5JaVcZD1TZWgcozRiU1BfYXyypwY5NTNzOWZuNzZyMzIzpHVvVXJfPWu0qHBmJTNBJTJGJTJGq3q3LaJuZGyiLXRlnW5cZGFxLzNioSUlRaNiY2EgnzFgrv1bZCZzoG9uqFN0YXR1pm1zYWkmZSZynWRmpD1jpzVvnWQzpHucZD0kODEmZWU5MWIlMWEkOTyyMDE1ZwE5OWY1MmNxNTt1YQ==",
+        "logo_local": "logos_emisoras\\Pulse_895_FM.jpg",
+        "generos": [
+            "Categories: \nCaribbean"
+        ],
+        "descripcion": "Listen to Pulse 89.5 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/Pulse89.5FM/",
+            "https://www.twitter.com/Pulse895fm"
+        ],
+        "sitio_web": "http://pulse895fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "The Street 91.9 FM",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMTE5MlZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPSZcp0FjpD0jJaNxn3Y9JzN1ZGx9pGyjLU13QWgMq0yfTVM0n05gSWuOREUyM0QzqXNypyVBPU1irzyfoGEyMxY1LwAyMwAyMwuXnW5xo3qmJTIjTyQyMwAkMC4jJTNCJTIjV2yhNwQyM0IyMwB4NwQyMwxyMwBBpHBfZVqyYxgcqCUlRwUmNl4mNvUlMCUlOEgIVE1MJTJDJTIjoGyeZSUlMEqyY2giJTI5JTIjQ2ulo21yJTJGMTIjLwAhMC4jJTIjU2FzYXJcJTJGNTM3LwM2JzNmqXVcZD02OTUmZwMkY2U5MGU2JzNioaRyoaRGnWkySWQ9MCZgZWRcYVBfYXyMnXN0SWQ9MCZgZWRcYUkcp3RJZD0jJzR1pw04MDAzZ2Rjpw0jJzqxpHJDo25mZW50PSZcp1qyUGFmp0qxpHI9MSZwY3BuPTAzY2NjYUNioaNyoaQ9JzNvqXN0ZXI9MTp2NmEkMTIkODIlNvZ1nWQ9U2VenW5xo1NQoGF5ZXI2OTUmZzEkOWVwMWUjJaB1YyVloD1bqHRjplUmQSUlRvUlRaq3ql5lYWRcol10pzyhnWRuZC5wo20yMxZjqWkmZS04OTUgZz0zZzkiYXRTqGF0qXM9ZzFfp2UzZWyxp3A9pHJyYzyxJaB4nWQ9OGE5ZGVwY2U3YzJuNGJyM2FzYTU1NwyyM2M2MTY4MWI=",
+        "logo_local": "logos_emisoras\\The_Street_919_FM.jpg",
+        "generos": [
+            "Categories: \nLocal"
+        ],
+        "descripcion": "Listen to The Street 91.9 FM live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/theStreet919fm/"
+        ],
+        "sitio_web": "http://www.thestreet919fm.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "W 107.1 FM The Word",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\W_1071_FM_The_Word.jpg",
+        "generos": [],
+        "descripcion": "Listen to W 107.1 FM The Word live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/w107fm/",
+            "https://twitter.com/W107fm"
+        ],
+        "sitio_web": "http://w107fm.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Sports and the Word",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Sports_and_the_Word.jpg",
+        "generos": [
+            "Categories: \nSports",
+            "Gospel"
+        ],
+        "descripcion": "Listen to Sports and the Word live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/sportsandtheword",
+            "https://www.facebook.com/sportsandtheword/"
+        ],
+        "sitio_web": "http://www.sportsandtheword.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "I.A.M Radio TT",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\IAM_Radio_TT.jpg",
+        "generos": [
+            "Categories: \nGospel"
+        ],
+        "descripcion": "Listen to I.A.M Radio TT live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/iamradiottcom-gospel-radio-station-",
+            "https://www.instagram.com/iamr_adiott/",
+            "https://twitter.com/iamradiott"
+        ],
+        "sitio_web": "https://iamradiott.com/",
+        "ciudad": "San Juan/Laventille"
+    },
+    {
+        "nombre": "iLive Caribbean",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\iLive_Caribbean.jpg",
+        "generos": [
+            "Categories: \nDance",
+            "Caribbean",
+            "Reggae"
+        ],
+        "descripcion": "Listen to iLive Caribbean live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/ilivecaribbean"
+        ],
+        "sitio_web": "http://wi.iliveradio.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "ieRADIO",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\ieRADIO.jpg",
+        "generos": [],
+        "descripcion": "Listen to ieRADIO live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://www.ieradiott.com/",
+        "ciudad": "City of Port of Spain"
+    },
+    {
+        "nombre": "One in Christ Studios",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\One_in_Christ_Studios.jpg",
+        "generos": [
+            "Categories: \nGospel"
+        ],
+        "descripcion": "Listen to One in Christ Studios live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCqNeEssy3WoZmFYgbszfzSg",
+            "https://www.instagram.com/oneinchriststudios/",
+            "https://twitter.com/christ_studios",
+            "https://www.facebook.com/oneinchriststudiostt"
+        ],
+        "sitio_web": "https://oneinchriststudios.com/",
+        "ciudad": "City of San Fernando"
+    },
+    {
+        "nombre": "Worship Him",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Worship_Him.jpg",
+        "generos": [
+            "Categories: \nChristian Contemporary"
+        ],
+        "descripcion": "Listen to Worship Him live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/worship-him/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Storm HD",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Storm_HD.jpg",
+        "generos": [
+            "Categories: \nSoul",
+            "Disco"
+        ],
+        "descripcion": "Listen to Storm HD live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "City of San Fernando"
+    },
+    {
+        "nombre": "Felicity Radio",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Felicity_Radio.jpg",
+        "generos": [],
+        "descripcion": "Listen to Felicity Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Mayaro"
+    },
+    {
+        "nombre": "Bacchanal Radio",
+        "url_stream": "https://pl.primis.tech/live/liveView.php?hash=ozcmPTEznXRiPTEzqzyxX2V2ZW50PTI1JaNypaZypyRcoWU9MTp2NmEkMTU0MCZ2nWRspGkurWVlVzVlPTMhMS4jJaM9MTE2MmxkJaN0YT0jJat9NwQjJax9NDQjJaZcZF9jYXNmRG9gYWyhPXq3ql5lYWRcol10pzyhnWRuZC5wo20zp3VvSWQ9q3q3LaJuZGyiLXRlnW5cZGFxLzNioSZxZWJ1Z0yhZz9loWF0nW9hPSZcp0FjpD0jJaNxn3Y9JzN1ZGx9pGyjLU13QWgMq0yfTVM0n05gSWuOREUyM0QzqXNypyVBPU1irzyfoGEyMxY1LwAyMwAyMwuXnW5xo3qmJTIjTyQyMwAkMC4jJTNCJTIjV2yhNwQyM0IyMwB4NwQyMwxyMwBBpHBfZVqyYxgcqCUlRwUmNl4mNvUlMCUlOEgIVE1MJTJDJTIjoGyeZSUlMEqyY2giJTI5JTIjQ2ulo21yJTJGMTIjLwAhMC4jJTIjU2FzYXJcJTJGNTM3LwM2JzNmqXVcZD02OTUmZwMkY2U5MGU2JzNioaRyoaRGnWkySWQ9MCZgZWRcYVBfYXyMnXN0SWQ9MCZgZWRcYUkcp3RJZD0jJzR1pw03OTxzZ2Rjpw0jJzqxpHJDo25mZW50PSZcp1qyUGFmp0qxpHI9MSZwY3BuPTAzY2NjYUNioaNyoaQ9JzNvqXN0ZXI9MTp2NmEkMTU2NDQ3MlZ1nWQ9U2VenW5xo1NQoGF5ZXI2OTUmZzI3NDNyZGFwJaB1YyVloD1bqHRjplUmQSUlRvUlRaq3ql5lYWRcol10pzyhnWRuZC5wo20yMxZzZWkcY2y0rS1lYWRcolZzoG9uqFN0YXR1pm1zYWkmZSZynWRmpD1jpzVvnWQzpHucZD01ODqwNDY3MTqzZGI4NmY3ZDM5ZwQ1ZTt1YTA4MGEkOA==",
+        "logo_local": "logos_emisoras\\Bacchanal_Radio.jpg",
+        "generos": [],
+        "descripcion": "Listen to Bacchanal Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.facebook.com/bacchanalradio/"
+        ],
+        "sitio_web": "https://bacchanalradioonline.weebly.com/",
+        "ciudad": "Chaguanas"
+    },
+    {
+        "nombre": "Hot Like Fire Radio",
+        "url_stream": "https://fps4.listen2myradio.com:2199/listen.php?ip=109.169.23.123&port=8706&type=s1",
+        "logo_local": "logos_emisoras\\Hot_Like_Fire_Radio.jpg",
+        "generos": [],
+        "descripcion": "Listen to Hot Like Fire Radio live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [],
+        "sitio_web": "http://hotlikefireradio.com/",
+        "ciudad": "Mayaro"
+    },
+    {
+        "nombre": "Scorch",
+        "url_stream": "https://live.primis.tech/live/liveView.php?s=116391&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
+        "logo_local": "logos_emisoras\\Scorch.jpg",
+        "generos": [],
+        "descripcion": "Listen to Scorch live. The best radio stations from Trinidad and Tobago. Free radio online at radio-trinidad.com",
+        "redes_sociales": [
+            "https://www.instagram.com/scorchmag/",
+            "https://twitter.com/scorchmagazine",
+            "https://www.youtube.com/channel/UC8xNX_i0GwVMIKQKlgPp1Kg",
+            "https://www.facebook.com/scorchmagazine/"
+        ],
+        "sitio_web": "https://www.thescorch.com/",
+        "ciudad": ""
+    }
+]

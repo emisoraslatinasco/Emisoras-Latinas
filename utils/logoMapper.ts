@@ -1,0 +1,38 @@
+import { CountryCode } from '@/data/stationsByCountry';
+
+// Mapeo de códigos de país a carpetas de logos
+const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
+  'CO': 'logos_emisoras_colombia',
+  'PE': 'logos_peru_ecuador',
+  'BR': 'logos_emisoras_brasil',
+  'EC': 'logos_peru_ecuador',
+  'MX': 'logos_emisoras-mexico',
+  'GT': 'logos_emisoras-guatemala',
+  'BO': 'logos_emisoras-bolivia',
+  'SV': 'logos_emisoras-elsalvador',
+  'JM': 'logos_emisoras-jamaica',
+  'PR': 'logos_emisoras-puertorico',
+  'DO': 'logos_emisoras-republica_dominicana',
+  'UA': 'logos_emisoras-ukrania',
+  'UY': 'logos_emisoras-uruguay',
+};
+
+/**
+ * Convierte la ruta genérica del logo a la ruta específica del país
+ * @param logoLocal - Ruta del logo en formato "logos_emisoras\\nombre.jpg"
+ * @param countryCode - Código del país
+ * @returns Ruta corregida del logo
+ */
+export function getLogoPath(logoLocal: string | null, countryCode: CountryCode): string {
+  if (!logoLocal) {
+    return '/img/default-radio-logo.jpg';
+  }
+
+  const folderName = LOGO_FOLDER_MAP[countryCode];
+  
+  // Extraer solo el nombre del archivo (después de la última barra)
+  const fileName = logoLocal.split('\\').pop() || logoLocal.split('/').pop() || logoLocal;
+  
+  // Construir la ruta correcta
+  return `/${folderName}/${fileName}`;
+}

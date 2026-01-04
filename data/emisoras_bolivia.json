@@ -1,0 +1,2449 @@
+[
+    {
+        "nombre": "Radio Panamericana",
+        "url_stream": "https://stream-147.zeno.fm/pnwpbyfambruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwbndwYnlmYW1icnV2IiwiaG9zdCI6InN0cmVhbS0xNDcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTHhDVV81dDdTWi10Y2tsYmN2MDU2ZyIsImlhdCI6MTc2NzAyMjc0MywiZXhwIjoxNzY3MDIyODAzfQ.kbe_uLdDJ488HRcjybuAXfLH326ITp_ywznuHIAnHjE",
+        "logo_local": "logos_emisoras\\Radio_Panamericana.jpg",
+        "generos": [
+            "Talk"
+        ],
+        "descripcion": "Radio Panamericana es una estación de radio boliviana que se fundó en la ciudad de La Paz en 1972. Es una de las radios más populares del país y se transmite en frecuencia modulada (FM) y en línea. La estación se caracteriza por su programación musical variada, con énfasis en la música latinoamericana y boliviana, así como por su contenido de noticias y deportes. Además de su programación musical, Radio Panamericana también ofrece programas de entretenimiento, concursos y eventos especiales. La estación tiene una gran presencia en las redes sociales, donde comparte contenido exclusivo y promociona sus programas y eventos.",
+        "redes_sociales": [
+            "https://twitter.com/r_panamericana",
+            "https://www.youtube.com/user/RadioPanamericanaPro",
+            "https://www.facebook.com/Radio-Panamericana-1466239577002492/"
+        ],
+        "sitio_web": "http://www.panamericana.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Fides",
+        "url_stream": "https://usa7.fastcast4u.com/proxy/grflores?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Fides.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Radio Fides es una emisora de radio boliviana que fue fundada en 1939 en la ciudad de La Paz. Es una de las emisoras más antiguas del país y se ha convertido en una de las más influyentes en Bolivia. La estación se transmite en FM y en línea a través de su sitio web oficial. Radio Fides tiene una programación que combina noticias, deportes, música y programas de entretenimiento. Su contenido noticioso es considerado uno de los más serios y confiables en Bolivia, y la estación ha ganado varios premios por su periodismo de investigación y cobertura de noticias. También cuenta con programas de opinión y debates en los que se discuten temas de actualidad y se promueve el diálogo. La música en Radio Fides es principalmente de géneros latinoamericanos, con un enfoque especial en la música boliviana. La estación también ofrece programas de entretenimiento, concursos y eventos en vivo para su audiencia. Radio Fides es una emisora influyente y respetada en Bolivia, gracias a su compromiso con l",
+        "redes_sociales": [
+            "https://twitter.com/GrupoFides",
+            "https://www.youtube.com/user/RadioFidesBolivia",
+            "https://www.instagram.com/radiofides/",
+            "https://www.facebook.com/RadioFidesBolivia/"
+        ],
+        "sitio_web": "https://online.radiofides.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Chacaltaya",
+        "url_stream": "https://cast6.asurahosting.com/proxy/irfradio/stream",
+        "logo_local": "logos_emisoras\\Radio_Chacaltaya.jpg",
+        "generos": [
+            "Variety",
+            "Latino"
+        ],
+        "descripcion": "Radio Chacaltaya es una estación de radio que transmite en la frecuencia 93.7 FM. Fue fundada en mayo de 1992 en la ciudad de El Alto, Bolivia, y posteriormente trasladó sus estudios a la ciudad de La Paz. La estación tiene como eslogan \"Música Tropical con Altura\" y se enfoca en la difusión del género musical tropical. Desde su inicio, Radio Chacaltaya se propuso ofrecer una alternativa radiofónica original y de calidad en un género musical menospreciado y discriminado en el país en los años 90. Trabajó incansablemente y se convirtió en un fenómeno comunicacional en la década de los 90, acaparando la atención de la audiencia paceña y convirtiéndose en un referente en la difusión de la música tropical. La estación cuenta con una infraestructura propia y tecnología de punta, incluyendo equipos computarizados y sonido digital, perfectamente acomodados a las exigencias del nuevo formato multimedia. Además, siempre ha contado con un equipo de locutores profesionales y reconocidos en el med",
+        "redes_sociales": [
+            "https://www.facebook.com/chacaltaya93.7",
+            "https://www.youtube.com/channel/UCJxeZCGw_-8nyhajI68EEkQ"
+        ],
+        "sitio_web": "https://radiochacaltayafm.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "ATB Radio",
+        "url_stream": "https://streamingenbolivia.com/8006/stream",
+        "logo_local": "logos_emisoras\\ATB_Radio.jpg",
+        "generos": [
+            "Variety",
+            "Sports",
+            "News"
+        ],
+        "descripcion": "ATB Radio es una emisora de radio de Bolivia que pertenece al grupo mediático ATB (Asociación de Teledifusoras Bolivianas). Comenzó sus transmisiones en 2014, reemplazando la radio La Red Deportiva en su posición en el dial. Se enfoca en la transmisión de noticias, deportes, entretenimiento y música de diversos géneros. La estación de radio de ATB se caracteriza por ofrecer una programación variada, con programas en vivo que mantienen informada a su audiencia sobre los sucesos más importantes del país y del mundo. Además, la estación transmite eventos deportivos en vivo y programas de entretenimiento que incluyen música, humor y entrevistas. La página web de ATB Radio ofrece la transmisión en vivo de la estación, así como información sobre la programación, los locutores y los contactos de la emisora. La audiencia puede acceder a los programas en tiempo real desde cualquier lugar y mantenerse al tanto de las últimas noticias y eventos en Bolivia y en el mundo.",
+        "redes_sociales": [
+            "https://www.facebook.com/ATBRadio?fref=ts",
+            "https://twitter.com/ATB_Radio",
+            "https://www.instagram.com/atbradio"
+        ],
+        "sitio_web": "https://www.atb.com.bo/atb-radio/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "RKC Radio Kawsachun Coca",
+        "url_stream": "https://sonic.dattassd.com/8198/stream",
+        "logo_local": "logos_emisoras\\RKC_Radio_Kawsachun_Coca.jpg",
+        "generos": [
+            "News",
+            "Culture"
+        ],
+        "descripcion": "Para la audiencia que sintoniza RKC - Radio Kawsachun Coca, la emisora es más que un simple medio de comunicación; es una compañera que acompaña el día a día con la mejor selección de música folclórica y programas que tocan el corazón de la identidad boliviana. Desde las melodías que evocan la majestuosidad del altiplano hasta las voces que narran nuestras historias y luchas, RKC es el reflejo sonoro de nuestra cultura. En cada transmisión, RKC se esfuerza por ofrecer un contenido que no solo entretiene, sino que también educa y empodera a su audiencia. Con un equipo de locutores apasionados por su labor, la radio se convierte en un espacio de diálogo y celebración de nuestras raíces y valores. Así, cada programa es una invitación a sentir el pulso de Bolivia, a través de las ondas que nos unen y nos definen como comunidad.",
+        "redes_sociales": [
+            "https://www.youtube.com/@RadioKawsachunCoca",
+            "https://www.facebook.com/TropicoKawsachunCoca"
+        ],
+        "sitio_web": "http://www.kawsachuncoca.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Centro FM 96.1",
+        "url_stream": "https://radio.yoemito.net:8050/stream",
+        "logo_local": "logos_emisoras\\Radio_Centro_FM_961.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "News"
+        ],
+        "descripcion": "Radio Centro FM es una emisora de radio de Bolivia que forma parte del Grupo Centro, un conglomerado de medios de comunicación de Cochabamba. La estación se enfoca en la difusión de noticias, información y música variada. El eslogan de Radio Centro FM es \"Informándote hace más de 50 años con noticias nacionales e internacionales\", lo que destaca su larga trayectoria como emisora informativa. La estación se caracteriza por ofrecer una programación en vivo con noticias nacionales e internacionales, análisis y opinión sobre los acontecimientos más relevantes de Bolivia y del mundo. Además de su programación informativa, Radio Centro FM transmite música de diversos géneros, incluyendo pop, rock, salsa y reggaetón, entre otros. La estación cuenta con locutores profesionales y expertos en su área, lo que le permite brindar una programación de calidad y mantener informada a su audiencia en todo momento. La página web del Grupo Centro ofrece información sobre sus diferentes medios de comunicac",
+        "redes_sociales": [],
+        "sitio_web": "http://grupocentro.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Éxito",
+        "url_stream": "https://cast6.my-control-panel.com/proxy/radiostr/;",
+        "logo_local": "logos_emisoras\\Radio_Exito.jpg",
+        "generos": [
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Radio Éxito Noticias es una emisora de radio boliviana que transmite en vivo en frecuencia 93.1 FM desde la ciudad de La Paz desde el año 2011. Se destaca por ser una emisora de noticias, con una línea editorial veraz e imparcial, que busca informar a la sociedad sobre los acontecimientos más relevantes a nivel nacional e internacional. El equipo de periodistas y locutores altamente capacitados se dedica a proporcionar noticias en tiempo real, enmarcadas en valores éticos, morales, cívicos y sociales, y respetando el pensamiento de todos los actores. Además de las noticias, Radio Éxito Noticias cuenta con programas de entretenimiento, deportes, tecnología y otros, convirtiéndose en una emisora completa y relevante en el panorama mediático boliviano.",
+        "redes_sociales": [
+            "https://www.facebook.com/ExitoNoticias/"
+        ],
+        "sitio_web": "https://exitonoticias.com.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Mundial Bolivia",
+        "url_stream": "https://streaming1.locucionar.com/proxy/radiomundial?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Mundial_Bolivia.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Classic Hits"
+        ],
+        "descripcion": "Radio Mundial Bolivia es una emisora de radio de Bolivia que transmite en formato adulto contemporáneo en español. La estación se enfoca en la selección de música clásica de ayer y éxitos de oro, así como programas en vivo conducidos por locutores profesionales. La página web de Radio Mundial Bolivia ofrece la transmisión en vivo de la estación, así como información sobre su programación y locutores. La estación cuenta con programas especiales como Éxitos de Oro Express todos los domingos en vivo desde las 9:00 AM con Fico Arévalo y Éxitos de Oro todos los sábados desde las 8:00 AM con el mismo conductor. Además, la estación ofrece el Ranking Mundial los fines de semana, presentado por Martin Guevara. Radio Mundial Bolivia se destaca por su selección musical y su enfoque en programas en vivo con locutores experimentados. Con su programación las 24 horas del día, la estación ofrece una compañía constante a su audiencia y se enfoca en proporcionar una experiencia musical agradable y vari",
+        "redes_sociales": [
+            "https://www.facebook.com/radiomundialbolivia/",
+            "https://twitter.com/BoliviaMundial"
+        ],
+        "sitio_web": "http://radiomundial.com.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Bolivia",
+        "url_stream": "https://stream-153.zeno.fm/5963c36ws98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1OTYzYzM2d3M5OHV2IiwiaG9zdCI6InN0cmVhbS0xNTMuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiQ2FIaTh4bTFTOENXb2h4bGhGcTVSdyIsImlhdCI6MTc2NzAyMzA4OSwiZXhwIjoxNzY3MDIzMTQ5fQ.j9r8coiS8S38v3lqTa3S9NIy_U1qmz3cLMAi0EIzRBI",
+        "logo_local": "logos_emisoras\\Radio_Bolivia.jpg",
+        "generos": [
+            "Variety",
+            "World Music"
+        ],
+        "descripcion": "Para los amantes de la tradición y la actualidad boliviana, Radio Bolivia ofrece una experiencia auditiva sin igual. Con programas que van desde los ritmos autóctonos hasta los debates sobre temas de interés social, esta emisora se ha convertido en la banda sonora de la vida cotidiana de muchos bolivianos. Escuchar Radio Bolivia es sumergirse en un viaje sonoro que abraza lo mejor de nuestra música y ofrece un espacio para la reflexión y el diálogo. Es la compañía perfecta para quienes valoran la riqueza cultural de nuestro país y desean estar informados con perspectiva local.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Monumental",
+        "url_stream": "https://streaming2.locucionar.com/proxy/monumental1051?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Monumental.jpg",
+        "generos": [
+            "Sports",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Radio Monumental es una radio de Bolivia que ofrece una mezcla única de música en inglés y español de las décadas de los 80 y 90. También transmite eventos deportivos en vivo. La estación se sintoniza en la frecuencia 100.0 FM en Cochabamba y en 105.1 FM en La Paz, permitiendo que la audiencia en ambas ciudades disfrute de la programación en vivo. Además de la música y los deportes, Radio Monumental también incluye programas de noticias, entrevistas y otros contenidos de interés general. Con su enfoque distintivo en la música y los deportes, Radio Monumental ofrece una experiencia de escucha única y emocionante para su audiencia en Bolivia y en todo el mundo gracia a su transmisión por internet.",
+        "redes_sociales": [
+            "https://www.facebook.com/monumentalbo/",
+            "https://twitter.com/monumental_bo"
+        ],
+        "sitio_web": "https://www.radiomonumental.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Erbol Digital",
+        "url_stream": "https://radio.erbol.com.bo/",
+        "logo_local": "logos_emisoras\\Erbol_Digital.jpg",
+        "generos": [
+            "News",
+            "Educational",
+            "Talk"
+        ],
+        "descripcion": "Erbol Digital es una emisora de radio en Bolivia que se dedica a la difusión de noticias, entretenimiento y contenido cultural. Su nombre \"Erbol\" proviene de la sigla \"Educación Radiofónica de Bolivia\", reflejando su compromiso con la educación y la promoción de la cultura boliviana. Fundada en 1967, esta emisora ha experimentado cambios y evoluciones a lo largo de los años, adaptándose a las nuevas tecnologías y plataformas disponibles. Hoy en día, Erbol Digital es una radio que transmite en vivo a través de frecuencias AM y FM, así como en línea a través de su sitio web y aplicaciones móviles, permitiendo a los oyentes de todo el mundo sintonizar y disfrutar de su programación. La programación de Erbol Digital es variada e incluye noticias nacionales e internacionales, programas de opinión y análisis, deportes, entretenimiento, música y segmentos dedicados a la promoción de la cultura y las tradiciones bolivianas. La emisora también da voz a comunidades indígenas y grupos marginados,",
+        "redes_sociales": [
+            "https://twitter.com/ErbolDigital",
+            "https://www.facebook.com/RadioErbol100.9FM"
+        ],
+        "sitio_web": "http://www.erbol.com.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio San Gabriel AM",
+        "url_stream": "https://spanel.gcomstreaming.com:7003/;",
+        "logo_local": "logos_emisoras\\Radio_San_Gabriel_AM.jpg",
+        "generos": [],
+        "descripcion": "Radio San Gabriel es una emisora de radio boliviana con sede en La Paz, que se dedica a la promoción y preservación de la cultura y las tradiciones aymaras. Fundada en 1955 por la Compañía de Jesús, la estación de radio tiene un enfoque especial en la educación, la información y el entretenimiento para la población indígena aymara de Bolivia. Transmitiendo en lengua aymara y en español, Radio San Gabriel ofrece una amplia gama de programación que abarca desde música folklórica y autóctona hasta noticias locales, nacionales e internacionales, programas educativos, debates sobre temas sociales y políticos, y programas religiosos. La estación también se enorgullece de ser una plataforma para la promoción de artistas locales, contribuyendo así a mantener viva la rica herencia cultural aymara. Radio San Gabriel es más que una emisora de radio; es un vínculo vital entre las comunidades aymaras y el mundo exterior, fomentando la comprensión y el respeto por la diversidad cultural y las tradic",
+        "redes_sociales": [
+            "https://twitter.com/radiosgb",
+            "https://www.instagram.com/radiosangabrielbolivia2",
+            "https://www.youtube.com/@radiosangabriel4655/",
+            "https://www.facebook.com/radiosangabrieldebolivia/"
+        ],
+        "sitio_web": "http://www.radiosangabriel.org.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "FM La Paz",
+        "url_stream": "https://spanel.gcomstreaming.com/8018/stream",
+        "logo_local": "logos_emisoras\\FM_La_Paz.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "News"
+        ],
+        "descripcion": "FM La Paz 96.7 es una estación de radio que ofrece una mezcla diversa de música, cultura y entretenimiento. Esta emisora boliviana se esfuerza por satisfacer los gustos musicales de su amplia audiencia, proporcionando una variedad de géneros, desde pop y rock hasta música latina y tropical. Además de la música, FM La Paz 96.7 también presenta programas de noticias y actualidad, entrevistas con personalidades locales e internacionales y segmentos de opinión. La estación también se enorgullece de apoyar a los artistas emergentes y promover la cultura local a través de programas y eventos en vivo. Ya sea que busques mantenerte informado sobre las últimas noticias y eventos locales, disfrutar de tus éxitos favoritos o descubrir nuevos talentos y tendencias, FM La Paz 96.7 es la estación perfecta para mantenerte conectado y entretenido.",
+        "redes_sociales": [
+            "https://twitter.com/radiofmlapaz",
+            "https://www.facebook.com/fmlapaz96.7/",
+            "https://www.instagram.com/radiofmlapaz",
+            "https://www.youtube.com/@radiofmlapaz8751"
+        ],
+        "sitio_web": "https://fmlapaz.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Megamix",
+        "url_stream": "https://stream-160.zeno.fm/iveqw1rwvd9tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJpdmVxdzFyd3ZkOXR2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYmdJcTI5djdRbGFORHI5Z1BJU0EtZyIsImlhdCI6MTc2NzAyMzIzNSwiZXhwIjoxNzY3MDIzMjk1fQ.gKg63tGq1b-H2SRDWL07dovSWGoySejdKBWaeFtNmc8",
+        "logo_local": "logos_emisoras\\Radio_Megamix.jpg",
+        "generos": [
+            "Variety",
+            "World Music"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La mezcla perfecta de Bolivia', Radio Megamix es la compañera ideal para cualquier momento del día. Su programación refleja la rica tapestria cultural de Bolivia, desde los sonidos autóctonos hasta los éxitos internacionales que resuenan en las calles de nuestras ciudades. La radio se enorgullece de su cercanía con la comunidad, ofreciendo espacios de interacción y participación que fortalecen el vínculo con su público. Los programas en vivo, repletos de anécdotas locales y la calidez de sus locutores, hacen que cada boliviano se sienta representado y parte de una gran familia musical.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Eres Radio",
+        "url_stream": "https://sp5.servidorrprivado.com/8789/stream",
+        "logo_local": "logos_emisoras\\Eres_Radio.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Romantic"
+        ],
+        "descripcion": "Para la audiencia boliviana, Eres Radio no es solo una estación de radio, es un compañero de todos los días que acompaña con su programación auténtica y cercana. Desde las vibrantes mañanas hasta las serenas noches, esta emisora se convierte en la banda sonora de la vida cotidiana de sus oyentes, con ritmos que van desde la cumbia hasta el pop más actual. Los programas de Eres Radio reflejan la riqueza cultural de Bolivia, incluyendo segmentos que celebran las tradiciones locales y espacios de diálogo donde se discuten temas de relevancia nacional. La emisora se enorgullece de su conexión con la comunidad, ofreciendo un espacio donde la voz del pueblo boliviano es escuchada y valorada.",
+        "redes_sociales": [
+            "https://www.facebook.com/EresRadiobo/",
+            "https://www.instagram.com/eresradio/?hl=es"
+        ],
+        "sitio_web": "https://eresradio.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Centro AM",
+        "url_stream": "https://radio.yoemito.net:8060/stream",
+        "logo_local": "logos_emisoras\\Radio_Centro_AM.jpg",
+        "generos": [
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Para los bolivianos que buscan una experiencia radial auténtica, Radio Centro AM ofrece una mezcla única de programas que capturan la esencia de nuestra cultura. Desde las mañanas con lo último en actualidad nacional hasta las noches con espacios dedicados a la música folclórica, esta estación es el reflejo de la diversidad y riqueza de Bolivia. Con un equipo de locutores que son verdaderos conocedores de los gustos y preferencias locales, Radio Centro AM se posiciona como una compañía indispensable en el día a día de los bolivianos, brindando no solo entretenimiento, sino también información y educación con un toque muy nuestro.",
+        "redes_sociales": [
+            "https://www.facebook.com/grupocentro05/"
+        ],
+        "sitio_web": "http://grupocentro.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Kollasuyo",
+        "url_stream": "https://azura2.bitstreaming.net:8000/radio128.aac",
+        "logo_local": "logos_emisoras\\Radio_Kollasuyo.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para el oyente boliviano, Radio Kollasuyo representa una mezcla perfecta de tradición y contemporaneidad. Con programas que van desde los éxitos del momento hasta los clásicos del folclore que resuenan en el corazón de cada boliviano, esta emisora es la compañía ideal en cualquier momento del día. La calidez de sus locutores y la cercanía que logran con su audiencia hacen de Radio Kollasuyo más que una radio; es un amigo que acompaña, informa y divierte. La estación se enorgullece de su herencia cultural y se dedica a promover los valores y la música que definen a Bolivia, conectando a la comunidad con sus raíces y con las últimas tendencias nacionales.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiokollasuyo/",
+            "https://twitter.com/kollasuyopotosi"
+        ],
+        "sitio_web": "https://radiokollasuyo.bo/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Disney Bolivia",
+        "url_stream": "https://27353.live.streamtheworld.com/DISNEY_BOL_SCAAC?dist=web-radiodisney",
+        "logo_local": "logos_emisoras\\Radio_Disney_Bolivia.jpg",
+        "generos": [
+            "Pop Music",
+            "Top 40",
+            "Latino"
+        ],
+        "descripcion": "Radio Disney Bolivia es una estación de radio que forma parte de la cadena Radio Disney, propiedad de The Walt Disney Company. La estación se enfoca en ofrecer música pop y contemporánea, y su programación está diseñada principalmente para un público joven. Radio Disney Bolivia transmite en varias ciudades del país, incluyendo La Paz, Cochabamba y Santa Cruz de la Sierra. Además de su contenido musical, la estación ofrece programas de entretenimiento, noticias y eventos en vivo, como conciertos y promociones. La estación es conocida por su compromiso con la audiencia joven, y se esfuerza por ofrecer contenido que sea relevante y entretenido para ellos. También promueve valores como la amistad, el respeto y la inclusión en su programación y eventos. Radio Disney Bolivia forma parte de una red internacional de estaciones de radio, que comparten la misma marca y enfoque en la música pop y contemporánea, así como en la conexión con la audiencia joven. La estación es popular entre los jóven",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioDisneyBo/",
+            "https://twitter.com/radiodisneyla",
+            "https://www.instagram.com/radiodisneybo/",
+            "https://www.youtube.com/c/RadioDisneyLA"
+        ],
+        "sitio_web": "https://bo.radiodisney.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Super Clasicos Huanuni",
+        "url_stream": "https://stream-160.zeno.fm/1z7bt08y0nhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIxejdidDA4eTBuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicTlLdDE5TTdSd3VtR1QyeFhfUW04ZyIsImlhdCI6MTc2NzAyMzM4NCwiZXhwIjoxNzY3MDIzNDQ0fQ.naOleWoae1_9Uq2mikkEmQQGnpovpovXdiTN8We4ZKU",
+        "logo_local": "logos_emisoras\\Super_Clasicos_Huanuni.jpg",
+        "generos": [
+            "Classic Hits"
+        ],
+        "descripcion": "Súper Clásicos Huanuni es una emisora de radio en línea con base en Huanuni, Oruro, que se dedica a traer los éxitos clásicos que te hacen recordar los mejores momentos de tu vida. Esta emisora de radio por internet se enorgullece de ofrecer una cuidada selección de música de distintas décadas y géneros, que incluye los mejores temas de pop, rock, baladas y más. Con el eslogan \"La radio que te hace recordar con la música\", Súper Clásicos Huanuni es la estación ideal para aquellos que buscan revivir sus recuerdos a través de las melodías que marcaron época. Su catálogo musical incluye desde los grandes éxitos de los años 70, 80 y 90 hasta clásicos atemporales que siguen siendo populares hoy en día. Súper Clásicos Huanuni se conecta con su audiencia a través de la magia de la música, ofreciendo una experiencia auditiva que evoca la nostalgia y la alegría de tiempos pasados. Sintoniza nuestra estación en línea y sumérgete en un viaje musical inolvidable, donde cada canción te transporta a",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Stereo 97",
+        "url_stream": "https://stream.consultoradas.com/8340/stream",
+        "logo_local": "logos_emisoras\\Stereo_97.jpg",
+        "generos": [
+            "Pop Music",
+            "Top 40"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de la música boliviana', Stereo 97 es la compañera perfecta para cualquier momento del día. Esta emisora no solo reproduce los clásicos que resuenan en el corazón de los bolivianos, sino que también abre el escenario a nuevos talentos y sonidos innovadores que definen el panorama musical actual. En Stereo 97, cada melodía cuenta una historia y cada programa es una ventana a la diversidad cultural de Bolivia. La estación crea una atmósfera íntima y acogedora, invitando a los oyentes a sentirse parte de una comunidad unida por el amor a la música y a las raíces culturales que nos definen.",
+        "redes_sociales": [
+            "https://www.facebook.com/lanumerouno97/"
+        ],
+        "sitio_web": "http://www.stereo97.fm/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "El Deber Radio",
+        "url_stream": "https://cast5.asurahosting.com/proxy/eldeberm/stream",
+        "logo_local": "logos_emisoras\\El_Deber_Radio.jpg",
+        "generos": [
+            "Variety",
+            "News"
+        ],
+        "descripcion": "El Deber es una radio informativa de Bolivia que transmite noticias y actualidad desde la ciudad de Santa Cruz de la Sierra. Forma parte del Grupo El Deber que detiene también el Diario Mayor El Deber. Desde su fundación, se ha consolidado como una de las emisoras más importantes del país, destacándose por su cobertura en vivo de noticias y eventos relevantes. La estación de radio de El Deber es conocida por sus programas en vivo, los cuales brindan a los oyentes información actualizada sobre temas políticos, económicos, sociales y culturales de Bolivia y del mundo. Su programación también incluye debates, entrevistas y reportajes especiales sobre temas de interés para la audiencia. El sitio web de El Deber cuenta con una sección dedicada a su emisora de radio, en la cual se puede escuchar la transmisión en vivo de la estación. A través de su plataforma en línea, la audiencia puede acceder a los programas en tiempo real y mantenerse al día con las noticias más recientes. Además, la pág",
+        "redes_sociales": [
+            "https://twitter.com/ElDeberRadioOn",
+            "https://www.facebook.com/eldeberradio/",
+            "https://www.instagram.com/eldeberradio/",
+            "https://www.youtube.com/channel/UCHKlnUju6hq08ZmWnm6D2og"
+        ],
+        "sitio_web": "http://eldeberradio.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Maritima FM",
+        "url_stream": "https://spanel.gcomstreaming.com/8004/stream",
+        "logo_local": "logos_emisoras\\Radio_Maritima_FM.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Sports",
+            "News"
+        ],
+        "descripcion": "Radio Marítima FM 100.9 es una estación de radio boliviana que ofrece una propuesta innovadora y variada para su audiencia. Dirigida a un público adulto contemporáneo, la emisora se destaca por combinar programas de noticias, salud, deportes y revista de variedades, brindando un contenido equilibrado e interesante. Con un enfoque en la música en español, Radio Marítima FM 100.9 presenta una amplia gama de géneros y estilos que atraen a diferentes gustos y preferencias. La estación se esfuerza por mantener a su audiencia informada y entretenida, ofreciendo contenidos atractivos y de calidad.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Maritima-FM-1009/100063892362286/"
+        ],
+        "sitio_web": "https://www.maritimafm.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Qhana 98.5 FM",
+        "url_stream": "https://cast6.asurahosting.com/proxy/radiost4/stream",
+        "logo_local": "logos_emisoras\\Radio_Qhana_985_FM.jpg",
+        "generos": [
+            "News",
+            "Culture",
+            "Talk"
+        ],
+        "descripcion": "Radio Qhana es una emisora de radio boliviana que se enfoca en ofrecer una programación diversa y culturalmente enriquecedora para su audiencia. La palabra \"Qhana\" proviene del idioma aymara, que significa \"luz\" o \"iluminación\", lo que refleja la misión de la estación de radio de iluminar a sus oyentes a través de la difusión de información, música y entretenimiento. La programación de Radio Qhana incluye una mezcla de música tradicional boliviana y andina, así como géneros populares contemporáneos. La estación también ofrece programas de noticias, entrevistas y temas de interés general, abarcando una amplia gama de áreas como la política, la economía, la cultura y la educación. Uno de los objetivos principales de Radio Qhana es promover la cultura y las tradiciones bolivianas, especialmente las de las comunidades indígenas y rurales. La emisora trabaja para fomentar la preservación y difusión de la riqueza cultural del país, proporcionando un espacio para que los artistas y músicos lo",
+        "redes_sociales": [
+            "https://www.facebook.com/www.qhana.org.bo/",
+            "https://twitter.com/radioqhana?lang=es"
+        ],
+        "sitio_web": "http://www.qhana.org.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio FM Bolivia",
+        "url_stream": "https://stm11.xcast.com.br:11300/;",
+        "logo_local": "logos_emisoras\\Radio_FM_Bolivia.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Radio Fm Bolivia es una destacada emisora que comenzó sus transmisiones experimentales en 2010, desde Los Yungas, una región situada en Bolivia. Esta estación fue pionera al ser la primera en transmitir su señal en línea desde una provincia paceña, lo que la ha llevado a consolidarse y obtener un amplio reconocimiento tanto a nivel nacional como en el extranjero. Su programación es diversa y se extiende desde las 3 de la madrugada hasta la medianoche durante los días de semana, mientras que los fines de semana ofrece una cobertura de 24 horas ininterrumpidas. La oferta de contenidos de Radio FmBolivia es amplia, abarcando distintos temas de interés para sus oyentes. Entre los segmentos que transmiten se encuentran noticias locales, nacionales e internacionales, cubriendo así un amplio espectro informativo. Además, la radio ofrece contenido relacionado con temas policiales, economía, seguridad, deportes, cultura, salud, bienestar y entretenimiento. De esta manera, Radio Fm Bolivia se po",
+        "redes_sociales": [
+            "https://twitter.com/FmBolivia",
+            "https://www.youtube.com/FmBoliviaOK",
+            "https://www.facebook.com/FmBolivia"
+        ],
+        "sitio_web": "https://fmbolivia.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Fides Tarija",
+        "url_stream": "https://usa14.fastcast4u.com/proxy/fidestarija?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Fides_Tarija.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para la audiencia de Tarija, Radio Fides es más que una emisora: es una compañera que acompaña los días con la mejor selección de música y programas que tocan el corazón de la cultura tarijeña. Desde las mañanas con las últimas noticias hasta las noches con espacios para el recuerdo y la tradición, esta radio se siente como el eco de nuestra tierra. Con un estilo cercano y familiar, Radio Fides Tarija invita a sus oyentes a ser parte de una comunidad donde la actualidad, la cultura y la música se entrelazan para crear una experiencia radial auténtica y enriquecedora. Es el punto de encuentro donde las voces de Tarija se hacen escuchar y las historias locales cobran vida a través de las ondas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Fides-Tarija-1573758152949443/?fref=ts",
+            "https://twitter.com/fidestarija"
+        ],
+        "sitio_web": "https://www.radiofides.com/",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "Melodia 99.1 FM",
+        "url_stream": "https://stream.consultoradas.com/8244/stream",
+        "logo_local": "logos_emisoras\\Melodia_991_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Local"
+        ],
+        "descripcion": "Para el oyente boliviano, Melodia 99.1 FM es más que una estación de radio; es una compañera que acompaña el día a día con una banda sonora que resuena con la identidad nacional. Desde ritmos folclóricos hasta pop moderno, la estación es un reflejo de la rica diversidad musical de Bolivia. Con programas que van desde la difusión de talentos locales hasta espacios de debate sobre temas que afectan a la comunidad, Melodia 99.1 FM se posiciona como una voz influyente en el panorama mediático boliviano. La radio se convierte en un espacio de encuentro donde la música sirve de telón de fondo para la vida cotidiana, y donde los oyentes no solo escuchan, sino que también son escuchados.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiomelodia991/"
+        ],
+        "sitio_web": "http://www.radiomelodia.fm/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Cristo Viene La Red",
+        "url_stream": "https://stream20.usastreams.com:7000/stream",
+        "logo_local": "logos_emisoras\\Cristo_Viene_La_Red.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Cristo Viene La Red es una estación de radio cristiana fundada por el pastor Ricardo Claure Peñaloza. Esta emisora se enfoca en difundir el mensaje del Evangelio y las enseñanzas de la fe cristiana, particularmente en línea con las creencias y prácticas del ministerio del pastor Claure Peñaloza. Ricardo Claure Peñaloza es un pastor boliviano conocido por sus predicaciones y su enfoque en la segunda venida de Jesucristo, un evento central en la escatología cristiana. Además, aboga por la importancia de la vida piadosa y la santificación como preparación para este acontecimiento. La radio Cristo Viene La Red ofrece una programación variada que incluye predicaciones, estudios bíblicos, música cristiana, testimonios y programas en vivo, entre otros contenidos. La estación de radio busca alcanzar a una audiencia amplia y diversa, ofreciendo un espacio para la edificación espiritual y el crecimiento en la fe. A través de la radio y otros medios digitales, el pastor Ricardo Claure Peñaloza y",
+        "redes_sociales": [
+            "https://twitter.com/ricardoclaurecv",
+            "https://www.facebook.com/ricardoclaurep",
+            "https://www.youtube.com/@RicardoClaurePenaloza/",
+            "https://www.instagram.com/ricardoclaurep"
+        ],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Láser Bolivia",
+        "url_stream": "https://radio.cimaspeed.com:8224/stream",
+        "logo_local": "logos_emisoras\\Laser_Bolivia.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Láser Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/Laser103.9FM/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Uno Studio",
+        "url_stream": "https://stream-160.zeno.fm/nst95mra8bruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuc3Q5NW1yYThicnV2IiwiaG9zdCI6InN0cmVhbS0xNjAuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoib3prZDdSdTNTSjI5amRyVnJsbmdGZyIsImlhdCI6MTc2NzAyMzc0NiwiZXhwIjoxNzY3MDIzODA2fQ.yi8YS9Fp9cINnmo89peNVN2sA_8shAj7M0_H9fK2S2M",
+        "logo_local": "logos_emisoras\\Radio_Uno_Studio.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "World Music",
+            "90s"
+        ],
+        "descripcion": "En el corazón de Bolivia, Radio Uno Studio resuena con el pulso de su gente. Esta estación es el reflejo de la vida boliviana, con ritmos que van desde la cumbia hasta el pop moderno, pasando por los sonidos autóctonos que nos definen. No solo es una radio, es un compañero de cada día que nos acompaña con consejos, noticias y esa música que nos hace sentir en casa. Para el oyente boliviano, Radio Uno Studio es sinónimo de tradición y modernidad. Es el lugar donde se entrelazan las voces de nuestra tierra con las tendencias globales, creando un espacio único de encuentro y expresión. Aquí, la pasión por lo nuestro se transmite en cada nota y palabra, manteniendo viva nuestra cultura en el dial.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioUnocbba"
+        ],
+        "sitio_web": "http://www.javibest.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Gente Bolivia",
+        "url_stream": "https://server1.fex.red:8366/stream",
+        "logo_local": "logos_emisoras\\Radio_Gente_Bolivia.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Gente Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiogentebol.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Mix Cumbias",
+        "url_stream": "https://stream-178.zeno.fm/52khku4yd5zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1Mmtoa3U0eWQ1enV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoidlBOdDJld1FUdXVaeEdkNXhZY1NFUSIsImlhdCI6MTc2NzAyMzg2NCwiZXhwIjoxNzY3MDIzOTI0fQ.vdmfbCWw3BPdi7Au8rFL63rtL-BNdUaO-56zV3grp2k",
+        "logo_local": "logos_emisoras\\Radio_Mix_Cumbias.jpg",
+        "generos": [
+            "Variety",
+            "Dance"
+        ],
+        "descripcion": "Para el corazón cumbiero de Bolivia, Radio Mix Cumbias es más que una emisora; es una fiesta de ritmos que nos identifica y une. Aquí, la cumbia no es solo música, es la banda sonora de nuestras vidas, y esta radio sabe cómo hacerla sonar. Desde la Llajta hasta el Oriente, pasando por el altiplano, la cumbia suena fuerte y claro gracias a Radio Mix Cumbias. Con una programación que abraza la diversidad de este género, la radio es el punto de encuentro donde se cruzan las melodías que nos hacen bailar y sentir. Los fines de semana, las listas de éxitos y los especiales dedicados a los grandes de la cumbia, son solo una parte de lo que hace que esta emisora sea la favorita en los hogares bolivianos. Radio Mix Cumbias, donde la cumbia vive y se siente con el corazón.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "BBN - Red de Radiodifusíon Biblica",
+        "url_stream": "https://audio-edge-es6pf.mia.g.radiomast.io/475ebed1-595e-4717-b888-64fe8fc6b09f",
+        "logo_local": "logos_emisoras\\BBN_Red_de_Radiodifusion_Biblica.jpg",
+        "generos": [
+            "Christian",
+            "Religious"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Voz de la Esperanza', BBN - Red de Radiodifusión Bíblica se ha convertido en un punto de encuentro para la comunidad cristiana en Bolivia. Su programación está diseñada para acompañar a los oyentes en su jornada de fe, ofreciendo espacios de reflexión, alabanza y compañerismo. Desde las mañanas con devocionales que preparan el espíritu para el día, hasta las noches con serenatas de música que calman el alma, BBN es más que una radio; es un amigo que camina al lado de su gente, compartiendo momentos y creando lazos de unión a través de la fe. La estación es un testimonio vivo de la cultura y la devoción boliviana, reflejando en cada transmisión los valores y la calidez de su pueblo.",
+        "redes_sociales": [
+            "https://twitter.com/BBNEspanol",
+            "https://www.facebook.com/BBNEspanol"
+        ],
+        "sitio_web": "http://www.bbnradio.org/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Hit Cochabamba",
+        "url_stream": "https://stream-176.zeno.fm/u7ixfizasppvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1N2l4Zml6YXNwcHZ2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYWFaUnJWRENTZi0wVkZHeVc4Yk1VZyIsImlhdCI6MTc2NzAyMzkyMCwiZXhwIjoxNzY3MDIzOTgwfQ.JIN95QGNotaHoZQ1m8A1_emNd_KFX4KRoIodsG5VUqQ",
+        "logo_local": "logos_emisoras\\Radio_Hit_Cochabamba.jpg",
+        "generos": [
+            "Top 40"
+        ],
+        "descripcion": "Para los cochabambinos, Radio Hit es más que una emisora; es una compañera que acompaña las jornadas con ritmos que resuenan en el corazón de la Llajta. Desde las melodías que definen la identidad cultural hasta los éxitos internacionales, esta radio es el reflejo de la pasión por la música que caracteriza a Cochabamba. Con programas que van desde la cobertura de eventos locales hasta espacios de diálogo con figuras destacadas de nuestra región, Radio Hit se posiciona como un pilar en la difusión de la cultura cochabambina. Su cercanía con la audiencia se manifiesta en cada transmisión, creando un vínculo único que trasciende las ondas radiales.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiohitcbbabolivia.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio La Joya Bolivia 93.9 FM",
+        "url_stream": "https://stm19.painelcast.com:7278/stream/;",
+        "logo_local": "logos_emisoras\\Radio_La_Joya_Bolivia_939_FM.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Para los amantes de la música y la cultura boliviana, Radio La Joya Bolivia 93.9 FM es sinónimo de identidad y tradición. Esta emisora no solo nos conecta con las raíces musicales de nuestro país, sino que también nos mantiene al día con lo que acontece en nuestra sociedad. Desde la calidez de sus locutores hasta la cuidada selección de contenido, Radio La Joya es el reflejo de la pasión boliviana por la radio. Es un espacio donde la comunidad se reúne para disfrutar de programas que celebran nuestra herencia y fomentan el diálogo sobre temas actuales. ¡Sintoniza y sé parte de la familia de Radio La Joya!",
+        "redes_sociales": [
+            "https://www.youtube.com/?hl=es-419",
+            "https://www.facebook.com/www.radiojoyatvlive"
+        ],
+        "sitio_web": "https://radiolajoyabolivialapaz.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Mega DJ Bolivia",
+        "url_stream": "https://stream-153.zeno.fm/zyu31nv6twzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6eXUzMW52NnR3enV2IiwiaG9zdCI6InN0cmVhbS0xNTMuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiQVpBVERDRjNSTW1VX0ttOS1TeGVPdyIsImlhdCI6MTc2NzAyMzk4MCwiZXhwIjoxNzY3MDI0MDQwfQ.X8LfXrRWx2oD1pFg7AcHKHIRce2AAJGuyWLJYbt27yA",
+        "logo_local": "logos_emisoras\\Mega_DJ_Bolivia.jpg",
+        "generos": [
+            "Pop Music",
+            "Reggaeton",
+            "Latino"
+        ],
+        "descripcion": "Para los bolivianos que buscan sintonizar el pulso de su cultura, Mega DJ Bolivia es la compañera perfecta. Esta emisora no solo reproduce los hits que dominan las listas, sino que también es un refugio para los ritmos que definen la riqueza musical del país, desde la cumbia hasta el folklore andino. En Mega DJ Bolivia, cada melodía cuenta una historia, y los DJ's, con su estilo único y cercano, transforman la experiencia radial en un viaje sonoro inolvidable. Los programas especializados, que celebran tanto los talentos emergentes como a los artistas consagrados, son un reflejo del espíritu vibrante y diverso de Bolivia. Aquí, la música es más que entretenimiento; es un espejo de la vida y el corazón de la gente.",
+        "redes_sociales": [
+            "https://www.facebook.com/Mega-dj-Bolivia-104771981233750/?modal=admin_todo_tour"
+        ],
+        "sitio_web": "http://lamega899.obolog.es/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Bolivia Folk Radio",
+        "url_stream": "https://web2.centaury.cl:20009/stream",
+        "logo_local": "logos_emisoras\\Bolivia_Folk_Radio.jpg",
+        "generos": [
+            "Folk"
+        ],
+        "descripcion": "Para el corazón que late al ritmo del charango y la zampoña, Bolivia Folk Radio es el compañero musical que acompaña las jornadas de los bolivianos, tanto en el país como en el extranjero. Esta emisora es el eco de las alturas andinas y las llanuras orientales, un lugar donde la identidad boliviana se celebra a través de sus acordes y poesía. Con una programación que es un mosaico de expresiones artísticas, Bolivia Folk Radio invita a sus oyentes a un viaje sonoro por las diferentes regiones de Bolivia, explorando la diversidad y riqueza de su patrimonio musical. Es un punto de encuentro para la comunidad, donde la música es el lenguaje universal que nos une y nos define como nación.",
+        "redes_sociales": [
+            "https://www.facebook.com/boliviafol/"
+        ],
+        "sitio_web": "https://streambolivia.com.bo/prueba/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Roca FM Clasicos La Paz",
+        "url_stream": "https://xxdelgado.radioca.st/;",
+        "logo_local": "logos_emisoras\\Roca_FM_Clasicos_La_Paz.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Para los paceños que buscan revivir la magia de las melodías que marcaron épocas, Roca FM Clásicos es la compañía perfecta. Esta emisora es un tesoro de la ciudad de La Paz, ofreciendo un repertorio que va desde los boleros que hicieron suspirar a nuestros abuelos hasta los hits que definieron la juventud de nuestros padres. Es un viaje musical que celebra nuestra rica herencia sonora. Con Roca FM Clásicos, cada canción es una historia y cada nota, un recuerdo. Los programas están diseñados para tocar el corazón de los bolivianos, con anécdotas de los artistas que han dejado su huella en la escena musical. La estación es un punto de encuentro para los que valoran la calidad y la tradición, y buscan un espacio donde la música habla el idioma de la nostalgia y la alegría.",
+        "redes_sociales": [
+            "https://www.facebook.com/freefmworld",
+            "https://twitter.com/freefmworld",
+            "https://www.instagram.com/freefmworld",
+            "https://www.youtube.com/channel/UCYuDMPeHBqH7ayg3H65OWxA"
+        ],
+        "sitio_web": "http://www.rocafm.eu/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Asi Somo-Radio",
+        "url_stream": "https://stream-154.zeno.fm/kct121zzs4zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrY3QxMjF6enM0enV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiSmF1T0RvZ2hTd0dPclBXcmtjM1JCZyIsImlhdCI6MTc2NzAyNDEwMCwiZXhwIjoxNzY3MDI0MTYwfQ.KM-BwcHxUEHVnoTe00XIlEg-WOY3I1v2-aTwg5yanhk",
+        "logo_local": "logos_emisoras\\Asi_SomoRadio.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "World Music"
+        ],
+        "descripcion": "Asi Somo-Radio, la voz de nuestra tierra, es el compañero diario de los bolivianos que resuena con el latido del corazón de Bolivia. Esta emisora es el hogar de la música que nos define, desde los ritmos de los valles hasta las melodías de las alturas, capturando la esencia de nuestra identidad. Con programas que van desde charlas con artistas locales hasta espacios de debate sobre la actualidad nacional, Asi Somo-Radio es el reflejo de nuestra comunidad. La radio se convierte en un espacio de encuentro donde las tradiciones se entrelazan con la modernidad, y donde la palabra y la música se funden para dar vida a historias que nos representan. Asi Somo-Radio no es solo una estación de radio, es un pedazo de hogar que llevamos con nosotros, un lugar donde cada canción y cada conversación nos acerca más a lo que somos.",
+        "redes_sociales": [
+            "https://www.facebook.com/Asi-Somos-Radio-864980020205723/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Verdad y Vida",
+        "url_stream": "https://stream-176.zeno.fm/5ftur5n0pr5uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1ZnR1cjVuMHByNXV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiVzVNSTlNbXlTVUNOQjJxcmJzX2JVQSIsImlhdCI6MTc2NzAyNDE1NywiZXhwIjoxNzY3MDI0MjE3fQ.fnPer2PZ6NFLtXzq5wmm30GH1hkDxqoAiuHTltDs4c0",
+        "logo_local": "logos_emisoras\\Radio_Verdad_y_Vida.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de la esperanza', Radio Verdad y Vida se ha arraigado en el corazón de Bolivia con su programación auténtica y cercana. Esta emisora no solo transmite música que alimenta el alma, sino que también crea un espacio de diálogo y reflexión sobre la vida diaria y los desafíos de nuestra sociedad. Desde charlas motivacionales hasta debates sobre temas de interés local, Radio Verdad y Vida acompaña a sus oyentes con una voz amiga que entiende y refleja la cultura boliviana. Su enfoque en la comunidad y su pasión por la radio hacen de esta estación un punto de encuentro para quienes valoran la tradición y la innovación en la radiodifusión.",
+        "redes_sociales": [
+            "https://www.facebook.com/CCVVRADIO"
+        ],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Cristiana Bolivia",
+        "url_stream": "https://stream-157.zeno.fm/h90vp1rxcfhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJoOTB2cDFyeGNmaHZ2IiwiaG9zdCI6InN0cmVhbS0xNTcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiS01pUXJEV2lSMldZdXpJRlB1R1pJUSIsImlhdCI6MTc2NzAyNDE4NSwiZXhwIjoxNzY3MDI0MjQ1fQ.c3Z53OVrjuZw8nhpcld8yp7D9z_5mlT03IE84bFjiH8",
+        "logo_local": "logos_emisoras\\Radio_Cristiana_Bolivia.jpg",
+        "generos": [
+            "Christian Contemporary",
+            "Religious",
+            "Children’s Music"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Voz de la Esperanza', Radio Cristiana Bolivia se destaca por ser un faro de luz en el dial boliviano. Su selección musical abarca los más bellos himnos y canciones contemporáneas que resuenan con el corazón del creyente, mientras que sus programas en vivo son un tejido de conversaciones auténticas, testimonios conmovedores y reflexiones profundas que tocan la vida cotidiana de sus oyentes. La radio se ha ganado el cariño de la comunidad local no solo por su contenido inspirador, sino también por su cercanía con la gente. Eventos comunitarios, campañas de ayuda y actividades de integración son solo algunas de las iniciativas que reflejan el compromiso de Radio Cristiana Bolivia con su público. Para el oyente boliviano, esta emisora no es solo una fuente de música y palabras de fe, sino un miembro activo y querido de su comunidad.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio La Favorita",
+        "url_stream": "https://stm15.painelcast.com:7180/stream",
+        "logo_local": "logos_emisoras\\Radio_La_Favorita.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Para aquellos que buscan una banda sonora que acompañe cada momento del día, Radio La Favorita es la compañera perfecta. Con una mezcla de ritmos que van desde la cumbia hasta el pop moderno, esta emisora es el reflejo de la alegría y el espíritu boliviano. No es solo una radio, es un punto de encuentro para quienes valoran la música con identidad y sabor local. En Radio La Favorita, cada canción es seleccionada con el corazón, pensando en los gustos y preferencias de nuestra gente. Los programas no solo entretienen, sino que también crean un lazo con la comunidad, ofreciendo espacios de diálogo, opinión y celebración de nuestras costumbres. Es el lugar donde la música nos une y la voz de Bolivia se amplifica para ser escuchada con orgullo.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radiolafavorita.net/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Onda Tropical Bolivia",
+        "url_stream": "https://stream-154.zeno.fm/p8fqeun3xnhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwOGZxZXVuM3huaHZ2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoibnRsUjYtMHNRSUNHQmdtaVo4c3BIQSIsImlhdCI6MTc2NzAyNDI0MiwiZXhwIjoxNzY3MDI0MzAyfQ.vUp1ZN_UBpzRMwHeU8mlUyjWF2q3fkeKRWBqL0Ct5Mk",
+        "logo_local": "logos_emisoras\\Radio_Onda_Tropical_Bolivia.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Onda de la Alegría', Radio Onda Tropical Bolivia es la compañera perfecta para el día a día del boliviano. Su programación está impregnada de la esencia de nuestra tierra, ofreciendo no solo música que hace latir los corazones al ritmo de la cumbia y la salsa, sino también espacios de diálogo y reflexión sobre temas que nos tocan de cerca. La radio se enorgullece de ser un espacio de encuentro para la comunidad, donde la voz del pueblo tiene un lugar destacado. Los programas locales, conducidos por voces conocidas y queridas, crean un ambiente familiar que invita a todos a sentirse parte de una gran familia musical. Es más que una radio; es un reflejo de nuestra identidad cultural.",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/radio-onda-trapical-bolivia/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Oxigeno/Radio",
+        "url_stream": "https://stream-166.zeno.fm/akau8u93p98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJha2F1OHU5M3A5OHV2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiclRUZ3F5VzZSOFMtMUhYMWxkSG1FQSIsImlhdCI6MTc2NzAyNDI3MywiZXhwIjoxNzY3MDI0MzMzfQ.Ac_j48rhzNpvKSpfEnUQtRtDaRJZk1zPjiRXWiJpTQA",
+        "logo_local": "logos_emisoras\\OxigenoRadio.jpg",
+        "generos": [
+            "Rock",
+            "90s",
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La radio que respira tu aire', Oxigeno/Radio se ha convertido en un símbolo de identidad boliviana. Su programación es un reflejo de la rica diversidad cultural del país, con bloques musicales que van desde los ritmos tradicionales hasta los éxitos internacionales más actuales. La estación no solo es un espacio para disfrutar de buena música, sino también un foro para la discusión de temas que afectan a la comunidad. Los programas de Oxigeno/Radio, repletos de anécdotas locales y perspectivas únicas, capturan la esencia de Bolivia, haciendo que cada oyente se sienta parte de una gran familia radial.",
+        "redes_sociales": [
+            "https://www.facebook.com/M5Comunicaciones"
+        ],
+        "sitio_web": "https://corporationm5.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Mix Clasico",
+        "url_stream": "https://stream-175.zeno.fm/bdm68hqq5s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiZG02OGhxcTVzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiWVpHU2ZjR1pSTVNtMFdQVnYwVGVCdyIsImlhdCI6MTc2NzAyNDMwNCwiZXhwIjoxNzY3MDI0MzY0fQ.y0-mn80KAZkKY7yNRhjHkoOpPkHFuyw5P_gng8MKzZM",
+        "logo_local": "logos_emisoras\\Radio_Mix_Clasico.jpg",
+        "generos": [
+            "Classical",
+            "Euro Hits",
+            "Classic Hits"
+        ],
+        "descripcion": "Para la audiencia boliviana, Radio Mix Clásico es más que una emisora; es un tesoro cultural que celebra la rica herencia musical del país y del mundo. Aquí, los clásicos que marcaron época resuenan con la misma frescura y vitalidad de siempre, creando un espacio donde la nostalgia y la contemporaneidad se encuentran. La radio se convierte en un punto de encuentro para quienes buscan rememorar los momentos dorados de la música y para aquellos que desean descubrir las joyas del pasado. Con un enfoque en la comunidad, Radio Mix Clásico también se involucra con sus oyentes a través de eventos locales y programas interactivos. La emisora se enorgullece de su capacidad para forjar conexiones personales con su público, ofreciendo una experiencia auditiva que va más allá de la simple reproducción de música. Es un lugar donde la pasión por los clásicos se vive y se comparte cada día.",
+        "redes_sociales": [
+            "https://www.facebook.com/Remixer-tv-267967365068755/?ref=pages_you_manage",
+            "https://www.youtube.com/channel/UCtN4j0OnlNanBDnvtJQtgPA"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Morena",
+        "url_stream": "https://stream-156.zeno.fm/7r207c68seruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3cjIwN2M2OHNlcnV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYlRwN3hSMmVRZWlPdVlsanVaRW1rZyIsImlhdCI6MTc2NzAyNDM5MCwiZXhwIjoxNzY3MDI0NDUwfQ.8uLG19BWtHetsr3BNU285I7mzkXghMPWVsEIk-IlW_o",
+        "logo_local": "logos_emisoras\\Radio_Morena.jpg",
+        "generos": [
+            "Salsa",
+            "Classic Hits",
+            "Merengue"
+        ],
+        "descripcion": "Con una sintonía que acompaña a los bolivianos día a día, Radio Morena se destaca por su cercanía con la audiencia. Esta emisora no solo es un referente musical, sino también un aliado informativo que refleja la realidad nacional con programas que invitan a la reflexión y al diálogo. La identidad cultural de Bolivia resuena en cada transmisión de Radio Morena, donde la tradición y la modernidad se entrelazan para crear una banda sonora que celebra la diversidad del país. Es el hogar de las voces que narran nuestras historias y las melodías que marcan nuestro ritmo de vida.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiomorenaes/"
+        ],
+        "sitio_web": "https://www.radiomorena.tk/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Deseo 103.3 FM",
+        "url_stream": "https://conectperu.com/8396/stream",
+        "logo_local": "logos_emisoras\\Radio_Deseo_1033_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Deseo 103.3 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiodeseo103.3/",
+            "https://twitter.com/radiodeseofm"
+        ],
+        "sitio_web": "http://radiodeseo.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "WKM Radio",
+        "url_stream": "https://co-e7-p-e-cl2-audio.cdn.mdstrm.com/live-audio/5c255b6a2856d158a734dba3/5df7cf305396b836ef541c12/playlist.m3u8?aid=5c255b6a2856d158a734dba3&pid=jbgLimURelnlnCDAOPXCIKOhIGGRy0UZ&sid=ue6oygNnyz42QyUqbzP3nH5vJjQz3yjK&uid=n7afyeKYox95nFsyeloP3EecW0aZaTNK&es=co-e7-p-e-cl2-audio.cdn.mdstrm.com&ote=1767110852455&ot=VGlAGMk8PwIZTT9QRB-JNA&proto=https&pz=us&cP=128000",
+        "logo_local": "logos_emisoras\\WKM_Radio.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para los amantes de la música y la cultura en Bolivia, WKM Radio es la compañera perfecta de cada día. Con una selección musical que abarca desde los ritmos tradicionales hasta las tendencias contemporáneas, esta emisora se ha ganado el corazón de su público local. Además de su ecléctica mezcla musical, WKM Radio conecta con su audiencia a través de programas que discuten temas de interés social y cultural, reflejando así el espíritu vibrante de Bolivia. La estación es un punto de encuentro para quienes buscan no solo entretenimiento, sino también un sentido de comunidad y pertenencia.",
+        "redes_sociales": [
+            "https://www.facebook.com/WKMRadio",
+            "https://twitter.com/WKMRadio",
+            "http://www.youtube.com/WKM915"
+        ],
+        "sitio_web": "http://www.wkmradio.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Nuevo Tiempo Bolivia",
+        "url_stream": "https://stream.live.novotempo.com/radio/smil:rntCochabambaBO.smil/playlist.m3u8",
+        "logo_local": "logos_emisoras\\Radio_Nuevo_Tiempo_Bolivia.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Escuchar Radio Nuevo Tiempo Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.nuevotiempo.org/bolivia/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio San Gabriel FM",
+        "url_stream": "https://spanel.gcomstreaming.com:7004/;",
+        "logo_local": "logos_emisoras\\Radio_San_Gabriel_FM.jpg",
+        "generos": [],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz del pueblo', Radio San Gabriel FM se ha convertido en un símbolo de identidad para los bolivianos. Esta emisora no solo es un espacio para disfrutar de buena música, sino también un punto de encuentro para la comunidad, donde se debaten temas de interés social, se promueve el arte local y se fortalecen los lazos culturales del país. La programación de Radio San Gabriel FM refleja el espíritu boliviano, con programas que van desde la difusión de música folclórica hasta espacios de opinión donde los oyentes pueden expresar libremente sus pensamientos. Es una estación que celebra la diversidad y la riqueza de Bolivia, invitando a sus oyentes a ser parte activa de su programación.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiosangabrieldebolivia",
+            "https://twitter.com/radiosgb"
+        ],
+        "sitio_web": "http://www.radiosangabriel.org.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Fides Potosí",
+        "url_stream": "https://usa7.fastcast4u.com/proxy/grflores?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Fides_Potosi.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para la audiencia de Potosí, Radio Fides es más que una emisora: es un reflejo de nuestra identidad. Con programas que exploran las tradiciones y la historia potosina, esta radio se ha ganado el corazón de los locales. La música folclórica, los debates comunitarios y las noticias locales son pilares de su programación diaria, creando un espacio de conexión y diálogo en nuestra comunidad. La cercanía con su público se siente en cada transmisión, donde los locutores, conocidos por su calidez y carisma, comparten anécdotas y consejos que resuenan con la vida cotidiana de los potosinos. Radio Fides Potosí no solo nos informa, sino que también nos acompaña y representa, siendo un verdadero tesoro de la radiodifusión local.",
+        "redes_sociales": [
+            "https://www.facebook.com/FidesPotosi"
+        ],
+        "sitio_web": "https://www.radiofides.com/es/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Actualidad 104.8 FM",
+        "url_stream": "https://azura1.bitstreaming.net:8150/radio.mp3",
+        "logo_local": "logos_emisoras\\Radio_Actualidad_1048_FM.jpg",
+        "generos": [
+            "News",
+            "Dance",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Actualidad 104.8 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.youtube.com/@actualidadcontenidos6625",
+            "https://www.facebook.com/profile.php?id=61560747394824"
+        ],
+        "sitio_web": "https://actualidadcontenidos.com.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Max Online",
+        "url_stream": "https://centova.streamrdm.com:4102/stream",
+        "logo_local": "logos_emisoras\\Radio_Max_Online.jpg",
+        "generos": [
+            "Reggaeton",
+            "90s",
+            "Electronic"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Máxima', Radio Max Online se ha convertido en un símbolo de identidad cultural en Bolivia. Su programación refleja la rica diversidad musical del país, desde los ritmos folclóricos hasta las tendencias actuales. Los locutores, que son figuras reconocidas en la comunidad, aportan un toque personal a cada emisión, creando un vínculo cercano con los oyentes. La radio no solo es una fuente de entretenimiento, sino también un espacio de encuentro para la comunidad. 'La Máxima' es un punto de referencia para eventos culturales, ofreciendo cobertura y apoyo a las manifestaciones artísticas locales. Su compromiso con la cultura boliviana es evidente en cada programa que transmite, convirtiéndola en una de las estaciones más queridas del país.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioMaxOnline/",
+            "https://www.youtube.com/channel/UCSowivoi_15WodRdlDT9iKw",
+            "https://www.instagram.com/radiomaxonline/",
+            "https://twitter.com/radiomaxonline1"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Folklore Nacional",
+        "url_stream": "https://stream-153.zeno.fm/zsbf9w2yzf8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6c2JmOXcyeXpmOHV2IiwiaG9zdCI6InN0cmVhbS0xNTMuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiLXpfbkJYNVpTclc5TWhzYWhodnhCZyIsImlhdCI6MTc2NzAyNDY3MCwiZXhwIjoxNzY3MDI0NzMwfQ.pt_cGL1SbM493Hm8zmHROaOAhHE-RhRXE_2a5dTQVHM",
+        "logo_local": "logos_emisoras\\Radio_Folklore_Nacional.jpg",
+        "generos": [
+            "Country"
+        ],
+        "descripcion": "Conocida cariñosamente entre los bolivianos como 'La voz del folklore', Radio Folklore Nacional se posiciona como la compañera ideal para las jornadas de quienes valoran las melodías y ritmos que definen la esencia de Bolivia. Esta emisora no solo entretiene, sino que educa y conecta a la comunidad con las historias y el alma detrás de cada canción. Desde los yungas hasta el altiplano, la radio acompaña a sus oyentes con una selección musical que es tan diversa como la geografía boliviana. Programas especializados en charango, zampoña y otros instrumentos típicos, junto con espacios dedicados a la danza y la poesía folklórica, hacen de esta radio un espacio único en el dial. Su enfoque en contenido de calidad y su cercanía con el público local la convierten en una fuente de orgullo y un símbolo de la identidad cultural boliviana.",
+        "redes_sociales": [
+            "https://www.instagram.com/c_chipana/",
+            "https://twitter.com/carloscahuaya1",
+            "https://www.facebook.com/juancarlos.chipana.7169"
+        ],
+        "sitio_web": "http://radiolafolklorisimama.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Betania",
+        "url_stream": "https://emiteradio.com/proxy/radiobetania?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Betania.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Betania en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://twitter.com/radiobetania",
+            "https://www.youtube.com/channel/UCWgbcUOQ2N6quKrDQiAKdzA",
+            "https://www.facebook.com/radiobetania.oficial"
+        ],
+        "sitio_web": "http://radiobetania.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Urbana 95.2",
+        "url_stream": "https://radio.yoemito.net/listen/urbana95/stream",
+        "logo_local": "logos_emisoras\\Radio_Urbana_952.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "90s",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Urbana 95.2 en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.urbana.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "La Mega 97.3 FM",
+        "url_stream": "https://stream-178.zeno.fm/hcw5f95ugy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJoY3c1Zjk1dWd5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiby1yajdwVEFUdHFlTGVxZHFZWTZ5QSIsImlhdCI6MTc2NzAyNDc2MywiZXhwIjoxNzY3MDI0ODIzfQ.FAbusYyrPvjvt7qu_8KQ8CB7tyY_B_xj2bxTQveN86U",
+        "logo_local": "logos_emisoras\\La_Mega_973_FM.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "Latino"
+        ],
+        "descripcion": "Para los bolivianos que buscan una banda sonora que acompañe cada momento de su día, La Mega 97.3 FM se presenta como la compañera perfecta. Esta emisora no solo toca los éxitos que todos quieren escuchar, sino que también se adentra en el corazón de la cultura musical boliviana, destacando géneros tradicionales y fusiones contemporáneas que definen nuestra identidad sonora. En La Mega, las mañanas comienzan con ritmos energizantes que preparan a los oyentes para el día, mientras que las tardes se llenan de melodías que invitan a la reflexión y al relax. Los fines de semana, la estación se transforma en el epicentro de la fiesta, con listas de reproducción que hacen vibrar a toda la comunidad. Es más que una radio; es un reflejo de la vida boliviana, un espacio donde la música nos une y celebra nuestra rica diversidad cultural.",
+        "redes_sociales": [],
+        "sitio_web": "https://lamega973fm.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Diana D",
+        "url_stream": "https://cesarradio.realserver.es/listen/diana_d_/radio.mp3",
+        "logo_local": "logos_emisoras\\Diana_D.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Diana D en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "http://dianadfm.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Boliviana Digital",
+        "url_stream": "https://stream-159.zeno.fm/mvxvrx5ws98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtdnh2cng1d3M5OHV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiaWxwT3ZTQmVSZTZ3MFRuMW53TGpxUSIsImlhdCI6MTc2NzAyNDgyNCwiZXhwIjoxNzY3MDI0ODg0fQ.SaUs8A3zyIMliaV63cvLgXMhqzarLioQ2sup81AOwxE",
+        "logo_local": "logos_emisoras\\Radio_Boliviana_Digital.jpg",
+        "generos": [
+            "Variety",
+            "News"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de Bolivia', Radio Boliviana Digital es la compañera perfecta para el día a día de los bolivianos. Desde las melodías folclóricas que resuenan con el alma de los Andes hasta los éxitos contemporáneos que definen el pulso moderno del país, esta emisora es un reflejo de la diversidad musical boliviana. La radio no solo entretiene, sino que también informa y educa, convirtiéndose en un foro donde se discuten temas de actualidad y relevancia local. Su programación está cuidadosamente curada para resonar con los valores y la identidad boliviana, manteniendo a los oyentes conectados con las raíces de su tierra natal mientras abrazan el futuro.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio La Super 90",
+        "url_stream": "https://stm15.painelcast.com:7180/;",
+        "logo_local": "logos_emisoras\\Radio_La_Super_90.jpg",
+        "generos": [
+            "Folk",
+            "Merengue",
+            "90s"
+        ],
+        "descripcion": "En el corazón de Bolivia, Radio La Super 90 resuena con la identidad cultural de nuestra nación. Esta emisora no solo es un espacio para disfrutar de la mejor selección musical, sino que también es un reflejo de nuestras tradiciones y valores. Con programas que van desde los éxitos actuales hasta los clásicos que nunca pasan de moda, la radio crea un puente entre generaciones. La cercanía con su audiencia es palpable en cada transmisión, donde los locutores, que ya son como de la familia, comparten anécdotas, consejos y noticias que nos tocan de cerca. Radio La Super 90 es más que una estación de radio; es un compañero de vida para los bolivianos, un amigo que nos acompaña en el día a día con una sonrisa en la voz y calidez en el corazón.",
+        "redes_sociales": [
+            "https://www.facebook.com/LASUPER90.NET"
+        ],
+        "sitio_web": "http://radiolasuper90.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Clasica Potosi",
+        "url_stream": "https://live.turadiotv.com/8046/stream",
+        "logo_local": "logos_emisoras\\Radio_Clasica_Potosi.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Radio Clasica Potosi en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioclasicapotosi.com/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Naval Digital Bolivia",
+        "url_stream": "https://stream-175.zeno.fm/85fwhtb6q98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI4NWZ3aHRiNnE5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoib00tV1JUcnlUa3k0a2lMUjFOU1BxUSIsImlhdCI6MTc2NzAyNDk2OCwiZXhwIjoxNzY3MDI1MDI4fQ.2_OhkQxRFXpLBkNpj1DdRudcYrDHSa6PU6xQ4gPlFzY",
+        "logo_local": "logos_emisoras\\Radio_Naval_Digital_Bolivia.jpg",
+        "generos": [
+            "Classical",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Para la audiencia boliviana, Radio Naval Digital Bolivia representa un espacio de encuentro y expresión cultural. Esta emisora se ha ganado el corazón de sus oyentes con programas que reflejan la identidad nacional, desde la música folclórica hasta las últimas noticias del país. Es un verdadero reflejo de la diversidad y riqueza cultural de Bolivia. Con una programación que abarca desde los clásicos hasta las novedades del panorama musical boliviano, la radio se convierte en la banda sonora de la vida cotidiana de sus oyentes. Además, su equipo de locutores aporta un toque personal a cada emisión, creando una atmósfera familiar y cercana para todos los que sintonizan.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Naval-Digital-271045121433166"
+        ],
+        "sitio_web": "https://radionavaldigital.webnode.es/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Antena 2000",
+        "url_stream": "https://cloudstream2032.conectarhosting.com/8202/stream",
+        "logo_local": "logos_emisoras\\Radio_Antena_2000.jpg",
+        "generos": [
+            "News",
+            "Local"
+        ],
+        "descripcion": "En el corazón de Bolivia, Radio Antena 2000 es la compañera perfecta para el día a día de los bolivianos. Con una programación que refleja la rica cultura musical del país, esta emisora es el hogar de los éxitos de ayer y hoy. No es solo una radio, es una comunidad donde la actualidad, la cultura y la música se encuentran en un solo lugar. Los fines de semana, la estación se transforma en el epicentro de la alegría con programas en vivo que invitan a la interacción y celebran la identidad boliviana. La pasión por la música y el compromiso con los oyentes se siente en cada transmisión, creando un vínculo único que trasciende lo auditivo para convertirse en una experiencia compartida.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100063746836017"
+        ],
+        "sitio_web": "https://radioantena2000sucre.com/",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "Radio Estrella 93.1",
+        "url_stream": "https://cesarradio.realserver.es/listen/lne_93.1/radio.mp3",
+        "logo_local": "logos_emisoras\\Radio_Estrella_931.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Oldies",
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Estrella de la Radio', Radio Estrella 93.1 es la compañera perfecta para el día a día de los bolivianos. Su programación refleja la rica cultura de Bolivia, con segmentos dedicados a la música folclórica, espacios de debate sobre temas de actualidad nacional y programas que celebran las tradiciones y valores locales. La cercanía con su público se manifiesta en cada transmisión, donde los locutores comparten anécdotas, consejos y risas, creando un ambiente familiar y acogedor. Radio Estrella 93.1 no es solo una emisora, es un miembro más de cada hogar boliviano, que acompaña las mañanas de trabajo y las tardes de descanso con una programación pensada especialmente para el gusto y el sentir de su gente.",
+        "redes_sociales": [
+            "https://twitter.com/radioestrella93?lang=es",
+            "https://www.facebook.com/Radio-Estrella-931"
+        ],
+        "sitio_web": "http://www.radioestrella93.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Unión Zárate Bolivia",
+        "url_stream": "https://stream-175.zeno.fm/c3w3pt3eq2zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjM3czcHQzZXEyenV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoidnBJSVRMRm1TX1NnaFhSeDhoSklkdyIsImlhdCI6MTc2NzAyNTA1NywiZXhwIjoxNzY3MDI1MTE3fQ.T9sEU_IhJtRRxR7J_3_3Sboe25FXH3XSF9j5nhDIr6w",
+        "logo_local": "logos_emisoras\\Radio_Union_Zarate_Bolivia.jpg",
+        "generos": [
+            "Classic Hits",
+            "Culture",
+            "World Music"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de Zárate', Radio Unión Zárate Bolivia se ha convertido en un símbolo de identidad cultural en la región. Esta emisora no solo es un punto de encuentro para los amantes de la música boliviana, sino también un espacio donde se fomenta el diálogo y la expresión de las voces locales. Desde programas que exploran la riqueza del folklore hasta segmentos que discuten temas de actualidad nacional, Radio Unión Zárate es el reflejo de la vida cotidiana boliviana. Su enfoque en la cultura, las tradiciones y las noticias locales, presentado con un tono cercano y familiar, resuena en el corazón de sus oyentes, quienes la consideran parte de su día a día.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCodAp3p-0mjBHBblxUeN1tw?view_as=subscriber",
+            "https://www.facebook.com/anthonnyjuan.ramirez"
+        ],
+        "sitio_web": "https://radiounionzarate.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Tuti 89.1 FM CLIZA",
+        "url_stream": "https://stm19.voxhd.com.br:11656/;",
+        "logo_local": "logos_emisoras\\Tuti_891_FM_CLIZA.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Para la audiencia de Cliza, Tuti 89.1 FM es más que una radio; es un compañero de todos los días que acompaña con su música y programas a cada rincón de nuestra comunidad. Con una selección musical que va desde los ritmos tradicionales hasta los éxitos actuales, esta emisora es el reflejo de nuestra identidad cultural y el pulso de la vida cotidiana en nuestra región. Los programas de Tuti 89.1 FM, ricos en contenido y con un toque personal, no solo entretienen, sino que también son un espacio de diálogo y participación ciudadana. Aquí, la voz del pueblo de Cliza se escucha fuerte y clara, en un intercambio dinámico de ideas y música que nos une. Es la radio que nos representa, con un estilo inconfundible y una pasión por lo nuestro que se siente en cada transmisión.",
+        "redes_sociales": [
+            "https://www.facebook.com/vavizaclicomunicaciones/"
+        ],
+        "sitio_web": "http://vavizacli.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "La Sabrosita",
+        "url_stream": "https://stream-156.zeno.fm/dxzi6fnk5t2tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkeHppNmZuazV0MnR2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYjRGM2NodHdRWk8yalVOVzNBaU9XZyIsImlhdCI6MTc2NzAyNTExOCwiZXhwIjoxNzY3MDI1MTc4fQ.Ac35Vv0yxTu16wkPy7Ivzz9HpSrEWy5W0dLr-K_Jmv0",
+        "logo_local": "logos_emisoras\\La_Sabrosita.jpg",
+        "generos": [
+            "80s",
+            "Top 40",
+            "Latino"
+        ],
+        "descripcion": "Para los amantes de la música en Bolivia, La Sabrosita es sinónimo de ritmo y sabor. Esta emisora se ha ganado el corazón de su audiencia local con una programación que refleja el espíritu alegre y dinámico de su gente. Desde la cumbia hasta la salsa, pasando por los últimos hits del reguetón, la estación es un reflejo de la rica diversidad musical del país. Interactuando constantemente con su base de oyentes, La Sabrosita no solo transmite música, sino que crea una comunidad. Los locutores, conocidos por su carisma y cercanía, invitan a la audiencia a ser parte de la familia radial, compartiendo historias, risas y, por supuesto, la mejor selección de canciones que resuenan en el corazón de Bolivia.",
+        "redes_sociales": [
+            "https://www.facebook.com/M5Comunicaciones"
+        ],
+        "sitio_web": "https://corporationm5.com/",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "Radio El Sonido de Vida",
+        "url_stream": "https://stream-157.zeno.fm/c4z6tu9gqeruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjNHo2dHU5Z3FlcnV2IiwiaG9zdCI6InN0cmVhbS0xNTcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYXNmVHBkR2JUUjJnNzJtWks1UUZjUSIsImlhdCI6MTc2NzAyNTE3NiwiZXhwIjoxNzY3MDI1MjM2fQ.ssu0p5A8I7-L1bBSIfa6zn8s6eRWfS683Ujw83SDQ2k",
+        "logo_local": "logos_emisoras\\Radio_El_Sonido_de_Vida.jpg",
+        "generos": [
+            "Gospel"
+        ],
+        "descripcion": "En el corazón de Bolivia, Radio El Sonido de Vida resuena con la esencia de nuestra tierra, brindando a la comunidad una mezcla única de ritmos que van desde lo tradicional hasta lo moderno. Esta estación no solo es un espacio para disfrutar de buena música, sino también un punto de encuentro para el diálogo y la expresión cultural. Con programas que destacan las noticias locales, talentos emergentes y las historias que definen nuestra identidad, Radio El Sonido de Vida se posiciona como un pilar en la difusión de nuestra cultura. La pasión por lo que hacemos se transmite en cada nota y palabra, conectando a los bolivianos con su patrimonio y con el mundo.",
+        "redes_sociales": [
+            "https://www.instagram.com/radioelsonidodevida/tagged/",
+            "https://www.facebook.com/radioelsonidodevida/"
+        ],
+        "sitio_web": "https://www.radioelsonidodevida.tk/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Lobo",
+        "url_stream": "https://eu1.serviaudio.com/8056/stream",
+        "logo_local": "logos_emisoras\\Radio_Lobo.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para los amantes de la música y la cultura boliviana, Radio Lobo es sinónimo de tradición y modernidad. Con una selección musical que abarca desde los clásicos del folklore hasta los éxitos actuales del pop latino, esta emisora se ha convertido en el acompañante perfecto para el día a día de los bolivianos. En Radio Lobo, cada melodía es una celebración de nuestras raíces y cada programa es un reflejo de la vida cotidiana en Bolivia. Los locutores, que son verdaderos conocedores de nuestra idiosincrasia, crean una atmósfera de cercanía y familiaridad, invitando a la audiencia a ser parte de una comunidad unida por la pasión por la música y el amor por nuestro país.",
+        "redes_sociales": [
+            "http://www.facebook.com/fmlobo90.3",
+            "http://www.twitter.com/radiolobo903fm1"
+        ],
+        "sitio_web": "http://www.radiolobofmbolivia.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Mix bolivia",
+        "url_stream": "https://stm6.voxhd.com.br:11984/;",
+        "logo_local": "logos_emisoras\\Radio_Mix_bolivia.jpg",
+        "generos": [
+            "Hot AC"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La mezcla perfecta', Radio Mix Bolivia es el corazón de la radiofusión en nuestro país. Esta emisora es el hogar de los sonidos que definen nuestra identidad, desde la cumbia que nos hace bailar hasta las baladas que nos tocan el alma. Es el lugar donde la música y las palabras se entrelazan para contar la historia de Bolivia. En Radio Mix Bolivia, cada día es una celebración de nuestras raíces y un abrazo a las nuevas corrientes que nos mueven. Los programas no solo son bloques de canciones, sino viajes a través de los paisajes sonoros que nos representan. Y mientras disfrutamos de la música, también nos mantenemos informados y conectados con lo que sucede en nuestro entorno, gracias a un equipo que sabe hablar el lenguaje de su gente.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiomixoruro"
+        ],
+        "sitio_web": "http://radiomixoruro.es.tl/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Play Unica",
+        "url_stream": "https://usa16.fastcast4u.com/proxy/kenta?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Play_Unica.jpg",
+        "generos": [
+            "International",
+            "Romantic",
+            "Latino"
+        ],
+        "descripcion": "Radio Play Unica, con su esencia única y su sabor boliviano, se ha convertido en un punto de encuentro para los amantes de la música y la cultura en nuestro país. Su programación es un reflejo de la rica diversidad musical de Bolivia, desde los ritmos tradicionales hasta las tendencias contemporáneas, capturando la esencia de nuestra identidad. La radio es un espacio donde la comunidad puede disfrutar de diálogos enriquecedores, descubrir talentos locales y mantenerse al día con los eventos culturales que nos definen. La pasión de Radio Play Unica por nuestra herencia se manifiesta en cada programa, creando una banda sonora que acompaña a los bolivianos en su día a día.",
+        "redes_sociales": [],
+        "sitio_web": "https://sites.google.com/view/radioplayunica",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Stereo Hits Radio",
+        "url_stream": "https://live.turadiotv.com/8018/stream",
+        "logo_local": "logos_emisoras\\Stereo_Hits_Radio.jpg",
+        "generos": [
+            "Rock",
+            "Classic Hits",
+            "Top 40"
+        ],
+        "descripcion": "Escuchar Stereo Hits Radio en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/Stereo-Hits-Radio-225807004156372"
+        ],
+        "sitio_web": "http://www.stereohitsradio.com/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Camotito TV",
+        "url_stream": "https://stm19.painelcast.com:7278/stream/",
+        "logo_local": "logos_emisoras\\Radio_Camotito_TV.jpg",
+        "generos": [
+            "Jazz"
+        ],
+        "descripcion": "Escuchar Radio Camotito TV en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiocamotitotvbolivia.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Cadena Dance Bolivia",
+        "url_stream": "https://sonic.streamingchilenos.com:8138/;",
+        "logo_local": "logos_emisoras\\Cadena_Dance_Bolivia.jpg",
+        "generos": [
+            "Dance",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Para los amantes de la música y el baile en el corazón de Bolivia, Cadena Dance Bolivia representa más que una radio; es una comunidad vibrante que celebra la cultura dance y electrónica. Con una mezcla enriquecedora de ritmos que van desde el techno hasta el reggaetón, esta emisora es el pulso de la juventud boliviana, conectando a sus oyentes con los sonidos que mueven las calles y las discotecas del país. La pasión por la música se siente en cada transmisión, donde los DJ locales aportan su toque personal a las listas de éxitos internacionales y descubren talentos emergentes del panorama nacional. Cadena Dance Bolivia no solo entretiene, sino que también inspira a su audiencia a explorar nuevos horizontes musicales y a vivir la fiesta de la vida con cada nota.",
+        "redes_sociales": [
+            "https://www.instagram.com/radiofmdance/",
+            "https://twitter.com/RadioFmDance",
+            "https://www.facebook.com/radiofmdance"
+        ],
+        "sitio_web": "https://radiofmdance.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Mix Trance Electro",
+        "url_stream": "https://stream-178.zeno.fm/5h0autw6y98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1aDBhdXR3Nnk5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiQkVWVGl2LUpUUGFRVkZDYXh2ZlpvUSIsImlhdCI6MTc2NzAyNTQzNCwiZXhwIjoxNzY3MDI1NDk0fQ.we09L5omVqT25zA4__fSu9_I3hJHShtWr35NU9I26OQ",
+        "logo_local": "logos_emisoras\\Radio_Mix_Trance_Electro.jpg",
+        "generos": [
+            "Techno",
+            "Dance",
+            "Electronic"
+        ],
+        "descripcion": "Para los amantes del ritmo y la electrónica en el corazón de Bolivia, Radio Mix Trance Electro es más que una emisora; es un punto de encuentro donde la comunidad de seguidores del trance y el electro se unen. La estación no solo emite temas que definen el pulso de la escena actual, sino que también es un espacio donde los talentos locales tienen la oportunidad de brillar. Con una programación que abarca desde los sonidos más vanguardistas hasta los beats que marcaron épocas, esta radio se ha convertido en el soundtrack de la vida nocturna boliviana. Su influencia va más allá de la música, siendo un reflejo de la cultura electrónica que vive y respira en las calles de nuestras ciudades.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Altiplano ADvenir",
+        "url_stream": "https://stream.eleden.com/altiplano.aac/altiplano.aac.stream/playlist.m3u8",
+        "logo_local": "logos_emisoras\\Radio_Altiplano_ADvenir.jpg",
+        "generos": [
+            "Christian",
+            "Culture"
+        ],
+        "descripcion": "Para la audiencia boliviana, Radio Altiplano Red ADvenir es más que una emisora; es un punto de encuentro donde la cultura y las tradiciones se entrelazan con la actualidad. Aquí, la música folklórica se fusiona con segmentos de actualidad y espacios de diálogo comunitario, reflejando la rica diversidad de Bolivia. Los programas de Radio Altiplano van más allá de la simple transmisión de canciones; son una celebración de nuestra identidad, con espacios dedicados a la educación, la salud y el bienestar integral. La radio se convierte en un amigo cercano que acompaña a los bolivianos en su día a día, ofreciendo contenidos que resuenan con sus vivencias y aspiraciones.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioAltiplanoAdvenir"
+        ],
+        "sitio_web": "http://redadvenir.org/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Mega Estación",
+        "url_stream": "https://stream-155.zeno.fm/dra0d7r2x68uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkcmEwZDdyMng2OHV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoidldISnpaMjlRMnlnejVUeFJKWmFhQSIsImlhdCI6MTc2NzAyNTQ5MywiZXhwIjoxNzY3MDI1NTUzfQ.p_yi5s45Fa8-LJMlCHqfHcs3LGSjywGz3L1HjNJZFQY",
+        "logo_local": "logos_emisoras\\Radio_Mega_Estacion.jpg",
+        "generos": [
+            "World Music",
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Mega', esta estación de radio se ha convertido en un punto de encuentro para los bolivianos que buscan no solo música de calidad, sino también un espacio de expresión cultural. 'La Mega' es el hogar de programas que celebran la riqueza de la cultura boliviana, desde segmentos de folklore hasta espacios de música urbana moderna. Interactuando constantemente con su comunidad, Radio Mega Estación invita a sus oyentes a ser parte de la experiencia radial, ya sea a través de llamadas en vivo o participación en redes sociales. Esta cercanía con su público refleja el espíritu acogedor y auténtico que caracteriza a Bolivia, haciendo de 'La Mega' una estación con un corazón palpablemente local.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Manantial",
+        "url_stream": "https://emiteradio.com/proxy/manantial?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Manantial.jpg",
+        "generos": [
+            "Variety",
+            "Christian"
+        ],
+        "descripcion": "Radio Manantial es una emisora de radio de Bolivia, propiedad del Centro Cristiano Evangélico Casa de Oración, que se enfoca en la difusión de la palabra de Dios a través de su programación. La estación transmite en la frecuencia FM 99.7 y cuenta con una señal a través de internet para todo el mundo. La misión de Radio Manantial es comunicar la visión del Reino de Dios a través de una programación que impacte y transforme, desarrollando los principios bíblicos cada día. La estación se enfoca en una programación equilibrada que combina enseñanzas y prédicas con música de alabanza y adoración, y programas específicos como doctrinales, mesas redondas, noticias y juveniles. La página web de Radio Manantial ofrece la transmisión en vivo de la estación, así como información sobre su programación, locutores y contacto. La estación busca desarrollar un nuevo formato de comunicación radiofónica, creando una programación diferente a la que manejan radios seculares y radios cristianas. Radio Mana",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioManantialBo",
+            "https://www.instagram.com/radiomanantialbo/",
+            "https://www.youtube.com/@radiomanantialbolivia4388"
+        ],
+        "sitio_web": "https://radiomanantial.com.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Vip",
+        "url_stream": "https://stream-179.zeno.fm/wx6uuv7y14zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3eDZ1dXY3eTE0enV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicmlacjE2QkJRdFNybDVxZWJJZVFlUSIsImlhdCI6MTc2NzAyNTU1MSwiZXhwIjoxNzY3MDI1NjExfQ.vff73cuKs70kqzY6Y6nPWcYs49CnfY5PpED1oK_iaCA",
+        "logo_local": "logos_emisoras\\Radio_Vip.jpg",
+        "generos": [
+            "Reggaeton",
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Voz de la Juventud', Radio Vip se ha ganado el corazón de los bolivianos con su inconfundible estilo y energía. Esta emisora es el punto de encuentro para los amantes de la música urbana, ofreciendo una mezcla única de reguetón y trap que resuena con el pulso de las calles de Bolivia. En Radio Vip, la interacción con la comunidad es clave. Los programas no solo presentan listas de reproducción cuidadosamente seleccionadas, sino que también incluyen espacios de diálogo y discusión sobre temas de actualidad, lo que refleja el compromiso de la radio con su público local. La pasión por la música y la cultura que define a los bolivianos se siente en cada transmisión, haciendo de esta estación una verdadera representante de la identidad nacional en el aire.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "Radio Integración",
+        "url_stream": "https://stream.nepsum.com/radiointegracion.mp3",
+        "logo_local": "logos_emisoras\\Radio_Integracion.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Integración en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://twitter.com/integracion640",
+            "https://www.facebook.com/integracion640"
+        ],
+        "sitio_web": "https://www.radiointegracion.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Popular FM Bolivia",
+        "url_stream": "https://stream-176.zeno.fm/8ze4589b47zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI4emU0NTg5YjQ3enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiaXM3dWR0U0hTenlkNUhNNVpQZjJIQSIsImlhdCI6MTc2NzAyNTYxMCwiZXhwIjoxNzY3MDI1NjcwfQ.AoL55qxzy6DETSKir_7WdIO6B__j_dd4_MtqxrDaL_Q",
+        "logo_local": "logos_emisoras\\Radio_Popular_FM_Bolivia.jpg",
+        "generos": [
+            "Alternative Rock",
+            "AAA - Adult Album Alternative",
+            "Classic Country"
+        ],
+        "descripcion": "Para los oyentes bolivianos que buscan una banda sonora que resuene con el pulso de su tierra, Radio Popular FM ofrece una ventana sonora a las tradiciones y la modernidad de Bolivia. Con una programación que abraza desde los ritmos autóctonos hasta las tendencias actuales, esta emisora es un reflejo de la rica tapestry cultural del país. En Radio Popular FM, las mañanas comienzan con las últimas noticias y se deslizan hacia tardes llenas de charlas y música que acompañan a los oyentes en sus quehaceres diarios. Las noches se llenan de programas especializados que exploran la profundidad del folklore boliviano y presentan los talentos emergentes de la escena musical. Es más que una radio; es un amigo que conoce el corazón de Bolivia.",
+        "redes_sociales": [],
+        "sitio_web": "http://radiopopularfmargentina.blogspot.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "radio folklore nacional",
+        "url_stream": "https://stream-152.zeno.fm/zsbf9w2yzf8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6c2JmOXcyeXpmOHV2IiwiaG9zdCI6InN0cmVhbS0xNTIuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiSVc5N0ItQVNUQy1lT29pMGVxX0dkdyIsImlhdCI6MTc2NzAyNTY2OSwiZXhwIjoxNzY3MDI1NzI5fQ.741g-nQcU2taT79FSq2fXk1GeIyMCwYtaPofe-ihHdw",
+        "logo_local": "logos_emisoras\\radio_folklore_nacional.jpg",
+        "generos": [
+            "70s",
+            "World Music",
+            "60s"
+        ],
+        "descripcion": "Escuchar radio folklore nacional en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.boliviapuntotv.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio La Bruja FM",
+        "url_stream": "https://live.turadiotv.com/8206/;",
+        "logo_local": "logos_emisoras\\Radio_La_Bruja_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio La Bruja FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/labrujafm/?locale=es_LA",
+            "https://twitter.com/labruja_fm",
+            "https://www.tiktok.com/@radiolabruja"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "Red Yungas",
+        "url_stream": "https://radio.ackrossbolivia.com/8032/stream",
+        "logo_local": "logos_emisoras\\Red_Yungas.jpg",
+        "generos": [
+            "News",
+            "Culture",
+            "Regional"
+        ],
+        "descripcion": "Escuchar Red Yungas en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/RedYungasdeCoroico",
+            "https://www.youtube.com/@RedYungas"
+        ],
+        "sitio_web": "https://www.redyungas.com.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Red Siglo XXI - Bolivia",
+        "url_stream": "https://radio.ackrossbolivia.com/8040/;",
+        "logo_local": "logos_emisoras\\Red_Siglo_XXI_Bolivia.jpg",
+        "generos": [
+            "Public"
+        ],
+        "descripcion": "Para el oyente boliviano, Red Siglo XXI es más que una radio; es un encuentro diario con las raíces y la identidad nacional. Aquí, la música folklórica, que es el alma de nuestras fiestas y tradiciones, se transmite con el mismo fervor que se vive en nuestras celebraciones. La radio se convierte en un escenario que acoge desde los sonidos ancestrales de los instrumentos autóctonos hasta las melodías que definen la escena musical actual de Bolivia. Interactuando con la comunidad, Red Siglo XXI va más allá de la música, abordando las inquietudes sociales y políticas que nos definen como sociedad. Los programas de debate y las transmisiones en vivo desde diferentes puntos del país, hacen de esta emisora una compañera inseparable en la cotidianidad de los bolivianos, siempre con un enfoque que celebra nuestra cultura y promueve el diálogo constructivo.",
+        "redes_sociales": [
+            "https://www.facebook.com/RedSigloXXIdeBolivia"
+        ],
+        "sitio_web": "https://redsigloxxibolivia.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "VH Radio",
+        "url_stream": "https://vhradioserver.com:8010/radio.mp3",
+        "logo_local": "logos_emisoras\\VH_Radio.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escuchar VH Radio en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/VictorHugoBolivia",
+            "https://www.instagram.com/te_lo_cuenta_victor_hugo/",
+            "https://www.youtube.com/@telocuentavictorhugo8637"
+        ],
+        "sitio_web": "https://plustvpress.com/vhradio/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio La Luz Del Tiempo",
+        "url_stream": "https://ec1.yesstreaming.net:3735/stream",
+        "logo_local": "logos_emisoras\\Radio_La_Luz_Del_Tiempo.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Escuchar Radio La Luz Del Tiempo en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Zed Stereo Radio",
+        "url_stream": "https://stream-178.zeno.fm/s8b8043gswzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzOGI4MDQzZ3N3enV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoic2V6YnBIVkNUWTJFNGFjX0xJaHI2ZyIsImlhdCI6MTc2NzAyNTg3OCwiZXhwIjoxNzY3MDI1OTM4fQ.-8dAaQBuNDcMoWm3n5Gc0h8i7LttunQQI-Kv21X36dk",
+        "logo_local": "logos_emisoras\\Zed_Stereo_Radio.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "Para la audiencia boliviana, Zed Stereo Radio representa un espacio de encuentro con la cultura y la música que nos identifica. Esta emisora, que resuena en los corazones de los bolivianos, es un crisol de sonidos que van desde la cumbia hasta el pop, reflejando la rica diversidad musical del país. Los programas de Zed Stereo Radio, conducidos por voces carismáticas y conocedoras, son una ventana a las tradiciones y novedades artísticas que forman parte de nuestra identidad. En Zed Stereo Radio, cada melodía es una historia y cada programa, una oportunidad para conectar con nuestras raíces y con el mundo. La estación es un punto de referencia para los amantes de la música y la cultura, ofreciendo una experiencia radial auténtica y cercana al espíritu boliviano.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCEIrQfiBnfjbMZKo5FUc2jw?view_as=subscriber",
+            "https://www.facebook.com/Zed-Stereo-1565015223769423/"
+        ],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Universal FM 106.9",
+        "url_stream": "https://radio.yoemito.net/listen/universalfm/stream",
+        "logo_local": "logos_emisoras\\Radio_Universal_FM_1069.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Voz de Bolivia', Radio Universal es la compañera perfecta para el día a día de los bolivianos. Su programación refleja la rica cultura del país, con segmentos dedicados a la música folclórica, espacios de debate sobre temas de actualidad y programas que celebran las tradiciones y valores locales. La cercanía con su público se manifiesta en cada transmisión, donde los locutores comparten anécdotas, consejos y la calidez que caracteriza al pueblo boliviano. Además, Radio Universal se involucra activamente en la comunidad, apoyando eventos culturales y sociales, lo que la convierte en una pieza fundamental del tejido social de Bolivia. Su enfoque en la relevancia local, sin perder el contexto internacional, hace que la emisora sea un punto de encuentro para los bolivianos dentro y fuera del país.",
+        "redes_sociales": [],
+        "sitio_web": "https://grupocentro.com.bo/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio La Luz Del Tiempo Internacional",
+        "url_stream": "https://ec1.yesstreaming.net:3515/stream",
+        "logo_local": "logos_emisoras\\Radio_La_Luz_Del_Tiempo_Internacional.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Escuchar Radio La Luz Del Tiempo Internacional en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Aclo Chaco",
+        "url_stream": "https://cloudstream2030.conectarhosting.com/8192/stream",
+        "logo_local": "logos_emisoras\\Radio_Aclo_Chaco.jpg",
+        "generos": [],
+        "descripcion": "Para la audiencia que sintoniza desde el corazón de Bolivia, Radio Aclo Chaco es más que una emisora; es un punto de encuentro donde la actualidad, la tradición y la música se entrelazan. Aquí, la voz del pueblo resuena en programas que abordan temas sociales, económicos y políticos, siempre con un toque distintivamente chaqueño. La radio acompaña a sus oyentes con una programación que refleja el pulso de la vida cotidiana, desde las primeras horas con espacios dedicados a la agricultura y la ganadería, hasta las noches con segmentos que celebran la rica herencia musical de la región. Es un espacio donde la comunidad se ve reflejada y escuchada, un fiel reflejo de la identidad boliviana.",
+        "redes_sociales": [
+            "https://www.facebook.com/fundacionaclo.web/"
+        ],
+        "sitio_web": "https://www.aclo.org.bo/radio-aclo-chaco/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Bethel 95.5 FM",
+        "url_stream": "https://live.turadiotv.com/8120/stream",
+        "logo_local": "logos_emisoras\\Radio_Bethel_955_FM.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de la esperanza', Radio Bethel 95.5 FM se ha convertido en un punto de encuentro para los amantes de la música y la cultura boliviana. Desde ritmos folklóricos hasta las últimas tendencias musicales, esta emisora es el reflejo de la rica diversidad de Bolivia. Interactuando constantemente con su comunidad, Radio Bethel no solo transmite música, sino que también es un foro para el diálogo social y la expresión de la fe. Los programas en vivo permiten a los oyentes participar y compartir sus historias, creando un lazo único entre la radio y su público. La pasión y el cariño que el equipo de Radio Bethel pone en cada transmisión se siente en cada nota y palabra emitida al aire.",
+        "redes_sociales": [],
+        "sitio_web": "http://radio-bethel.net/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Illimani",
+        "url_stream": "https://rponline.presidencia.gob.bo/stream",
+        "logo_local": "logos_emisoras\\Radio_Illimani.jpg",
+        "generos": [
+            "Public"
+        ],
+        "descripcion": "Para el oyente boliviano, Radio Illimani representa una voz familiar que resuena en los hogares y corazones de la población. Con programas que reflejan la riqueza cultural de Bolivia, esta emisora se ha ganado un lugar especial en la vida cotidiana de sus seguidores. Desde segmentos de folklore nacional hasta espacios de debate sobre temas de interés local, la radio crea un lazo único con su audiencia. La calidez de sus locutores y la cercanía que logran con el público, hacen de Radio Illimani más que una estación de radio; es un compañero que acompaña, informa y entretiene, reflejando el espíritu y la identidad boliviana. La pasión por lo que hacen se transmite en cada transmisión, conectando a la comunidad con su cultura y sus raíces a través de las ondas radiales.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioillimani.bo/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Ritmo Huanuni",
+        "url_stream": "https://stream-178.zeno.fm/thn9k054aa9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0aG45azA1NGFhOXV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoieHlZWmZXNkhSZ2FMSnBHQnVZczBzdyIsImlhdCI6MTc2NzAyNjExNCwiZXhwIjoxNzY3MDI2MTc0fQ.ZWrzXBGDPTtkUmIbDpVwRTKY-aaMIkgNBnOOtVQ3i-w",
+        "logo_local": "logos_emisoras\\Radio_Ritmo_Huanuni.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Para los amantes de la música y la cultura en Huanuni, Radio Ritmo se ha establecido como la compañera perfecta de cada día. Con una mezcla de sonidos que capturan la esencia de Bolivia, esta emisora es el reflejo de la identidad musical de nuestra región. La radio no solo es una fuente de melodías que resuenan con nuestras tradiciones, sino también un foro para la comunidad, donde se discuten temas de actualidad y se comparten historias que nos unen. La cercanía con su audiencia es palpable en cada segmento, creando una atmósfera de camaradería que trasciende las ondas radiales.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioritmo98.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Sendas Antiguas Bolivia",
+        "url_stream": "https://stream-166.zeno.fm/74dgcssxaphvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3NGRnY3NzeGFwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiSUdDMWROaWlRSTZFTVJOb3A2bGpDUSIsImlhdCI6MTc2NzAyNjE0NSwiZXhwIjoxNzY3MDI2MjA1fQ.Q7fEfq83DD9T88utHt02DZh9MmxBeZN10BIibnYe910",
+        "logo_local": "logos_emisoras\\Sendas_Antiguas_Bolivia.jpg",
+        "generos": [
+            "Christian",
+            "Gospel",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Sendas Antiguas Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Sendas-Antiguas-Bolivia/61555245594345/"
+        ],
+        "sitio_web": "https://sendasboliviaradio.wixsite.com/inicio",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Quechua",
+        "url_stream": "https://stream-175.zeno.fm/e78z1h3drd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlNzh6MWgzZHJkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiWTVZME0yaGxUbk9pVFRPZlRqQzBPQSIsImlhdCI6MTc2NzAyNjE3NywiZXhwIjoxNzY3MDI2MjM3fQ.QRDuHzOIUy2TIz919MfJFvtN3aqGMRjW3NTen6nGYXY",
+        "logo_local": "logos_emisoras\\Quechua.jpg",
+        "generos": [
+            "Folk"
+        ],
+        "descripcion": "Para la audiencia boliviana, Quechua no es solo una radio, es un eco de nuestra identidad. Entre melodías que recuerdan a los Andes y conversaciones que tocan el corazón, esta emisora se ha convertido en el hogar sonoro de nuestras tradiciones. Aquí, la música folklórica se entrelaza con relatos y leyendas, pintando un paisaje sonoro tan vasto como el Salar de Uyuni. En cada transmisión, Quechua invita a sus oyentes a un viaje por la diversidad cultural de nuestras tierras, ofreciendo programas que van desde la educación bilingüe hasta debates sobre el futuro de nuestras comunidades. Es un espacio donde la voz del pueblo se amplifica, manteniendo viva la llama de nuestra herencia cultural.",
+        "redes_sociales": [
+            "https://www.facebook.com/Quechuafm"
+        ],
+        "sitio_web": "http://quechuafm.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Bacan TV",
+        "url_stream": "https://stm1.painelcast.com:7610/;",
+        "logo_local": "logos_emisoras\\Radio_Bacan_TV.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Bacan TV en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiobacantv.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio AYMARA",
+        "url_stream": "https://stream-159.zeno.fm/mryk3skxum0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtcnlrM3NreHVtMHV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiVjRsbVVmenFTV21uWDE3UEN0REstUSIsImlhdCI6MTc2NzAyNjI0MCwiZXhwIjoxNzY3MDI2MzAwfQ.ChlTugnyuDmCb-OASQXSs4NNDvELFmxDHPMRky8MInU",
+        "logo_local": "logos_emisoras\\Radio_AYMARA.jpg",
+        "generos": [
+            "Pop Music",
+            "Adult Contemporary",
+            "News"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de nuestra tierra', Radio AYMARA es el corazón sonoro de Bolivia. Esta estación no solo entretiene con una selección exquisita de música folclórica, sino que también es un faro de identidad cultural, educación y participación comunitaria. La programación de Radio AYMARA es un reflejo de la vida boliviana, entrelazando los ritmos tradicionales con las voces de la comunidad. Los programas en vivo, que a menudo presentan a artistas locales y debates sobre temas de interés social, son un espacio de encuentro para compartir historias y preservar las tradiciones orales. La estación es un eslabón vital que conecta a los bolivianos con sus raíces y con el pulso contemporáneo de su país.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioaymara.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "ENT Radio",
+        "url_stream": "https://stream-179.zeno.fm/gy72ktr5fd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJneTcya3RyNWZkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZHp5eUhobTVRbC14R1BWcUd1cnVPQSIsImlhdCI6MTc2NzAyNjI3MiwiZXhwIjoxNzY3MDI2MzMyfQ.BgHFkudBLrQWmV916LM1TNPM8NZbzaW1RsVNyxytGEg",
+        "logo_local": "logos_emisoras\\ENT_Radio.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "ENT Radio, el corazón musical de Bolivia, es el punto de encuentro para los amantes de la buena música y la información actual. Esta emisora se ha ganado el cariño de su audiencia local con una programación que captura la esencia de nuestra cultura y ritmos. Desde las vibrantes notas de la cumbia hasta la profundidad del folklore, pasando por los últimos éxitos del pop, ENT Radio es la compañera perfecta para el día a día del boliviano. Además, su equipo de locutores, cercanos y conocedores de nuestra idiosincrasia, hacen de cada programa una experiencia única, llena de carisma y sabor local.",
+        "redes_sociales": [
+            "https://www.facebook.com/ENTRadio.bo"
+        ],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio La Paz",
+        "url_stream": "https://sonicpanel.oficialserver.com/8308/stream",
+        "logo_local": "logos_emisoras\\Radio_La_Paz.jpg",
+        "generos": [
+            "Eclectic",
+            "Gospel",
+            "Brazilian Music"
+        ],
+        "descripcion": "Para los que respiran la cotidianidad de nuestra querida ciudad, Radio La Paz es más que una estación de radio; es un compañero que acompaña las mañanas con las últimas noticias, las tardes con programas que tocan el pulso de la sociedad y las noches con melodías que evocan la esencia de Bolivia. Es el reflejo sonoro de nuestra identidad, que se transmite a través de ondas llenas de historia y tradición. En el corazón de cada paceño, Radio La Paz resuena con fuerza, ofreciendo espacios donde la música folclórica se entrelaza con los ritmos modernos, creando un mosaico sonoro único. Aquí, la palabra tiene poder, y se utiliza para tejer lazos de unidad y entendimiento. Es el lugar donde la comunidad se siente escuchada, donde la cultura se celebra y donde cada voz encuentra un espacio para ser oída.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiolapazenlinea.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "EROTICA",
+        "url_stream": "https://stm12.voxhd.com.br:11696/;",
+        "logo_local": "logos_emisoras\\EROTICA.jpg",
+        "generos": [
+            "Reggaeton"
+        ],
+        "descripcion": "EROTICA, la estación radial que acompaña las noches de Bolivia, ofrece una selección musical que celebra el amor y la pasión. Con una programación que abraza los clásicos románticos y las tendencias actuales, esta emisora se ha convertido en la compañera perfecta para los momentos más íntimos. Su influencia en la cultura musical boliviana es indiscutible, proporcionando un espacio donde el arte de la música se encuentra con la expresión del corazón. La radio se destaca por su capacidad de crear una atmósfera envolvente, donde cada melodía es una invitación a sentir y vivir las emociones a flor de piel. EROTICA es más que una radio; es un refugio para los enamorados y un símbolo de la riqueza musical que Bolivia tiene para ofrecer al mundo. Con un tono casual pero respetuoso, la emisora se dirige a su audiencia local, manteniendo un contexto cultural que resuena con los oyentes en cada rincón del país.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radioeroticabolivia"
+        ],
+        "sitio_web": "https://erotica3.es.tl/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio UNO",
+        "url_stream": "https://live.turadiotv.com/8188/stream",
+        "logo_local": "logos_emisoras\\Radio_UNO.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Uno', esta emisora se ha ganado el corazón de los bolivianos gracias a su cercanía con la comunidad y su programación que refleja la identidad cultural del país. Desde sus inicios, Radio UNO ha sido un espacio de encuentro para los amantes de la música autóctona y los ritmos que definen la escena musical boliviana. La radio no solo es un punto de referencia para estar al día con las últimas noticias, sino que también es un hogar para los aficionados al deporte, con transmisiones en vivo de los partidos más emocionantes y análisis detallados de cada jornada. Su estilo coloquial, pero respetuoso, crea un ambiente familiar que invita a los oyentes a sentirse parte de la gran familia de Radio UNO.",
+        "redes_sociales": [
+            "http://www.facebook.com/RadioUno89.7",
+            "http://twitter.com/RadioUno89"
+        ],
+        "sitio_web": "http://www.radiouno89.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "RADIO ADVENTISTA CARANAVI",
+        "url_stream": "https://stm1.hostingtico.com:7012/;",
+        "logo_local": "logos_emisoras\\RADIO_ADVENTISTA_CARANAVI.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Escuchar RADIO ADVENTISTA CARANAVI en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/redadventistayungasBolivia"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Maspi",
+        "url_stream": "https://usa16.fastcast4u.com/proxy/kenta?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Maspi.jpg",
+        "generos": [
+            "International",
+            "Electronic",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio Maspi en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiomaspi"
+        ],
+        "sitio_web": "https://radiomaspi.jimdofree.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Valerio Radio",
+        "url_stream": "https://stream-177.zeno.fm/jb7pt4xzsintv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqYjdwdDR4enNpbnR2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiU0x0VmEyMjFRTldlUHk4X0U4X0FaZyIsImlhdCI6MTc2NzAyNjQ5MCwiZXhwIjoxNzY3MDI2NTUwfQ.H4BpWDxJSn3W3I4enLkrrXNqupBc4yIt0l0yqILKmWQ",
+        "logo_local": "logos_emisoras\\Valerio_Radio.jpg",
+        "generos": [
+            "Community",
+            "World Music"
+        ],
+        "descripcion": "Para la audiencia boliviana que busca una conexión más profunda con sus raíces, Radio El Pueblo es la compañera perfecta. Esta emisora no solo resuena con la vibrante selección de ritmos andinos y tropicales, sino que también sirve como una plataforma para el diálogo y la expresión cultural. Aquí, la música es más que entretenimiento; es un lenguaje que une a las comunidades y celebra la rica herencia de Bolivia. En El Pueblo, cada programa es una ventana a las costumbres y las historias que forman el tejido de nuestra sociedad. Los oyentes se deleitan con segmentos que exploran desde la gastronomía hasta la literatura boliviana, todo presentado con un tono cercano y familiar, pero sin perder el respeto por la diversidad de perspectivas que caracteriza a nuestro país.",
+        "redes_sociales": [
+            "https://www.facebook.com/valeriorenemt"
+        ],
+        "sitio_web": "https://valerioradio.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Jaime Mendoza Nava",
+        "url_stream": "https://stream-178.zeno.fm/3mtpzg7uzv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzbXRwemc3dXp2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUDM5eW5vRlJRSFMtOE5oVGZSYmV3ZyIsImlhdCI6MTc2NzAyNjUyMCwiZXhwIjoxNzY3MDI2NTgwfQ.1HKtXXxK9GT4AkFo7GUThH1D_luHjrIRCgx7eYzPV9M",
+        "logo_local": "logos_emisoras\\Radio_Jaime_Mendoza_Nava.jpg",
+        "generos": [
+            "Classical",
+            "World Music"
+        ],
+        "descripcion": "Escuchar Radio Jaime Mendoza Nava en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://jaimemendozanava.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Bine Web En Linea",
+        "url_stream": "https://stream1.svrdedicado.org/8112/stream",
+        "logo_local": "logos_emisoras\\Bine_Web_En_Linea.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Brazilian Music"
+        ],
+        "descripcion": "Para la audiencia boliviana, Bine Web En Linea representa una ventana al mundo de la música y la cultura. Esta emisora digital, con su corazón latiendo al ritmo de Bolivia, ofrece una programación que resuena con la identidad nacional y celebra la diversidad de sus raíces culturales. Con un enfoque en la música que define y enriquece el patrimonio boliviano, la radio también abre sus puertas a sonidos internacionales, creando un puente entre lo local y lo global. Los programas de Bine Web En Linea están cuidadosamente curados para proporcionar a los oyentes una mezcla única de contenido que informa, entretiene y educa, siempre con un toque personal que hace sentir a cada oyente como en casa.",
+        "redes_sociales": [],
+        "sitio_web": "https://beniwebenlinea.blogspot.com/",
+        "ciudad": "Departamento del Beni"
+    },
+    {
+        "nombre": "Radio Camargo",
+        "url_stream": "https://stm27.xcast.com.br:10490/stream",
+        "logo_local": "logos_emisoras\\Radio_Camargo.jpg",
+        "generos": [],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de Camargo', nuestra radio es el punto de encuentro para la comunidad boliviana que busca no solo entretenimiento, sino también un espacio de expresión cultural. Desde las melodías que definen nuestra identidad hasta los debates que mueven la opinión pública, Radio Camargo es el reflejo de la vida y el espíritu de Bolivia. La programación de Radio Camargo es un tejido de historias, música y tradiciones. Nos enorgullecemos de ser un medio que fomenta la participación ciudadana y el diálogo, con programas que invitan a la reflexión y fortalecen nuestros lazos comunitarios.",
+        "redes_sociales": [
+            "https://twitter.com/radiocamargobo",
+            "https://www.facebook.com/radiocamargo.cintibolivia/"
+        ],
+        "sitio_web": "http://www.radiocamargo.com.bo/",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "RTC Deportiva",
+        "url_stream": "https://azura1.bitstreaming.net/listen/rtc_deportiva/radio.aac",
+        "logo_local": "logos_emisoras\\RTC_Deportiva.jpg",
+        "generos": [],
+        "descripcion": "Para la afición deportiva de Bolivia, RTC Deportiva representa el pulso del deporte nacional e internacional. Con una programación que abarca desde el fútbol hasta el tenis, pasando por el baloncesto y más, esta emisora se ha convertido en el compañero inseparable de los seguidores de la acción deportiva. Con un estilo cercano y familiar, RTC Deportiva acompaña a sus oyentes con relatos apasionantes, debates enriquecedores y una selección musical que anima el espíritu competitivo. La emisora no solo informa, sino que también entretiene y une a la comunidad de aficionados, consolidándose como el hogar de la pasión por el deporte en el corazón de Bolivia.",
+        "redes_sociales": [
+            "https://twitter.com/radiortc",
+            "https://www.facebook.com/rtcpregondeportivo/",
+            "https://www.instagram.com/rtc_pregon_deportivo/"
+        ],
+        "sitio_web": "http://www.rtcdeportiva.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Electra Radio",
+        "url_stream": "https://electraradio.stream.laut.fm/electraradio?t302=2025-12-29_16-44-34&uuid=98574d4e-eed4-4f6c-abbe-5536c416ead6",
+        "logo_local": "logos_emisoras\\Electra_Radio.jpg",
+        "generos": [
+            "Techno",
+            "Dance",
+            "Electronic"
+        ],
+        "descripcion": "Electra Radio, la voz de la diversidad musical en Bolivia, es el punto de encuentro para los apasionados de las melodías que definen y trascienden fronteras. Esta emisora se destaca por su capacidad de fusionar géneros y épocas, creando un tejido sonoro que resuena con la identidad boliviana. Con programas que exploran desde el folklore hasta los ritmos urbanos modernos, Electra Radio es un espacio donde la tradición y la innovación conviven armoniosamente. La radio se convierte así en un espejo de la rica cultura musical del país, invitando a sus oyentes a un viaje sonoro que celebra la herencia y la creatividad boliviana.",
+        "redes_sociales": [
+            "https://www.facebook.com/Electra-Radio",
+            "https://twitter.com/ELECTRAradiofm",
+            "https://www.instagram.com/cesarradiorock"
+        ],
+        "sitio_web": "http://electraradio.weebly.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Top Activa",
+        "url_stream": "https://audio.clouds.com.bo/listen/radio_top_activa/live",
+        "logo_local": "logos_emisoras\\Radio_Top_Activa.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La Activa', Radio Top Activa 99.5 FM se ha convertido en un punto de encuentro para los amantes de la música y la cultura en Bolivia. Esta emisora no solo es un espacio para disfrutar de los mejores temas musicales del momento, sino que también es un reflejo de la identidad boliviana, con programas que celebran nuestras tradiciones y promueven el talento local. Desde las vibrantes mañanas hasta las relajadas noches, 'La Activa' acompaña a sus oyentes con una programación que mezcla entretenimiento, cultura y educación. Los programas en vivo, conducidos por voces conocidas y queridas en nuestra comunidad, invitan a la interacción y crean una atmósfera de cercanía y familiaridad que solo una radio local puede ofrecer.",
+        "redes_sociales": [
+            "https://www.facebook.com/TopActiva99.5FMChallapata?mibextid=ZbWKwL",
+            "https://twitter.com/RadioTopActiva?s=03",
+            "https://instagram.com/radio_top_activa?igshid=YWYwM2I1ZDdmOQ=="
+        ],
+        "sitio_web": "http://www.radiotopactiva.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Dosis Diaria online",
+        "url_stream": "https://stream.dosisdiariabolivia.com:8000/live",
+        "logo_local": "logos_emisoras\\Dosis_Diaria_online.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Para la audiencia boliviana, Dosis Diaria online no es solo una radio, es un compañero diario que acompaña con ritmos que resuenan con la identidad cultural del país. Desde la cálida acogida de la música folclórica hasta la energía vibrante de los éxitos latinos actuales, esta emisora es el reflejo de la diversidad musical que Bolivia tiene para ofrecer. Interactuando con su comunidad, Dosis Diaria online se involucra en la vida cotidiana de sus oyentes, ofreciendo programas que discuten temas de interés local, promoviendo el talento nacional y fortaleciendo el sentido de pertenencia. Es un espacio donde la voz del pueblo encuentra eco, y donde la música y la información se entrelazan para crear una experiencia radial auténticamente boliviana.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/sin-querer-fer-vazquez-flor-alvarez",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Frontera FM",
+        "url_stream": "https://inliveserver.com:2000/stream/8132",
+        "logo_local": "logos_emisoras\\Radio_Frontera_FM.jpg",
+        "generos": [],
+        "descripcion": "En el corazón de Bolivia, Radio Frontera FM se ha convertido en un símbolo de identidad cultural y musical. Con una programación que refleja el espíritu boliviano, la estación combina los éxitos más recientes con los tesoros de la música folclórica, creando un puente entre las generaciones y fomentando la rica herencia musical del país. Los programas especializados en géneros específicos, desde la cumbia hasta el pop, hacen que cada día en la radio sea una experiencia única. La cercanía con su audiencia es palpable, gracias a segmentos interactivos donde los oyentes comparten historias, dedicatorias y participan en debates sobre temas de actualidad. La pasión de los locutores por la música y la cultura boliviana se transmite en cada programa, haciendo de Radio Frontera FM el compañero perfecto para cualquier momento del día.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiofronterayacuiba",
+            "https://twitter.com/FronteraYacuiba",
+            "https://www.youtube.com/channel/UC4gViFbdIy4Moe1EkHPx5Dg"
+        ],
+        "sitio_web": "http://radiofronterayacuiba.com/",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "Radio CGV",
+        "url_stream": "https://listen.radioking.com/radio/737579/stream/803960",
+        "logo_local": "logos_emisoras\\Radio_CGV.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio CGV en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.cc3d.org/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "CESAR the Classic",
+        "url_stream": "https://cesartheclassic.stream.laut.fm/cesartheclassic?t302=2025-12-29_16-48-57&uuid=510dfcaf-9426-4ec7-973f-0abb99232040",
+        "logo_local": "logos_emisoras\\CESAR_the_Classic.jpg",
+        "generos": [
+            "80s",
+            "90s",
+            "00s"
+        ],
+        "descripcion": "Para los bolivianos que aprecian la elegancia de la música clásica, CESAR the Classic es más que una radio; es un espacio de encuentro donde la tradición y la modernidad se entrelazan a través de las ondas. La estación se destaca por su compromiso con la cultura musical, brindando a los oyentes una selección de conciertos sinfónicos, solos de piano y ensambles de cámara que capturan la esencia de la música con raíces europeas y latinoamericanas. En CESAR the Classic, cada melodía cuenta una historia, cada acorde lleva consigo la pasión de los intérpretes. Los programas no solo deleitan con su variedad, sino que también invitan a la audiencia a sumergirse en la profundidad de las obras, ofreciendo un contexto cultural que resuena con la identidad boliviana. Es un homenaje continuo a los genios de la música clásica que resuena en el corazón de cada boliviano.",
+        "redes_sociales": [
+            "https://www.facebook.com/CESARtheclassic",
+            "https://twitter.com/CESARtheClassic",
+            "https://www.instagram.com/cesarradiorock",
+            "https://www.youtube.com/channel/UCX1BVK2hylynrQdvqMwDzrw?view_as=subscriber"
+        ],
+        "sitio_web": "https://cesartheclassic.weebly.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Bethel HD",
+        "url_stream": "https://streamtotal.net:4079/stream",
+        "logo_local": "logos_emisoras\\Radio_Bethel_HD.jpg",
+        "generos": [],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz del pueblo', Radio Bethel HD se ha ganado el corazón de los bolivianos con su programación auténtica y cercana. Esta emisora no solo entretiene, sino que también educa e inspira a través de sus programas que abarcan desde espacios de música folklórica hasta conversatorios sobre temas de actualidad y desarrollo personal. La radio se convierte en un punto de encuentro para la comunidad, donde la participación del público es esencial. Los oyentes se sienten parte de una gran familia que se extiende a lo largo y ancho del país, unidos por la sintonía de Radio Bethel HD. La emisora se enorgullece de su identidad boliviana y transmite ese sentimiento en cada segmento, manteniendo siempre un lenguaje accesible y respetuoso que resuena con la cultura local.",
+        "redes_sociales": [],
+        "sitio_web": "https://bethelhd.io/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Angel Jacob Yacuiba",
+        "url_stream": "https://live.turadiotv.com/8212/stream",
+        "logo_local": "logos_emisoras\\Radio_Angel_Jacob_Yacuiba.jpg",
+        "generos": [
+            "Pop Music",
+            "AAA - Adult Album Alternative",
+            "Latino"
+        ],
+        "descripcion": "Para la gente de Yacuiba, Radio Angel Jacob es más que una emisora; es una compañera que acompaña los días con la mejor selección de música y programas que tocan el corazón de nuestra identidad boliviana. Desde las melodías que nos hacen bailar hasta las conversaciones que nos unen, esta radio es el reflejo de nuestra comunidad vibrante y diversa. Con segmentos que van desde la actualidad política hasta consejos comunitarios, Radio Angel Jacob se posiciona como un pilar en la vida cotidiana de los yacuibeños. La radio no solo entretiene, sino que también educa y conecta a los habitantes con las raíces y tradiciones de nuestra tierra, siempre con ese toque personal que nos hace sentir en casa.",
+        "redes_sociales": [
+            "https://www.facebook.com/jacob.berriosromero/"
+        ],
+        "sitio_web": "https://angeljacobyacuiba.wixsite.com/2020",
+        "ciudad": "Departamento de Tarija"
+    },
+    {
+        "nombre": "Radio Salar de los Lipez",
+        "url_stream": "https://web2.centaury.cl:20004/stream",
+        "logo_local": "logos_emisoras\\Radio_Salar_de_los_Lipez.jpg",
+        "generos": [
+            "90s"
+        ],
+        "descripcion": "Escuchar Radio Salar de los Lipez en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Studio Digital",
+        "url_stream": "https://stream-177.zeno.fm/srdypcf1dxhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzcmR5cGNmMWR4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiRk50ZE1PWjJRVTY4VzViRVVtNW03dyIsImlhdCI6MTc2NzAyNzA5NCwiZXhwIjoxNzY3MDI3MTU0fQ.LYMCJgN_3jIu4GqiICBMdRFYVyM6xKGwe01cvuZweb4",
+        "logo_local": "logos_emisoras\\Radio_Studio_Digital.jpg",
+        "generos": [
+            "Variety",
+            "Latino"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de Bolivia', Radio Studio Digital se ha ganado el corazón de los bolivianos con su programación auténtica y cercana. Esta emisora no solo reproduce éxitos musicales, sino que también es un espacio de encuentro para la comunidad, donde se debaten temas de interés social y cultural, reflejando el espíritu vibrante de Bolivia. La radio se enorgullece de su enfoque en talentos locales, promoviendo artistas y bandas bolivianas, y ofreciendo una plataforma para que la nueva música nacional sea descubierta y apreciada. Su estilo coloquial, aunque comprensible a nivel internacional, crea un ambiente familiar que resuena con la identidad cultural de sus oyentes.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Impacto Bolivia",
+        "url_stream": "https://stream-166.zeno.fm/n097mqpvp68uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMDk3bXFwdnA2OHV2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoidUpZWGI4TW9RVi0teHJQNDROSE10dyIsImlhdCI6MTc2NzAyNzExNCwiZXhwIjoxNzY3MDI3MTc0fQ._fUoQYxGP08gIxaCvSHabXCh3-6bWnLBT2lRR_lw_uE",
+        "logo_local": "logos_emisoras\\Radio_Impacto_Bolivia.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Escuchar Radio Impacto Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioImpactoBolivia?mibextid=ZbWKwL"
+        ],
+        "sitio_web": "https://impactobolivia.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio La Noche",
+        "url_stream": "https://stream-176.zeno.fm/6rck1l7zcykuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2cmNrMWw3emN5a3V2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZUFKcUhMRDlSbGlJTERzY0ZQdHMwUSIsImlhdCI6MTc2NzAyNzE3NCwiZXhwIjoxNzY3MDI3MjM0fQ.pxWDjzicdSrG67vZ1-48EtDFQXO02KuCSQfnxtOwjI0",
+        "logo_local": "logos_emisoras\\Radio_La_Noche.jpg",
+        "generos": [
+            "Reggaeton",
+            "Romantic",
+            "Latino"
+        ],
+        "descripcion": "Escuchar Radio La Noche en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://agredajunior123.wixsite.com/radio-la-noche-onlin",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Porvenir Cochabamba",
+        "url_stream": "https://stream-159.zeno.fm/0reayzenzhhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwcmVheXplbnpoaHZ2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiUEFac3dGMThUTGl2LUtJX2NhUFRqUSIsImlhdCI6MTc2NzAyNzIzMywiZXhwIjoxNzY3MDI3MjkzfQ.1I8K0Jw0ikqM3o2aYlznGQkuIQbN1TsB725BrbuYwws",
+        "logo_local": "logos_emisoras\\Radio_Porvenir_Cochabamba.jpg",
+        "generos": [
+            "Pop Music",
+            "Local"
+        ],
+        "descripcion": "Para el oyente cochabambino, Radio Porvenir es más que una estación de radio; es un compañero de cada día que acompaña con música que resuena en el corazón de la Llajta. Con programas que van desde los éxitos actuales hasta las joyas del pasado, esta emisora es la banda sonora de la vida cotidiana en Cochabamba. La calidez de sus locutores y la cercanía con su audiencia hacen de Radio Porvenir un espacio donde la voz del pueblo se escucha y se valora. Aquí, la información local tiene un lugar privilegiado, y los eventos de la comunidad siempre son destacados, reafirmando su papel como pilar de la cultura cochabambina.",
+        "redes_sociales": [
+            "https://youtube.com/@radioporvenircochabamba",
+            "https://www.facebook.com/Radio-Porvenir-Cochabamba-Bolvia-108587961469148"
+        ],
+        "sitio_web": "https://zeno.fm/radio/radio-porvenir-cochabamba/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Silver MIX",
+        "url_stream": "https://sonic1.transmissaodigital.com/8116/stream",
+        "logo_local": "logos_emisoras\\Radio_Silver_MIX.jpg",
+        "generos": [],
+        "descripcion": "Para los amantes de la música en Bolivia, Radio Silver MIX es sinónimo de compañía y diversidad sonora. Esta emisora se ha ganado el corazón de su audiencia local con una mezcla única de ritmos que van desde lo más actual del pop y rock hasta las baladas que marcaron épocas. La radio se convierte en un espacio de encuentro donde la música es la protagonista y los oyentes son parte de una comunidad vibrante. En Radio Silver MIX, cada día es una nueva aventura musical. Los programas no solo reflejan el pulso cultural del país, sino que también invitan a los oyentes a ser parte de la conversación, con segmentos interactivos y espacios dedicados a la opinión pública. Es la radio que entiende el latido de Bolivia y lo transmite en cada nota musical.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiosilvermix.jimdo.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio San Clemente",
+        "url_stream": "https://radio.cimaspeed.com/8026/stream",
+        "logo_local": "logos_emisoras\\Radio_San_Clemente.jpg",
+        "generos": [
+            "Catholic"
+        ],
+        "descripcion": "Conectando corazones y mentes a través de las ondas, Radio San Clemente se ha establecido como la compañera inseparable de los bolivianos. Su programación refleja la rica tapestria cultural de Bolivia, presentando programas que celebran nuestras tradiciones y promueven el talento local. Desde las melodías que resuenan con el alma de los Andes hasta los debates que capturan el pulso de nuestra sociedad, esta emisora es un espejo de la diversidad y la pasión boliviana. La calidez de sus locutores hace que cada sintonía sea como volver a casa, un lugar donde cada voz encuentra eco y cada historia es valorada.",
+        "redes_sociales": [
+            "https://www.instagram.com/santisimoredentorbo/",
+            "https://www.facebook.com/radiosanclemente/"
+        ],
+        "sitio_web": "https://radio.santisimoredentor.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Bravo 107.5 FM",
+        "url_stream": "https://emiteradio.com/proxy/uyuni2?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Bravo_1075_FM.jpg",
+        "generos": [],
+        "descripcion": "En el corazón de Bolivia, Radio Bravo 107.5 FM resuena con el pulso de su gente. Esta emisora es el reflejo de la vida boliviana, con una programación que abarca desde los éxitos actuales hasta las melodías que forman parte de nuestra identidad. No es solo una radio, es un compañero que acompaña a los bolivianos en su día a día, con programas que dialogan sobre nuestra realidad y celebran nuestra diversidad cultural. La calidez de sus locutores hace que cada programa sea como una conversación entre amigos, y su selección musical es un homenaje a la riqueza artística de Bolivia. Radio Bravo es más que una frecuencia, es la voz de una nación vibrante y llena de historias por contar.",
+        "redes_sociales": [],
+        "sitio_web": "http://radiobravo.emisora.info/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "La Inolvidable Bolivia",
+        "url_stream": "https://stm21.voxhd.com.br:10750/;",
+        "logo_local": "logos_emisoras\\La_Inolvidable_Bolivia.jpg",
+        "generos": [
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Para el oyente boliviano que valora las melodías que han definido generaciones, La Inolvidable ofrece una banda sonora que acompaña cada momento del día. Desde las baladas que nos han hecho suspirar hasta los ritmos que invitan a mover los pies, esta emisora es el hogar de los clásicos que nunca pasan de moda. En sintonía con el pulso de Bolivia, La Inolvidable no solo es una fuente de música inolvidable, sino también un espacio donde la actualidad, la cultura y las historias locales tienen su eco. Es el punto de encuentro para quienes buscan revivir recuerdos y crear nuevos, siempre al ritmo de la mejor música.",
+        "redes_sociales": [],
+        "sitio_web": "http://lainolvidableriq.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Acer",
+        "url_stream": "https://live.turadiotv.com/8004/stream",
+        "logo_local": "logos_emisoras\\Radio_Acer.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Radio Acer, la voz que acompaña a los valles cruceños, se ha convertido en un símbolo de identidad local. Con una programación que abarca desde los éxitos musicales del momento hasta los clásicos que nunca pasan de moda, esta emisora es el reflejo de la diversidad y riqueza cultural de Bolivia. Los programas de debate, las transmisiones deportivas y los segmentos de noticias mantienen a los oyentes al tanto de lo que acontece en su entorno y en el mundo. La cercanía con su público es uno de los pilares de Radio Acer. A través de sus ondas, se tejen historias de vida, se comparten experiencias y se fortalecen los lazos comunitarios. Es un espacio donde la tradición y la modernidad se encuentran para dar voz a las distintas generaciones que sintonizan diariamente, buscando en su dial un punto de encuentro.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioAcerOficial",
+            "https://x.com/RedAcerOficial",
+            "https://www.instagram.com/radioaceroficial/",
+            "https://www.youtube.com/channel/UCncOm0U9zJ8sYIo3s4p-3rw",
+            "https://www.tiktok.com/@radioaceroficial"
+        ],
+        "sitio_web": "https://radioacer.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Bolivia Latina Radio",
+        "url_stream": "https://emiteradio.com/proxy/bolivialatina/stream",
+        "logo_local": "logos_emisoras\\Bolivia_Latina_Radio.jpg",
+        "generos": [
+            "Public",
+            "Folk",
+            "Latino"
+        ],
+        "descripcion": "Para el oyente boliviano, Bolivia Latina Radio es más que una emisora; es un reflejo de nuestra identidad cultural. Aquí, la música que nos define y nos une fluye sin cesar, desde los valles hasta las alturas de los Andes, llevando consigo el alma de Bolivia a través de melodías que cuentan nuestras historias y tradiciones. La radio se convierte en compañera de viajes y jornadas, con programas que van desde la charla amena hasta el análisis profundo de temas que nos afectan como sociedad. Es un punto de encuentro donde la voz del pueblo se escucha y se valora, y donde cada canción es una celebración de lo que somos. Con Bolivia Latina Radio, cada día es una oportunidad para reconectar con nuestras raíces y mirar hacia el futuro con esperanza y orgullo.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiobolivialatina"
+        ],
+        "sitio_web": "https://bolivialatinaradio.pro/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Interactiva 92.7 TUPIZA",
+        "url_stream": "https://web2.centaury.cl:20006/stream",
+        "logo_local": "logos_emisoras\\Interactiva_927_TUPIZA.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Interactiva 92.7 TUPIZA en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Expresión",
+        "url_stream": "https://radio.ackrossbolivia.com/8048/stream",
+        "logo_local": "logos_emisoras\\Radio_Expresion.jpg",
+        "generos": [
+            "Indie",
+            "Educational",
+            "Culture"
+        ],
+        "descripcion": "Escuchar Radio Expresión en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/expresion106.6fm"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Indoamérica La Radio",
+        "url_stream": "https://live.turadiotv.com/8160/stream",
+        "logo_local": "logos_emisoras\\Indoamerica_La_Radio.jpg",
+        "generos": [
+            "80s",
+            "90s",
+            "Top 40"
+        ],
+        "descripcion": "Escuchar Indoamérica La Radio en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/indoamericalaradio",
+            "https://www.instagram.com/indoamericalaradio/"
+        ],
+        "sitio_web": "http://www.indoamericalaradio.com/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "City FM Bolivia",
+        "url_stream": "https://stream-155.zeno.fm/ygg6zypxpg8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5Z2c2enlweHBnOHV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiaFhGTTc2M2dSMzZ4c2RVX3lFWUNpdyIsImlhdCI6MTc2NzAyNzgwOSwiZXhwIjoxNzY3MDI3ODY5fQ.OnG7kOt2g112zP6wyS2Kpx_Ksi7PWyQ2HzXYWUmXkAs",
+        "logo_local": "logos_emisoras\\City_FM_Bolivia.jpg",
+        "generos": [],
+        "descripcion": "Escuchar City FM Bolivia en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/ConectaRadiosLA",
+            "https://x.com/ConectaRadios"
+        ],
+        "sitio_web": "https://uy.conecta-la.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Voz de Esperanza",
+        "url_stream": "https://emiteradio.com/proxy/esperanza?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Voz_de_Esperanza.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Escuchar Radio Voz de Esperanza en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61559150906539"
+        ],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Conquistador 99.1 FM",
+        "url_stream": "https://sp2.servidorrprivado.com/6648/stream",
+        "logo_local": "logos_emisoras\\Radio_Conquistador_991_FM.jpg",
+        "generos": [
+            "Oldies"
+        ],
+        "descripcion": "Escuchar Radio Conquistador 99.1 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioconquistadorsucre.com/",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "Radio Felicidad UYUNI",
+        "url_stream": "https://streaming5.locucionar.com/proxy/felicidaduyuni?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Felicidad_UYUNI.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Classic Hits",
+            "Latino"
+        ],
+        "descripcion": "Para la audiencia boliviana, Radio Felicidad UYUNI es más que una estación de radio; es un compañero diario que acompaña con melodías que resuenan con el corazón de Bolivia. Desde ritmos folclóricos hasta pop moderno, su diversidad musical refleja el espíritu vibrante de la nación. En sintonía con el pulso de Uyuni, la radio ofrece programas que dialogan con las tradiciones y la actualidad local. Los oyentes se benefician de un contenido que no solo entretiene, sino que también informa y educa, manteniendo viva la identidad cultural boliviana en cada transmisión.",
+        "redes_sociales": [
+            "https://www.facebook.com/FelicidadFM",
+            "https://www.instagram.com/radio_felicidad_fm/?hl=es-la",
+            "https://www.tiktok.com/@radiofelicidaduyuni"
+        ],
+        "sitio_web": "https://www.radiofelicidad.com.bo/",
+        "ciudad": "Departamento de Potosí"
+    },
+    {
+        "nombre": "Radio Sonar FM",
+        "url_stream": "https://stream-179.zeno.fm/3r3dwgf2qzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzcjNkd2dmMnF6enV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoia1lrUlNPV0tSckNyZmVFajVKc0NHdyIsImlhdCI6MTc2NzAyNzkzMSwiZXhwIjoxNzY3MDI3OTkxfQ.UeneIFFhmVJHGUjYDIehJq1x4KRcmxQDmAMCh-WAtaM",
+        "logo_local": "logos_emisoras\\Radio_Sonar_FM.jpg",
+        "generos": [],
+        "descripcion": "Para los amantes de la radio en Bolivia, Radio Sonar FM representa una ventana sonora a la cultura y al corazón del país. Con una selección musical que abarca desde los ritmos folklóricos hasta las tendencias actuales, esta emisora es el reflejo de la diversidad boliviana. Interactuando constantemente con su audiencia, la radio crea un espacio de diálogo y comunidad. Los programas de Radio Sonar FM no solo entretienen, sino que también informan y educan, manteniendo viva la tradición oral boliviana y adaptándola a las nuevas generaciones de oyentes.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioSonarFmOficial/"
+        ],
+        "sitio_web": "http://radiosonarbolivia.blogspot.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Gigante 91.3 FM",
+        "url_stream": "https://azura1.bitstreaming.net:8480/radio.mp3?refresh=1725025121416",
+        "logo_local": "logos_emisoras\\Radio_Gigante_913_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Gigante 91.3 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiogigante91.3fm"
+        ],
+        "sitio_web": "https://radiogigantecbba.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Weazel Radio",
+        "url_stream": "https://streamingenbolivia.com/8006/stream",
+        "logo_local": "logos_emisoras\\Weazel_Radio.jpg",
+        "generos": [
+            "News",
+            "Regional",
+            "Talk"
+        ],
+        "descripcion": "Escuchar Weazel Radio en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://instagram.com/weazelradio",
+            "https://twitter.com/weazelradio",
+            "https://www.facebook.com/weazelradio"
+        ],
+        "sitio_web": "http://www.mediachuploads.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Ayopaya Palca",
+        "url_stream": "https://stream-157.zeno.fm/tfq65yzojdttv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0ZnE2NXl6b2pkdHR2IiwiaG9zdCI6InN0cmVhbS0xNTcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiVkJvRFFPZEdUWkNiTFNsQU1EYVlQQSIsImlhdCI6MTc2NzAyODA3NywiZXhwIjoxNzY3MDI4MTM3fQ.hNI_pAUBZfhm2bY117_5449FSY1TwoGzVn2VmIbr4j0",
+        "logo_local": "logos_emisoras\\Radio_Ayopaya_Palca.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de los Andes', Radio Ayopaya Palca se erige como un pilar de la identidad cultural en Bolivia. Su programación es un reflejo de la rica diversidad del país, brindando espacios para la música folklórica, debates comunitarios y segmentos educativos. Los fines de semana, la radio se transforma en una fiesta de ritmos andinos, donde los sonidos de charangos y zampoñas llenan el aire. Entre semana, los programas de opinión y las noticias locales mantienen a los oyentes al tanto de lo que acontece en su entorno, reforzando el lazo entre la radio y su comunidad.",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/radio/radio-ayopaya-palca/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Antena 3 Bolivia",
+        "url_stream": "https://stream-177.zeno.fm/cvq6bx2h4nhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjdnE2YngyaDRuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTkVES0cwQmJRbDJnaUhUc3RQbzQ0ZyIsImlhdCI6MTc2NzAyODEwNiwiZXhwIjoxNzY3MDI4MTY2fQ.m1mkEqnexSuecPO99LQPTvZQk1rUuGqpBl0yJtDWgSw",
+        "logo_local": "logos_emisoras\\Antena_3_Bolivia.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Antena 3 Bolivia, conocida cariñosamente por su audiencia como 'La voz del pueblo', es la compañera inseparable de los bolivianos que buscan estar al tanto de lo que sucede en su país y el mundo. Su programación es un reflejo de la cultura boliviana, con espacios dedicados a la música folclórica, el análisis político y los debates que mueven a la sociedad. Es el punto de encuentro donde la actualidad y la tradición se entrelazan para dar voz a las diversas perspectivas de la población. Con un estilo cercano y familiar, esta emisora se adentra en los hogares para ofrecer no solo entretenimiento, sino también educación y conciencia social. Los locutores de Antena 3 Bolivia, con su calidez y autenticidad, crean un vínculo único con la audiencia, invitándola a ser parte de una comunidad radial que valora y celebra la identidad boliviana.",
+        "redes_sociales": [
+            "https://www.facebook.com/Antena3Bolivia"
+        ],
+        "sitio_web": "https://zeno.fm/radio/Antena3-Bolivia/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Purpura",
+        "url_stream": "https://stm21.voxhd.com.br:11940/;",
+        "logo_local": "logos_emisoras\\Radio_Purpura.jpg",
+        "generos": [],
+        "descripcion": "Para los amantes de la música y la cultura en Bolivia, Radio Purpura representa una ventana sonora a un universo de melodías y noticias con sabor local. La programación de la emisora abarca desde los ritmos tradicionales bolivianos hasta las tendencias contemporáneas, creando un puente entre generaciones y estilos musicales. En el corazón de su comunidad, Radio Purpura no solo es una estación de radio, sino un espacio de encuentro donde las voces de los bolivianos resuenan. Los programas interactivos invitan a la participación ciudadana, y los segmentos dedicados a la cultura y las artes reflejan el espíritu vibrante de Bolivia. Es el compañero perfecto para el día a día, ofreciendo una mezcla única de entretenimiento e información que resuena con la identidad boliviana.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiopurpurabolivia"
+        ],
+        "sitio_web": "http://purpurafm.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Enlace Bolivia",
+        "url_stream": "https://stream-176.zeno.fm/vuy7w4ug1mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2dXk3dzR1ZzFtcnV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoibkxiX1k5NVhRR0NqRDJHaExraGthUSIsImlhdCI6MTc2NzAyODE3NiwiZXhwIjoxNzY3MDI4MjM2fQ.QLWMyMgmkBrafmNk4gDHjO3mwC-qB8gIBqkZUX9ZlGw",
+        "logo_local": "logos_emisoras\\Radio_Enlace_Bolivia.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Para la audiencia que sintoniza desde el corazón de Bolivia, Radio Enlace Bolivia representa una ventana sonora a la diversidad y riqueza cultural del país. Esta emisora es el lugar donde la música folklórica se encuentra con las nuevas corrientes, creando un tejido sonoro que resuena con la identidad boliviana. Aquí, los clásicos de siempre se entrelazan con las propuestas innovadoras de artistas emergentes, reflejando el dinamismo de la escena musical nacional. En Radio Enlace Bolivia, las mañanas comienzan con las últimas noticias y los debates que mueven al país, mientras que las tardes se llenan de programas que invitan a la participación ciudadana y al intercambio de ideas. La noche trae consigo espacios dedicados a la relajación y al disfrute de la música que nos define como bolivianos, todo ello enmarcado en una atmósfera de cercanía y familiaridad que solo esta emisora puede ofrecer.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Enlace-Bolivia-106688400916525"
+        ],
+        "sitio_web": "",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "MOSOJ FOLK",
+        "url_stream": "https://stream-175.zeno.fm/7dtx2phr6k8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3ZHR4MnBocjZrOHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiblVVWHQ2TTJSVzYtMDh4eW15X0VaQSIsImlhdCI6MTc2NzAyODIxNCwiZXhwIjoxNzY3MDI4Mjc0fQ.u3pM2t1zT7YxWGMVB_fxYqmSbvs6PcmaAhJuEY2o-fs",
+        "logo_local": "logos_emisoras\\MOSOJ_FOLK.jpg",
+        "generos": [
+            "Folk"
+        ],
+        "descripcion": "Para el oyente boliviano, MOSOJ FOLK representa el latido del corazón cultural de Bolivia. Esta emisora no solo es un espacio donde resuena la música de nuestras raíces, sino también un hogar para la comunidad que valora y celebra nuestras tradiciones musicales. Aquí, la nostalgia se entrelaza con la contemporaneidad, dando vida a un repertorio que honra nuestro legado. Con programas que exploran la historia detrás de cada melodía y la pasión de los intérpretes, MOSOJ FOLK se convierte en un compañero inseparable para aquellos que buscan profundizar en la identidad musical boliviana. La estación es un punto de encuentro para los aficionados y un faro que ilumina la diversidad y riqueza de nuestra cultura musical.",
+        "redes_sociales": [
+            "https://www.facebook.com/MOSOJ-FOLK-109998251129060"
+        ],
+        "sitio_web": "http://www.mosojfolk.ml/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "RadioSat FM - Bolivia",
+        "url_stream": "https://mira.streamerr.co/radio/8010/radiosatbolivia.mp3",
+        "logo_local": "logos_emisoras\\RadioSat_FM_Bolivia.jpg",
+        "generos": [
+            "Variety",
+            "World Music"
+        ],
+        "descripcion": "Conocida cariñosamente entre los bolivianos como 'La voz de nuestra tierra', RadioSat FM se ha convertido en un símbolo de identidad nacional y un punto de encuentro para los amantes de la música y la cultura. Esta emisora no solo reproduce éxitos actuales, sino que también celebra las tradiciones musicales de Bolivia, ofreciendo un espacio para los géneros autóctonos que resuenan con el alma del país. En su programación diaria, RadioSat FM incluye segmentos dedicados a la música folclórica, pop latino, y los sonidos urbanos que definen la escena contemporánea. Los locutores, con su estilo cercano y conversacional, crean una atmósfera de camaradería y orgullo nacional, invitando a los oyentes a ser parte de una comunidad unida por el amor a la música y a las raíces bolivianas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiosatfmbolivia",
+            "https://twitter.com/radiosatbolivia",
+            "https://www.instagram.com/radiosatbolivia"
+        ],
+        "sitio_web": "https://radiosatbolivia.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "La Super STACION",
+        "url_stream": "https://stream-176.zeno.fm/dcswfz8mev8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkY3N3Zno4bWV2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiWVF2Z3JRUFpTd0dyWWxhWklHeDBwZyIsImlhdCI6MTc2NzAyODI2NiwiZXhwIjoxNzY3MDI4MzI2fQ.nRlivLbJhDUmbQ7tSvG0tXRX5xgjYZ-5b4Bd8o93cXY",
+        "logo_local": "logos_emisoras\\La_Super_STACION.jpg",
+        "generos": [
+            "Pop Music",
+            "EDM - Electronic Dance Music"
+        ],
+        "descripcion": "Escuchar La Super STACION en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/lasuperstacionradio"
+        ],
+        "sitio_web": "https://lasuperstacion-radio.blogspot.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Villa Paraiso",
+        "url_stream": "https://stream-175.zeno.fm/6cu7fnv9yxhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2Y3U3Zm52OXl4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiSWZoMXVIWFVUUFdwX0JPQkF4Z2hKdyIsImlhdCI6MTc2NzAyODM2NCwiZXhwIjoxNzY3MDI4NDI0fQ.ItkhUJ78drRg7e02FmdE3pKYfmyViMXRgVzgSeUOZyU",
+        "logo_local": "logos_emisoras\\Radio_Villa_Paraiso.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Villa Paraiso en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "CESAR Radio Rock",
+        "url_stream": "https://cesarradiorock.stream.laut.fm/cesarradiorock?t302=2025-12-29_17-13-04&uuid=22677c7c-166e-4335-8216-fd844d3604bd",
+        "logo_local": "logos_emisoras\\CESAR_Radio_Rock.jpg",
+        "generos": [
+            "Rock",
+            "Indie",
+            "Classic Rock"
+        ],
+        "descripcion": "Para los amantes del rock en Bolivia, CESAR Radio Rock es más que una emisora: es un punto de encuentro donde la comunidad rockera se siente representada. Con una selección musical que recorre desde los himnos que marcaron épocas hasta las propuestas contemporáneas que están definiendo el futuro del género, esta estación es el corazón de la escena rock en el país. Además de su exquisita selección musical, CESAR Radio Rock se destaca por su cercanía con el público. Los programas no solo se centran en la música, sino también en la creación de un diálogo con los oyentes, ofreciendo espacios de debate, reflexión y celebración de la cultura rock. Es la radio que acompaña, inspira y une a los bolivianos con cada acorde.",
+        "redes_sociales": [
+            "https://www.facebook.com/CesarRadioRock/",
+            "https://twitter.com/CesarRadioRock",
+            "https://www.instagram.com/cesarradiorock",
+            "https://www.youtube.com/cesarradiorock"
+        ],
+        "sitio_web": "https://cesarradio.com/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Yaguari 103.1 FM",
+        "url_stream": "https://azura1.bitstreaming.net/listen/radio_yaguari/radio.aac",
+        "logo_local": "logos_emisoras\\Radio_Yaguari_1031_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Yaguari 103.1 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "http://yaguari.radio.com.bo/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "ACFO Radio Oruro",
+        "url_stream": "https://fpsnew2.listen2myradio.com:2199/listen.php?ip=212.84.160.3&mount=1&port=5447&type=s2",
+        "logo_local": "logos_emisoras\\ACFO_Radio_Oruro.jpg",
+        "generos": [
+            "Folk",
+            "Culture",
+            "90s"
+        ],
+        "descripcion": "Escuchar ACFO Radio Oruro en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/acfocarnavaldeoruro",
+            "https://www.youtube.com/@ACFOoruro"
+        ],
+        "sitio_web": "https://acforadio.listen2myshow.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Radio Católica Carisma 103.1",
+        "url_stream": "https://edge01.radiohdvivo.com/catolicacarisma1031",
+        "logo_local": "logos_emisoras\\Radio_Catolica_Carisma_1031.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Radio Católica Carisma 103.1 en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiocatolicacarisma",
+            "https://twitter.com/RadioCarismaBO",
+            "https://www.instagram.com/radiocarisma/",
+            "https://www.youtube.com/@radiocatolicacarisma2117"
+        ],
+        "sitio_web": "https://radiocatolicacarisma.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Global Radio Studio",
+        "url_stream": "https://stream-159.zeno.fm/zd9r4r1485quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6ZDlyNHIxNDg1cXV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoickNNZjdtYXZTRHFKZVkyRWstNFFaQSIsImlhdCI6MTc2NzAyODUwNiwiZXhwIjoxNzY3MDI4NTY2fQ.70laBnYQFSbkc8hB1JqL9dzepORwtgmHxK-G1Mk8-EY",
+        "logo_local": "logos_emisoras\\Global_Radio_Studio.jpg",
+        "generos": [
+            "Classical",
+            "Dance",
+            "90s"
+        ],
+        "descripcion": "Global Radio Studio, la voz de Bolivia que nos acompaña día a día, es más que una radio; es un espacio de encuentro para la comunidad. Con programas que van desde el análisis político hasta las tradiciones más arraigadas de nuestra tierra, esta emisora se ha ganado el corazón de los bolivianos por su cercanía y autenticidad. En sus ondas, no solo resuenan las melodías que definen nuestra identidad cultural, sino que también se tejen historias y se comparten experiencias que reflejan la vida cotidiana de nuestro país. Global Radio Studio es el punto de reunión donde la actualidad y la tradición se fusionan, ofreciendo a los oyentes una programación rica y variada, siempre con ese toque personal que nos hace sentir en casa.",
+        "redes_sociales": [
+            "https://www.facebook.com/globalradiostudio"
+        ],
+        "sitio_web": "https://javibest.es.tl/",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Transamericana",
+        "url_stream": "https://server.laradio.online/proxy/transamericana?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Transamericana.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s"
+        ],
+        "descripcion": "Escuchar Radio Transamericana en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.instagram.com/radiotransamericana/",
+            "https://twitter.com/transaoruro",
+            "https://www.facebook.com/radiotransamericana/"
+        ],
+        "sitio_web": "https://www.transamericana.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Audiokiss 90.7 FM",
+        "url_stream": "https://radio02.com/7040/stream",
+        "logo_local": "logos_emisoras\\Audiokiss_907_FM.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Audiokiss 90.7 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://twitter.com/@AUDIOKISSFM",
+            "https://www.facebook.com/AUDIOKISSFM/"
+        ],
+        "sitio_web": "https://www.audiokiss.com/",
+        "ciudad": "Departamento de Santa Cruz"
+    },
+    {
+        "nombre": "Radio Salitrera Potosina",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7Brz9PACAYAAD-nb9PBf4XxsP-svcMIMBQwAfQAAzesAJgAKC7__uvwfn_HwAA_P__7wBAYTE2ODcwOGUyYTJhZGRhNWFjYmRkZjJlZWFjODE3YTAQdW5pc29uMTgMMC4wMzAwDDAuMDAwMAIwBENPEjhDVTk5NVczNRI3MzI4NjU2OTkMYm9nb3RhDmVhc3Rfc2MQMC4wMTA4MDAkcmFkaW9zLWJvbGl2aWEuY29tAjEQMC4wMzAwMDAIMC4wMwY0NjAQMTAwLjAwMDAMMC4wMTA4XnJhZGlvcy1ib2xpdmlhLmNvbS9teC9yYWRpby1zYWxpdHJlcmEtcG90b3NpbmEvAjAEREMGNDYwCHRydWUCMQ4zMDB4MjUwCGFwZXjoivQGAjQOMTEuMC4xNCA0MTAwMjQzMzg0Nzk0NTI4rc-S4gYmMjAyNS0xMi0yOSAxNzoxNjo0MQxwcmViaWRIMGUwOTE3NzAtYzdlOS00MzU5LThjODEtMDM3YmY4ODkwNDZhAAAAAAAAAAAAmpmZmZmZqT8IcHJvZAYyNjUGMTAx3gFNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIwLjAuMC4wIFNhZmFyaS81MzcuMzYSMTIwLjAuMC4wDk5UIDEwLjAAAAAAAAAAAAIqHDFfYW1fcGJkXzBfY2JtEDAuMDMwMDAwAAwwLjAzMDACNwIwBjE5NgIxBDE3BDY0CDAuMDAuMjAyNTEyMjcwNzAxXzFfYW1fcGJkXzAIMC4wNQwwLjAwMDAMMC4wMTUyBjAtMQIxDDAuOTAwMC5mdXNlLXNsb3QtMjI4OTU5ODQwNzMtMRY0NjBfQklEX0FQSQIxAjEELTEfhetRuM5RQAIxLmZ1c2Utc2xvdC0yMjg5NTk4NDA3My0xOGRtbS1jc3MtZ2NzLTdmNmY3N2Y0OTktMnYybmYKZmFsc2UMMC4wMDAwFDIuNzYyOTkybXMKZmFsc2UENjUkc2ltaWxhcnNlYXJjaC5uZXQvDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDACMQRteDByYWRpby1zYWxpdHJlcmEtcG90b3NpbmE6cnRiLWNvbW1vbi1kZGY3NjQ5NTQtdG45MjIuU0M6MjAyNS0xMi0yOSAxNzoxNjo0MS44NzcyMDQxMTMuZnVzZS1zbG90LTIyODk1OTg0MDczLTEuZnVzZS1zbG90LTIyODk1OTg0MDczLTEMMC4wMDAwDDAuMDAwMAwwLjAwMDAQMTUzNng4NjQIMTUzNgY4NjQUODYyNzkuMDAwMAYwLTAKZXF1YWwMMC4wMzAwAjAOREVGQVVMVGY2MjY2MDk0My9BUFBHRU5fcmFkaW9iby9yYWRpb19tcmVjX2Rlc2t0b3Ajc2luZ2xlLTEIdHJ1ZQZFTVNAUzAzMDAwOTAwMDExMjU1MDAzMDAwMjUwOTk5OTk5MDAQMS4wMDAwMDACZAIwGHBmZF9TeXN0ZW1fMQEBAQHJOEayR6hpPwAAAAAAAPC_AQIzKm1vd3gtNzdmY2M0OWI4ZC05bXFsMgQ2NQwxMS4wLjgAAAAAAAAAAAAAAAAAAAAAAjAAAAEgQ2hyb21lIC0gV2luZG93cwwxMTAxMTEOMzAweDI1MAQGAAAAAAAA-D8AAAAAAADwPwZkZWYidjRfdjE0X2FfcnYwX3YzX2NANzQ0MmE0Y2U4NmE1NTY0ZjU1MmQ4NjM2MWNhNmFlY2QMY29tbW9uEGQwMDNkNThiDFBSRUJJRAJAYWY4YmY1ZDU3OGQwZGFhZThmNGM1ZTQ1NjIwYjA5NmIALjhDVUoyMTZJWC02NzExMTUzNzktMS03AAIxDmNvbnRyb2wAEmhlYWRlckJpZAAAAAAAAPA_mpmZmZmZuT8GMC4wAihNdWx0aXBsZShDb29raWUrVUlEKQYzLjMAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAAEAAAAAAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAABAAAAAAAAAAAAAAAAAAADwvwAAAAAAAPC_AAAAAABAXkAAAAAAAADwPwAAAAAAAPC_AAAAAABAXkCu2F92Tx7uPwAAAAAAAPC_AAAAAACAXkAAAAAAAAAQQAAAAAAAAPC_AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAgF5AAAAAAAAAEEAAAAAAAADwvwAAAAAAAPA_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_yThGskeoaT8CMgCt-fGXFtM_bToCuFm80z9d3EYDeAvUPw",
+        "logo_local": "logos_emisoras\\Radio_Salitrera_Potosina.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Salitrera Potosina en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "http://radiosalitrerapotosina.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Majagual",
+        "url_stream": "https://radiolatina.info/9832/stream",
+        "logo_local": "logos_emisoras\\Radio_Majagual.jpg",
+        "generos": [],
+        "descripcion": "Escuchar Radio Majagual en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiomajagual.com/",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "Radio Activa 96.7 FM",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7Brz9PACAYAAD-nb9PBf4XxsP-svcMIMBQwAfQAAzesAJgAKC7__uvwfn_HwAA_P__7wBAOTY4N2U4NWY3YTIwN2E0OTIyZTA4YWVmOWM0MWI3M2IOZGVmYXVsdAwwLjAxMDAMMC4wMDAwAjAEQ08SOENVOTk1VzM1EjczMjg2NTY5OQxib2dvdGEOZWFzdF9zYxAwLjAwNTYwMChlLnJhZGlvcy1ib2xpdmlhLmNvbQIxEDAuMDEwMDAwCDAuMDEGNDYwEDEwMC4wMDAwDDAuMDA1NnZlLnJhZGlvcy1ib2xpdmlhLmNvbS9lbWJlZC9yYWRpby1zYWxpdHJlcmEtcG90b3NpbmEtNDY0MTIxLwIwBERDBjQ2MAh0cnVlAjEOMzIweDEwMAhhcGV4uLvfBgI0DjExLjAuMTQgNDEwMDI0MzM4NDc5NDUyOK3PkuIGJjIwMjUtMTItMjkgMTc6MTc6NDcMcHJlYmlkSGEyOTRmNzZlLTRhMjYtNDAwMi05NTJhLWYyZDhjZjZlNTFmZAAAAAAAAAAAAAAAAAAAAAAACHByb2QGMjY1BjEwMd4BTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyMC4wLjAuMCBTYWZhcmkvNTM3LjM2EjEyMC4wLjAuMA5OVCAxMC4wAAAAAAAAAAACKhwxX2FtX3BiZF8wX2NibRAwLjAxMDAwMAAMMC4wMTAwAjcCMAYxOTYCMQQxNwQ0NAgwLjAwLjIwMjUxMjI3MDcwMV8xX2FtX3BiZF8wCDAuMDAMMC4wMDAwDDAuMDAyNwYwLTECMQwwLjkwMDAuZnVzZS1zbG90LTIzMDM1Mjg5MjM2LTEWNDYwX0JJRF9BUEkCMQIxBC0xj8L1KFz_VUACMS5mdXNlLXNsb3QtMjMwMzUyODkyMzYtMThkbW0tY3NzLWdjcy03ZjZmNzdmNDk5LWNoNHRyCmZhbHNlDDAuMDAwMBQyLjgzNDA0OW1zCmZhbHNlBDQ1JHNpbWlsYXJzZWFyY2gubmV0LwwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwAjEKZW1iZWQ-cmFkaW8tc2FsaXRyZXJhLXBvdG9zaW5hLTQ2NDEyMTpydGItY29tbW9uLWRkZjc2NDk1NC1yNjRzZC5TQzoyMDI1LTEyLTI5IDE3OjE3OjQ3LjU4ODA1NjI5NS5mdXNlLXNsb3QtMjMwMzUyODkyMzYtMS5mdXNlLXNsb3QtMjMwMzUyODkyMzYtMQwwLjAwMDAMMC4wMDAwDDAuMDAwMBAxNTM2eDg2NAgxNTM2Bjg2NBQ4NjM5Mi4wMDAwBjAtMAplcXVhbAwwLjAxMDACMA5ERUZBVUxUZjYyNjYwOTQzL0FQUEdFTl9yYWRpb2JvL3JhZGlvX2hlYWRlcl9lbWJlZCNzaW5nbGUtMQh0cnVlBkVNU0BTMDMwMDA5MDAwMTEyNTUwMDMyMDAxMDA5OTk5OTkwMBAxLjAwMDAwMAJkAjIYcGZkX1N5c3RlbV8xAQEBAck4RrJHqGk_AAAAAAAA8L8BAjMqbW93eC03N2ZjYzQ5YjhkLWhyZGtwBDQ1DDExLjAuOAAAAAAAAAAAAAAAAAAAAAACMAAAASBDaHJvbWUgLSBXaW5kb3dzDDExMDExMTozMDB4NTB8MzAweDEwMHwzMjB4NTB8MzIweDEwMAIIAAAAAAAAIkAAAAAAAAAQQAZkZWYedjRfdjE0X3J2MF92M19jQDUyN2Y1MjBhOTFkYmJkMjk3OGVjMjU0OWE4MWM2ZmVkDGNvbW1vbhBkMDAzZDU4YgxQUkVCSUQCQGExMzAzYjU2OWY0NTA2ODM2MDNjYWQ1M2NkYzA5ZGUzAC44Q1VKMjE2SVgtNjcxMTE1Mzc5LTEtOQACMRxleHBsb2l0YXRpb25fMQASaGVhZGVyQmlkAAAAAAAA8D8AAAAAAAAAAAYwLjACKE11bHRpcGxlKENvb2tpZStVSUQpBjMuMwAAAAAAAAAAQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAAQAAAAAAAABhAAAAAAAAAGEAAAAAAAAAAAAAAAAAAABhAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAPC_AAAAAAAA8L8AAAAAAAAiQAAAAAAAAPA_AAAAAAAA8D8AAAAAAAAiQHBfB84ZUe4_AAAAAAAA8D8AAAAAAAA1QAAAAAAAABhAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_AAAAAAAANUAAAAAAAAAYQAAAAAAAAPA_AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAPC_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L_JOEayR6hpPwIytkqwOJz50j-kGvZ7Yp3TP13cRgN4C9Q_",
+        "logo_local": "logos_emisoras\\Radio_Activa_967_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escuchar Radio Activa 96.7 FM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioactiva96@gmail.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "Retro 90 Music",
+        "url_stream": "https://stream-178.zeno.fm/5cqwrss3exhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1Y3F3cnNzM2V4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiYUFBLW0xTGRTcUN6N2VIaDN0Y1NQZyIsImlhdCI6MTc2NzAyODY5MCwiZXhwIjoxNzY3MDI4NzUwfQ.NbUJfpah6er6oPlXeuGyYomIwrTKazQibhsHdziIZ7M",
+        "logo_local": "logos_emisoras\\Retro_90_Music.jpg",
+        "generos": [
+            "Classical",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Retro 90 Music en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Retro-90-Music/100085417911367/?ref=embed_page"
+        ],
+        "sitio_web": "https://retro90musiclapaz.wixsite.com/retro90musiclapaz",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Bolivia Joven",
+        "url_stream": "https://stream-178.zeno.fm/dinhdjwdjeltv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkaW5oZGp3ZGplbHR2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiQ2MxQ0luaFVTSUtGNmt3dkVyby1tZyIsImlhdCI6MTc2NzAyODczMCwiZXhwIjoxNzY3MDI4NzkwfQ.kuXY2Po8lvhd33rJJKG_pnPGuJsyWYfy1AL1mK3bFcw",
+        "logo_local": "logos_emisoras\\Bolivia_Joven.jpg",
+        "generos": [
+            "Community",
+            "News",
+            "Educational"
+        ],
+        "descripcion": "Para la audiencia boliviana, Bolivia Joven representa más que una radio; es un espacio de encuentro donde la música y la cultura se entrelazan para dar voz a las nuevas generaciones. La estación se convierte en un reflejo de la identidad boliviana, con una programación que incluye desde los ritmos tradicionales hasta las tendencias modernas que definen el pulso de Bolivia. Los oyentes disfrutan de segmentos enriquecidos con anécdotas locales, historias que resuenan con la vivencia boliviana y programas que invitan a la reflexión sobre temas de relevancia social y cultural. La radio se transforma en un foro abierto, donde la participación del público es esencial para tejer la trama de una comunidad más conectada y consciente de su herencia cultural.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Lider Monteagudo",
+        "url_stream": "https://stream-177.zeno.fm/0p9a2yxxdnzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwcDlhMnl4eGRuenV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiMC0xYzNZU2FRaS0xRXlkcW9LTjd1dyIsImlhdCI6MTc2NzAyODc1OCwiZXhwIjoxNzY3MDI4ODE4fQ.CUNwit9ueK5FUBmnMeWNr_YLdW7r8gYb1XAkj7yWgx0",
+        "logo_local": "logos_emisoras\\Radio_Lider_Monteagudo.jpg",
+        "generos": [
+            "Classic Hits",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escuchar Radio Lider Monteagudo en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiolidermonteagudo/"
+        ],
+        "sitio_web": "https://zeno.fm/radiolidermonteagudo/",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "MizarFM",
+        "url_stream": "https://stream-177.zeno.fm/fef5gc4qn18uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmZWY1Z2M0cW4xOHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTElnaXI4U2FRR3ltRHFRZDgyamZGQSIsImlhdCI6MTc2NzAyODc3OSwiZXhwIjoxNzY3MDI4ODM5fQ.1aRUgKGa0W5_tI3lqD4Qag_Q88Qi5wC3TRaTaMJ2LT4",
+        "logo_local": "logos_emisoras\\MizarFM.jpg",
+        "generos": [
+            "World Music",
+            "R&B",
+            "Electronic"
+        ],
+        "descripcion": "Escuchar MizarFM en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://mizarfm.weebly.com/",
+        "ciudad": "Departamento de Oruro"
+    },
+    {
+        "nombre": "n25bo",
+        "url_stream": "https://radioenvivo.live:8000/radio.mp3",
+        "logo_local": "logos_emisoras\\n25bo.jpg",
+        "generos": [
+            "Business",
+            "Manele"
+        ],
+        "descripcion": "La n25bo, emblema de la radiodifusión en nuestro país, es la compañera perfecta para el día a día del boliviano. Con una programación que refleja el pulso de Bolivia, esta estación acompaña a sus oyentes con música que va desde los ritmos tradicionales hasta las tendencias actuales, sin olvidar los clásicos que resuenan en el corazón de nuestra cultura. Interactuando constantemente con la comunidad, n25bo no solo entretiene, sino que también informa y educa, convirtiéndose en una voz amiga que narra nuestras historias y celebra nuestra identidad. Su enfoque local, pero con miras a la inclusión global, hace de esta radio una fuente de orgullo nacional.",
+        "redes_sociales": [
+            "https://www.twitter.com/n25bolivia",
+            "https://www.facebook.com/n25bo"
+        ],
+        "sitio_web": "https://www.top-charts.com/s/ella-baila-sola-eslabon-armado-peso-pluma",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Gnosis",
+        "url_stream": "https://stream-177.zeno.fm/q5mqstcuyv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxNW1xc3RjdXl2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiRkx4N3NMdFZTb1NPSG5qbkxMYUVndyIsImlhdCI6MTc2NzAyODg0MiwiZXhwIjoxNzY3MDI4OTAyfQ.xuZ8xQLUXS92_EL3G5bVtJ0xsZvEYR8DrDxSAdxy5jQ",
+        "logo_local": "logos_emisoras\\Radio_Gnosis.jpg",
+        "generos": [
+            "Spirituality",
+            "Educational",
+            "Religious"
+        ],
+        "descripcion": "Escuchar Radio Gnosis en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://gnosisbolivia.com/radio/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Ecodisco Radio",
+        "url_stream": "https://ecodiscoradio.stream.laut.fm/ecodiscoradio?t302=2025-12-29_17-21-13&uuid=a562558c-e183-4363-8c70-aec12ca6e55e",
+        "logo_local": "logos_emisoras\\Ecodisco_Radio.jpg",
+        "generos": [
+            "Culture",
+            "World Music"
+        ],
+        "descripcion": "Escuchar Ecodisco Radio en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [],
+        "sitio_web": "https://ecodiscoradio.blogspot.com/",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Studio Sad Sucre",
+        "url_stream": "https://stream-175.zeno.fm/rfg8pzm5dm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyZmc4cHptNWRtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoicUZESXRJcENSNHVMNVBOZjd5TzlDZyIsImlhdCI6MTc2NzAyODk0MSwiZXhwIjoxNzY3MDI5MDAxfQ.Urhmlxw4RGUnQrpSQy2IYllA-qBVPjtf6jgl5A7WI-g",
+        "logo_local": "logos_emisoras\\Radio_Studio_Sad_Sucre.jpg",
+        "generos": [
+            "Classic Hits",
+            "Alternative Rock",
+            "00s"
+        ],
+        "descripcion": "Escuchar Radio Studio Sad Sucre en vivo. Todas las radios de Bolivia online en radios-bolivia.com.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Studio-SAD-La-Radio-online/100070551515875/",
+            "https://www.youtube.com/channel/UCV8swnd8CHMQ8VQprnHe6Bw"
+        ],
+        "sitio_web": "https://sites.google.com/view/radiostudiosadsucre/inicio",
+        "ciudad": "Departamento de Chuquisaca"
+    },
+    {
+        "nombre": "Radio Única Bolivia",
+        "url_stream": "https://stream-178.zeno.fm/n8qkpdy2ybruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuOHFrcGR5MnlicnV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiQWpjTHdVVmtUUXFuYTVyd1BackpqQSIsImlhdCI6MTc2NzAyODk2MiwiZXhwIjoxNzY3MDI5MDIyfQ.3FcHR_2iRHjQm_yCzyP5TieVfXX-TBBgdgeqtwXZIDM",
+        "logo_local": "logos_emisoras\\Radio_Unica_Bolivia.jpg",
+        "generos": [
+            "Pop Music",
+            "Public",
+            "R&B"
+        ],
+        "descripcion": "Conocida cariñosamente por su audiencia como 'La voz de la comunidad', Radio Única Bolivia es el corazón de la radiofonia nacional. Su programación está tejida con los hilos de la identidad boliviana, presentando segmentos que van desde la música folclórica hasta los debates sobre temas que afectan directamente a nuestra sociedad. Es un espacio donde la voz del pueblo se escucha y se valora, creando un diálogo constante entre los locutores y su público. En Radio Única Bolivia, cada día es una nueva oportunidad para explorar las riquezas culturales de nuestro país. Los programas especializados en tradiciones, historia y talentos locales son solo una parte de lo que hace que esta emisora sea tan especial para los bolivianos. La pasión por nuestra cultura y la calidez humana que transmite cada locutor hacen que sintonizar con Radio Única sea más que una elección, es un encuentro con lo mejor de nosotros mismos.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-%C3%9Anica-Bolivia-101533281232664/"
+        ],
+        "sitio_web": "https://www.zeno.fm/radio-unica",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Fecopdis",
+        "url_stream": "https://stream-179.zeno.fm/7qdsawh3haauv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3cWRzYXdoM2hhYXV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiS0h4WXl3Q2RSTG0yQVZkZ0pGenNadyIsImlhdCI6MTc2NzAyOTAwMSwiZXhwIjoxNzY3MDI5MDYxfQ.XCe541JKCVnkrCfK57vVh6q_5BsvLEDrAgDl4VtL7hs",
+        "logo_local": "logos_emisoras\\Radio_Fecopdis.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Radio Fecopdis, emblema de la radiodifusión en Bolivia, se ha convertido en un punto de encuentro para los amantes de la buena música y el debate constructivo. Su programación refleja la riqueza cultural del país, ofreciendo espacios donde la música folclórica se entrelaza con los éxitos contemporáneos, creando un puente sonoro entre generaciones. En el corazón de su misión está el fomento de una sociedad inclusiva, por lo que la radio se hace eco de las voces de las personas con discapacidad, brindando contenido que sensibiliza y promueve la igualdad. La cercanía con su audiencia se manifiesta en cada transmisión, donde la pasión por la radio se combina con el compromiso social, haciendo de Radio Fecopdis una estación con alma y esencia boliviana.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Departamento de Cochabamba"
+    },
+    {
+        "nombre": "Radio Bohemia Gitana",
+        "url_stream": "https://stream-178.zeno.fm/rk6wyyxt6s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyazZ3eXl4dDZzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiTDVibDREQVpTNnllY2lNZEd0STc1dyIsImlhdCI6MTc2NzAyOTA0NywiZXhwIjoxNzY3MDI5MTA3fQ.KeUUvnvMJ5unGG51hUxqULg44WOUrx_BmwCLZSu9VN8",
+        "logo_local": "logos_emisoras\\Radio_Bohemia_Gitana.jpg",
+        "generos": [
+            "Classic Hits",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Para el corazón bohemio de Bolivia, Radio Bohemia Gitana es más que una emisora; es un espacio de encuentro para quienes buscan la esencia de la música con historia y carácter. Aquí, la tradición se entrelaza con la innovación, creando una banda sonora que acompaña a los bolivianos en cada momento. Con un enfoque en la autenticidad, esta radio es el hogar de programas que exploran las raíces de diversos géneros y presentan las nuevas corrientes que definen el panorama musical actual. La pasión por la música se siente en cada transmisión, haciendo de Radio Bohemia Gitana el alma de la bohemia en Bolivia.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radioonlinebohemiagitana"
+        ],
+        "sitio_web": "https://radioonlinebohemia.wixsite.com/website",
+        "ciudad": "Departamento de La Paz"
+    },
+    {
+        "nombre": "Radio Som do Céu",
+        "url_stream": "https://stream-179.zeno.fm/sbq3ouawaxsvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzYnEzb3Vhd2F4c3Z2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoibUhzVTdsUEhTSjZYU29XczZ4Rl9mUSIsImlhdCI6MTc2NzAyOTA4NiwiZXhwIjoxNzY3MDI5MTQ2fQ.X8BCvl3KOfgbN7eyUvlV3Kmn2Am8OTuZm4nKsiadQ6I",
+        "logo_local": "logos_emisoras\\Radio_Som_do_Ceu.jpg",
+        "generos": [
+            "Eclectic",
+            "Christian Contemporary"
+        ],
+        "descripcion": "Para la audiencia boliviana, 'Radio Som do Céu' representa una ventana sonora que refleja la riqueza cultural de nuestro país. Esta emisora se ha convertido en un símbolo de identidad nacional, donde la música y las voces de Bolivia resuenan con fuerza. Con programas que exploran desde los ritmos tradicionales hasta las tendencias contemporáneas, la radio es un espacio de difusión y celebración de nuestra diversidad artística. Los fines de semana, la estación se transforma en un escenario para nuevos talentos, brindando una plataforma para que artistas emergentes compartan su arte con el público. Y es que 'Radio Som do Céu' no solo entretiene, sino que también inspira y conecta a las comunidades, reafirmando su papel como un medio de comunicación esencial en el corazón de Bolivia.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radios-bolivia.com/bine-web-en-linea",
+        "ciudad": "Departamento de Santa Cruz"
+    }
+]

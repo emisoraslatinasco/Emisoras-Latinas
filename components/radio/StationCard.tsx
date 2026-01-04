@@ -1,36 +1,49 @@
 'use client';
 
-import { Station } from '@/data/stations';
+import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 import { useRadio } from '@/context/RadioContext';
 import Image from 'next/image';
+import { getLogoPath } from '@/utils/logoMapper';
 
 interface StationCardProps {
-  station: Station;
+  station: StationByCountry;
   index: number;
+  countryCode: CountryCode;
 }
 
-export default function StationCard({ station, index }: StationCardProps) {
+export default function StationCard({ station, countryCode }: StationCardProps) {
   const { currentStation, isPlaying, playStation } = useRadio();
-  const isCurrentlyPlaying = currentStation?.id === station.id && isPlaying;
+  const isCurrentlyPlaying = currentStation?.nombre === station.nombre && isPlaying;
+  
+  const logoSrc = getLogoPath(station.logo_local, countryCode);
 
   return (
     <article
-      onClick={() => playStation(station)}
-      className="station-card group relative cursor-pointer rounded-2xl overflow-hidden bg-slate-800/40 hover:bg-slate-800/60 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-2xl hover:shadow-blue-500/20"
-      style={{ animationDelay: `${index * 0.05}s` }}
+      onClick={() => playStation(station, countryCode)}
+      className={`group relative cursor-pointer rounded-2xl overflow-hidden transition-all duration-300 shadow-lg ${
+        isCurrentlyPlaying 
+          ? 'scale-105 animate-border-glow' 
+          : 'bg-slate-800/40 hover:bg-slate-800/60 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20'
+      }`}
       itemScope
       itemType="https://schema.org/RadioStation"
-      aria-label={`Reproducir ${station.name}`}
+      aria-label={`Reproducir ${station.nombre}`}
     >
-      <div className="relative aspect-square w-full">
+      {/* Borde animado con gradiente cuando está reproduciendo */}
+      {isCurrentlyPlaying && (
+        <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl animate-gradient-rotate opacity-75"></div>
+      )}
+      
+      <div className={`relative aspect-square w-full ${isCurrentlyPlaying ? 'rounded-2xl overflow-hidden' : ''}`}>
         {/* Logo de la emisora */}
-        <div className={`absolute inset-0 logo-container flex items-center justify-center ${isCurrentlyPlaying ? 'ring-4 ring-blue-500' : ''} bg-slate-900`}>
+        <div className={`absolute inset-0 logo-container flex items-center justify-center bg-slate-900 ${isCurrentlyPlaying ? 'inset-0.5 rounded-xl' : ''}`}>
           <Image
-            src={station.logoUrl}
-            alt={station.name}
+            src={logoSrc}
+            alt={station.nombre}
             fill
             className="object-cover"
             sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+            loading="eager"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.style.display = 'none';
@@ -50,16 +63,17 @@ export default function StationCard({ station, index }: StationCardProps) {
             </div>
           </div>
 
-          {/* Indicador de reproducción activa */}
+          {/* Indicador de reproducción activa con ecualizador */}
           {isCurrentlyPlaying && (
             <div className="absolute bottom-2 right-2 z-20">
-              <div className="flex items-center gap-1 bg-blue-500 px-2 py-1 rounded-full shadow-lg">
-                <div className="flex gap-0.5">
-                  <div className="w-0.5 h-3 bg-white animate-pulse"></div>
-                  <div className="w-0.5 h-4 bg-white animate-pulse" style={{ animationDelay: '0.1s' }}></div>
-                  <div className="w-0.5 h-3 bg-white animate-pulse" style={{ animationDelay: '0.2s' }}></div>
+              <div className="flex items-center gap-1.5 bg-gradient-to-r from-blue-600 to-purple-600 px-2.5 py-1.5 rounded-full shadow-lg">
+                <div className="flex items-end gap-0.5 h-4">
+                  <div className="w-1 bg-white rounded-full equalizer-bar-1" style={{ height: '60%' }}></div>
+                  <div className="w-1 bg-white rounded-full equalizer-bar-2" style={{ height: '100%' }}></div>
+                  <div className="w-1 bg-white rounded-full equalizer-bar-3" style={{ height: '40%' }}></div>
+                  <div className="w-1 bg-white rounded-full equalizer-bar-4" style={{ height: '80%' }}></div>
                 </div>
-                <span className="text-white text-xs font-semibold ml-1">EN VIVO</span>
+                <span className="text-white text-xs font-bold">EN VIVO</span>
               </div>
             </div>
           )}
@@ -72,15 +86,17 @@ export default function StationCard({ station, index }: StationCardProps) {
             style={{ textShadow: '0 4px 12px rgba(0, 0, 0, 0.8), 0 2px 4px rgba(0, 0, 0, 0.6)' }}
             itemProp="name"
           >
-            {station.name}
+            {station.nombre}
           </h2>
-          <p 
-            className="text-slate-400 text-xs truncate mt-0.5 drop-shadow-md"
-            style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.7)' }}
-            itemProp="genre"
-          >
-            {station.category}
-          </p>
+          {station.generos && station.generos.length > 0 && (
+            <p 
+              className="text-slate-400 text-xs truncate mt-0.5 drop-shadow-md"
+              style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.7)' }}
+              itemProp="genre"
+            >
+              {station.generos.join(', ')}
+            </p>
+          )}
         </div>
       </div>
     </article>

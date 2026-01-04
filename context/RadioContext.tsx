@@ -1,10 +1,11 @@
 'use client';
 
 import React, { createContext, useContext, useState, useRef, useCallback, useEffect } from 'react';
-import { Station } from '@/data/stations';
+import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 
 interface RadioState {
-  currentStation: Station | null;
+  currentStation: StationByCountry | null;
+  currentCountryCode: CountryCode | null;
   isPlaying: boolean;
   volume: number;
   isLoading: boolean;
@@ -12,7 +13,7 @@ interface RadioState {
 }
 
 interface RadioContextType extends RadioState {
-  playStation: (station: Station) => void;
+  playStation: (station: StationByCountry, countryCode: CountryCode) => void;
   togglePlayPause: () => void;
   stopPlayback: () => void;
   setVolume: (volume: number) => void;
@@ -24,6 +25,7 @@ const RadioContext = createContext<RadioContextType | undefined>(undefined);
 export function RadioProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<RadioState>({
     currentStation: null,
+    currentCountryCode: null,
     isPlaying: false,
     volume: 0.7,
     isLoading: false,
@@ -46,11 +48,11 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     };
   }, []);
 
-  const playStation = useCallback((station: Station) => {
+  const playStation = useCallback((station: StationByCountry, countryCode: CountryCode) => {
     if (!audioRef.current) return;
 
     // Si es la misma emisora, toggle play/pause
-    if (state.currentStation?.id === station.id) {
+    if (state.currentStation?.nombre === station.nombre) {
       if (state.isPlaying) {
         audioRef.current.pause();
         setState(prev => ({ ...prev, isPlaying: false }));
@@ -66,7 +68,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, isLoading: true, error: null }));
     
     audioRef.current.pause();
-    audioRef.current.src = station.streamUrl;
+    audioRef.current.src = station.url_stream;
 
     const handleCanPlay = () => {
       audioRef.current?.play()
@@ -74,6 +76,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
           setState(prev => ({
             ...prev,
             currentStation: station,
+            currentCountryCode: countryCode,
             isPlaying: true,
             isLoading: false,
             error: null,
@@ -92,14 +95,14 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
       setState(prev => ({
         ...prev,
         isLoading: false,
-        error: `Emisora "${station.name}" no disponible`,
+        error: `Emisora "${station.nombre}" no disponible`,
       }));
     };
 
     audioRef.current.addEventListener('canplay', handleCanPlay, { once: true });
     audioRef.current.addEventListener('error', handleError, { once: true });
     audioRef.current.load();
-  }, [state.currentStation?.id, state.isPlaying]);
+  }, [state.currentStation?.nombre, state.isPlaying]);
 
   const togglePlayPause = useCallback(() => {
     if (!audioRef.current || !state.currentStation) return;
@@ -122,6 +125,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({
       ...prev,
       currentStation: null,
+      currentCountryCode: null,
       isPlaying: false,
       isLoading: false,
       error: null,

@@ -6,12 +6,14 @@ interface SearchBarProps {
   onSearch: (query: string) => void;
   placeholder?: string;
   className?: string;
+  compact?: boolean;
 }
 
 export default function SearchBar({ 
   onSearch, 
-  placeholder = "Buscar emisora por nombre...",
-  className = ""
+  placeholder = "Buscar emisora...",
+  className = "",
+  compact = false
 }: SearchBarProps) {
   const [query, setQuery] = useState('');
   const [isFocused, setIsFocused] = useState(false);
@@ -38,17 +40,17 @@ export default function SearchBar({
   };
 
   return (
-    <div className={`relative w-full max-w-2xl mx-auto ${className}`}>
+    <div className={`relative ${compact ? 'w-full' : 'w-full max-w-2xl mx-auto'} ${className}`}>
       <div 
-        className={`relative flex items-center bg-slate-800/50 backdrop-blur-sm rounded-full border-2 transition-all duration-300 ${
+        className={`relative flex items-center bg-slate-800/50 backdrop-blur-sm rounded-lg border transition-all duration-300 ${
           isFocused 
-            ? 'border-blue-500 shadow-lg shadow-blue-500/20' 
+            ? 'border-blue-500 shadow-md shadow-blue-500/20' 
             : 'border-slate-700 hover:border-slate-600'
         }`}
       >
         {/* Icono de lupa */}
-        <div className="absolute left-5 pointer-events-none">
-          <i className={`fas fa-search text-lg transition-colors duration-300 ${
+        <div className={`absolute ${compact ? 'left-3' : 'left-5'} pointer-events-none`}>
+          <i className={`fas fa-search ${compact ? 'text-sm' : 'text-lg'} transition-colors duration-300 ${
             isFocused ? 'text-blue-400' : 'text-slate-400'
           }`}></i>
         </div>
@@ -63,7 +65,7 @@ export default function SearchBar({
           onBlur={() => setIsFocused(false)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
-          className="w-full py-4 pl-14 pr-14 bg-transparent text-white placeholder-slate-500 focus:outline-none text-base"
+          className={`w-full ${compact ? 'py-2 pl-9 pr-9 text-sm' : 'py-4 pl-14 pr-14 text-base'} bg-transparent text-white placeholder-slate-500 focus:outline-none`}
           aria-label="Buscar emisora"
         />
 
@@ -71,17 +73,17 @@ export default function SearchBar({
         {query && (
           <button
             onClick={handleClear}
-            className="absolute right-5 w-8 h-8 flex items-center justify-center rounded-full bg-slate-700 hover:bg-slate-600 transition-colors duration-200"
+            className={`absolute ${compact ? 'right-2 w-6 h-6' : 'right-5 w-8 h-8'} flex items-center justify-center rounded-full bg-slate-700 hover:bg-slate-600 transition-colors duration-200`}
             aria-label="Limpiar búsqueda"
             type="button"
           >
-            <i className="fas fa-times text-slate-300 text-sm"></i>
+            <i className={`fas fa-times text-slate-300 ${compact ? 'text-xs' : 'text-sm'}`}></i>
           </button>
         )}
       </div>
 
-      {/* Indicador de búsqueda activa */}
-      {query && (
+      {/* Indicador de búsqueda activa - solo en modo no compacto */}
+      {!compact && query && (
         <div className="absolute top-full mt-3 left-0 right-0 flex items-center justify-center gap-2 text-slate-400 text-sm animate-fadeInUp">
           <i className="fas fa-filter text-blue-400"></i>
           <span>Filtrando por: <strong className="text-white">&ldquo;{query}&rdquo;</strong></span>
@@ -91,18 +93,6 @@ export default function SearchBar({
           >
             Limpiar
           </button>
-        </div>
-      )}
-
-      {/* Atajos de teclado (hint) */}
-      {!query && !isFocused && (
-        <div className="absolute top-full mt-3 left-0 right-0 flex items-center justify-center gap-4 text-slate-500 text-xs">
-          <span className="flex items-center gap-1">
-            <kbd className="px-2 py-1 bg-slate-800 rounded border border-slate-700">Ctrl</kbd>
-            <span>+</span>
-            <kbd className="px-2 py-1 bg-slate-800 rounded border border-slate-700">K</kbd>
-            <span className="ml-1">para buscar</span>
-          </span>
         </div>
       )}
     </div>

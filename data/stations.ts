@@ -150,7 +150,6 @@ export const stations: Station[] = [
     streamUrl: "https://19473.live.streamtheworld.com/OLP_SINCELEJOAAC_SC?dist=oro_web",
     description: "¡Se metió! Sincelejo."
   },
-
   // ========== TROPICANA Y SALSA ==========
   {
     id: 18,
