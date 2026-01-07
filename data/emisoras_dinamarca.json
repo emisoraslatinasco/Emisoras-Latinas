@@ -1,0 +1,1653 @@
+[
+    {
+        "nombre": "Radio Soft",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/radiosoft_dk_mp3",
+        "logo_local": "logos_emisoras\\Radio_Soft.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Soft. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/radioplaydk",
+            "https://www.facebook.com/radioplaydk",
+            "https://instagram.com/radioplaydk"
+        ],
+        "sitio_web": "http://www.radioplay.dk/radiosoft",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "DR P5",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfk&evtid=projectevents&project=prebid&acid=919b614e-b8c6-442f-98ed-eab3e7fa8923&cid=8CU995W35&crid=956780673&adunit_count=1&dn=www.radio-danmark.dk&requrl=https://www.radio-danmark.dk/p5&istop=true&event=client_bid_won&value=0.06&rd=",
+        "logo_local": "logos_emisoras\\DR_P5.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til DR P5. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.dr.dk/p5",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "NOVA",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/nova_dk_mp3",
+        "logo_local": "logos_emisoras\\NOVA.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til NOVA. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/radioplaydk",
+            "https://www.facebook.com/radioplaydk",
+            "https://twitter.com/radioplaydk"
+        ],
+        "sitio_web": "https://radioplay.dk/nova/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Retro-Radio",
+        "url_stream": "https://streammp3.retro-radio.dk/retro-mp3",
+        "logo_local": "logos_emisoras\\RetroRadio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Retro-Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/retroradiodk/"
+        ],
+        "sitio_web": "http://www.retro-radio.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Retro-Radio JUL",
+        "url_stream": "https://tx-1.retro-radio.dk/TX-1",
+        "logo_local": "logos_emisoras\\RetroRadio_JUL.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Retro-Radio JUL. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/retroradiodk"
+        ],
+        "sitio_web": "http://www.retro-radio.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld Jul",
+        "url_stream": "https://stream.probroadcast.dk/guldjul",
+        "logo_local": "logos_emisoras\\Globus_Guld_Jul.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld Jul. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/juleradio",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Limfjord Slager",
+        "url_stream": "https://media.limfjordnetradio.dk/plusslager128",
+        "logo_local": "logos_emisoras\\Limfjord_Slager.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Limfjord Slager. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/limfjordslager"
+        ],
+        "sitio_web": "http://slager.limfjordslagerdk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Pop FM",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/popfm_dk_mp3",
+        "logo_local": "logos_emisoras\\Pop_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Pop FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/popfmdk/"
+        ],
+        "sitio_web": "https://radioplay.dk/pop-fm/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "80's Hits",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP04.aac",
+        "logo_local": "logos_emisoras\\80s_Hits.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 80's Hits. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/80s-hits/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Classic FM",
+        "url_stream": "https://netradio.classicfm.dk/cla8d",
+        "logo_local": "logos_emisoras\\Classic_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Classic FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://facebook.com/passionformusik/"
+        ],
+        "sitio_web": "http://www.classicfm.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Freja Christmas (jul)",
+        "url_stream": "https://solid67.streamupsolutions.com/proxy/fbarcklk?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Freja_Christmas_jul.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Freja Christmas (jul). Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radiofreja.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radio 100",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/radio100_dk_mp3",
+        "logo_local": "logos_emisoras\\Radio_100.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio 100. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/radioplaydk",
+            "https://www.facebook.com/radioplaydk",
+            "https://instagram.com/radioplaydk"
+        ],
+        "sitio_web": "https://radioplay.dk/radio-100/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "DK4 Dansktop",
+        "url_stream": "https://netradio.classicfm.dk/dansktop",
+        "logo_local": "logos_emisoras\\DK4_Dansktop.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til DK4 Dansktop. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/tvkanalendk4/",
+            "https://www.instagram.com/tv_kanalen_dk4/?hl=en"
+        ],
+        "sitio_web": "https://dansktopkanalen.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "The Voice",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/thevoice_dk_mp3",
+        "logo_local": "logos_emisoras\\The_Voice.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til The Voice. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/radioplaydk",
+            "https://www.facebook.com/radioplaydk",
+            "https://instagram.com/radioplaydk"
+        ],
+        "sitio_web": "https://radioplay.dk/the-voice/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "90's Hits",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP06.aac",
+        "logo_local": "logos_emisoras\\90s_Hits.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 90's Hits. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/90s-hits/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "DR P3",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7BrztHACAYBAD-nZ1PBf4XxsP-kvEMAEBQAGfYAAzesAJgAIC7__uvwfn_HwAA_P__5wBAYTdkMGNkYTExZWZkOGYzOGE0MmQ5YzQwZmU2MWE5NzYOdW5pY29ybgwwLjE0NDYMMC4wMDAwAjAEQ08SOENVOTk1VzM1Ejk1Njc4MDY3Mwxib2dvdGEOZWFzdF9zYxAwLjA2OTQyMSByYWRpby1kYW5tYXJrLmRrAjEQMC4xMjE0ODcWMC4xMjE0ODcxODQGMjUxDjg0LjAwMDAMMC4wNjk0KHJhZGlvLWRhbm1hcmsuZGsvcDMvAjAEREMGMjUxAjEOMzAweDI1MBJ1bmljb3JuX2OIxq4EAjQOMTEuMC4xNL3OkuIGJjIwMjYtMDEtMDMgMTc6NDk6MDkMcHJlYmlkSGJkNzg2ZDhjLWRmYjYtNDVkNS04NGY2LTU1MjZhNDU0ZDU1NRZleHBsb3JhdGlvbgAAAAAAAAAAADMzMzMzM8M_CHByb2QGMjY1BjEwMd4BTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyMC4wLjAuMCBTYWZhcmkvNTM3LjM2EjEyMC4wLjAuMA5OVCAxMC4wAAAAAAAAAAACKiAzX2FtX2JfcGJkXzBfY2JtEDAuMDAwMDAwDDAuMTQ2MAI0AjACNgQxNwQ1MggwLjAwMjIwMjYwMTAzMDg1MV8zX2FtX2JfcGJkXzAIMC4wMAwwLjAwMDAMMC4xNDQ2BjAtMQIxDDAuODMwMC5mdXNlLXNsb3QtMjMyODExMjYwMTgtMRwyNTFfMTExODk4MzEyMAIwAjAELTFSuB6F65FGQAIxLmZ1c2Utc2xvdC0yMzI4MTEyNjAxOC0xNmRtbS1jc3MtZ2NzLWRiNTU0NzY4Ni13OTg4cApmYWxzZQwwLjAwMDAUMi4yMjgxNzRtcwpmYWxzZQQ1MBZoYm9tYXguY29tLwwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwAjMEcDNAcnRiLWNvbW1vbi1hLTdjZDVjNjhjOTktaGY2bnguU0M6MjAyNi0wMS0wMyAxNzo0OTowOS44NDgwODMwNjMMMC4wMDAwDDAuMDAwMAwwLjAwMDAQMTM2Nng3NjgIMTM2NgY3NjgGMC0wDDAuMDAwMAIwCmZhbHNlCERFQUwwMTEzMTAyMTg5ODMxMjBfNjQ5MzIzMTA1FjIyMzQ3NjcxOTY0FDExMTg5ODMxMjAybW5fbWF4X2xhdGFtX3dlYl9yb25fZHZfZBAxLjAwMDAwMAJkAjBAU3lzdGVtX21uX21heF9sYXRhbV93ZWJfcm9uX2R2X2QBAQEBhq5EoPoHcT8AAAAAAADwvwECMy5tb3d4LWEtNjY5Njk1ZjZiNS05OTlsOAQ1MAwxMS4wLjgAAAAAAAAAAAAAAAAAAAAAAAABIENocm9tZSAtIFdpbmRvd3MMMTEwMTExDjMwMHgyNTACBgAAAAAAAPA_cT0K16Nw3T8GZGVmEHY1X3YxOF9hQGU5M2Q4N2M1MmFlOTRjMWNhNTBkMWFhN2UyMDkzZDQzEGNvbW1vbi1hEGQwMDNkNThiDFBSRUJJRAJAYTJlZmRlYzE0ZmQ1MGYzNDdhNjhmZTU0ZGE4ZWE0YzYAKDExMTg5ODMxMjBfNjQ5MzIzMTA1AAIxDmNvbnRyb2wAEmhlYWRlckJpZAAAAAAAAPA_AAAAAAAAAAAGMC4wAgxwdWJjaWQGMy4zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIauRKD6B3E_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "logo_local": "logos_emisoras\\DR_P3.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til DR P3. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/drp3",
+            "https://www.facebook.com/p3radio",
+            "https://twitter.com/drp3"
+        ],
+        "sitio_web": "http://www.dr.dk/p3",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "RADIO4",
+        "url_stream": "https://29053.live.streamtheworld.com/RADIO4.mp3?dist=mytuner",
+        "logo_local": "logos_emisoras\\RADIO4.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til RADIO4. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio4dk",
+            "https://twitter.com/radio4dk",
+            "https://www.instagram.com/radio4dk"
+        ],
+        "sitio_web": "https://www.radio-danmark.dk/norea-webradio",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Globus",
+        "url_stream": "https://stream.probroadcast.dk/radioglobus",
+        "logo_local": "logos_emisoras\\Radio_Globus.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Globus. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/hitradioglobus",
+            "https://www.instagram.com/radioglobusdk/"
+        ],
+        "sitio_web": "http://radioglobus.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "ANR Hit FM",
+        "url_stream": "https://stream.anr.dk/anr",
+        "logo_local": "logos_emisoras\\ANR_Hit_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til ANR Hit FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioanr",
+            "http://twitter.com/radioanr"
+        ],
+        "sitio_web": "http://www.anr.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Radio Alfa",
+        "url_stream": "https://radioserver.dk/alfa",
+        "logo_local": "logos_emisoras\\Radio_Alfa.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Alfa. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioalfaDK"
+        ],
+        "sitio_web": "http://radioalfa.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Retro-Radio Millennium",
+        "url_stream": "https://tx-2.retro-radio.dk/TX-2",
+        "logo_local": "logos_emisoras\\RetroRadio_Millennium.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Retro-Radio Millennium. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/retroradiodk/"
+        ],
+        "sitio_web": "http://www.retro-radio-millennium.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld",
+        "url_stream": "https://stream.probroadcast.dk/guldmidt",
+        "logo_local": "logos_emisoras\\Globus_Guld.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/"
+        ],
+        "sitio_web": "http://globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Danske 80'er Hits",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP05.aac",
+        "logo_local": "logos_emisoras\\Danske_80er_Hits.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Danske 80'er Hits. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioplay.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Alfa Gold",
+        "url_stream": "https://radioserver.dk/alfaevent",
+        "logo_local": "logos_emisoras\\Radio_Alfa_Gold.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Alfa Gold. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioalfaDK"
+        ],
+        "sitio_web": "http://radioalfa.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio ABC",
+        "url_stream": "https://radioserver.dk/abc",
+        "logo_local": "logos_emisoras\\Radio_ABC.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio ABC. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioABCdk/"
+        ],
+        "sitio_web": "http://www.radioabc.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "myRock",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/myrock_dk_mp3",
+        "logo_local": "logos_emisoras\\myRock.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til myRock. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/radioplaydk",
+            "https://www.facebook.com/radioplaydk",
+            "https://instagram.com/radioplaydk"
+        ],
+        "sitio_web": "https://radioplay.dk/myrock/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Soft Classic",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP08.aac",
+        "logo_local": "logos_emisoras\\Radio_Soft_Classic.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Soft Classic. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/radio-soft-classic/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio VLR Vejle",
+        "url_stream": "https://webradio.vlr.dk/vlrvejle",
+        "logo_local": "logos_emisoras\\Radio_VLR_Vejle.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Vejle. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.vlr.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Pop 80'er",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/popfm80.mp3",
+        "logo_local": "logos_emisoras\\Pop_80er.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Pop 80'er. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/pop-fm-80er/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld Country",
+        "url_stream": "https://stream.probroadcast.dk/guldcountrymp3",
+        "logo_local": "logos_emisoras\\Globus_Guld_Country.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld Country. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://globusguld.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Skala Christmas",
+        "url_stream": "https://netradio.skala.fm/ska8d",
+        "logo_local": "logos_emisoras\\Skala_Christmas.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala Christmas. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/skalafm/",
+            "https://www.facebook.com/skalafmofficiel?fref=ts"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio Viborg 106.8 FM",
+        "url_stream": "https://webradio.radioviborg.dk/viborg",
+        "logo_local": "logos_emisoras\\Radio_Viborg_1068_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Viborg 106.8 FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioviborg/"
+        ],
+        "sitio_web": "http://www.radioviborg.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio SLR Slagelse",
+        "url_stream": "https://stream.probroadcast.dk/slagelsemp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Slagelse.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Slagelse. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "myROCK Legends of Rock",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP19.aac",
+        "logo_local": "logos_emisoras\\myROCK_Legends_of_Rock.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til myROCK Legends of Rock. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/myrock-legends-rock/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Nord",
+        "url_stream": "https://netradio.radionord.dk:8443/RadioNord",
+        "logo_local": "logos_emisoras\\Radio_Nord.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Nord. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radionord.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Victoria Christmas",
+        "url_stream": "https://stream.probroadcast.dk/victoriajulmp3",
+        "logo_local": "logos_emisoras\\Victoria_Christmas.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Victoria Christmas. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://radiovictoria.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Retro DK",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfk&evtid=projectevents&project=prebid&acid=94626ebd-917b-48c6-baf0-b053632c6d63&cid=8CU995W35&crid=956780673&adunit_count=1&dn=e.radio-danmark.dk&requrl=http://e.radio-danmark.dk/embed/p6-beat-401499&istop=true&event=client_bid_won&value=0.03&rd=",
+        "logo_local": "logos_emisoras\\Radio_Retro_DK.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Retro DK. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioretroDK"
+        ],
+        "sitio_web": "http://radioretro.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld Evergreens",
+        "url_stream": "https://stream.probroadcast.dk/evergreensmp3",
+        "logo_local": "logos_emisoras\\Globus_Guld_Evergreens.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld Evergreens. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "DR P5 Nordjylland",
+        "url_stream": "https://drliveradio1.akamaized.net/hls/live/2097651/p5nordjylland/playlist-320000.m3u8",
+        "logo_local": "logos_emisoras\\DR_P5_Nordjylland.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til DR P5 Nordjylland. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.dr.dk/lyd/p5nord",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Solo",
+        "url_stream": "https://radioserver.dk/solo",
+        "logo_local": "logos_emisoras\\Radio_Solo.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Solo. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiosolo.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Skala FM Kolding",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Kolding.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Kolding. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/skalafm/",
+            "https://www.facebook.com/skalafmofficiel?fref=ts"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio Alfa Midtjylland",
+        "url_stream": "https://radioserver.dk/alfamidt",
+        "logo_local": "logos_emisoras\\Radio_Alfa_Midtjylland.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Alfa Midtjylland. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioalfaDK"
+        ],
+        "sitio_web": "http://www.radioalfamidtjylland.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Skive",
+        "url_stream": "https://radioserver.dk/skive",
+        "logo_local": "logos_emisoras\\Radio_Skive.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Skive. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioSkive/"
+        ],
+        "sitio_web": "http://www.radioskive.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Silkeborg",
+        "url_stream": "https://radioserver.dk/silkeborg",
+        "logo_local": "logos_emisoras\\Radio_Silkeborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Silkeborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/radiosilkeborg",
+            "https://www.facebook.com/RadioSilkeborg"
+        ],
+        "sitio_web": "http://www.radiosilkeborg.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Mix 7",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/Mix7.mp3?aw_0_1st.bauer_listenerid=undefined&aw_0_1st.bauer_loggedin=false&aw_0_1st.playerid=SBS_RP_WEB&aw_0_1st.skey=1645208546&aw_0_req.userConsentV2=false&direct=true&listenerid=undefined",
+        "logo_local": "logos_emisoras\\Mix_7.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Mix 7. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/mix/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Sydhavsøerne",
+        "url_stream": "https://radio1.jfmtech.dk/sydhavfalster",
+        "logo_local": "logos_emisoras\\Radio_Sydhavsøerne.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Sydhavsøerne. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/Sydhavsradio",
+            "https://instagram.com/sydhavsradio"
+        ],
+        "sitio_web": "http://www.sydhavsradio.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "00's Hits",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP07.aac",
+        "logo_local": "logos_emisoras\\00s_Hits.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 00's Hits. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/00s-hits/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Vinyl",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/Vinyl_dk.mp3?aw_0_1st.bauer_listenerid=undefined&aw_0_1st.bauer_loggedin=false&aw_0_1st.playerid=SBS_RP_WEB&aw_0_1st.skey=1645208506&aw_0_req.userConsentV2=false&direct=true&listenerid=undefined",
+        "logo_local": "logos_emisoras\\Radio_Vinyl.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Vinyl. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/radiovinyl/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Limfjord",
+        "url_stream": "https://media.limfjordnetradio.dk/limfjord128",
+        "logo_local": "logos_emisoras\\Radio_Limfjord.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Limfjord. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/LIMFJORD/"
+        ],
+        "sitio_web": "http://www.radiolimfjord.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "go!FM",
+        "url_stream": "https://radioserver.dk/gofm",
+        "logo_local": "logos_emisoras\\goFM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til go!FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/goFMAarhus"
+        ],
+        "sitio_web": "http://www.gofm.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "NOVA 100% Dansk",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP11.aac",
+        "logo_local": "logos_emisoras\\NOVA_100_Dansk.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til NOVA 100% Dansk. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/nova-100-dansk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Soft Modern",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP09.aac",
+        "logo_local": "logos_emisoras\\Radio_Soft_Modern.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Soft Modern. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/radio-soft-modern/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio SLR Køge",
+        "url_stream": "https://stream.probroadcast.dk/slrkoegemp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Køge.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Køge. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioslr",
+            "https://instagram.com/radioslr"
+        ],
+        "sitio_web": "https://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "The Voice In The Mix",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP16.aac",
+        "logo_local": "logos_emisoras\\The_Voice_In_The_Mix.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til The Voice In The Mix. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/the-voice-in-the-mix/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Mars",
+        "url_stream": "https://radio2.digidi.net/listen/mars/radio_mid.mp3",
+        "logo_local": "logos_emisoras\\Radio_Mars.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Mars. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/p/Radio-Mars-61558034892850/",
+            "https://www.instagram.com/radiomars.dk/"
+        ],
+        "sitio_web": "https://www.radiomars.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio VLR Horsens Classic",
+        "url_stream": "https://webradio.vlr.dk/classichorsens",
+        "logo_local": "logos_emisoras\\Radio_VLR_Horsens_Classic.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Horsens Classic. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.radiohorsens.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio M",
+        "url_stream": "https://radioserver.dk/radiom",
+        "logo_local": "logos_emisoras\\Radio_M.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio M. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiom.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Globus Guld - Kolding",
+        "url_stream": "https://stream.probroadcast.dk/guldkolding",
+        "logo_local": "logos_emisoras\\Globus_Guld_Kolding.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Kolding. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Always Elvis Radio",
+        "url_stream": "https://radioserver.dk/alwayselvisradio",
+        "logo_local": "logos_emisoras\\Always_Elvis_Radio.jpg",
+        "generos": [],
+        "descripcion": "Always Elvis Presley Radio is an online fan club for Elvis fans in the UK. It is independently owned.",
+        "redes_sociales": [
+            "https://www.facebook.com/ElvisFanClub",
+            "http://www.twitter.com/elvisfanclub"
+        ],
+        "sitio_web": "http://elvis.co.uk/always-elvis-radio/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "r8Dio",
+        "url_stream": "https://s3.radio.co/s7cd1ffe2f/listen",
+        "logo_local": "logos_emisoras\\r8Dio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til r8Dio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/r8dio.dk",
+            "https://twitter.com/r8Dio_dk",
+            "https://www.instagram.com/r8diodk/"
+        ],
+        "sitio_web": "https://r8dio.dk/lyt-live/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Alfa Silkborg",
+        "url_stream": "https://radioserver.dk/alfasilk",
+        "logo_local": "logos_emisoras\\Radio_Alfa_Silkborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Alfa Silkborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioalfaDK"
+        ],
+        "sitio_web": "http://www.radioalfasilkeborg.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Alfa Skive",
+        "url_stream": "https://radioserver.dk/alfaskive",
+        "logo_local": "logos_emisoras\\Radio_Alfa_Skive.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Alfa Skive. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioalfaDK"
+        ],
+        "sitio_web": "http://radioalfa.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Max Pop",
+        "url_stream": "https://stream.maxpop.dk/stream",
+        "logo_local": "logos_emisoras\\Max_Pop.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Max Pop. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/classicpop.dk"
+        ],
+        "sitio_web": "http://www.maxpop.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Skala FM Esbjerg",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Esbjerg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Esbjerg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/skalafm/",
+            "https://www.facebook.com/skalafmofficiel?fref=ts"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "10's Hits",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP13.aac",
+        "logo_local": "logos_emisoras\\10s_Hits.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 10's Hits. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/10s-hits/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "902 FM - Radio Ballerup",
+        "url_stream": "https://s25.myradiostream.com:15246/listen.mp3?nocache=1767465271",
+        "logo_local": "logos_emisoras\\902_FM_Radio_Ballerup.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 902 FM - Radio Ballerup. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioBallerup/?fref=ts"
+        ],
+        "sitio_web": "http://www.902fm.com/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Skaga FM",
+        "url_stream": "https://stream.probroadcast.dk/skagafm",
+        "logo_local": "logos_emisoras\\Skaga_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skaga FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skagafm"
+        ],
+        "sitio_web": "http://www.skagafm.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Skala FM Sønderborg",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Sønderborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Sønderborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/skalafm/",
+            "https://www.facebook.com/skalafmofficiel?fref=ts"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio Øst FM",
+        "url_stream": "https://stream.probroadcast.dk/oestfmmp3",
+        "logo_local": "logos_emisoras\\Radio_Øst_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Øst FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-%C3%98st-FM-151263644952389/"
+        ],
+        "sitio_web": "http://oestfm.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio SLR Næstved",
+        "url_stream": "https://stream.probroadcast.dk/naestvedmp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Næstved.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Næstved. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "NOVA Top 40",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP12.aac",
+        "logo_local": "logos_emisoras\\NOVA_Top_40.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til NOVA Top 40. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/nova-top-40/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Victoria",
+        "url_stream": "https://stream.probroadcast.dk/victoria",
+        "logo_local": "logos_emisoras\\Radio_Victoria.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Victoria. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/pages/Radio-Victoria/377118969157169",
+            "https://www.instagram.com/radiovictoriadk/"
+        ],
+        "sitio_web": "http://radiovictoria.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Sendesamvirket Djurslandskanalen",
+        "url_stream": "https://netradio.djurslandskanalen.dk/djurs192",
+        "logo_local": "logos_emisoras\\Sendesamvirket_Djurslandskanalen.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Sendesamvirket Djurslandskanalen. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/95011008560/?fref=nf"
+        ],
+        "sitio_web": "http://www.sdlr.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Beat",
+        "url_stream": "https://a8.asurahosting.com:8060/radio.mp3",
+        "logo_local": "logos_emisoras\\Radio_Beat.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Beat. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiobeat.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio VLR Fredericia/Fyn",
+        "url_stream": "https://webradio.vlr.dk/vlrfredericia",
+        "logo_local": "logos_emisoras\\Radio_VLR_FredericiaFyn.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Fredericia/Fyn. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.vlr.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio VLR Horsens",
+        "url_stream": "https://webradio.vlr.dk/vlrhorsens",
+        "logo_local": "logos_emisoras\\Radio_VLR_Horsens.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Horsens. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.vlr.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Freja",
+        "url_stream": "https://solid67.streamupsolutions.com/proxy/ingjmhed?mp=/stream",
+        "logo_local": "logos_emisoras\\Radio_Freja.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Freja. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://facebook.com/radiofreja",
+            "http://instagram.com/radiofreja"
+        ],
+        "sitio_web": "http://radiofreja.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radio Viva",
+        "url_stream": "https://stream.probroadcast.dk/radioviva",
+        "logo_local": "logos_emisoras\\Radio_Viva.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Viva. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Viva-Kolding-1948512495162014/",
+            "https://www.instagram.com/radio_viva_kolding/"
+        ],
+        "sitio_web": "http://www.radioviva.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Globus Guld - Vejen, Billund",
+        "url_stream": "https://stream.probroadcast.dk/guldnord",
+        "logo_local": "logos_emisoras\\Globus_Guld_Vejen_Billund.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Vejen, Billund. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Det Rigtige Faaborg",
+        "url_stream": "https://stream.probroadcast.dk/detrigtigefaaborgmp3",
+        "logo_local": "logos_emisoras\\Det_Rigtige_Faaborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Det Rigtige Faaborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/detrigtigefaaborg/",
+            "https://www.instagram.com/detrigtigefaaborg/",
+            "https://www.youtube.com/channel/UCA-5yZjCEhbGWrJ8F0mLm5w"
+        ],
+        "sitio_web": "http://www.detrigtigefaaborg.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "The Voice Urban",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP15.aac",
+        "logo_local": "logos_emisoras\\The_Voice_Urban.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til The Voice Urban. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/the-voice-urban/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Stinesen",
+        "url_stream": "https://st1.stinesen.dk/StineM320",
+        "logo_local": "logos_emisoras\\Radio_Stinesen.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Stinesen. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/Stinesendk",
+            "https://www.instagram.com/radiostinesen/"
+        ],
+        "sitio_web": "https://stinesen.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Femern FM",
+        "url_stream": "https://cast1.asurahosting.com/proxy/femernfm/stream",
+        "logo_local": "logos_emisoras\\Femern_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Femern FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100090894566717"
+        ],
+        "sitio_web": "http://www.femernfm.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Globus Guld - Aabenraa, Sønderborg",
+        "url_stream": "https://stream.probroadcast.dk/guldsyd",
+        "logo_local": "logos_emisoras\\Globus_Guld_Aabenraa_Sønderborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Aabenraa, Sønderborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "The Voice Throwback",
+        "url_stream": "https://live-bauerdk.sharp-stream.com/DK_HQ_RP17.aac",
+        "logo_local": "logos_emisoras\\The_Voice_Throwback.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til The Voice Throwback. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioplay.dk/the-voice-throwback/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld - Esbjerg",
+        "url_stream": "https://stream.probroadcast.dk/guldesbjerg",
+        "logo_local": "logos_emisoras\\Globus_Guld_Esbjerg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Esbjerg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusgulddk/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio Happy DK",
+        "url_stream": "https://streaming.radio.co/sd9d980ff0/listen",
+        "logo_local": "logos_emisoras\\Radio_Happy_DK.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Happy DK. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiohappydk/"
+        ],
+        "sitio_web": "http://www.radiohappy.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Radio VLR Varde",
+        "url_stream": "https://netradio.vlr.dk/vlr8d",
+        "logo_local": "logos_emisoras\\Radio_VLR_Varde.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Varde. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.vlr.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Partyshaker.dk",
+        "url_stream": "https://az13.yesstreaming.net:8350/radio.mp3",
+        "logo_local": "logos_emisoras\\Partyshakerdk.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Partyshaker.dk. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/PartyshakerRadio"
+        ],
+        "sitio_web": "https://partyshaker.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio VLR Kolding",
+        "url_stream": "https://webradio.vlr.dk/vlrkolding",
+        "logo_local": "logos_emisoras\\Radio_VLR_Kolding.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio VLR Kolding. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovlr"
+        ],
+        "sitio_web": "http://www.vlr.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "HitRadio",
+        "url_stream": "https://s3.free-shoutcast.com/stream/18124",
+        "logo_local": "logos_emisoras\\HitRadio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til HitRadio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://hitradio.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio SLR Holbæk",
+        "url_stream": "https://stream.probroadcast.dk/holbaekmp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Holbæk.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Holbæk. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Skala FM Middelfart",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Middelfart.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Middelfart. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Skala FM Haderslev",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Haderslev.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Haderslev. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio SLR Vordingborg",
+        "url_stream": "https://stream.probroadcast.dk/vordingborgmp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Vordingborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Vordingborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radio PlayBack",
+        "url_stream": "https://stream02.radioplayback.dk/stream",
+        "logo_local": "logos_emisoras\\Radio_PlayBack.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio PlayBack. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioplayback"
+        ],
+        "sitio_web": "http://radioplayback.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Head FM.net - Underground House",
+        "url_stream": "https://443-1.reliastream.com/35/;",
+        "logo_local": "logos_emisoras\\Head_FMnet_Underground_House.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Head FM.net - Underground House. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/HeadFMradio/"
+        ],
+        "sitio_web": "https://www.headfm.net/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio ALR",
+        "url_stream": "https://streamer.radio.co/s6a9beb92e/listen",
+        "logo_local": "logos_emisoras\\Radio_ALR.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio ALR. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioALR/"
+        ],
+        "sitio_web": "http://www.radioalr.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "432Hz.dk Danmark Vågner Radio - Royalty Free Music",
+        "url_stream": "https://radio.danmarkvaagner.dk:8000/radio.mp3",
+        "logo_local": "logos_emisoras\\432Hzdk_Danmark_Vagner_Radio_Royalty_Free_Music.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 432Hz.dk Danmark Vågner Radio - Royalty Free Music. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://432hz.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Kolding",
+        "url_stream": "https://s4.radio.co/sf3f766dec/listen",
+        "logo_local": "logos_emisoras\\Radio_Kolding.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Kolding. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioKolding"
+        ],
+        "sitio_web": "http://fm1038.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Radio Marlab",
+        "url_stream": "https://marlab.radioca.st/stream",
+        "logo_local": "logos_emisoras\\Radio_Marlab.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Marlab. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.marlab.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Radio Tønder",
+        "url_stream": "https://listen.radioking.com/radio/741628/stream/808090",
+        "logo_local": "logos_emisoras\\Radio_Tønder.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Tønder. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/1730420953862393"
+        ],
+        "sitio_web": "https://www.radio-tonder.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Music Nation Danmark",
+        "url_stream": "https://s3.voscast.com:11561/misc",
+        "logo_local": "logos_emisoras\\Music_Nation_Danmark.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Music Nation Danmark. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Skala FM Faaborg",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Faaborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Faaborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://instagram.com/skalafm/",
+            "https://www.facebook.com/skalafmofficiel?fref=ts"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "ClubFM.dk - SOFT",
+        "url_stream": "https://stream.plexter.dk/soft",
+        "logo_local": "logos_emisoras\\ClubFMdk_SOFT.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til ClubFM.dk - SOFT. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Helsingør 92.8 FM",
+        "url_stream": "https://stream.radiohelsingor.dk/rh",
+        "logo_local": "logos_emisoras\\Radio_Helsingør_928_FM.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Helsingør 92.8 FM. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiohelsingor.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Skala FM Ribe",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Ribe.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Ribe. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "AllJazz.eu",
+        "url_stream": "https://phoebe.streamerr.co:5250/;?nocache=1756326084&type=http",
+        "logo_local": "logos_emisoras\\AllJazzeu.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til AllJazz.eu. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://alljazz.eu/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Næstved Lokal Radio",
+        "url_stream": "https://solid67.streamupsolutions.com/proxy/wcwmpntf?mp=/stream",
+        "logo_local": "logos_emisoras\\Næstved_Lokal_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Næstved Lokal Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.naestved.name/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radiosydvest",
+        "url_stream": "https://stream.probroadcast.dk/sendesamvirke",
+        "logo_local": "logos_emisoras\\Radiosydvest.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radiosydvest. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://radiosydvest.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio MFK",
+        "url_stream": "https://stream1.radiomfk.dk/radiomfk",
+        "logo_local": "logos_emisoras\\Radio_MFK.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio MFK. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.instagram.com/radiomfk",
+            "http://www.facebook.com/RadioMFK"
+        ],
+        "sitio_web": "http://www.radiomfk.dk/",
+        "ciudad": "Region Nordjylland"
+    },
+    {
+        "nombre": "Club Riva",
+        "url_stream": "https://n02.rcs.revma.com/gxszk2mpshruv?rj-ttl=5&rj-tok=AAABm4VMQz4ApolGDCMniO4JPw",
+        "logo_local": "logos_emisoras\\Club_Riva.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Club Riva. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://clubriva.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio Folk",
+        "url_stream": "https://n13.radiojar.com/fqt2y0ds97zuv?rj-ttl=5&rj-tok=AAABm4VNKWkArsAz6FVMAYQkCQ",
+        "logo_local": "logos_emisoras\\Radio_Folk.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Folk. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiofolk.dk"
+        ],
+        "sitio_web": "https://radiofolk.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio-Dexter",
+        "url_stream": "https://stream-02.aiir.com/2wk6lwqi4aevv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyd2s2bHdxaTRhZXZ2IiwiaG9zdCI6InN0cmVhbS0wMi5haWlyLmNvbSIsInJ0dGwiOjUsImp0aSI6IlUzWURTV3FpU1Y2NGpxMWpBZUl2UnciLCJpYXQiOjE3Njc0Njc0NDIsImV4cCI6MTc2NzQ2NzUwMn0.j4JLaIF7yfw7z3yxd3pElmoGhmc6V53G62dkPMWF3Qk",
+        "logo_local": "logos_emisoras\\RadioDexter.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio-Dexter. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/RadioDexter/61573149419369/?_rdr"
+        ],
+        "sitio_web": "http://www.radio-dexter.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Globus Guld - Haderslev, Rødding",
+        "url_stream": "https://stream.probroadcast.dk/guldmidt",
+        "logo_local": "logos_emisoras\\Globus_Guld_Haderslev_Rødding.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Haderslev, Rødding. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/",
+            "https://www.instagram.com/globusguld/"
+        ],
+        "sitio_web": "http://www.globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "M-Jazz Radio",
+        "url_stream": "https://fra-pioneer01.dedicateware.com:1460/stream",
+        "logo_local": "logos_emisoras\\MJazz_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til M-Jazz Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.mjazzradio.com/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "2Town Radio",
+        "url_stream": "https://streaming.radio.co/sd9d980ff0/listen",
+        "logo_local": "logos_emisoras\\2Town_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til 2Town Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://2town-radio.com/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "radio raketten",
+        "url_stream": "https://listen.radioking.com/radio/788101/stream/855876",
+        "logo_local": "logos_emisoras\\radio_raketten.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til radio raketten. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio SLR Kalundborg",
+        "url_stream": "https://stream.probroadcast.dk/kalundborgmp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Kalundborg.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Kalundborg. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "WMR - World Music Radio",
+        "url_stream": "https://radioserver.dk/wmr",
+        "logo_local": "logos_emisoras\\WMR_World_Music_Radio.jpg",
+        "generos": [],
+        "descripcion": "World Music Radio (WMR) is an independent radio station with a cheerful mix of tropical world music – including reggae, soca, salsa, cumbia, merengue, samba, Andean music, lots of music from Africa, and some music from South Asia. WMR transmits 24 hours a day with continuous music – and with station identifications in 30 different languages - on 3965 kHz in Copenhagen, 25800 kHz in Aarhus, as well as shortwave 5930 and 15700 kHz across Europe and beyond.",
+        "redes_sociales": [],
+        "sitio_web": "http://wmr.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Senior Radio",
+        "url_stream": "https://c14.radioboss.fm:18228/stream",
+        "logo_local": "logos_emisoras\\Senior_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Senior Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://frederiksbergseniorradio.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Skala FM Varde",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Varde.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Varde. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Umlando",
+        "url_stream": "https://a2.asurahosting.com:6520/radio.mp3",
+        "logo_local": "logos_emisoras\\Umlando.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Umlando. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.umlando.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Din Radio 8600",
+        "url_stream": "https://radioserver.dk/silkeborg",
+        "logo_local": "logos_emisoras\\Din_Radio_8600.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Din Radio 8600. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/dinradio8600/"
+        ],
+        "sitio_web": "http://www.dinradio8600.dk/",
+        "ciudad": "Region Midtjylland"
+    },
+    {
+        "nombre": "Skala FM Billund",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Billund.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Billund. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Uniradioen",
+        "url_stream": "https://uniradio.out.airtime.pro/uniradio_a",
+        "logo_local": "logos_emisoras\\Uniradioen.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Uniradioen. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://twitter.com/Uniradioen",
+            "https://www.facebook.com/Uniradioen/",
+            "https://www.instagram.com/uniradioen/"
+        ],
+        "sitio_web": "https://www.uniradioen.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Reservatet",
+        "url_stream": "https://n13.radiojar.com/c1wchedg76bwv?rj-ttl=5&rj-tok=AAABm4VXXH4AtTYqAnmnVABL8w",
+        "logo_local": "logos_emisoras\\Reservatet.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Reservatet. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.reservatet.fm/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "MG RADIO",
+        "url_stream": "https://listen.radioking.com/radio/769001/stream/836240",
+        "logo_local": "logos_emisoras\\MG_RADIO.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til MG RADIO. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.michellegurevich.bandcamp.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Skala FM Holsted",
+        "url_stream": "https://webradio.skala.fm/skala",
+        "logo_local": "logos_emisoras\\Skala_FM_Holsted.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Skala FM Holsted. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/skalafmofficiel?fref=ts",
+            "https://instagram.com/skalafm/"
+        ],
+        "sitio_web": "http://www.skala.fm/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Funny Radio",
+        "url_stream": "https://a8.asurahosting.com:7310/radio.mp3",
+        "logo_local": "logos_emisoras\\Funny_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Funny Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiostoholm.wixsite.com/funny-radio",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Nærradio Korsør",
+        "url_stream": "https://listen.radioking.com/radio/639226/stream/702199",
+        "logo_local": "logos_emisoras\\Nærradio_Korsør.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Nærradio Korsør. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/groups/247002472048268"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Humleborg Online",
+        "url_stream": "https://stream3.rcast.net/64547",
+        "logo_local": "logos_emisoras\\Humleborg_Online.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Humleborg Online. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.humleborg.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Globus Guld - Tønder",
+        "url_stream": "https://stream.probroadcast.dk/guldtoender",
+        "logo_local": "logos_emisoras\\Globus_Guld_Tønder.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Globus Guld - Tønder. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/globusguld/"
+        ],
+        "sitio_web": "https://globusguld.dk/",
+        "ciudad": "Region Syddanmark"
+    },
+    {
+        "nombre": "Jule Radio",
+        "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7Brz9PACAYAAD6Ha9HAP4VBsP-svcMIIBQwAfAAAzesAIAAKC76fuvwfn_HwAA_P__7wBAY2JjZjU4ZmVmZjdlNTdkODI2NTNkN2NjMjgxMjkyODAac3lzX3N0YXRpYy0yOQwwLjA0MDAMMC4wMDAwAjAEQ08SOENVOTk1VzM1Ejk1Njc4MDY3Mwxib2dvdGEOZWFzdF9zYxAwLjAyODQwMCRlLnJhZGlvLWRhbm1hcmsuZGsCMRAwLjA0MDAwMAgwLjA0BjQ2MBAxMDAuMDAwMAwwLjAyODRcZS5yYWRpby1kYW5tYXJrLmRrL2VtYmVkL2Jvb3N0ZXItcmFkaW8tNDc5NzM0LwIwBERDBjQ2MAh0cnVlAjEOMzIweDEwMBpzeXNfc3RhdGljLTI56K7bAgI0DjExLjAuMTQgNDEwNDY0MTUxNDgwMDExMr3OkuIGJjIwMjYtMDEtMDMgMTk6MjU6NTgMcHJlYmlkSGY0YmQyZTcyLTBmNGUtNGZhNC1hOGRhLWE0MjJhNjkxOGI5NAAAAAAAAAAAmpmZmZmZqT8IcHJvZAYyNjUGMTAx3gFNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIwLjAuMC4wIFNhZmFyaS81MzcuMzYSMTIwLjAuMC4wDk5UIDEwLjAAAAAAAAAAAAIqEDAuMDQwMDAwAAwwLjA0MDACMgYxOTYCNgQxOQQyOQgwLjAwCDAuMDUGMC0xAjEMMC43NDAwLmZ1c2Utc2xvdC0yMzA2NTkzMTEzOC0xFjQ2MF9CSURfQVBJAjECMQQtMQIxLmZ1c2Utc2xvdC0yMzA2NTkzMTEzOC0xNmRtbS1jc3MtZ2NzLWRiNTU0NzY4Ni13OTg4cApmYWxzZQpmYWxzZQQzMCRzaW1pbGFyc2VhcmNoLm5ldC8MMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAIxCmVtYmVkKGJvb3N0ZXItcmFkaW8tNDc5NzM0QHJ0Yi1jb21tb24tYS03Y2Q1YzY4Yzk5LTk0c3htLlNDOjIwMjYtMDEtMDMgMTk6MjU6NTguNTY5NTEwMDM0LmZ1c2Utc2xvdC0yMzA2NTkzMTEzOC0xLmZ1c2Utc2xvdC0yMzA2NTkzMTEzOC0xDDAuMDAwMAwwLjAwMDAMMC4wMDAwEDEzNjZ4NzY4CDEzNjYGNzY4FDg2MzUwLjAwMDAKZXF1YWwMMC4wNDAwAjAOREVGQVVMVFI2MjY2MDk0My9BUFBHRU5fcmFkaW9kazIvcmFkaW9fZW1iZWRfbXJlYwh0cnVlBkVNU0BTMDMwMDA4MDgxMzIyNzkwMDMyMDAxMDA5OTk5OTkwMAJkAjMYcGZkX1N5c3RlbV8xAQEBAX7IW65-bHI_AAAAAAAA8L8BAjMubW93eC1hLTY2OTY5NWY2YjUtOThzdGwEMzAMMTEuMC44AjAAAAEgQ2hyb21lIC0gV2luZG93cwwxMTAxMTE6MzAweDUwfDMwMHgxMDB8MzIweDUwfDMyMHgxMDACBgZkZWZANzA3YTgyNWVhYjgxY2I3ODcyZTg5M2JmZjkzYWViYzQQY29tbW9uLWEQZDAwM2Q1OGIMUFJFQklEAkAwZThkZWI4MzQ5MDFkM2ZiZWI2NTQ5YjU3Mzg5ODI3NQAuOENVSjIxNklYLTY3MTExNTM3OS0xLTQAAjEOY29udHJvbAASaGVhZGVyQmlkAAAAAAAA8D8AAAAAAAAAAAYwLjACKE11bHRpcGxlKENvb2tpZStVSUQpBjMuMwAAAAAAAADwPwAAAAAAgE1AAAAAAAAATEAAAAAAAADwPwAAAAAAADhAAAAAAAAANEAAAAAAAAAAAAAAAAAAAD9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPC_AAAAAAAA8L8AAAAAAICGQLU3-MJkquo_tTf4wmSq6j8AAAAAAABJQFafq63YX-4_AAAAAAAA8D8AAAAAAOBsQAAAAAAAgEVAmpmZmZmZ6T8YJlMFo5LoPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_AAAAAACAhkAAAAAAAAAzQAAAAAAAAPA_ZmZmZmZm7j8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAAAPC_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L9-yFuufmxyPwIyJEIj2Lj-1j-rBfaYSGnaP0Rpb_CFydw_",
+        "logo_local": "logos_emisoras\\Jule_Radio.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Jule Radio. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "http://jule-radio.dk/",
+        "ciudad": "Region Hovedstaden"
+    },
+    {
+        "nombre": "Radio SLR Ringsted",
+        "url_stream": "https://stream.probroadcast.dk/ringstedmp3",
+        "logo_local": "logos_emisoras\\Radio_SLR_Ringsted.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio SLR Ringsted. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioslr",
+            "http://twitter.com/radioslr",
+            "http://www.instagram.com/radioslr/",
+            "http://www.youtube.com/RadioSLR"
+        ],
+        "sitio_web": "http://www.radioslr.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radio Weekend",
+        "url_stream": "https://usa2.fastcast4u.com/proxy/rolars00?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Weekend.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Weekend. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/radioweekend.dk"
+        ],
+        "sitio_web": "https://radioweekend.dk/",
+        "ciudad": "Region Sjælland"
+    },
+    {
+        "nombre": "Radio Annika",
+        "url_stream": "https://usa4.fastcast4u.com/proxy/rolars01?mp=/1",
+        "logo_local": "logos_emisoras\\Radio_Annika.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radio Annika. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioannika.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radiomojn-gold.dk",
+        "url_stream": "https://listen.radioking.com/radio/698273/stream/763235",
+        "logo_local": "logos_emisoras\\Radiomojngolddk.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Radiomojn-gold.dk. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61568651551048"
+        ],
+        "sitio_web": "http://www.radiomojn-gold.dk/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Music for dreams",
+        "url_stream": "https://s2.radio.co/s0f2948883/listen",
+        "logo_local": "logos_emisoras\\Music_for_dreams.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til Music for dreams. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [
+            "https://www.instagram.com/musicfordreams/?_ga=2.105698308.687783250.1734620721-1040447086.1734620721",
+            "https://www.facebook.com/musicfordreams?_ga=2.134943990.687783250.1734620721-1040447086.1734620721"
+        ],
+        "sitio_web": "https://musicfordreams.dk/radio/?v=fc9fdf084e29",
+        "ciudad": ""
+    },
+    {
+        "nombre": "stairwaytonowhere",
+        "url_stream": "https://listen.radioking.com/radio/579893/stream/640178",
+        "logo_local": "logos_emisoras\\stairwaytonowhere.jpg",
+        "generos": [],
+        "descripcion": "Lyt direkte til stairwaytonowhere. Alle de bedste radiostationer fra Danmark, lyt nu gratis på radio-danmark.dk.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    }
+]

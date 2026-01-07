@@ -6,6 +6,7 @@ import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 interface RadioState {
   currentStation: StationByCountry | null;
   currentCountryCode: CountryCode | null;
+  loadingStation: string | null; // nombre de la emisora que está cargando
   isPlaying: boolean;
   volume: number;
   isLoading: boolean;
@@ -26,6 +27,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<RadioState>({
     currentStation: null,
     currentCountryCode: null,
+    loadingStation: null,
     isPlaying: false,
     volume: 0.7,
     isLoading: false,
@@ -64,8 +66,8 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
       return;
     }
 
-    // Nueva emisora
-    setState(prev => ({ ...prev, isLoading: true, error: null }));
+    // Nueva emisora - marcar inmediatamente cuál emisora está cargando
+    setState(prev => ({ ...prev, isLoading: true, loadingStation: station.nombre, error: null }));
     
     audioRef.current.pause();
     audioRef.current.src = station.url_stream;
@@ -77,6 +79,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
             ...prev,
             currentStation: station,
             currentCountryCode: countryCode,
+            loadingStation: null,
             isPlaying: true,
             isLoading: false,
             error: null,
@@ -85,6 +88,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
         .catch(err => {
           setState(prev => ({
             ...prev,
+            loadingStation: null,
             isLoading: false,
             error: `No se pudo reproducir: ${err.message}`,
           }));
@@ -94,6 +98,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     const handleError = () => {
       setState(prev => ({
         ...prev,
+        loadingStation: null,
         isLoading: false,
         error: `Emisora "${station.nombre}" no disponible`,
       }));
@@ -126,6 +131,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
       ...prev,
       currentStation: null,
       currentCountryCode: null,
+      loadingStation: null,
       isPlaying: false,
       isLoading: false,
       error: null,

@@ -128,18 +128,16 @@ export default function DynamicHeader({
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between gap-4">
-          {/* Lado izquierdo: Logo pequeño */}
+          {/* Lado izquierdo: Logo de Emisoras Latinas */}
           <div className="relative flex-shrink-0">
-            <div
-              className={`absolute -inset-1 bg-gradient-to-r ${theme.gradient} rounded-xl blur opacity-60 animate-pulse`}
-            ></div>
-            <div className="relative w-16 h-16 rounded-lg overflow-hidden">
+            <div className="relative h-24 w-auto">
               <Image
-                src="/img/logo_emisoras_latinas.jpg"
+                src="/logos_general/logo_emisoras_latinas.jpg"
                 alt="Emisoras Latinas"
-                width={64}
-                height={64}
-                className="w-full h-full object-cover"
+                width={360}
+                height={96}
+                className="h-24 w-auto object-contain"
+                priority
               />
             </div>
           </div>
@@ -162,17 +160,17 @@ export default function DynamicHeader({
           </div>
 
           {/* Lado derecho: Badges compactos */}
-          <div className="hidden md:flex items-center gap-2">
-            <span className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-xs text-white border border-slate-700/50">
-              <i className="fas fa-broadcast-tower text-blue-400"></i>
+          <div className="hidden md:flex items-center gap-3">
+            <span className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <i className="fas fa-broadcast-tower text-blue-400 text-base"></i>
               <span className="font-semibold">{stationCount}</span>
             </span>
-            <span className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-xs text-white border border-slate-700/50">
-              <i className="fas fa-signal text-green-400"></i>
+            <span className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <i className="fas fa-signal text-green-400 text-base"></i>
               En vivo
             </span>
-            <span className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-xs text-white border border-slate-700/50">
-              <i className="fas fa-gift text-purple-400"></i>
+            <span className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <i className="fas fa-gift text-purple-400 text-base"></i>
               Gratis
             </span>
           </div>

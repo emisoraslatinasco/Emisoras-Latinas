@@ -28,14 +28,20 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-14 h-12 ml-2 rounded-sm overflow-hidden border-2 border-slate-700 hover:border-slate-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500"
-        aria-label={`País seleccionado: ${selectedCountryData?.name}`}
+        className="flex items-center gap-3 px-3 py-2 ml-2 rounded-lg bg-slate-800/50 border-2 border-slate-700 hover:border-slate-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500"
+        aria-label={`País seleccionado: ${selectedCountryData?.name}. Clic para cambiar país.`}
       >
-        <img
-          src={selectedCountryData?.flag}
-          alt={selectedCountryData?.name}
-          className="w-full h-full object-cover"
-        />
+        <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0">
+          <img
+            src={selectedCountryData?.flag}
+            alt={selectedCountryData?.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="flex flex-col items-start">
+          <span className="text-white font-semibold text-sm">{selectedCountryData?.name}</span>
+          <span className="text-slate-500 text-xs">Cambiar país ▼</span>
+        </div>
       </button>
 
       {isOpen && (

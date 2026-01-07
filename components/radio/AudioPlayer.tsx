@@ -82,11 +82,11 @@ export default function AudioPlayer() {
               {/* Botón Ver más */}
               <button
                 onClick={() => setIsExpanded(!isExpanded)}
-                className="flex items-center gap-1 px-3 py-1.5 bg-slate-700/50 hover:bg-slate-600/50 rounded-full text-slate-300 hover:text-white text-xs transition-all"
+                className="flex items-center gap-2 px-4 py-2.5 bg-slate-700/50 hover:bg-slate-600/50 rounded-full text-slate-300 hover:text-white text-sm font-medium transition-all"
                 title={isExpanded ? 'Ver menos' : 'Ver más información'}
               >
                 <span className="hidden sm:inline">{isExpanded ? 'Ver menos' : 'Ver más'}</span>
-                <i className={`fas fa-chevron-${isExpanded ? 'up' : 'down'} text-xs transition-transform`}></i>
+                <i className={`fas fa-chevron-${isExpanded ? 'up' : 'down'} text-sm transition-transform`}></i>
               </button>
             </div>
 
@@ -165,11 +165,11 @@ export default function AudioPlayer() {
 
         {/* Panel expandido con información detallada (ABAJO) */}
         <div 
-          className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            isExpanded ? 'max-h-[60vh] opacity-100' : 'max-h-0 opacity-0'
+          className={`transition-all duration-500 ease-in-out ${
+            isExpanded ? 'max-h-[50vh] opacity-100 overflow-y-auto scrollbar-hide' : 'max-h-0 opacity-0 overflow-hidden'
           }`}
         >
-          <div className="container mx-auto px-4 py-6 border-t border-slate-700/50">
+          <div className="container mx-auto px-4 py-6 pb-8 border-t border-slate-700/50">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             
             {/* Columna izquierda: Logo grande e info básica */}
@@ -216,7 +216,7 @@ export default function AudioPlayer() {
                     <i className="fas fa-info-circle text-blue-400"></i>
                     Descripción
                   </h4>
-                  <p className="text-slate-400 text-sm leading-relaxed line-clamp-4">
+                  <p className="text-slate-400 text-sm leading-relaxed">
                     {currentStation.descripcion}
                   </p>
                 </div>
