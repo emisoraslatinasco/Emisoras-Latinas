@@ -12,8 +12,11 @@ interface StationCardProps {
 }
 
 export default function StationCard({ station, countryCode }: StationCardProps) {
-  const { currentStation, isPlaying, playStation } = useRadio();
-  const isCurrentlyPlaying = currentStation?.nombre === station.nombre && isPlaying;
+  const { currentStation, isPlaying, loadingStation, playStation } = useRadio();
+  const isCurrentStation = currentStation?.nombre === station.nombre;
+  const isCurrentlyPlaying = isCurrentStation && isPlaying;
+  // Usar loadingStation para saber si ESTA emisora específica está cargando
+  const isThisStationLoading = loadingStation === station.nombre;
   
   const logoSrc = getLogoPath(station.logo_local, countryCode);
 
@@ -23,6 +26,8 @@ export default function StationCard({ station, countryCode }: StationCardProps) 
       className={`group relative cursor-pointer rounded-2xl overflow-hidden transition-all duration-300 shadow-lg ${
         isCurrentlyPlaying 
           ? 'scale-105 animate-border-glow' 
+          : isThisStationLoading
+          ? 'scale-105'
           : 'bg-slate-800/40 hover:bg-slate-800/60 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20'
       }`}
       itemScope
@@ -34,9 +39,14 @@ export default function StationCard({ station, countryCode }: StationCardProps) 
         <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl animate-gradient-rotate opacity-75"></div>
       )}
       
-      <div className={`relative aspect-square w-full ${isCurrentlyPlaying ? 'rounded-2xl overflow-hidden' : ''}`}>
+      {/* Borde pulsante cuando está cargando */}
+      {isThisStationLoading && (
+        <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-400 rounded-2xl animate-pulse opacity-75"></div>
+      )}
+      
+      <div className={`relative aspect-square w-full ${isCurrentlyPlaying || isThisStationLoading ? 'rounded-2xl overflow-hidden' : ''}`}>
         {/* Logo de la emisora */}
-        <div className={`absolute inset-0 logo-container flex items-center justify-center bg-slate-900 ${isCurrentlyPlaying ? 'inset-0.5 rounded-xl' : ''}`}>
+        <div className={`absolute inset-0 logo-container flex items-center justify-center bg-slate-900 ${isCurrentlyPlaying || isThisStationLoading ? 'inset-0.5 rounded-xl' : ''}`}>
           <Image
             src={logoSrc}
             alt={station.nombre}
@@ -56,10 +66,16 @@ export default function StationCard({ station, countryCode }: StationCardProps) 
             <i className={`fas fa-radio text-white ${isCurrentlyPlaying ? 'text-6xl' : 'text-7xl'} opacity-90`} aria-hidden="true"></i>
           </div>
 
-          {/* Icono de Play que aparece al hover */}
-          <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
+          {/* Overlay con icono de Play/Pause/Loading */}
+          <div className={`absolute inset-0 bg-black/50 transition-opacity duration-300 flex items-center justify-center z-10 ${
+            isThisStationLoading ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+          }`}>
             <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border-2 border-white/40">
-              <i className={`fas ${isCurrentlyPlaying ? 'fa-pause' : 'fa-play'} text-white text-2xl ${isCurrentlyPlaying ? '' : 'ml-1'}`} aria-hidden="true"></i>
+              {isThisStationLoading ? (
+                <i className="fas fa-spinner fa-spin text-white text-2xl" aria-hidden="true"></i>
+              ) : (
+                <i className={`fas ${isCurrentlyPlaying ? 'fa-pause' : 'fa-play'} text-white text-2xl ${isCurrentlyPlaying ? '' : 'ml-1'}`} aria-hidden="true"></i>
+              )}
             </div>
           </div>
 

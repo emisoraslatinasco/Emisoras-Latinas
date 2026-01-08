@@ -79,8 +79,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-white font-semibold mb-1">Email de Soporte</h3>
-                    <a href="mailto:soporte@emisoraslatinas.com" className="text-blue-400 hover:text-blue-300 transition-colors">
-                      soporte@emisoraslatinas.com
+                    <a href="emisoraslatinasco@gmail.com" className="text-blue-400 hover:text-blue-300 transition-colors">
+                       emisoraslatinasco@gmail.com
                     </a>
                     <p className="text-slate-400 text-sm mt-1">
                       Respondemos en 24-48 horas

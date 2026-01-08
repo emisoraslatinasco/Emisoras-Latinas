@@ -20,7 +20,7 @@ const ITEMS_PER_PAGE = 50;
 const STORAGE_KEY = "emisoras_latinas_country";
 
 export default function HomeContent() {
-  const [selectedCountry, setSelectedCountry] = useState<CountryCode>("EC");
+  const [selectedCountry, setSelectedCountry] = useState<CountryCode>("CO");
   const [isInitialized, setIsInitialized] = useState(false);
   const [stations, setStations] = useState<StationByCountry[]>([]);
   const [isLoadingStations, setIsLoadingStations] = useState(true);
@@ -189,8 +189,8 @@ export default function HomeContent() {
           {/* Barra de controles: Buscador y Filtros alineados a la izquierda */}
           <section className="py-6">
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 justify-start">
-              {/* Buscador - ancho limitado */}
-              <div className="w-full sm:w-64">
+              {/* Buscador - ancho extendido */}
+              <div className="w-full sm:w-[40rem] lg:w-[50rem]">
                 <SearchBar onSearch={handleSearch} compact />
               </div>
 
