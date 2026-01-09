@@ -89,6 +89,24 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Uruguay, pequeño gigante musical!",
     emoji: "🇺🇾",
   },
+  HN: {
+    gradient: "from-blue-500 via-white to-blue-500",
+    accentColor: "text-blue-400",
+    slogan: "¡Honduras, corazón de Centroamérica!",
+    emoji: "🇭🇳",
+  },
+  NI: {
+    gradient: "from-blue-600 via-white to-blue-600",
+    accentColor: "text-blue-400",
+    slogan: "¡Nicaragua, tierra de lagos y volcanes!",
+    emoji: "🇳🇮",
+  },
+  AR: {
+    gradient: "from-blue-400 via-white to-blue-400",
+    accentColor: "text-blue-300",
+    slogan: "¡Argentina, pasión que se escucha!",
+    emoji: "🇦🇷",
+  },
 };
 
 const countryNames: Record<CountryCode, string> = {
@@ -105,6 +123,9 @@ const countryNames: Record<CountryCode, string> = {
   DO: "Rep. Dominicana",
   UA: "Ucrania",
   UY: "Uruguay",
+  HN: "Honduras",
+  NI: "Nicaragua",
+  AR: "Argentina",
 };
 
 interface DynamicHeaderProps {
