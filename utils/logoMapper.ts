@@ -2,9 +2,9 @@ import { CountryCode } from '@/data/stationsByCountry';
 
 // Mapeo de códigos de país a carpetas de logos
 const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
-  'CO': 'logos_emisoras_colombia',
+  'CO': 'logos_emisoras-colombia',
   'PE': 'logos_peru_ecuador',
-  'BR': 'logos_emisoras_brasil',
+  'BR': 'logos_emisoras-brasil',
   'EC': 'logos_peru_ecuador',
   'MX': 'logos_emisoras-mexico',
   'GT': 'logos_emisoras-guatemala',
@@ -13,8 +13,16 @@ const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
   'JM': 'logos_emisoras-jamaica',
   'PR': 'logos_emisoras-puertorico',
   'DO': 'logos_emisoras-republica_dominicana',
-  'UA': 'logos_emisoras-ukrania',
+  'UA': 'logos_emisoras-ucrania',
   'UY': 'logos_emisoras-uruguay',
+  'CL': 'logos_emisoras-chile',
+  'CR': 'logos_emisoras-costarica',
+  'DK': 'logos_emisoras-dinamarca',
+  'ES': 'logos_emisoras-españa',
+  'PT': 'logos_emisoras-portugal',
+  'TT': 'logos_emisoras-trinidad_y_tobago',
+  'US': 'logos_emisoras-usa',
+  'VE': 'logos_emisoras-venezuela',
 };
 
 /**
@@ -25,7 +33,7 @@ const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
  */
 export function getLogoPath(logoLocal: string | null, countryCode: CountryCode): string {
   if (!logoLocal) {
-    return '/img/default-radio-logo.jpg';
+    return '/logos_general/antena.png';
   }
 
   const folderName = LOGO_FOLDER_MAP[countryCode];

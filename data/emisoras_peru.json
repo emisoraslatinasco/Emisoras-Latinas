@@ -4315,7 +4315,7 @@
     {
         "nombre": "Radio La Voz Cristiana 97.5 FM Larcay",
         "url_stream": "https://stream-176.zeno.fm/juzjnndejqutv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqdXpqbm5kZWpxdXR2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZHd5cTJxT1hRb1d2cDdHblZzMTR4USIsImlhdCI6MTc2NjgwMDUyMSwiZXhwIjoxNzY2ODAwNTgxfQ.D0Y5me-2e9VptVNb2ShJXTHH1K970xp-MV3q-BQW-ac",
-        "logo_local": null,
+        "logo_local": "logos_emisoras\\radio_la_voz_cristiana_97_5.jpg",
         "descripcion": "",
         "generos": [
             "Folk",

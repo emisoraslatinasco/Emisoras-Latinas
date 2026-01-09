@@ -70,6 +70,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
                       : 'border-slate-700 hover:border-slate-500'
                   }`}
                   aria-label={country.name}
+                  title={country.name}
                 >
                   <img
                     src={country.flag}

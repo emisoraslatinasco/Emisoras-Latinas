@@ -5,6 +5,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { RadioProvider } from "@/context/RadioContext";
 import { AudioPlayer } from "@/components/radio";
+import CookieConsent from "@/components/ui/CookieConsent";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     type: "website",
-    url: "https://www.emisoraslatinas.com/",
+    url: "https://www.emisoraslatinas.online/",
     title: "Emisoras Latinas - Radio Online Gratis en Vivo",
     description: "Escucha las mejores emisoras de radio online: música cristiana, salsa, noticias y más. Streaming en vivo gratis las 24 horas.",
     locale: "es_ES",
@@ -49,6 +50,7 @@ export default function RootLayout({
           <RadioProvider>
             {children}
             <AudioPlayer />
+            <CookieConsent />
           </RadioProvider>
         </Providers>
       </body>

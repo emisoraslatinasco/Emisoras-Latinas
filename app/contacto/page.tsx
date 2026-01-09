@@ -1,61 +1,41 @@
-import { Metadata } from 'next';
+'use client';
+
 import { Footer } from '@/components/layout';
 import ContactForm from '@/components/contact/ContactForm';
 import Link from 'next/link';
-
-export const metadata: Metadata = {
-  title: 'Contacto - Emisoras Latinas',
-  description: 'Contáctanos - Emisoras Latinas. Envíanos tus preguntas, sugerencias o reporta problemas con nuestro servicio de radio online.',
-  keywords: 'contacto, soporte, ayuda, emisoras latinas, atención al cliente',
-};
+import Image from 'next/image';
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Header */}
-      <header className="glass-effect sticky top-0 z-50 shadow-2xl">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-                <i className="fas fa-broadcast-tower text-white text-2xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <p className="text-2xl md:text-3xl font-bold text-white tracking-tight">
-                  Emisoras Latinas
-                </p>
-                <p className="text-slate-400 text-sm hidden md:block">Directorio de Radio Online</p>
-              </div>
-            </Link>
-
-            {/* Navigation Menu */}
-            <nav className="flex gap-6" aria-label="Navegación principal">
-              <Link href="/" className="text-slate-300 hover:text-white transition-colors font-medium">
-                <i className="fas fa-home mr-2"></i>Inicio
-              </Link>
-              <Link href="/contacto" className="text-blue-400 font-semibold">
-                <i className="fas fa-envelope mr-2"></i>Contacto
-              </Link>
-              <Link href="/privacidad" className="text-slate-300 hover:text-white transition-colors font-medium">
-                <i className="fas fa-shield-alt mr-2"></i>Privacidad
-              </Link>
-            </nav>
-          </div>
+      <header className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-3">
+            <Image 
+              src="/logos_general/logo_miniatura_emisoras_latinas.jpg.png"
+              alt="Emisoras Latinas"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
+            <span className="text-white font-bold text-xl">Emisoras Latinas</span>
+          </Link>
+          <Link href="/" className="text-slate-400 hover:text-white transition-colors">
+            <i className="fas fa-arrow-left mr-2"></i>
+            Volver al inicio
+          </Link>
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="container mx-auto px-4 py-12 max-w-5xl flex-1" role="main">
-        {/* Page Title */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            <i className="fas fa-envelope text-blue-500 mr-3"></i>
+      {/* Content */}
+      <div className="container mx-auto px-4 py-12 max-w-5xl">
+        <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-slate-700/50 mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+            <i className="fas fa-envelope text-blue-400 mr-3"></i>
             Contáctanos
           </h1>
-          <p className="text-slate-400 text-lg">
-            Estamos aquí para ayudarte. Envíanos tu consulta y te responderemos pronto.
-          </p>
+          <p className="text-slate-400 mb-8">Estamos aquí para ayudarte. Envíanos tu consulta y te responderemos pronto.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -159,9 +139,10 @@ export default function ContactPage() {
             </section>
           </div>
         </div>
-      </main>
+      </div>
 
       <Footer />
-    </div>
+    </main>
   );
 }
+
