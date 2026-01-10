@@ -1,0 +1,19 @@
+# Emisoras Latinas - Directorio de Radio Online
+# https://www.emisoraslatinas.online
+
+User-agent: *
+Allow: /
+
+# Bloquear rutas internas de Next.js
+Disallow: /_next/static/
+Disallow: /api/
+
+# Permitir archivos importantes
+Allow: /sitemap.xml
+Allow: /manifest.json
+
+# Sitemap
+Sitemap: https://www.emisoraslatinas.online/sitemap.xml
+
+# Crawl-delay para ser amigable con el servidor
+Crawl-delay: 1

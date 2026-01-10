@@ -3,6 +3,7 @@ import { CountryCode } from '@/data/stationsByCountry';
 // Mapeo de códigos de país a carpetas de logos
 const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
   'CO': 'logos_emisoras-colombia',
+  'AR': 'logos_emisoras-argentina',
   'PE': 'logos_peru_ecuador',
   'BR': 'logos_emisoras-brasil',
   'EC': 'logos_peru_ecuador',
@@ -38,8 +39,8 @@ export function getLogoPath(logoLocal: string | null, countryCode: CountryCode):
 
   const folderName = LOGO_FOLDER_MAP[countryCode];
   
-  // Extraer solo el nombre del archivo (después de la última barra)
-  const fileName = logoLocal.split('\\').pop() || logoLocal.split('/').pop() || logoLocal;
+  // Extraer solo el nombre del archivo (después de la última barra, soporte para / y \)
+  const fileName = logoLocal.replace(/^.*[\\\/]/, '');
   
   // Construir la ruta correcta
   return `/${folderName}/${fileName}`;

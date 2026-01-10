@@ -43,6 +43,11 @@ next-env.d.ts
 # agent config
 /.agent
 
-# scripts de inspección (development only)
+# scripts de inspección y descarga (development only)
 check-streams.js
 inspect-stations.js
+download-missing-logos.js
+search-missing-logos.js
+update-descriptions.js
+rewrite-colombia-descriptions.js
+rewrite-all-descriptions.js

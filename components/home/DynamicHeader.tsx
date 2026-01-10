@@ -137,6 +137,12 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Venezuela suena con fuerza!",
     emoji: "🇻🇪",
   },
+  AR: {
+    gradient: "from-sky-400 via-white to-sky-400",
+    accentColor: "text-sky-400",
+    slogan: "¡Argentina, pasión y música!",
+    emoji: "🇦🇷",
+  },
 };
 
 const countryNames: Record<CountryCode, string> = {
@@ -161,6 +167,7 @@ const countryNames: Record<CountryCode, string> = {
   TT: "Trinidad y Tobago",
   US: "Estados Unidos",
   VE: "Venezuela",
+  AR: "Argentina",
 };
 
 interface DynamicHeaderProps {
