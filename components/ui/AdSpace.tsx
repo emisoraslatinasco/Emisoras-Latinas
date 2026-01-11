@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
 interface AdSpaceProps {
   width?: string;
   height?: string;
   label?: string;
   className?: string;
-  orientation?: 'horizontal' | 'vertical';
+  orientation?: "horizontal" | "vertical";
 }
 
 /**

@@ -31,6 +31,8 @@ export type CountryCode =
   | "PT"
   | "TT"
   | "US"
+  | "HN"
+  | "NI"
   | "VE";
 
 export interface Country {
