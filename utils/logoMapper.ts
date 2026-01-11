@@ -2,31 +2,30 @@ import { CountryCode } from "@/data/stationsByCountry";
 
 // Mapeo de códigos de país a carpetas de logos
 const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
-  'CO': 'logos_emisoras-colombia',
-  'AR': 'logos_emisoras-argentina',
-  'PE': 'logos_peru_ecuador',
-  'BR': 'logos_emisoras-brasil',
-  'EC': 'logos_peru_ecuador',
-  'MX': 'logos_emisoras-mexico',
-  'GT': 'logos_emisoras-guatemala',
-  'BO': 'logos_emisoras-bolivia',
-  'SV': 'logos_emisoras-elsalvador',
-  'JM': 'logos_emisoras-jamaica',
-  'PR': 'logos_emisoras-puertorico',
-  'DO': 'logos_emisoras-republica_dominicana',
-  'UA': 'logos_emisoras-ucrania',
-  'UY': 'logos_emisoras-uruguay',
-  'CL': 'logos_emisoras-chile',
-  'CR': 'logos_emisoras-costarica',
-  'DK': 'logos_emisoras-dinamarca',
-  'ES': 'logos_emisoras-españa',
-  'PT': 'logos_emisoras-portugal',
-  'TT': 'logos_emisoras-trinidad_y_tobago',
-  'US': 'logos_emisoras-usa',
-  'VE': 'logos_emisoras-venezuela',
-   'HN': "logos_emisoras-honduras",
-  'NI': "logos_emisoras-nicaragua",
-  'AR': "logos_emisoras-argentinas",
+  CO: "logos_emisoras-colombia",
+  AR: "logos_emisoras-argentinas",
+  PE: "logos_peru_ecuador",
+  BR: "logos_emisoras-brasil",
+  EC: "logos_peru_ecuador",
+  MX: "logos_emisoras-mexico",
+  GT: "logos_emisoras-guatemala",
+  BO: "logos_emisoras-bolivia",
+  SV: "logos_emisoras-elsalvador",
+  JM: "logos_emisoras-jamaica",
+  PR: "logos_emisoras-puertorico",
+  DO: "logos_emisoras-republica_dominicana",
+  UA: "logos_emisoras-ucrania",
+  UY: "logos_emisoras-uruguay",
+  CL: "logos_emisoras-chile",
+  CR: "logos_emisoras-costarica",
+  DK: "logos_emisoras-dinamarca",
+  ES: "logos_emisoras-españa",
+  PT: "logos_emisoras-portugal",
+  TT: "logos_emisoras-trinidad_y_tobago",
+  US: "logos_emisoras-usa",
+  VE: "logos_emisoras-venezuela",
+  HN: "logos_emisoras-honduras",
+  NI: "logos_emisoras-nicaragua",
 };
 
 /**
@@ -40,7 +39,7 @@ export function getLogoPath(
   countryCode: CountryCode
 ): string {
   if (!logoLocal) {
-    return '/logos_general/antena.png';
+    return "/logos_general/antena.png";
   }
 
   // Si la ruta ya comienza con "/" y contiene "logos_emisoras", es el formato nuevo

@@ -137,7 +137,7 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Venezuela suena con fuerza!",
     emoji: "🇻🇪",
   },
-   HN: {
+  HN: {
     gradient: "from-blue-500 via-white to-blue-500",
     accentColor: "text-blue-400",
     slogan: "¡Honduras, corazón de Centroamérica!",
@@ -153,6 +153,8 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     gradient: "from-blue-400 via-white to-blue-400",
     accentColor: "text-blue-300",
     slogan: "¡Argentina, pasión que se escucha!",
+    emoji: "🇦🇷",
+  },
 };
 
 const countryNames: Record<CountryCode, string> = {

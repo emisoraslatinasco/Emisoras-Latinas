@@ -53,7 +53,7 @@ export const countries: Country[] = [
     code: "AR",
     name: "Argentina",
     flag: "/flags/argentina.jpg",
-    jsonFile: "emisoras_argentina.json",
+    jsonFile: "emisoras_argentinas.json",
   },
   {
     code: "PE",
@@ -174,6 +174,18 @@ export const countries: Country[] = [
     name: "Estados Unidos",
     flag: "/flags/usa.jpg",
     jsonFile: "emisoras_usa.json",
+  },
+  {
+    code: "HN",
+    name: "Honduras",
+    flag: "/flags/Honduras.png",
+    jsonFile: "emisoras_honduras.json",
+  },
+  {
+    code: "NI",
+    name: "Nicaragua",
+    flag: "/flags/Nicaragua.png",
+    jsonFile: "emisoras_nicaragua.json",
   },
 ];
 
