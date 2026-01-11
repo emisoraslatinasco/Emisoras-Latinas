@@ -2006,7 +2006,7 @@
     {
         "nombre": "RADIO LA Ñ • 100.1",
         "url_stream": "https://stream-156.zeno.fm/tk4wmqvnnnruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ0azR3bXF2bm5ucnV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiM1ZFLVBDNlVUaTZrcVo0NWhuVk9kUSIsImlhdCI6MTc2Njc5NjYwNCwiZXhwIjoxNzY2Nzk2NjY0fQ.srT6VbHU9B75YUcKyVVGTzbIKzueNb198LGjZK7FOF0",
-        "logo_local": "logos_emisoras\\RADIO_LA_N_1001.jpg",
+        "logo_local": null,
         "descripcion": "RADIO LA Ñ • 100.1 - ¡Bienvenido, pata! Bienvenido a RADIO LA Ñ • 100.1, tu emisora favorita en Perú. Desde Lima Metropolitana, los acordes de la guitarra son el lenguaje de los rebeldes. Transmitimos con pasión rock y oldies para acompañarte en cada momento. Somos la radio que entiende a el oyente peruano y te ofrece la mejor programación. Nuestra Programación incluye: rock clásico, rock en español y los nuevos talentos. En RADIO LA Ñ • 100.1 creemos que la música transforma momentos ordinarios en extraordinarios. Nuestros locutores peruanos son apasionados y trabajan para conectar contigo. Ya sea en casa, el trabajo o el camino, prometemos ser tu mejor compañía. Ciudad: Lima Metropolitana. RADIO LA Ñ • 100.1 - Sube el volumen y siente la energía. ¡Chévere, causa!",
         "generos": [
             "Rock",
@@ -8854,7 +8854,7 @@
     {
         "nombre": "Stereo Mix",
         "url_stream": "https://radio.juanjuistream.uk/listen/stereomix/radio.mp3",
-        "logo_local": "logos_emisoras\\Stereo_Mix.jpg",
+        "logo_local": null,
         "descripcion": "Stereo Mix - ¡Qué tal! Bienvenido a Stereo Mix, tu emisora favorita en Perú. Desde Perú, la música que nos une a todos. Transmitimos con pasión música variada para acompañarte en cada momento. Somos la radio que entiende a el oyente peruano y te ofrece la mejor programación. Nuestra Programación incluye: música popular, los artistas del momento y los clásicos que todos aman. En Stereo Mix creemos que la música transforma momentos ordinarios en extraordinarios. Nuestros locutores peruanos son apasionados y trabajan para conectar contigo. Ya sea en casa, el trabajo o el camino, prometemos ser tu mejor compañía. Ciudad: Perú. Stereo Mix - La música del alma. Desde Perú con cariño",
         "generos": [],
         "redes_sociales": [],

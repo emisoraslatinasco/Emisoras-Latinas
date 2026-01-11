@@ -114,6 +114,12 @@ export default function StationCard({ station, index, countryCode }: StationCard
               {station.generos.join(', ')}
             </p>
           )}
+          {/* Descripción para SEO y accesibilidad - oculta visualmente pero legible por Google */}
+          {station.descripcion && (
+            <span className="sr-only" itemProp="description">
+              {station.descripcion.substring(0, 200)}
+            </span>
+          )}
         </div>
       </div>
     </article>

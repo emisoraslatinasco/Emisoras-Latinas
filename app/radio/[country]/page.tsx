@@ -28,14 +28,14 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   }
 
   return {
-    title: `Emisoras de Radio de ${country.name} en Vivo - Escuchar Gratis`,
-    description: `Escucha las mejores emisoras de ${country.name} online gratis. Radio en vivo de ${country.name}: noticias, deportes, música y más. Sin cortes.`,
+    title: `Radio ${country.name} en Vivo Gratis - Sin Cortes ni Publicidad | Emisoras Latinas`,
+    description: `Escucha las mejores emisoras de ${country.name} online gratis. ✓ Carga instantánea ✓ Sin pop-ups ✓ Reproductor que no se detiene. Más de 500 radios en vivo.`,
     alternates: {
       canonical: `/radio/${resolvedParams.country}`,
     },
     openGraph: {
-       title: `Radio ${country.name} en Vivo - Emisoras Latinas`,
-       description: `Escucha gratis las mejores emisoras de radio de ${country.name}.`,
+       title: `Radio ${country.name} en Vivo - Experiencia Premium Gratis`,
+       description: `Escucha radio de ${country.name} sin cortes, sin publicidad molesta y con carga instantánea. La mejor experiencia de radio online.`,
        url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}`,
        type: 'website',
        images: [
@@ -108,21 +108,23 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             
             {/* Texto SEO Rico */}
             <article className="prose prose-invert mt-16 max-w-4xl mx-auto text-slate-400 bg-slate-800/20 p-8 rounded-2xl border border-slate-700/30">
-              <h2 className="text-2xl font-bold text-white mb-4">Escuchar Radio {country.name} Gratis Online</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Escuchar Radio {country.name} Gratis Online - Sin Cortes ni Publicidad</h2>
               <p className="mb-4">
                 Bienvenido al directorio más completo de <strong>emisoras de radio de {country.name}</strong>. 
-                Aquí puedes escuchar transmisiones en vivo de tus estaciones favoritas sin interrupciones.
+                Aquí puedes escuchar transmisiones en vivo de tus estaciones favoritas <strong>sin interrupciones, sin pop-ups molestos y con carga instantánea</strong>.
               </p>
               <p className="mb-4">
                 Nuestro catálogo incluye más de {stations.length} radios de {country.name}, cubriendo ciudades principales y regiones.
-                Disfruta de géneros como noticias, deportes, música pop, rock, salsa, vallenato y mucho más.
+                Disfruta de géneros como noticias, deportes, música pop, rock, salsa, vallenato y mucho más. 
+                <strong>El reproductor nunca se detiene mientras navegas</strong>.
               </p>
-              <h3 className="text-xl font-bold text-white mt-6 mb-3">¿Por qué usar Emisoras Latinas?</h3>
+              <h3 className="text-xl font-bold text-white mt-6 mb-3">¿Por qué elegir Emisoras Latinas?</h3>
               <ul className="list-disc pl-5 space-y-2">
-                <li>Streaming oficial directo y seguro.</li>
-                <li>Sin publicidad intrusiva (pop-ups molestos).</li>
-                <li>Compatible con móviles y escritorio.</li>
-                <li>Directorio actualizado 2026.</li>
+                <li><strong>Carga instantánea</strong> - La música suena en menos de 2 segundos.</li>
+                <li><strong>Sin publicidad intrusiva</strong> - Cero pop-ups, cero banners que tapan el reproductor.</li>
+                <li><strong>Reproducción continua</strong> - Navega por el sitio sin que la música se detenga.</li>
+                <li><strong>Experiencia Premium Gratis</strong> - Diseño limpio, moderno y sin distracciones.</li>
+                <li>Compatible con móviles - Instala nuestra app desde el navegador (PWA).</li>
               </ul>
             </article>
 
