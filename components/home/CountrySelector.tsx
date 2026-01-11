@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { countries, CountryCode } from '@/data/stationsByCountry';
 
 interface CountrySelectorProps {
-  onCountryChange: (countryCode: CountryCode) => void;
+  onCountryChange?: (countryCode: CountryCode) => void;
   selectedCountry: CountryCode;
 }
 
@@ -13,7 +14,9 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleCountrySelect = (countryCode: CountryCode) => {
-    onCountryChange(countryCode);
+    if (onCountryChange) {
+      onCountryChange(countryCode);
+    }
     setIsOpen(false);
     setSearchQuery('');
   };
@@ -29,17 +32,22 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 ml-2 rounded-lg bg-slate-800/50 border-2 border-slate-700 hover:border-slate-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500"
-        aria-label={`País seleccionado: ${selectedCountryData?.name}. Clic para cambiar país.`}
+        aria-label={`País seleccionado: ${selectedCountryData?.name || 'Seleccionar país'}. Clic para cambiar.`}
+        aria-expanded={isOpen}
       >
-        <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0">
-          <img
-            src={selectedCountryData?.flag}
-            alt={selectedCountryData?.name}
-            className="w-full h-full object-cover"
-          />
+        <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0 bg-slate-700">
+          {selectedCountryData && (
+            <img
+              src={selectedCountryData.flag}
+              alt={selectedCountryData.name}
+              className="w-full h-full object-cover"
+            />
+          )}
         </div>
         <div className="flex flex-col items-start">
-          <span className="text-white font-semibold text-sm">{selectedCountryData?.name}</span>
+          <span className="text-white font-semibold text-sm">
+            {selectedCountryData?.name || 'Seleccionar'}
+          </span>
           <span className="text-slate-500 text-xs">Cambiar país ▼</span>
         </div>
       </button>
@@ -47,40 +55,43 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
       {isOpen && (
         <>
           <div
-            className="fixed left-32 z-10"
+            className="fixed inset-0 z-10"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute top-14 left-0 z-20 bg-slate-800 rounded-lg shadow-xl border border-slate-700 p-2 space-y-2 w-xs">
+          <div className="absolute top-14 left-0 z-20 bg-slate-800 rounded-lg shadow-xl border border-slate-700 p-2 space-y-2 w-72">
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Buscar país..."
-              className="w-full px-3 py-2 bg-transparent border border-slate-600 rounded text-white placeholder-slate-500 text-sm focus:outline-none focus:border-slate-400 transition-colors"
+              className="w-full px-3 py-2 bg-slate-900 border border-slate-600 rounded text-white placeholder-slate-500 text-sm focus:outline-none focus:border-blue-500 transition-colors"
               autoFocus
             />
-            <div className="space-y-2 max-h-64 overflow-y-auto">
+            <div className="grid grid-cols-4 gap-2 max-h-64 overflow-y-auto p-1 custom-scrollbar">
               {filteredCountries.map((country) => (
-                <button
+                <Link
                   key={country.code}
+                  href={`/radio/${country.code.toLowerCase()}`}
                   onClick={() => handleCountrySelect(country.code)}
-                  className={`w-12 h-12 rounded-sm overflow-hidden border-2 transition-colors ${
+                  className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all hover:scale-105 ${
                     selectedCountry === country.code
-                      ? 'border-blue-500'
-                      : 'border-slate-700 hover:border-slate-500'
+                      ? 'border-blue-500 ring-2 ring-blue-500/20'
+                      : 'border-slate-600 hover:border-slate-400'
                   }`}
-                  aria-label={country.name}
+                  aria-label={`Ir a emisoras de ${country.name}`}
+                  title={country.name}
                 >
                   <img
                     src={country.flag}
                     alt={country.name}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
-                </button>
+                </Link>
               ))}
               {filteredCountries.length === 0 && (
-                <p className="text-slate-500 text-sm text-center py-2">
-                  No se encontraron países
+                <p className="col-span-4 text-slate-500 text-xs text-center py-4">
+                  No encontrado
                 </p>
               )}
             </div>

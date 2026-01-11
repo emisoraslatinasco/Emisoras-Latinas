@@ -72,7 +72,8 @@ body {
 }
 
 @keyframes wave {
-  0%, 100% {
+  0%,
+  100% {
     transform: scaleY(0.5);
   }
   50% {
@@ -81,7 +82,8 @@ body {
 }
 
 @keyframes pulse-border {
-  0%, 100% {
+  0%,
+  100% {
     border-color: rgba(59, 130, 246, 0.5);
   }
   50% {
@@ -135,7 +137,11 @@ input[type="range"].slider {
 input[type="range"].slider::-webkit-slider-track {
   width: 100%;
   height: 4px;
-  background: linear-gradient(to right, #3b82f6 var(--value, 70%), #475569 var(--value, 70%));
+  background: linear-gradient(
+    to right,
+    #3b82f6 var(--value, 70%),
+    #475569 var(--value, 70%)
+  );
   border-radius: 4px;
 }
 
@@ -214,7 +220,8 @@ input[type="range"].slider::-moz-range-thumb:hover {
 
 /* Animación de pulso musical */
 @keyframes music-pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   25% {
@@ -234,15 +241,14 @@ input[type="range"].slider::-moz-range-thumb:hover {
 
 /* Animación de borde brillante para tarjeta activa */
 @keyframes border-glow {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 5px rgba(59, 130, 246, 0.5),
-                0 0 10px rgba(59, 130, 246, 0.3),
-                0 0 15px rgba(59, 130, 246, 0.1);
+      0 0 10px rgba(59, 130, 246, 0.3), 0 0 15px rgba(59, 130, 246, 0.1);
   }
   50% {
     box-shadow: 0 0 10px rgba(59, 130, 246, 0.8),
-                0 0 20px rgba(59, 130, 246, 0.5),
-                0 0 30px rgba(59, 130, 246, 0.3);
+      0 0 20px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3);
   }
 }
 
@@ -252,7 +258,8 @@ input[type="range"].slider::-moz-range-thumb:hover {
 
 /* Animación de ecualizador para tarjeta activa */
 @keyframes equalizer-bar {
-  0%, 100% {
+  0%,
+  100% {
     height: 20%;
   }
   50% {
@@ -274,4 +281,20 @@ input[type="range"].slider::-moz-range-thumb:hover {
 
 .equalizer-bar-4 {
   animation: equalizer-bar 0.6s ease-in-out infinite 0.15s;
+}
+
+/* Animación para banner de cookies */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s ease-out;
 }

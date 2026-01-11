@@ -89,7 +89,55 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Uruguay, pequeño gigante musical!",
     emoji: "🇺🇾",
   },
-  HN: {
+  CL: {
+    gradient: "from-red-600 via-white to-blue-600",
+    accentColor: "text-red-400",
+    slogan: "¡Chile, donde la música llega al cielo!",
+    emoji: "🇨🇱",
+  },
+  CR: {
+    gradient: "from-blue-600 via-white to-red-600",
+    accentColor: "text-blue-400",
+    slogan: "¡Pura vida y música tica!",
+    emoji: "🇨🇷",
+  },
+  DK: {
+    gradient: "from-red-600 via-white to-red-600",
+    accentColor: "text-red-400",
+    slogan: "Dansk musik til verden!",
+    emoji: "🇩🇰",
+  },
+  ES: {
+    gradient: "from-red-600 via-yellow-400 to-red-600",
+    accentColor: "text-yellow-400",
+    slogan: "¡La radio española en tu corazón!",
+    emoji: "🇪🇸",
+  },
+  PT: {
+    gradient: "from-green-600 via-red-500 to-green-600",
+    accentColor: "text-green-400",
+    slogan: "O melhor da rádio portuguesa!",
+    emoji: "🇵🇹",
+  },
+  TT: {
+    gradient: "from-red-600 via-white to-black",
+    accentColor: "text-red-400",
+    slogan: "Feel the Caribbean beat!",
+    emoji: "🇹🇹",
+  },
+  US: {
+    gradient: "from-blue-600 via-white to-red-600",
+    accentColor: "text-blue-400",
+    slogan: "The best of American radio!",
+    emoji: "🇺🇸",
+  },
+  VE: {
+    gradient: "from-yellow-400 via-blue-600 to-red-600",
+    accentColor: "text-yellow-400",
+    slogan: "¡Venezuela suena con fuerza!",
+    emoji: "🇻🇪",
+  },
+   HN: {
     gradient: "from-blue-500 via-white to-blue-500",
     accentColor: "text-blue-400",
     slogan: "¡Honduras, corazón de Centroamérica!",
@@ -105,8 +153,6 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     gradient: "from-blue-400 via-white to-blue-400",
     accentColor: "text-blue-300",
     slogan: "¡Argentina, pasión que se escucha!",
-    emoji: "🇦🇷",
-  },
 };
 
 const countryNames: Record<CountryCode, string> = {
@@ -123,6 +169,14 @@ const countryNames: Record<CountryCode, string> = {
   DO: "Rep. Dominicana",
   UA: "Ucrania",
   UY: "Uruguay",
+  CL: "Chile",
+  CR: "Costa Rica",
+  DK: "Dinamarca",
+  ES: "España",
+  PT: "Portugal",
+  TT: "Trinidad y Tobago",
+  US: "Estados Unidos",
+  VE: "Venezuela",
   HN: "Honduras",
   NI: "Nicaragua",
   AR: "Argentina",

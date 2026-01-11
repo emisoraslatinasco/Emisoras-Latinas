@@ -11,7 +11,7 @@ interface StationCardProps {
   countryCode: CountryCode;
 }
 
-export default function StationCard({ station, countryCode }: StationCardProps) {
+export default function StationCard({ station, index, countryCode }: StationCardProps) {
   const { currentStation, isPlaying, loadingStation, playStation } = useRadio();
   const isCurrentStation = currentStation?.nombre === station.nombre;
   const isCurrentlyPlaying = isCurrentStation && isPlaying;
@@ -53,7 +53,8 @@ export default function StationCard({ station, countryCode }: StationCardProps) 
             fill
             className="object-cover"
             sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
-            loading="eager"
+            priority={index < 12}
+            loading={index < 12 ? undefined : "lazy"}
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.style.display = 'none';
@@ -112,6 +113,12 @@ export default function StationCard({ station, countryCode }: StationCardProps) 
             >
               {station.generos.join(', ')}
             </p>
+          )}
+          {/* Descripción para SEO y accesibilidad - oculta visualmente pero legible por Google */}
+          {station.descripcion && (
+            <span className="sr-only" itemProp="description">
+              {station.descripcion.substring(0, 200)}
+            </span>
           )}
         </div>
       </div>

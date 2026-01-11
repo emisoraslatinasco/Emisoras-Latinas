@@ -1,237 +1,154 @@
-import { Metadata } from 'next';
-import { Footer } from '@/components/layout';
-import Link from 'next/link';
+import { Footer } from "@/components/layout";
+import Link from "next/link";
+import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: 'Política de Privacidad - Emisoras Latinas',
-  description: 'Política de Privacidad de Emisoras Latinas. Conoce cómo protegemos tus datos personales y el uso de cookies en nuestro sitio de radio online.',
-  keywords: 'política de privacidad, privacidad, cookies, datos personales, emisoras latinas',
+export const metadata = {
+  title: "Política de Privacidad | Emisoras Latinas",
+  description:
+    "Política de privacidad y protección de datos de Emisoras Latinas. Requisitos de cookies y AdSense.",
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function PrivacyPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="glass-effect sticky top-0 z-50 shadow-2xl">
-        <div className="container mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
-                <i className="fas fa-broadcast-tower text-white text-2xl" aria-hidden="true"></i>
-              </div>
-              <div>
-                <p className="text-2xl md:text-3xl font-bold text-white tracking-tight">
-                  Emisoras Latinas
-                </p>
-                <p className="text-slate-400 text-sm hidden md:block">Directorio de Radio Online</p>
-              </div>
-            </Link>
-
-            {/* Navigation Menu */}
-            <nav className="flex gap-6" aria-label="Navegación principal">
-              <Link href="/" className="text-slate-300 hover:text-white transition-colors font-medium">
-                <i className="fas fa-home mr-2"></i>Inicio
-              </Link>
-              <Link href="/contacto" className="text-slate-300 hover:text-white transition-colors font-medium">
-                <i className="fas fa-envelope mr-2"></i>Contacto
-              </Link>
-              <Link href="/privacidad" className="text-blue-400 font-semibold">
-                <i className="fas fa-shield-alt mr-2"></i>Privacidad
-              </Link>
-            </nav>
-          </div>
+    <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <header className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/logos_general/logo_miniatura_emisoras_latinas.jpg.png"
+              alt="Emisoras Latinas"
+              width={32}
+              height={32}
+              className="rounded-lg"
+            />
+            <span className="text-white font-bold text-xl">
+              Emisoras Latinas
+            </span>
+          </Link>
+          <Link
+            href="/"
+            className="text-slate-400 hover:text-white transition-colors"
+          >
+            <i className="fas fa-arrow-left mr-2"></i>
+            Volver
+          </Link>
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="container mx-auto px-4 py-12 max-w-4xl flex-1" role="main">
-        {/* Page Title */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            <i className="fas fa-shield-alt text-blue-500 mr-3"></i>
+      <div className="container mx-auto px-4 py-12 max-w-4xl">
+        <article className="glass-effect rounded-2xl p-8 md:p-12 shadow-2xl text-slate-300">
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-8 border-b border-slate-700 pb-4">
             Política de Privacidad
           </h1>
-          <p className="text-slate-400 text-lg">
-            Última actualización: 13 de diciembre de 2025
-          </p>
-        </div>
 
-        {/* Privacy Policy Content */}
-        <article className="glass-effect rounded-2xl p-8 md:p-12 shadow-2xl space-y-8 text-slate-200">
-          {/* Introduction */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">1. Introducción</h2>
-            <p className="leading-relaxed">
-              En <strong>Emisoras Latinas</strong>, nos comprometemos a proteger tu privacidad. Esta política explica
-              cómo recopilamos, usamos y protegemos tu información personal cuando utilizas nuestro sitio web de
-              radio online.
+          <div className="space-y-6">
+            <p>
+              En <strong>Emisoras Latinas</strong> (en adelante, &quot;el
+              Sitio&quot;), accesible desde https://www.emisoraslatinas.online,
+              una de nuestras principales prioridades es la privacidad de
+              nuestros visitantes. Este documento de Política de Privacidad
+              contiene tipos de información que es recopilada y registrada por
+              Emisoras Latinas y cómo la utilizamos.
             </p>
-          </section>
 
-          {/* Information We Collect */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">2. Información que Recopilamos</h2>
-            <p className="leading-relaxed mb-3">Podemos recopilar los siguientes tipos de información:</p>
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li><strong>Información de navegación:</strong> Dirección IP, tipo de navegador, páginas visitadas, tiempo de permanencia.</li>
-              <li><strong>Cookies:</strong> Utilizamos cookies para mejorar tu experiencia y mostrar publicidad relevante.</li>
-              <li><strong>Información de contacto:</strong> Si nos contactas voluntariamente, recopilamos tu nombre y correo electrónico.</li>
-              <li><strong>Datos de uso:</strong> Emisoras reproducidas, categorías de interés, frecuencia de visitas.</li>
-            </ul>
-          </section>
-
-          {/* How We Use Your Information */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">3. Cómo Usamos tu Información</h2>
-            <p className="leading-relaxed mb-3">Utilizamos la información recopilada para:</p>
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Mejorar la funcionalidad del sitio web y la experiencia del usuario.</li>
-              <li>Personalizar el contenido y las recomendaciones de emisoras.</li>
-              <li>Mostrar publicidad relevante a través de Google AdSense.</li>
-              <li>Analizar el tráfico del sitio y generar estadísticas anónimas.</li>
-              <li>Responder a consultas y solicitudes de soporte.</li>
-              <li>Cumplir con requisitos legales y regulatorios.</li>
-            </ul>
-          </section>
-
-          {/* Cookies and Tracking */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">4. Cookies y Tecnologías de Rastreo</h2>
-            <p className="leading-relaxed mb-3">
-              Nuestro sitio utiliza cookies para mejorar tu experiencia. Las cookies son pequeños archivos
-              de texto que se almacenan en tu dispositivo.
-            </p>
-            <div className="bg-slate-800/50 rounded-lg p-4 mt-4">
-              <h3 className="font-semibold text-white mb-2">Tipos de Cookies que Utilizamos:</h3>
-              <ul className="space-y-2">
-                <li><strong>Cookies esenciales:</strong> Necesarias para el funcionamiento básico del sitio.</li>
-                <li><strong>Cookies analíticas:</strong> Nos ayudan a entender cómo los usuarios interactúan con el sitio.</li>
-                <li><strong>Cookies publicitarias:</strong> Utilizadas por Google AdSense para mostrar anuncios personalizados.</li>
-              </ul>
-            </div>
-            <p className="leading-relaxed mt-4">
-              Puedes desactivar las cookies en la configuración de tu navegador, aunque esto puede afectar
-              algunas funcionalidades del sitio.
-            </p>
-          </section>
-
-          {/* Google AdSense */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">5. Google AdSense y Publicidad</h2>
-            <p className="leading-relaxed mb-3">
-              Utilizamos <strong>Google AdSense</strong> para mostrar anuncios en nuestro sitio. Google puede usar
-              cookies para mostrar anuncios basados en tus visitas anteriores a nuestro sitio web u otros sitios.
-            </p>
-            <p className="leading-relaxed">
-              Puedes desactivar el uso de cookies de Google accediendo a la{' '}
-              <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">
-                Configuración de anuncios de Google
-              </a>.
-            </p>
-          </section>
-
-          {/* Data Sharing */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">6. Compartir Información con Terceros</h2>
-            <p className="leading-relaxed mb-3">
-              No vendemos, alquilamos ni compartimos tu información personal con terceros, excepto en los
-              siguientes casos:
-            </p>
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li><strong>Proveedores de servicios:</strong> Google AdSense, servicios de analítica web.</li>
-              <li><strong>Requisitos legales:</strong> Si la ley lo requiere o es necesario para proteger nuestros derechos.</li>
-              <li><strong>Con tu consentimiento:</strong> En cualquier otro caso, solicitaremos tu permiso explícito.</li>
-            </ul>
-          </section>
-
-          {/* Security */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">7. Seguridad de los Datos</h2>
-            <p className="leading-relaxed">
-              Implementamos medidas de seguridad técnicas y organizativas para proteger tu información personal
-              contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de
-              transmisión por Internet es 100% seguro.
-            </p>
-          </section>
-
-          {/* Your Rights */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">8. Tus Derechos</h2>
-            <p className="leading-relaxed mb-3">Tienes derecho a:</p>
-            <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>Acceder a tu información personal que tenemos almacenada.</li>
-              <li>Solicitar la corrección de datos inexactos.</li>
-              <li>Solicitar la eliminación de tus datos personales.</li>
-              <li>Oponerte al procesamiento de tus datos.</li>
-              <li>Retirar tu consentimiento en cualquier momento.</li>
-            </ul>
-            <p className="leading-relaxed mt-4">
-              Para ejercer estos derechos, contáctanos en{' '}
-              <a href="mailto:privacidad@emisoraslatinas.com" className="text-blue-400 hover:text-blue-300 underline">
-                privacidad@emisoraslatinas.com
-              </a>.
-            </p>
-          </section>
-
-          {/* Children's Privacy */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">9. Privacidad de Menores</h2>
-            <p className="leading-relaxed">
-              Nuestro sitio web no está dirigido a menores de 13 años. No recopilamos intencionalmente información
-              personal de niños. Si descubrimos que hemos recopilado información de un menor sin consentimiento
-              parental, la eliminaremos de inmediato.
-            </p>
-          </section>
-
-          {/* External Links */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">10. Enlaces a Sitios Externos</h2>
-            <p className="leading-relaxed">
-              Nuestro sitio puede contener enlaces a sitios web de terceros (emisoras de radio, redes sociales).
-              No somos responsables de las prácticas de privacidad de estos sitios. Te recomendamos leer sus
-              políticas de privacidad antes de proporcionar información.
-            </p>
-          </section>
-
-          {/* Changes to Policy */}
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4">11. Cambios a esta Política</h2>
-            <p className="leading-relaxed">
-              Podemos actualizar esta política de privacidad ocasionalmente. Te notificaremos sobre cambios
-              significativos publicando la nueva política en esta página con una fecha de actualización revisada.
-              Te recomendamos revisar esta página periódicamente.
-            </p>
-          </section>
-
-          {/* Contact */}
-          <section className="bg-blue-900/30 rounded-lg p-6 border border-blue-500/30">
-            <h2 className="text-2xl font-bold text-white mb-4">
-              <i className="fas fa-envelope text-blue-400 mr-2"></i>12. Contacto
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              1. Archivos de Registro (Log Files)
             </h2>
-            <p className="leading-relaxed mb-3">
-              Si tienes preguntas sobre esta política de privacidad, contáctanos:
+            <p>
+              Emisoras Latinas sigue un procedimiento estándar de uso de
+              archivos de registro. Estos archivos registran a los visitantes
+              cuando visitan sitios web. La información recopilada por los
+              archivos de registro incluye direcciones de protocolo de Internet
+              (IP), tipo de navegador, proveedor de servicios de Internet (ISP),
+              fecha y hora, páginas de referencia/salida y posiblemente el
+              número de clics. Estos no están vinculados a ninguna información
+              que sea personalmente identificable.
             </p>
-            <ul className="space-y-2">
-              <li>
-                <strong>Email:</strong>{' '}
-                <a href="mailto:privacidad@emisoraslatinas.com" className="text-blue-400 hover:text-blue-300 underline">
-                  privacidad@emisoraslatinas.com
-                </a>
-              </li>
-              <li><strong>Sitio web:</strong> www.emisoraslatinas.com</li>
-              <li>
-                <strong>Formulario de contacto:</strong>{' '}
-                <Link href="/contacto" className="text-blue-400 hover:text-blue-300 underline">
-                  Ir a Contacto
-                </Link>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </main>
 
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              2. Cookies y Web Beacons
+            </h2>
+            <p>
+              Como cualquier otro sitio web, Emisoras Latinas utiliza
+              &quot;cookies&quot;. Estas cookies se utilizan para almacenar
+              información, incluidas las preferencias de los visitantes y las
+              páginas del sitio web que el visitante accedió o visitó. La
+              información se utiliza para optimizar la experiencia de los
+              usuarios personalizando el contenido de nuestra página web según
+              el tipo de navegador de los visitantes y/u otra información.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              3. Cookie de Google DoubleClick DART
+            </h2>
+            <p>
+              Google es uno de los proveedores externos en nuestro sitio.
+              También utiliza cookies, conocidas como cookies DART, para
+              publicar anuncios a los visitantes de nuestro sitio en función de
+              su visita a www.emisoraslatinas.online y otros sitios en Internet.
+              Sin embargo, los visitantes pueden optar por rechazar el uso de
+              cookies DART visitando la Política de privacidad de la red de
+              contenido y anuncios de Google en la siguiente URL:{" "}
+              <a
+                href="https://policies.google.com/technologies/ads"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300"
+              >
+                https://policies.google.com/technologies/ads
+              </a>
+            </p>
+
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              4. Políticas de Privacidad de Socios Publicitarios
+            </h2>
+            <p>
+              Servidores de anuncios de terceros o redes publicitarias utilizan
+              tecnologías como cookies, JavaScript o Web Beacons que se utilizan
+              en sus respectivos anuncios y enlaces que aparecen en Emisoras
+              Latinas, los cuales son enviados directamente al navegador de los
+              usuarios. Reciben automáticamente su dirección IP cuando esto
+              ocurre. Estas tecnologías se utilizan para medir la efectividad de
+              sus campañas publicitarias y/o para personalizar el contenido
+              publicitario que ve en los sitios web que visita.
+            </p>
+            <p>
+              Tenga en cuenta que Emisoras Latinas no tiene acceso ni control
+              sobre estas cookies que son utilizadas por anunciantes de
+              terceros.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              5. Información para Niños
+            </h2>
+            <p>
+              Otra parte de nuestra prioridad es agregar protección para los
+              niños mientras usan Internet. Emisoras Latinas no recopila a
+              sabiendas ninguna Información de Identificación Personal de niños
+              menores de 13 años.
+            </p>
+
+            <h2 className="text-2xl font-semibold text-white mt-8 mb-4">
+              6. Contacto
+            </h2>
+            <p>
+              Si tiene preguntas adicionales o requiere más información sobre
+              nuestra Política de Privacidad, no dude en contactarnos a través
+              del correo electrónico:{" "}
+              <strong>emisoraslatinasco@gmail.com</strong>.
+            </p>
+
+            <p className="text-xs text-slate-500 mt-8">
+              Última actualización: 10 de Enero de 2026.
+            </p>
+          </div>
+        </article>
+      </div>
       <Footer />
-    </div>
+    </main>
   );
 }
