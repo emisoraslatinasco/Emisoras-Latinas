@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CountryCode } from "@/data/stationsByCountry";
-import { getI18nFromCountry } from '@/utils/translations';
+import { getI18nFromCountry } from "@/utils/translations";
 
 interface CountryTheme {
   gradient: string;
@@ -151,17 +151,11 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Venezuela suena con fuerza!",
     emoji: "🇻🇪",
   },
-   HN: {
-    gradient: "from-blue-500 via-white to-blue-500",
+  AR: {
+    gradient: "from-blue-400 via-white to-blue-400",
     accentColor: "text-blue-400",
-    slogan: "¡Honduras, corazón de Centroamérica!",
-    emoji: "🇭🇳",
-  },
-  NI: {
-    gradient: "from-blue-600 via-white to-blue-600",
-    accentColor: "text-blue-400",
-    slogan: "¡Nicaragua, tierra de lagos y volcanes!",
-    emoji: "🇳🇮",
+    slogan: "¡Argentina, pasión por la música!",
+    emoji: "🇦🇷",
   },
   FR: {
     gradient: "from-blue-600 via-white to-red-600",
@@ -207,8 +201,6 @@ const countryNames: Record<CountryCode, string> = {
   TT: "Trinidad y Tobago",
   US: "Estados Unidos",
   VE: "Venezuela",
-  HN: "Honduras",
-  NI: "Nicaragua",
   AR: "Argentina",
   FR: "Francia",
   IT: "Italia",

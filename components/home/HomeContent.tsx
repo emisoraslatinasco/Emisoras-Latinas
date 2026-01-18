@@ -55,7 +55,7 @@ export default function HomeContent() {
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [slideDirection, setSlideDirection] = useState<"left" | "right" | null>(
-    null
+    null,
   );
 
   // Guardar país seleccionado en localStorage
@@ -159,7 +159,7 @@ export default function HomeContent() {
       {/* Header dinámico según país */}
       <DynamicHeader
         selectedCountry={selectedCountry}
-        stationCount={stations.length}
+        stationCount={stations?.length}
       />
 
       <div className="flex justify-center gap-4 px-4">
@@ -217,7 +217,7 @@ export default function HomeContent() {
                     <button
                       onClick={() =>
                         handleCategoriesChange(
-                          selectedCategories.filter((c) => c !== category)
+                          selectedCategories.filter((c) => c !== category),
                         )
                       }
                       className="hover:bg-blue-700 rounded-full p-0.5 transition-colors"
@@ -281,8 +281,8 @@ export default function HomeContent() {
                       slideDirection === "left"
                         ? "animate-slide-left"
                         : slideDirection === "right"
-                        ? "animate-slide-right"
-                        : ""
+                          ? "animate-slide-right"
+                          : ""
                     }`}
                   >
                     {paginatedStations.map((station, index) => (
