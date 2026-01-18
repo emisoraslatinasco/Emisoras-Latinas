@@ -45,22 +45,39 @@ export function getLogoPath(
     return "/logos_general/antena.png";
   }
 
-  // Si la ruta ya comienza con "/" y contiene "logos_emisoras", es el formato nuevo
-  // Necesitamos normalizar la ruta reemplazando guiones bajos por guiones
-  if (logoLocal.startsWith("/") && logoLocal.includes("logos_emisoras")) {
-    // Normalizar: reemplazar guiones bajos por guiones en el nombre de la carpeta
-    // Ejemplo: /logos_emisoras_honduras/ -> /logos_emisoras-honduras/
-    return logoLocal.replace(/logos_emisoras_([\w]+)/, (match, country) => {
-      return `logos_emisoras-${country}`;
-    });
+  // Paso 1: Normalizar todas las barras invertidas (Windows) a barras normales (Linux/Web)
+  // Manejamos tanto \\ como \\\\ (escape doble en JSON)
+  const normalizedPath = logoLocal
+    .replace(/\\\\/g, "/") // Reemplazar \\ por /
+    .replace(/\\/g, "/"); // Reemplazar \ restantes por /
+
+  // Paso 2: Si la ruta ya comienza con "/" y contiene "logos_emisoras-", está correcta
+  if (
+    normalizedPath.startsWith("/") &&
+    normalizedPath.includes("logos_emisoras-")
+  ) {
+    return normalizedPath;
   }
 
-  // Formato antiguo: extraer solo el nombre del archivo y construir la ruta
+  // Paso 3: Si la ruta comienza con "/" y tiene formato logos_emisoras_ (con guión bajo)
+  // Necesitamos normalizar reemplazando el guión bajo por guión
+  if (
+    normalizedPath.startsWith("/") &&
+    normalizedPath.includes("logos_emisoras_")
+  ) {
+    return normalizedPath.replace(
+      /logos_emisoras_([a-zA-Z_]+)/,
+      (match, country) => {
+        return `logos_emisoras-${country}`;
+      },
+    );
+  }
+
+  // Paso 4: Formato antiguo (sin "/" inicial): extraer solo el nombre del archivo
   const folderName = LOGO_FOLDER_MAP[countryCode];
 
   // Extraer solo el nombre del archivo (después de la última barra)
-  const fileName =
-    logoLocal.split("\\").pop() || logoLocal.split("/").pop() || logoLocal;
+  const fileName = normalizedPath.split("/").pop() || normalizedPath;
 
   // Construir la ruta correcta
   return `/${folderName}/${fileName}`;
