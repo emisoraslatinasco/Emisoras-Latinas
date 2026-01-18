@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+data_backup_1768689106166/
 
 # vercel
 .vercel
@@ -51,3 +52,7 @@ search-missing-logos.js
 update-descriptions.js
 rewrite-colombia-descriptions.js
 rewrite-all-descriptions.js
+cleanup-stations.js
+normalize-logo-names.js
+search-missing-logos.js
+

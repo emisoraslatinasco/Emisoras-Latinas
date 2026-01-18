@@ -6,7 +6,7 @@ export const metadata = {
   title: 'Términos y Condiciones | Emisoras Latinas',
   description: 'Términos y condiciones de uso de Emisoras Latinas.',
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 };

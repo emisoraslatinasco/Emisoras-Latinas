@@ -11,6 +11,8 @@ const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
   GT: "logos_emisoras-guatemala",
   BO: "logos_emisoras-bolivia",
   SV: "logos_emisoras-elsalvador",
+  HN: "logos_emisoras-honduras",
+  NI: "logos_emisoras-nicaragua",
   JM: "logos_emisoras-jamaica",
   PR: "logos_emisoras-puertorico",
   DO: "logos_emisoras-republica_dominicana",
@@ -24,8 +26,9 @@ const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
   TT: "logos_emisoras-trinidad_y_tobago",
   US: "logos_emisoras-usa",
   VE: "logos_emisoras-venezuela",
-  HN: "logos_emisoras-honduras",
-  NI: "logos_emisoras-nicaragua",
+  FR: "logos_emisoras-francia",
+  IT: "logos_emisoras-italia",
+  GB: "logos_emisoras-reino_unido",
 };
 
 /**
@@ -36,7 +39,7 @@ const LOGO_FOLDER_MAP: Record<CountryCode, string> = {
  */
 export function getLogoPath(
   logoLocal: string | null,
-  countryCode: CountryCode
+  countryCode: CountryCode,
 ): string {
   if (!logoLocal) {
     return "/logos_general/antena.png";

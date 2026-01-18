@@ -58,7 +58,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
             className="fixed inset-0 z-10"
             onClick={() => setIsOpen(false)}
           />
-          <div className="absolute top-14 left-0 z-20 bg-slate-800 rounded-lg shadow-xl border border-slate-700 p-2 space-y-2 w-72">
+          <div className="absolute top-14 left-0 z-20 bg-slate-800 rounded-lg shadow-xl border border-slate-700 p-2 space-y-2 w-[420px]">
             <input
               type="text"
               value={searchQuery}
@@ -67,7 +67,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
               className="w-full px-3 py-2 bg-slate-900 border border-slate-600 rounded text-white placeholder-slate-500 text-sm focus:outline-none focus:border-blue-500 transition-colors"
               autoFocus
             />
-            <div className="grid grid-cols-4 gap-2 max-h-64 overflow-y-auto p-1 custom-scrollbar">
+            <div className="grid grid-cols-6 gap-2 max-h-64 overflow-y-auto p-1 custom-scrollbar">
               {filteredCountries.map((country) => (
                 <Link
                   key={country.code}
@@ -90,7 +90,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
                 </Link>
               ))}
               {filteredCountries.length === 0 && (
-                <p className="col-span-4 text-slate-500 text-xs text-center py-4">
+                <p className="col-span-6 text-slate-500 text-xs text-center py-4">
                   No encontrado
                 </p>
               )}

@@ -19,6 +19,8 @@ export type CountryCode =
   | "GT"
   | "BO"
   | "SV"
+  | "HN"
+  | "NI"
   | "JM"
   | "PR"
   | "DO"
@@ -31,9 +33,10 @@ export type CountryCode =
   | "PT"
   | "TT"
   | "US"
-  | "HN"
-  | "NI"
-  | "VE";
+  | "VE"
+  | "FR"
+  | "IT"
+  | "GB";
 
 export interface Country {
   code: CountryCode;
@@ -102,6 +105,18 @@ export const countries: Country[] = [
     name: "El Salvador",
     flag: "/flags/el_salvador.jpg",
     jsonFile: "emisoras_elsalvador.json",
+  },
+  {
+    code: "HN",
+    name: "Honduras",
+    flag: "/flags/honduras.png",
+    jsonFile: "emisoras_honduras.json",
+  },
+  {
+    code: "NI",
+    name: "Nicaragua",
+    flag: "/flags/nicaragua.png",
+    jsonFile: "emisoras_nicaragua.json",
   },
   {
     code: "JM",
@@ -176,16 +191,22 @@ export const countries: Country[] = [
     jsonFile: "emisoras_usa.json",
   },
   {
-    code: "HN",
-    name: "Honduras",
-    flag: "/flags/honduras.png",
-    jsonFile: "emisoras_honduras.json",
+    code: "FR",
+    name: "Francia",
+    flag: "/flags/francia.jpg",
+    jsonFile: "emisoras_francia.json",
   },
   {
-    code: "NI",
-    name: "Nicaragua",
-    flag: "/flags/nicaragua.png",
-    jsonFile: "emisoras_nicaragua.json",
+    code: "IT",
+    name: "Italia",
+    flag: "/flags/italia.jpg",
+    jsonFile: "emisoras_italia.json",
+  },
+  {
+    code: "GB",
+    name: "Reino Unido",
+    flag: "/flags/reino_unido.jpg",
+    jsonFile: "emisoras_reino_unido.json",
   },
 ];
 
@@ -195,7 +216,7 @@ const stationsCache: Record<CountryCode, StationByCountry[]> = {} as Record<
 >;
 
 export async function loadStationsByCountry(
-  countryCode: CountryCode
+  countryCode: CountryCode,
 ): Promise<StationByCountry[]> {
   if (stationsCache[countryCode]) {
     return stationsCache[countryCode];
@@ -224,7 +245,7 @@ export function getCategories(stations: StationByCountry[]): string[] {
 
 export function filterByCategory(
   stations: StationByCountry[],
-  category: string
+  category: string,
 ): StationByCountry[] {
   if (category === "all") return stations;
   return stations.filter((s) => s.generos?.includes(category) || false);
@@ -232,29 +253,45 @@ export function filterByCategory(
 
 export function filterByCategories(
   stations: StationByCountry[],
-  categories: string[]
+  categories: string[],
 ): StationByCountry[] {
   if (categories.length === 0) return stations;
   return stations.filter(
-    (s) => s.generos?.some((g) => categories.includes(g)) || false
+    (s) => s.generos?.some((g) => categories.includes(g)) || false,
   );
+}
+
+/**
+ * Normaliza texto removiendo acentos y diacríticos
+ * Ej: "olímpica" -> "olimpica", "niño" -> "nino"
+ */
+function normalizeText(text: string): string {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
 }
 
 export function searchStations(
   stations: StationByCountry[],
-  query: string
+  query: string,
 ): StationByCountry[] {
-  const lowerQuery = query.toLowerCase().trim();
-  if (!lowerQuery) return stations;
+  const normalizedQuery = normalizeText(query);
+  if (!normalizedQuery) return stations;
 
   return stations.filter(
     (station) =>
-      station.nombre.toLowerCase().includes(lowerQuery) ||
-      station.generos?.some((g) => g.toLowerCase().includes(lowerQuery)) ||
+      normalizeText(station.nombre).includes(normalizedQuery) ||
+      station.generos?.some((g) =>
+        normalizeText(g).includes(normalizedQuery),
+      ) ||
       false ||
-      station.descripcion?.toLowerCase().includes(lowerQuery) ||
+      (station.descripcion &&
+        normalizeText(station.descripcion).includes(normalizedQuery)) ||
       false ||
-      station.ciudad?.toLowerCase().includes(lowerQuery) ||
-      false
+      (station.ciudad &&
+        normalizeText(station.ciudad).includes(normalizedQuery)) ||
+      false,
   );
 }
