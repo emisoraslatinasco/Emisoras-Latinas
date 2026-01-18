@@ -20,8 +20,35 @@ const ITEMS_PER_PAGE = 50;
 const STORAGE_KEY = "emisoras_latinas_country";
 
 export default function HomeContent() {
-  const [selectedCountry, setSelectedCountry] = useState<CountryCode>("CO");
-  const [isInitialized, setIsInitialized] = useState(false);
+  // Lazy initialization: read from localStorage only once during initial render
+  const [selectedCountry, setSelectedCountry] = useState<CountryCode>(() => {
+    if (typeof window !== "undefined") {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      const validCountries: CountryCode[] = [
+        "CO",
+        "PE",
+        "BR",
+        "EC",
+        "MX",
+        "GT",
+        "BO",
+        "SV",
+        "JM",
+        "PR",
+        "DO",
+        "UA",
+        "UY",
+        "HN",
+        "NI",
+        "AR",
+      ];
+      if (saved && validCountries.includes(saved as CountryCode)) {
+        return saved as CountryCode;
+      }
+    }
+    return "CO"; // Default value
+  });
+
   const [stations, setStations] = useState<StationByCountry[]>([]);
   const [isLoadingStations, setIsLoadingStations] = useState(true);
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -31,40 +58,12 @@ export default function HomeContent() {
     null
   );
 
-  // Recuperar del localStorage al montar
+  // Guardar país seleccionado en localStorage
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (
-        saved &&
-        [
-          "CO",
-          "PE",
-          "BR",
-          "EC",
-          "MX",
-          "GT",
-          "BO",
-          "SV",
-          "JM",
-          "PR",
-          "DO",
-          "UA",
-          "UY",
-        ].includes(saved)
-      ) {
-        setSelectedCountry(saved as CountryCode);
-      }
-      setIsInitialized(true);
-    }
-  }, []);
-
-  // Guardar país seleccionado en localStorage (solo después de inicializar)
-  useEffect(() => {
-    if (typeof window !== "undefined" && isInitialized) {
       localStorage.setItem(STORAGE_KEY, selectedCountry);
     }
-  }, [selectedCountry, isInitialized]);
+  }, [selectedCountry]);
 
   useEffect(() => {
     let cancelled = false;

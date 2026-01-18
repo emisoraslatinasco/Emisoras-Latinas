@@ -151,11 +151,17 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Venezuela suena con fuerza!",
     emoji: "🇻🇪",
   },
-  AR: {
-    gradient: "from-sky-400 via-white to-sky-400",
-    accentColor: "text-sky-400",
-    slogan: "¡Argentina, pasión y música!",
-    emoji: "🇦🇷",
+   HN: {
+    gradient: "from-blue-500 via-white to-blue-500",
+    accentColor: "text-blue-400",
+    slogan: "¡Honduras, corazón de Centroamérica!",
+    emoji: "🇭🇳",
+  },
+  NI: {
+    gradient: "from-blue-600 via-white to-blue-600",
+    accentColor: "text-blue-400",
+    slogan: "¡Nicaragua, tierra de lagos y volcanes!",
+    emoji: "🇳🇮",
   },
   FR: {
     gradient: "from-blue-600 via-white to-red-600",
@@ -201,6 +207,8 @@ const countryNames: Record<CountryCode, string> = {
   TT: "Trinidad y Tobago",
   US: "Estados Unidos",
   VE: "Venezuela",
+  HN: "Honduras",
+  NI: "Nicaragua",
   AR: "Argentina",
   FR: "Francia",
   IT: "Italia",
