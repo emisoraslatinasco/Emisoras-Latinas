@@ -1,7 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { CountryCode } from "@/data/stationsByCountry";
+import { getI18nFromCountry } from '@/utils/translations';
 
 interface CountryTheme {
   gradient: string;
@@ -58,6 +60,18 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     accentColor: "text-blue-400",
     slogan: "¡El Salvador, pulgarcito musical!",
     emoji: "🇸🇻",
+  },
+  HN: {
+    gradient: "from-blue-500 via-white to-blue-500",
+    accentColor: "text-blue-400",
+    slogan: "¡Honduras, tierra de ritmos y cultura!",
+    emoji: "🇭🇳",
+  },
+  NI: {
+    gradient: "from-blue-500 via-white to-blue-500",
+    accentColor: "text-blue-400",
+    slogan: "¡Nicaragua, corazón de Centroamérica!",
+    emoji: "🇳🇮",
   },
   JM: {
     gradient: "from-green-500 via-yellow-400 to-black",
@@ -143,6 +157,24 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "¡Argentina, pasión y música!",
     emoji: "🇦🇷",
   },
+  FR: {
+    gradient: "from-blue-600 via-white to-red-600",
+    accentColor: "text-blue-400",
+    slogan: "La musique française dans votre cœur!",
+    emoji: "🇫🇷",
+  },
+  IT: {
+    gradient: "from-green-600 via-white to-red-600",
+    accentColor: "text-green-400",
+    slogan: "La musica italiana che emoziona!",
+    emoji: "🇮🇹",
+  },
+  GB: {
+    gradient: "from-blue-700 via-red-600 to-white",
+    accentColor: "text-red-400",
+    slogan: "The best of British radio!",
+    emoji: "🇬🇧",
+  },
 };
 
 const countryNames: Record<CountryCode, string> = {
@@ -154,6 +186,8 @@ const countryNames: Record<CountryCode, string> = {
   GT: "Guatemala",
   BO: "Bolivia",
   SV: "El Salvador",
+  HN: "Honduras",
+  NI: "Nicaragua",
   JM: "Jamaica",
   PR: "Puerto Rico",
   DO: "Rep. Dominicana",
@@ -168,11 +202,15 @@ const countryNames: Record<CountryCode, string> = {
   US: "Estados Unidos",
   VE: "Venezuela",
   AR: "Argentina",
+  FR: "Francia",
+  IT: "Italia",
+  GB: "Reino Unido",
 };
 
 interface DynamicHeaderProps {
   selectedCountry: CountryCode;
   stationCount: number;
+  countryCode?: string; // Used for i18n
 }
 
 export default function DynamicHeader({
@@ -181,6 +219,7 @@ export default function DynamicHeader({
 }: DynamicHeaderProps) {
   const theme = countryThemes[selectedCountry];
   const countryName = countryNames[selectedCountry];
+  const { t } = getI18nFromCountry(selectedCountry);
 
   return (
     <section className="relative overflow-hidden">
@@ -212,7 +251,7 @@ export default function DynamicHeader({
               <h1
                 className={`text-xl md:text-2xl font-bold bg-gradient-to-r ${theme?.gradient} bg-clip-text text-transparent truncate`}
               >
-                Emisoras de {countryName}
+                {t.stations_of} {countryName}
               </h1>
             </div>
             <p
@@ -230,11 +269,11 @@ export default function DynamicHeader({
             </span>
             <span className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
               <i className="fas fa-signal text-green-400 text-base"></i>
-              En vivo
+              {t.live}
             </span>
             <span className="flex items-center gap-2 px-4 py-2.5 bg-slate-800/60 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
               <i className="fas fa-gift text-purple-400 text-base"></i>
-              Gratis
+              {t.free}
             </span>
           </div>
         </div>

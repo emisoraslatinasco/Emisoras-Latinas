@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Política de privacidad y protección de datos de Emisoras Latinas. Requisitos de cookies y AdSense.",
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
 };

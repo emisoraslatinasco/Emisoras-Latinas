@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { useI18n } from '@/utils/useI18n';
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -11,13 +12,17 @@ interface SearchBarProps {
 
 export default function SearchBar({ 
   onSearch, 
-  placeholder = "Buscar emisora...",
+  placeholder,
   className = "",
   compact = false
 }: SearchBarProps) {
+  const { t } = useI18n();
   const [query, setQuery] = useState('');
   const [isFocused, setIsFocused] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  
+  // Use provided placeholder or fallback to i18n
+  const finalPlaceholder = placeholder || t.search_placeholder;
 
   useEffect(() => {
     const debounceTimer = setTimeout(() => {
@@ -64,9 +69,9 @@ export default function SearchBar({
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           onKeyDown={handleKeyDown}
-          placeholder={placeholder}
+          placeholder={finalPlaceholder}
           className={`w-full ${compact ? 'py-2 pl-9 pr-9 text-sm' : 'py-4 pl-14 pr-14 text-base'} bg-transparent text-white placeholder-slate-500 focus:outline-none`}
-          aria-label="Buscar emisora"
+          aria-label={t.search_placeholder}
         />
 
         {/* Botón para limpiar búsqueda */}
@@ -74,7 +79,7 @@ export default function SearchBar({
           <button
             onClick={handleClear}
             className={`absolute ${compact ? 'right-2 w-6 h-6' : 'right-5 w-8 h-8'} flex items-center justify-center rounded-full bg-slate-700 hover:bg-slate-600 transition-colors duration-200`}
-            aria-label="Limpiar búsqueda"
+            aria-label={t.clear}
             type="button"
           >
             <i className={`fas fa-times text-slate-300 ${compact ? 'text-xs' : 'text-sm'}`}></i>
@@ -86,12 +91,12 @@ export default function SearchBar({
       {!compact && query && (
         <div className="absolute top-full mt-3 left-0 right-0 flex items-center justify-center gap-2 text-slate-400 text-sm animate-fadeInUp">
           <i className="fas fa-filter text-blue-400"></i>
-          <span>Filtrando por: <strong className="text-white">&ldquo;{query}&rdquo;</strong></span>
+          <span>{t.filtering_by}: <strong className="text-white">&ldquo;{query}&rdquo;</strong></span>
           <button
             onClick={handleClear}
             className="text-blue-400 hover:text-blue-300 underline ml-2"
           >
-            Limpiar
+            {t.clear}
           </button>
         </div>
       )}

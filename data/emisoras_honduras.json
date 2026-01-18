@@ -1,0 +1,2557 @@
+[
+    {
+        "nombre": "Radio HRN 92.9 FM",
+        "url_stream": "https://ice42.securenetsystems.net/HRN",
+        "logo_local": "/logos_emisoras_honduras/Radio_HRN_929_FM.jpg",
+        "generos": [
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Conecta con Radio HRN 92.9 FM, tu radio en 92.9 FM directamente desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Noticias, Talk Radio seleccionada para ti. Sintoniza ahora Radio HRN 92.9 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://twitter.com/radiohrn",
+            "https://www.facebook.com/RadioHRN/",
+            "https://www.instagram.com/radiohrn/"
+        ],
+        "sitio_web": "http://www.radiohrn.hn/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Ranchera Olanchito",
+        "url_stream": "https://stream.playerlive.info:10914/ranchera.aac",
+        "logo_local": "/logos_emisoras_honduras/Radio_Ranchera_Olanchito.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Conecta con Radio Ranchera Olanchito, tu estación online directamente desde Yoro, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Latino seleccionada para ti. Sintoniza ahora Radio Ranchera Olanchito gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioranchera.hn/ranchera-olanchito.html",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Radio Ranchera Tocoa",
+        "url_stream": "https://stream.playerlive.info:8051/live.aac",
+        "logo_local": "/logos_emisoras_honduras/Radio_Ranchera_Tocoa.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Radio Ranchera Tocoa transmite en vivo desde la ciudad de Colón, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Latino seleccionada para ti. Sintoniza ahora Radio Ranchera Tocoa gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioranchera.hn/tocoa.html",
+        "ciudad": "Colón"
+    },
+    {
+        "nombre": "Joya FM 95.3",
+        "url_stream": "https://stream-152.zeno.fm/km52afnf1mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrbTUyYWZuZjFtcnV2IiwiaG9zdCI6InN0cmVhbS0xNTIuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InVzenVvYWl6UkxTQkNMMjdXUGt5aUEiLCJpYXQiOjE3NjcxMzc5ODEsImV4cCI6MTc2NzEzODA0MX0.O4J9BLaR2lW7PacEJTcj4uAX6zc8rcQV0KtvHhMBSqc",
+        "logo_local": "/logos_emisoras_honduras/Joya_FM_953.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "70s"
+        ],
+        "descripcion": "Joya FM 95.3 transmite en vivo por FM 95.3 desde la ciudad de Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary, 80s, 70s seleccionada para ti. Sintoniza ahora Joya FM 95.3 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/JOYAFMHONDURAS"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radioactiva 99.7 FM",
+        "url_stream": "https://stream-142.zeno.fm/6n7fp9t2pceuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2bjdmcDl0MnBjZXV2IiwiaG9zdCI6InN0cmVhbS0xNDIuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkNUWHNUSmVaUk02V0FxQ3ZVWTVGRXciLCJpYXQiOjE3NjcxMzgwMDIsImV4cCI6MTc2NzEzODA2Mn0.8YmxXXVyh4G-eFa5fsKW3iS2jHf6L8OUi8UQIWE0sn4",
+        "logo_local": "logos_emisoras\\\\Radioactiva_997_FM.jpg",
+        "generos": [
+            "Hip Hop",
+            "Variety",
+            "Reggaeton"
+        ],
+        "descripcion": "Radioactiva 99.7 FM transmite en vivo por 99.7 FM desde la ciudad de Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Hip Hop, Variety, Reggaetón seleccionada para ti. Sintoniza ahora Radioactiva 99.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioactivaHN",
+            "https://twitter.com/RadioactivaHN",
+            "https://instagram.com/radioactivahn/",
+            "https://www.youtube.com/user/radioactivahn"
+        ],
+        "sitio_web": "http://www.radioactiva997.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Nacional de Honduras",
+        "url_stream": "https://stream-156.zeno.fm/mb5f69fk0d0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtYjVmNjlmazBkMHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ikw0X19aUFI0UlZpdXppaTJOMmVzcWciLCJpYXQiOjE3NjcxMzgwMzIsImV4cCI6MTc2NzEzODA5Mn0.9e1QDlIKeBnKX2k_XnyCN6dIU2IRwHA8JOprZxoqcYw",
+        "logo_local": "/logos_emisoras_honduras/Radio_Nacional_de_Honduras.jpg",
+        "generos": [],
+        "descripcion": "Desde Francisco Morazán llega la señal de Radio Nacional de Honduras, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Nacional de Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioNacionalHonduras/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Super Clasica 2",
+        "url_stream": "https://stream-151.zeno.fm/66z3zu1ahhruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2NnozenUxYWhocnV2IiwiaG9zdCI6InN0cmVhbS0xNTEuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ilc1Q3ExcENCVG8tcG9sMjlRcVVnaEEiLCJpYXQiOjE3NjcxMzgwNTYsImV4cCI6MTc2NzEzODExNn0.jzfXL9NiUpjcvn0fedTxPn1-mDgpVjXoHGX6yNmxUtg",
+        "logo_local": "/logos_emisoras_honduras/Super_Clasica_2.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Super Clasica 2 transmite en vivo desde la ciudad de Atlántida, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Super Clasica 2 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/super-clasica",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "EXA Honduras",
+        "url_stream": "https://stream-140.zeno.fm/5mx3rp2937zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1bXgzcnAyOTM3enV2IiwiaG9zdCI6InN0cmVhbS0xNDAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjBvYXBkZGtHUkQyanlPc1pnTzkta0EiLCJpYXQiOjE3NjcxMzgxMjAsImV4cCI6MTc2NzEzODE4MH0.phSaymz6tA0Rgr8ZauegCMBwmihJGxUhqTD542CErVc",
+        "logo_local": "/logos_emisoras_honduras/EXA_Honduras.jpg",
+        "generos": [
+            "Merengue",
+            "Local"
+        ],
+        "descripcion": "Disfruta de la programación de EXA Honduras, la radio online líder en Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Merengue, Local seleccionada para ti. Sintoniza ahora EXA Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.youtube.com/user/exahonduras",
+            "https://www.instagram.com/exahonduras/",
+            "https://twitter.com/exahonduras",
+            "https://www.facebook.com/EXAHonduras/"
+        ],
+        "sitio_web": "http://www.exafm.hn/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Planes Radio Getsemani",
+        "url_stream": "https://panel.yupistream.com/proxy/ysplanes/stream",
+        "logo_local": "/logos_emisoras_honduras/Planes_Radio_Getsemani.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Religious"
+        ],
+        "descripcion": "Sintoniza Planes Radio Getsemani online, transmitiendo en vivo desde La Paz, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Religious seleccionada para ti. Sintoniza ahora Planes Radio Getsemani gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/dmontufarhernandez"
+        ],
+        "sitio_web": "https://www.planesradiogetsemani.com/",
+        "ciudad": "La Paz"
+    },
+    {
+        "nombre": "BBN",
+        "url_stream": "https://audio-edge-ey5nr.ams.s.radiomast.io/475ebed1-595e-4717-b888-64fe8fc6b09f",
+        "logo_local": "/logos_emisoras_honduras/BBN.jpg",
+        "generos": [
+            "Christian",
+            "Religious"
+        ],
+        "descripcion": "Conecta con BBN, tu estación online directamente desde Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Religious seleccionada para ti. Sintoniza ahora BBN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.bbnradio.org/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Progreso",
+        "url_stream": "https://streamingcwsradio30.com:7045/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Progreso.jpg",
+        "generos": [],
+        "descripcion": "Sintoniza Radio Progreso online, transmitiendo en vivo desde Yoro, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Progreso gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioProgresoPaginaOficial",
+            "http://192.99.2.48:8900/",
+            "https://twitter.com/RadioProgresoHN"
+        ],
+        "sitio_web": "http://www.radioprogresohn.net/",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Radio Ondas Del ULua",
+        "url_stream": "https://stream.playerlive.info:8287/ondas.aac",
+        "logo_local": "/logos_emisoras_honduras/Radio_Ondas_Del_ULua.jpg",
+        "generos": [],
+        "descripcion": "Desde Santa Bárbara llega la señal de Radio Ondas Del ULua, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Ondas Del ULua gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Santa Bárbara"
+    },
+    {
+        "nombre": "Rock and Pop",
+        "url_stream": "https://ice42.securenetsystems.net/ROCKNPOP?playSessionID=62F450D1-A4C2-E843-D29D2652A639FC9E",
+        "logo_local": "/logos_emisoras_honduras/Rock_and_Pop.jpg",
+        "generos": [
+            "Rock",
+            "Pop Music"
+        ],
+        "descripcion": "Sintoniza Rock and Pop online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Rock, Pop Music seleccionada para ti. Sintoniza ahora Rock and Pop gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.rocknpop.hn/web/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Picosa Radio",
+        "url_stream": "https://stream-156.zeno.fm/mzynzg0c468uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtenluemcwYzQ2OHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Im5MazREclhjUzZtYU43UFowc3hOVHciLCJpYXQiOjE3NjcxMzgyNzIsImV4cCI6MTc2NzEzODMzMn0.10ua-TnOozdo-lqwPGDeMCYk9MJIK51BSM6FdR9NX_I",
+        "logo_local": "/logos_emisoras_honduras/Picosa_Radio.jpg",
+        "generos": [
+            "Mexican Music",
+            "Regional"
+        ],
+        "descripcion": "Picosa Radio transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Mexican Music, Regional seleccionada para ti. Sintoniza ahora Picosa Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/PicosaTv"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Suave 102.5 FM",
+        "url_stream": "https://ice42.securenetsystems.net/SUAVE?playSessionID=60A197B7-9039-931A-2129976781DFD664",
+        "logo_local": "/logos_emisoras_honduras/Suave_1025_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de Suave 102.5 FM en 102.5 FM, tu opción ideal en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Suave 102.5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://emisorasunidas.net/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Stereo Luz Descombros",
+        "url_stream": "https://radios0790.vegamultimedioshn.com:8126/;",
+        "logo_local": "logos_emisoras\\\\Stereo_Luz_Descombros.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "World Music"
+        ],
+        "descripcion": "Conecta con Stereo Luz Descombros, tu estación online directamente desde Atlántida, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, World Music seleccionada para ti. Sintoniza ahora Stereo Luz Descombros gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Cristianos Radio",
+        "url_stream": "https://stream-177.zeno.fm/m7xdghv3dfytv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtN3hkZ2h2M2RmeXR2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkFmR1p2S19CUTUyY0IxRm4zbE51cFEiLCJpYXQiOjE3NjcxMzg0MTQsImV4cCI6MTc2NzEzODQ3NH0.GBTYXxqb42uU8GRwk--WL81XRhd_6BlX8DBN9W0zS2M",
+        "logo_local": "/logos_emisoras_honduras/Cristianos_Radio.jpg",
+        "generos": [
+            "Spirituality",
+            "Christian",
+            "Gospel"
+        ],
+        "descripcion": "Conecta con Cristianos Radio, tu estación online directamente desde Cortés, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Cristiana, Gospel seleccionada para ti. Sintoniza ahora Cristianos Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://theramaradio.wixsite.com/cristianoshn",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Actualidad",
+        "url_stream": "https://sp3.servidorrprivado.com/8042/stream",
+        "logo_local": "logos_emisoras\\\\Radio_Actualidad.jpg",
+        "generos": [
+            "Community",
+            "Christian",
+            "Catholic"
+        ],
+        "descripcion": "Escucha Radio Actualidad en vivo desde Santa Bárbara, Honduras, tu estación online favorita. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Community, Cristiana, Catholic seleccionada para ti. Sintoniza ahora Radio Actualidad gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Actualidad-100720784649890/",
+            "https://www.youtube.com/channel/UCwmviOLzi4ZkvPE0uID5Byg"
+        ],
+        "sitio_web": "http://www.radioactualidadhn.net/",
+        "ciudad": "Santa Bárbara"
+    },
+    {
+        "nombre": "Super Clásica",
+        "url_stream": "https://stream-151.zeno.fm/66z3zu1ahhruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI2NnozenUxYWhocnV2IiwiaG9zdCI6InN0cmVhbS0xNTEuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Il9qbnhheVk3UmxleExpOWpIZUNQaHciLCJpYXQiOjE3NjcxMzg0NzUsImV4cCI6MTc2NzEzODUzNX0.hhIUajZ4guqlYqV76TzhiSJV3iyoRTcvj5k-2ZTncZg",
+        "logo_local": "/logos_emisoras_honduras/Super_Clasica.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Super Clásica transmite en vivo desde la ciudad de Atlántida, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Super Clásica gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://zeno.fm/super-clasica",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Radio San Pedro",
+        "url_stream": "https://26653.live.streamtheworld.com/SANPEDROAAC_SC?dist=triton-web&pname=StandardPlayerV4",
+        "logo_local": "logos_emisoras\\\\Radio_San_Pedro.png",
+        "generos": [],
+        "descripcion": "Radio San Pedro transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio San Pedro gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "LHT Radio",
+        "url_stream": "https://ice26.securenetsystems.net/LHTFM",
+        "logo_local": "/logos_emisoras_honduras/LHT_Radio.jpg",
+        "generos": [],
+        "descripcion": "Escucha LHT Radio en vivo desde Honduras, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora LHT Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://lht.hn/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Estereo Lean",
+        "url_stream": "https://stream-176.zeno.fm/vqedti7ql2quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2cWVkdGk3cWwycXV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjRheVlDUkRVUUdLYUpxcFRrdWdOT1EiLCJpYXQiOjE3NjcxMzg1NTUsImV4cCI6MTc2NzEzODYxNX0.qRna819TOHZ3VLMB30s00yWsROccRKNoSMU_o7IQY-4",
+        "logo_local": "logos_emisoras\\\\Estereo_Lean.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Desde Atlántida llega la señal de Estereo Lean, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Estereo Lean gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Radio Cristiana Honduras",
+        "url_stream": "https://stream-152.zeno.fm/cbcfptwxcfhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjYmNmcHR3eGNmaHZ2IiwiaG9zdCI6InN0cmVhbS0xNTIuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Il8tNnFtb1BDUVlHdm1iYVVpWUUwWFEiLCJpYXQiOjE3NjcxMzg1ODksImV4cCI6MTc2NzEzODY0OX0.F_k1hAeHl3qi8EY-6TY9LQHrXx2fgj9VyxYUSIV4qM8",
+        "logo_local": "/logos_emisoras_honduras/Radio_Cristiana_Honduras.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Religious"
+        ],
+        "descripcion": "Conecta con Radio Cristiana Honduras, tu estación online directamente desde Cortés, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Religious seleccionada para ti. Sintoniza ahora Radio Cristiana Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiocristianahonduras.rd-o.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Centro 730 AM",
+        "url_stream": "https://ice42.securenetsystems.net/CENTRO",
+        "logo_local": "/logos_emisoras_honduras/Radio_Centro_730_AM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Disfruta de la programación de Radio Centro 730 AM (730 AM), la emisora líder en Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Radio Centro 730 AM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://twitter.com/RadioCentro640",
+            "https://www.facebook.com/pages/Radio-Centro/530688073699625?ref=hl"
+        ],
+        "sitio_web": "http://www.radiocentro.hn/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Estereo Clase",
+        "url_stream": "https://stream-149.zeno.fm/k6grbcx0zceuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrNmdyYmN4MHpjZXV2IiwiaG9zdCI6InN0cmVhbS0xNDkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InUwcEstek1NUS1lR3U3U3N4WnpEemciLCJpYXQiOjE3NjcxMzg2ODcsImV4cCI6MTc2NzEzODc0N30.oP8B4teosc3hDc2otpjNTffc51gBmtwfQLHRdNqTDxc",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Clase.jpg",
+        "generos": [
+            "Pop Music",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Sintoniza Estereo Clase online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, 80s, 90s seleccionada para ti. Sintoniza ahora Estereo Clase gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/EstereoClase",
+            "https://twitter.com/estereoclase",
+            "https://instagram.com/estereoclase"
+        ],
+        "sitio_web": "http://estereoclase.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Furia FM",
+        "url_stream": "https://stream-155.zeno.fm/kuy61me8sc9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrdXk2MW1lOHNjOXV2IiwiaG9zdCI6InN0cmVhbS0xNTUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik5Rek8xMzVpU3ZHM05FZmlsYTc2UHciLCJpYXQiOjE3NjcxMzg3MTMsImV4cCI6MTc2NzEzODc3M30.tM1BpbLsQKNeOTOYel5ejUWvtdlb-50b4Tr54vyn-_c",
+        "logo_local": "logos_emisoras\\\\Furia_FM.png",
+        "generos": [],
+        "descripcion": "Disfruta de la programación de Furia FM, la radio online líder en Choluteca, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Furia FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.emisorasaliadashn.com/",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "Fiestahn Radio",
+        "url_stream": "https://stream-175.zeno.fm/ozj6mphycswtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvemo2bXBoeWNzd3R2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IllxSGMtMFh2UmNhaUhrbDcwVC0xQUEiLCJpYXQiOjE3NjcxMzg3NDcsImV4cCI6MTc2NzEzODgwN30.Ry8rB8IfgEwgv7keJyVH6LsszcnhJrfgxaMdYXKMERI",
+        "logo_local": "/logos_emisoras_honduras/Fiestahn_Radio.jpg",
+        "generos": [
+            "Merengue",
+            "Caribbean",
+            "Latino"
+        ],
+        "descripcion": "Fiestahn Radio transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Merengue, Caribbean, Latino seleccionada para ti. Sintoniza ahora Fiestahn Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Estereo Sula 100.1 FM",
+        "url_stream": "https://tampa.audio-stream.com/proxy/rudass01?mp=/stream",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Sula_1001_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escucha Estereo Sula 100.1 FM en el 100.1 FM en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Estereo Sula 100.1 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://radioestereosula.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Cristiana Internacional",
+        "url_stream": "https://stream-179.zeno.fm/scembcfs1f8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzY2VtYmNmczFmOHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjVEbHlGMmpsUlg2OWNpVXR1NkJfeFEiLCJpYXQiOjE3NjcxMzg4NDAsImV4cCI6MTc2NzEzODkwMH0.iEtxjAoTSvikBaSFfjXY7pijkW3mJAvvY1OVanVkvsA",
+        "logo_local": "/logos_emisoras_honduras/Radio_Cristiana_Internacional.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "Escucha Radio Cristiana Internacional en vivo desde Choluteca, Honduras, tu estación online favorita. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary seleccionada para ti. Sintoniza ahora Radio Cristiana Internacional gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61562667939120&mibextid=ZbWKwL"
+        ],
+        "sitio_web": "",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "La Voz de Suyapa",
+        "url_stream": "https://streamingcwsradio30.com/8074/stream",
+        "logo_local": "/logos_emisoras_honduras/La_Voz_de_Suyapa.jpg",
+        "generos": [
+            "Spirituality",
+            "Educational",
+            "Religious"
+        ],
+        "descripcion": "Sintoniza La Voz de Suyapa online, transmitiendo en vivo desde Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Educational, Religious seleccionada para ti. Sintoniza ahora La Voz de Suyapa gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/FundacionCatolica",
+            "https://twitter.com/suyapamedios",
+            "https://www.instagram.com/suyapa_medios/",
+            "https://www.youtube.com/channel/UCW66Rd9lfXe8UbHSuNU260Q"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Estereo Bendicion HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8202/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_Estereo_Bendicion_HN.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Radio Estereo Bendicion HN transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Radio Estereo Bendicion HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/estereo.bendicion.904"
+        ],
+        "sitio_web": "http://www.radioestereobendicion.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio La Esperanza",
+        "url_stream": "https://s1.amixfm.live:8026/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_La_Esperanza.jpg",
+        "generos": [
+            "Classical",
+            "News",
+            "Latino"
+        ],
+        "descripcion": "Desde Intibucá llega la señal de Radio La Esperanza, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Clásica, Noticias, Latino seleccionada para ti. Sintoniza ahora Radio La Esperanza gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/p/Radio-La-Esperanza-100091604480807/?locale=es_LA"
+        ],
+        "sitio_web": "https://radiolaesperanza.com.es/",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Accion Radio 92.5",
+        "url_stream": "https://stream-158.zeno.fm/eruemtdzezzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlcnVlbXRkemV6enV2IiwiaG9zdCI6InN0cmVhbS0xNTguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InVnWFNZQ3VTVElTSGlnWVFmUTlmWWciLCJpYXQiOjE3NjcxMzg5NTEsImV4cCI6MTc2NzEzOTAxMX0.c8iHSjQya4Cgn3SZXQxgRdlFLZME7u4aGa-LIaFVDms",
+        "logo_local": "/logos_emisoras_honduras/Accion_Radio_925.jpg",
+        "generos": [
+            "Sports",
+            "News",
+            "Romantic"
+        ],
+        "descripcion": "Sintoniza Accion Radio 92.5 online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Deportes, Noticias, Romantic seleccionada para ti. Sintoniza ahora Accion Radio 92.5 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100083234366126"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Estereo Centro 91.3 FM",
+        "url_stream": "https://tampa.audio-stream.com/proxy/rudass00?mp=/stream",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Centro_913_FM.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Sintoniza Estereo Centro 91.3 FM en el dial 91.3 FM transmitiendo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Latino seleccionada para ti. Sintoniza ahora Estereo Centro 91.3 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "http://www.facebook.com/pages/estereocentro/117071691659612"
+        ],
+        "sitio_web": "https://radioestereocentro.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "La Buenísima Stereo",
+        "url_stream": "https://icecasthd.net/proxy/buenisima/stream",
+        "logo_local": "/logos_emisoras_honduras/La_Buenisima_Stereo.jpg",
+        "generos": [
+            "Catholic",
+            "Caribbean",
+            "Latino"
+        ],
+        "descripcion": "Conecta con La Buenísima Stereo, tu estación online directamente desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Catholic, Caribbean, Latino seleccionada para ti. Sintoniza ahora La Buenísima Stereo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://circuitopop.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio La Voz de Dios en El Mundo",
+        "url_stream": "https://strcdn.klm99.com/8106/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_La_Voz_de_Dios_en_El_Mundo.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Desde Santa Bárbara llega la señal de Radio La Voz de Dios en El Mundo, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio La Voz de Dios en El Mundo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://lavozdediosenelmundo.godaddysites.com/",
+        "ciudad": "Santa Bárbara"
+    },
+    {
+        "nombre": "La Top 102.9 FM",
+        "url_stream": "https://us9.maindigitalstream.com/ssl/latop102",
+        "logo_local": "/logos_emisoras_honduras/La_Top_1029_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "La Top 102.9 FM transmite en vivo por 102.9 FM desde la ciudad de Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora La Top 102.9 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/pages/Grupo-Invosa/1502858103304554",
+            "https://twitter.com/@GrupoInvosa"
+        ],
+        "sitio_web": "https://www.latop.hn/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "La Pegajoza Radio",
+        "url_stream": "https://stream-154.zeno.fm/cf7azhtr3qruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjZjdhemh0cjNxcnV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InRIeTV0SG56UW8tMDF5RVRnVHhoR1EiLCJpYXQiOjE3NjcxMzkxMDIsImV4cCI6MTc2NzEzOTE2Mn0.zo6DbC0Pxou_f_WU2cCBPVmh5tH7p4Is_TIwo-BaQwc",
+        "logo_local": "/logos_emisoras_honduras/La_Pegajoza_Radio.jpg",
+        "generos": [
+            "Reggae",
+            "Latino"
+        ],
+        "descripcion": "Sintoniza La Pegajoza Radio online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggae, Latino seleccionada para ti. Sintoniza ahora La Pegajoza Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/lapegajozaradiohn"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "80s Radio Accion",
+        "url_stream": "https://stream-177.zeno.fm/atsvsazvrzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhdHN2c2F6dnJ6enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlFNdm9hU1lQUnNtalpKV3VuT1QtNkEiLCJpYXQiOjE3NjcxMzkxMjUsImV4cCI6MTc2NzEzOTE4NX0.m3gAPFcuVpNncDVpvOqdnhuUp8DCo_MRP8n06G9cJBM",
+        "logo_local": "/logos_emisoras_honduras/80s_Radio_Accion.jpg",
+        "generos": [
+            "80s"
+        ],
+        "descripcion": "Sintoniza 80s Radio Accion online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s seleccionada para ti. Sintoniza ahora 80s Radio Accion gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioAccionHN/",
+            "https://twitter.com/RadioAccionHN"
+        ],
+        "sitio_web": "https://radioaccionhit.es.tl/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Estereo Betel Online",
+        "url_stream": "https://stream-178.zeno.fm/p95fz32ygl6tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwOTVmejMyeWdsNnR2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjlBQ3dyWmFkUXh1NXZONzhwVlRUY1EiLCJpYXQiOjE3NjcxMzkxNTAsImV4cCI6MTc2NzEzOTIxMH0.PGXT7241jHXC5cnm3_BeIbqtciVGSTk2XrxhWN_X7wU",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Betel_Online.jpg",
+        "generos": [
+            "Christian",
+            "Gospel",
+            "Children’s Music"
+        ],
+        "descripcion": "Escucha Estereo Betel Online en vivo desde Intibucá, Honduras, tu estación online favorita. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Gospel, Children’s Music seleccionada para ti. Sintoniza ahora Estereo Betel Online gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Estereo-Betel-111348680693291"
+        ],
+        "sitio_web": "https://estereobetel.blogspot.com/",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Relampago Stereo 90.7 FM",
+        "url_stream": "https://stream-177.zeno.fm/rfdtu9c2ah3vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyZmR0dTljMmFoM3Z2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImxvWkRSem80UVMyZERSUkJkVFZnM3ciLCJpYXQiOjE3NjcxMzkxNzQsImV4cCI6MTc2NzEzOTIzNH0.dgk0lDDUfbGsF-zTHwg-wQbMLLdIljiy3QJjLSzzpao",
+        "logo_local": "/logos_emisoras_honduras/Relampago_Stereo_907_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Disfruta de la programación de Relampago Stereo 90.7 FM (90.7 FM), la emisora líder en Santa Bárbara, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Relampago Stereo 90.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Santa Bárbara"
+    },
+    {
+        "nombre": "Radio Perla",
+        "url_stream": "https://stream-178.zeno.fm/f5wfzt3aa0quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmNXdmenQzYWEwcXV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InpSV3pONTlfU1ZhY0tkQ0hLdVF0MkEiLCJpYXQiOjE3NjcxMzkyMDAsImV4cCI6MTc2NzEzOTI2MH0.GTd0QFZcBTez25d6e-dOZIpWrEN7mWzBu2LYuz8dEjc",
+        "logo_local": "/logos_emisoras_honduras/Radio_Perla.jpg",
+        "generos": [],
+        "descripcion": "Desde Yoro llega la señal de Radio Perla, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Perla gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radioperla.com/",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Radio Estrella De Oro",
+        "url_stream": "https://stream.playerlive.info:8001/live.aac",
+        "logo_local": "/logos_emisoras_honduras/Radio_Estrella_De_Oro.jpg",
+        "generos": [],
+        "descripcion": "Disfruta de la programación de Radio Estrella De Oro, la radio online líder en Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Estrella De Oro gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://radioestrelladeoro.org/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Mia FM",
+        "url_stream": "https://stream-154.zeno.fm/3sr478gcdm0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzc3I0NzhnY2RtMHV2IiwiaG9zdCI6InN0cmVhbS0xNTQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImltMkliOWJWUU02RTR2NTJDOWNJSlEiLCJpYXQiOjE3NjcxMzkyNTQsImV4cCI6MTc2NzEzOTMxNH0.rJKEeV3lZoWT59SSPv1wjDsP9eTr0ocLq36g1EsoeS4",
+        "logo_local": "/logos_emisoras_honduras/Mia_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Romantic",
+            "Latino"
+        ],
+        "descripcion": "Sintoniza Mia FM online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Romantic, Latino seleccionada para ti. Sintoniza ahora Mia FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio La Voz Del Principe De Paz Hn",
+        "url_stream": "https://app0103.sonicpanelradio.com:8114/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_La_Voz_Del_Principe_De_Paz_Hn.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Desde Honduras llega la señal de Radio La Voz Del Principe De Paz Hn, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Radio La Voz Del Principe De Paz Hn gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Uncion Stereo 105.7 FM",
+        "url_stream": "https://stream-179.zeno.fm/yxfehuj5pqxvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5eGZlaHVqNXBxeHZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ijk4RC1WQVpZUUxLUmxIOXZQOGZ2TFEiLCJpYXQiOjE3NjcxMzkzMDMsImV4cCI6MTc2NzEzOTM2M30.z22nsYJ3QS5cu8CN13P8SwinriD6I_3LfHCKH-bilYc",
+        "logo_local": "/logos_emisoras_honduras/Radio_Uncion_Stereo_1057_FM.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Radio Uncion Stereo 105.7 FM transmite en vivo por 105.7 FM desde la ciudad de Yoro, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Radio Uncion Stereo 105.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Uncionstereo105.7?hc_ref=ARR8ePzsAOg19_VNXgmEpwCg3UIuQfsDBWfZvBzzEj6AwTpEMA"
+        ],
+        "sitio_web": "",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Radio Juticalpa Español",
+        "url_stream": "https://stream-176.zeno.fm/sw7t7rhd1d0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzdzd0N3JoZDFkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkxtbV9OX2Y1Ukd5aTBiWXduNXp6elEiLCJpYXQiOjE3NjcxMzkzNTAsImV4cCI6MTc2NzEzOTQxMH0.VLUQDUpUA6XI4SMo5OQrXGWzd-wBIgJ5BoLNac47QGE&amb-uid=3898065775428749197&an-uid=0&aw_0_req_lsid=a577bf4b67647738ae1c2364893d5cad&dot-uid=0ab2220300c5665293f3e767&triton-uid=cookie%3A26424d7d-26e2-4560-a3ef-c11d253ab62c",
+        "logo_local": "/logos_emisoras_honduras/Radio_Juticalpa_Espanol.jpg",
+        "generos": [],
+        "descripcion": "Radio Juticalpa Español transmite en vivo desde la ciudad de Honduras, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Juticalpa Español gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiojuticalpa/"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Sultana",
+        "url_stream": "https://app.sonicpanelradio.com/8666/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Sultana.jpg",
+        "generos": [
+            "Pop Music",
+            "Reggaeton",
+            "Classic Country"
+        ],
+        "descripcion": "Radio Sultana transmite en vivo desde la ciudad de Copán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Reggaetón, Classic Country seleccionada para ti. Sintoniza ahora Radio Sultana gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RadioSultanaHN",
+            "https://www.youtube.com/@radiosultana6883"
+        ],
+        "sitio_web": "",
+        "ciudad": "Copán"
+    },
+    {
+        "nombre": "Kairos 90.9 FM",
+        "url_stream": "https://c7.radioboss.fm:18255/KAIROSFM",
+        "logo_local": "/logos_emisoras_honduras/Kairos_909_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Sintoniza Kairos 90.9 FM en el dial 90.9 FM transmitiendo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Kairos 90.9 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "http://www.facebook.com/enlacekairos"
+        ],
+        "sitio_web": "http://www.kairosfm.org/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio País",
+        "url_stream": "https://rad-net.com/Pais/123/icecast.audio",
+        "logo_local": "/logos_emisoras_honduras/Radio_Pais.jpg",
+        "generos": [
+            "News",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escucha Radio País en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Noticias, 80s, 90s seleccionada para ti. Sintoniza ahora Radio País gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiopaishn",
+            "https://www.twitter.com/radio_pais/",
+            "https://www.instagram.com/radio_pais/"
+        ],
+        "sitio_web": "http://radiopaishn.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "La Musical HN",
+        "url_stream": "https://stream-177.zeno.fm/mmtww5rxkdsuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtbXR3dzVyeGtkc3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjRVNHlvNkJUUWhPTGpnV0tMdWllZUEiLCJpYXQiOjE3NjcxMzk0NzMsImV4cCI6MTc2NzEzOTUzM30.iJZOKRF0NHeepWREZMeDwMk11HIjicu76-SaXAN697o",
+        "logo_local": "/logos_emisoras_honduras/La_Musical_HN.jpg",
+        "generos": [
+            "Reggaeton",
+            "J-pop",
+            "Reggae"
+        ],
+        "descripcion": "Escucha La Musical HN en vivo desde Comayagua, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón, J-pop, Reggae seleccionada para ti. Sintoniza ahora La Musical HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.lamusicalhn.com/",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "Radio Imperio HN",
+        "url_stream": "https://stream-178.zeno.fm/hnfkdactethtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJobmZrZGFjdGV0aHR2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjRQV1RWTUZIU2I2MlpUVXJRYl9EMFEiLCJpYXQiOjE3NjcxMzk0OTcsImV4cCI6MTc2NzEzOTU1N30.exjJEFD8_TRcDJP8IO-AVRTyoFdVVDnOpb6vSn0kB_Y",
+        "logo_local": "logos_emisoras\\\\Radio_Imperio_HN.jpg",
+        "generos": [],
+        "descripcion": "Desde Copán llega la señal de Radio Imperio HN, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Imperio HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Copán"
+    },
+    {
+        "nombre": "Radio Vida 94.3 FM",
+        "url_stream": "https://stream-175.zeno.fm/whhkpyf73iztv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3aGhrcHlmNzNpenR2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlZJdXVneXNyU3VDNW50Z3VZei1HMUEiLCJpYXQiOjE3NjcxMzk1MzEsImV4cCI6MTc2NzEzOTU5MX0.eCgbqC1Ygjw76kNq-BGuV7nWVcXd70OtuKJVZC_dzKY",
+        "logo_local": "/logos_emisoras_honduras/Radio_Vida_943_FM.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Disfruta de la programación de Radio Vida 94.3 FM (94.3 FM), la emisora líder en Choluteca, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Gospel seleccionada para ti. Sintoniza ahora Radio Vida 94.3 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/TelevidaHD18",
+            "https://www.youtube.com/@televidahd1179/streams"
+        ],
+        "sitio_web": "",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "Radio Omega",
+        "url_stream": "https://504streaming.com/radioomega/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Omega.jpg",
+        "generos": [
+            "Christian Contemporary"
+        ],
+        "descripcion": "Desde Honduras llega la señal de Radio Omega, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Christian Contemporary seleccionada para ti. Sintoniza ahora Radio Omega gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Radio-Omega-103880385364550/"
+        ],
+        "sitio_web": "https://radioomega.org/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Dios Te Ve",
+        "url_stream": "https://s.emisoras.tv:2020/stream/diosteve",
+        "logo_local": "/logos_emisoras_honduras/Radio_Dios_Te_Ve.jpg",
+        "generos": [
+            "Spirituality",
+            "Gospel",
+            "Religious"
+        ],
+        "descripcion": "Radio Dios Te Ve transmite en vivo desde la ciudad de Santa Bárbara, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Gospel, Religious seleccionada para ti. Sintoniza ahora Radio Dios Te Ve gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/CanalDiosTeve/",
+            "https://www.youtube.com/channel/UCh1rNYo__BExCopufCwKFPg",
+            "https://www.facebook.com/ministeriosdiostevehonduras",
+            "https://www.facebook.com/ministeriosdiostevehonduras"
+        ],
+        "sitio_web": "http://www.diosteve.org/",
+        "ciudad": "Santa Bárbara"
+    },
+    {
+        "nombre": "VOX FM",
+        "url_stream": "https://ice42.securenetsystems.net/VOXFM?playSessionID=60B9F522-F7EA-7002-C705CCA75DB823C3",
+        "logo_local": "/logos_emisoras_honduras/VOX_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de VOX FM, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora VOX FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.planetavox.hn/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Mazaya 89.1 FM",
+        "url_stream": "https://server.streamingradios.net:8192/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_Mazaya_891_FM.jpg",
+        "generos": [
+            "Trance",
+            "World Music",
+            "Top 40"
+        ],
+        "descripcion": "Sintoniza Radio Mazaya 89.1 FM en el dial 89.1 FM transmitiendo desde Intibucá, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Trance, World Music, Top 40 seleccionada para ti. Sintoniza ahora Radio Mazaya 89.1 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/colomoncagua.mazayaradio"
+        ],
+        "sitio_web": "http://www.radiomazaya891.com/",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Estereo Control 100.7 FM",
+        "url_stream": "https://stream.videoyaudio.com:3064/live/controltvonlinelive.m3u8",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Control_1007_FM.jpg",
+        "generos": [],
+        "descripcion": "Escucha Estereo Control 100.7 FM en el 100.7 FM en vivo desde Intibucá, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Estereo Control 100.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://instagram.com/estereo_control",
+            "https://twitter.com/EstereoControl",
+            "https://www.facebook.com/estereocontroljesusdeotoro"
+        ],
+        "sitio_web": "http://grupocontrolhn.com/",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Stereo Azul FM",
+        "url_stream": "https://14993.live.streamtheworld.com/ESTEREOAZULAAC_SC?dist=triton-web&pname=StandardPlayerV4",
+        "logo_local": "/logos_emisoras_honduras/Stereo_Azul_FM.jpg",
+        "generos": [
+            "80s",
+            "70s"
+        ],
+        "descripcion": "Stereo Azul FM transmite en vivo desde la ciudad de Honduras, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s seleccionada para ti. Sintoniza ahora Stereo Azul FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/EstereoAzulPanama",
+            "https://instagram.com/estereoazulfm",
+            "https://twitter.com/estereoazulfm"
+        ],
+        "sitio_web": "http://www.estereoazul.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Marca HN",
+        "url_stream": "https://stream-179.zeno.fm/3g1wm79v81zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzZzF3bTc5djgxenV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlNUTDhEbXpsUWQ2VEpTZ19DQ0FfQXciLCJpYXQiOjE3NjcxMzk3NjIsImV4cCI6MTc2NzEzOTgyMn0.hcHTjRH3d4m_oo6CDoEj4ky6Y2dqilVr1g2huORKDuc",
+        "logo_local": "/logos_emisoras_honduras/Marca_HN.jpg",
+        "generos": [
+            "Reggaeton"
+        ],
+        "descripcion": "Sintoniza Marca HN online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón seleccionada para ti. Sintoniza ahora Marca HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/marca.hn.731"
+        ],
+        "sitio_web": "http://www.radiomarcahn.tk/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Solo Clasicos Online",
+        "url_stream": "https://stream-177.zeno.fm/dxscbt1341puv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkeHNjYnQxMzQxcHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Il9OV0Q0ajNsU2hXQWJwdE9wYndSZGciLCJpYXQiOjE3NjcxMzk4MDYsImV4cCI6MTc2NzEzOTg2Nn0.WV29AnTVoclwF6-iaPx2JTAgIgTpI2DXmNcUfst_Xk4",
+        "logo_local": "/logos_emisoras_honduras/Radio_Solo_Clasicos_Online.jpg",
+        "generos": [
+            "Classical",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Escucha Radio Solo Clasicos Online en vivo desde Copán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Clásica, 80s, 90s seleccionada para ti. Sintoniza ahora Radio Solo Clasicos Online gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Copán"
+    },
+    {
+        "nombre": "Yashe Radio",
+        "url_stream": "https://stream-176.zeno.fm/fcc6yv6z0a0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmY2M2eXY2ejBhMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImNBSDFZRFFSUUh5UlNWdndfSmo4X0EiLCJpYXQiOjE3NjcxMzk4MzAsImV4cCI6MTc2NzEzOTg5MH0.Pjpx-Uq_yjYDWUwvgihgM1bM_6Z9oGRBxCBc5kMdsDE",
+        "logo_local": "/logos_emisoras_honduras/Yashe_Radio.jpg",
+        "generos": [
+            "Merengue",
+            "70s",
+            "Caribbean"
+        ],
+        "descripcion": "Disfruta de la programación de Yashe Radio, la radio online líder en Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Merengue, 70s, Caribbean seleccionada para ti. Sintoniza ahora Yashe Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/yasher.mejia.9"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Los Katrachos Radio",
+        "url_stream": "https://sonicpanel.us/8086/stream",
+        "logo_local": "/logos_emisoras_honduras/Los_Katrachos_Radio.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "Salsa",
+            "World Music"
+        ],
+        "descripcion": "Sintoniza Los Katrachos Radio online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary, Salsa, World Music seleccionada para ti. Sintoniza ahora Los Katrachos Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/loskatrachosradio"
+        ],
+        "sitio_web": "https://www.loskatrachosradio.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "RADIO LA MISIONERA DEL AIRE HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8226/;",
+        "logo_local": "logos_emisoras\\\\RADIO_LA_MISIONERA_DEL_AIRE_HN.jpg",
+        "generos": [],
+        "descripcion": "Desde Honduras llega la señal de RADIO LA MISIONERA DEL AIRE HN, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora RADIO LA MISIONERA DEL AIRE HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "RADIO TRUJILLO HONDURAS",
+        "url_stream": "https://app0103.sonicpanelradio.com:8150/;",
+        "logo_local": "/logos_emisoras_honduras/RADIO_TRUJILLO_HONDURAS.jpg",
+        "generos": [
+            "80s",
+            "70s"
+        ],
+        "descripcion": "Desde Colón llega la señal de RADIO TRUJILLO HONDURAS, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s seleccionada para ti. Sintoniza ahora RADIO TRUJILLO HONDURAS gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiotrujillohn.com/",
+        "ciudad": "Colón"
+    },
+    {
+        "nombre": "KAIROS GOLD",
+        "url_stream": "https://c7.radioboss.fm:18255/KAIROSGOLD",
+        "logo_local": "/logos_emisoras_honduras/KAIROS_GOLD.jpg",
+        "generos": [
+            "Christian",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Disfruta de la programación de KAIROS GOLD, la radio online líder en Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, 80s, 90s seleccionada para ti. Sintoniza ahora KAIROS GOLD gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/kairosfmhn",
+            "https://www.youtube.com/@KairosMedios"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Tictac Stereo",
+        "url_stream": "https://icecasthd.net/proxy/tictac/stream",
+        "logo_local": "/logos_emisoras_honduras/Tictac_Stereo.jpg",
+        "generos": [
+            "Pop Music",
+            "Variety",
+            "K-pop"
+        ],
+        "descripcion": "Sintoniza Tictac Stereo online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Variety, K-pop seleccionada para ti. Sintoniza ahora Tictac Stereo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://circuitopop.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "KAIROS FM",
+        "url_stream": "https://c7.radioboss.fm:18255/KAIROSFM",
+        "logo_local": "/logos_emisoras_honduras/KAIROS_FM.jpg",
+        "generos": [
+            "Christian Contemporary"
+        ],
+        "descripcion": "Conecta con KAIROS FM, tu estación online directamente desde Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Christian Contemporary seleccionada para ti. Sintoniza ahora KAIROS FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/kairosfmhn",
+            "https://www.youtube.com/@KairosMedios"
+        ],
+        "sitio_web": "http://www.kairosmedios.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "DeeJay Honduras",
+        "url_stream": "https://stream-150.zeno.fm/yht1n81zc5zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5aHQxbjgxemM1enV2IiwiaG9zdCI6InN0cmVhbS0xNTAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik9OQlBTc1o3UzhDMUd4UkNncWVyVFEiLCJpYXQiOjE3NjcxNDAwMjUsImV4cCI6MTc2NzE0MDA4NX0.s3ppMRdkSbM5d6jDU6EzGE0P0JkHfzrexhl4A11Fg04",
+        "logo_local": "/logos_emisoras_honduras/DeeJay_Honduras.jpg",
+        "generos": [
+            "International",
+            "Top 40"
+        ],
+        "descripcion": "Desde Cortés llega la señal de DeeJay Honduras, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de International, Top 40 seleccionada para ti. Sintoniza ahora DeeJay Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/deejayhonduras",
+            "https://twitter.com/deejayhonduras",
+            "https://www.instagram.com/deejayhonduras/",
+            "https://www.youtube.com/user/DEEJAYHONDURAS"
+        ],
+        "sitio_web": "http://www.deejayfm.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Inter 91.7 FM",
+        "url_stream": "https://stream-179.zeno.fm/g08nfhu6b48uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnMDhuZmh1NmI0OHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjRCVlFPaDMxVDltQS1ua2x1ajFFd0EiLCJpYXQiOjE3NjcxNDAwNDYsImV4cCI6MTc2NzE0MDEwNn0.jviO3KYzYQjciT5c6I2AFzV4CYrriuckUS5NUggRLVk",
+        "logo_local": "/logos_emisoras_honduras/Inter_917_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "Salsa",
+            "Merengue"
+        ],
+        "descripcion": "Disfruta de la programación de Inter 91.7 FM (91.7 FM), la emisora líder en Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Salsa, Merengue seleccionada para ti. Sintoniza ahora Inter 91.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/interfmhn",
+            "https://twitter.com/interfmhn",
+            "https://www.instagram.com/interfmhn/",
+            "https://www.youtube.com/@inter91.74"
+        ],
+        "sitio_web": "http://www.inter.hn/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Solo Exitos HN",
+        "url_stream": "https://stream-178.zeno.fm/r51vdhet3bruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyNTF2ZGhldDNicnV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Im01MWY0NEtqUUVlMW5aNFk1NUNzZmciLCJpYXQiOjE3NjcxNDAwNzEsImV4cCI6MTc2NzE0MDEzMX0.dhEOjYdwh84nGVNGDAs0R8XcSalnKlSKz4dhaKw3fCc",
+        "logo_local": "/logos_emisoras_honduras/Radio_Solo_Exitos_HN.jpg",
+        "generos": [
+            "Pop Music",
+            "Variety",
+            "Classic Hits"
+        ],
+        "descripcion": "Disfruta de la programación de Radio Solo Exitos HN, la radio online líder en Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Variety, Classic Hits seleccionada para ti. Sintoniza ahora Radio Solo Exitos HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UC5IXqzLMzAcZK4zizDUJ5zg",
+            "https://www.instagram.com/invites/contact/?i=zqegt38e7b8h&utm_content=d0ojxjh",
+            "https://www.facebook.com/radiosoloexitoshn/"
+        ],
+        "sitio_web": "https://radiosoloexitos.es.tl/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Suyapa FM Estéreo",
+        "url_stream": "https://streamingcwsradio30.com/8026/stream",
+        "logo_local": "/logos_emisoras_honduras/Suyapa_FM_Estereo.jpg",
+        "generos": [
+            "Spirituality",
+            "Educational",
+            "Religious"
+        ],
+        "descripcion": "Escucha Suyapa FM Estéreo en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Educational, Religious seleccionada para ti. Sintoniza ahora Suyapa FM Estéreo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UCW66Rd9lfXe8UbHSuNU260Q",
+            "https://www.instagram.com/suyapa_medios/",
+            "https://twitter.com/suyapamedios",
+            "https://www.facebook.com/FundacionCatolica"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Visión Cristiana",
+        "url_stream": "https://server1.streamingradio.online/proxy/radiovis/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Vision_Cristiana.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Conecta con Radio Visión Cristiana, tu estación online directamente desde Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Radio Visión Cristiana gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovisioncristianaHN/"
+        ],
+        "sitio_web": "http://www.radiovisioncristianahn.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Naranja Sonaguera",
+        "url_stream": "https://app0103.sonicpanelradio.com:8060/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_Naranja_Sonaguera.jpg",
+        "generos": [],
+        "descripcion": "Sintoniza Radio Naranja Sonaguera online, transmitiendo en vivo desde Colón, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Naranja Sonaguera gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radionaranja/"
+        ],
+        "sitio_web": "https://www.naranjadigitalhn.com/",
+        "ciudad": "Colón"
+    },
+    {
+        "nombre": "Radio Bendicion Choloma Cortes",
+        "url_stream": "https://strcdn.klm99.com/8098/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Bendicion_Choloma_Cortes.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Radio Bendicion Choloma Cortes transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Bendicion Choloma Cortes gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiobendicionhn.godaddysites.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Z 88. 5 FM",
+        "url_stream": "https://s1.amixfm.live:8002/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Z_88_5_FM.jpg",
+        "generos": [
+            "Mexican Music"
+        ],
+        "descripcion": "Sintoniza Radio Z 88. 5 FM online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Mexican Music seleccionada para ti. Sintoniza ahora Radio Z 88. 5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://web.facebook.com/mimusicamibanda"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Yeshua Honduras",
+        "url_stream": "https://stream-178.zeno.fm/pw15k6f9cxhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwdzE1azZmOWN4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjBYZW5yUmtnVG1LZDZqSEZTV2FVMmciLCJpYXQiOjE3NjcxNDAyNjEsImV4cCI6MTc2NzE0MDMyMX0.In0xJ87pa1EAUGichAKtnI3WuvFz1-us8ZUoFV32s5o",
+        "logo_local": "/logos_emisoras_honduras/Radio_Yeshua_Honduras.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Desde Cortés llega la señal de Radio Yeshua Honduras, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Radio Yeshua Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radioyeshuahonduras.wixsite.com/andersonmendoza",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Classic Radio Accion",
+        "url_stream": "https://stream-179.zeno.fm/7pwfg6vghzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3cHdmZzZ2Z2h6enV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Il8tNWFKN1RzUldPVDVJRU5tNjhzeUEiLCJpYXQiOjE3NjcxNDAyODQsImV4cCI6MTc2NzE0MDM0NH0.Ulq4vJiThXNiNJLA8NppVK82arNgeKofqDKU13Ljq7c",
+        "logo_local": "/logos_emisoras_honduras/Classic_Radio_Accion.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de Classic Radio Accion, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Classic Radio Accion gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://twitter.com/RadioAccionHN",
+            "https://www.facebook.com/RadioAccionHN/"
+        ],
+        "sitio_web": "https://radioaccionhit.es.tl/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "RADIO BETEL HRAB",
+        "url_stream": "https://emiteradio.com/proxy/betelradio?mp=/stream",
+        "logo_local": "/logos_emisoras_honduras/RADIO_BETEL_HRAB.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Conecta con RADIO BETEL HRAB, tu estación online directamente desde Copán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora RADIO BETEL HRAB gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radiobetel.org/",
+        "ciudad": "Copán"
+    },
+    {
+        "nombre": "Radio Valle 90.7",
+        "url_stream": "https://19253.live.streamtheworld.com/VALLEAAC_SC?dist=triton-web&pname=StandardPlayerV4",
+        "logo_local": "/logos_emisoras_honduras/Radio_Valle_907.jpg",
+        "generos": [],
+        "descripcion": "Conecta con Radio Valle 90.7, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Valle 90.7 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiovallehn/"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "La Voz de Chamelecon",
+        "url_stream": "https://stream-178.zeno.fm/gc5wa1uht0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnYzV3YTF1aHQwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InpLOWo2V1IwU255dVVwWXB4QTkyNlEiLCJpYXQiOjE3NjcxNDAzNjgsImV4cCI6MTc2NzE0MDQyOH0.jziOFp3iSC0FwYaKm1aa6TT9AwH7iX4wqcVkbRuuGHM",
+        "logo_local": "/logos_emisoras_honduras/La_Voz_de_Chamelecon.jpg",
+        "generos": [
+            "Christian",
+            "Latino"
+        ],
+        "descripcion": "Sintoniza La Voz de Chamelecon online, transmitiendo en vivo desde Cortés, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Latino seleccionada para ti. Sintoniza ahora La Voz de Chamelecon gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/people/Radio-La-Voz-de-Chamelecon/100084805595748/",
+            "https://www.youtube.com/channel/UCnxUPTMUbNjMyjJnlI50oHQ"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio La Bendicion 504",
+        "url_stream": "https://stream-175.zeno.fm/uq237ktdqm0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1cTIzN2t0ZHFtMHV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImdaazBLSjREU0lDUEw0enZzam5xX0EiLCJpYXQiOjE3NjcxNDAzOTEsImV4cCI6MTc2NzE0MDQ1MX0.n5IdjSV4pcXoGnODn7qb4-5OAkSfS8z9ROjkQ5uN8ok&acu-uid=626574777305&aw-uid=a1374c036a02fc26935bbc99fa1ff6e0&aw_0_req_lsid=19a752a14c28ed3258a07a00f9910b68&dyn-uid=&mm-uid=fb1e61a5-fa1e-4600-a3f7-e6ec44d674ca&rj-ttl=5&triton-uid=cookie%3Ad2956306-dae9-4fda-99ac-2d2",
+        "logo_local": "/logos_emisoras_honduras/Radio_La_Bendicion_504.jpg",
+        "generos": [
+            "Spirituality",
+            "Christian Contemporary",
+            "Religious"
+        ],
+        "descripcion": "Disfruta de la programación de Radio La Bendicion 504, la radio online líder en Honduras, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Christian Contemporary, Religious seleccionada para ti. Sintoniza ahora Radio La Bendicion 504 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RADIO-La-Bendicion-504-103601651538701"
+        ],
+        "sitio_web": "http://radiolabendicion504.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "KISS FM",
+        "url_stream": "https://stream-176.zeno.fm/ayrcma6sv4zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJheXJjbWE2c3Y0enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Inh6ckRZbWdvUmE2VmhmRERTNjhkTGciLCJpYXQiOjE3NjcxNDA0MDcsImV4cCI6MTc2NzE0MDQ2N30.jdX21krXSv7peypMwZHK0-ldN7F_4ZgjOUPPryaTrc8",
+        "logo_local": "/logos_emisoras_honduras/KISS_FM.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "70s"
+        ],
+        "descripcion": "KISS FM transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary, 80s, 70s seleccionada para ti. Sintoniza ahora KISS FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/KISSfm_Honduras/",
+            "https://twitter.com/KISSFM_hn",
+            "https://www.facebook.com/profile.php?id=100077432150948"
+        ],
+        "sitio_web": "https://kissfmhn.wixsite.com/radio",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Lluvia FM 95.7 - YORO",
+        "url_stream": "https://s1.amixfm.live:8032/stream",
+        "logo_local": "/logos_emisoras_honduras/Lluvia_FM_957_YORO.jpg",
+        "generos": [],
+        "descripcion": "Disfruta de la programación de Lluvia FM 95.7 - YORO (FM 95.7), la emisora líder en Yoro, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Lluvia FM 95.7 - YORO gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61553670822704"
+        ],
+        "sitio_web": "http://www.smyhn.com/",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Rama Radio",
+        "url_stream": "https://stream-175.zeno.fm/zotowmwwbkptv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6b3Rvd213d2JrcHR2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImgwYi1Ec1dXUTQ2RUZhcFZidGhrZ1EiLCJpYXQiOjE3NjcxNDA3NzEsImV4cCI6MTc2NzE0MDgzMX0.nk5g7A0Po3ukCQT1eAqbc2BUoRkdCUIYzhKRp_htSrw",
+        "logo_local": "logos_emisoras\\\\Rama_Radio.png",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Rama Radio transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Gospel seleccionada para ti. Sintoniza ahora Rama Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/theramaradio",
+            "https://twitter.com/TheRAMARADIO2",
+            "https://www.instagram.com/theramaradio/?hl=es-la"
+        ],
+        "sitio_web": "https://theramaradio.wixsite.com/radio",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Stereo Balfate HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8184/;",
+        "logo_local": "/logos_emisoras_honduras/Stereo_Balfate_HN.jpg",
+        "generos": [],
+        "descripcion": "Disfruta de la programación de Stereo Balfate HN, la radio online líder en Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Stereo Balfate HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Maxima 1047 HN",
+        "url_stream": "https://stream-178.zeno.fm/5d26gvsafd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1ZDI2Z3ZzYWZkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IklxVi1IUnNyVE0tNktfZnI0ekdoMkEiLCJpYXQiOjE3NjcxNDA4NTcsImV4cCI6MTc2NzE0MDkxN30.f6DSUSHbxWA_1I3hGrUm5_c6YHyHDdeyJSz4uz2oKbU",
+        "logo_local": "/logos_emisoras_honduras/Maxima_1047_HN.jpg",
+        "generos": [
+            "Reggaeton",
+            "Electronic"
+        ],
+        "descripcion": "Maxima 1047 HN transmite en vivo desde la ciudad de Comayagua, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón, Electrónica seleccionada para ti. Sintoniza ahora Maxima 1047 HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/search/top?q=maxima%20fm%20siguatepeque"
+        ],
+        "sitio_web": "",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "RADIO LA VIRTUD",
+        "url_stream": "https://cp.sonicpanel.stream:8114/;",
+        "logo_local": "/logos_emisoras_honduras/RADIO_LA_VIRTUD.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Desde Lempira llega la señal de RADIO LA VIRTUD, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora RADIO LA VIRTUD gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/german.lopez.614198",
+            "https://www.youtube.com/@German_Lopez"
+        ],
+        "sitio_web": "https://radiolavirtud.com/",
+        "ciudad": "Lempira"
+    },
+    {
+        "nombre": "La Voz del Atlantico",
+        "url_stream": "https://stream-175.zeno.fm/1e3heh061mzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIxZTNoZWgwNjFtenV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkZnOVozYWFkVGhDSzFqX2hmR25aS2ciLCJpYXQiOjE3NjcxNDA4OTYsImV4cCI6MTc2NzE0MDk1Nn0.n4cZ1C0bIX8Kg9QOda2meYryocqxVSqTvUhRMHsj7vE",
+        "logo_local": "logos_emisoras\\\\La_Voz_del_Atlantico.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Escucha La Voz del Atlantico en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora La Voz del Atlantico gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/lavozdelatlantico/",
+            "https://twitter.com/laprimerisimahn"
+        ],
+        "sitio_web": "http://lavozdelatlantico.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Alternativa Rock Radio",
+        "url_stream": "https://a9.asurahosting.com/listen/alternativa_rock_radio/radio.mp3?refresh=1748518093499",
+        "logo_local": "/logos_emisoras_honduras/Alternativa_Rock_Radio.jpg",
+        "generos": [
+            "Classic Rock",
+            "Alternative Rock"
+        ],
+        "descripcion": "Sintoniza Alternativa Rock Radio online, transmitiendo en vivo desde Comayagua, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Classic Rock, Alternative Rock seleccionada para ti. Sintoniza ahora Alternativa Rock Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.alternativarockradio.online/",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "Radio Buenas Nuevas De Salvacion Jutiapa",
+        "url_stream": "https://app0103.sonicpanelradio.com:8204/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_Buenas_Nuevas_De_Salvacion_Jutiapa.jpg",
+        "generos": [
+            "Gospel"
+        ],
+        "descripcion": "Conecta con Radio Buenas Nuevas De Salvacion Jutiapa, tu estación online directamente desde Honduras, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Gospel seleccionada para ti. Sintoniza ahora Radio Buenas Nuevas De Salvacion Jutiapa gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiobuenas.nuevas"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "La Metro 99.5 FM",
+        "url_stream": "https://s.emisoras.tv:2020/stream/metro",
+        "logo_local": "/logos_emisoras_honduras/La_Metro_995_FM.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Disfruta de la programación de La Metro 99.5 FM (99.5 FM), la emisora líder en Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora La Metro 99.5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/MetroTvyRadioMetroCholuteca/",
+            "https://twitter.com/lametrohn",
+            "http://www.youtube.com/user/METROHONDURAS"
+        ],
+        "sitio_web": "http://www.lametrohn.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Estereo Salem Sico Colón",
+        "url_stream": "https://radios0790.vegamultimedioshn.com:8060/;",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Salem_Sico_Colon.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Estereo Salem Sico Colón transmite en vivo desde la ciudad de Honduras, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Estereo Salem Sico Colón gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Jireh Stereo",
+        "url_stream": "https://stream.playerlive.info:8011/live.aac",
+        "logo_local": "/logos_emisoras_honduras/Radio_Jireh_Stereo.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de Radio Jireh Stereo, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Jireh Stereo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.renovacionhn.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Retro Soul Radio",
+        "url_stream": "https://stream-179.zeno.fm/7tmqtgkne0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3dG1xdGdrbmUwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlRoTXdoTVlyUjhDNkdVMFlKS21NZnciLCJpYXQiOjE3NjcxNDExMDUsImV4cCI6MTc2NzE0MTE2NX0.B4WYlpJtrBIF5Emdoi3AQ4vgO3OkrPi5yZZWtYh3n3I",
+        "logo_local": "/logos_emisoras_honduras/Retro_Soul_Radio.jpg",
+        "generos": [
+            "Alternative Rock",
+            "80s",
+            "70s"
+        ],
+        "descripcion": "Conecta con Retro Soul Radio, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Alternative Rock, 80s, 70s seleccionada para ti. Sintoniza ahora Retro Soul Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Estero Betel Intibuca",
+        "url_stream": "https://stream-178.zeno.fm/p95fz32ygl6tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwOTVmejMyeWdsNnR2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImE1UWl1bjB0U1JtVXU0azc5dHVSZnciLCJpYXQiOjE3NjcxNDExMjYsImV4cCI6MTc2NzE0MTE4Nn0.cj2lKiTDo4TIA4N7Kjq6HCjlafEMfvLF3nOUXYZ5v2w",
+        "logo_local": "/logos_emisoras_honduras/Estero_Betel_Intibuca.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Sintoniza Estero Betel Intibuca online, transmitiendo en vivo desde Honduras, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Estero Betel Intibuca gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Estereo-Betel-111348680693291"
+        ],
+        "sitio_web": "https://davidantoniogutier.wixsite.com/estereo-bethel1",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Épica Radio",
+        "url_stream": "https://stream-176.zeno.fm/utbchcmbaxjtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1dGJjaGNtYmF4anR2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkFmYlFaemNyUnN5d2hrZmxvc2lVUmciLCJpYXQiOjE3NjcxNDExNTMsImV4cCI6MTc2NzE0MTIxM30.VKoIWfEsbmn7QC_28OEl4Yyxi2LNGQrgG3Ad5IxfuRs",
+        "logo_local": "/logos_emisoras_honduras/Epica_Radio.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Conecta con Épica Radio, tu estación online directamente desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Épica Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/epicaradiohn/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Lada",
+        "url_stream": "https://stream-177.zeno.fm/ectu6xu22tzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlY3R1Nnh1MjJ0enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlloSE4yMnZUUlhlVEZYNUpLeUFMRWciLCJpYXQiOjE3NjcxNDExNjksImV4cCI6MTc2NzE0MTIyOX0.8zOaVnwXKJ7-cKv8QPlin_KdaeOeOGN7O8Q5aOKffXM&acu-uid=626574777305&aw-uid=a1374c036a02fc26935bbc99fa1ff6e0&aw_0_req_lsid=19a752a14c28ed3258a07a00f9910b68&dyn-uid=&mm-uid=fb1e61a5-fa1e-4600-a3f7-e6ec44d674ca&rj-ttl=5&triton-uid=cookie%3Ad2956306-dae9-4fda-99ac-2d2",
+        "logo_local": "/logos_emisoras_honduras/Radio_Lada.jpg",
+        "generos": [
+            "Mexican Music",
+            "Merengue",
+            "Regional"
+        ],
+        "descripcion": "Sintoniza Radio Lada online, transmitiendo en vivo desde El Paraíso, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Mexican Music, Merengue, Regional seleccionada para ti. Sintoniza ahora Radio Lada gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/fmradiolada"
+        ],
+        "sitio_web": "",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "Radio Buenas Nuevas",
+        "url_stream": "https://stream-176.zeno.fm/ek6t2s1v398uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlazZ0MnMxdjM5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjRJWXBNSWdnUlJPTWwzbjFDbEV4bWciLCJpYXQiOjE3NjcxNDExOTAsImV4cCI6MTc2NzE0MTI1MH0.jXSX0tiX3zKNsxLaQJiv9BI1BDr_RB_qtD0au8IwUZg",
+        "logo_local": "/logos_emisoras_honduras/Radio_Buenas_Nuevas.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Sintoniza Radio Buenas Nuevas online, transmitiendo en vivo desde Atlántida, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Gospel seleccionada para ti. Sintoniza ahora Radio Buenas Nuevas gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.youtube.com/channel/UC3wJwxDv515uRItA7Bc4uow",
+            "https://twitter.com/radio_nuevas",
+            "https://www.facebook.com/radiobuenasnuevassalvacion/"
+        ],
+        "sitio_web": "http://www.radiobuenasnuevashn.com/",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Radio Rebaño de Jesucristo HN",
+        "url_stream": "https://strcdn.klm99.com/8046/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Rebano_de_Jesucristo_HN.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Sintoniza Radio Rebaño de Jesucristo HN online, transmitiendo en vivo desde Cortés, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Rebaño de Jesucristo HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiorebanodejesucristohn.godaddysites.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Santa Fe",
+        "url_stream": "https://micanal.ovh/proxy-audio/RadioSantaFe",
+        "logo_local": "logos_emisoras\\\\Radio_Santa_Fe.png",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Sintoniza Radio Santa Fe online, transmitiendo en vivo desde Honduras, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Radio Santa Fe gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=61572794796149",
+            "https://www.youtube.com/@canalsantafetv-k7w"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Palabra De Vida La Ceiba",
+        "url_stream": "https://strcdn.klm99.com/8088/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Palabra_De_Vida_La_Ceiba.jpg",
+        "generos": [
+            "Public",
+            "Christian",
+            "Religious"
+        ],
+        "descripcion": "Conecta con Radio Palabra De Vida La Ceiba, tu estación online directamente desde Atlántida, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Public, Cristiana, Religious seleccionada para ti. Sintoniza ahora Radio Palabra De Vida La Ceiba gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Estereo Clasica",
+        "url_stream": "https://streaming.radio.co/s0c06b7076/listen",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Clasica.jpg",
+        "generos": [
+            "Classic Hits"
+        ],
+        "descripcion": "Conecta con Estereo Clasica, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Classic Hits seleccionada para ti. Sintoniza ahora Estereo Clasica gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/estereoclasica",
+            "https://x.com/estereoclasica"
+        ],
+        "sitio_web": "https://www.estereoclasica.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Bolsa De Empleos Honduras",
+        "url_stream": "https://live.bolsadeempleos.info/8032/stream",
+        "logo_local": "/logos_emisoras_honduras/Bolsa_De_Empleos_Honduras.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Conecta con Bolsa De Empleos Honduras, tu estación online directamente desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Bolsa De Empleos Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/bolsadeempleos.info",
+            "https://twitter.com/bolsa_empleos",
+            "https://www.instagram.com/bolsadeempleoshonduras",
+            "https://www.youtube.com/channel/UCfEc14Pq-pVc4JX9Hg17hJw"
+        ],
+        "sitio_web": "https://www.bolsadeempleos.info/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Stereo Ya",
+        "url_stream": "https://stream-175.zeno.fm/hr72tfha6zhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJocjcydGZoYTZ6aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNGQ1lCTDBTVHhLMGVtTmF0MDhwc2ciLCJpYXQiOjE3NjcxNDEzNTYsImV4cCI6MTc2NzE0MTQxNn0.14K4HE5ugv6xv4MJGm7tXyt8of5fbB-O5c3TJE0cjuA",
+        "logo_local": "/logos_emisoras_honduras/Stereo_Ya.jpg",
+        "generos": [
+            "Classic Hits"
+        ],
+        "descripcion": "Conecta con Stereo Ya, tu estación online directamente desde El Paraíso, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Classic Hits seleccionada para ti. Sintoniza ahora Stereo Ya gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "Oasis Radio",
+        "url_stream": "https://strcdn.klm99.com/8082/stream",
+        "logo_local": "/logos_emisoras_honduras/Oasis_Radio.jpg",
+        "generos": [
+            "Children’s Music"
+        ],
+        "descripcion": "Sintoniza Oasis Radio online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Children’s Music seleccionada para ti. Sintoniza ahora Oasis Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://oasisradio33.webnode.es/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Con Los Manes",
+        "url_stream": "https://streaming.hostpannel.lat:8122/stream",
+        "logo_local": "/logos_emisoras_honduras/Con_Los_Manes.jpg",
+        "generos": [
+            "Reggaeton"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de Con Los Manes, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón seleccionada para ti. Sintoniza ahora Con Los Manes gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100083165175642&sk=reels_tab",
+            "https://www.instagram.com/losmanesenlamanana/",
+            "https://www.youtube.com/@LosManesOficialhn/videos"
+        ],
+        "sitio_web": "https://www.conlosmanes.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Oasis Radiohn",
+        "url_stream": "https://oasisradiohn.stream.laut.fm/oasisradiohn?t302=2025-12-31_00-38-12&uuid=31c3a6c6-6388-4cb3-8b19-f20241937421",
+        "logo_local": "/logos_emisoras_honduras/Oasis_Radiohn.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "Oasis Radiohn transmite en vivo desde la ciudad de Honduras, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary seleccionada para ti. Sintoniza ahora Oasis Radiohn gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://bendicionradiohn.blogspot.com/?m=1",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Mesias Radio",
+        "url_stream": "https://stm1.srvif.com:7454/;",
+        "logo_local": "logos_emisoras\\\\Mesias_Radio.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Conecta con Mesias Radio, tu estación online directamente desde Yoro, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Mesias Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.rsvhonduras.com/mesias-radio.html",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "SCAN 106.7 FM",
+        "url_stream": "https://aliasdns.info:8750/;",
+        "logo_local": "/logos_emisoras_honduras/SCAN_1067_FM.jpg",
+        "generos": [
+            "Reggaeton",
+            "Talk",
+            "Top 40"
+        ],
+        "descripcion": "Desde Olancho llega la señal de SCAN 106.7 FM en 106.7 FM, tu opción ideal en Honduras. Emisora de opinión y debate, con programas de análisis, entrevistas y comentarios sobre la actualidad. Ofrece una programación variada con lo mejor de Reggaetón, Talk Radio, Top 40 seleccionada para ti. Sintoniza ahora SCAN 106.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://www.radioscanmixhonduras.com/",
+        "ciudad": "Olancho"
+    },
+    {
+        "nombre": "Radio Fiesta De Milagros",
+        "url_stream": "https://sonicpanel.us/8092/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Fiesta_De_Milagros.jpg",
+        "generos": [
+            "Christian Contemporary",
+            "International",
+            "Gospel"
+        ],
+        "descripcion": "Disfruta de la programación de Radio Fiesta De Milagros, la radio online líder en Cortés, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Christian Contemporary, International, Gospel seleccionada para ti. Sintoniza ahora Radio Fiesta De Milagros gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiofiestademilagrsotv",
+            "https://www.instagram.com/pazpedrohn/",
+            "https://www.youtube.com/@FiestaDeMilagros"
+        ],
+        "sitio_web": "https://radiofiestademilagros.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Cascada - Campamento",
+        "url_stream": "https://stream-179.zeno.fm/2bu5hzbnha0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyYnU1aHpibmhhMHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlVoNGpLLURYVEJLZ09Vd09xN3A4c0EiLCJpYXQiOjE3NjcxNDE2MDgsImV4cCI6MTc2NzE0MTY2OH0.EsPbqwRNVzdiRf2Cuw4xHzYEO8h2_bIYmUR-qKfMtfQ",
+        "logo_local": "/logos_emisoras_honduras/Radio_Cascada_Campamento.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Conecta con Radio Cascada - Campamento, tu estación online directamente desde Olancho, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Radio Cascada - Campamento gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/LaEstacionDeLosGrandes"
+        ],
+        "sitio_web": "https://radiocascadahn.com/",
+        "ciudad": "Olancho"
+    },
+    {
+        "nombre": "Radio Tegucigalpa Evangelio",
+        "url_stream": "https://stream1.svrdedicado.org:7169/;",
+        "logo_local": "/logos_emisoras_honduras/Radio_Tegucigalpa_Evangelio.jpg",
+        "generos": [
+            "Eclectic"
+        ],
+        "descripcion": "Conecta con Radio Tegucigalpa Evangelio, tu estación online directamente desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Eclectic seleccionada para ti. Sintoniza ahora Radio Tegucigalpa Evangelio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiotegucigalpaevangelio.blogspot.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Conexión Radio HN",
+        "url_stream": "https://stream-177.zeno.fm/brzvsbubbukvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJicnp2c2J1YmJ1a3Z2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjBXNkJvaFdJVGdLU094bnV0SkpHb0EiLCJpYXQiOjE3NjcxNDE2NTIsImV4cCI6MTc2NzE0MTcxMn0.rYw1BUz7xnb_E8bSKlsPEgwhABTk1arYEOHNriEJOpY",
+        "logo_local": "/logos_emisoras_honduras/Conexion_Radio_HN.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Conexión Radio HN transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary, 80s, 90s seleccionada para ti. Sintoniza ahora Conexión Radio HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/conexionradiohn",
+            "https://www.instagram.com/conexionradiohn_/",
+            "https://www.youtube.com/channel/UCsbMijW0btY6MuAqZ1_r9Aw"
+        ],
+        "sitio_web": "https://conexionradiohn.weebly.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Superior Stereo HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8238/;",
+        "logo_local": "/logos_emisoras_honduras/Superior_Stereo_HN.jpg",
+        "generos": [
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Escucha Superior Stereo HN en vivo desde Honduras, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 70s, 60s seleccionada para ti. Sintoniza ahora Superior Stereo HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/superior.estereo"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "HAVC Radio Online",
+        "url_stream": "https://stream-175.zeno.fm/hatrpcrdh5zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJoYXRycGNyZGg1enV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Iml5UGExWTB0UzUyYkY5dDZNc25TSUEiLCJpYXQiOjE3NjcxNDE2OTYsImV4cCI6MTc2NzE0MTc1Nn0.ieQS_OXGbZ2vsDAYDgCVqZreHdxfAaC5LlI6wF-hg58&acu-uid=626574777305&aw-uid=a1374c036a02fc26935bbc99fa1ff6e0&aw_0_req_lsid=19a752a14c28ed3258a07a00f9910b68&dyn-uid=&mm-uid=fb1e61a5-fa1e-4600-a3f7-e6ec44d674ca&rj-ttl=5&triton-uid=cookie%3Ad2956306-dae9-4fda-99ac-2d2",
+        "logo_local": "/logos_emisoras_honduras/HAVC_Radio_Online.jpg",
+        "generos": [
+            "Adult Contemporary",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Desde El Paraíso llega la señal de HAVC Radio Online, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary, 80s, 90s seleccionada para ti. Sintoniza ahora HAVC Radio Online gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/hoffman.valle"
+        ],
+        "sitio_web": "",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "Nueva Vida 90.1",
+        "url_stream": "https://cast5.my-control-panel.com/proxy/kroksys1/stream",
+        "logo_local": "/logos_emisoras_honduras/Nueva_Vida_901.jpg",
+        "generos": [
+            "Christian",
+            "World Music"
+        ],
+        "descripcion": "Nueva Vida 90.1 transmite en vivo desde la ciudad de Yoro, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, World Music seleccionada para ti. Sintoniza ahora Nueva Vida 90.1 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://nuevavida.radio/",
+        "ciudad": "Yoro"
+    },
+    {
+        "nombre": "Radio Exodus Honduras",
+        "url_stream": "https://strcdn.klm99.com/8114/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Exodus_Honduras.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Conecta con Radio Exodus Honduras, tu estación online directamente desde Atlántida, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Exodus Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/tu-estas-aqui-jesus-adrian-romero-marcela-gandara1",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Ministerio Dios es Bueno / Stereo Sinai 93.1 FM",
+        "url_stream": "https://strcdn.klm99.com/8098/stream",
+        "logo_local": "/logos_emisoras_honduras/Ministerio_Dios_es_Bueno_Stereo_Sinai_931_FM.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Desde Atlántida llega la señal de Ministerio Dios es Bueno / Stereo Sinai 93.1 FM en 93.1 FM, tu opción ideal en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Ministerio Dios es Bueno / Stereo Sinai 93.1 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiosinaihn.webnode.es/",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Beat Radio HD",
+        "url_stream": "https://stream2.mcvhost.com/beatradiohd/",
+        "logo_local": "/logos_emisoras_honduras/Beat_Radio_HD.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Disfruta de la programación de Beat Radio HD, la radio online líder en La Paz, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Beat Radio HD gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Beat-Radio-HD-698630293482553/community/?ref=page_internal"
+        ],
+        "sitio_web": "http://beatradiohd.blogspot.com/",
+        "ciudad": "La Paz"
+    },
+    {
+        "nombre": "RADIO VIDA TV HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8068/;",
+        "logo_local": "/logos_emisoras_honduras/RADIO_VIDA_TV_HN.jpg",
+        "generos": [],
+        "descripcion": "Conecta con RADIO VIDA TV HN, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora RADIO VIDA TV HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100062996721239"
+        ],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Compañia",
+        "url_stream": "https://s1.amixfm.live:8028/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Compania.jpg",
+        "generos": [
+            "80s",
+            "Modern Rock",
+            "90s"
+        ],
+        "descripcion": "Desde Intibucá llega la señal de Radio Compañia, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, Modern Rock, 90s seleccionada para ti. Sintoniza ahora Radio Compañia gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiolaesperanza.com.es/",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Radio Rebaño De Jesucristo",
+        "url_stream": "https://strcdn.klm99.com/8046/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Rebano_De_Jesucristo.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Desde Cortés llega la señal de Radio Rebaño De Jesucristo, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Rebaño De Jesucristo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiorebanodejesucristohn.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio TV C.R.D",
+        "url_stream": "https://stream-175.zeno.fm/ncnk6jjw8jwvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuY25rNmpqdzhqd3Z2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlF5TXBfNy1DUkxpeFVTLWFzbE5jY2ciLCJpYXQiOjE3NjcxNDIwMzIsImV4cCI6MTc2NzE0MjA5Mn0.0PES_VtyuNFwN_H6PR6zbp024tskYxR3MVXgEd3cb2Y",
+        "logo_local": "/logos_emisoras_honduras/Radio_TV_CRD.jpg",
+        "generos": [
+            "Spirituality",
+            "Christian"
+        ],
+        "descripcion": "Escucha Radio TV C.R.D en vivo desde Olancho, Honduras, tu estación online favorita. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Cristiana seleccionada para ti. Sintoniza ahora Radio TV C.R.D gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/RADIOTVCRD/",
+            "https://www.youtube.com/@RADIOTVCRD"
+        ],
+        "sitio_web": "https://radiocrdhn.wixsite.com/radiocrd",
+        "ciudad": "Olancho"
+    },
+    {
+        "nombre": "Estereo Palabra Viva 106.3 FM",
+        "url_stream": "https://stream-179.zeno.fm/dz0hjqe52hzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkejBoanFlNTJoenV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Im1McGNpYk15UlBXaE5hRUd4MWE0UnciLCJpYXQiOjE3NjcxNDIwNDgsImV4cCI6MTc2NzE0MjEwOH0.C75GNxxE03StyOYsF_TlB5NucR_x9pyjqzKkqcPpDlA",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Palabra_Viva_1063_FM.jpg",
+        "generos": [
+            "Christian",
+            "Educational",
+            "Gospel"
+        ],
+        "descripcion": "Conecta con Estereo Palabra Viva 106.3 FM, tu radio en 106.3 FM directamente desde Valle, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Educational, Gospel seleccionada para ti. Sintoniza ahora Estereo Palabra Viva 106.3 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/arnelbis?__cft__[0]=AZXo3LWTHUZPE17Y_GlJMRpkvSbmqF2gqY04sSis_2tZZldeMOL02cw",
+            "http://www.youtube.com/@canalcristianopalabraviva"
+        ],
+        "sitio_web": "",
+        "ciudad": "Valle"
+    },
+    {
+        "nombre": "Ambiental 102.7 FM",
+        "url_stream": "https://stream-178.zeno.fm/8pd712um6f0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI4cGQ3MTJ1bTZmMHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlFKX3VPaHZTUmZHazJJQ3R2S2diZmciLCJpYXQiOjE3NjcxNDIwNjksImV4cCI6MTc2NzE0MjEyOX0.pSfYaps17CSA0MVzlzKp1K5ZJEYXt487MziU99-glzE",
+        "logo_local": "/logos_emisoras_honduras/Ambiental_1027_FM.jpg",
+        "generos": [
+            "Top 40"
+        ],
+        "descripcion": "Disfruta de la programación de Ambiental 102.7 FM (102.7 FM), la emisora líder en Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Top 40 seleccionada para ti. Sintoniza ahora Ambiental 102.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/ambientalfm/",
+            "http://www.twitter.com/ambientalfm1025",
+            "http://www.instagram.com/ambientalfm/",
+            "http://www.youtube.com/user/ambientalfm1025"
+        ],
+        "sitio_web": "http://www.radioambientalfm.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Virtual Esterio JMCO",
+        "url_stream": "https://stream-178.zeno.fm/svdji9gzqfnvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzdmRqaTlnenFmbnZ2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InFXR1NnTkxsUXlXY2Z2Z29WaVpoZmciLCJpYXQiOjE3NjcxNDIxNTksImV4cCI6MTc2NzE0MjIxOX0._PnYJYokbhE9Y82kppia1IRn0SvdBHfSXEA89H7FLvQ",
+        "logo_local": "/logos_emisoras_honduras/Virtual_Esterio_JMCO.jpg",
+        "generos": [
+            "Reggaeton",
+            "Merengue",
+            "Soundtracks"
+        ],
+        "descripcion": "Escucha Virtual Esterio JMCO en vivo desde El Paraíso, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón, Merengue, Soundtracks seleccionada para ti. Sintoniza ahora Virtual Esterio JMCO gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "RADIO LA VOZ DEL ETERNO",
+        "url_stream": "https://strcdn.klm99.com/8040/stream",
+        "logo_local": "/logos_emisoras_honduras/RADIO_LA_VOZ_DEL_ETERNO.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Desde Honduras llega la señal de RADIO LA VOZ DEL ETERNO, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora RADIO LA VOZ DEL ETERNO gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://site-7dbrykh3n.godaddysites.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Tamagazapa Radio",
+        "url_stream": "https://stream-176.zeno.fm/bcz2hkcd6f8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiY3oyaGtjZDZmOHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkM4UGNKTTVBVHEyQV8yQ1dULThFNFEiLCJpYXQiOjE3NjcxNDIyMDYsImV4cCI6MTc2NzE0MjI2Nn0.vklqTrRQWdpM7AxMvFZpeK4iZduEsDQ2Thg25ZOrgg0",
+        "logo_local": "/logos_emisoras_honduras/Tamagazapa_Radio.jpg",
+        "generos": [],
+        "descripcion": "Escucha Tamagazapa Radio en vivo desde Honduras, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Tamagazapa Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "AMC Radio",
+        "url_stream": "https://stream-176.zeno.fm/uyp7qw24wv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1eXA3cXcyNHd2OHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlEwOXFNMkk4VC1xdHBGbFllaVlMaXciLCJpYXQiOjE3NjcxNDIyMjksImV4cCI6MTc2NzE0MjI4OX0.ywoW5UhOuX5ETSWpo1iN7Y8ENvxJAUe8KQnlG41Goy8",
+        "logo_local": "/logos_emisoras_honduras/AMC_Radio.jpg",
+        "generos": [
+            "Public"
+        ],
+        "descripcion": "Escucha AMC Radio en vivo desde Atlántida, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Public seleccionada para ti. Sintoniza ahora AMC Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/AMC-RADIO-104666561754606/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Altar HN",
+        "url_stream": "https://sp.dattavolt.com:7029/;",
+        "logo_local": "/logos_emisoras_honduras/Altar_HN.jpg",
+        "generos": [
+            "Christian",
+            "Christian Contemporary",
+            "Gospel"
+        ],
+        "descripcion": "Altar HN transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary, Gospel seleccionada para ti. Sintoniza ahora Altar HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Altarhn",
+            "https://twitter.com/dehlive"
+        ],
+        "sitio_web": "https://altarhn.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Trova y Poesía Radio",
+        "url_stream": "https://stream-175.zeno.fm/e33bs7vdbshvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlMzNiczd2ZGJzaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InlBcjZFaGRsVE1xQVRDNVRPTjhoRHciLCJpYXQiOjE3NjcxNDIyODcsImV4cCI6MTc2NzE0MjM0N30.6Yk4aecQ0Be0B79cI-HKBscMO8Kt_KlnXnNY15YPNWc",
+        "logo_local": "/logos_emisoras_honduras/Trova_y_Poesia_Radio.jpg",
+        "generos": [
+            "Educational",
+            "Culture",
+            "World Music"
+        ],
+        "descripcion": "Escucha Trova y Poesía Radio en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Educational, Culture, World Music seleccionada para ti. Sintoniza ahora Trova y Poesía Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/TrovaradioHN"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Very Classic Radio Accion",
+        "url_stream": "https://stream-179.zeno.fm/7pwfg6vghzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3cHdmZzZ2Z2h6enV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik80NEdpUXN5VG9tVXBmNHRNVmI1NnciLCJpYXQiOjE3NjcxNDIzMjEsImV4cCI6MTc2NzE0MjM4MX0.fRplmHwytK1uoobOPigszdROKFxsLzpeuXJlLbI_rEs",
+        "logo_local": "/logos_emisoras_honduras/Very_Classic_Radio_Accion.jpg",
+        "generos": [
+            "Oldies",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Very Classic Radio Accion transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Oldies, 70s, 60s seleccionada para ti. Sintoniza ahora Very Classic Radio Accion gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://twitter.com/RadioAccionHN",
+            "https://www.facebook.com/RadioAccionHN/"
+        ],
+        "sitio_web": "https://radioaccionhit.es.tl/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Compañía",
+        "url_stream": "https://s1.amixfm.live:8028/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Compania.jpg",
+        "generos": [
+            "Pop Music",
+            "Salsa",
+            "90s"
+        ],
+        "descripcion": "Radio Compañía transmite en vivo desde la ciudad de Intibucá, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Salsa, 90s seleccionada para ti. Sintoniza ahora Radio Compañía gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100093646936693"
+        ],
+        "sitio_web": "",
+        "ciudad": "Intibucá"
+    },
+    {
+        "nombre": "Estéreo Kapry JM-CO",
+        "url_stream": "https://stream-175.zeno.fm/fdxu40ififwuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmZHh1NDBpZmlmd3V2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ilg0M3lpb2doUXAyX3liWUFxT3ZaTUEiLCJpYXQiOjE3NjcxNDIzNjQsImV4cCI6MTc2NzE0MjQyNH0.tbFy1FX6qpL8j231cXrgIAkU4x2KCTX_mcYIMk5FnCA",
+        "logo_local": "/logos_emisoras_honduras/Estereo_Kapry_JMCO.jpg",
+        "generos": [
+            "Techno",
+            "Classical",
+            "Disco"
+        ],
+        "descripcion": "Disfruta de la programación de Estéreo Kapry JM-CO, la radio online líder en El Paraíso, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Techno, Clásica, Disco seleccionada para ti. Sintoniza ahora Estéreo Kapry JM-CO gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/JuanMoisesCastellanosOr/",
+            "https://www.youtube.com/@juanmoiseskztynzordnz"
+        ],
+        "sitio_web": "",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "SUN 107.1 FM",
+        "url_stream": "https://dattavolt.com/8294/stream",
+        "logo_local": "/logos_emisoras_honduras/SUN_1071_FM.jpg",
+        "generos": [
+            "Pop Music",
+            "International",
+            "Top 40"
+        ],
+        "descripcion": "Sintoniza SUN 107.1 FM en el dial 107.1 FM transmitiendo desde Islas de la Bahía, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, International, Top 40 seleccionada para ti. Sintoniza ahora SUN 107.1 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/sun107fmraoatan",
+            "https://www.instagram.com/sol1071fmroa/?hl=es-la"
+        ],
+        "sitio_web": "http://www.sun107fm.com/",
+        "ciudad": "Islas de la Bahía"
+    },
+    {
+        "nombre": "Radio Jutiapa 96.3 FM",
+        "url_stream": "https://stream-177.zeno.fm/ryspqocidw5uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyeXNwcW9jaWR3NXV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InE3ZldzYWV0UTR5aTg5RUVuUGJMSmciLCJpYXQiOjE3NjcxNDI0MDgsImV4cCI6MTc2NzE0MjQ2OH0.QZW_E7BfZiUFCI1-9FI91XTW29ZdOTgClELzNAmLt-8",
+        "logo_local": "/logos_emisoras_honduras/Radio_Jutiapa_963_FM.jpg",
+        "generos": [
+            "Merengue",
+            "80s",
+            "World Music"
+        ],
+        "descripcion": "Radio Jutiapa 96.3 FM transmite en vivo por 96.3 FM desde la ciudad de Atlántida, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Merengue, 80s, World Music seleccionada para ti. Sintoniza ahora Radio Jutiapa 96.3 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://web.facebook.com/people/Radio-Jutiapa-963-FM/100064112670011"
+        ],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "La Red Radio",
+        "url_stream": "https://servidor31.brlogic.com:7032/live",
+        "logo_local": "/logos_emisoras_honduras/La_Red_Radio.jpg",
+        "generos": [
+            "Classic Hits",
+            "News",
+            "Talk"
+        ],
+        "descripcion": "Escucha La Red Radio en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Classic Hits, Noticias, Talk Radio seleccionada para ti. Sintoniza ahora La Red Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://laredradio.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Gloria de lo alto Radio",
+        "url_stream": "https://hd.streamingfullhd.net/8038/stream",
+        "logo_local": "/logos_emisoras_honduras/Gloria_de_lo_alto_Radio.jpg",
+        "generos": [
+            "Gospel"
+        ],
+        "descripcion": "Desde Honduras llega la señal de Gloria de lo alto Radio, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Gospel seleccionada para ti. Sintoniza ahora Gloria de lo alto Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "http://gloriadeloaltoradio.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Tu Familia HN",
+        "url_stream": "https://cast20.plugstreaming.com:2020/stream/famhonduras",
+        "logo_local": "/logos_emisoras_honduras/Tu_Familia_HN.jpg",
+        "generos": [
+            "Christian Contemporary"
+        ],
+        "descripcion": "Tu Familia HN transmite en vivo desde la ciudad de Choluteca, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Christian Contemporary seleccionada para ti. Sintoniza ahora Tu Familia HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/tufamiliahn",
+            "https://www.instagram.com/tufamiliahn/",
+            "https://www.youtube.com/@TuFamiliaHN"
+        ],
+        "sitio_web": "https://tufamiliafm.com/",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "GCRadio",
+        "url_stream": "https://vivo.miradio.in:7056/;",
+        "logo_local": "logos_emisoras\\\\GCRadio.jpg",
+        "generos": [
+            "Spirituality",
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "GCRadio transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Spirituality, Cristiana, Christian Contemporary seleccionada para ti. Sintoniza ahora GCRadio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.top-charts.com/s/al-mundo-paz-hay-libertad-la-ibi",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Stereo Jalan 99.9",
+        "url_stream": "https://stream-161.zeno.fm/0y0glwgc6mtuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIweTBnbHdnYzZtdHV2IiwiaG9zdCI6InN0cmVhbS0xNjEuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlpGQ1JfTEVZUWFlU09nWVFXN2RBRnciLCJpYXQiOjE3NjcxNDI1MzYsImV4cCI6MTc2NzE0MjU5Nn0.2ALIG06yL2SowkPnNVC7Yeo06f01tMgOgoua1gky20Y&triton-uid=cookie%3Afd54e064-97fc-41b2-b6e3-a29f5730c427",
+        "logo_local": "/logos_emisoras_honduras/Stereo_Jalan_999.jpg",
+        "generos": [],
+        "descripcion": "Conecta con Stereo Jalan 99.9, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Stereo Jalan 99.9 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Stereojalan/"
+        ],
+        "sitio_web": "https://www.atom.bio/radio_jalan",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Marte FM 104.3",
+        "url_stream": "https://stream-178.zeno.fm/hnfkdactethtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJobmZrZGFjdGV0aHR2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkdUdV84enBBU1d1Z3ZLRmZBekhmcWciLCJpYXQiOjE3NjcxNDI1NTIsImV4cCI6MTc2NzE0MjYxMn0.yfB7M2h_dn6AFE2OoVXEJvelwH0gGFPZjmlKgWuV5RQ",
+        "logo_local": "/logos_emisoras_honduras/Marte_FM_1043.jpg",
+        "generos": [
+            "Reggaeton",
+            "Regional",
+            "Reggae"
+        ],
+        "descripcion": "Disfruta de la programación de Marte FM 104.3 (FM 104.3), la emisora líder en Comayagua, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón, Regional, Reggae seleccionada para ti. Sintoniza ahora Marte FM 104.3 gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "Radio Impacto Misionero 102.5 FM",
+        "url_stream": "https://strcdn.klm99.com/8044/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Impacto_Misionero_1025_FM.jpg",
+        "generos": [
+            "Religious"
+        ],
+        "descripcion": "Radio Impacto Misionero 102.5 FM transmite en vivo por 102.5 FM desde la ciudad de Honduras, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Religious seleccionada para ti. Sintoniza ahora Radio Impacto Misionero 102.5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://www.radioimpactomisionerohn.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "La Pastora Del Aire Arizona Atlántida",
+        "url_stream": "https://app0103.sonicpanelradio.com:8186/;",
+        "logo_local": "/logos_emisoras_honduras/La_Pastora_Del_Aire_Arizona_Atlantida.jpg",
+        "generos": [
+            "70s",
+            "60s",
+            "00s"
+        ],
+        "descripcion": "Sintoniza La Pastora Del Aire Arizona Atlántida online, transmitiendo en vivo desde Atlántida, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 70s, 60s, 00s seleccionada para ti. Sintoniza ahora La Pastora Del Aire Arizona Atlántida gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://lapastoradelaire.com/",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Radio Pespire",
+        "url_stream": "https://stream-175.zeno.fm/ggqbk26h22quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJnZ3FiazI2aDIycXV2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjZaSWFQbVZsU2NlYWVyU21Za0FFUEEiLCJpYXQiOjE3NjcxNDI2MTgsImV4cCI6MTc2NzE0MjY3OH0.Uz_rdcIkdPmZaxBinT36wgKINUXlr73AVYOutoUH2QQ&triton-uid=cookie%3Ad51a8584-c1e3-481a-9a01-b859752abb22",
+        "logo_local": "/logos_emisoras_honduras/Radio_Pespire.jpg",
+        "generos": [],
+        "descripcion": "Desde Choluteca llega la señal de Radio Pespire, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Pespire gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "Puringla Radio",
+        "url_stream": "https://stm1.srvif.com:7166/stream",
+        "logo_local": "/logos_emisoras_honduras/Puringla_Radio.jpg",
+        "generos": [],
+        "descripcion": "Conecta con Puringla Radio, tu estación online directamente desde La Paz, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Puringla Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://puringlatv.com/puringla-radio.html",
+        "ciudad": "La Paz"
+    },
+    {
+        "nombre": "El Reportero HN Radio",
+        "url_stream": "https://servidor24.brlogic.com:7040/live",
+        "logo_local": "/logos_emisoras_honduras/El_Reportero_HN_Radio.jpg",
+        "generos": [
+            "Variety",
+            "Classic Rock",
+            "90s"
+        ],
+        "descripcion": "Escucha El Reportero HN Radio en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety, Classic Rock, 90s seleccionada para ti. Sintoniza ahora El Reportero HN Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100094290162242",
+            "https://x.com/ELREPORTEROHN",
+            "https://www.youtube.com/channel/UCsx5Vh9eV48jJPQ19ntpO7Q"
+        ],
+        "sitio_web": "http://www.elreporterohnradio.net/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Inédital FM Honduras",
+        "url_stream": "https://inedital.stream.laut.fm/inedital?t302=2025-12-31_00-58-51&uuid=a0286a93-9834-4ba5-b56a-52dd16ad6529",
+        "logo_local": "/logos_emisoras_honduras/Inedital_FM_Honduras.jpg",
+        "generos": [
+            "Variety",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Sintoniza Inédital FM Honduras online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety, 80s, 90s seleccionada para ti. Sintoniza ahora Inédital FM Honduras gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://facebook.com/grupoinedital",
+            "http://twitter.com/ineditalradio"
+        ],
+        "sitio_web": "http://radioineditalhn.weebly.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "ROCKBOGA",
+        "url_stream": "https://a6.asurahosting.com:8160/radio.mp3",
+        "logo_local": "logos_emisoras\\\\ROCKBOGA.jpg",
+        "generos": [
+            "Indie",
+            "Classic Rock",
+            "Alternative Rock"
+        ],
+        "descripcion": "Sintoniza ROCKBOGA online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Indie, Classic Rock, Alternative Rock seleccionada para ti. Sintoniza ahora ROCKBOGA gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/rockboga/"
+        ],
+        "sitio_web": "http://rockboga.com/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "CSRadiohn La favorita",
+        "url_stream": "https://stream-177.zeno.fm/e7btohjh9tgvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJlN2J0b2hqaDl0Z3Z2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkVPMTJFMDc1UWhDeTRUS3VjMm40N1EiLCJpYXQiOjE3NjcxNDI3ODQsImV4cCI6MTc2NzE0Mjg0NH0.aCpS1dSdvqN_B-01dlzRIjKvkXuhOXSC8_XUoE8KmPo",
+        "logo_local": "/logos_emisoras_honduras/CSRadiohn_La_favorita.jpg",
+        "generos": [
+            "Community",
+            "Adult Contemporary",
+            "Caribbean"
+        ],
+        "descripcion": "Sintoniza CSRadiohn La favorita online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Community, Adult Contemporary, Caribbean seleccionada para ti. Sintoniza ahora CSRadiohn La favorita gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/csradiohn/",
+            "https://www.instagram.com/csradiohn/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Radio Stereo Cacao",
+        "url_stream": "https://stream-179.zeno.fm/ltwry3vgy4vvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJsdHdyeTN2Z3k0dnZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InJxaTc0c045VC1DZk5TZ1JOV2ptQUEiLCJpYXQiOjE3NjcxNDI4MTMsImV4cCI6MTc2NzE0Mjg3M30.ArVfALBICvlTk_vH198l6uCNVGLsMV7LbzEww1eT6SQ",
+        "logo_local": "/logos_emisoras_honduras/Radio_Stereo_Cacao.jpg",
+        "generos": [
+            "Reggaeton",
+            "World Music",
+            "Electronic"
+        ],
+        "descripcion": "Escucha Radio Stereo Cacao en vivo desde Atlántida, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón, World Music, Electrónica seleccionada para ti. Sintoniza ahora Radio Stereo Cacao gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Extasis Radio HN",
+        "url_stream": "https://sonicpanel.us/8048/stream",
+        "logo_local": "/logos_emisoras_honduras/Extasis_Radio_HN.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "60s"
+        ],
+        "descripcion": "Desde Cortés llega la señal de Extasis Radio HN, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 60s seleccionada para ti. Sintoniza ahora Extasis Radio HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/extasisradiotv/"
+        ],
+        "sitio_web": "https://extasisradiohn.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "RADIO CHOLULA TRIUNFEÑA",
+        "url_stream": "https://stream-179.zeno.fm/bp64kpugg6quv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJicDY0a3B1Z2c2cXV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImNKVDlocXlTU3lHbFdfbkJjdU1ITWciLCJpYXQiOjE3NjcxNDI4NzUsImV4cCI6MTc2NzE0MjkzNX0.DhkO80r-bGdUAIvOvjw1l1MqEd43JTaBD2Zt0hFOCbw",
+        "logo_local": "/logos_emisoras_honduras/RADIO_CHOLULA_TRIUNFENA.jpg",
+        "generos": [],
+        "descripcion": "Desde Choluteca llega la señal de RADIO CHOLULA TRIUNFEÑA, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora RADIO CHOLULA TRIUNFEÑA gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/p/Radio-Cholula-Triunfe%C3%B1a-100092546745477/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Choluteca"
+    },
+    {
+        "nombre": "Stereo Fortaleza",
+        "url_stream": "https://stream-178.zeno.fm/fm48xk9zzf8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmbTQ4eGs5enpmOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Im5mdnhJcjkyUWdHdF9SNjZicFRPOWciLCJpYXQiOjE3NjcxNDI5MDIsImV4cCI6MTc2NzE0Mjk2Mn0.82ScyvkaNpnsdgdNsImaC3Y1vOm_kSXgkfuApSWVg34",
+        "logo_local": "/logos_emisoras_honduras/Stereo_Fortaleza.jpg",
+        "generos": [
+            "Variety",
+            "Christian",
+            "Christian Contemporary"
+        ],
+        "descripcion": "Stereo Fortaleza transmite en vivo desde la ciudad de Cortés, Honduras, las 24 horas. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Variety, Cristiana, Christian Contemporary seleccionada para ti. Sintoniza ahora Stereo Fortaleza gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/StereoFortalezaHN/?ref=pages_you_manage"
+        ],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Top Charts Hit FM Radio Accion",
+        "url_stream": "https://stream-178.zeno.fm/fanwtagvszzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmYW53dGFndnN6enV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNoWHlQdG5BVDdTNDNrZTg0M0ZPdlEiLCJpYXQiOjE3NjcxNDI5NjUsImV4cCI6MTc2NzE0MzAyNX0.TtUvrTsCLl7WDMPOlmUjYO8K1kSD3lFxpBRAyDhwDnw",
+        "logo_local": "/logos_emisoras_honduras/Top_Charts_Hit_FM_Radio_Accion.jpg",
+        "generos": [
+            "Top 40"
+        ],
+        "descripcion": "Escucha Top Charts Hit FM Radio Accion en vivo desde Francisco Morazán, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Top 40 seleccionada para ti. Sintoniza ahora Top Charts Hit FM Radio Accion gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://twitter.com/RadioAccionHN",
+            "https://www.facebook.com/RadioAccionHN/"
+        ],
+        "sitio_web": "https://radioaccionhit.es.tl/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Proca Corporación",
+        "url_stream": "https://504streaming.com/8430/stream",
+        "logo_local": "/logos_emisoras_honduras/Proca_Corporacion.jpg",
+        "generos": [
+            "Latino"
+        ],
+        "descripcion": "Sintoniza Proca Corporación online, transmitiendo en vivo desde El Paraíso, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Latino seleccionada para ti. Sintoniza ahora Proca Corporación gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/procacorporacion",
+            "https://twitter.com/procaproduccion",
+            "https://www.youtube.com/channel/UCv1vPz8CXW40PT6Rkie-DxA"
+        ],
+        "sitio_web": "http://procaproduccioneshn.com/",
+        "ciudad": "El Paraíso"
+    },
+    {
+        "nombre": "Comah Radio",
+        "url_stream": "https://stream-179.zeno.fm/jcdrpcj14qdtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqY2RycGNqMTRxZHR2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkRKa0dEUjRxU2dxQVV3N1hDdC1CMHciLCJpYXQiOjE3NjcxNDMwMzQsImV4cCI6MTc2NzE0MzA5NH0.bmOiwO6nWfRp1hgivGeyJbblwZs8OxZeCspbxI7uydY",
+        "logo_local": "/logos_emisoras_honduras/Comah_Radio.jpg",
+        "generos": [
+            "World Music"
+        ],
+        "descripcion": "Comah Radio transmite en vivo desde la ciudad de Comayagua, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de World Music seleccionada para ti. Sintoniza ahora Comah Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "RHC 96.7 FM",
+        "url_stream": "https://sonicpanelpro.com:8048/;",
+        "logo_local": "/logos_emisoras_honduras/RHC_967_FM.jpg",
+        "generos": [
+            "Variety",
+            "Caribbean",
+            "Latino"
+        ],
+        "descripcion": "Disfruta de la programación de RHC 96.7 FM (96.7 FM), la emisora líder en Islas de la Bahía, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety, Caribbean, Latino seleccionada para ti. Sintoniza ahora RHC 96.7 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/profile.php?id=100092906226325",
+            "https://www.instagram.com/rhc96fm/",
+            "https://www.youtube.com/channel/UCQ54Yc7zjFMyefWH4KE8jGw"
+        ],
+        "sitio_web": "",
+        "ciudad": "Islas de la Bahía"
+    },
+    {
+        "nombre": "Aslam On Air",
+        "url_stream": "https://stream-176.zeno.fm/yg1gkzwabzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5ZzFna3p3YWJ6enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNmMmg3bzlnU1dXZzFVLTZoOUZrTmciLCJpYXQiOjE3NjcxNDMxNTgsImV4cCI6MTc2NzE0MzIxOH0.ER1oGN4gi6EdSAmHuhqTR5WOm3RlTpc1u7NpMDGIa8A",
+        "logo_local": "/logos_emisoras_honduras/Aslam_On_Air.jpg",
+        "generos": [
+            "Pop Music",
+            "Hot AC",
+            "Top 40"
+        ],
+        "descripcion": "Sintoniza Aslam On Air online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Hot Ac, Top 40 seleccionada para ti. Sintoniza ahora Aslam On Air gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/aslamonairoficial",
+            "https://www.twitter.com/aslamonair",
+            "https://www.facebook.com/aslamonair"
+        ],
+        "sitio_web": "https://www.aslamonair.com/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "Exclusiva Hn",
+        "url_stream": "https://stream-179.zeno.fm/rb15n46gyneuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyYjE1bjQ2Z3luZXV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImZLeE1SWGJKVHlteWZ0Zmo3YlRCUWciLCJpYXQiOjE3NjcxNDMxODAsImV4cCI6MTc2NzE0MzI0MH0.Ib_qmks5ZqcGyljgb0_nH8BL7aMvcJpM-bQBpXq1dms",
+        "logo_local": "/logos_emisoras_honduras/Exclusiva_Hn.jpg",
+        "generos": [
+            "Community",
+            "Educational"
+        ],
+        "descripcion": "Disfruta de la programación de Exclusiva Hn, la radio online líder en Atlántida, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Community, Educational seleccionada para ti. Sintoniza ahora Exclusiva Hn gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/exclusivahnradio"
+        ],
+        "sitio_web": "http://www.exclusiva.hn/",
+        "ciudad": "Atlántida"
+    },
+    {
+        "nombre": "Radio Rebaño de Jesucristo",
+        "url_stream": "https://strcdn.klm99.com/8096/stream",
+        "logo_local": "/logos_emisoras_honduras/Radio_Rebano_de_Jesucristo.jpg",
+        "generos": [
+            "Children’s Music"
+        ],
+        "descripcion": "Escucha Radio Rebaño de Jesucristo en vivo desde Cortés, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Children’s Music seleccionada para ti. Sintoniza ahora Radio Rebaño de Jesucristo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://radiopredicandoelevangelio.webnode.es/",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "King Radio Online",
+        "url_stream": "https://stream-177.zeno.fm/n6exc1hxn18uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuNmV4YzFoeG4xOHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlpObVM3OHEyUXFTRTlGRVBYQ2hXSXciLCJpYXQiOjE3NjcxNDMyNDQsImV4cCI6MTc2NzE0MzMwNH0.tl4zDEyb5-6PocmutWIxukAol2aHGUVF5Sym_Cjyulc",
+        "logo_local": "/logos_emisoras_honduras/King_Radio_Online.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Sintoniza King Radio Online online, transmitiendo en vivo desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora King Radio Online gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Meow Club 91 Radio",
+        "url_stream": "https://stream-177.zeno.fm/0chh40kgdwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwY2hoNDBrZ2R3enV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Im1ubnpSX2ZMUzg2NnlMbzZ5YVRWb2ciLCJpYXQiOjE3NjcxNDMyNzEsImV4cCI6MTc2NzE0MzMzMX0._uA4gbdxsQlmV8lX5-7eqC1I2lCFvdZkGYVt6NVureM",
+        "logo_local": "/logos_emisoras_honduras/Meow_Club_91_Radio.jpg",
+        "generos": [
+            "EDM - Electronic Dance Music",
+            "Indie",
+            "Alternative Rock"
+        ],
+        "descripcion": "Meow Club 91 Radio transmite en vivo desde la ciudad de Francisco Morazán, Honduras, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Edm - Electronic Dance Music, Indie, Alternative Rock seleccionada para ti. Sintoniza ahora Meow Club 91 Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/alexonfire91/",
+            "https://twitter.com/Sushicatzmusic",
+            "https://www.facebook.com/Meowclub91/"
+        ],
+        "sitio_web": "https://zeno.fm/meowclub91",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Estereo Vida",
+        "url_stream": "https://player.voxhd.com.br/proxy/7986",
+        "logo_local": "/logos_emisoras_honduras/Radio_Estereo_Vida.jpg",
+        "generos": [],
+        "descripcion": "Escucha Radio Estereo Vida en vivo desde Honduras, Honduras, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Estereo Vida gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "http://www.facebook.com/radioesterevidah/n"
+        ],
+        "sitio_web": "http://radioestereovidahn.com/",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Radio Templaria",
+        "url_stream": "https://stream-176.zeno.fm/3mvrdwj6orqtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzbXZyZHdqNm9ycXR2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlpkZzI2ZU9tVDR1b1Y5TkFpRVdyTnciLCJpYXQiOjE3NjcxNDMzMzEsImV4cCI6MTc2NzE0MzM5MX0.2RkYOIZRBkg1V7SZu_pD3a1MyRU2KnapsawGnWCTKiQ",
+        "logo_local": "/logos_emisoras_honduras/Radio_Templaria.jpg",
+        "generos": [],
+        "descripcion": "Desde Francisco Morazán llega la señal de Radio Templaria, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Templaria gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "La Grande FM",
+        "url_stream": "https://empresarialgt.com:9058/;",
+        "logo_local": "/logos_emisoras_honduras/La_Grande_FM.jpg",
+        "generos": [
+            "Adult Contemporary"
+        ],
+        "descripcion": "Desde Honduras llega la señal de La Grande FM, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Adult Contemporary seleccionada para ti. Sintoniza ahora La Grande FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "Sky Radio",
+        "url_stream": "https://stream-177.zeno.fm/9e880vgncd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5ZTg4MHZnbmNkMHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InNaZVpYU2puU0x5bWU3dUswMmRKeWciLCJpYXQiOjE3NjcxNDM0NDksImV4cCI6MTc2NzE0MzUwOX0.COuTe6KcayqF_QeIQtXgv11VXpfgZoAK4KogHWaWARs",
+        "logo_local": "logos_emisoras\\\\Sky_Radio.png",
+        "generos": [
+            "Electronic"
+        ],
+        "descripcion": "Desde Honduras llega la señal de Sky Radio, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Electrónica seleccionada para ti. Sintoniza ahora Sky Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    },
+    {
+        "nombre": "TIBI RADIO HN",
+        "url_stream": "https://app0103.sonicpanelradio.com:8028/;",
+        "logo_local": "/logos_emisoras_honduras/TIBI_RADIO_HN.jpg",
+        "generos": [
+            "Variety"
+        ],
+        "descripcion": "Disfruta de la programación de TIBI RADIO HN, la radio online líder en Colón, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora TIBI RADIO HN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Colón"
+    },
+    {
+        "nombre": "Fuzion FM",
+        "url_stream": "https://stream-179.zeno.fm/sms14et9wf9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzbXMxNGV0OXdmOXV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlUwRnZmcTJPVDRLRXlEYTVsTy1XNkEiLCJpYXQiOjE3NjcxNDM1MDIsImV4cCI6MTc2NzE0MzU2Mn0.jfUG7NxTeYKhTeiNTYAl7jXoLWEJ8xXDteZTdfN8dK4",
+        "logo_local": "/logos_emisoras_honduras/Fuzion_FM.jpg",
+        "generos": [
+            "80s",
+            "90s",
+            "Electronic"
+        ],
+        "descripcion": "Sintoniza Fuzion FM online, transmitiendo en vivo desde Cortés, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 90s, Electrónica seleccionada para ti. Sintoniza ahora Fuzion FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Cortés"
+    },
+    {
+        "nombre": "DEMBOWFM",
+        "url_stream": "https://stream-176.zeno.fm/q9l4r1n97psvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxOWw0cjFuOTdwc3Z2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNWOVdwUWFOVHBhN3gxZjBORzRYMUEiLCJpYXQiOjE3NjcxNDM1MzIsImV4cCI6MTc2NzE0MzU5Mn0.0gmzz2xCwHyeucF0FMAE0zq_4huLrmTy_JIcKUTjYc8",
+        "logo_local": "/logos_emisoras_honduras/DEMBOWFM.jpg",
+        "generos": [
+            "Reggaeton"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de DEMBOWFM, tu emisora online favorita en Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Reggaetón seleccionada para ti. Sintoniza ahora DEMBOWFM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "VIPRADIOHN",
+        "url_stream": "https://stream-179.zeno.fm/320865qq11zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzMjA4NjVxcTExenV2IiwiaG9zdCI6InN0cmVhbS0xNzkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlhielhPV21YUVQtemtQc2tLMVY5LUEiLCJpYXQiOjE3NjcxNDM1NDksImV4cCI6MTc2NzE0MzYwOX0.nUFkhJWHwCWMz5FYEQ0cFxxxvHgbvxijy46KCPvQoVM",
+        "logo_local": "/logos_emisoras_honduras/VIPRADIOHN.jpg",
+        "generos": [
+            "Classical",
+            "80s",
+            "90s"
+        ],
+        "descripcion": "Disfruta de la programación de VIPRADIOHN, la radio online líder en Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Clásica, 80s, 90s seleccionada para ti. Sintoniza ahora VIPRADIOHN gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.instagram.com/vipradiohn/?hl=es-la",
+            "https://www.facebook.com/Vipradiohonduras"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Camino a la Conversión Radio",
+        "url_stream": "https://stream1.mcvhost.com/caminoalaconversionradio/",
+        "logo_local": "/logos_emisoras_honduras/Camino_a_la_Conversion_Radio.jpg",
+        "generos": [],
+        "descripcion": "Disfruta de la programación de Camino a la Conversión Radio, la radio online líder en Comayagua, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Camino a la Conversión Radio gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "https://caminoalaconversionradio.blogspot.com/",
+        "ciudad": "Comayagua"
+    },
+    {
+        "nombre": "Encuentro Digital",
+        "url_stream": "https://stream-176.zeno.fm/q4rwg5e661zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxNHJ3ZzVlNjYxenV2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IlUyTUJ1R3dhUkpDbUJPN0NHN25qWmciLCJpYXQiOjE3NjcxNDM2MzcsImV4cCI6MTc2NzE0MzY5N30.mUmA5wL3AG8vBOJ0pdGV9sw45-4-zagD6r_NCq6Lj5A",
+        "logo_local": "/logos_emisoras_honduras/Encuentro_Digital.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Desde Francisco Morazán llega la señal de Encuentro Digital, tu emisora online favorita en Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Encuentro Digital gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/Encuentro-Digital-Dise%C3%B1ada-Para-Bendecirte-101171988350131"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "MAGIC 107.5 FM",
+        "url_stream": "https://dattavolt.com/8290/stream",
+        "logo_local": "/logos_emisoras_honduras/MAGIC_1075_FM.jpg",
+        "generos": [
+            "80s",
+            "70s",
+            "90s"
+        ],
+        "descripcion": "Conecta con MAGIC 107.5 FM, tu radio en 107.5 FM directamente desde Islas de la Bahía, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora MAGIC 107.5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/magicradio.roatan",
+            "https://twitter.com/107Magic",
+            "https://www.instagram.com/magic_107fm"
+        ],
+        "sitio_web": "https://www.magic107roatan.com/",
+        "ciudad": "Islas de la Bahía"
+    },
+    {
+        "nombre": "Alfa y Omega en Vivo",
+        "url_stream": "https://a9.asurahosting.com:7930/radio.mp3",
+        "logo_local": "/logos_emisoras_honduras/Alfa_y_Omega_en_Vivo.jpg",
+        "generos": [],
+        "descripcion": "Conecta con Alfa y Omega en Vivo, tu estación online directamente desde Francisco Morazán, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Alfa y Omega en Vivo gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "http://188.165.236.90:6306/"
+        ],
+        "sitio_web": "http://alfayomegaradio.net/",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Galilea",
+        "url_stream": "https://stream-178.zeno.fm/1g2kx9fptftuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIxZzJreDlmcHRmdHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImRQWlJhbDJxUnlLM1pUS1pzOG5aamciLCJpYXQiOjE3NjcxNDM3OTYsImV4cCI6MTc2NzE0Mzg1Nn0.M48QpURAx4x8sM3V5xpOmghjNxFAD_j8tcCS17h5GNo",
+        "logo_local": "/logos_emisoras_honduras/Radio_Galilea.jpg",
+        "generos": [
+            "Christian"
+        ],
+        "descripcion": "Sintoniza Radio Galilea online, transmitiendo en vivo desde Francisco Morazán, Honduras. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana seleccionada para ti. Sintoniza ahora Radio Galilea gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [
+            "https://www.facebook.com/radiogalileahn/"
+        ],
+        "sitio_web": "",
+        "ciudad": "Francisco Morazán"
+    },
+    {
+        "nombre": "Radio Nueva Generación Online",
+        "url_stream": "https://stream-177.zeno.fm/a2caj8lrfaquv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhMmNhajhscmZhcXV2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjdPWjRGMXVRUl9HbzQweEVCUHFvZ0EiLCJpYXQiOjE3NjcxNDU0NjEsImV4cCI6MTc2NzE0NTUyMX0.Z0KtnSsWXLKWRjxv2b6NBARrsSt5ZLmtW4pYTYdAh9w",
+        "logo_local": "/logos_emisoras_honduras/Radio_Nueva_Generacion_Online.jpg",
+        "generos": [],
+        "descripcion": "Conecta con Radio Nueva Generación Online, tu estación online directamente desde Honduras, Honduras. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Nueva Generación Online gratis en Emisoras Latinas y disfruta la mejor radio de Honduras las 24 horas.",
+        "redes_sociales": [],
+        "sitio_web": "",
+        "ciudad": ""
+    }
+]

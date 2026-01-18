@@ -1,7 +1,12 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useI18n } from '@/utils/useI18n';
 
 export default function Footer() {
+  const { t, countryCode } = useI18n();
+  
   return (
     <footer className="glass-effect mt-20 py-8 mb-32">
       <div className="container mx-auto px-4 text-center">
@@ -19,55 +24,41 @@ export default function Footer() {
 
         {/* Descripción breve */}
         <p className="text-slate-500 text-xs mb-6 max-w-md mx-auto">
-          El directorio de radio online más completo de Latinoamérica. 
-          Conectando la cultura latina a través de la música.
+          {t.tagline}
         </p>
 
         {/* Enlaces legales principales */}
-        <nav className="flex flex-wrap justify-center gap-4 md:gap-6 mb-6">
-          <Link href="/nosotros" className="text-slate-400 hover:text-white transition-colors text-sm">
-            Quiénes Somos
+        <nav className="flex flex-wrap justify-center gap-6 mb-8 text-sm text-slate-400">
+          <Link href={`/radio/${countryCode}/nosotros`} className="hover:text-blue-400 transition-colors">
+            {t.about_us || 'Quiénes Somos'}
           </Link>
-          <span className="text-slate-600 hidden md:inline">|</span>
-          <Link href="/privacidad" className="text-slate-400 hover:text-white transition-colors text-sm">
-            Política de Privacidad
+          <Link href={`/radio/${countryCode}/privacidad`} className="hover:text-blue-400 transition-colors">
+            {t.privacy_policy || 'Política de Privacidad'}
           </Link>
-          <span className="text-slate-600 hidden md:inline">|</span>
-          <Link href="/cookies" className="text-slate-400 hover:text-white transition-colors text-sm">
-            Política de Cookies
+          <Link href={`/radio/${countryCode}/terminos`} className="hover:text-blue-400 transition-colors">
+            {t.terms || 'Términos de Uso'}
           </Link>
-          <span className="text-slate-600 hidden md:inline">|</span>
-          <Link href="/terminos" className="text-slate-400 hover:text-white transition-colors text-sm">
-            Aviso Legal
-          </Link>
-          <span className="text-slate-600 hidden md:inline">|</span>
-          <Link href="/contacto" className="text-slate-400 hover:text-white transition-colors text-sm">
-            Contacto
+          <Link href={`/radio/${countryCode}/contacto`} className="hover:text-blue-400 transition-colors">
+            {t.contact || 'Contacto'}
           </Link>
         </nav>
 
         {/* Redes sociales */}
         <div className="flex justify-center gap-6 mb-6">
-          <a href="https://facebook.com/emisoraslatinas" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=61586652665186" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 transition-colors" aria-label="Facebook">
             <i className="fab fa-facebook text-xl"></i>
           </a>
-          <a href="https://instagram.com/emisoraslatinas" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-pink-400 transition-colors" aria-label="Instagram">
+          <a href="https://www.instagram.com/emisoras_latinas/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-pink-400 transition-colors" aria-label="Instagram">
             <i className="fab fa-instagram text-xl"></i>
-          </a>
-          <a href="https://twitter.com/emisoraslatinas" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors" aria-label="Twitter">
-            <i className="fab fa-twitter text-xl"></i>
-          </a>
-          <a href="https://youtube.com/@emisoraslatinas" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-red-400 transition-colors" aria-label="YouTube">
-            <i className="fab fa-youtube text-xl"></i>
           </a>
         </div>
 
         {/* Copyright */}
         <p className="text-slate-500 text-xs">
-          © {new Date().getFullYear()} Emisoras Latinas. Todos los derechos reservados.
+          © {new Date().getFullYear()} Emisoras Latinas. {t.all_rights_reserved}.
         </p>
         <p className="text-slate-600 text-xs mt-1">
-          Las emisoras de radio pertenecen a sus respectivos propietarios.
+          {t.radio_disclaimer}
         </p>
       </div>
     </footer>

@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout";
 import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
 import CountrySelector from "@/components/home/CountrySelector";
+import { getI18nFromCountry } from "@/utils/translations";
 
 // Generar rutas estáticas para todos los países disponibles
 export async function generateStaticParams() {
@@ -58,9 +59,39 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
    if (!country) return notFound();
 
    const stations = await loadStationsByCountry(code);
+   const { t } = getI18nFromCountry(code);
+
+   // Generar JSON-LD para la página de país (ItemList de RadioStations)
+   const countryJsonLd = {
+     "@context": "https://schema.org",
+     "@type": "ItemList",
+     "name": t.seo_title.replace('{country}', country.name),
+     "description": t.seo_description_1.replace('{country}', country.name),
+     "numberOfItems": stations.length,
+     "itemListElement": stations.slice(0, 50).map((station, idx) => ({
+       "@type": "ListItem",
+       "position": idx + 1,
+       "item": {
+         "@type": "RadioStation",
+         "name": station.nombre,
+         "description": station.descripcion?.substring(0, 150) || `Radio station from ${country.name}`,
+         "areaServed": {
+           "@type": "Country",
+           "name": country.name
+         }
+       }
+     }))
+   };
+
 
    return (
      <main className="min-h-screen bg-slate-900">
+       {/* JSON-LD Structured Data para SEO */}
+       <script
+         type="application/ld+json"
+         dangerouslySetInnerHTML={{ __html: JSON.stringify(countryJsonLd) }}
+       />
+       
        {/* Header Dinámico */}
        <DynamicHeader selectedCountry={code} stationCount={stations.length} />
        
@@ -86,7 +117,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
                 
                 {/* Breadcrumbs */}
                 <div className="text-sm text-slate-500 flex items-center gap-2 px-2">
-                  <Link href="/" className="hover:text-blue-400 transition-colors">Inicio</Link> 
+                  <Link href="/" className="hover:text-blue-400 transition-colors">{t.home || 'Inicio'}</Link> 
                   <i className="fas fa-chevron-right text-xs"></i>
                   <span className="text-white">{country.name}</span>
                 </div>
@@ -99,7 +130,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             </div>
 
             {/* Grid de Emisoras */}
-            <section aria-label={`Emisoras de ${country.name}`}>
+            <section aria-label={`${t.stations_of} ${country.name}`}>
                 <PaginatedStationGrid 
                   stations={stations} 
                   countryCode={code} 
@@ -108,23 +139,20 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             
             {/* Texto SEO Rico */}
             <article className="prose prose-invert mt-16 max-w-4xl mx-auto text-slate-400 bg-slate-800/20 p-8 rounded-2xl border border-slate-700/30">
-              <h2 className="text-2xl font-bold text-white mb-4">Escuchar Radio {country.name} Gratis Online - Sin Cortes ni Publicidad</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">{t.seo_title.replace('{country}', country.name)}</h2>
               <p className="mb-4">
-                Bienvenido al directorio más completo de <strong>emisoras de radio de {country.name}</strong>. 
-                Aquí puedes escuchar transmisiones en vivo de tus estaciones favoritas <strong>sin interrupciones, sin pop-ups molestos y con carga instantánea</strong>.
+                {t.seo_description_1.replace('{country}', country.name)}
               </p>
               <p className="mb-4">
-                Nuestro catálogo incluye más de {stations.length} radios de {country.name}, cubriendo ciudades principales y regiones.
-                Disfruta de géneros como noticias, deportes, música pop, rock, salsa, vallenato y mucho más. 
-                <strong>El reproductor nunca se detiene mientras navegas</strong>.
+                {t.seo_description_2.replace('{count}', stations.length.toString()).replace('{country}', country.name)}
               </p>
-              <h3 className="text-xl font-bold text-white mt-6 mb-3">¿Por qué elegir Emisoras Latinas?</h3>
+              <h3 className="text-xl font-bold text-white mt-6 mb-3">{t.why_choose_title}</h3>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>Carga instantánea</strong> - La música suena en menos de 2 segundos.</li>
-                <li><strong>Sin publicidad intrusiva</strong> - Cero pop-ups, cero banners que tapan el reproductor.</li>
-                <li><strong>Reproducción continua</strong> - Navega por el sitio sin que la música se detenga.</li>
-                <li><strong>Experiencia Premium Gratis</strong> - Diseño limpio, moderno y sin distracciones.</li>
-                <li>Compatible con móviles - Instala nuestra app desde el navegador (PWA).</li>
+                <li><strong>{t.why_choose_items.fast_load.split(' - ')[0]}</strong> - {t.why_choose_items.fast_load.split(' - ')[1]}</li>
+                <li><strong>{t.why_choose_items.no_ads.split(' - ')[0]}</strong> - {t.why_choose_items.no_ads.split(' - ')[1]}</li>
+                <li><strong>{t.why_choose_items.continuous_play.split(' - ')[0]}</strong> - {t.why_choose_items.continuous_play.split(' - ')[1]}</li>
+                <li><strong>{t.why_choose_items.premium_free.split(' - ')[0]}</strong> - {t.why_choose_items.premium_free.split(' - ')[1]}</li>
+                <li>{t.why_choose_items.mobile_friendly}</li>
               </ul>
             </article>
 
