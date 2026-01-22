@@ -8,29 +8,52 @@ interface SearchBarProps {
   placeholder?: string;
   className?: string;
   compact?: boolean;
+  initialValue?: string;
 }
 
 export default function SearchBar({ 
   onSearch, 
   placeholder,
   className = "",
-  compact = false
+  compact = false,
+  initialValue = ""
 }: SearchBarProps) {
   const { t } = useI18n();
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(initialValue);
   const [isFocused, setIsFocused] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  // Ref para rastrear si el cambio viene del usuario (input) o de sincronización externa
+  const isUserTyping = useRef(false);
   
   // Use provided placeholder or fallback to i18n
   const finalPlaceholder = placeholder || t.search_placeholder;
 
+  // Sincronizar con initialValue cuando cambia (ej. navegación con URL)
+  // Pero NO disparar onSearch aquí
   useEffect(() => {
+    setQuery(initialValue);
+  }, [initialValue]);
+
+  // Debounce para búsqueda - SOLO cuando el usuario escribe
+  useEffect(() => {
+    // Solo ejecutar si el usuario está escribiendo
+    if (!isUserTyping.current) {
+      return;
+    }
+    
     const debounceTimer = setTimeout(() => {
       onSearch(query);
+      isUserTyping.current = false; // Reset después de enviar
     }, 300);
 
     return () => clearTimeout(debounceTimer);
   }, [query, onSearch]);
+
+  // Handler para cambios del usuario en el input
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    isUserTyping.current = true; // Marcar que es input del usuario
+    setQuery(e.target.value);
+  };
 
   const handleClear = () => {
     setQuery('');
@@ -65,7 +88,7 @@ export default function SearchBar({
           ref={inputRef}
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={handleInputChange}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           onKeyDown={handleKeyDown}

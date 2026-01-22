@@ -8,13 +8,16 @@ import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsBy
  */
 export async function GET(
   request: NextRequest,
-  { params }: { params: { country: string } }
+  props: { params: Promise<{ country: string }> }
 ) {
+  const params = await props.params;
+  const { country } = params;
+  
   const baseUrl = 'https://www.emisoraslatinas.online';
-  const countryCode = params.country.toUpperCase() as CountryCode;
-  const country = countries.find(c => c.code === countryCode);
+  const countryCode = country.toUpperCase() as CountryCode;
+  const countryData = countries.find(c => c.code === countryCode);
 
-  if (!country) {
+  if (!countryData) {
     return new Response('Country not found', { status: 404 });
   }
 
@@ -26,7 +29,7 @@ export async function GET(
   // URLs principales del país
   const urls: Array<{ url: string; lastModified: string; changeFrequency: string; priority: number }> = [
     {
-      url: `${baseUrl}/radio/${params.country}`,
+      url: `${baseUrl}/radio/${country}`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -37,7 +40,7 @@ export async function GET(
   const legalPages = ['nosotros', 'privacidad', 'terminos', 'contacto'];
   legalPages.forEach(page => {
     urls.push({
-      url: `${baseUrl}/radio/${params.country}/${page}`,
+      url: `${baseUrl}/radio/${country}/${page}`,
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.5,
@@ -48,7 +51,7 @@ export async function GET(
   stations.forEach(station => {
     if (station.slug) {
       urls.push({
-        url: `${baseUrl}/radio/${params.country}/${station.slug}`,
+        url: `${baseUrl}/radio/${country}/${station.slug}`,
         lastModified: currentDate,
         changeFrequency: 'monthly',
         priority: 0.7,

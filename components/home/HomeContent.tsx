@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect, useCallback } from "react";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import {
   StationByCountry,
   CountryCode,
@@ -26,18 +27,24 @@ const validCountries: CountryCode[] = [
 ];
 
 export default function HomeContent() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   // Estado inicial fijo para evitar hydration mismatch
   const [selectedCountry, setSelectedCountry] = useState<CountryCode>("CO");
   const [isHydrated, setIsHydrated] = useState(false);
 
   const [stations, setStations] = useState<StationByCountry[]>([]);
   const [isLoadingStations, setIsLoadingStations] = useState(true);
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [slideDirection, setSlideDirection] = useState<"left" | "right" | null>(
-    null,
-  );
+
+  // Estados derivados de la URL
+  const currentPage = Number(searchParams.get('page')) || 1;
+  const searchQuery = searchParams.get('q') || "";
+  const selectedCategories = useMemo(() => {
+    const categoriesParam = searchParams.get('categories');
+    return categoriesParam ? categoriesParam.split(',') : [];
+  }, [searchParams]);
 
   // Cargar país guardado desde localStorage DESPUÉS del montaje (evita hydration mismatch)
   useEffect(() => {
@@ -80,6 +87,31 @@ export default function HomeContent() {
     };
   }, [selectedCountry]);
 
+  // Función para construir URLs
+  const createPageUrl = useCallback((page: number) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('page', page.toString());
+    return pathname + '?' + params.toString();
+  }, [searchParams, pathname]);
+
+  const updateUrl = useCallback((updates: Record<string, string | null>) => {
+    const params = new URLSearchParams(searchParams.toString());
+    
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null) {
+        params.delete(key);
+      } else {
+        params.set(key, value);
+      }
+    });
+
+    if (updates.q !== undefined || updates.categories !== undefined) {
+      params.set('page', '1');
+    }
+
+    router.push(pathname + '?' + params.toString(), { scroll: false });
+  }, [pathname, router, searchParams]);
+
   const categories = useMemo(() => {
     return ["all", ...getCategories(stations)];
   }, [stations]);
@@ -101,34 +133,23 @@ export default function HomeContent() {
   }, [filteredStations, currentPage]);
 
   const handleCategoriesChange = useCallback((categories: string[]) => {
-    setSelectedCategories(categories);
-    setCurrentPage(1);
-  }, []);
+    updateUrl({ 
+      categories: categories.length > 0 ? categories.join(',') : null 
+    });
+  }, [updateUrl]);
 
   const handleSearch = useCallback((query: string) => {
-    setSearchQuery(query);
-    setCurrentPage(1);
-  }, []);
+    updateUrl({ 
+      q: query || null 
+    });
+  }, [updateUrl]);
 
   const handleCountryChange = useCallback((country: CountryCode) => {
     setIsLoadingStations(true);
     setSelectedCountry(country);
-    setCurrentPage(1);
-  }, []);
-
-  const handlePageChange = (page: number) => {
-    // Determinar dirección del slide
-    if (page > currentPage) {
-      setSlideDirection("left"); // Avanzar: slide hacia la izquierda
-    } else if (page < currentPage) {
-      setSlideDirection("right"); // Retroceder: slide hacia la derecha
-    }
-
-    setCurrentPage(page);
-
-    // Resetear dirección después de la animación
-    setTimeout(() => setSlideDirection(null), 500);
-  };
+    // Limpiar filtros al cambiar de país
+    updateUrl({ page: '1', q: null, categories: null });
+  }, [updateUrl]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -248,7 +269,7 @@ export default function HomeContent() {
                 <Pagination
                   currentPage={currentPage}
                   totalPages={totalPages}
-                  onPageChange={handlePageChange}
+                  createPageUrl={createPageUrl}
                   compact
                 />
               )}
@@ -266,15 +287,7 @@ export default function HomeContent() {
             ) : filteredStations.length > 0 ? (
               <>
                 <section aria-label="Lista de emisoras de radio">
-                  <div
-                    className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 ${
-                      slideDirection === "left"
-                        ? "animate-slide-left"
-                        : slideDirection === "right"
-                          ? "animate-slide-right"
-                          : ""
-                    }`}
-                  >
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
                     {paginatedStations.map((station, index) => (
                       <StationCard
                         key={`${station.nombre}-${station.ciudad}-${index}`}
@@ -292,7 +305,7 @@ export default function HomeContent() {
                     <Pagination
                       currentPage={currentPage}
                       totalPages={totalPages}
-                      onPageChange={handlePageChange}
+                      createPageUrl={createPageUrl}
                     />
                   </div>
                 )}

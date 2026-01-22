@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useMemo, useCallback, useEffect } from 'react';
+import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { StationByCountry, CountryCode, filterByCategories, searchStations, getCategories } from '@/data/stationsByCountry';
 import StationCard from './StationCard';
 import Pagination from '@/components/ui/Pagination';
@@ -18,11 +19,18 @@ export default function PaginatedStationGrid({
   countryCode, 
   itemsPerPage = 48 
 }: PaginatedStationGridProps) {
-  // Estados para búsqueda, filtros y paginación
-  const [currentPage, setCurrentPage] = useState(1);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [slideDirection, setSlideDirection] = useState<"left" | "right" | null>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  // Estados derivados de la URL
+  const currentPage = Number(searchParams.get('page')) || 1;
+  const searchQuery = searchParams.get('q') || "";
+  const selectedCategories = useMemo(() => {
+    const categoriesParam = searchParams.get('categories');
+    return categoriesParam ? categoriesParam.split(',') : [];
+  }, [searchParams]);
+
 
   // Calcular categorías disponibles dinámicamente
   const categories = useMemo(() => {
@@ -47,32 +55,53 @@ export default function PaginatedStationGrid({
     return filteredStations.slice(startIndex, endIndex);
   }, [filteredStations, currentPage, itemsPerPage]);
 
-  // Handlers
-  const handleCategoriesChange = useCallback((categories: string[]) => {
-    setSelectedCategories(categories);
-    setCurrentPage(1);
-  }, []);
+  // Función para construir URLs de paginación manteniendo filtros
+  const createPageUrl = useCallback((page: number) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('page', page.toString());
+    return pathname + '?' + params.toString();
+  }, [searchParams, pathname]);
+
+  // Handlers que actualizan la URL
+  const updateUrl = useCallback((updates: Record<string, string | null>) => {
+    const params = new URLSearchParams(searchParams.toString());
+    
+    Object.entries(updates).forEach(([key, value]) => {
+      if (value === null) {
+        params.delete(key);
+      } else {
+        params.set(key, value);
+      }
+    });
+
+    // Resetear página a 1 cuando cambian filtros
+    if (updates.q !== undefined || updates.categories !== undefined) {
+      params.set('page', '1');
+    }
+
+    router.push(pathname + '?' + params.toString(), { scroll: false });
+  }, [pathname, router, searchParams]);
+
+  const handleCategoriesChange = useCallback((newCategories: string[]) => {
+    // Solo actualizar si realmente cambió
+    const currentCategoriesStr = searchParams.get('categories') || '';
+    const newCategoriesStr = newCategories.join(',');
+    if (currentCategoriesStr === newCategoriesStr) return;
+    
+    updateUrl({ 
+      categories: newCategories.length > 0 ? newCategoriesStr : null 
+    });
+  }, [updateUrl, searchParams]);
 
   const handleSearch = useCallback((query: string) => {
-    setSearchQuery(query);
-    setCurrentPage(1);
-  }, []);
-
-  const handlePageChange = (page: number) => {
-    if (page > currentPage) {
-      setSlideDirection("left");
-    } else if (page < currentPage) {
-      setSlideDirection("right");
-    }
-    setCurrentPage(page);
-    setTimeout(() => setSlideDirection(null), 500);
+    // Solo actualizar si realmente cambió
+    const currentQuery = searchParams.get('q') || '';
+    if (currentQuery === query) return;
     
-    // Scroll suave al inicio de la lista
-    const gridElement = document.getElementById('station-grid-top');
-    if (gridElement) {
-      gridElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  };
+    updateUrl({ 
+      q: query || null 
+    });
+  }, [updateUrl, searchParams]);
 
   // Atajo de teclado para buscar (Ctrl+K)
   useEffect(() => {
@@ -93,7 +122,7 @@ export default function PaginatedStationGrid({
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 justify-start mb-4">
           {/* Buscador */}
           <div className="w-full sm:w-[30rem] lg:w-[40rem]">
-            <SearchBar onSearch={handleSearch} compact />
+            <SearchBar onSearch={handleSearch} compact initialValue={searchQuery} />
           </div>
 
           {/* Filtros de género */}
@@ -141,7 +170,7 @@ export default function PaginatedStationGrid({
           <Pagination
             currentPage={currentPage}
             totalPages={totalPages}
-            onPageChange={handlePageChange}
+            createPageUrl={createPageUrl} // Usar URLs reales para SEO
             compact
           />
         )}
@@ -150,9 +179,7 @@ export default function PaginatedStationGrid({
       {/* Grid de Emisoras */}
       {filteredStations.length > 0 ? (
         <>
-          <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 min-h-[500px] content-start ${
-             slideDirection === "left" ? "animate-slide-left" : slideDirection === "right" ? "animate-slide-right" : ""
-          }`}>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 min-h-[500px] content-start">
             {paginatedStations.map((station, index) => (
               <StationCard 
                 key={`${station.nombre}-${index}`} 
@@ -169,7 +196,7 @@ export default function PaginatedStationGrid({
               <Pagination
                 currentPage={currentPage}
                 totalPages={totalPages}
-                onPageChange={handlePageChange}
+                createPageUrl={createPageUrl} // Usar URLs reales para SEO
               />
             </div>
           )}
@@ -181,7 +208,7 @@ export default function PaginatedStationGrid({
           <p className="text-slate-400 text-xl font-medium">No se encontraron emisoras</p>
           <p className="text-slate-500 text-sm mt-2">Intenta ajustar tus filtros o búsqueda</p>
           <button 
-            onClick={() => { setSearchQuery(''); setSelectedCategories([]); }}
+            onClick={() => { updateUrl({ q: null, categories: null }); }}
             className="mt-6 px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-sm transition-colors"
           >
             Ver todas las emisoras
