@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Logo y nombre */}
         <div className="flex items-center justify-center gap-3 mb-4">
           <Image 
-            src="/logos_general/logo_miniatura_emisoras_latinas.jpg.png"
+            src="/logos_general/logo_miniatura_emisoras_latinas.jpg"
             alt="Emisoras Latinas"
             width={40}
             height={40}

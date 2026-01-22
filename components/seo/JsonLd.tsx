@@ -6,7 +6,7 @@ export function WebsiteJsonLd() {
     name: 'Emisoras Latinas',
     alternateName: 'Radio Online Latinoamérica',
     url: 'https://www.emisoraslatinas.online',
-    description: 'Directorio de Radio Online #1 de Latinoamérica. Escucha gratis +1000 emisoras de Colombia, Argentina, México, Perú y más.',
+    description: 'Directorio de Radio Online #1 de Latinoamérica. Escucha gratis +21,000 emisoras de Colombia, Argentina, México, Perú y más.',
     inLanguage: 'es',
     potentialAction: {
       '@type': 'SearchAction',

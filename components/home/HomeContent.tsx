@@ -19,35 +19,16 @@ const ITEMS_PER_PAGE = 50;
 
 const STORAGE_KEY = "emisoras_latinas_country";
 
+const validCountries: CountryCode[] = [
+  "CO", "PE", "BR", "EC", "MX", "GT", "BO", "SV", "JM", "PR",
+  "DO", "UA", "UY", "HN", "NI", "AR", "CL", "CR", "DK", "ES",
+  "PT", "TT", "US", "VE", "FR", "IT", "GB",
+];
+
 export default function HomeContent() {
-  // Lazy initialization: read from localStorage only once during initial render
-  const [selectedCountry, setSelectedCountry] = useState<CountryCode>(() => {
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      const validCountries: CountryCode[] = [
-        "CO",
-        "PE",
-        "BR",
-        "EC",
-        "MX",
-        "GT",
-        "BO",
-        "SV",
-        "JM",
-        "PR",
-        "DO",
-        "UA",
-        "UY",
-        "HN",
-        "NI",
-        "AR",
-      ];
-      if (saved && validCountries.includes(saved as CountryCode)) {
-        return saved as CountryCode;
-      }
-    }
-    return "CO"; // Default value
-  });
+  // Estado inicial fijo para evitar hydration mismatch
+  const [selectedCountry, setSelectedCountry] = useState<CountryCode>("CO");
+  const [isHydrated, setIsHydrated] = useState(false);
 
   const [stations, setStations] = useState<StationByCountry[]>([]);
   const [isLoadingStations, setIsLoadingStations] = useState(true);
@@ -58,12 +39,21 @@ export default function HomeContent() {
     null,
   );
 
-  // Guardar país seleccionado en localStorage
+  // Cargar país guardado desde localStorage DESPUÉS del montaje (evita hydration mismatch)
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved && validCountries.includes(saved as CountryCode)) {
+      setSelectedCountry(saved as CountryCode);
+    }
+    setIsHydrated(true);
+  }, []);
+
+  // Guardar país seleccionado en localStorage (solo después de hidratación)
+  useEffect(() => {
+    if (isHydrated) {
       localStorage.setItem(STORAGE_KEY, selectedCountry);
     }
-  }, [selectedCountry]);
+  }, [selectedCountry, isHydrated]);
 
   useEffect(() => {
     let cancelled = false;

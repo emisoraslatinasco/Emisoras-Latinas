@@ -2,11 +2,15 @@ export interface StationByCountry {
   nombre: string;
   url_stream: string;
   logo_local: string | null;
+  slug?: string;  // URL-friendly identifier
   descripcion?: string;
   generos?: string[];
   redes_sociales?: string[];
   sitio_web?: string;
   ciudad?: string;
+  frecuencia?: string;  // e.g. "104.9 FM"
+  ubicacion?: string;    // Location/city
+  logo?: string | null;  // External logo URL
 }
 
 export type CountryCode =
@@ -109,13 +113,13 @@ export const countries: Country[] = [
   {
     code: "HN",
     name: "Honduras",
-    flag: "/flags/honduras.png",
+    flag: "/flags/honduras.jpg",
     jsonFile: "emisoras_honduras.json",
   },
   {
     code: "NI",
     name: "Nicaragua",
-    flag: "/flags/nicaragua.png",
+    flag: "/flags/nicaragua.jpg",
     jsonFile: "emisoras_nicaragua.json",
   },
   {

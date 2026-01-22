@@ -12,7 +12,7 @@ export default function CookiesPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <Image 
-              src="/logos_general/logo_miniatura_emisoras_latinas.jpg.png"
+              src="/logos_general/logo_miniatura_emisoras_latinas.jpg"
               alt="Emisoras Latinas"
               width={32}
               height={32}

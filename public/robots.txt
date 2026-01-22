@@ -10,10 +10,40 @@ Disallow: /api/
 
 # Permitir archivos importantes
 Allow: /sitemap.xml
+Allow: /sitemap-*.xml
 Allow: /manifest.json
 
-# Sitemap
+# Sitemap Index (apunta a sitemaps por país)
 Sitemap: https://www.emisoraslatinas.online/sitemap.xml
+
+# Sitemaps individuales por país (27 países)
+Sitemap: https://www.emisoraslatinas.online/sitemap-co.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-ar.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-pe.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-br.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-ve.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-ec.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-mx.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-gt.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-bo.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-sv.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-hn.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-ni.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-jm.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-pr.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-do.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-ua.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-uy.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-cl.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-cr.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-dk.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-es.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-pt.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-tt.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-us.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-gb.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-fr.xml
+Sitemap: https://www.emisoraslatinas.online/sitemap-it.xml
 
 # Crawl-delay para ser amigable con el servidor
 Crawl-delay: 1

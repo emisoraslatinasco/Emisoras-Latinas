@@ -56,3 +56,5 @@ cleanup-stations.js
 normalize-logo-names.js
 search-missing-logos.js
 
+# Scripts de enriquecimiento (no se envían a GitHub)
+/scripts/

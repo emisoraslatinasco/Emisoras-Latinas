@@ -1,12 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { useRadio } from '@/context/RadioContext';
 import Image from 'next/image';
 import { getLogoPath } from '@/utils/logoMapper';
 import AdSpace from '@/components/ui/AdSpace';
 
 export default function AudioPlayer() {
+  const pathname = usePathname();
   const [isExpanded, setIsExpanded] = useState(false);
   
   const {
@@ -22,7 +24,14 @@ export default function AudioPlayer() {
     toggleMute,
   } = useRadio();
 
+  // Ocultar en páginas de emisoras individuales (ej: /radio/co/blu-radio)
+  // Estas páginas tienen su propio reproductor integrado
+  const isStationPage = pathname?.match(/^\/radio\/[a-z]{2}\/[^\/]+$/i);
+  
   if (!currentStation || !currentCountryCode) return null;
+  
+  // No mostrar en páginas de emisoras individuales
+  if (isStationPage) return null;
 
   const volumePercent = Math.round(volume * 100);
   const logoSrc = getLogoPath(currentStation.logo_local, currentCountryCode);

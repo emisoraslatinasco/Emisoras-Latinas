@@ -4,7 +4,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { RadioProvider } from "@/context/RadioContext";
-import { AudioPlayer } from "@/components/radio";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 
@@ -16,10 +15,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.emisoraslatinas.online'),
   title: {
-    default: 'Emisoras Latinas - Escuchar Radio Colombia y Latinoamérica en Vivo Gratis',
-    template: '%s | Emisoras Latinas'
+    default: 'Emisoras Latinas - Más de 20.000 Radios Online Gratis de Latinoamérica',
+    template: '%s | Radio en Vivo Gratis y Sin Cortes - Emisoras Latinas'
   },
-  description: 'Directorio de Radio Online #1 de Latinoamérica. Escucha gratis +1000 emisoras de Colombia, Argentina, México, Perú y más. Radio en vivo 24/7: música cristiana, salsa, vallenato, noticias, deportes. Sin descargas, streaming HD.',
+  description: 'Escucha ahora +20.000 emisoras de Latinoamérica gratis. Radio en vivo 24/7 sin cortes. App gratis, streaming HD. Colombia, México, Argentina y más.',
   keywords: [
     'escuchar radio colombia',
     'radio en vivo gratis',
@@ -56,8 +55,11 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   icons: {
-    icon: '/logos_general/logo_miniatura_emisoras_latinas.jpg.png',
-    apple: '/logos_general/logo_miniatura_emisoras_latinas.jpg.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/logos_general/logo_miniatura_emisoras_latinas.jpg', type: 'image/png' },
+    ],
+    apple: '/logos_general/logo_miniatura_emisoras_latinas.jpg',
   },
   openGraph: {
     type: 'website',
@@ -78,7 +80,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Emisoras Latinas - Escuchar Radio en Vivo Gratis',
-    description: 'Directorio de radios online de Latinoamérica. +1000 emisoras de Colombia, Argentina, México y más.',
+    description: 'Directorio de radios online de Latinoamérica. +21,000 emisoras de Colombia, Argentina, México y más.',
     images: ['/logos_general/logo_emisoras_latinas.jpg'],
     creator: '@emisoraslatinas',
   },
@@ -97,6 +99,9 @@ export default function RootLayout({
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <SeoJsonLd />
+        <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
+        <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
+        <link rel="apple-touch-icon" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -106,7 +111,7 @@ export default function RootLayout({
         <Providers>
           <RadioProvider>
             {children}
-            <AudioPlayer />
+            {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
             <CookieConsent />
           </RadioProvider>
         </Providers>
@@ -114,3 +119,4 @@ export default function RootLayout({
     </html>
   );
 }
+

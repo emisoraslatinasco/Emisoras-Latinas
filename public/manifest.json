@@ -12,7 +12,7 @@
   "categories": ["entertainment", "music", "news"],
   "icons": [
     {
-      "src": "/logos_general/logo_miniatura_emisoras_latinas.jpg.png",
+      "src": "/logos_general/logo_miniatura_emisoras_latinas.jpg",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
