@@ -1,4 +1,5 @@
 
+import { Suspense } from "react";
 import { countries, loadStationsByCountry, CountryCode } from "@/data/stationsByCountry";
 import PaginatedStationGrid from "@/components/radio/PaginatedStationGrid";
 import { Metadata } from "next";
@@ -9,6 +10,17 @@ import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
 import CountrySelector from "@/components/home/CountrySelector";
 import { getI18nFromCountry } from "@/utils/translations";
+
+function GridFallback() {
+  return (
+    <div className="min-h-[400px] flex items-center justify-center">
+      <div className="text-center">
+        <i className="fas fa-spinner fa-spin text-4xl text-blue-500 mb-4"></i>
+        <p className="text-slate-400">Cargando emisoras...</p>
+      </div>
+    </div>
+  );
+}
 
 // Generar rutas estáticas para todos los países disponibles
 export async function generateStaticParams() {
@@ -131,10 +143,12 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
 
             {/* Grid de Emisoras */}
             <section aria-label={`${t.stations_of} ${country.name}`}>
+              <Suspense fallback={<GridFallback />}>
                 <PaginatedStationGrid 
                   stations={stations} 
                   countryCode={code} 
                 />
+              </Suspense>
             </section>
             
             {/* Texto SEO Rico */}

@@ -1,12 +1,26 @@
+import { Suspense } from "react";
 import { Footer } from "@/components/layout";
 import HomeContent from "@/components/home/HomeContent";
 import AdSpace from "@/components/ui/AdSpace";
+
+function HomeContentFallback() {
+  return (
+    <div className="min-h-[600px] flex items-center justify-center">
+      <div className="text-center">
+        <i className="fas fa-spinner fa-spin text-4xl text-blue-500 mb-4"></i>
+        <p className="text-slate-400">Cargando emisoras...</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Main Content - Client Component con Header dinámico */}
-      <HomeContent />
+      <Suspense fallback={<HomeContentFallback />}>
+        <HomeContent />
+      </Suspense>
 
       {/* Ad Space */}
       <div className="container mx-auto px-4 py-8">
