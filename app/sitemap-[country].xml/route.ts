@@ -8,16 +8,16 @@ import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsBy
  */
 export async function GET(
   request: NextRequest,
-  props: { params: Promise<{ country: string }> }
+  props: { params: Promise<Record<string, string>> }
 ) {
   const params = await props.params;
-  const { country } = params;
+  const country = params.country || '';
   
   const baseUrl = 'https://www.emisoraslatinas.online';
   const countryCode = country.toUpperCase() as CountryCode;
   const countryData = countries.find(c => c.code === countryCode);
 
-  if (!countryData) {
+  if (!countryData || !country) {
     return new Response('Country not found', { status: 404 });
   }
 
