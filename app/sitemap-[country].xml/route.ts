@@ -1,6 +1,10 @@
 import { NextRequest } from 'next/server';
 import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsByCountry';
 
+// Forzar renderizado dinámico para evitar problemas de pre-rendering
+export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
+
 /**
  * Genera sitemaps individuales por país de forma dinámica
  * Ejemplo: /sitemap-co.xml carga SOLO las emisoras de Colombia
