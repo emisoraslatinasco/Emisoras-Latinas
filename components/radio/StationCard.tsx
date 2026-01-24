@@ -1,5 +1,5 @@
-import { memo, useMemo } from 'react';
-import { StationByCountry, CountryCode, countries } from '@/data/stationsByCountry';
+import { memo } from 'react';
+import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getLogoPath } from '@/utils/logoMapper';
@@ -9,9 +9,6 @@ interface StationCardProps {
   index: number;
   countryCode: CountryCode;
 }
-
-// Pre-compute country lookup map for O(1) access
-const countryMap = new Map(countries.map(c => [c.code, c.name]));
 
 /**
  * Extrae la frecuencia del nombre de la emisora
@@ -31,79 +28,17 @@ function extractFrequency(nombre: string): string | null {
 }
 
 /**
- * Extrae la ciudad
- */
-function extractCity(station: StationByCountry): string | null {
-  if (station.ciudad && station.ciudad.trim()) {
-    return station.ciudad.trim();
-  }
-  return null;
-}
-
-/**
- * Genera JSON-LD para Schema.org
- */
-function generateJsonLd(station: StationByCountry, countryCode: CountryCode): object {
-  const frequency = extractFrequency(station.nombre);
-  const city = extractCity(station);
-  const countryName = countryMap.get(countryCode) || countryCode;
-  
-  const jsonLd: Record<string, unknown> = {
-    "@context": "https://schema.org",
-    "@type": "RadioStation",
-    "name": station.nombre,
-    "description": station.descripcion ? station.descripcion.substring(0, 300) : `Emisora de radio de ${countryName}`,
-    "url": station.sitio_web || undefined,
-  };
-  
-  if (frequency) {
-    jsonLd["broadcastFrequency"] = frequency;
-  }
-  
-  if (city) {
-    jsonLd["areaServed"] = {
-      "@type": "Place",
-      "name": city,
-      "containedInPlace": {
-        "@type": "Country",
-        "name": countryName
-      }
-    };
-  } else {
-    jsonLd["areaServed"] = {
-      "@type": "Country",
-      "name": countryName
-    };
-  }
-  
-  if (station.generos && station.generos.length > 0) {
-    jsonLd["genre"] = station.generos.map(g => 
-      g.replace(/^categoria:\s*/i, '').replace(/\n/g, '').trim()
-    ).filter(g => g.length > 0);
-  }
-  
-  if (station.redes_sociales && station.redes_sociales.length > 0) {
-    jsonLd["sameAs"] = station.redes_sociales;
-  }
-  
-  return jsonLd;
-}
-
-/**
  * StationCard - Tarjeta de emisora con estilo overlay (SOLO NAVEGACIÓN)
  * Info superpuesta sobre el logo para diseño compacto
  * Memoized para evitar re-renders innecesarios
+ * 
+ * NOTE: JSON-LD schema is defined at the page level (ItemList), 
+ * not per card, to optimize server-side rendering performance.
  */
 const StationCard = memo(function StationCard({ station, index, countryCode }: StationCardProps) {
   const logoSrc = getLogoPath(station.logo_local, countryCode);
   const frequency = extractFrequency(station.nombre);
-  const city = extractCity(station);
-  
-  // Memoize JSON-LD to prevent regeneration on every render
-  const jsonLd = useMemo(() => 
-    generateJsonLd(station, countryCode), 
-    [station, countryCode]
-  );
+  const city = station.ciudad?.trim() || null;
   
   // URL de la página individual
   const stationUrl = `/radio/${countryCode.toLowerCase()}/${station.slug}`;
@@ -113,12 +48,6 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
       className="group relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
       aria-label={`${station.nombre}${frequency ? ` en ${frequency}` : ''}${city ? ` desde ${city}` : ''}`}
     >
-      {/* JSON-LD para SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      
       {/* Link que envuelve toda la tarjeta */}
       <Link href={stationUrl} className="block relative aspect-square">
         {/* Logo de fondo */}
