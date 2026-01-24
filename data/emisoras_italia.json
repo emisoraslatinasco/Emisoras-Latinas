@@ -2202,23 +2202,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:03:37.752Z"
   },
   {
-    "nombre": "Südtirol 1",
-    "url_stream": "https://funkhaus-st.streamabc.net/106-suedtirol1-aacplus-64-7706947?sABC=6961r3sr%230%23ro604p65p483o17pp42q248no8p52126%23ncc&aw_0_1st.playerid=app&amsparams=playerid:app;skey:1768023038",
-    "logo_local": "logos_emisoras\\Sudtirol_1.jpg",
-    "generos": [
-      "Categoria: \nLocal"
-    ],
-    "descripcion": "La proposta di Südtirol 1 è semplice: la migliore musica per te. Nati a Trentino-Alto Adige, raggiungiamo ascoltatori ovunque, questa emittente ti offre la migliore musica selezionata per te. Streaming in diretta con la migliore qualità audio digitale. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nOgni conduttore porta la sua personalità unica. Sono professionisti appassionati che capiscono la radio.\n\nLa diversità musicale è il nostro marchio distintivo. Crediamo che la buona musica non conosca confini.\n\nOgni programma è progettato pensando ai nostri ascoltatori. La varietà garantisce sempre qualcosa per te. Radio online gratis da ascoltare su mobile, tablet o computer.\n\nGli anni di esperienza ci hanno insegnato che la radio è un mezzo profondamente personale.\n\nVisita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. I social media ci permettono di essere più vicini a te che mai. Interagisci con noi.\n\nUnisciti alla nostra comunità e vivi l'esperienza di ascoltare buona musica 24 ore. Ti aspettiamo! La migliore esperienza di radio internet senza costi. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [],
-    "sitio_web": "http://www.suedtirol1.it/",
-    "ciudad": "Trentino-Alto Adige",
-    "slug": "sudtirol-1",
-    "descripcion_original": "Sintonizza Südtirol 1 online, trasmettendo in diretta da Trentino-Alto Adige, Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Local selezionata per te. Ascolta ora Südtirol 1 gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:37.787Z"
-  },
-  {
     "nombre": "MC2 Smooth Jazz Channel",
     "url_stream": "https://n13.rcs.revma.com/94g6a0cky7uvv?rj-ttl=5&rj-tok=AAABm6ZsXJUAJbQFYR8s58k9-A",
     "logo_local": "logos_emisoras\\MC2_Smooth_Jazz_Channel.jpg",
@@ -4574,27 +4557,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:03:40.250Z"
   },
   {
-    "nombre": "Antenna Febea",
-    "url_stream": "https://stream3.xdevel.com/audio1s975408-118/stream/icecast.audio",
-    "logo_local": "logos_emisoras\\Antenna_Febea.jpg",
-    "generos": [
-      "Categoria: \nVariety"
-    ],
-    "descripcion": "L'esperienza di Antenna Febea ti aspetta a braccia aperte. Dal cuore di Calabria verso ogni angolo, questa emittente ti offre la migliore musica selezionata per te. Ascolta online l'emittente preferita di migliaia di ascoltatori. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nSiamo orgogliosi di essere un'emittente che ascolta il suo pubblico. Le preferenze dei nostri ascoltatori modellano la programmazione.\n\nDisponiamo di una libreria musicale ampia e catalogata con cura.\n\nLa qualità della nostra trasmissione è eccezionale, permettendoti di goderti ogni nota con chiarezza cristallina. Programmazione continua 24 ore per accompagnarti sempre.\n\nLa fedeltà del nostro pubblico ci spinge a migliorare costantemente.\n\nTrovaci su Facebook, Twitter/X, Instagram. Visita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. La nostra presenza digitale completa perfettamente l'esperienza radio.\n\nGrazie per averci scelto. Ogni ascoltatore è importante per noi. Trasmissione gratuita disponibile su più piattaforme. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [
-      "https://www.facebook.com/antenna.febea/",
-      "https://twitter.com/AntennaFebea",
-      "https://instagram.com/antennafebea/"
-    ],
-    "sitio_web": "http://www.antennafebea.it/",
-    "ciudad": "Calabria",
-    "slug": "antenna-febea",
-    "descripcion_original": "Sintonizza Antenna Febea online, trasmettendo in diretta da Calabria, Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Variety selezionata per te. Ascolta ora Antenna Febea gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:40.251Z"
-  },
-  {
     "nombre": "Radio Kiss Kiss Sanremo",
     "url_stream": "https://kk.fluidstream.eu/kk_sanremo.mp3?FLID=6",
     "logo_local": "logos_emisoras\\Radio_Kiss_Kiss_Sanremo.jpg",
@@ -4831,23 +4793,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "it",
     "fecha_enriquecimiento": "2026-01-22T01:03:40.651Z"
-  },
-  {
-    "nombre": "Radio Tirol",
-    "url_stream": "https://funkhaus-st.streamabc.net/106-radiotirol-aacplus-64-7035206?sABC=6961sn3r%230%23ro604p65p483o17pp42q248no8p52126%23ncc&aw_0_1st.playerid=app&amsparams=playerid:app;skey:1768028734",
-    "logo_local": "logos_emisoras\\Radio_Tirol.jpg",
-    "generos": [],
-    "descripcion": "Con Radio Tirol la buona musica non finisce mai. Rappresentanti della cultura musicale di Trentino-Alto Adige, questa emittente ti offre la migliore musica selezionata per te. Accedi gratis alla migliore radio da qualsiasi parte del mondo. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nIl team di produzione lavora instancabilmente per portarti contenuti freschi e rilevanti. Ogni programma è un'opportunità di connessione.\n\nLa radio in diretta mantiene quell'essenza di spontaneità che altri media non possono replicare.\n\nLa passione per la radio si sente in ogni secondo. Abbiamo perfezionato l'arte di connetterci col pubblico. Radio digitale di qualità premium senza costi.\n\nLa fedeltà del nostro pubblico ci spinge a migliorare costantemente.\n\nTrovaci su Facebook. Visita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. Unisciti alla conversazione sui nostri social. Migliaia di ascoltatori partecipano ogni giorno.\n\nTi invitiamo a sintonizzarti e scoprire perché migliaia di ascoltatori ci scelgono. Benvenuto nella nostra famiglia! Connettiti al nostro segnale in diretta con un solo clic. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [
-      "https://www.facebook.com/RadioTirol"
-    ],
-    "sitio_web": "http://www.radiotirol.it/",
-    "ciudad": "Trentino-Alto Adige",
-    "slug": "radio-tirol",
-    "descripcion_original": "Da Trentino-Alto Adige arriva il segnale di Radio Tirol, la tua stazione online preferita in Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia selezionata per te. Ascolta ora Radio Tirol gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:40.652Z"
   },
   {
     "nombre": "Radio Pico 106.4",
@@ -7221,27 +7166,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:03:41.743Z"
   },
   {
-    "nombre": "Radio Delta 1",
-    "url_stream": "https://onair15.xdevel.com/proxy/radiodelta1mp3?mp=/;stream/;",
-    "logo_local": "logos_emisoras\\Radio_Delta_1.jpg",
-    "generos": [
-      "Categoria: \nTop 40"
-    ],
-    "descripcion": "Con Radio Delta 1 la buona musica non finisce mai. Nati a Abruzzo, raggiungiamo ascoltatori ovunque, questa emittente ti offre la migliore musica selezionata per te. Senza registrazione, senza abbonamento, totalmente libero. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nLa radio in diretta mantiene quell'essenza di spontaneità che altri media non possono replicare.\n\nDalle prime ore del mattino fino alla notte, la nostra emittente ti accompagna con programmi appositamente progettati.\n\nOgni programma è progettato pensando ai nostri ascoltatori. La varietà garantisce sempre qualcosa per te. Senza registrazione, senza abbonamento, totalmente libero.\n\nPiù che un'emittente, siamo un punto d'incontro per migliaia di persone.\n\nTrovaci su Twitter/X, Facebook, Instagram. Visita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. Unisciti alla conversazione sui nostri social. Migliaia di ascoltatori partecipano ogni giorno.\n\nLa tua nuova emittente preferita è a un clic. Sintonizzati ora! Disponibile online da qualsiasi dispositivo. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [
-      "https://twitter.com/radiodelta1",
-      "https://www.facebook.com/RadioDelta1",
-      "https://www.instagram.com/radiodelta_1/"
-    ],
-    "sitio_web": "http://www.radiodelta1.it/",
-    "ciudad": "Abruzzo",
-    "slug": "radio-delta-1",
-    "descripcion_original": "Sintonizza Radio Delta 1 online, trasmettendo in diretta da Abruzzo, Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Top 40 selezionata per te. Ascolta ora Radio Delta 1 gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:41.759Z"
-  },
-  {
     "nombre": "Radio Elettrica",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116330&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
     "logo_local": "logos_emisoras\\Radio_Elettrica.jpg",
@@ -9563,45 +9487,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "it",
     "fecha_enriquecimiento": "2026-01-22T01:03:42.001Z"
-  },
-  {
-    "nombre": "Radio Napoli Emme",
-    "url_stream": "https://nrf1.newradio.it/stream/9756",
-    "logo_local": "logos_emisoras\\Radio_Napoli_Emme.jpg",
-    "generos": [],
-    "descripcion": "Preparati a goderti Radio Napoli Emme, un'emittente che fa la differenza. Campania ci ha visto nascere e oggi raggiungiamo milioni, questa emittente ti offre la migliore musica selezionata per te. La migliore esperienza di radio internet senza costi. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nLa storia della nostra emittente è la storia di migliaia di momenti condivisi con il pubblico.\n\nI programmi specializzati affrontano tematiche specifiche che arricchiscono l'esperienza dell'ascoltatore.\n\nIl nostro impegno per l'eccellenza si riflette in ogni aspetto dell'emittente. Ascolta online l'emittente preferita di migliaia di ascoltatori.\n\nPiù che un'emittente, siamo un punto d'incontro per migliaia di persone.\n\nVisita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. La nostra presenza digitale completa perfettamente l'esperienza radio.\n\nConnettiti, ascolta e divertiti. La radio che meriti è qui. Senza registrazione, senza abbonamento, totalmente libero. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [],
-    "sitio_web": "http://www.radionapoliemme.it/",
-    "ciudad": "Campania",
-    "slug": "radio-napoli-emme",
-    "descripcion_original": "Da Campania arriva il segnale di Radio Napoli Emme, la tua stazione online preferita in Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia selezionata per te. Ascolta ora Radio Napoli Emme gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:42.001Z"
-  },
-  {
-    "nombre": "Power Station Italy",
-    "url_stream": "https://powerstationitaly.stream.laut.fm/powerstationitaly?t302=2026-01-10_09-56-36&uuid=12317e79-4cd1-467c-8c73-2a4f18b435e4",
-    "logo_local": "logos_emisoras\\Power_Station_Italy.jpg",
-    "generos": [
-      "Categoria: \nDance",
-      "House",
-      "Disco"
-    ],
-    "descripcion": "Power Station Italy arriva a te con l'energia e la qualità che meriti. Connettendo Emilia-Romagna con il mondo attraverso le onde, questa emittente ti offre la migliore musica selezionata per te. Ascoltare la radio online non è mai stato così facile. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nLa nostra programmazione è stata attentamente progettata per offrirti momenti di intrattenimento e compagnia musicale durante tutta la giornata.\n\nLa radio in diretta mantiene quell'essenza di spontaneità che altri media non possono replicare.\n\nIl nostro impegno per l'eccellenza si riflette in ogni aspetto dell'emittente. Disponibile online da qualsiasi dispositivo.\n\nLa nostra emittente è stata testimone di momenti importanti nella vita di tante persone.\n\nTrovaci su YouTube, Instagram, Twitter/X, Facebook. Visita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. Resta connesso con noi attraverso i nostri social media, dove condividiamo contenuti esclusivi.\n\nUnisciti alla nostra comunità e vivi l'esperienza di ascoltare buona musica 24 ore. Ti aspettiamo! Radio online gratis da ascoltare su mobile, tablet o computer. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [
-      "https://www.youtube.com/stationitaly",
-      "https://www.instagram.com/stationitaly",
-      "https://twitter.com/stationitaly",
-      "https://www.facebook.com/StationItaly/"
-    ],
-    "sitio_web": "https://powerstationitaly.altervista.org/",
-    "ciudad": "Emilia-Romagna",
-    "slug": "power-station-italy",
-    "descripcion_original": "Da Emilia-Romagna arriva il segnale di Power Station Italy, la tua stazione online preferita in Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Dance, House, Disco selezionata per te. Ascolta ora Power Station Italy gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:42.017Z"
   },
   {
     "nombre": "Radio Bruno Top 40",
@@ -12694,28 +12579,6 @@
     "ciudad": "Toscana",
     "slug": "radio-3-network",
     "descripcion_original": "Sintonizza Radio 3 Network online, trasmettendo in diretta da Toscana, Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Pop Music, Classic Hits selezionata per te. Ascolta ora Radio 3 Network gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "it",
-    "fecha_enriquecimiento": "2026-01-22T01:03:42.380Z"
-  },
-  {
-    "nombre": "Radio Città Pescara",
-    "url_stream": "https://streamingradiocittapescara.it:8002/",
-    "logo_local": "logos_emisoras\\Radio_Citta_Pescara.jpg",
-    "generos": [
-      "Categoria: \nRock",
-      "Reggae",
-      "Electronic"
-    ],
-    "descripcion": "Sintonizzati su Radio Città Pescara e lasciati trasportare dalla migliore programmazione radio. Trasmettendo in diretta dal cuore di Abruzzo, questa emittente ti offre la migliore musica selezionata per te. Radio digitale di qualità premium senza costi. Il nostro segnale raggiunge migliaia di case, rendendoci il compagno perfetto per ogni momento.\n\nLa tecnologia di streaming all'avanguardia garantisce una qualità audio eccezionale su qualsiasi dispositivo.\n\nOgni conduttore porta la sua personalità unica. Sono professionisti appassionati che capiscono la radio.\n\nLa passione per la radio si sente in ogni secondo. Abbiamo perfezionato l'arte di connetterci col pubblico. Senza registrazione, senza abbonamento, totalmente libero.\n\nLa fedeltà del nostro pubblico ci spinge a migliorare costantemente.\n\nTrovaci su YouTube, Facebook. Visita il nostro sito ufficiale per maggiori informazioni e contenuti esclusivi. La nostra presenza digitale completa perfettamente l'esperienza radio.\n\nLa tua nuova emittente preferita è a un clic. Sintonizzati ora! Ascolta online l'emittente preferita di migliaia di ascoltatori. Premi play e inizia a goderti la migliore esperienza radio!",
-    "redes_sociales": [
-      "https://www.youtube.com/@radiocittapescara",
-      "https://www.facebook.com/radiocittapescara"
-    ],
-    "sitio_web": "http://www.radiocittapescara.it/",
-    "ciudad": "Abruzzo",
-    "slug": "radio-citta-pescara",
-    "descripcion_original": "Sintonizza Radio Città Pescara online, trasmettendo in diretta da Abruzzo, Italia. Questa stazione radio si distingue per la sua programmazione musicale di qualità. Offre una programmazione varia con il meglio di Rock, Reggae, Electronic selezionata per te. Ascolta ora Radio Città Pescara gratis su Emisoras Latinas e goditi la migliore radio di Italia 24/7.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "it",
     "fecha_enriquecimiento": "2026-01-22T01:03:42.380Z"

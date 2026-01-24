@@ -4557,28 +4557,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:44.999Z"
   },
   {
-    "nombre": "Urban Hits - Live!",
-    "url_stream": "https://radio.dominiserver.com/proxy/100hitsurbano/stream",
-    "logo_local": "logos_emisoras\\Urban_Hits_Live.jpg",
-    "generos": [
-      "Pop Music",
-      "Reggaeton",
-      "Latino"
-    ],
-    "descripcion": "La experiencia de Urban Hits - Live! te espera con los brazos abiertos. Nacidos en Santiago Rodríguez, llegamos a oyentes de todas partes, esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nCada locutor y conductor de nuestros programas aporta su personalidad única a la emisora. Son profesionales apasionados que entienden que la radio es un medio personal e íntimo, capaz de crear conexiones genuinas con cada oyente.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Radio digital de calidad premium sin ningún costo.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nEncuéntranos en Facebook, Instagram. Visita nuestro sitio web oficial para más información y contenido exclusivo. Las redes sociales nos permiten estar más cerca de ti que nunca. Interactúa con nosotros, déjanos tus comentarios y forma parte activa de esta gran familia que crece día a día.\n\nNo esperes más para disfrutar de la mejor programación. Haz clic en reproducir y déjate llevar por nuestra propuesta musical. Conecta con nuestra señal en vivo con un solo clic. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [
-      "https://www.facebook.com/urbanhitsrd",
-      "https://www.instagram.com/urbanhitsrd/"
-    ],
-    "sitio_web": "https://urbanhits.live/",
-    "ciudad": "Santiago Rodríguez",
-    "slug": "urban-hits-live",
-    "descripcion_original": "Urban Hits - Live! transmite en vivo desde la ciudad de Santiago Rodríguez, República Dominicana, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Pop Music, Reggaetón, Latino seleccionada para ti. Sintoniza ahora Urban Hits - Live! gratis en Emisoras Latinas y disfruta la mejor radio de República Dominicana las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:45.000Z"
-  },
-  {
     "nombre": "Buenisima 93 FM",
     "url_stream": "https://stream-177.zeno.fm/bfvffcrjf2ouv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiZnZmZmNyamYyb3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiMlRVbF80cENUVC1fanJCWlp1QjFjUSIsImlhdCI6MTc2NzAyNTU2MiwiZXhwIjoxNzY3MDI1NjIyfQ.thwOIf7BmUHAAKbXrsgE1ykf6Y1aQLHh2kDmT-arYfE",
     "logo_local": "logos_emisoras\\Buenisima_93_FM.jpg",
@@ -4653,46 +4631,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:45.016Z"
-  },
-  {
-    "nombre": "Radio Evangelística Dominicana",
-    "url_stream": "https://ec1.everestcast.host:2825/stream",
-    "logo_local": "logos_emisoras\\Radio_Evangelistica_Dominicana.jpg",
-    "generos": [],
-    "descripcion": "Con Radio Evangelística Dominicana la buena música nunca termina. El sonido auténtico de Distrito de Santo Domingo en tu dispositivo, esta emisora te ofrece la mejor música seleccionada para ti. Transmisión gratuita disponible en múltiples plataformas. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nLa radio en vivo mantiene esa esencia de espontaneidad e inmediatez que otros medios no pueden replicar. Cada transmisión es única, cada momento es irrepetible, y eso hace que escucharnos sea siempre una experiencia fresca.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Streaming global para audiencias locales e internacionales.\n\nLos años de trayectoria nos han enseñado que la radio es un medio profundamente personal. Cada oyente tiene una historia, una razón para sintonizarnos, y valoramos esa conexión individual. Trabajamos cada día para merecer tu preferencia.\n\nEncuéntranos en Facebook. Visita nuestro sitio web oficial para más información y contenido exclusivo. Únete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nLa mejor música, el mejor entretenimiento, la mejor compañía. Todo esto te espera cuando nos sintonizas. Radio digital de calidad premium sin ningún costo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [
-      "https://www.facebook.com/RadioEvangelisticaDominicana"
-    ],
-    "sitio_web": "http://www.radioevangelistica.org/",
-    "ciudad": "Distrito de Santo Domingo",
-    "slug": "radio-evangelistica-dominicana",
-    "descripcion_original": "Disfruta de la programación de Radio Evangelística Dominicana, la radio online líder en Distrito de Santo Domingo, República Dominicana. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Evangelística Dominicana gratis en Emisoras Latinas y disfruta la mejor radio de República Dominicana las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:45.016Z"
-  },
-  {
-    "nombre": "La Nexia FM",
-    "url_stream": "https://isrd.internetsolutionsrd.com:8022/stream",
-    "logo_local": "logos_emisoras\\La_Nexia_FM.jpg",
-    "generos": [
-      "Merengue",
-      "International",
-      "Local"
-    ],
-    "descripcion": "Prepárate para disfrutar de La Nexia FM, una emisora que marca la diferencia. Nacidos en Elías Piña, llegamos a oyentes de todas partes, esta emisora te ofrece la mejor música seleccionada para ti. Streaming en vivo con la mejor calidad de audio digital. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Accede gratis a la mejor radio desde cualquier lugar del mundo.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nEncuéntranos en Instagram, Twitter/X, Facebook. Visita nuestro sitio web oficial para más información y contenido exclusivo. Síguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Streaming en vivo con la mejor calidad de audio digital. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [
-      "https://instagram.com/lanexiafm/",
-      "https://twitter.com/lanexiafm/",
-      "https://facebook.com/nexiafm/"
-    ],
-    "sitio_web": "http://www.lanexiafm.net/",
-    "ciudad": "Elías Piña",
-    "slug": "la-nexia-fm",
-    "descripcion_original": "La Nexia FM transmite en vivo desde la ciudad de Elías Piña, República Dominicana, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Merengue, International, Local seleccionada para ti. Sintoniza ahora La Nexia FM gratis en Emisoras Latinas y disfruta la mejor radio de República Dominicana las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:45.017Z"
   },
   {
     "nombre": "Villa Hermosa La Radio",

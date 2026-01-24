@@ -463,28 +463,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:00:59.595Z"
   },
   {
-    "nombre": "Rádio Radar",
-    "url_stream": "https://proic1.evspt.com/radar_mp3",
-    "logo_local": "logos_emisoras\\Radio_Radar.jpg",
-    "generos": [
-      "Indie",
-      "Alternative Rock",
-      "AAA - Adult Album Alternative"
-    ],
-    "descripcion": "Rádio Radar representa o melhor do rádio contemporâneo. Com orgulho representamos Lisboa nas ondas do rádio, esta emissora oferece a melhor música selecionada para você. A melhor experiência de rádio pela internet sem nenhum custo. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA música tem o poder de transformar momentos comuns em experiências extraordinárias. Trabalhamos para ser a trilha sonora perfeita da vida dos nossos ouvintes.\n\nInvestimos nas melhores ferramentas de transmissão para garantir que nosso sinal chegue com clareza a qualquer canto do mundo.\n\nOuvir nossa emissora é mais do que sintonizar uma frequência, é fazer parte de uma experiência auditiva completa. Streaming global para audiências locais e internacionais.\n\nA comunidade que construímos ao longo dos anos é nosso maior tesouro. Ouvintes de todas as idades se conectam conosco diariamente, formando uma família unida pelo amor à boa programação.\n\nEncontre-nos no Instagram, Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. As redes sociais nos permitem estar mais perto de você do que nunca. Interaja conosco, deixe seus comentários e faça parte desta família.\n\nNão espere mais para curtir a melhor programação. Clique em play e deixe-se levar pela nossa proposta musical. A melhor experiência de rádio pela internet sem nenhum custo. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.instagram.com/radar.97.8fm/",
-      "https://www.facebook.com/radioradar"
-    ],
-    "sitio_web": "http://www.radarlisboa.fm/",
-    "ciudad": "Lisboa",
-    "slug": "radio-radar",
-    "descripcion_original": "Rádio Radar transmite ao vivo da cidade de Lisboa, Portugal, 24 horas por dia. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Indie, Alternative Rock, Aaa - Adult Album Alternative selecionada para você. Ouça agora Rádio Radar grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:00:59.596Z"
-  },
-  {
     "nombre": "Rádio Toca a Dançar",
     "url_stream": "https://sp0.redeaudio.com/9974/stream",
     "logo_local": "logos_emisoras\\Radio_Toca_a_Dancar.jpg",
@@ -524,29 +502,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "pt",
     "fecha_enriquecimiento": "2026-01-22T01:00:59.597Z"
-  },
-  {
-    "nombre": "Rádio Oxigénio",
-    "url_stream": "https://proic1.evspt.com/oxigenio_mp3",
-    "logo_local": "logos_emisoras\\Radio_Oxigenio.jpg",
-    "generos": [
-      "Hip Hop",
-      "World Music",
-      "Electronic"
-    ],
-    "descripcion": "Rádio Oxigénio oferece uma experiência de rádio incomparável. A essência de Lisboa em cada transmissão, esta emissora oferece a melhor música selecionada para você. Transmissão gratuita disponível em múltiplas plataformas. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA interatividade é fundamental na nossa proposta. Através das redes sociais, os ouvintes podem solicitar músicas, enviar saudações e participar ativamente da programação.\n\nOs programas especializados da nossa grade abordam temáticas específicas que enriquecem a experiência do ouvinte.\n\nOuvir nossa emissora é mais do que sintonizar uma frequência, é fazer parte de uma experiência auditiva completa. Rádio digital de qualidade premium sem nenhum custo.\n\nNossa emissora tem sido testemunha de momentos importantes na vida de muitas pessoas. Casamentos, comemorações, momentos de reflexão.\n\nEncontre-nos no Instagram, Twitter/X, Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. Siga-nos em todas as nossas plataformas digitais para não perder nenhum momento do que acontece na nossa emissora.\n\nSintonize-nos hoje e descubra uma nova forma de curtir o rádio. A experiência que espera por você é incomparável. Programação contínua 24 horas para te acompanhar sempre. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.instagram.com/oxigenio.fm/",
-      "https://twitter.com/radiooxigenio",
-      "http://www.facebook.com/Oxigenio1026fm"
-    ],
-    "sitio_web": "http://www.oxigenio.fm/",
-    "ciudad": "Lisboa",
-    "slug": "radio-oxigenio",
-    "descripcion_original": "Conecte-se com Rádio Oxigénio, sua estação online diretamente de Lisboa, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Hip Hop, World Music, Eletrônica selecionada para você. Ouça agora Rádio Oxigénio grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:00:59.598Z"
   },
   {
     "nombre": "105.4 Cascais",
@@ -4386,25 +4341,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:00.801Z"
   },
   {
-    "nombre": "RVB - Rádio Voz de Basto",
-    "url_stream": "https://radios.justweb.pt/8018/;",
-    "logo_local": "logos_emisoras\\RVB_Radio_Voz_de_Basto.jpg",
-    "generos": [
-      "Local"
-    ],
-    "descripcion": "Bem-vindo a RVB - Rádio Voz de Basto, seu destino musical favorito. esta emissora oferece a melhor música selecionada para você. Programação contínua 24 horas para te acompanhar sempre. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA interatividade é fundamental na nossa proposta. Através das redes sociais, os ouvintes podem solicitar músicas, enviar saudações e participar ativamente da programação.\n\nA diversidade musical é nossa marca registrada. Acreditamos que a boa música não conhece fronteiras, por isso nossa seleção abrange diferentes épocas, estilos e artistas.\n\nNosso compromisso com a excelência se reflete em cada aspecto da emissora, desde a seleção musical até a qualidade técnica da transmissão. Sem cadastro, sem assinatura, totalmente livre.\n\nA comunidade que construímos ao longo dos anos é nosso maior tesouro. Ouvintes de todas as idades se conectam conosco diariamente, formando uma família unida pelo amor à boa programação.\n\nEncontre-nos no Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. Junte-se à conversa nas nossas redes sociais. Milhares de ouvintes participam diariamente compartilhando opiniões.\n\nSua nova emissora favorita está a um clique de distância. Sintonize agora e comece a curtir conteúdo de primeira. Ouça online a emissora favorita de milhares de ouvintes. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/R%C3%A1dio-Voz-de-Basto-240327489494462/"
-    ],
-    "sitio_web": "http://www.rvbasto.com/",
-    "ciudad": "",
-    "slug": "rvb-radio-voz-de-basto",
-    "descripcion_original": "RVB - Rádio Voz de Basto transmite ao vivo da cidade de Portugal, Portugal, 24 horas por dia. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Local selecionada para você. Ouça agora RVB - Rádio Voz de Basto grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:00.803Z"
-  },
-  {
     "nombre": "WRPO - Web Rádio Portugal Online",
     "url_stream": "https://sp0.redeaudio.com/8108/stream",
     "logo_local": "logos_emisoras\\WRPO_Web_Radio_Portugal_Online.jpg",
@@ -4640,26 +4576,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:00.842Z"
   },
   {
-    "nombre": "Rádio Voz Reguengos 99.0 FM",
-    "url_stream": "https://rs2.ptservidor.com/proxy/radiovoz/;stream/1",
-    "logo_local": "logos_emisoras\\Radio_Voz_Reguengos_990_FM.jpg",
-    "generos": [
-      "Community"
-    ],
-    "descripcion": "Com Rádio Voz Reguengos 99.0 FM a boa música nunca termina. Orgulhosamente transmitindo de Évora, esta emissora oferece a melhor música selecionada para você. Rádio online grátis para ouvir no celular, tablet ou computador. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nTemos orgulho de ser uma emissora que ouve seu público. As preferências dos nossos ouvintes moldam nossa programação, criando um espaço onde a comunidade tem voz e participação ativa.\n\nDesde as primeiras horas da manhã até a noite, nossa emissora te acompanha com programas especialmente desenhados. Nos fins de semana oferecemos programação especial com conteúdo exclusivo.\n\nOuvir nossa emissora é mais do que sintonizar uma frequência, é fazer parte de uma experiência auditiva completa. Rádio online grátis para ouvir no celular, tablet ou computador.\n\nA fidelidade do nosso público nos impulsiona a melhorar constantemente. Sabemos que você tem muitas opções de entretenimento.\n\nEncontre-nos no Facebook, YouTube. Visite nosso site oficial para mais informações e conteúdo exclusivo. Siga-nos em todas as nossas plataformas digitais para não perder nenhum momento do que acontece na nossa emissora.\n\nA melhor música, o melhor entretenimento, a melhor companhia. Tudo isso espera por você. Streaming global para audiências locais e internacionais. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://web.facebook.com/rvr99/",
-      "https://www.youtube.com/@R%C3%A1dioVozTV"
-    ],
-    "sitio_web": "https://vozdereguengos.pt/",
-    "ciudad": "Évora",
-    "slug": "radio-voz-reguengos-990-fm",
-    "descripcion_original": "Ouça Rádio Voz Reguengos 99.0 FM em 99.0 FM ao vivo de Évora, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Community selecionada para você. Ouça agora Rádio Voz Reguengos 99.0 FM grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:00.842Z"
-  },
-  {
     "nombre": "Chaves FM",
     "url_stream": "https://radios2.justweb.pt:8050/;",
     "logo_local": "logos_emisoras\\Chaves_FM.jpg",
@@ -4758,25 +4674,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "pt",
     "fecha_enriquecimiento": "2026-01-22T01:01:00.847Z"
-  },
-  {
-    "nombre": "Radio Cardal",
-    "url_stream": "https://emissao.radiocardal.com/live.ogg",
-    "logo_local": "logos_emisoras\\Radio_Cardal.jpg",
-    "generos": [
-      "Local"
-    ],
-    "descripcion": "Junte-se a nós em Radio Cardal, seu companheiro musical de todos os dias. Leiria é nosso lar e daqui te acompanhamos, esta emissora oferece a melhor música selecionada para você. A melhor experiência de rádio pela internet sem nenhum custo. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nO rádio ao vivo mantém essa essência de espontaneidade e imediatismo que outros meios não conseguem replicar.\n\nOs programas especializados da nossa grade abordam temáticas específicas que enriquecem a experiência do ouvinte.\n\nCada programa é desenhado pensando nos nossos ouvintes e suas preferências. A variedade da nossa programação garante que você sempre encontre algo que combine com seu momento. Conecte-se ao nosso sinal ao vivo com apenas um clique.\n\nMais do que uma emissora, somos um ponto de encontro para milhares de pessoas que compartilham a paixão por conteúdo de qualidade.\n\nEncontre-nos no Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. Nossa presença digital complementa perfeitamente a experiência de rádio. Nas nossas redes você encontra vídeos, imagens e conteúdo adicional.\n\nNão espere mais para curtir a melhor programação. Clique em play e deixe-se levar pela nossa proposta musical. Ouvir rádio online nunca foi tão fácil e acessível. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/cardalfm"
-    ],
-    "sitio_web": "http://radiocardal.com/",
-    "ciudad": "Leiria",
-    "slug": "radio-cardal",
-    "descripcion_original": "Radio Cardal transmite ao vivo da cidade de Leiria, Portugal, 24 horas por dia. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Local selecionada para você. Ouça agora Radio Cardal grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:00.873Z"
   },
   {
     "nombre": "nortada 107",
@@ -5790,27 +5687,6 @@
     "ciudad": "Castelo Branco",
     "slug": "fluxmedia",
     "descripcion_original": "Conecte-se com FLUXMEDIA, sua estação online diretamente de Castelo Branco, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Pop Music, Dance, Top 40 selecionada para você. Ouça agora FLUXMEDIA grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:00.938Z"
-  },
-  {
-    "nombre": "Radio Lusitania Mix",
-    "url_stream": "https://tonyvendas.top:8004/stream",
-    "logo_local": "logos_emisoras\\Radio_Lusitania_Mix.jpg",
-    "generos": [
-      "80s",
-      "70s",
-      "60s"
-    ],
-    "descripcion": "Radio Lusitania Mix representa o melhor do rádio contemporâneo. Transmitindo ao vivo do coração de Lisboa, esta emissora oferece a melhor música selecionada para você. Transmissão gratuita disponível em múltiplas plataformas. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA interatividade é fundamental na nossa proposta. Através das redes sociais, os ouvintes podem solicitar músicas, enviar saudações e participar ativamente da programação.\n\nA diversidade musical é nossa marca registrada. Acreditamos que a boa música não conhece fronteiras, por isso nossa seleção abrange diferentes épocas, estilos e artistas.\n\nCada programa é desenhado pensando nos nossos ouvintes e suas preferências. A variedade da nossa programação garante que você sempre encontre algo que combine com seu momento. Rádio online grátis para ouvir no celular, tablet ou computador.\n\nOs anos de trajetória nos ensinaram que o rádio é um meio profundamente pessoal. Cada ouvinte tem uma história, uma razão para nos sintonizar.\n\nEncontre-nos no Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. Fique conectado conosco através das nossas redes sociais, onde compartilhamos conteúdo exclusivo, prévias de programação e momentos especiais.\n\nMilhares de ouvintes já nos escolheram como sua emissora favorita. O que você está esperando? Conecte-se ao nosso sinal ao vivo com apenas um clique. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/groups/593088369780361"
-    ],
-    "sitio_web": "https://xat.com/RadioLusitaniaMix",
-    "ciudad": "Lisboa",
-    "slug": "radio-lusitania-mix",
-    "descripcion_original": "Aproveite a programação da Radio Lusitania Mix, a rádio online líder em Lisboa, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de 80s, 70s, 60s selecionada para você. Ouça agora Radio Lusitania Mix grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "pt",
     "fecha_enriquecimiento": "2026-01-22T01:01:00.938Z"
@@ -7156,27 +7032,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:01.252Z"
   },
   {
-    "nombre": "Rádio Dom Fuas",
-    "url_stream": "https://radiodomfuas.net/stream",
-    "logo_local": "logos_emisoras\\Radio_Dom_Fuas.jpg",
-    "generos": [
-      "Local"
-    ],
-    "descripcion": "A magia de Rádio Dom Fuas está a apenas um clique de distância. A voz de Leiria que ressoa com força e clareza, esta emissora oferece a melhor música selecionada para você. Rádio digital de qualidade premium sem nenhum custo. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nCada locutor e apresentador dos nossos programas traz sua personalidade única. São profissionais apaixonados que entendem que o rádio é um meio pessoal e íntimo.\n\nA tecnologia de streaming de última geração garante uma qualidade de áudio excepcional. Seja ouvindo do seu computador, celular ou tablet, a experiência será consistente e de primeira qualidade.\n\nOuvir nossa emissora é mais do que sintonizar uma frequência, é fazer parte de uma experiência auditiva completa. Transmissão gratuita disponível em múltiplas plataformas.\n\nOs anos de trajetória nos ensinaram que o rádio é um meio profundamente pessoal. Cada ouvinte tem uma história, uma razão para nos sintonizar.\n\nEncontre-nos no Facebook, Twitter/X, Instagram. Visite nosso site oficial para mais informações e conteúdo exclusivo. Junte-se à conversa nas nossas redes sociais. Milhares de ouvintes participam diariamente compartilhando opiniões.\n\nSeu dia melhora quando você nos ouve. Deixe-nos ser a trilha sonora dos seus momentos especiais. Sem cadastro, sem assinatura, totalmente livre. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/domfuasfm",
-      "http://www.twitter.com/radiodomfuas",
-      "https://www.instagram.com/radiodomfuas/"
-    ],
-    "sitio_web": "http://radiodomfuas.pt/",
-    "ciudad": "Leiria",
-    "slug": "radio-dom-fuas",
-    "descripcion_original": "Conecte-se com Rádio Dom Fuas, sua estação online diretamente de Leiria, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Local selecionada para você. Ouça agora Rádio Dom Fuas grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.253Z"
-  },
-  {
     "nombre": "Rádio Viriato",
     "url_stream": "https://ssls.stmxp.net:7120/1",
     "logo_local": "logos_emisoras\\Radio_Viriato.jpg",
@@ -7597,25 +7452,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:01.285Z"
   },
   {
-    "nombre": "Radio Universal RC",
-    "url_stream": "https://laradiossl.online:20567/;",
-    "logo_local": "logos_emisoras\\Radio_Universal_RC.jpg",
-    "generos": [
-      "80s",
-      "70s",
-      "90s"
-    ],
-    "descripcion": "Sintonize Radio Universal RC e deixe-se levar pela melhor programação de rádio. Levando o espírito de Lisboa através do rádio, esta emissora oferece a melhor música selecionada para você. Disponível online para curtir de qualquer dispositivo. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nNossa programação foi cuidadosamente desenhada para oferecer momentos de entretenimento, informação e companhia musical ao longo do dia. Contamos com espaços dedicados a diferentes horários e preferências, garantindo que você sempre encontre algo para curtir a qualquer hora.\n\nDesde as primeiras horas da manhã até a noite, nossa emissora te acompanha com programas especialmente desenhados. Nos fins de semana oferecemos programação especial com conteúdo exclusivo.\n\nOuvir nossa emissora é mais do que sintonizar uma frequência, é fazer parte de uma experiência auditiva completa. Programação contínua 24 horas para te acompanhar sempre.\n\nA fidelidade do nosso público nos impulsiona a melhorar constantemente. Sabemos que você tem muitas opções de entretenimento.\n\nVisite nosso site oficial para mais informações e conteúdo exclusivo. Fique conectado conosco através das nossas redes sociais, onde compartilhamos conteúdo exclusivo, prévias de programação e momentos especiais.\n\nA melhor música, o melhor entretenimento, a melhor companhia. Tudo isso espera por você. A melhor experiência de rádio pela internet sem nenhum custo. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [],
-    "sitio_web": "https://radiouniversalrc.com/",
-    "ciudad": "Lisboa",
-    "slug": "radio-universal-rc",
-    "descripcion_original": "De Lisboa vem o sinal da Radio Universal RC, sua emissora online favorita em Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de 80s, 70s, 90s selecionada para você. Ouça agora Radio Universal RC grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.285Z"
-  },
-  {
     "nombre": "Rádio Antena Tejo",
     "url_stream": "https://stm21.srvaudio.com.br:11418/stream",
     "logo_local": "logos_emisoras\\Radio_Antena_Tejo.jpg",
@@ -7963,25 +7799,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:01.424Z"
   },
   {
-    "nombre": "Radio Amigos do Porto",
-    "url_stream": "https://stm1.maystream.top:7008/stream?icy=http",
-    "logo_local": "logos_emisoras\\Radio_Amigos_do_Porto.jpg",
-    "generos": [
-      "World Music"
-    ],
-    "descripcion": "Radio Amigos do Porto convida você a mergulhar em um mundo de música e entretenimento. Levando o espírito de Porto através do rádio, esta emissora oferece a melhor música selecionada para você. Sem cadastro, sem assinatura, totalmente livre. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA diversidade musical é nossa marca registrada. Acreditamos que a boa música não conhece fronteiras, por isso nossa seleção abrange diferentes épocas, estilos e artistas.\n\nInvestimos nas melhores ferramentas de transmissão para garantir que nosso sinal chegue com clareza a qualquer canto do mundo.\n\nA paixão pelo rádio se sente em cada segundo da nossa transmissão. Aperfeiçoamos a arte de conectar com nossa audiência. Ouvir rádio online nunca foi tão fácil e acessível.\n\nA comunidade que construímos ao longo dos anos é nosso maior tesouro. Ouvintes de todas as idades se conectam conosco diariamente, formando uma família unida pelo amor à boa programação.\n\nEncontre-nos no Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. As redes sociais nos permitem estar mais perto de você do que nunca. Interaja conosco, deixe seus comentários e faça parte desta família.\n\nNão espere mais para curtir a melhor programação. Clique em play e deixe-se levar pela nossa proposta musical. Programação contínua 24 horas para te acompanhar sempre. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/RadioAmigosdoPorto"
-    ],
-    "sitio_web": "https://www.radios-online.pt/wrpo-web-radio-portugal-online",
-    "ciudad": "Porto",
-    "slug": "radio-amigos-do-porto",
-    "descripcion_original": "Conecte-se com Radio Amigos do Porto, sua estação online diretamente de Porto, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de World Music selecionada para você. Ouça agora Radio Amigos do Porto grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.424Z"
-  },
-  {
     "nombre": "Radio CIDADE FLUMINENSE",
     "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7Rrz9PACAYAAD-nb9PBf4XxsP-kvcMIMBQwAfQAAzesAJgAKC7__uvwfn_HwAA_P__7wBAMGJhYmE1ODZhMmJmZmQ3ODM5YjJmY2YxMDY4MmVmZmEOZGVmYXVsdAwwLjAxMDAMMC4wMDkwAjEEQ08SOENVOTk1VzM1EjM2MDkyMTQ2OQxib2dvdGEOZWFzdF9zYxAwLjAwOTAwMCByYWRpb3Mtb25saW5lLnB0BmZscgIxEDAuMDEwMDAwCDAuMDEGNDYwEDEwMC4wMDAwDDAuMDA5MFJyYWRpb3Mtb25saW5lLnB0L3JhZGlvLWNpZGFkZS1mbHVtaW5lbnNlLwIwBERDBjQ2MAh0cnVlAjEMNzI4eDkwDmhhcm1vbnmQp4IHAjQOMTEuMC4xNCA0MTA4NDc3ODA1MzM3Mjgz_86S4gYmMjAyNi0wMS0wOCAwODo1NjoyNQxwcmViaWRINTVhMjkyYzctNjNhNS00MWUwLWJlNDItYzI1YjA1MGIwYWIyAAAAAAAAAAAAAAAAAAAAAAAIcHJvZAYyNjUGMTAx3gFNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIwLjAuMC4wIFNhZmFyaS81MzcuMzYSMTIwLjAuMC4wDk5UIDEwLjAAAAAAAAAAAAIqHDFfYW1fcGJkXzBfY2JtEDAuMDEwMDAwAAwwLjAxMDACNwIwBjE5NgI0AjgEMTAIMC4wMC4yMDI2MDEwODA3MDRfMV9hbV9wYmRfMAgwLjAwDDAuMDAwMAwwLjAxMDAGMC0xAjEMMC45MTAwLmZ1c2Utc2xvdC0yMjg5NjU1ODgxMi0xFjQ2MF9CSURfQVBJAjECMQQtMdejcD0K91JAAjEuZnVzZS1zbG90LTIyODk2NTU4ODEyLTE4ZG1tLWNzcy1nY3MtNzZkNDQ5N2I5Ny1zMndmYwpmYWxzZQwwLjAwMDAUMy43MDMwOThtcwpmYWxzZQQxMCRzaW1pbGFyc2VhcmNoLm5ldC8MMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAIxLnJhZGlvLWNpZGFkZS1mbHVtaW5lbnNlOnJ0Yi1jb21tb24tOGI4ODU1OWI3LWIyeHFmLlNDOjIwMjYtMDEtMDggMDg6NTY6MjUuNjI4MzQyMDg3LmZ1c2Utc2xvdC0yMjg5NjU1ODgxMi0xLmZ1c2Utc2xvdC0yMjg5NjU1ODgxMi0xDDAuMDAwMAwwLjAwMDAMMC4wMDAwEDE1MzZ4ODY0CDE1MzYGODY0FDg2MjY5LjAwMDAGMC0wCmVxdWFsDDAuMDEwMAIwDkRFRkFVTFRaNjI2NjA5NDMvQVBQR0VOX3JhZGlvcHQyL3JhZGlvX2hlYWRlcl9kZXNrdG9wCHRydWUGRU1TQFMwMzAwMDkwMDAxMTIxODAwNzI4MDA5MDk5OTk5OTAwEDEuMDAwMDAwAmQCMBRTeXN0ZW1fNDYwAQEBAVnbFI-LamE_AAAAAAAA8L8BAjMqbW93eC01NmM4ODdkNDViLWJ2c2Y0BjEwMAwxMS4wLjgAAAAAAAAAAAAAAAAAAAAAAjAAAAEgQ2hyb21lIC0gV2luZG93cwwxMTAxMTEoNDY4eDYwfDQ2OHg5MHw3Mjh4OTAEAgAAAAAAACJAAAAAAAAAEEAGZGVmDHY0X3YxNEAzMDFiNWY2NjMyMzU1ZDQ0MGY1NWMzMDA1Y2I3NGQ3MQxjb21tb24QZDAwM2Q1OGIMUFJFQklEAkBkMzVmZDBiNWM4NDYyMzRkMGM3ZmM1ZDQxNGI5NDkwNwAwOENVSjIxNklYLTY3MTExNTM3OS0yLTI5AAIxDmNvbnRyb2wAEmhlYWRlckJpZAAAAAAAAPA_AAAAAAAAAAAGMC4wAihNdWx0aXBsZShDb29raWUrVUlEKQYzLjMAAAAAAAAA8D8AAAAAAMB8QAAAAAAAUHtAAAAAAAAA8D8AAAAAAEBjQAAAAAAAIGBAAAAAAAAAAAAAAAAAAFB3QAAAAAAAAPA_AAAAAAAAAAAAAAAAAADwvwAAAAAAAPC_AAAAAABgYEB6xyk6ksvpP1jKMsSxLuo_AAAAAABgYEDx9EpZhjjuP5m7lpAPeu4_AAAAAADgYEAAAAAAAIBrQM3MzMzMzOQ_ppvEILBy4j8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAAA4GBAAAAAAAAAYEAAAAAAAADwPwAAAAAAAPA_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAADwvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_WdsUj4tqYT8CMrCQuTKoNrw__YNIhhxbxT-8lpAPejbLPw",
     "logo_local": "logos_emisoras\\Radio_CIDADE_FLUMINENSE.jpg",
@@ -8061,24 +7878,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:01:01.426Z"
   },
   {
-    "nombre": "Radio Dois Temperos",
-    "url_stream": "https://s2.stmxp.net:7070/stream.mp3?ver=473032",
-    "logo_local": "logos_emisoras\\Radio_Dois_Temperos.jpg",
-    "generos": [],
-    "descripcion": "Radio Dois Temperos representa o melhor do rádio contemporâneo. Transmitindo ao vivo do coração de Leiria, esta emissora oferece a melhor música selecionada para você. Sem cadastro, sem assinatura, totalmente livre. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nNossa programação foi cuidadosamente desenhada para oferecer momentos de entretenimento, informação e companhia musical ao longo do dia. Contamos com espaços dedicados a diferentes horários e preferências, garantindo que você sempre encontre algo para curtir a qualquer hora.\n\nA equipe de produção trabalha incansavelmente para trazer conteúdo fresco, atualizado e relevante. Cada programa é uma oportunidade de conectar com nossa audiência e entregar experiências sonoras memoráveis.\n\nA paixão pelo rádio se sente em cada segundo da nossa transmissão. Aperfeiçoamos a arte de conectar com nossa audiência. Rádio online grátis para ouvir no celular, tablet ou computador.\n\nA fidelidade do nosso público nos impulsiona a melhorar constantemente. Sabemos que você tem muitas opções de entretenimento.\n\nEncontre-nos no Facebook, Instagram. Visite nosso site oficial para mais informações e conteúdo exclusivo. Junte-se à conversa nas nossas redes sociais. Milhares de ouvintes participam diariamente compartilhando opiniões.\n\nSeu dia melhora quando você nos ouve. Deixe-nos ser a trilha sonora dos seus momentos especiais. A melhor experiência de rádio pela internet sem nenhum custo. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/radio2temperos/",
-      "https://www.instagram.com/radiodoistemperos"
-    ],
-    "sitio_web": "https://radiodt.pt/",
-    "ciudad": "Leiria",
-    "slug": "radio-dois-temperos",
-    "descripcion_original": "Conecte-se com Radio Dois Temperos, sua estação online diretamente de Leiria, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada selecionada para você. Ouça agora Radio Dois Temperos grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.439Z"
-  },
-  {
     "nombre": "Radio_Voz_da_verdade",
     "url_stream": "https://qsearch-a.akamaihd.net/log?logid=kfke&evtid=dmmra_enc&__q=AcIGxf7Rrz9PACAYAAD-nb9PBf4XxsP-kvcMIMBQwAfQAAzesAJgAKC7__uvwfn_HwAA_P__7wBANjllM2I5MGU4OTRiOGZmZjljZDlkY2Y3YmRhYzJiMjYQdW5pc29uMTgMMC4wMzAwDDAuMDE0MAIwBENPEjhDVTk5NVczNRIzNjA5MjE0NjkMYm9nb3RhDmVhc3Rfc2MQMC4wMTUwMDAgcmFkaW9zLW9ubGluZS5wdAZmbHICMRAwLjAzMDAwMAgwLjAzBjQ2MBAxMDAuMDAwMAwwLjAxNTBMcmFkaW9zLW9ubGluZS5wdC9yYWRpby12b3otZGEtdmVyZGFkZS8CMAREQwY0NjAIdHJ1ZQIxDjMwMHgyNTAOaGFybW9ueYa0yQwCNA4xMS4wLjE0IDQxMDg0Nzc4MDUzMzcyODP_zpLiBiYyMDI2LTAxLTA4IDA5OjA0OjU1DHByZWJpZEg2NzJjMGNjOC0xYmVmLTQzMzctOGYyNy04ZjBkNTU5MGM5NmIAAAAAAAAAAACamZmZmZmpPwhwcm9kBjI2NQYxMDHeAU1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjAuMC4wLjAgU2FmYXJpLzUzNy4zNhIxMjAuMC4wLjAOTlQgMTAuMAAAAAAAAAAAAiocMV9hbV9wYmRfMF9jYm0QMC4wMzAwMDAADDAuMDMwMAQxMwIwBjE5NgI0AjgENTAIMC4wMC4yMDI2MDEwODA3MDRfMV9hbV9wYmRfMAgwLjA1DDAuMDAwMAwwLjAzMDAGMC0xAjEMMC45MTAwLmZ1c2Utc2xvdC0yMzI4MTE5ODI1NS0xFjQ2MF9CSURfQVBJAjECMQQtMUjhehSuV1BAAjEuZnVzZS1zbG90LTIzMjgxMTk4MjU1LTE4ZG1tLWNzcy1nY3MtNzZkNDQ5N2I5Ny1zMndmYwpmYWxzZQwwLjAwMDAUNS4wNzIyMjZtcwpmYWxzZQQ1MCRzaW1pbGFyc2VhcmNoLm5ldC8MMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAwwLjAwMDAMMC4wMDAwDDAuMDAwMAIxKHJhZGlvLXZvei1kYS12ZXJkYWRlOnJ0Yi1jb21tb24tOGI4ODU1OWI3LWtmOHFuLlNDOjIwMjYtMDEtMDggMDk6MDQ6NTUuMjU2ODc1ODMwLmZ1c2Utc2xvdC0yMzI4MTE5ODI1NS0xLmZ1c2Utc2xvdC0yMzI4MTE5ODI1NS0xDDAuMDAwMAwwLjAwMDAMMC4wMDAwEDE1MzZ4ODY0CDE1MzYGODY0FDg2Mzc4LjAwMDAGMC0wCmVxdWFsDDAuMDMwMAIwDkRFRkFVTFRaNjI2NjA5NDMvQVBQR0VOX3JhZGlvcHQyL3JhZGlvX21yZWNfZGVza3RvcF8yCHRydWUGRU1TQFMwMzAwMDkwMDAxNTEyNDAwMzAwMDI1MDk5OTk5OTAwEDEuMDAwMDAwAmQCMBRTeXN0ZW1fNDYwAQEBAVnbFI-LamE_AAAAAAAA8L8BAjMqbW93eC01NmM4ODdkNDViLWNoYmx0BDk1DDExLjAuOAAAAAAAAAAAAAAAAAAAAAACMAAAASBDaHJvbWUgLSBXaW5kb3dzDDExMDExMQ4zMDB4MjUwAgYAAAAAAAD4PwAAAAAAAPA_BmRlZgx2NF92MTRAODYxZWM2NDVkZDhiNzczNDZmNzI2M2FlZDE0NDY4YjcMY29tbW9uEGQwMDNkNThiDFBSRUJJRAJAZjM1YTgxMTA4ZWVhZjg1M2NjMmFmMmZlOGE2Yjc2NGMAMDhDVUoyMTZJWC02NzExMTUzNzktMi0xNAACMQ5jb250cm9sABJoZWFkZXJCaWQAAAAAAADwPwAAAAAAAAAABjAuMAIoTXVsdGlwbGUoQ29va2llK1VJRCkGMy4zAAAAAAAAAPA_AAAAAADgfUAAAAAAAJB8QAAAAAAAAPA_AAAAAAAAZEAAAAAAAMBgQAAAAAAAAAAAAAAAAAAgeEAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8L8AAAAAAADwvwAAAAAAwGhAm1Wfq63Y6T-yLm6jAbzrPwAAAAAAADZA_yH99nXg7j9t5_up8dLyPwAAAAAAgEpAAAAAAADgbECamZmZmZnhP3UCmggbnuI_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAGBpQAAAAAAAoGBAAAAAAAAA8D8AAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC_AAAAAAAA8L8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwv1nbFI-LamE_AjJ1V3bB4Jq7P0iJXdvbLcU_vJaQD3o2yz8",
     "logo_local": "logos_emisoras\\Radio_Voz_da_verdade.jpg",
@@ -8131,23 +7930,6 @@
     "ciudad": "Faro",
     "slug": "nossa-radio-online",
     "descripcion_original": "De Faro vem o sinal da Nossa Rádio - Online, sua emissora online favorita em Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Easy Listening, World Music selecionada para você. Ouça agora Nossa Rádio - Online grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.441Z"
-  },
-  {
-    "nombre": "Portu Radio",
-    "url_stream": "https://ssl.a.stmxp.net:8079/;",
-    "logo_local": "logos_emisoras\\Portu_Radio.jpg",
-    "generos": [],
-    "descripcion": "Portu Radio oferece uma experiência de rádio incomparável. Transmitindo ao vivo do coração de Santarém, esta emissora oferece a melhor música selecionada para você. Streaming global para audiências locais e internacionais. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nOs programas especializados da nossa grade abordam temáticas específicas que enriquecem a experiência do ouvinte.\n\nCada locutor e apresentador dos nossos programas traz sua personalidade única. São profissionais apaixonados que entendem que o rádio é um meio pessoal e íntimo.\n\nNosso compromisso com a excelência se reflete em cada aspecto da emissora, desde a seleção musical até a qualidade técnica da transmissão. Transmissão em streaming de alta qualidade sem interrupções.\n\nA comunidade que construímos ao longo dos anos é nosso maior tesouro. Ouvintes de todas as idades se conectam conosco diariamente, formando uma família unida pelo amor à boa programação.\n\nEncontre-nos no Facebook. Visite nosso site oficial para mais informações e conteúdo exclusivo. As redes sociais nos permitem estar mais perto de você do que nunca. Interaja conosco, deixe seus comentários e faça parte desta família.\n\nSintonize-nos hoje e descubra uma nova forma de curtir o rádio. A experiência que espera por você é incomparável. Programação contínua 24 horas para te acompanhar sempre. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://www.facebook.com/Porturadiovalongo/"
-    ],
-    "sitio_web": "http://www.porturadio.pt/",
-    "ciudad": "Santarém",
-    "slug": "portu-radio",
-    "descripcion_original": "Aproveite a programação da Portu Radio, a rádio online líder em Santarém, Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada selecionada para você. Ouça agora Portu Radio grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "pt",
     "fecha_enriquecimiento": "2026-01-22T01:01:01.441Z"
@@ -8261,27 +8043,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "pt",
     "fecha_enriquecimiento": "2026-01-22T01:01:01.463Z"
-  },
-  {
-    "nombre": "VEEP RADIO",
-    "url_stream": "https://listen.radioking.com/radio/42445/stream/79033",
-    "logo_local": "logos_emisoras\\VEEP_RADIO.jpg",
-    "generos": [
-      "Indie",
-      "Variety",
-      "House"
-    ],
-    "descripcion": "Conecte-se com VEEP RADIO e faça parte da nossa grande família de ouvintes. esta emissora oferece a melhor música selecionada para você. Transmissão gratuita disponível em múltiplas plataformas. Nosso sinal chega a milhares de lares e dispositivos, tornando-nos a companhia perfeita para qualquer momento do dia.\n\nA equipe de produção trabalha incansavelmente para trazer conteúdo fresco, atualizado e relevante. Cada programa é uma oportunidade de conectar com nossa audiência e entregar experiências sonoras memoráveis.\n\nA música tem o poder de transformar momentos comuns em experiências extraordinárias. Trabalhamos para ser a trilha sonora perfeita da vida dos nossos ouvintes.\n\nNosso compromisso com a excelência se reflete em cada aspecto da emissora, desde a seleção musical até a qualidade técnica da transmissão. Transmissão gratuita disponível em múltiplas plataformas.\n\nNossa emissora tem sido testemunha de momentos importantes na vida de muitas pessoas. Casamentos, comemorações, momentos de reflexão.\n\nEncontre-nos no Twitter/X. Visite nosso site oficial para mais informações e conteúdo exclusivo. As redes sociais nos permitem estar mais perto de você do que nunca. Interaja conosco, deixe seus comentários e faça parte desta família.\n\nSeu dia melhora quando você nos ouve. Deixe-nos ser a trilha sonora dos seus momentos especiais. Programação contínua 24 horas para te acompanhar sempre. Aperte play e comece a curtir a melhor experiência de rádio!",
-    "redes_sociales": [
-      "https://twitter.com/RadioVeep"
-    ],
-    "sitio_web": "http://veepradio.com/",
-    "ciudad": "",
-    "slug": "veep-radio",
-    "descripcion_original": "De Portugal vem o sinal da VEEP RADIO, sua emissora online favorita em Portugal. Esta estação de rádio se destaca por sua programação musical de qualidade, entretenimento e variedade. Oferece uma programação variada com o melhor de Indie, Variety, House selecionada para você. Ouça agora VEEP RADIO grátis no Emisoras Latinas e aproveite a melhor rádio de Portugal 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "pt",
-    "fecha_enriquecimiento": "2026-01-22T01:01:01.464Z"
   },
   {
     "nombre": "Radio Estremadura",

@@ -278,28 +278,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.154Z"
   },
   {
-    "nombre": "Radio Futuro FM",
-    "url_stream": "https://19213.live.streamtheworld.com/FUTUROAAC_SC",
-    "logo_local": "logos_emisoras\\Radio_Futuro_FM.jpg",
-    "descripcion": "Prepárate para disfrutar de Radio Futuro FM, una emisora que marca la diferencia. esta emisora te ofrece la mejor música seleccionada para ti. Disponible online para que disfrutes desde cualquier dispositivo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Accede gratis a la mejor radio desde cualquier lugar del mundo.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nEncuéntranos en Facebook, Twitter/X, Instagram, YouTube. Visita nuestro sitio web oficial para más información y contenido exclusivo. Las redes sociales nos permiten estar más cerca de ti que nunca. Interactúa con nosotros, déjanos tus comentarios y forma parte activa de esta gran familia que crece día a día.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Conecta con nuestra señal en vivo con un solo clic. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [
-      "Rock"
-    ],
-    "redes_sociales": [
-      "https://www.facebook.com/radiofuturo",
-      "https://twitter.com/futurofm",
-      "https://instagram.com/futurofm",
-      "https://www.youtube.com/user/radiofuturotv"
-    ],
-    "sitio_web": "http://www.futuro.cl/",
-    "ciudad": "",
-    "slug": "radio-futuro-fm",
-    "descripcion_original": "Radio Futuro FM transmite en vivo desde la ciudad de Chile, Chile, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Rock seleccionada para ti. Sintoniza ahora Radio Futuro FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.155Z"
-  },
-  {
     "nombre": "Radio El Conquistador",
     "url_stream": "https://stream10.usastreams.com/9314/stream",
     "logo_local": "logos_emisoras\\Radio_El_Conquistador.jpg",
@@ -2239,26 +2217,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.257Z"
   },
   {
-    "nombre": "Radio Tricolor Valdivia",
-    "url_stream": "https://radiolatina.live/8112/;",
-    "logo_local": "logos_emisoras\\Radio_Tricolor_Valdivia.jpg",
-    "descripcion": "La propuesta de Radio Tricolor Valdivia es simple: la mejor música para ti. esta emisora te ofrece la mejor música seleccionada para ti. Transmisión gratuita disponible en múltiples plataformas. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Radio digital de calidad premium sin ningún costo.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nEncuéntranos en Instagram. Visita nuestro sitio web oficial para más información y contenido exclusivo. Las redes sociales nos permiten estar más cerca de ti que nunca. Interactúa con nosotros, déjanos tus comentarios y forma parte activa de esta gran familia que crece día a día.\n\nTu día mejora cuando nos escuchas. Permítenos ser la banda sonora de tus momentos especiales. Streaming global para audiencias locales e internacionales. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [
-      "Rock",
-      "Pop Music"
-    ],
-    "redes_sociales": [
-      "https://www.instagram.com/radiotricolorchile/"
-    ],
-    "sitio_web": "http://www.radiotricolor.cl/",
-    "ciudad": "",
-    "slug": "radio-tricolor-valdivia",
-    "descripcion_original": "Conecta con Radio Tricolor Valdivia, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Rock, Pop Music seleccionada para ti. Sintoniza ahora Radio Tricolor Valdivia gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.262Z"
-  },
-  {
     "nombre": "Radio Sol Classic",
     "url_stream": "https://us9.maindigitalstream.com/ssl/7389",
     "logo_local": "logos_emisoras\\Radio_Sol_Classic.jpg",
@@ -3376,25 +3334,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.439Z"
   },
   {
-    "nombre": "Radio Retro Chile",
-    "url_stream": "https://stm11.voxhd.com.br:10232/stream",
-    "logo_local": "logos_emisoras\\Radio_Retro_Chile.jpg",
-    "descripcion": "Radio Retro Chile representa lo mejor de la radio contemporánea. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nLa historia de nuestra emisora es la historia de miles de momentos compartidos con la audiencia. Cada transmisión es una oportunidad de crear nuevos recuerdos y fortalecer los lazos con nuestra comunidad de oyentes fieles.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Radio online gratis para escuchar en celular, tablet o computadora.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Nuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nTu día mejora cuando nos escuchas. Permítenos ser la banda sonora de tus momentos especiales. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [
-      "80s",
-      "70s",
-      "90s"
-    ],
-    "redes_sociales": [],
-    "sitio_web": "http://radioretrochile.com/",
-    "ciudad": "",
-    "slug": "radio-retro-chile",
-    "descripcion_original": "Sintoniza Radio Retro Chile online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Radio Retro Chile gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.441Z"
-  },
-  {
     "nombre": "FM Okey Quillota",
     "url_stream": "https://streaming.fmokey.cl/fmokey",
     "logo_local": "logos_emisoras\\FM_Okey_Quillota.jpg",
@@ -4045,23 +3984,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.486Z"
   },
   {
-    "nombre": "RADIO NAHUEL ACHAO",
-    "url_stream": "https://connectanet.ddns.net:8443/achao",
-    "logo_local": "logos_emisoras\\RADIO_NAHUEL_ACHAO.jpg",
-    "descripcion": "RADIO NAHUEL ACHAO llega a ti con la energía y calidad que mereces. esta emisora te ofrece la mejor música seleccionada para ti. La mejor experiencia de radio por internet sin costo alguno. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nContamos con una biblioteca musical extensa y cuidadosamente catalogada. Nuestros programadores musicales seleccionan cada tema considerando el flujo del programa, la hora del día y las preferencias de nuestra audiencia.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Programación continua las 24 horas para acompañarte siempre.\n\nLos años de trayectoria nos han enseñado que la radio es un medio profundamente personal. Cada oyente tiene una historia, una razón para sintonizarnos, y valoramos esa conexión individual. Trabajamos cada día para merecer tu preferencia.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Nuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Streaming en vivo con la mejor calidad de audio digital. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [],
-    "redes_sociales": [
-      "http://streaming.admediasystem.net:9924/"
-    ],
-    "sitio_web": "http://www.radionahuel.cl/",
-    "ciudad": "",
-    "slug": "radio-nahuel-achao",
-    "descripcion_original": "Sintoniza RADIO NAHUEL ACHAO online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora RADIO NAHUEL ACHAO gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.486Z"
-  },
-  {
     "nombre": "Radio La Mejor",
     "url_stream": "https://stream20.usastreams.com/8146/stream",
     "logo_local": "logos_emisoras\\Radio_La_Mejor.jpg",
@@ -4590,29 +4512,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.754Z"
   },
   {
-    "nombre": "Radio NiTanRetro",
-    "url_stream": "https://sonic.portalfoxmix.cl/8090/;",
-    "logo_local": "logos_emisoras\\Radio_NiTanRetro.jpg",
-    "descripcion": "Sintoniza Radio NiTanRetro y déjate llevar por la mejor programación radial. esta emisora te ofrece la mejor música seleccionada para ti. Radio online gratis para escuchar en celular, tablet o computadora. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Escucha online la emisora favorita de miles de oyentes.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nEncuéntranos en YouTube, Facebook, Instagram. Visita nuestro sitio web oficial para más información y contenido exclusivo. Mantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Radio digital de calidad premium sin ningún costo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [
-      "80s",
-      "70s",
-      "90s"
-    ],
-    "redes_sociales": [
-      "https://www.youtube.com/channel/UCpAu0ZsyWmULOe79v3olMgQ/videos?view_as=subscriber",
-      "https://www.facebook.com/radionitanretrofm",
-      "https://www.instagram.com/radio_nitanretro/"
-    ],
-    "sitio_web": "http://www.nitanretro.cl/",
-    "ciudad": "",
-    "slug": "radio-nitanretro",
-    "descripcion_original": "Conecta con Radio NiTanRetro, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Radio NiTanRetro gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.754Z"
-  },
-  {
     "nombre": "Radio Plus",
     "url_stream": "https://unlimited5-us.dps.live/nostalgicaplus/mp3/icecast.audio",
     "logo_local": "logos_emisoras\\Radio_Plus.jpg",
@@ -4810,23 +4709,6 @@
     "ciudad": "",
     "slug": "retro-tops",
     "descripcion_original": "Conecta con Retro Top's, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de 80s, 70s, 90s seleccionada para ti. Sintoniza ahora Retro Top's gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.764Z"
-  },
-  {
-    "nombre": "Radio Somos 91.5 FM",
-    "url_stream": "https://streaming1.tecnoera.com:8242/;",
-    "logo_local": "logos_emisoras\\Radio_Somos_915_FM.jpg",
-    "descripcion": "Prepárate para disfrutar de Radio Somos 91.5 FM, una emisora que marca la diferencia. esta emisora te ofrece la mejor música seleccionada para ti. Programación continua las 24 horas para acompañarte siempre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Radio digital de calidad premium sin ningún costo.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Nuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Streaming global para audiencias locales e internacionales. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "generos": [],
-    "redes_sociales": [
-      "http://200.24.229.253:8230/"
-    ],
-    "sitio_web": "https://radiosomos.cl/",
-    "ciudad": "",
-    "slug": "radio-somos-915-fm",
-    "descripcion_original": "Escucha Radio Somos 91.5 FM en el 91.5 FM en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Somos 91.5 FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:15.764Z"
@@ -5347,19 +5229,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:15.791Z"
   },
   {
-    "nombre": "FM Sombras",
-    "url_perfil": "https://www.radios-chilenas.com/fm-sombras",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8012",
-    "logo_local": "logos_emisoras\\FM_Sombras.jpg",
-    "fecha": "2025-12-26 18:38:54",
-    "descripcion": "Sintoniza FM Sombras y déjate llevar por la mejor programación radial. esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nCada locutor y conductor de nuestros programas aporta su personalidad única a la emisora. Son profesionales apasionados que entienden que la radio es un medio personal e íntimo, capaz de crear conexiones genuinas con cada oyente.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Radio online gratis para escuchar en celular, tablet o computadora.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nSintonízanos hoy y descubre una nueva forma de disfrutar la radio. La experiencia que te espera es incomparable. La mejor experiencia de radio por internet sin costo alguno. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fm-sombras",
-    "descripcion_original": "Escucha FM Sombras en vivo desde Chile, Chile, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora FM Sombras gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:15.791Z"
-  },
-  {
     "nombre": "Medios Unidos - Chile",
     "url_perfil": "https://www.radios-chilenas.com/radio-portales-de-santiago-senal-digital",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -5386,19 +5255,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.013Z"
   },
   {
-    "nombre": "Fanática INDIE",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-indie",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8008",
-    "logo_local": "logos_emisoras\\Fanatica_INDIE.jpg",
-    "fecha": "2025-12-26 18:40:40",
-    "descripcion": "Bienvenido a Fanática INDIE, tu destino musical favorito. esta emisora te ofrece la mejor música seleccionada para ti. Accede gratis a la mejor radio desde cualquier lugar del mundo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Conecta con nuestra señal en vivo con un solo clic.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-indie",
-    "descripcion_original": "Fanática INDIE transmite en vivo desde la ciudad de Chile, Chile, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática INDIE gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.014Z"
-  },
-  {
     "nombre": "Radio Catalina 89.1 - Coronel",
     "url_perfil": "https://www.radios-chilenas.com/radio-catalina-891-coronel",
     "url_stream": "https://streaming.comunicacioneschile.net/8034/stream",
@@ -5423,19 +5279,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.017Z"
-  },
-  {
-    "nombre": "80s FlashBack Radio",
-    "url_perfil": "https://www.radios-chilenas.com/80s-flashback-radio",
-    "url_stream": "https://c23.radioboss.fm:8129/stream",
-    "logo_local": "logos_emisoras\\80s_FlashBack_Radio.jpg",
-    "fecha": "2025-12-26 18:42:30",
-    "descripcion": "La propuesta de 80s FlashBack Radio es simple: la mejor música para ti. esta emisora te ofrece la mejor música seleccionada para ti. Escuchar radio en línea nunca fue tan fácil y accesible. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nContamos con una biblioteca musical extensa y cuidadosamente catalogada. Nuestros programadores musicales seleccionan cada tema considerando el flujo del programa, la hora del día y las preferencias de nuestra audiencia.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Radio online gratis para escuchar en celular, tablet o computadora.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "80s-flashback-radio",
-    "descripcion_original": "Conecta con 80s FlashBack Radio, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora 80s FlashBack Radio gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.018Z"
   },
   {
     "nombre": "Revivelos80",
@@ -5880,19 +5723,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.080Z"
   },
   {
-    "nombre": "Fanática POP",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-pop",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8010",
-    "logo_local": "logos_emisoras\\Fanatica_POP.jpg",
-    "fecha": "2025-12-26 19:33:12",
-    "descripcion": "Te presentamos Fanática POP, donde la música cobra vida. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Streaming en vivo con la mejor calidad de audio digital.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Conecta con nuestra señal en vivo con un solo clic. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-pop",
-    "descripcion_original": "Sintoniza Fanática POP online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática POP gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.080Z"
-  },
-  {
     "nombre": "Apocalipsis TVD 14.2",
     "url_perfil": "https://www.radios-chilenas.com/apocalipsis-tvd-142",
     "url_stream": "https://radio.streamenginelogin.com:8032/stream",
@@ -5914,19 +5744,6 @@
     "descripcion": "Radio Maule Sur te invita a sumergirte en un mundo de música y entretenimiento. esta emisora te ofrece la mejor música seleccionada para ti. Escuchar radio en línea nunca fue tan fácil y accesible. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nLa radio en vivo mantiene esa esencia de espontaneidad e inmediatez que otros medios no pueden replicar. Cada transmisión es única, cada momento es irrepetible, y eso hace que escucharnos sea siempre una experiencia fresca.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Radio digital de calidad premium sin ningún costo.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nNo esperes más para disfrutar de la mejor programación. Haz clic en reproducir y déjate llevar por nuestra propuesta musical. Radio online gratis para escuchar en celular, tablet o computadora. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "radio-maule-sur",
     "descripcion_original": "Sintoniza Radio Maule Sur online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Maule Sur gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.086Z"
-  },
-  {
-    "nombre": "Radio Reloncaví",
-    "url_perfil": "https://www.radios-chilenas.com/radio-reloncavi",
-    "url_stream": "https://centova.neonetwork.cl:9172/stream",
-    "logo_local": "logos_emisoras\\Radio_Reloncavi.jpg",
-    "fecha": "2025-12-26 19:35:05",
-    "descripcion": "En Radio Reloncaví encontrarás la perfecta combinación de música y contenido. esta emisora te ofrece la mejor música seleccionada para ti. Streaming en vivo con la mejor calidad de audio digital. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. La mejor experiencia de radio por internet sin costo alguno.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Escucha online la emisora favorita de miles de oyentes. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-reloncavi",
-    "descripcion_original": "Disfruta de la programación de Radio Reloncaví, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Reloncaví gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.086Z"
@@ -6283,19 +6100,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.107Z"
   },
   {
-    "nombre": "Radio Chilena del Maule",
-    "url_perfil": "https://www.radios-chilenas.com/radio-chilena-del-maule",
-    "url_stream": "https://sonando-us.digitalproserver.com/chilena_maule.aac",
-    "logo_local": "logos_emisoras\\Radio_Chilena_del_Maule.jpg",
-    "fecha": "2025-12-26 19:51:54",
-    "descripcion": "Sintoniza Radio Chilena del Maule y déjate llevar por la mejor programación radial. esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nNuestra programación ha sido cuidadosamente diseñada para ofrecerte momentos de entretenimiento, información y compañía musical a lo largo del día. Contamos con espacios dedicados a diferentes horarios y preferencias, asegurando que siempre encuentres algo que disfrutar sin importar la hora.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Transmisión en streaming de alta calidad sin interrupciones.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nMiles de oyentes ya nos eligieron como su emisora favorita. ¿Qué esperas para unirte a ellos? Streaming global para audiencias locales e internacionales. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-chilena-del-maule",
-    "descripcion_original": "Escucha Radio Chilena del Maule en vivo desde Chile, Chile, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Chilena del Maule gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.113Z"
-  },
-  {
     "nombre": "HEAVYMETALRADIO",
     "url_perfil": "https://www.radios-chilenas.com/heavymetalradio",
     "url_stream": "https://sonic.portalfoxmix.cl/8436/stream",
@@ -6395,19 +6199,6 @@
     "descripcion": "La experiencia de Radio Indomables te espera con los brazos abiertos. esta emisora te ofrece la mejor música seleccionada para ti. Escuchar radio en línea nunca fue tan fácil y accesible. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Escuchar radio en línea nunca fue tan fácil y accesible.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Accede gratis a la mejor radio desde cualquier lugar del mundo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "radio-indomables",
     "descripcion_original": "Sintoniza Radio Indomables online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Indomables gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.116Z"
-  },
-  {
-    "nombre": "Fanática KPOP",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-kpop",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8026",
-    "logo_local": "logos_emisoras\\Fanatica_KPOP.jpg",
-    "fecha": "2025-12-26 19:57:23",
-    "descripcion": "Bienvenido a Fanática KPOP, tu destino musical favorito. esta emisora te ofrece la mejor música seleccionada para ti. Radio online gratis para escuchar en celular, tablet o computadora. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl compromiso con la excelencia nos impulsa a mejorar constantemente. Evaluamos nuestra programación, escuchamos las sugerencias y adaptamos nuestro contenido para seguir siendo relevantes en un mundo mediático en constante evolución.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Disponible online para que disfrutes desde cualquier dispositivo.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nSintonízanos hoy y descubre una nueva forma de disfrutar la radio. La experiencia que te espera es incomparable. Radio digital de calidad premium sin ningún costo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-kpop",
-    "descripcion_original": "Fanática KPOP transmite en vivo desde la ciudad de Chile, Chile, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática KPOP gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.116Z"
@@ -7713,19 +7504,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.431Z"
   },
   {
-    "nombre": "La Betonera",
-    "url_perfil": "https://www.radios-chilenas.com/la-betonera",
-    "url_stream": "https://sonic.nnw.cl/8148/stream",
-    "logo_local": "logos_emisoras\\La_Betonera.jpg",
-    "fecha": "2025-12-26 20:57:17",
-    "descripcion": "Prepárate para disfrutar de La Betonera, una emisora que marca la diferencia. esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Radio online gratis para escuchar en celular, tablet o computadora.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nTe invitamos a sintonizarnos y descubrir por qué miles de oyentes nos eligen cada día. ¡Bienvenido a nuestra familia radial! Disponible online para que disfrutes desde cualquier dispositivo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "la-betonera",
-    "descripcion_original": "Disfruta de la programación de La Betonera, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora La Betonera gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.437Z"
-  },
-  {
     "nombre": "CityRadio Smooth Jazz",
     "url_perfil": "https://www.radios-chilenas.com/cityradio",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -8116,19 +7894,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.468Z"
   },
   {
-    "nombre": "Fanática CHILL",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-chill",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8004",
-    "logo_local": "logos_emisoras\\Fanatica_CHILL.jpg",
-    "fecha": "2025-12-26 21:15:32",
-    "descripcion": "Con Fanática CHILL cada momento se convierte en una experiencia sonora única. esta emisora te ofrece la mejor música seleccionada para ti. Transmisión gratuita disponible en múltiples plataformas. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl compromiso con la excelencia nos impulsa a mejorar constantemente. Evaluamos nuestra programación, escuchamos las sugerencias y adaptamos nuestro contenido para seguir siendo relevantes en un mundo mediático en constante evolución.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Streaming global para audiencias locales e internacionales.\n\nLos años de trayectoria nos han enseñado que la radio es un medio profundamente personal. Cada oyente tiene una historia, una razón para sintonizarnos, y valoramos esa conexión individual. Trabajamos cada día para merecer tu preferencia.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Transmisión gratuita disponible en múltiples plataformas. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-chill",
-    "descripcion_original": "Sintoniza Fanática CHILL online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática CHILL gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.468Z"
-  },
-  {
     "nombre": "Radio Z",
     "url_perfil": "https://www.radios-chilenas.com/radioz-laja",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -8462,19 +8227,6 @@
     "descripcion": "En Radio Sublime Gracia encontrarás la perfecta combinación de música y contenido. esta emisora te ofrece la mejor música seleccionada para ti. Streaming global para audiencias locales e internacionales. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nContamos con una biblioteca musical extensa y cuidadosamente catalogada. Nuestros programadores musicales seleccionan cada tema considerando el flujo del programa, la hora del día y las preferencias de nuestra audiencia.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Radio online gratis para escuchar en celular, tablet o computadora.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nMiles de oyentes ya nos eligieron como su emisora favorita. ¿Qué esperas para unirte a ellos? Disponible online para que disfrutes desde cualquier dispositivo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "radio-sublime-gracia",
     "descripcion_original": "Disfruta de la programación de Radio Sublime Gracia, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Sublime Gracia gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.490Z"
-  },
-  {
-    "nombre": "M1 Radio",
-    "url_perfil": "https://www.radios-chilenas.com/m1-radio",
-    "url_stream": "https://sonic.portalfoxmix.cl/9836/stream",
-    "logo_local": "logos_emisoras\\M1_Radio.jpg",
-    "fecha": "2025-12-27 10:34:47",
-    "descripcion": "La experiencia de M1 Radio te espera con los brazos abiertos. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. La mejor experiencia de radio por internet sin costo alguno.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nMiles de oyentes ya nos eligieron como su emisora favorita. ¿Qué esperas para unirte a ellos? Disponible online para que disfrutes desde cualquier dispositivo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "m1-radio",
-    "descripcion_original": "Conecta con M1 Radio, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora M1 Radio gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.490Z"
@@ -9143,19 +8895,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.553Z"
   },
   {
-    "nombre": "Estación 106",
-    "url_perfil": "https://www.radios-chilenas.com/estacion-106",
-    "url_stream": "https://video.mediawebchile.com:8184/stream",
-    "logo_local": "logos_emisoras\\Estacion_106.jpg",
-    "fecha": "2025-12-27 11:08:24",
-    "descripcion": "Estación 106 representa lo mejor de la radio contemporánea. esta emisora te ofrece la mejor música seleccionada para ti. Radio online gratis para escuchar en celular, tablet o computadora. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa música tiene el poder de transformar momentos ordinarios en experiencias extraordinarias. En nuestra emisora entendemos esta magia y trabajamos para ser el soundtrack perfecto de la vida de nuestros oyentes.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Radio online gratis para escuchar en celular, tablet o computadora.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Radio digital de calidad premium sin ningún costo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "estacion-106",
-    "descripcion_original": "Conecta con Estación 106, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Estación 106 gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.560Z"
-  },
-  {
     "nombre": "Radio Del Maipo FM",
     "url_perfil": "https://www.radios-chilenas.com/radio-del-maipo-fm",
     "url_stream": "https://sonic.mallocohosting.cl/8012/stream",
@@ -9533,19 +9272,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.585Z"
   },
   {
-    "nombre": "Radio Balneario 97.5 Los Vilos",
-    "url_perfil": "https://www.radios-chilenas.com/radio-balneario-975-los-vilos",
-    "url_stream": "https://archi-us.digitalproserver.com/balneario.aac",
-    "logo_local": "logos_emisoras\\Radio_Balneario_975_Los_Vilos.jpg",
-    "fecha": "2025-12-27 11:28:12",
-    "descripcion": "Radio Balneario 97.5 Los Vilos representa lo mejor de la radio contemporánea. esta emisora te ofrece la mejor música seleccionada para ti. La mejor experiencia de radio por internet sin costo alguno. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nLa radio en vivo mantiene esa esencia de espontaneidad e inmediatez que otros medios no pueden replicar. Cada transmisión es única, cada momento es irrepetible, y eso hace que escucharnos sea siempre una experiencia fresca.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Accede gratis a la mejor radio desde cualquier lugar del mundo.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Sin registro, sin suscripción, completamente libre. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-balneario-975-los-vilos",
-    "descripcion_original": "Desde Chile llega la señal de Radio Balneario 97.5 Los Vilos, tu emisora online favorita en Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Balneario 97.5 Los Vilos gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.593Z"
-  },
-  {
     "nombre": "Radio Atacama",
     "url_perfil": "https://www.radios-chilenas.com/cf-radio",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -9832,19 +9558,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.615Z"
   },
   {
-    "nombre": "Radio Las Alturas de Coya 107.9 FM",
-    "url_perfil": "https://www.radios-chilenas.com/radio-las-alturas-de-coya-1079-fm",
-    "url_stream": "https://sonic.portalfoxmix.cl/8544/;",
-    "logo_local": "logos_emisoras\\Radio_Las_Alturas_de_Coya_1079_FM.jpg",
-    "fecha": "2025-12-27 11:42:13",
-    "descripcion": "Radio Las Alturas de Coya 107.9 FM te invita a sumergirte en un mundo de música y entretenimiento. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Streaming en vivo con la mejor calidad de audio digital.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-las-alturas-de-coya-1079-fm",
-    "descripcion_original": "Disfruta de la programación de Radio Las Alturas de Coya 107.9 FM (107.9 FM), la emisora líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Las Alturas de Coya 107.9 FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.615Z"
-  },
-  {
     "nombre": "Radio Pirque",
     "url_perfil": "https://www.radios-chilenas.com/radio-pirque",
     "url_stream": "https://server01.heplayer.com/8068/stream.mp3?_=1",
@@ -10051,19 +9764,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.626Z"
-  },
-  {
-    "nombre": "Fanática CL",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-cl",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8006",
-    "logo_local": "logos_emisoras\\Fanatica_CL.jpg",
-    "fecha": "2025-12-27 11:52:19",
-    "descripcion": "La propuesta de Fanática CL es simple: la mejor música para ti. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Sin registro, sin suscripción, completamente libre.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nTu día mejora cuando nos escuchas. Permítenos ser la banda sonora de tus momentos especiales. Streaming en vivo con la mejor calidad de audio digital. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-cl",
-    "descripcion_original": "Disfruta de la programación de Fanática CL, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática CL gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.633Z"
   },
   {
     "nombre": "Radio Miramar FM",
@@ -10989,19 +10689,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.723Z"
   },
   {
-    "nombre": "Radio Latitud 30",
-    "url_perfil": "https://www.radios-chilenas.com/radio-latitud-30",
-    "url_stream": "https://servidor15.brlogic.com:7298/live",
-    "logo_local": "logos_emisoras\\Radio_Latitud_30.jpg",
-    "fecha": "2025-12-27 12:36:29",
-    "descripcion": "Te presentamos Radio Latitud 30, donde la música cobra vida. esta emisora te ofrece la mejor música seleccionada para ti. La mejor experiencia de radio por internet sin costo alguno. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa historia de nuestra emisora es la historia de miles de momentos compartidos con la audiencia. Cada transmisión es una oportunidad de crear nuevos recuerdos y fortalecer los lazos con nuestra comunidad de oyentes fieles.\n\nEl compromiso con la excelencia nos impulsa a mejorar constantemente. Evaluamos nuestra programación, escuchamos las sugerencias y adaptamos nuestro contenido para seguir siendo relevantes en un mundo mediático en constante evolución.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Sin registro, sin suscripción, completamente libre.\n\nLos años de trayectoria nos han enseñado que la radio es un medio profundamente personal. Cada oyente tiene una historia, una razón para sintonizarnos, y valoramos esa conexión individual. Trabajamos cada día para merecer tu preferencia.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Disponible online para que disfrutes desde cualquier dispositivo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-latitud-30",
-    "descripcion_original": "Sintoniza Radio Latitud 30 online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Latitud 30 gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.727Z"
-  },
-  {
     "nombre": "Radio Máxima CL (Pop)",
     "url_perfil": "https://www.radios-chilenas.com/radio-maxima-cl-pop",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -11210,19 +10897,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.742Z"
   },
   {
-    "nombre": "Radio LibelulaChile 2",
-    "url_perfil": "https://www.radios-chilenas.com/libelulachilecl-senal-2",
-    "url_stream": "https://streaming.libelulachile.cl/8212/stream",
-    "logo_local": "logos_emisoras\\Radio_LibelulaChile_2.jpg",
-    "fecha": "2025-12-27 12:46:44",
-    "descripcion": "Descubre Radio LibelulaChile 2, la estación que ha conquistado a miles de oyentes. esta emisora te ofrece la mejor música seleccionada para ti. Radio online gratis para escuchar en celular, tablet o computadora. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Streaming global para audiencias locales e internacionales.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. La mejor experiencia de radio por internet sin costo alguno. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-libelulachile-2",
-    "descripcion_original": "Conecta con Radio LibelulaChile 2, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio LibelulaChile 2 gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.742Z"
-  },
-  {
     "nombre": "elPotrerillano.cl",
     "url_perfil": "https://www.radios-chilenas.com/elpotrerillanocl",
     "url_stream": "https://stream-176.zeno.fm/9ey02tp3fchvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5ZXkwMnRwM2ZjaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzYuemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiX2hMakdpNDBUZnlNdmg0RFFsRmh4USIsImlhdCI6MTc2Njg1NzYyNiwiZXhwIjoxNzY2ODU3Njg2fQ.TodPw-_s0zn5UlzuFfXGgHWESJ0Z796jAMqp3RmzP0E",
@@ -11244,19 +10918,6 @@
     "descripcion": "Acompáñanos en Diferencia FM, tu compañero musical de todos los días. esta emisora te ofrece la mejor música seleccionada para ti. Transmisión gratuita disponible en múltiples plataformas. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Programación continua las 24 horas para acompañarte siempre.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nNo esperes más para disfrutar de la mejor programación. Haz clic en reproducir y déjate llevar por nuestra propuesta musical. Transmisión gratuita disponible en múltiples plataformas. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "diferencia-fm",
     "descripcion_original": "Desde Chile llega la señal de Diferencia FM, tu emisora online favorita en Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Diferencia FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.752Z"
-  },
-  {
-    "nombre": "Radio Match",
-    "url_perfil": "https://www.radios-chilenas.com/radio-like-santiago",
-    "url_stream": "https://servidor20.brlogic.com:7044/live",
-    "logo_local": "logos_emisoras\\Radio_Match.jpg",
-    "fecha": "2025-12-27 12:48:32",
-    "descripcion": "La propuesta de Radio Match es simple: la mejor música para ti. esta emisora te ofrece la mejor música seleccionada para ti. Programación continua las 24 horas para acompañarte siempre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nNuestra programación ha sido cuidadosamente diseñada para ofrecerte momentos de entretenimiento, información y compañía musical a lo largo del día. Contamos con espacios dedicados a diferentes horarios y preferencias, asegurando que siempre encuentres algo que disfrutar sin importar la hora.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Radio online gratis para escuchar en celular, tablet o computadora.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-match",
-    "descripcion_original": "Escucha Radio Match en vivo desde Chile, Chile, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Match gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.752Z"
@@ -11322,19 +10983,6 @@
     "descripcion": "Conecta con Radio Esperanza en Cristo y forma parte de nuestra gran familia de oyentes. esta emisora te ofrece la mejor música seleccionada para ti. Accede gratis a la mejor radio desde cualquier lugar del mundo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa música tiene el poder de transformar momentos ordinarios en experiencias extraordinarias. En nuestra emisora entendemos esta magia y trabajamos para ser el soundtrack perfecto de la vida de nuestros oyentes.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Streaming global para audiencias locales e internacionales.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! La mejor experiencia de radio por internet sin costo alguno. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "radio-esperanza-en-cristo",
     "descripcion_original": "Disfruta de la programación de Radio Esperanza en Cristo, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Esperanza en Cristo gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.754Z"
-  },
-  {
-    "nombre": "Radio Motiva",
-    "url_perfil": "https://www.radios-chilenas.com/radio-atractiva",
-    "url_stream": "https://centova.neonetwork.cl:9315/motiva",
-    "logo_local": "logos_emisoras\\Radio_Motiva.jpg",
-    "fecha": "2025-12-27 12:52:51",
-    "descripcion": "Descubre Radio Motiva, la estación que ha conquistado a miles de oyentes. esta emisora te ofrece la mejor música seleccionada para ti. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nNuestra programación ha sido cuidadosamente diseñada para ofrecerte momentos de entretenimiento, información y compañía musical a lo largo del día. Contamos con espacios dedicados a diferentes horarios y preferencias, asegurando que siempre encuentres algo que disfrutar sin importar la hora.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Escucha online la emisora favorita de miles de oyentes.\n\nLa comunidad que hemos construido a lo largo de los años es nuestro mayor tesoro. Oyentes de todas las edades y gustos se conectan con nosotros diariamente, formando una familia unida por el amor a la buena programación. Tu participación a través de mensajes, solicitudes y comentarios hace que cada transmisión sea especial y única.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-motiva",
-    "descripcion_original": "Radio Motiva transmite en vivo desde la ciudad de Chile, Chile, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Motiva gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.754Z"
@@ -12094,19 +11742,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.823Z"
   },
   {
-    "nombre": "Dekadanceradio",
-    "url_perfil": "https://www.radios-chilenas.com/dekadanceradio",
-    "url_stream": "https://mediacp.supportinet.cl:8002/stream",
-    "logo_local": "logos_emisoras\\Dekadanceradio.jpg",
-    "fecha": "2025-12-27 13:29:24",
-    "descripcion": "Bienvenido a Dekadanceradio, tu destino musical favorito. esta emisora te ofrece la mejor música seleccionada para ti. Streaming global para audiencias locales e internacionales. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nContamos con una biblioteca musical extensa y cuidadosamente catalogada. Nuestros programadores musicales seleccionan cada tema considerando el flujo del programa, la hora del día y las preferencias de nuestra audiencia.\n\nNuestra programación ha sido cuidadosamente diseñada para ofrecerte momentos de entretenimiento, información y compañía musical a lo largo del día. Contamos con espacios dedicados a diferentes horarios y preferencias, asegurando que siempre encuentres algo que disfrutar sin importar la hora.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Escuchar radio en línea nunca fue tan fácil y accesible.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Sin registro, sin suscripción, completamente libre. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "dekadanceradio",
-    "descripcion_original": "Sintoniza Dekadanceradio online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Dekadanceradio gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.823Z"
-  },
-  {
     "nombre": "Radio Baeza TV",
     "url_perfil": "https://www.radios-chilenas.com/radio-baeza-tv",
     "url_stream": "https://stream-178.zeno.fm/4qpg7gvd8s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0cXBnN2d2ZDhzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInRtIjpmYWxzZSwicnR0bCI6NSwianRpIjoiZUZybGxhYTlRTUdIeDN3RU1GUnVFUSIsImlhdCI6MTc2Njg2MDE3MSwiZXhwIjoxNzY2ODYwMjMxfQ.afp2RrR_x38_WaunSLVuQrFU7woLwXQSrmANBglz0FE",
@@ -12484,19 +12119,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.860Z"
   },
   {
-    "nombre": "Laxatea Radio",
-    "url_perfil": "https://www.radios-chilenas.com/laxatea-radio",
-    "url_stream": "https://sonic.mistreamingtv.uno:7015/;",
-    "logo_local": "logos_emisoras\\Laxatea_Radio.jpg",
-    "fecha": "2025-12-27 13:49:25",
-    "descripcion": "En Laxatea Radio encontrarás la perfecta combinación de música y contenido. esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Transmisión gratuita disponible en múltiples plataformas.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nMantente conectado con nosotros a través de nuestras redes sociales, donde compartimos contenido exclusivo, adelantos de programación y momentos especiales de nuestra emisora. Tu participación en estas plataformas enriquece nuestra comunidad.\n\nGracias por elegirnos. Cada oyente es importante para nosotros y trabajamos diariamente para merecer tu preferencia. Streaming global para audiencias locales e internacionales. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "laxatea-radio",
-    "descripcion_original": "Conecta con Laxatea Radio, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Laxatea Radio gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.861Z"
-  },
-  {
     "nombre": "Europa Beat",
     "url_perfil": "https://www.radios-chilenas.com/europa-beat",
     "url_stream": "https://s4.radio.co/s13e4f2090/listen",
@@ -12614,19 +12236,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.871Z"
   },
   {
-    "nombre": "Radio Mix Zone",
-    "url_perfil": "https://www.radios-chilenas.com/mixzone-radio",
-    "url_stream": "https://live.mixzoneapp.cl/stream",
-    "logo_local": "logos_emisoras\\Radio_Mix_Zone.jpg",
-    "fecha": "2025-12-27 13:55:11",
-    "descripcion": "Radio Mix Zone es mucho más que una emisora, es una comunidad. esta emisora te ofrece la mejor música seleccionada para ti. Escucha online la emisora favorita de miles de oyentes. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nCada locutor y conductor de nuestros programas aporta su personalidad única a la emisora. Son profesionales apasionados que entienden que la radio es un medio personal e íntimo, capaz de crear conexiones genuinas con cada oyente.\n\nLa historia de nuestra emisora es la historia de miles de momentos compartidos con la audiencia. Cada transmisión es una oportunidad de crear nuevos recuerdos y fortalecer los lazos con nuestra comunidad de oyentes fieles.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Streaming en vivo con la mejor calidad de audio digital.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nSintonízanos hoy y descubre una nueva forma de disfrutar la radio. La experiencia que te espera es incomparable. Disponible online para que disfrutes desde cualquier dispositivo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-mix-zone",
-    "descripcion_original": "Conecta con Radio Mix Zone, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Mix Zone gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.871Z"
-  },
-  {
     "nombre": "Radio Altar Chile",
     "url_perfil": "https://www.radios-chilenas.com/radio-altar-chile",
     "url_stream": "https://stream20.usastreams.com/8038/stream",
@@ -12716,32 +12325,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.883Z"
-  },
-  {
-    "nombre": "Fanática UNO",
-    "url_perfil": "https://www.radios-chilenas.com/fanatica-uno",
-    "url_stream": "https://ascl.denial.cl:2020/stream/8042",
-    "logo_local": "logos_emisoras\\Fanatica_UNO.jpg",
-    "fecha": "2025-12-27 14:00:03",
-    "descripcion": "Explora Fanática UNO y descubre por qué somos la favorita de la audiencia. esta emisora te ofrece la mejor música seleccionada para ti. Transmisión gratuita disponible en múltiples plataformas. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nNuestra programación ha sido cuidadosamente diseñada para ofrecerte momentos de entretenimiento, información y compañía musical a lo largo del día. Contamos con espacios dedicados a diferentes horarios y preferencias, asegurando que siempre encuentres algo que disfrutar sin importar la hora.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Escucha online la emisora favorita de miles de oyentes.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nMiles de oyentes ya nos eligieron como su emisora favorita. ¿Qué esperas para unirte a ellos? Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "fanatica-uno",
-    "descripcion_original": "Desde Chile llega la señal de Fanática UNO, tu emisora online favorita en Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Fanática UNO gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.883Z"
-  },
-  {
-    "nombre": "Radio UVM",
-    "url_perfil": "https://www.radios-chilenas.com/radio-uvm2",
-    "url_stream": "https://streaming1.tecnoera.com:8020/;stream.mp3?_=1",
-    "logo_local": "logos_emisoras\\Radio_UVM.jpg",
-    "fecha": "2025-12-27 14:00:43",
-    "descripcion": "Sintoniza Radio UVM y déjate llevar por la mejor programación radial. esta emisora te ofrece la mejor música seleccionada para ti. Disponible online para que disfrutes desde cualquier dispositivo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nLa pasión por la radio se siente en cada segundo de nuestra transmisión. Hemos perfeccionado el arte de conectar con nuestra audiencia, creando una experiencia que va más allá de simplemente reproducir música. Transmisión en streaming de alta calidad sin interrupciones.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nSíguenos en todas nuestras plataformas digitales para no perderte ni un solo momento de lo que acontece en nuestra emisora. Publicamos actualizaciones constantes, fotos del detrás de cámaras y contenido que no encontrarás en ningún otro lugar.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-uvm",
-    "descripcion_original": "Escucha Radio UVM en vivo desde Chile, Chile, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio UVM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.884Z"
   },
   {
     "nombre": "Radio La Profesi",
@@ -12869,19 +12452,6 @@
     "descripcion": "Bienvenido a Del Secano Radio, tu destino musical favorito. esta emisora te ofrece la mejor música seleccionada para ti. Escuchar radio en línea nunca fue tan fácil y accesible. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa música tiene el poder de transformar momentos ordinarios en experiencias extraordinarias. En nuestra emisora entendemos esta magia y trabajamos para ser el soundtrack perfecto de la vida de nuestros oyentes.\n\nCada locutor y conductor de nuestros programas aporta su personalidad única a la emisora. Son profesionales apasionados que entienden que la radio es un medio personal e íntimo, capaz de crear conexiones genuinas con cada oyente.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Sin registro, sin suscripción, completamente libre.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nTu día mejora cuando nos escuchas. Permítenos ser la banda sonora de tus momentos especiales. Accede gratis a la mejor radio desde cualquier lugar del mundo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "del-secano-radio",
     "descripcion_original": "Escucha Del Secano Radio en vivo desde Chile, Chile, tu estación online favorita. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Del Secano Radio gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.895Z"
-  },
-  {
-    "nombre": "Radio 1 Alvear",
-    "url_perfil": "https://www.radios-chilenas.com/radio-1-alvear",
-    "url_stream": "https://archi-us.digitalproserver.com/unoalvear?amb-uid=4473693337317245420&an-uid=0&aw_0_req_lsid=6e49500656a5485901d8bb703ebe4fb4&dot-uid=0afc2203008fdf8a6821018c&triton-uid=cookie%3A03cd37e0-93a8-4849-96c3-d251e44d1ac9",
-    "logo_local": "logos_emisoras\\Radio_1_Alvear.jpg",
-    "fecha": "2025-12-27 14:08:06",
-    "descripcion": "Te presentamos Radio 1 Alvear, donde la música cobra vida. esta emisora te ofrece la mejor música seleccionada para ti. Streaming global para audiencias locales e internacionales. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nDesde las primeras horas de la mañana hasta la noche, nuestra emisora te acompaña con programas especialmente diseñados. Los fines de semana ofrecemos programación especial con contenido exclusivo que nuestros oyentes han aprendido a esperar con ansias.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Conecta con nuestra señal en vivo con un solo clic.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nLas redes sociales nos permiten estar más cerca de ti que nunca. Interactúa con nosotros, déjanos tus comentarios y forma parte activa de esta gran familia que crece día a día.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Programación continua las 24 horas para acompañarte siempre. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-1-alvear",
-    "descripcion_original": "Desde Chile llega la señal de Radio 1 Alvear, tu emisora online favorita en Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio 1 Alvear gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.895Z"
@@ -13641,19 +13211,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.964Z"
   },
   {
-    "nombre": "Lola FM",
-    "url_perfil": "https://www.radios-chilenas.com/lola-fm",
-    "url_stream": "https://centova.neonetwork.cl:9154/stream",
-    "logo_local": "logos_emisoras\\Lola_FM.jpg",
-    "fecha": "2025-12-27 14:45:16",
-    "descripcion": "Con Lola FM la buena música nunca termina. esta emisora te ofrece la mejor música seleccionada para ti. Accede gratis a la mejor radio desde cualquier lugar del mundo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nEl compromiso con la excelencia nos impulsa a mejorar constantemente. Evaluamos nuestra programación, escuchamos las sugerencias y adaptamos nuestro contenido para seguir siendo relevantes en un mundo mediático en constante evolución.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. La mejor experiencia de radio por internet sin costo alguno.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nTe invitamos a sintonizarnos y descubrir por qué miles de oyentes nos eligen cada día. ¡Bienvenido a nuestra familia radial! Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "lola-fm",
-    "descripcion_original": "Sintoniza Lola FM online, transmitiendo en vivo desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Lola FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.964Z"
-  },
-  {
     "nombre": "Mradio",
     "url_perfil": "https://www.radios-chilenas.com/mradio",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -13732,19 +13289,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:16.977Z"
   },
   {
-    "nombre": "Radio Agustina",
-    "url_perfil": "https://www.radios-chilenas.com/radio-agustina",
-    "url_stream": "https://sonic-cl.streaming-chile.com/8108/stream",
-    "logo_local": "logos_emisoras\\Radio_Agustina.jpg",
-    "fecha": "2025-12-27 14:49:21",
-    "descripcion": "Descubre Radio Agustina, la estación que ha conquistado a miles de oyentes. esta emisora te ofrece la mejor música seleccionada para ti. Conecta con nuestra señal en vivo con un solo clic. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl compromiso con la excelencia nos impulsa a mejorar constantemente. Evaluamos nuestra programación, escuchamos las sugerencias y adaptamos nuestro contenido para seguir siendo relevantes en un mundo mediático en constante evolución.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Sin registro, sin suscripción, completamente libre.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nMiles de oyentes ya nos eligieron como su emisora favorita. ¿Qué esperas para unirte a ellos? Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "radio-agustina",
-    "descripcion_original": "Disfruta de la programación de Radio Agustina, la radio online líder en Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Radio Agustina gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.977Z"
-  },
-  {
     "nombre": "Macarena FM",
     "url_perfil": "https://www.radios-chilenas.com/macarena-fm",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116347&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
@@ -13766,19 +13310,6 @@
     "descripcion": "RADIODVCLAVOZ Lota ha sido durante años el referente de calidad en radiodifusión. esta emisora te ofrece la mejor música seleccionada para ti. Conecta con nuestra señal en vivo con un solo clic. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nLa historia de nuestra emisora es la historia de miles de momentos compartidos con la audiencia. Cada transmisión es una oportunidad de crear nuevos recuerdos y fortalecer los lazos con nuestra comunidad de oyentes fieles.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Conecta con nuestra señal en vivo con un solo clic.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nÚnete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nLa mejor música, el mejor entretenimiento, la mejor compañía. Todo esto te espera cuando nos sintonizas. Escucha online la emisora favorita de miles de oyentes. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
     "slug": "radiodvclavoz-lota",
     "descripcion_original": "Conecta con RADIODVCLAVOZ Lota, tu estación online directamente desde Chile, Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora RADIODVCLAVOZ Lota gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:16.978Z"
-  },
-  {
-    "nombre": "Mirador FM",
-    "url_perfil": "https://www.radios-chilenas.com/radio-el-mirador-del-gallo",
-    "url_stream": "https://audio.bitsur.cl:8016/stream",
-    "logo_local": "logos_emisoras\\Mirador_FM.jpg",
-    "fecha": "2025-12-27 14:51:06",
-    "descripcion": "Mirador FM llega a ti con la energía y calidad que mereces. esta emisora te ofrece la mejor música seleccionada para ti. Disponible online para que disfrutes desde cualquier dispositivo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nLa radio en vivo mantiene esa esencia de espontaneidad e inmediatez que otros medios no pueden replicar. Cada transmisión es única, cada momento es irrepetible, y eso hace que escucharnos sea siempre una experiencia fresca.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Streaming global para audiencias locales e internacionales.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nNuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nTe invitamos a sintonizarnos y descubrir por qué miles de oyentes nos eligen cada día. ¡Bienvenido a nuestra familia radial! Radio online gratis para escuchar en celular, tablet o computadora. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "slug": "mirador-fm",
-    "descripcion_original": "Desde Chile llega la señal de Mirador FM, tu emisora online favorita en Chile. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Mirador FM gratis en Emisoras Latinas y disfruta la mejor radio de Chile las 24 horas.",
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:16.978Z"

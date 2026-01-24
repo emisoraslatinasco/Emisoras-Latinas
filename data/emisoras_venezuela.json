@@ -4833,25 +4833,6 @@
     "fecha_enriquecimiento": "2026-01-22T00:44:14.128Z"
   },
   {
-    "nombre": "SupraMix Fiesta",
-    "url_stream": "https://app0103.sonicpanelradio.com:8050/;",
-    "logo_local": "logos_emisoras\\SupraMix_Fiesta.jpg",
-    "generos": [
-      "Dance",
-      "Caribbean",
-      "Latino"
-    ],
-    "descripcion": "SupraMix Fiesta llega a ti con la energía y calidad que mereces. Estado Lara es nuestro hogar y desde aquí te acompañamos, esta emisora te ofrece la mejor música seleccionada para ti. Accede gratis a la mejor radio desde cualquier lugar del mundo. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa interactividad es fundamental en nuestra propuesta radial. A través de nuestras redes sociales y líneas de contacto, los oyentes pueden solicitar canciones, enviar saludos y participar activamente en la programación diaria.\n\nNos enorgullece ser una emisora que escucha a su audiencia. Las preferencias de nuestros oyentes moldean nuestra programación, creando un espacio donde la comunidad tiene voz y participación activa en lo que suena.\n\nLa calidad de nuestra transmisión es excepcional, permitiéndote disfrutar de cada nota con claridad cristalina. Utilizamos los mejores servidores y tecnología de streaming para garantizar una experiencia sin interrupciones, ya sea que nos escuches desde tu hogar, oficina o mientras te desplazas por la ciudad. Radio digital de calidad premium sin ningún costo.\n\nNuestra emisora ha sido testigo de momentos importantes en la vida de muchísimas personas. Bodas, celebraciones, momentos de reflexión y simplemente el soundtrack del diario vivir. Es un privilegio ser parte de tantas vidas.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Únete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nTu día mejora cuando nos escuchas. Permítenos ser la banda sonora de tus momentos especiales. Streaming global para audiencias locales e internacionales. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [],
-    "sitio_web": "http://supramix.multiradiosweb.top/",
-    "ciudad": "Estado Lara",
-    "slug": "supramix-fiesta",
-    "descripcion_original": "Conecta con SupraMix Fiesta, tu estación online directamente desde Estado Lara, Venezuela. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Dance, Caribbean, Latino seleccionada para ti. Sintoniza ahora SupraMix Fiesta gratis en Emisoras Latinas y disfruta la mejor radio de Venezuela las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:14.128Z"
-  },
-  {
     "nombre": "Sin Frontera Stereo",
     "url_stream": "https://sp.radiosonline.xyz/8236/stream",
     "logo_local": "logos_emisoras\\Sin_Frontera_Stereo.jpg",
@@ -5030,25 +5011,6 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:14.136Z"
-  },
-  {
-    "nombre": "Super Activa Digital",
-    "url_stream": "https://cloudstream2034.conectarhosting.com/8270/stream",
-    "logo_local": "logos_emisoras\\Super_Activa_Digital.jpg",
-    "generos": [
-      "Variety",
-      "Culture",
-      "World Music"
-    ],
-    "descripcion": "La experiencia de Super Activa Digital te espera con los brazos abiertos. esta emisora te ofrece la mejor música seleccionada para ti. Sin registro, sin suscripción, completamente libre. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa tecnología de streaming de última generación garantiza una calidad de audio excepcional. Ya sea que nos escuches desde tu computadora, teléfono móvil o tableta, la experiencia será consistente y de primera calidad.\n\nLa historia de nuestra emisora es la historia de miles de momentos compartidos con la audiencia. Cada transmisión es una oportunidad de crear nuevos recuerdos y fortalecer los lazos con nuestra comunidad de oyentes fieles.\n\nEscuchar nuestra emisora es más que sintonizar una frecuencia, es formar parte de una experiencia auditiva completa. Cuidamos cada detalle para que tu tiempo con nosotros sea tiempo bien invertido. Programación continua las 24 horas para acompañarte siempre.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Únete a la conversación en nuestras redes sociales. Miles de oyentes como tú participan diariamente compartiendo sus opiniones, haciendo solicitudes y conectando con otros fans de la emisora.\n\nConéctate, escucha y disfruta. La radio que mereces está aquí, esperándote con los brazos abiertos. Accede gratis a la mejor radio desde cualquier lugar del mundo. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [],
-    "sitio_web": "https://www.superactivadigital.com/",
-    "ciudad": "",
-    "slug": "super-activa-digital",
-    "descripcion_original": "Sintoniza Super Activa Digital online, transmitiendo en vivo desde Venezuela, Venezuela. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety, Culture, World Music seleccionada para ti. Sintoniza ahora Super Activa Digital gratis en Emisoras Latinas y disfruta la mejor radio de Venezuela las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:14.137Z"
   },
   {
     "nombre": "Sentir FM",
@@ -7370,60 +7332,5 @@
     "descripcion_generada_plantilla": true,
     "descripcion_idioma": "es",
     "fecha_enriquecimiento": "2026-01-22T00:44:14.283Z"
-  },
-  {
-    "nombre": "El Evangelio Cambia Radio",
-    "url_stream": "https://radios.hostingvenezuela.com.ve:8280/;",
-    "logo_local": "logos_emisoras\\El_Evangelio_Cambia_Radio.jpg",
-    "generos": [
-      "Christian",
-      "Christian Contemporary"
-    ],
-    "descripcion": "Bienvenido a El Evangelio Cambia Radio, tu destino musical favorito. Conectando a Estado Carabobo con el mundo a través de las ondas, esta emisora te ofrece la mejor música seleccionada para ti. Conecta con nuestra señal en vivo con un solo clic. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nEl equipo de producción trabaja incansablemente para traerte contenido fresco, actualizado y relevante. Cada programa es una oportunidad de conectar con nuestra audiencia y entregar experiencias sonoras memorables que trascienden la simple reproducción de música.\n\nHemos invertido en las mejores herramientas de transmisión para asegurar que nuestra señal llegue con claridad a cualquier rincón del mundo. La globalización de la radio nos permite conectar con audiencias que antes parecían inalcanzables.\n\nNuestro compromiso con la excelencia se refleja en cada aspecto de la emisora, desde la selección musical hasta la calidad técnica de la transmisión. La experiencia de audio que ofrecemos ha sido optimizada para que disfrutes de música y contenido con la fidelidad que mereces. Radio online gratis para escuchar en celular, tablet o computadora.\n\nLos años de trayectoria nos han enseñado que la radio es un medio profundamente personal. Cada oyente tiene una historia, una razón para sintonizarnos, y valoramos esa conexión individual. Trabajamos cada día para merecer tu preferencia.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Las redes sociales nos permiten estar más cerca de ti que nunca. Interactúa con nosotros, déjanos tus comentarios y forma parte activa de esta gran familia que crece día a día.\n\nÚnete a nuestra comunidad de oyentes y vive la experiencia de escuchar buena música las 24 horas. ¡Te esperamos! Transmisión gratuita disponible en múltiples plataformas. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [],
-    "sitio_web": "http://www.eecradio.com/",
-    "ciudad": "Estado Carabobo",
-    "slug": "el-evangelio-cambia-radio",
-    "descripcion_original": "Desde Estado Carabobo llega la señal de El Evangelio Cambia Radio, tu emisora online favorita en Venezuela. Emisora cristiana que transmite música de alabanza, devocionales y mensajes de fe y esperanza. Ofrece una programación variada con lo mejor de Cristiana, Christian Contemporary seleccionada para ti. Sintoniza ahora El Evangelio Cambia Radio gratis en Emisoras Latinas y disfruta la mejor radio de Venezuela las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:14.283Z"
-  },
-  {
-    "nombre": "Play Top Radio",
-    "url_stream": "https://urccs.lorini.net:2090/stream",
-    "logo_local": "logos_emisoras\\Play_Top_Radio.jpg",
-    "generos": [],
-    "descripcion": "Te presentamos Play Top Radio, donde la música cobra vida. Llevando el espíritu de Distrito Federal a través de la radio, esta emisora te ofrece la mejor música seleccionada para ti. Transmisión en streaming de alta calidad sin interrupciones. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLa música tiene el poder de transformar momentos ordinarios en experiencias extraordinarias. En nuestra emisora entendemos esta magia y trabajamos para ser el soundtrack perfecto de la vida de nuestros oyentes.\n\nLa diversidad musical es nuestro sello distintivo. Creemos que la buena música no conoce fronteras ni limitaciones, por eso nuestra selección abarca diferentes épocas, estilos y artistas que comparten un denominador común: la calidad.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Escucha en vivo las 24 horas del día, los 7 días de la semana, completamente gratis.\n\nMás allá de ser una emisora, somos un punto de encuentro para miles de personas que comparten la pasión por contenido de calidad. La interacción con nuestra audiencia es constante y genuina, creando lazos que trascienden las ondas radiales.\n\nVisita nuestro sitio web oficial para más información y contenido exclusivo. Nuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nNo esperes más para disfrutar de la mejor programación. Haz clic en reproducir y déjate llevar por nuestra propuesta musical. La mejor experiencia de radio por internet sin costo alguno. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [],
-    "sitio_web": "https://playtopradio.com/",
-    "ciudad": "Distrito Federal",
-    "slug": "play-top-radio",
-    "descripcion_original": "Play Top Radio transmite en vivo desde la ciudad de Distrito Federal, Venezuela, las 24 horas. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada seleccionada para ti. Sintoniza ahora Play Top Radio gratis en Emisoras Latinas y disfruta la mejor radio de Venezuela las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:14.284Z"
-  },
-  {
-    "nombre": "Luz 102.1 FM",
-    "url_stream": "https://www.serverstreamgroup.biz:8042/stream",
-    "logo_local": "logos_emisoras\\Luz_1021_FM.jpg",
-    "generos": [
-      "Variety"
-    ],
-    "descripcion": "Sintoniza Luz 102.1 FM y déjate llevar por la mejor programación radial. Orgullosamente transmitiendo desde Portuguesa, esta emisora te ofrece la mejor música seleccionada para ti. Streaming global para audiencias locales e internacionales. Nuestra señal llega a miles de hogares y dispositivos, convirtiéndonos en la compañía perfecta para cualquier momento del día.\n\nLos programas especializados de nuestra parrilla abordan temáticas específicas que enriquecen la experiencia del oyente. Desde espacios culturales hasta programas de entretenimiento ligero, hay algo para cada momento y estado de ánimo.\n\nLa radio en vivo mantiene esa esencia de espontaneidad e inmediatez que otros medios no pueden replicar. Cada transmisión es única, cada momento es irrepetible, y eso hace que escucharnos sea siempre una experiencia fresca.\n\nCada programa está diseñado pensando en nuestros oyentes y sus preferencias. La variedad de nuestra programación asegura que siempre encuentres algo que se ajuste a tu estado de ánimo y momento del día, desde las energéticas mañanas hasta las tranquilas noches. Streaming global para audiencias locales e internacionales.\n\nLa fidelidad de nuestra audiencia nos impulsa a mejorar constantemente. Sabemos que tienes muchas opciones para entretenerte, y que nos elijas a nosotros es algo que no tomamos a la ligera.\n\nEncuéntranos en YouTube, Instagram, Twitter/X, Facebook. Visita nuestro sitio web oficial para más información y contenido exclusivo. Nuestra presencia digital complementa perfectamente la experiencia radial. En nuestras redes encontrarás videos, imágenes y contenido adicional que amplía lo que escuchas al aire.\n\nTu nueva emisora favorita está a un clic de distancia. Sintonízanos ahora y comienza a disfrutar de contenido de primera. Escuchar radio en línea nunca fue tan fácil y accesible. ¡Presiona play y comienza a disfrutar de la mejor experiencia radial!",
-    "redes_sociales": [
-      "https://youtube.com/c/LUZTV7",
-      "https://www.instagram.com/radioluz1021fm/",
-      "https://twitter.com/RadioLuz1021fm?s=09",
-      "https://www.facebook.com/jaimepuertas86"
-    ],
-    "sitio_web": "http://www.luz1021fm.com/",
-    "ciudad": "Portuguesa",
-    "slug": "luz-1021-fm",
-    "descripcion_original": "Sintoniza Luz 102.1 FM en el dial 102.1 FM transmitiendo desde Portuguesa, Venezuela. Esta estación de radio destaca por su programación musical de calidad, entretenimiento y variedad. Ofrece una programación variada con lo mejor de Variety seleccionada para ti. Sintoniza ahora Luz 102.1 FM gratis en Emisoras Latinas y disfruta la mejor radio de Venezuela las 24 horas.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "es",
-    "fecha_enriquecimiento": "2026-01-22T00:44:14.284Z"
   }
 ]

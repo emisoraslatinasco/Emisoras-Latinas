@@ -749,28 +749,6 @@
     "fecha_enriquecimiento": "2026-01-22T01:59:42.913Z"
   },
   {
-    "nombre": "Presenz Radio",
-    "url_stream": "https://servidor29.brlogic.com:7304/live",
-    "logo_local": "logos_emisoras\\Presenz_Radio.jpg",
-    "generos": [
-      "Categories: \nChristian",
-      "Christian Contemporary",
-      "Religious"
-    ],
-    "descripcion": "Presenz Radio is much more than a radio station, it's a community. Born in Kingston, we reach listeners everywhere, this station offers you the best music selected for you. Free broadcast available on multiple platforms. Our signal reaches thousands of homes and devices, making us the perfect companion for any time of day.\n\nFrom the early morning hours until night, our station accompanies you with specially designed programs. On weekends we offer special programming with exclusive content.\n\nState-of-the-art streaming technology guarantees exceptional audio quality. Whether you're listening from your computer, mobile phone, or tablet, the experience will be consistent and top quality.\n\nThe passion for radio is felt in every second of our broadcast. We have perfected the art of connecting with our audience. No registration, no subscription, completely free.\n\nThe community we have built over the years is our greatest treasure. Listeners of all ages connect with us daily, forming a family united by the love of good programming.\n\nFind us on Facebook, YouTube. Visit our official website for more information and exclusive content. Our digital presence perfectly complements the radio experience. On our networks you'll find videos, images, and additional content.\n\nJoin our community of listeners and live the experience of listening to good music 24 hours a day. We're waiting for you! Free online radio to listen on mobile, tablet, or computer. Press play and start enjoying the best radio experience!",
-    "redes_sociales": [
-      "https://www.facebook.com/presenzradio",
-      "https://www.youtube.com/@presenzradio8803"
-    ],
-    "sitio_web": "http://www.presenzradio.com/",
-    "ciudad": "Kingston",
-    "slug": "presenz-radio",
-    "descripcion_original": "Presenz Radio broadcasts live from the city of Kingston, Jamaica, 24 hours a day. Christian station broadcasting praise music, devotionals, and messages of faith and hope. It offers varied programming featuring the best of Christian, Christian Contemporary, Religious selected for you. Stream Presenz Radio for free on Emisoras Latinas and enjoy the best radio from Jamaica 24/7.",
-    "descripcion_generada_plantilla": true,
-    "descripcion_idioma": "en",
-    "fecha_enriquecimiento": "2026-01-22T01:59:42.914Z"
-  },
-  {
     "nombre": "Riddim1 Radio",
     "url_stream": "https://live.primis.tech/live/liveView.php?s=116392&schain=1.0,1!publift.com,01GJC4MKN3TNN4A04S8VBS85FE,1&playerApiId=publift-primis-video",
     "logo_local": "logos_emisoras\\Riddim1_Radio.jpg",
