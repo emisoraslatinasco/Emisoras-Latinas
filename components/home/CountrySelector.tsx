@@ -1,8 +1,42 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo, memo, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { countries, CountryCode } from '@/data/stationsByCountry';
+
+// Memoized country item component to prevent unnecessary re-renders
+interface CountryItemProps {
+  country: { code: CountryCode; name: string; flag: string };
+  isSelected: boolean;
+  onSelect: (code: CountryCode) => void;
+}
+
+const CountryItem = memo(function CountryItem({ country, isSelected, onSelect }: CountryItemProps) {
+  return (
+    <Link
+      href={`/radio/${country.code.toLowerCase()}`}
+      onClick={() => onSelect(country.code)}
+      className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all hover:scale-105 ${
+        isSelected
+          ? 'border-blue-500 ring-2 ring-blue-500/20'
+          : 'border-slate-600 hover:border-slate-400'
+      }`}
+      aria-label={`Ir a emisoras de ${country.name}`}
+      title={country.name}
+    >
+      <Image
+        src={country.flag}
+        alt={country.name}
+        width={60}
+        height={60}
+        loading="lazy"
+        className="w-full h-full object-cover"
+        unoptimized
+      />
+    </Link>
+  );
+});
 
 interface CountrySelectorProps {
   onCountryChange?: (countryCode: CountryCode) => void;
@@ -13,19 +47,25 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const handleCountrySelect = (countryCode: CountryCode) => {
+  const handleCountrySelect = useCallback((countryCode: CountryCode) => {
     if (onCountryChange) {
       onCountryChange(countryCode);
     }
     setIsOpen(false);
     setSearchQuery('');
-  };
+  }, [onCountryChange]);
 
-  const filteredCountries = countries.filter(country =>
-    country.name.toLowerCase().includes(searchQuery.toLowerCase())
+  // Memoize filtered countries to prevent recalculation on every render
+  const filteredCountries = useMemo(() => 
+    countries.filter(country =>
+      country.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ), [searchQuery]
   );
 
-  const selectedCountryData = countries.find(c => c.code === selectedCountry);
+  const selectedCountryData = useMemo(() => 
+    countries.find(c => c.code === selectedCountry),
+    [selectedCountry]
+  );
 
   return (
     <div className="relative">
@@ -37,10 +77,13 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
       >
         <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0 bg-slate-700">
           {selectedCountryData && (
-            <img
+            <Image
               src={selectedCountryData.flag}
               alt={selectedCountryData.name}
+              width={48}
+              height={40}
               className="w-full h-full object-cover"
+              unoptimized
             />
           )}
         </div>
@@ -69,25 +112,12 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
             />
             <div className="grid grid-cols-6 gap-2 max-h-64 overflow-y-auto p-1 custom-scrollbar">
               {filteredCountries.map((country) => (
-                <Link
+                <CountryItem
                   key={country.code}
-                  href={`/radio/${country.code.toLowerCase()}`}
-                  onClick={() => handleCountrySelect(country.code)}
-                  className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all hover:scale-105 ${
-                    selectedCountry === country.code
-                      ? 'border-blue-500 ring-2 ring-blue-500/20'
-                      : 'border-slate-600 hover:border-slate-400'
-                  }`}
-                  aria-label={`Ir a emisoras de ${country.name}`}
-                  title={country.name}
-                >
-                  <img
-                    src={country.flag}
-                    alt={country.name}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </Link>
+                  country={country}
+                  isSelected={selectedCountry === country.code}
+                  onSelect={handleCountrySelect}
+                />
               ))}
               {filteredCountries.length === 0 && (
                 <p className="col-span-6 text-slate-500 text-xs text-center py-4">
