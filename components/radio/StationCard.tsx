@@ -1,3 +1,4 @@
+import { memo, useMemo } from 'react';
 import { StationByCountry, CountryCode, countries } from '@/data/stationsByCountry';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,6 +9,9 @@ interface StationCardProps {
   index: number;
   countryCode: CountryCode;
 }
+
+// Pre-compute country lookup map for O(1) access
+const countryMap = new Map(countries.map(c => [c.code, c.name]));
 
 /**
  * Extrae la frecuencia del nombre de la emisora
@@ -42,8 +46,7 @@ function extractCity(station: StationByCountry): string | null {
 function generateJsonLd(station: StationByCountry, countryCode: CountryCode): object {
   const frequency = extractFrequency(station.nombre);
   const city = extractCity(station);
-  const country = countries.find(c => c.code === countryCode);
-  const countryName = country?.name || countryCode;
+  const countryName = countryMap.get(countryCode) || countryCode;
   
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -89,12 +92,18 @@ function generateJsonLd(station: StationByCountry, countryCode: CountryCode): ob
 /**
  * StationCard - Tarjeta de emisora con estilo overlay (SOLO NAVEGACIÓN)
  * Info superpuesta sobre el logo para diseño compacto
+ * Memoized para evitar re-renders innecesarios
  */
-export default function StationCard({ station, index, countryCode }: StationCardProps) {
+const StationCard = memo(function StationCard({ station, index, countryCode }: StationCardProps) {
   const logoSrc = getLogoPath(station.logo_local, countryCode);
   const frequency = extractFrequency(station.nombre);
   const city = extractCity(station);
-  const jsonLd = generateJsonLd(station, countryCode);
+  
+  // Memoize JSON-LD to prevent regeneration on every render
+  const jsonLd = useMemo(() => 
+    generateJsonLd(station, countryCode), 
+    [station, countryCode]
+  );
   
   // URL de la página individual
   const stationUrl = `/radio/${countryCode.toLowerCase()}/${station.slug}`;
@@ -120,19 +129,10 @@ export default function StationCard({ station, index, countryCode }: StationCard
             fill
             className="object-cover"
             sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-            priority={index < 12}
-            loading={index < 12 ? undefined : "lazy"}
-            onError={(e) => {
-              const target = e.target as HTMLImageElement;
-              target.style.display = 'none';
-              const fallback = target.nextElementSibling as HTMLElement;
-              if (fallback) fallback.style.display = 'flex';
-            }}
+            priority={index < 6}
+            loading={index < 6 ? undefined : "lazy"}
+            unoptimized
           />
-          {/* Fallback icon */}
-          <div className="absolute inset-0 items-center justify-center bg-gradient-to-br from-slate-700 to-slate-800 hidden">
-            <i className="fas fa-radio text-4xl text-slate-500"></i>
-          </div>
         </div>
         
         {/* Overlay con nombre - estilo de producción */}
@@ -145,4 +145,6 @@ export default function StationCard({ station, index, countryCode }: StationCard
       </Link>
     </article>
   );
-}
+});
+
+export default StationCard;
