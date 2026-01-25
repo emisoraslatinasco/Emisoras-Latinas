@@ -16,7 +16,6 @@ export default function IntegratedPlayer({ station, countryCode }: IntegratedPla
     stopPlayback,
     currentStation, 
     isPlaying, 
-    isLoading,
     loadingStation,
     volume, 
     setVolume,

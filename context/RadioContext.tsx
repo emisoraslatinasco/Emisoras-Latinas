@@ -48,6 +48,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
         audioRef.current.src = '';
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const playStation = useCallback((station: StationByCountry, countryCode: CountryCode) => {

@@ -131,7 +131,7 @@ export default async function TermsPage({ params }: { params: Promise<{ country:
               
               <h2 className="text-2xl font-semibold text-white mt-8 mb-4">7. Limitación de Responsabilidad</h2>
               <p>
-                Emisoras Latinas se proporciona "tal cual" y "según disponibilidad". No ofrecemos garantías
+                Emisoras Latinas se proporciona &quot;tal cual&quot; y &quot;según disponibilidad&quot;. No ofrecemos garantías
                 expresas o implícitas sobre la precisión, confiabilidad o disponibilidad del servicio.
                 No seremos responsables por daños directos, indirectos, incidentales o consecuentes derivados
                 del uso o la imposibilidad de uso de nuestro servicio.
@@ -203,7 +203,7 @@ export default async function TermsPage({ params }: { params: Promise<{ country:
               
               <h2 className="text-2xl font-semibold text-white mt-8 mb-4">5. Limitação de Responsabilidade</h2>
               <p>
-                Emisoras Latinas é fornecido "como está" e "conforme disponível". Não oferecemos garantias
+                Emisoras Latinas é fornecido &quot;como está&quot; e &quot;conforme disponível&quot;. Não oferecemos garantias
                 expressas ou implícitas sobre a precisão, confiabilidade ou disponibilidade do serviço.
               </p>
               
@@ -268,7 +268,7 @@ export default async function TermsPage({ params }: { params: Promise<{ country:
               
               <h2 className="text-2xl font-semibold text-white mt-8 mb-4">6. Limitation of Liability</h2>
               <p>
-                Emisoras Latinas is provided "as is" and "as available". We make no express or implied
+                Emisoras Latinas is provided &quot;as is&quot; and &quot;as available&quot;. We make no express or implied
                 warranties regarding the accuracy, reliability, or availability of the service.
               </p>
               

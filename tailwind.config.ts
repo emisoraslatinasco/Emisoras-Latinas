@@ -12,6 +12,7 @@ const config: Config = {
     extend: {},
   },
   darkMode: "class",
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   plugins: [heroui() as any],
 };
 

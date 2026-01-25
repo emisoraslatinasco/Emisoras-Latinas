@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { CountryCode } from "@/data/stationsByCountry";
 import { getI18nFromCountry } from "@/utils/translations";
 

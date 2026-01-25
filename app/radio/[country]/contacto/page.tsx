@@ -241,7 +241,7 @@ export default async function ContactPage({ params }: { params: Promise<{ countr
           ) : (
             <div className="space-y-8 leading-relaxed">
               <p className="text-lg">
-                Have questions, suggestions, or feedback? We'd love to hear from you.
+                Have questions, suggestions, or feedback? We&apos;d love to hear from you.
                 Our team is committed to providing you with the best online radio experience.
               </p>
               
@@ -292,14 +292,14 @@ export default async function ContactPage({ params }: { params: Promise<{ countr
                     <h3 className="text-white font-medium mb-2">How can I add my station to the directory?</h3>
                     <p className="text-slate-400 text-sm">
                       Send us an email with your station details: name, frequency, stream URL,
-                      logo, and description. We'll evaluate your request and respond.
+                      logo, and description. We&apos;ll evaluate your request and respond.
                     </p>
                   </div>
                   
                   <div className="bg-slate-800/30 p-5 rounded-xl border border-slate-700/50">
-                    <h3 className="text-white font-medium mb-2">A station isn't working, what should I do?</h3>
+                    <h3 className="text-white font-medium mb-2">A station isn&apos;t working, what should I do?</h3>
                     <p className="text-slate-400 text-sm">
-                      Report it via email indicating the station name and country. We'll verify
+                      Report it via email indicating the station name and country. We&apos;ll verify
                       the stream and update it if necessary.
                     </p>
                   </div>
@@ -315,8 +315,8 @@ export default async function ContactPage({ params }: { params: Promise<{ countr
                   <div className="bg-slate-800/30 p-5 rounded-xl border border-slate-700/50">
                     <h3 className="text-white font-medium mb-2">Can I request removal of my station?</h3>
                     <p className="text-slate-400 text-sm">
-                      If you're the owner of a station and wish to have it removed from the directory,
-                      contact us with proof of ownership and we'll process your request.
+                      If you&apos;re the owner of a station and wish to have it removed from the directory,
+                      contact us with proof of ownership and we&apos;ll process your request.
                     </p>
                   </div>
                 </div>

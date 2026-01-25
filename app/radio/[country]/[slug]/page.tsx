@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     return { title: 'Emisora no encontrada | Emisoras Latinas' };
   }
   
-  const { t } = getI18nFromCountry(code);
+  getI18nFromCountry(code); // Validate country code
   const stationFrequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
   const frequency = stationFrequency ? ` ${stationFrequency}` : '';
   const location = station.ciudad || country.name;

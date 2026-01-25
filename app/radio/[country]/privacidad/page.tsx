@@ -255,11 +255,11 @@ export default async function PrivacyPage({ params }: { params: Promise<{ countr
               <h2 className="text-2xl font-semibold text-white mt-8 mb-4">3. Google AdSense and Advertising</h2>
               <p>
                 Our site uses Google AdSense to display advertisements. Google, as a third-party advertising provider,
-                uses cookies to serve ads on our site. Google's use of the DART cookie enables it to serve ads based
+                uses cookies to serve ads on our site. Google&apos;s use of the DART cookie enables it to serve ads based
                 on visits to our site and other sites on the Internet.
               </p>
               <p className="mt-4">
-                Users may opt out of the DART cookie by visiting Google's ad and content network privacy policy at{" "}
+                Users may opt out of the DART cookie by visiting Google&apos;s ad and content network privacy policy at{" "}
                 <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">
                   https://policies.google.com/technologies/ads
                 </a>.
