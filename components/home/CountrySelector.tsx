@@ -29,8 +29,9 @@ const CountryItem = memo(function CountryItem({ country, isSelected, onSelect }:
         src={country.flag}
         alt={country.name}
         width={60}
-        height={60}
+        height={45}
         loading="lazy"
+        priority={false}
         className="w-full h-full object-cover"
         unoptimized
       />
@@ -81,7 +82,8 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
               src={selectedCountryData.flag}
               alt={selectedCountryData.name}
               width={48}
-              height={40}
+              height={36}
+              priority
               className="w-full h-full object-cover"
               unoptimized
             />

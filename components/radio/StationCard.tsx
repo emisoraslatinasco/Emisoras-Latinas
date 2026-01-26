@@ -57,9 +57,9 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
             alt={`Logo de ${station.nombre}${frequency ? ` ${frequency}` : ''}`}
             fill
             className="object-cover"
-            sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-            priority={index < 6}
-            loading={index < 6 ? undefined : "lazy"}
+            sizes="(max-width: 640px) 45vw, (max-width: 768px) 30vw, (max-width: 1024px) 22vw, 15vw"
+            priority={index < 4}
+            loading={index < 4 ? undefined : "lazy"}
             unoptimized
           />
         </div>
