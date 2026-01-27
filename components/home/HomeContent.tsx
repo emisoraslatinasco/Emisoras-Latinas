@@ -15,8 +15,9 @@ import CountrySelector from "./CountrySelector";
 import Pagination from "@/components/ui/Pagination";
 import AdSpace from "@/components/ui/AdSpace";
 import DynamicHeader from "./DynamicHeader";
+import { useDebounce } from "@/utils/useDebounce";
 
-const ITEMS_PER_PAGE = 50;
+const ITEMS_PER_PAGE = 24;
 
 const STORAGE_KEY = "emisoras_latinas_country";
 
@@ -41,6 +42,8 @@ export default function HomeContent() {
   // Estados derivados de la URL
   const currentPage = Number(searchParams.get('page')) || 1;
   const searchQuery = searchParams.get('q') || "";
+  // Debounce search query para prevenir filtrado bloqueante (300ms)
+  const debouncedSearchQuery = useDebounce(searchQuery, 300);
   const selectedCategories = useMemo(() => {
     const categoriesParam = searchParams.get('categories');
     return categoriesParam ? categoriesParam.split(',') : [];
@@ -118,11 +121,11 @@ export default function HomeContent() {
 
   const filteredStations = useMemo(() => {
     let result = filterByCategories(stations, selectedCategories);
-    if (searchQuery.trim()) {
-      result = searchStations(result, searchQuery);
+    if (debouncedSearchQuery.trim()) {
+      result = searchStations(result, debouncedSearchQuery);
     }
     return result;
-  }, [stations, selectedCategories, searchQuery]);
+  }, [stations, selectedCategories, debouncedSearchQuery]);
 
   const totalPages = Math.ceil(filteredStations.length / ITEMS_PER_PAGE);
 
