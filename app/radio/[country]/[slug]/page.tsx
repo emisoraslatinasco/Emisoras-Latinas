@@ -124,6 +124,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               width={32}
               height={32}
               className="rounded-lg"
+              unoptimized
             />
             <span className="text-white font-bold text-xl">Emisoras Latinas</span>
           </Link>
@@ -159,6 +160,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   fill
                   className="object-cover"
                   priority
+                  unoptimized
                 />
               </div>
             </div>
@@ -393,6 +395,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                       alt={related.nombre}
                       fill
                       className="object-cover"
+                      unoptimized
                     />
                   </div>
                   <p className="text-white text-sm font-semibold truncate">{related.nombre}</p>

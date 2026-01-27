@@ -69,6 +69,7 @@ export default function AudioPlayer() {
                     alt={currentStation.nombre}
                     fill
                     className="object-cover"
+                    unoptimized
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
@@ -197,6 +198,7 @@ export default function AudioPlayer() {
                     alt={currentStation.nombre}
                     fill
                     className="object-cover"
+                    unoptimized
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
