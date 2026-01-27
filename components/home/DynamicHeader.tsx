@@ -239,6 +239,7 @@ export default function DynamicHeader({
                 height={96}
                 className="h-24 w-auto object-contain"
                 priority
+                unoptimized
               />
             </div>
           </div>
