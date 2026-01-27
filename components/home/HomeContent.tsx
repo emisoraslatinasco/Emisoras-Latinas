@@ -17,7 +17,17 @@ import AdSpace from "@/components/ui/AdSpace";
 import DynamicHeader from "./DynamicHeader";
 import { useDebounce } from "@/utils/useDebounce";
 
-const ITEMS_PER_PAGE = 24;
+/**
+ * Calcula items por página basado en el tamaño del dataset
+ * Países grandes (2000+): 12 items para reducir carga del DOM
+ * Países medianos (1000-2000): 18 items
+ * Países pequeños (<1000): 24 items
+ */
+const getItemsPerPage = (totalStations: number): number => {
+  if (totalStations > 2000) return 12;  // USA (4043), Francia (2390)
+  if (totalStations > 1000) return 18;  // UK (1987), México (1184), Chile (1025)
+  return 24;  // Colombia, Argentina, etc.
+};
 
 const STORAGE_KEY = "emisoras_latinas_country";
 
@@ -127,13 +137,16 @@ export default function HomeContent() {
     return result;
   }, [stations, selectedCategories, debouncedSearchQuery]);
 
-  const totalPages = Math.ceil(filteredStations.length / ITEMS_PER_PAGE);
+  // Paginación adaptativa basada en el tamaño del dataset
+  const itemsPerPage = useMemo(() => getItemsPerPage(stations.length), [stations.length]);
+  
+  const totalPages = Math.ceil(filteredStations.length / itemsPerPage);
 
   const paginatedStations = useMemo(() => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    const endIndex = startIndex + ITEMS_PER_PAGE;
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
     return filteredStations.slice(startIndex, endIndex);
-  }, [filteredStations, currentPage]);
+  }, [filteredStations, currentPage, itemsPerPage]);
 
   const handleCategoriesChange = useCallback((categories: string[]) => {
     updateUrl({ 
