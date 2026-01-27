@@ -214,16 +214,64 @@ export const countries: Country[] = [
   },
 ];
 
-const stationsCache: Record<CountryCode, StationByCountry[]> = {} as Record<
-  CountryCode,
-  StationByCountry[]
->;
+/**
+ * LRU Cache para emisoras de países
+ * Mantiene solo los N países más recientes para evitar saturación de memoria
+ */
+class LRUCache<K, V> {
+  private cache: Map<K, V>;
+  private maxSize: number;
+
+  constructor(maxSize: number = 3) {
+    this.cache = new Map();
+    this.maxSize = maxSize;
+  }
+
+  get(key: K): V | undefined {
+    const value = this.cache.get(key);
+    if (value !== undefined) {
+      // Mover al final (más reciente)
+      this.cache.delete(key);
+      this.cache.set(key, value);
+    }
+    return value;
+  }
+
+  set(key: K, value: V): void {
+    // Si ya existe, eliminar para re-insertar al final
+    if (this.cache.has(key)) {
+      this.cache.delete(key);
+    }
+    // Si excede el límite, eliminar el más antiguo (primero en el Map)
+    else if (this.cache.size >= this.maxSize) {
+      const firstKey = this.cache.keys().next().value;
+      if (firstKey !== undefined) {
+        this.cache.delete(firstKey);
+        console.log(`[LRU Cache] Liberando memoria de país: ${String(firstKey)}`);
+      }
+    }
+    this.cache.set(key, value);
+  }
+
+  clear(): void {
+    this.cache.clear();
+  }
+
+  size(): number {
+    return this.cache.size;
+  }
+}
+
+// Cache LRU con límite de 3 países para evitar saturación de memoria
+const stationsCache = new LRUCache<CountryCode, StationByCountry[]>(3);
 
 export async function loadStationsByCountry(
   countryCode: CountryCode,
 ): Promise<StationByCountry[]> {
-  if (stationsCache[countryCode]) {
-    return stationsCache[countryCode];
+  const cached = stationsCache.get(countryCode);
+  if (cached) {
+    console.log(`[Cache Hit] País: ${countryCode} (${cached.length} emisoras)`);
+    return cached;
   }
 
   const country = countries.find((c) => c.code === countryCode);
@@ -232,9 +280,11 @@ export async function loadStationsByCountry(
   }
 
   try {
+    console.log(`[Cargando] País: ${countryCode} desde ${country.jsonFile}...`);
     const importedData = await import(`@/data/${country.jsonFile}`);
     const data: StationByCountry[] = importedData.default;
-    stationsCache[countryCode] = data;
+    stationsCache.set(countryCode, data);
+    console.log(`[Cache Set] País: ${countryCode} (${data.length} emisoras, cache size: ${stationsCache.size()})`);
     return data;
   } catch (error) {
     console.error(`Error loading stations for ${countryCode}:`, error);
