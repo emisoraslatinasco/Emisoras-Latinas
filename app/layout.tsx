@@ -56,10 +56,11 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/logos_general/logo_miniatura_emisoras_latinas.jpg', type: 'image/png' },
+      { url: '/logos_general/logo_miniatura_emisoras_latinas.jpg', type: 'image/jpeg', sizes: '32x32' },
+      { url: '/logos_general/logo_miniatura_emisoras_latinas.jpg', type: 'image/jpeg', sizes: '16x16' },
     ],
     apple: '/logos_general/logo_miniatura_emisoras_latinas.jpg',
+    shortcut: '/logos_general/logo_miniatura_emisoras_latinas.jpg',
   },
   openGraph: {
     type: 'website',
