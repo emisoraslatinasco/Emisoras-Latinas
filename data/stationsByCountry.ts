@@ -2,15 +2,15 @@ export interface StationByCountry {
   nombre: string;
   url_stream: string;
   logo_local: string | null;
-  slug?: string;  // URL-friendly identifier
+  slug?: string; // URL-friendly identifier
   descripcion?: string;
   generos?: string[];
   redes_sociales?: string[];
   sitio_web?: string;
   ciudad?: string;
-  frecuencia?: string;  // e.g. "104.9 FM"
-  ubicacion?: string;    // Location/city
-  logo?: string | null;  // External logo URL
+  frecuencia?: string; // e.g. "104.9 FM"
+  ubicacion?: string; // Location/city
+  logo?: string | null; // External logo URL
 }
 
 export type CountryCode =
@@ -214,29 +214,115 @@ export const countries: Country[] = [
   },
 ];
 
+// Cache para evitar recargar JSON de países ya cargados
+const stationsCache = new Map<CountryCode, StationByCountry[]>();
+
+// Para rastrear cargas en progreso y evitar duplicados
+const loadingPromises = new Map<CountryCode, Promise<StationByCountry[]>>();
+
 export async function loadStationsByCountry(
   countryCode: CountryCode,
 ): Promise<StationByCountry[]> {
+  // 1. Verificar cache primero
+  const cached = stationsCache.get(countryCode);
+  if (cached) {
+    console.log(`[Cache HIT] País: ${countryCode} (${cached.length} emisoras)`);
+    return cached;
+  }
+
+  // 2. Si ya hay una carga en progreso para este país, esperarla
+  const existingPromise = loadingPromises.get(countryCode);
+  if (existingPromise) {
+    console.log(`[Esperando] Carga en progreso para ${countryCode}...`);
+    return existingPromise;
+  }
+
   const country = countries.find((c) => c.code === countryCode);
   if (!country) {
     return [];
   }
 
-  try {
-    console.log(`[Cargando] País: ${countryCode} desde ${country.jsonFile}...`);
-    const importedData = await import(`@/data/${country.jsonFile}`);
-    const data: StationByCountry[] = importedData.default;
-    console.log(`[Cargado] País: ${countryCode} (${data.length} emisoras) - Sin cache`);
-    return data;
-  } catch (error) {
-    console.error(`Error loading stations for ${countryCode}:`, error);
-    return [];
+  // 3. Crear nueva promesa de carga
+  const loadPromise = (async () => {
+    try {
+      console.log(
+        `[Cargando] País: ${countryCode} desde ${country.jsonFile}...`,
+      );
+      const importedData = await import(`@/data/${country.jsonFile}`);
+      const data: StationByCountry[] = importedData.default;
+
+      // Guardar en cache
+      stationsCache.set(countryCode, data);
+      console.log(
+        `[Cargado + Cached] País: ${countryCode} (${data.length} emisoras)`,
+      );
+
+      return data;
+    } catch (error) {
+      console.error(`Error loading stations for ${countryCode}:`, error);
+      return [];
+    } finally {
+      // Limpiar promesa de carga
+      loadingPromises.delete(countryCode);
+    }
+  })();
+
+  // Registrar promesa de carga
+  loadingPromises.set(countryCode, loadPromise);
+
+  return loadPromise;
+}
+
+// Función para limpiar cache si es necesario (ej: para liberar memoria)
+export function clearStationsCache(countryCode?: CountryCode): void {
+  if (countryCode) {
+    stationsCache.delete(countryCode);
+    console.log(`[Cache] Limpiado: ${countryCode}`);
+  } else {
+    stationsCache.clear();
+    console.log(`[Cache] Limpiado completamente`);
   }
 }
 
-export function getCategories(stations: StationByCountry[]): string[] {
-  const allGenres = stations.flatMap((s) => s.generos || []);
-  return [...new Set(allGenres)].sort();
+// Función para pre-cargar un país en background
+export function preloadCountry(countryCode: CountryCode): void {
+  if (!stationsCache.has(countryCode) && !loadingPromises.has(countryCode)) {
+    console.log(`[Preload] Iniciando carga anticipada de ${countryCode}...`);
+    loadStationsByCountry(countryCode);
+  }
+}
+// Cache para categorías por país (evita recalcular con datasets grandes)
+const categoriesCache = new Map<CountryCode, string[]>();
+
+export function getCategories(
+  stations: StationByCountry[],
+  countryCode?: CountryCode,
+): string[] {
+  // Si tenemos countryCode, verificar cache
+  if (countryCode) {
+    const cached = categoriesCache.get(countryCode);
+    if (cached) return cached;
+  }
+
+  // Usar Set directamente para mejor rendimiento con datasets grandes
+  const genreSet = new Set<string>();
+  for (let i = 0; i < stations.length; i++) {
+    const generos = stations[i].generos;
+    if (generos) {
+      for (let j = 0; j < generos.length; j++) {
+        genreSet.add(generos[j]);
+      }
+    }
+  }
+
+  const result = Array.from(genreSet).sort();
+
+  // Guardar en cache si tenemos countryCode
+  if (countryCode) {
+    categoriesCache.set(countryCode, result);
+  }
+
+  return result;
 }
 
 export function filterByCategory(

@@ -1,26 +1,44 @@
-'use client';
+"use client";
 
-import { useState, useMemo, memo, useCallback } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { countries, CountryCode } from '@/data/stationsByCountry';
+import { useState, useMemo, memo, useCallback, useRef } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { countries, CountryCode } from "@/data/stationsByCountry";
+
+// Debounce delay para evitar cambios muy rápidos
+const COUNTRY_CHANGE_DEBOUNCE_MS = 300;
 
 // Memoized country item component to prevent unnecessary re-renders
 interface CountryItemProps {
   country: { code: CountryCode; name: string; flag: string };
   isSelected: boolean;
+  isLoading: boolean;
   onSelect: (code: CountryCode) => void;
 }
 
-const CountryItem = memo(function CountryItem({ country, isSelected, onSelect }: CountryItemProps) {
+const CountryItem = memo(function CountryItem({
+  country,
+  isSelected,
+  isLoading,
+  onSelect,
+}: CountryItemProps) {
   return (
     <Link
       href={`/radio/${country.code.toLowerCase()}`}
-      onClick={() => onSelect(country.code)}
-      className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all hover:scale-105 ${
+      onClick={(e) => {
+        // Si está cargando, prevenir navegación
+        if (isLoading) {
+          e.preventDefault();
+          return;
+        }
+        onSelect(country.code);
+      }}
+      className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all ${
+        isLoading ? "opacity-50 cursor-wait" : "hover:scale-105"
+      } ${
         isSelected
-          ? 'border-blue-500 ring-2 ring-blue-500/20'
-          : 'border-slate-600 hover:border-slate-400'
+          ? "border-blue-500 ring-2 ring-blue-500/20"
+          : "border-slate-600 hover:border-slate-400"
       }`}
       aria-label={`Ir a emisoras de ${country.name}`}
       title={country.name}
@@ -44,28 +62,62 @@ interface CountrySelectorProps {
   selectedCountry: CountryCode;
 }
 
-export default function CountrySelector({ onCountryChange, selectedCountry }: CountrySelectorProps) {
+export default function CountrySelector({
+  onCountryChange,
+  selectedCountry,
+}: CountrySelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleCountrySelect = useCallback((countryCode: CountryCode) => {
-    if (onCountryChange) {
-      onCountryChange(countryCode);
-    }
-    setIsOpen(false);
-    setSearchQuery('');
-  }, [onCountryChange]);
+  // Ref para debounce
+  const lastClickTimeRef = useRef<number>(0);
 
-  // Memoize filtered countries to prevent recalculation on every render
-  const filteredCountries = useMemo(() => 
-    countries.filter(country =>
-      country.name.toLowerCase().includes(searchQuery.toLowerCase())
-    ), [searchQuery]
+  const handleCountrySelect = useCallback(
+    (countryCode: CountryCode) => {
+      // Debounce: ignorar clics muy rápidos
+      const now = Date.now();
+      if (now - lastClickTimeRef.current < COUNTRY_CHANGE_DEBOUNCE_MS) {
+        console.log("[CountrySelector] Clic ignorado (debounce activo)");
+        return;
+      }
+      lastClickTimeRef.current = now;
+
+      // Si es el mismo país, solo cerrar
+      if (countryCode === selectedCountry) {
+        setIsOpen(false);
+        setSearchQuery("");
+        return;
+      }
+
+      // Mostrar loading
+      setIsLoading(true);
+
+      if (onCountryChange) {
+        onCountryChange(countryCode);
+      }
+
+      setIsOpen(false);
+      setSearchQuery("");
+
+      // Quitar loading después de un delay razonable
+      setTimeout(() => setIsLoading(false), 500);
+    },
+    [onCountryChange, selectedCountry],
   );
 
-  const selectedCountryData = useMemo(() => 
-    countries.find(c => c.code === selectedCountry),
-    [selectedCountry]
+  // Memoize filtered countries to prevent recalculation on every render
+  const filteredCountries = useMemo(
+    () =>
+      countries.filter((country) =>
+        country.name.toLowerCase().includes(searchQuery.toLowerCase()),
+      ),
+    [searchQuery],
+  );
+
+  const selectedCountryData = useMemo(
+    () => countries.find((c) => c.code === selectedCountry),
+    [selectedCountry],
   );
 
   return (
@@ -73,7 +125,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 ml-2 rounded-lg bg-slate-800/50 border-2 border-slate-700 hover:border-slate-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500"
-        aria-label={`País seleccionado: ${selectedCountryData?.name || 'Seleccionar país'}. Clic para cambiar.`}
+        aria-label={`País seleccionado: ${selectedCountryData?.name || "Seleccionar país"}. Clic para cambiar.`}
         aria-expanded={isOpen}
       >
         <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0 bg-slate-700">
@@ -91,7 +143,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
         </div>
         <div className="flex flex-col items-start">
           <span className="text-white font-semibold text-sm">
-            {selectedCountryData?.name || 'Seleccionar'}
+            {selectedCountryData?.name || "Seleccionar"}
           </span>
           <span className="text-slate-500 text-xs">Cambiar país ▼</span>
         </div>
@@ -118,6 +170,7 @@ export default function CountrySelector({ onCountryChange, selectedCountry }: Co
                   key={country.code}
                   country={country}
                   isSelected={selectedCountry === country.code}
+                  isLoading={isLoading}
                   onSelect={handleCountrySelect}
                 />
               ))}
