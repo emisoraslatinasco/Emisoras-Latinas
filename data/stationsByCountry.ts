@@ -1,16 +1,31 @@
+// API V2 Implementation
+import {
+  getStationsByCountry,
+  getGenresByCountry,
+  searchStations as apiSearchStations,
+  getCountries as apiGetCountries,
+  getStaticUrl,
+  type Station,
+  type Country as ApiCountry,
+} from "@/lib/api";
+
+/**
+ * Interface de estación - mantiene compatibilidad con el código existente
+ * pero ahora los datos vienen del backend
+ */
 export interface StationByCountry {
   nombre: string;
   url_stream: string;
   logo_local: string | null;
-  slug?: string; // URL-friendly identifier
+  slug?: string;
   descripcion?: string;
   generos?: string[];
   redes_sociales?: string[];
   sitio_web?: string;
   ciudad?: string;
-  frecuencia?: string; // e.g. "104.9 FM"
-  ubicacion?: string; // Location/city
-  logo?: string | null; // External logo URL
+  frecuencia?: string;
+  ubicacion?: string;
+  logo?: string | null;
 }
 
 export type CountryCode =
@@ -49,6 +64,7 @@ export interface Country {
   jsonFile: string;
 }
 
+// Lista estática de países para compatibilidad (se puede obtener de API también)
 export const countries: Country[] = [
   {
     code: "CO",
@@ -214,12 +230,38 @@ export const countries: Country[] = [
   },
 ];
 
-// Cache para evitar recargar JSON de países ya cargados
+console.log("[StationsByCountry] API Client Initialized v2");
+
+// Cache para evitar recargar datos ya obtenidos
 const stationsCache = new Map<CountryCode, StationByCountry[]>();
 
 // Para rastrear cargas en progreso y evitar duplicados
 const loadingPromises = new Map<CountryCode, Promise<StationByCountry[]>>();
 
+/**
+ * Transforma una Station de la API al formato StationByCountry del frontend
+ */
+function transformStation(station: Station): StationByCountry {
+  return {
+    nombre: station.nombre,
+    url_stream: station.urlStream,
+    // Usar la URL completa del backend devuelta por getStaticUrl, logoMapper lo manejará
+    logo_local: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+    slug: station.slug,
+    descripcion: station.descripcion || undefined,
+    generos: station.genres?.map((g) => g.name) || [],
+    redes_sociales: station.socialNetworks?.map((sn) => sn.url) || [],
+    sitio_web: station.sitioWeb || undefined,
+    ciudad: station.ciudad || undefined,
+    frecuencia: station.frecuencia || undefined,
+    ubicacion: station.ciudad || undefined,
+    logo: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+  };
+}
+
+/**
+ * Carga todas las emisoras de un país desde la API
+ */
 export async function loadStationsByCountry(
   countryCode: CountryCode,
 ): Promise<StationByCountry[]> {
@@ -237,29 +279,38 @@ export async function loadStationsByCountry(
     return existingPromise;
   }
 
-  const country = countries.find((c) => c.code === countryCode);
-  if (!country) {
-    return [];
-  }
-
   // 3. Crear nueva promesa de carga
   const loadPromise = (async () => {
     try {
-      console.log(
-        `[Cargando] País: ${countryCode} desde ${country.jsonFile}...`,
-      );
-      const importedData = await import(`@/data/${country.jsonFile}`);
-      const data: StationByCountry[] = importedData.default;
+      console.log(`[API] Cargando emisoras de ${countryCode} desde backend...`);
+
+      // Cargar todas las emisoras del país (con paginación automática)
+      const allStations: StationByCountry[] = [];
+      let page = 1;
+      let hasMore = true;
+
+      while (hasMore) {
+        const response = await getStationsByCountry(countryCode, {
+          page,
+          limit: 100, // Cargar en lotes de 100
+        });
+
+        const transformedStations = response.data.map(transformStation);
+        allStations.push(...transformedStations);
+
+        hasMore = response.meta.hasNextPage;
+        page++;
+      }
 
       // Guardar en cache
-      stationsCache.set(countryCode, data);
+      stationsCache.set(countryCode, allStations);
       console.log(
-        `[Cargado + Cached] País: ${countryCode} (${data.length} emisoras)`,
+        `[API + Cached] País: ${countryCode} (${allStations.length} emisoras)`,
       );
 
-      return data;
+      return allStations;
     } catch (error) {
-      console.error(`Error loading stations for ${countryCode}:`, error);
+      console.error(`Error cargando emisoras para ${countryCode}:`, error);
       return [];
     } finally {
       // Limpiar promesa de carga
@@ -273,7 +324,7 @@ export async function loadStationsByCountry(
   return loadPromise;
 }
 
-// Función para limpiar cache si es necesario (ej: para liberar memoria)
+// Función para limpiar cache si es necesario
 export function clearStationsCache(countryCode?: CountryCode): void {
   if (countryCode) {
     stationsCache.delete(countryCode);
@@ -291,9 +342,14 @@ export function preloadCountry(countryCode: CountryCode): void {
     loadStationsByCountry(countryCode);
   }
 }
-// Cache para categorías por país (evita recalcular con datasets grandes)
+
+// Cache para categorías por país
 const categoriesCache = new Map<CountryCode, string[]>();
 
+/**
+ * Obtiene las categorías/géneros de un conjunto de estaciones
+ * O las carga desde la API si se proporciona countryCode
+ */
 export function getCategories(
   stations: StationByCountry[],
   countryCode?: CountryCode,
@@ -304,7 +360,7 @@ export function getCategories(
     if (cached) return cached;
   }
 
-  // Usar Set directamente para mejor rendimiento con datasets grandes
+  // Extraer géneros únicos de las estaciones locales
   const genreSet = new Set<string>();
   for (let i = 0; i < stations.length; i++) {
     const generos = stations[i].generos;
@@ -325,6 +381,9 @@ export function getCategories(
   return result;
 }
 
+/**
+ * Filtra estaciones por una categoría
+ */
 export function filterByCategory(
   stations: StationByCountry[],
   category: string,
@@ -333,6 +392,9 @@ export function filterByCategory(
   return stations.filter((s) => s.generos?.includes(category) || false);
 }
 
+/**
+ * Filtra estaciones por múltiples categorías
+ */
 export function filterByCategories(
   stations: StationByCountry[],
   categories: string[],
@@ -345,7 +407,6 @@ export function filterByCategories(
 
 /**
  * Normaliza texto removiendo acentos y diacríticos
- * Ej: "olímpica" -> "olimpica", "niño" -> "nino"
  */
 function normalizeText(text: string): string {
   return text
@@ -355,6 +416,9 @@ function normalizeText(text: string): string {
     .trim();
 }
 
+/**
+ * Busca estaciones por nombre, género, descripción o ciudad
+ */
 export function searchStations(
   stations: StationByCountry[],
   query: string,
@@ -376,4 +440,22 @@ export function searchStations(
         normalizeText(station.ciudad).includes(normalizedQuery)) ||
       false,
   );
+}
+
+/**
+ * Carga países desde la API (opcional)
+ */
+export async function loadCountriesFromApi(): Promise<Country[]> {
+  try {
+    const apiCountries = await apiGetCountries();
+    return apiCountries.map((c: ApiCountry) => ({
+      code: c.code as CountryCode,
+      name: c.name,
+      flag: getStaticUrl(c.flagUrl),
+      jsonFile: "", // No se usa con la API
+    }));
+  } catch (error) {
+    console.error("Error cargando países desde API:", error);
+    return countries; // Fallback a lista estática
+  }
 }
