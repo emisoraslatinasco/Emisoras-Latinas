@@ -2,13 +2,202 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsByCountry';
+import { countries, CountryCode } from '@/data/stationsByCountry';
 import { getI18nFromCountry } from '@/utils/translations';
 import { Footer } from '@/components/layout';
 import AdSpace from '@/components/ui/AdSpace';
-import { getLogoPath } from '@/utils/logoMapper';
 import IntegratedPlayer from '@/components/ui/IntegratedPlayer';
 import ReportButton from '@/components/ui/ReportButton';
+
+// ========== INTERFACES ==========
+
+interface Station {
+  nombre: string;
+  generos?: string[];
+  ciudad?: string;
+  descripcion?: string;
+  logoUrl?: string;  // Backend usa logoUrl, no logo_local
+  sitio_web?: string;
+  redes_sociales?: string[];
+  slug: string;
+  urlStream?: string;  // Backend usa urlStream, no stream_url
+}
+
+// ========== SEO 2.0: Generador de Contenido con Sinónimos Aleatorios ==========
+
+/**
+ * Genera descripción inteligente con VARIACIONES ALEATORIAS usando sinónimos
+ * Solo se usa si la emisora NO tiene descripción en la BD
+ * 
+ * MATEMÁTICAS DE VARIACIONES:
+ * - Noticias (ES): 4 inicios × 3 conectores × 4 cierres = 48 combinaciones únicas
+ * - Música (ES): 5 inicios × 4 conectores × 5 cierres = 100 combinaciones únicas
+ * - Genérica (ES): 4 inicios × 3 conectores × 4 cierres = 48 combinaciones únicas
+ * 
+ * TOTAL: ~400 combinaciones únicas (200 ES + 200 EN)
+ */
+function generateSmartDescription(
+  station: Station,
+  city: string,
+  countryName: string,
+  lang: string
+): string {
+  // Función auxiliar para seleccionar elemento aleatorio
+  const random = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
+
+  const genres = station.generos || [];
+  const hasNews = genres.some((g: string) => 
+    g.toLowerCase().includes('noticia') || g.toLowerCase().includes('news')
+  );
+  const hasMusic = genres.some((g: string) => 
+    ['música', 'music', 'rock', 'pop', 'salsa', 'jazz', 'clásica'].some(m => g.toLowerCase().includes(m))
+  );
+
+  if (lang === 'es') {
+    // ========== VARIACIÓN A: EMISORAS DE NOTICIAS ==========
+    if (hasNews) {
+      const inicios = [
+        'Mantente informado con',
+        'Sigue la actualidad en',
+        'Escucha las noticias más relevantes en',
+        'Conecta con la información de'
+      ];
+      const conectores = [
+        'la fuente líder de noticias en',
+        'tu estación de confianza desde',
+        'transmitiendo reportajes en vivo desde'
+      ];
+      const cierres = [
+        'Sucesos, análisis y debate en vivo.',
+        'Cobertura 24/7 sin interrupciones.',
+        'La voz autorizada de la región.',
+        'Información verificada al instante.'
+      ];
+
+      return `${random(inicios)} ${station.nombre}, ${random(conectores)} ${city}. ${random(cierres)}`;
+    }
+
+    // ========== VARIACIÓN B: EMISORAS MUSICALES ==========
+    if (hasMusic && genres[0]) {
+      const inicios = [
+        'Disfruta de la mejor selección de',
+        'Escucha los mejores éxitos de',
+        'Sintoniza ahora la mejor',
+        'Conéctate con los ritmos de',
+        'Vive la experiencia musical de'
+      ];
+      const conectores = [
+        `en ${station.nombre}. Transmitiendo desde el corazón de`,
+        `en ${station.nombre}, directo desde`,
+        `con ${station.nombre}, la señal líder de`,
+        `a través de ${station.nombre}, en vivo desde`
+      ];
+      const cierres = [
+        'sin cortes comerciales.',
+        'disponible online gratis.',
+        'con la mejor calidad de audio.',
+        'streaming 24/7 para ti.',
+        'la banda sonora de tu día.'
+      ];
+
+      return `${random(inicios)} ${genres[0]} ${random(conectores)} ${city}, ${random(cierres)}`;
+    }
+
+    // ========== VARIACIÓN C: GENÉRICA (FALLBACK) ==========
+    const iniciosGen = [
+      'Escucha',
+      'Sintoniza ahora',
+      'Disfruta de',
+      'Conéctate con'
+    ];
+    const conectoresGen = [
+      'transmitiendo en vivo desde',
+      'la señal líder de',
+      'directo desde el corazón de'
+    ];
+    const cierresGen = [
+      'sin cortes.',
+      'disponible online.',
+      'con la mejor calidad de audio.',
+      'gratis para ti.'
+    ];
+
+    return `${random(iniciosGen)} ${station.nombre}, ${random(conectoresGen)} ${city}, ${random(cierresGen)}`;
+
+  } else {
+    // ========== VERSIÓN INGLÉS (MISMA ESTRUCTURA) ==========
+    
+    // VARIACIÓN A: NEWS
+    if (hasNews) {
+      const inicios = [
+        'Stay informed with',
+        'Get the latest news from',
+        'Listen to breaking news on',
+        'Connect with current events via'
+      ];
+      const conectores = [
+        "your trusted news source in",
+        "broadcasting live from",
+        "the leading voice of"
+      ];
+      const cierres = [
+        'Live coverage and analysis.',
+        '24/7 news without interruptions.',
+        'Verified information instantly.',
+        'The authoritative voice of the region.'
+      ];
+
+      return `${random(inicios)} ${station.nombre}, ${random(conectores)} ${city}. ${random(cierres)}`;
+    }
+
+    // VARIACIÓN B: MUSIC
+    if (hasMusic && genres[0]) {
+      const inicios = [
+        'Enjoy the best',
+        'Listen to top hits of',
+        'Tune in to the finest',
+        'Connect with the rhythms of',
+        'Experience the best'
+      ];
+      const conectores = [
+        `on ${station.nombre}, broadcasting from`,
+        `via ${station.nombre}, live from`,
+        `with ${station.nombre}, streaming from`,
+        `through ${station.nombre}, direct from`
+      ];
+      const cierres = [
+        'commercial-free.',
+        'available online free.',
+        'with superior audio quality.',
+        '24/7 streaming for you.',
+        'the soundtrack of your day.'
+      ];
+
+      return `${random(inicios)} ${genres[0]} ${random(conectores)} ${city}, ${random(cierres)}`;
+    }
+
+    // VARIACIÓN C: GENERIC
+    const iniciosGen = [
+      'Listen to',
+      'Tune in now to',
+      'Enjoy',
+      'Connect with'
+    ];
+    const conectoresGen = [
+      'broadcasting live from',
+      'the leading station of',
+      'streaming direct from'
+    ];
+    const cierresGen = [
+      'without interruptions.',
+      'available online.',
+      'with the best audio quality.',
+      'free for you.'
+    ];
+
+    return `${random(iniciosGen)} ${station.nombre}, ${random(conectoresGen)} ${city}, ${random(cierresGen)}`;
+  }
+}
 
 // Enable dynamic rendering for 21K+ pages
 export const dynamic = 'force-dynamic';
@@ -24,47 +213,57 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     return { title: 'Emisoras Latinas' };
   }
   
-  const stations = await loadStationsByCountry(code);
-  const station = stations.find(s => s.slug === resolvedParams.slug);
-  
-  if (!station) {
-    return { title: 'Emisora no encontrada | Emisoras Latinas' };
-  }
-  
-  getI18nFromCountry(code); // Validate country code
-  const stationFrequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
-  const frequency = stationFrequency ? ` ${stationFrequency}` : '';
-  const location = station.ciudad || country.name;
-  
-  // Título optimizado para CTR: "Escuchar {Name} en VIVO {Freq} - {City} | Gratis"
-  const seoTitle = `Escuchar ${station.nombre} en VIVO${frequency} - ${location} | Gratis`;
-  
-  // Descripción persuasiva con CTA
-  const seoDescription = station.descripcion 
-    ? `▶️ ${station.descripcion.substring(0, 120)}... Escucha ahora gratis, sin cortes.`
-    : `▶️ Escucha ${station.nombre}${frequency} en vivo desde ${location}. Radio online gratis 24/7, sin cortes ni registro. ¡Dale play ahora!`;
-  
-  return {
-    title: seoTitle,
-    description: seoDescription,
-    alternates: {
-      canonical: `/radio/${resolvedParams.country}/${resolvedParams.slug}`,
-    },
-    openGraph: {
-      title: `▶️ ${station.nombre} - Radio en Vivo Gratis`,
-      description: seoDescription,
-      url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
-      type: 'website',
-      images: [
-        {
-          url: getLogoPath(station.logo_local, code),
-          width: 800,
-          height: 600,
-          alt: station.nombre,
-        }
-      ]
+  // SEO 2.0: Llamar al backend para obtener emisora
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+  try {
+    const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
+      next: { revalidate: 3600 } // Cachear por 1 hora
+    });
+
+    if (!res.ok) {
+      return { title: 'Emisora no encontrada | Emisoras Latinas' };
     }
-  };
+
+    const { station } = await res.json();
+
+    getI18nFromCountry(code);
+    const stationFrequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
+    const frequency = stationFrequency ? ` ${stationFrequency}` : '';
+    const location = station.ciudad || country.name;
+    
+    // Título optimizado para CTR
+    const seoTitle = `Escuchar ${station.nombre} en VIVO${frequency} - ${location} | Gratis`;
+    
+    // Descripción persuasiva con CTA
+    const seoDescription = station.descripcion 
+      ? `▶️ ${station.descripcion.substring(0, 120)}... Escucha ahora gratis, sin cortes.`
+      : `▶️ Escucha ${station.nombre}${frequency} en vivo desde ${location}. Radio online gratis 24/7, sin cortes ni registro. ¡Dale play ahora!`;
+    
+    return {
+      title: seoTitle,
+      description: seoDescription,
+      alternates: {
+        canonical: `/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+      },
+      openGraph: {
+        title: `▶️ ${station.nombre} - Radio en Vivo Gratis`,
+        description: seoDescription,
+        url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+        type: 'website',
+        images: [
+          {
+            url: station.logoUrl ? `${API_URL.replace('/api', '')}${station.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`,
+            width: 800,
+            height: 600,
+            alt: station.nombre,
+          }
+        ]
+      }
+    };
+  } catch (error) {
+    console.error('Error fetching station metadata:', error);
+    return { title: 'Emisoras Latinas' };
+  }
 }
 
 export default async function StationPage({ params }: { params: Promise<{ country: string; slug: string }> }) {
@@ -74,17 +273,33 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   
   if (!country) return notFound();
   
-  const stations = await loadStationsByCountry(code);
-  const station = stations.find(s => s.slug === resolvedParams.slug);
+  // SEO 2.0: Llamar al backend para obtener emisora + emisoras relacionadas
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   
-  if (!station) return notFound();
+  let station, relatedStations;
+  try {
+    console.log(`[StationPage] Fetching: ${API_URL}/stations/${resolvedParams.slug}/full`);
+    const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
+      next: { revalidate: 3600 } // Cachear por 1 hora
+    });
+
+    console.log(`[StationPage] Response status: ${res.status}`);
+    
+    if (!res.ok) {
+      console.error(`[StationPage] API returned ${res.status} for ${resolvedParams.slug}`);
+      return notFound();
+    }
+
+    const data = await res.json();
+    station = data.station;
+    relatedStations = data.relatedStations;
+    console.log(`[StationPage] Successfully loaded: ${station.nombre}`);
+  } catch (error) {
+    console.error(`[StationPage] Fetch error:`, error);
+    return notFound();
+  }
   
   const {t, lang} = getI18nFromCountry(code);
-  
-  // Emisoras relacionadas de la misma ciudad
-  const relatedStations = stations
-    .filter(s => s.ciudad === station.ciudad && s.slug !== station.slug)
-    .slice(0, 6);
   
   // Extraer frecuencia del nombre si existe
   const frequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
@@ -155,7 +370,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             <div className="flex justify-center items-start">
               <div className="relative w-36 h-36 rounded-xl overflow-hidden border-2 border-slate-700/50 shadow-xl">
                 <Image
-                  src={getLogoPath(station.logo_local, code)}
+                  src={station.logoUrl ? `${API_URL.replace('/api', '')}${station.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`}
                   alt={station.nombre}
                   fill
                   className="object-cover"
@@ -193,7 +408,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               {/* Géneros */}
               {station.generos && station.generos.length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {station.generos.slice(0, 5).map((genre, idx) => (
+                  {station.generos.slice(0, 5).map((genre: string, idx: number) => (
                     <span
                       key={idx}
                       className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30"
@@ -222,7 +437,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         {/* Información Organizada en Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           
-          {/* Sección: Sobre la Emisora */}
+          {/* Sección: Sobre la Emisora - CON ESTRATEGIA DE CASCADA */}
           <div className="glass-effect rounded-2xl p-6 lg:col-span-2">
             <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
               <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
@@ -231,7 +446,9 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               {lang === 'es' ? 'Acerca de' : lang === 'en' ? 'About' : 'Sobre'} {station.nombre}
             </h2>
             <div className="text-slate-300 leading-relaxed space-y-3">
-              {station.descripcion ? (
+              {/* ESTRATEGIA DE CASCADA: Prioridad 1 = descripción BD, Prioridad 2 = plantilla */}
+              {station.descripcion && station.descripcion.length > 50 ? (
+                // CASO 1: Tiene descripción única en BD (protege las 4,000 indexadas)
                 <>
                   <p>{station.descripcion}</p>
                   {frequency && (
@@ -244,11 +461,9 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   )}
                 </>
               ) : (
+                // CASO 2: NO tiene descripción - usar plantilla VARIADA con sinónimos
                 <p className="text-slate-400">
-                  {lang === 'es' 
-                    ? `${station.nombre} es una emisora de ${country.name}. Disfruta de su programación en vivo las 24 horas del día.`
-                    : `${station.nombre} is a radio station from ${country.name}. Enjoy live programming 24/7.`
-                  }
+                  {generateSmartDescription(station, location, country.name, lang)}
                 </p>
               )}
             </div>
@@ -291,7 +506,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             </h3>
             {station.redes_sociales && station.redes_sociales.length > 0 ? (
               <div className="flex flex-wrap gap-3">
-                {station.redes_sociales.map((red, idx) => {
+                {station.redes_sociales.map((red: string, idx: number) => {
                   const socialIcon = red.includes('facebook') ? 'fa-facebook' :
                     red.includes('twitter') || red.includes('x.com') ? 'fa-twitter' :
                     red.includes('instagram') ? 'fa-instagram' :
@@ -334,7 +549,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                 {lang === 'es' ? 'Géneros' : 'Genres'}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {station.generos.map((genre, idx) => (
+                {station.generos.map((genre: string, idx: number) => (
                   <span
                     key={idx}
                     className="px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30"
@@ -383,7 +598,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               {lang === 'es' ? 'Más radios de' : lang === 'en' ? 'More stations from' : 'Plus de radios de'} {location}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {relatedStations.map((related) => (
+              {relatedStations.map((related: Station) => (
                 <Link
                   key={related.slug}
                   href={`/radio/${resolvedParams.country}/${related.slug}`}
@@ -391,7 +606,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                 >
                   <div className="relative w-full aspect-square mb-3 rounded-lg overflow-hidden">
                     <Image
-                      src={getLogoPath(related.logo_local, code)}
+                      src={related.logoUrl ? `${API_URL.replace('/api', '')}${related.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`}
                       alt={related.nombre}
                       fill
                       className="object-cover"

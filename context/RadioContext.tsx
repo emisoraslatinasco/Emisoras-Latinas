@@ -3,6 +3,11 @@
 import React, { createContext, useContext, useState, useRef, useCallback, useEffect } from 'react';
 import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 
+// Tipo auxiliar para soportar tanto datos del backend directo como transformados
+type StationWithStream = StationByCountry & {
+  urlStream?: string; // Backend directo usa urlStream
+};
+
 interface RadioState {
   currentStation: StationByCountry | null;
   currentCountryCode: CountryCode | null;
@@ -71,7 +76,21 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     setState(prev => ({ ...prev, isLoading: true, loadingStation: station.nombre, error: null }));
     
     audioRef.current.pause();
-    audioRef.current.src = station.url_stream;
+    // Soportar tanto urlStream (backend directo) como url_stream (transformado)
+    const stationWithStream = station as StationWithStream;
+    const streamUrl = stationWithStream.urlStream || station.url_stream;
+    
+    if (!streamUrl) {
+      setState(prev => ({
+        ...prev,
+        loadingStation: null,
+        isLoading: false,
+        error: `Emisora "${station.nombre}" no tiene URL de streaming disponible`,
+      }));
+      return;
+    }
+    
+    audioRef.current.src = streamUrl;
 
     const handleCanPlay = () => {
       audioRef.current?.play()

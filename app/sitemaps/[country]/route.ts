@@ -2,7 +2,6 @@ import { NextRequest } from "next/server";
 import {
   countries,
   CountryCode,
-  loadStationsByCountry,
 } from "@/data/stationsByCountry";
 
 // Configuración de la ruta dinámica
@@ -46,48 +45,71 @@ export async function GET(
 
   const currentDate = new Date().toISOString();
 
-  // Cargar emisoras del país
-  const stations = await loadStationsByCountry(actualCountryCode);
-  const stationsWithSlug = stations.filter((s) => s.slug);
-  const totalPages = Math.ceil(stationsWithSlug.length / MAX_URLS_PER_SITEMAP);
+  // SEO 2.0: Llamar al backend para obtener todos los slugs desde la BD
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+  try {
+    const res = await fetch(`${API_URL}/stations/slugs/all`, {
+      next: { revalidate: 3600 } // Cachear por 1 hora
+    });
 
-  // Si es solicitud de índice, generar sitemap index
-  if (isIndexRequest) {
-    return generateSitemapIndex(
-      baseUrl,
-      country.replace("-index", ""),
-      totalPages,
-      currentDate,
-    );
-  }
+    if (!res.ok) {
+      return new Response('Error loading stations', { status: 500 });
+    }
 
-  // Si el país tiene muchas emisoras y no se especificó página, redirigir al índice
-  if (totalPages > 1 && !pageParam) {
-    // Generar solo la primera página por defecto
+    const allStations: Array<{ slug: string; countryCode: string; updatedAt: Date }> = await res.json();
+    
+    // Filtrar emisoras del país actual
+    const stationsWithSlug = allStations
+      .filter((s) => s.countryCode === actualCountryCode && s.slug)
+      .map(s => ({
+        slug: s.slug,
+        updatedAt: s.updatedAt
+      }));
+
+    const totalPages = Math.ceil(stationsWithSlug.length / MAX_URLS_PER_SITEMAP);
+
+    // Si es solicitud de índice, generar sitemap index
+    if (isIndexRequest) {
+      return generateSitemapIndex(
+        baseUrl,
+        country.replace("-index", ""),
+        totalPages,
+        currentDate,
+      );
+    }
+
+    // Si el país tiene muchas emisoras y no se especificó página, redirigir al índice
+    if (totalPages > 1 && !pageParam) {
+      // Generar solo la primera página por defecto
+      return generateSitemapPage(
+        baseUrl,
+        country,
+        stationsWithSlug,
+        1,
+        currentDate,
+      );
+    }
+
+    const page = pageParam ? parseInt(pageParam, 10) : 1;
+
+    if (page < 1 || page > totalPages) {
+      return new Response(`Page must be between 1 and ${totalPages}`, {
+        status: 400,
+      });
+    }
+
+    // Generar sitemap para la página solicitada
     return generateSitemapPage(
       baseUrl,
       country,
       stationsWithSlug,
-      1,
+      page,
       currentDate,
     );
+  } catch (error) {
+    console.error('Error generating sitemap:', error);
+    return new Response('Error generating sitemap', { status: 500 });
   }
-
-  const page = pageParam ? parseInt(pageParam, 10) : 1;
-
-  if (page < 1 || page > totalPages) {
-    return new Response(`Page must be between 1 and ${totalPages}`, {
-      status: 400,
-    });
-  }
-
-  return generateSitemapPage(
-    baseUrl,
-    country,
-    stationsWithSlug,
-    page,
-    currentDate,
-  );
 }
 
 /**
