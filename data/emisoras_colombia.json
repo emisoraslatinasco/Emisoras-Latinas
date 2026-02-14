@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Emisora Ejemplo 1",
+    "url_stream": "https://stream.ejemplo.com/radio.mp3",
+    "logo_local": null,
+    "generos": ["Salsa", "Merengue"],
+    "ciudad": "Bogotá",
+    "descripcion": "Esta es una emisora de prueba agregada desde el archivo JSON local.",
+    "activo": true
+  },
+  {
+    "nombre": "Emisora Ejemplo 2",
+    "url_stream": "https://otro.stream.com/live",
+    "logo_local": null,
+    "generos": ["Noticias", "Deportes"],
+    "ciudad": "Medellín",
+    "activo": true
+  }
+]

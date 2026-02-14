@@ -245,8 +245,8 @@ function transformStation(station: Station): StationByCountry {
   return {
     nombre: station.nombre,
     url_stream: station.urlStream,
-    // Usar la URL completa del backend devuelta por getStaticUrl, logoMapper lo manejará
-    logo_local: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+    // Pasar la ruta raw del logo - logoMapper resolverá la ruta local correcta
+    logo_local: station.logoUrl || null,
     slug: station.slug,
     descripcion: station.descripcion || undefined,
     generos: station.genres?.map((g) => g.name) || [],
