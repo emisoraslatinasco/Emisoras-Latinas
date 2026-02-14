@@ -72,7 +72,8 @@ export default function AudioPlayer() {
                     unoptimized
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
+                      target.srcset = '';
+                      target.src = '/logos_general/antena.png';
                     }}
                   />
                   <i className="fas fa-radio text-white text-lg absolute opacity-30"></i>
@@ -201,7 +202,8 @@ export default function AudioPlayer() {
                     unoptimized
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
+                      target.srcset = '';
+                      target.src = '/logos_general/antena.png';
                     }}
                   />
                   <i className="fas fa-radio text-white text-4xl absolute opacity-30"></i>

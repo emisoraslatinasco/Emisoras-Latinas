@@ -1,8 +1,13 @@
-import { memo } from 'react';
+'use client';
+
+import { memo, useState, useCallback } from 'react';
 import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getLogoPath } from '@/utils/logoMapper';
+
+// Imagen por defecto local (no depende del backend)
+const DEFAULT_RADIO_IMAGE = '/logos_general/antena.png';
 
 interface StationCardProps {
   station: StationByCountry;
@@ -32,6 +37,8 @@ function extractFrequency(nombre: string): string | null {
  * Info superpuesta sobre el logo para diseño compacto
  * Memoized para evitar re-renders innecesarios
  * 
+ * Fallback de imagen: backend logo → imagen por defecto local
+ * 
  * NOTE: JSON-LD schema is defined at the page level (ItemList), 
  * not per card, to optimize server-side rendering performance.
  */
@@ -40,8 +47,24 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
   const frequency = extractFrequency(station.nombre);
   const city = station.ciudad?.trim() || null;
   
+  // Estado para el fallback de imagen
+  const [imgSrc, setImgSrc] = useState(logoSrc);
+  const [hasError, setHasError] = useState(false);
+  
   // URL de la página individual
   const stationUrl = `/radio/${countryCode.toLowerCase()}/${station.slug}`;
+
+  /**
+   * Fallback de imagen:
+   * 1. Intenta cargar logo del backend (logoSrc)
+   * 2. Si falla → imagen por defecto local (/logos_general/antena.png)
+   */
+  const handleImageError = useCallback(() => {
+    if (!hasError) {
+      setHasError(true);
+      setImgSrc(DEFAULT_RADIO_IMAGE);
+    }
+  }, [hasError]);
 
   return (
     <article
@@ -53,7 +76,7 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
         {/* Logo de fondo */}
         <div className="absolute inset-0 logo-container flex items-center justify-center bg-slate-900">
           <Image
-            src={logoSrc}
+            src={imgSrc}
             alt={`Logo de ${station.nombre}${frequency ? ` ${frequency}` : ''}`}
             fill
             className="object-cover"
@@ -61,6 +84,7 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
             priority={index < 4}
             loading={index < 4 ? undefined : "lazy"}
             unoptimized
+            onError={handleImageError}
           />
         </div>
         
