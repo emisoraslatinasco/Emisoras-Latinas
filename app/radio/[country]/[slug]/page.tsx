@@ -4,10 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { countries, CountryCode } from '@/data/stationsByCountry';
 import { getI18nFromCountry } from '@/utils/translations';
+import { getLogoPath } from '@/utils/logoMapper';
 import { Footer } from '@/components/layout';
 import AdSpace from '@/components/ui/AdSpace';
 import IntegratedPlayer from '@/components/ui/IntegratedPlayer';
 import ReportButton from '@/components/ui/ReportButton';
+import StationImage from '@/components/ui/StationImage';
 
 // ========== INTERFACES ==========
 
@@ -252,7 +254,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
         type: 'website',
         images: [
           {
-            url: station.logoUrl ? `${API_URL.replace('/api', '')}${station.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`,
+            url: `https://www.emisoraslatinas.online${getLogoPath(station.logoUrl, code)}`,
             width: 800,
             height: 600,
             alt: station.nombre,
@@ -369,8 +371,8 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             {/* Logo - Tamaño reducido */}
             <div className="flex justify-center items-start">
               <div className="relative w-36 h-36 rounded-xl overflow-hidden border-2 border-slate-700/50 shadow-xl">
-                <Image
-                  src={station.logoUrl ? `${API_URL.replace('/api', '')}${station.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`}
+                <StationImage
+                  src={getLogoPath(station.logoUrl, code)}
                   alt={station.nombre}
                   fill
                   className="object-cover"
@@ -605,8 +607,8 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   className="glass-effect rounded-xl p-4 hover:scale-105 transition-transform text-center"
                 >
                   <div className="relative w-full aspect-square mb-3 rounded-lg overflow-hidden">
-                    <Image
-                      src={related.logoUrl ? `${API_URL.replace('/api', '')}${related.logoUrl}` : `${API_URL.replace('/api', '')}/static/logos/${code}/default.jpg`}
+                    <StationImage
+                      src={getLogoPath(related.logoUrl || null, code)}
                       alt={related.nombre}
                       fill
                       className="object-cover"
