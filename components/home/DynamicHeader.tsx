@@ -174,6 +174,42 @@ const countryThemes: Record<CountryCode, CountryTheme> = {
     slogan: "The best of British radio!",
     emoji: "🇬🇧",
   },
+  AU: {
+    gradient: "from-blue-700 via-red-600 to-white",
+    accentColor: "text-blue-400",
+    slogan: "Australia's best hits!",
+    emoji: "🇦🇺",
+  },
+  HR: {
+    gradient: "from-red-600 via-white to-blue-600",
+    accentColor: "text-red-400",
+    slogan: "¡El corazón del Adriático!",
+    emoji: "🇭🇷",
+  },
+  PA: {
+    gradient: "from-blue-600 via-white to-red-600",
+    accentColor: "text-blue-400",
+    slogan: "¡Puente del mundo, corazón del universo!",
+    emoji: "🇵🇦",
+  },
+  PL: {
+    gradient: "from-white via-red-500 to-red-600",
+    accentColor: "text-red-400",
+    slogan: "¡La voz de Polonia!",
+    emoji: "🇵🇱",
+  },
+  TH: {
+    gradient: "from-red-600 via-white to-blue-600",
+    accentColor: "text-blue-400",
+    slogan: "¡La sonrisa de Asia!",
+    emoji: "🇹🇭",
+  },
+  TR: {
+    gradient: "from-red-600 via-red-500 to-white",
+    accentColor: "text-red-400",
+    slogan: "¡El puente entre dos mundos!",
+    emoji: "🇹🇷",
+  },
 };
 
 const countryNames: Record<CountryCode, string> = {
@@ -204,6 +240,12 @@ const countryNames: Record<CountryCode, string> = {
   FR: "Francia",
   IT: "Italia",
   GB: "Reino Unido",
+  AU: "Australia",
+  HR: "Croacia",
+  PA: "Panamá",
+  PL: "Polonia",
+  TH: "Tailandia",
+  TR: "Turquía",
 };
 
 interface DynamicHeaderProps {

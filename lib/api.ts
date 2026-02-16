@@ -227,10 +227,12 @@ export async function getAllGenres(): Promise<Genre[]> {
 /**
  * Construir URL completa para assets estáticos del backend
  */
+/**
+ * Construir URL completa para assets estáticos del backend
+ */
 export function getStaticUrl(path: string): string {
-  const baseUrl =
-    process.env.NEXT_PUBLIC_API_URL?.replace("/api", "") ||
-    "http://localhost:3000";
+  // Usar API_BASE_URL que ya tiene corrección de protocolo y sufijo /api
+  const baseUrl = API_BASE_URL.replace(/\/api$/, "");
   return `${baseUrl}${path}`;
 }
 

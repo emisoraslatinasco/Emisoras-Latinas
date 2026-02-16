@@ -4,8 +4,10 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { useRadio } from '@/context/RadioContext';
 import Image from 'next/image';
-import { getLogoPath } from '@/utils/logoMapper';
 import AdSpace from '@/components/ui/AdSpace';
+
+// Imagen por defecto local (no depende del backend)
+const DEFAULT_RADIO_IMAGE = '/logos_general/antena.png';
 
 export default function AudioPlayer() {
   const pathname = usePathname();
@@ -34,7 +36,8 @@ export default function AudioPlayer() {
   if (isStationPage) return null;
 
   const volumePercent = Math.round(volume * 100);
-  const logoSrc = getLogoPath(currentStation.logo_local, currentCountryCode);
+  // logo_local ya viene con la URL completa del backend desde stationsByCountry.ts
+  const logoSrc = currentStation.logo_local || DEFAULT_RADIO_IMAGE;
 
   const getVolumeIcon = () => {
     if (volume === 0) return 'fa-volume-mute';

@@ -1,8 +1,6 @@
 // API V2 Implementation
 import {
   getStationsByCountry,
-  getGenresByCountry,
-  searchStations as apiSearchStations,
   getCountries as apiGetCountries,
   getStaticUrl,
   type Station,
@@ -55,7 +53,13 @@ export type CountryCode =
   | "VE"
   | "FR"
   | "IT"
-  | "GB";
+  | "GB"
+  | "AU"
+  | "HR"
+  | "PA"
+  | "PL"
+  | "TH"
+  | "TR";
 
 export interface Country {
   code: CountryCode;
@@ -228,6 +232,42 @@ export const countries: Country[] = [
     flag: "/flags/reino_unido.jpg",
     jsonFile: "emisoras_reino_unido.json",
   },
+  {
+    code: "AU",
+    name: "Australia",
+    flag: "/flags/australia.jpg",
+    jsonFile: "emisoras_australia.json",
+  },
+  {
+    code: "HR",
+    name: "Croacia",
+    flag: "/flags/croacia.jpg",
+    jsonFile: "emisoras_croacia.json",
+  },
+  {
+    code: "PA",
+    name: "Panamá",
+    flag: "/flags/panama.jpg",
+    jsonFile: "emisoras_panama.json",
+  },
+  {
+    code: "PL",
+    name: "Polonia",
+    flag: "/flags/polonia.jpg",
+    jsonFile: "emisoras_polonia.json",
+  },
+  {
+    code: "TH",
+    name: "Tailandia",
+    flag: "/flags/tailandia.jpg",
+    jsonFile: "emisoras_tailandia.json",
+  },
+  {
+    code: "TR",
+    name: "Turquía",
+    flag: "/flags/turquia.jpg",
+    jsonFile: "emisoras_turquia.json",
+  },
 ];
 
 console.log("[StationsByCountry] API Client Initialized v2");
@@ -245,8 +285,8 @@ function transformStation(station: Station): StationByCountry {
   return {
     nombre: station.nombre,
     url_stream: station.urlStream,
-    // Pasar la ruta raw del logo - logoMapper resolverá la ruta local correcta
-    logo_local: station.logoUrl || null,
+    // Modificado para usar siempre la URL del backend si existe
+    logo_local: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
     slug: station.slug,
     descripcion: station.descripcion || undefined,
     generos: station.genres?.map((g) => g.name) || [],

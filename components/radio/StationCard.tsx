@@ -4,7 +4,6 @@ import { memo, useState, useCallback } from 'react';
 import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 import Image from 'next/image';
 import Link from 'next/link';
-import { getLogoPath } from '@/utils/logoMapper';
 
 // Imagen por defecto local (no depende del backend)
 const DEFAULT_RADIO_IMAGE = '/logos_general/antena.png';
@@ -43,7 +42,8 @@ function extractFrequency(nombre: string): string | null {
  * not per card, to optimize server-side rendering performance.
  */
 const StationCard = memo(function StationCard({ station, index, countryCode }: StationCardProps) {
-  const logoSrc = getLogoPath(station.logo_local, countryCode);
+  // logo_local ya viene con la URL completa del backend desde stationsByCountry.ts
+  const logoSrc = station.logo_local || DEFAULT_RADIO_IMAGE;
   const frequency = extractFrequency(station.nombre);
   const city = station.ciudad?.trim() || null;
   

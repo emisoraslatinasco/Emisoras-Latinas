@@ -13,14 +13,26 @@ import StationImage from '@/components/ui/StationImage';
 
 // ========== INTERFACES ==========
 
+interface SocialNetwork {
+  id: string;
+  url: string;
+  platform: string | null;
+}
+
+interface Genre {
+  id: string;
+  name: string;
+  slug: string;
+}
+
 interface Station {
   nombre: string;
-  generos?: string[];
+  genres?: Genre[];  // Backend devuelve array de objetos Genre
   ciudad?: string;
   descripcion?: string;
   logoUrl?: string;  // Backend usa logoUrl, no logo_local
-  sitio_web?: string;
-  redes_sociales?: string[];
+  sitioWeb?: string;  // Backend usa camelCase
+  socialNetworks?: SocialNetwork[];  // Backend devuelve array de objetos
   slug: string;
   urlStream?: string;  // Backend usa urlStream, no stream_url
 }
@@ -47,11 +59,11 @@ function generateSmartDescription(
   // Función auxiliar para seleccionar elemento aleatorio
   const random = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
 
-  const genres = station.generos || [];
-  const hasNews = genres.some((g: string) => 
+  const genres = station.genres?.map((g: Genre) => g.name) || [];
+  const hasNews = genres.some((g) => 
     g.toLowerCase().includes('noticia') || g.toLowerCase().includes('news')
   );
-  const hasMusic = genres.some((g: string) => 
+  const hasMusic = genres.some((g) => 
     ['música', 'music', 'rock', 'pop', 'salsa', 'jazz', 'clásica'].some(m => g.toLowerCase().includes(m))
   );
 
@@ -319,8 +331,8 @@ export default async function StationPage({ params }: { params: Promise<{ countr
       "@type": "City",
       "name": location
     },
-    "genre": station.generos?.join(', '),
-    "image": station.logo_local,
+    "genre": station.genres?.map((g: Genre) => g.name).join(', '),
+    "image": station.logoUrl,
   };
 
   return (
@@ -408,14 +420,14 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               </div>
 
               {/* Géneros */}
-              {station.generos && station.generos.length > 0 && (
+              {station.genres && station.genres.length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {station.generos.slice(0, 5).map((genre: string, idx: number) => (
+                  {station.genres.slice(0, 5).map((genre: Genre, idx: number) => (
                     <span
                       key={idx}
                       className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30"
                     >
-                      {genre}
+                      {genre.name}
                     </span>
                   ))}
                 </div>
@@ -479,16 +491,16 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               </div>
               {lang === 'es' ? 'Sitio Web' : 'Website'}
             </h3>
-            {station.sitio_web ? (
+            {station.sitioWeb ? (
               <a 
-                href={station.sitio_web}
+                href={station.sitioWeb}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-3 bg-slate-800/50 rounded-xl hover:bg-slate-700/50 transition-colors group"
               >
                 <i className="fas fa-external-link-alt text-green-400 group-hover:scale-110 transition-transform"></i>
                 <span className="text-blue-400 hover:text-blue-300 truncate text-sm">
-                  {station.sitio_web.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                  {station.sitioWeb.replace(/^https?:\/\//, '').replace(/\/$/, '')}
                 </span>
               </a>
             ) : (
@@ -506,9 +518,10 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               </div>
               {lang === 'es' ? 'Redes Sociales' : 'Social Media'}
             </h3>
-            {station.redes_sociales && station.redes_sociales.length > 0 ? (
+            {station.socialNetworks && station.socialNetworks.length > 0 ? (
               <div className="flex flex-wrap gap-3">
-                {station.redes_sociales.map((red: string, idx: number) => {
+                {station.socialNetworks.map((sn: SocialNetwork, idx: number) => {
+                  const red = sn.url;
                   const socialIcon = red.includes('facebook') ? 'fa-facebook' :
                     red.includes('twitter') || red.includes('x.com') ? 'fa-twitter' :
                     red.includes('instagram') ? 'fa-instagram' :
@@ -527,7 +540,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                       target="_blank"
                       rel="noopener noreferrer"
                       className={`w-12 h-12 ${socialColor} rounded-xl flex items-center justify-center text-white hover:scale-110 transition-transform shadow-lg`}
-                      title={red}
+                      title={sn.platform || red}
                     >
                       <i className={`fab ${socialIcon} text-xl`}></i>
                     </a>
@@ -542,7 +555,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
           </div>
 
           {/* Sección: Géneros Musicales */}
-          {station.generos && station.generos.length > 0 && (
+          {station.genres && station.genres.length > 0 && (
             <div className="glass-effect rounded-2xl p-6">
               <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-500/20 rounded-xl flex items-center justify-center">
@@ -551,12 +564,12 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                 {lang === 'es' ? 'Géneros' : 'Genres'}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {station.generos.map((genre: string, idx: number) => (
+                {station.genres.map((genre: Genre, idx: number) => (
                   <span
                     key={idx}
                     className="px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30"
                   >
-                    {genre}
+                    {genre.name}
                   </span>
                 ))}
               </div>

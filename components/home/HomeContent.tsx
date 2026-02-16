@@ -24,17 +24,47 @@ import { useDebounce } from "@/utils/useDebounce";
  * Países pequeños (<1000): 24 items
  */
 const getItemsPerPage = (totalStations: number): number => {
-  if (totalStations > 2000) return 12;  // USA (4043), Francia (2390)
-  if (totalStations > 1000) return 18;  // UK (1987), México (1184), Chile (1025)
-  return 24;  // Colombia, Argentina, etc.
+  if (totalStations > 2000) return 12; // USA (4043), Francia (2390)
+  if (totalStations > 1000) return 18; // UK (1987), México (1184), Chile (1025)
+  return 24; // Colombia, Argentina, etc.
 };
 
 const STORAGE_KEY = "emisoras_latinas_country";
 
 const validCountries: CountryCode[] = [
-  "CO", "PE", "BR", "EC", "MX", "GT", "BO", "SV", "JM", "PR",
-  "DO", "UA", "UY", "HN", "NI", "AR", "CL", "CR", "DK", "ES",
-  "PT", "TT", "US", "VE", "FR", "IT", "GB",
+  "CO",
+  "PE",
+  "BR",
+  "EC",
+  "MX",
+  "GT",
+  "BO",
+  "SV",
+  "JM",
+  "PR",
+  "DO",
+  "UA",
+  "UY",
+  "HN",
+  "NI",
+  "AR",
+  "CL",
+  "CR",
+  "DK",
+  "ES",
+  "PT",
+  "TT",
+  "US",
+  "VE",
+  "FR",
+  "IT",
+  "GB",
+  "AU",
+  "HR",
+  "PA",
+  "PL",
+  "TH",
+  "TR",
 ];
 
 export default function HomeContent() {
@@ -50,13 +80,13 @@ export default function HomeContent() {
   const [isLoadingStations, setIsLoadingStations] = useState(true);
 
   // Estados derivados de la URL
-  const currentPage = Number(searchParams.get('page')) || 1;
-  const searchQuery = searchParams.get('q') || "";
+  const currentPage = Number(searchParams.get("page")) || 1;
+  const searchQuery = searchParams.get("q") || "";
   // Debounce search query para prevenir filtrado bloqueante (300ms)
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
   const selectedCategories = useMemo(() => {
-    const categoriesParam = searchParams.get('categories');
-    return categoriesParam ? categoriesParam.split(',') : [];
+    const categoriesParam = searchParams.get("categories");
+    return categoriesParam ? categoriesParam.split(",") : [];
   }, [searchParams]);
 
   // Cargar país guardado desde localStorage DESPUÉS del montaje (evita hydration mismatch)
@@ -101,29 +131,35 @@ export default function HomeContent() {
   }, [selectedCountry]);
 
   // Función para construir URLs
-  const createPageUrl = useCallback((page: number) => {
-    const params = new URLSearchParams(searchParams.toString());
-    params.set('page', page.toString());
-    return pathname + '?' + params.toString();
-  }, [searchParams, pathname]);
+  const createPageUrl = useCallback(
+    (page: number) => {
+      const params = new URLSearchParams(searchParams.toString());
+      params.set("page", page.toString());
+      return pathname + "?" + params.toString();
+    },
+    [searchParams, pathname],
+  );
 
-  const updateUrl = useCallback((updates: Record<string, string | null>) => {
-    const params = new URLSearchParams(searchParams.toString());
-    
-    Object.entries(updates).forEach(([key, value]) => {
-      if (value === null) {
-        params.delete(key);
-      } else {
-        params.set(key, value);
+  const updateUrl = useCallback(
+    (updates: Record<string, string | null>) => {
+      const params = new URLSearchParams(searchParams.toString());
+
+      Object.entries(updates).forEach(([key, value]) => {
+        if (value === null) {
+          params.delete(key);
+        } else {
+          params.set(key, value);
+        }
+      });
+
+      if (updates.q !== undefined || updates.categories !== undefined) {
+        params.set("page", "1");
       }
-    });
 
-    if (updates.q !== undefined || updates.categories !== undefined) {
-      params.set('page', '1');
-    }
-
-    router.push(pathname + '?' + params.toString(), { scroll: false });
-  }, [pathname, router, searchParams]);
+      router.push(pathname + "?" + params.toString(), { scroll: false });
+    },
+    [pathname, router, searchParams],
+  );
 
   const categories = useMemo(() => {
     return ["all", ...getCategories(stations)];
@@ -138,8 +174,11 @@ export default function HomeContent() {
   }, [stations, selectedCategories, debouncedSearchQuery]);
 
   // Paginación adaptativa basada en el tamaño del dataset
-  const itemsPerPage = useMemo(() => getItemsPerPage(stations.length), [stations.length]);
-  
+  const itemsPerPage = useMemo(
+    () => getItemsPerPage(stations.length),
+    [stations.length],
+  );
+
   const totalPages = Math.ceil(filteredStations.length / itemsPerPage);
 
   const paginatedStations = useMemo(() => {
@@ -148,24 +187,33 @@ export default function HomeContent() {
     return filteredStations.slice(startIndex, endIndex);
   }, [filteredStations, currentPage, itemsPerPage]);
 
-  const handleCategoriesChange = useCallback((categories: string[]) => {
-    updateUrl({ 
-      categories: categories.length > 0 ? categories.join(',') : null 
-    });
-  }, [updateUrl]);
+  const handleCategoriesChange = useCallback(
+    (categories: string[]) => {
+      updateUrl({
+        categories: categories.length > 0 ? categories.join(",") : null,
+      });
+    },
+    [updateUrl],
+  );
 
-  const handleSearch = useCallback((query: string) => {
-    updateUrl({ 
-      q: query || null 
-    });
-  }, [updateUrl]);
+  const handleSearch = useCallback(
+    (query: string) => {
+      updateUrl({
+        q: query || null,
+      });
+    },
+    [updateUrl],
+  );
 
-  const handleCountryChange = useCallback((country: CountryCode) => {
-    setIsLoadingStations(true);
-    setSelectedCountry(country);
-    // Limpiar filtros al cambiar de país
-    updateUrl({ page: '1', q: null, categories: null });
-  }, [updateUrl]);
+  const handleCountryChange = useCallback(
+    (country: CountryCode) => {
+      setIsLoadingStations(true);
+      setSelectedCountry(country);
+      // Limpiar filtros al cambiar de país
+      updateUrl({ page: "1", q: null, categories: null });
+    },
+    [updateUrl],
+  );
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

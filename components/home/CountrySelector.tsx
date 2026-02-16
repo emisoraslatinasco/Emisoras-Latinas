@@ -3,7 +3,8 @@
 import { useState, useMemo, memo, useCallback, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { countries, CountryCode } from "@/data/stationsByCountry";
+import { CountryCode } from "@/data/stationsByCountry";
+import { useCountries } from "@/hooks/useCountries";
 
 // Debounce delay para evitar cambios muy rápidos
 const COUNTRY_CHANGE_DEBOUNCE_MS = 300;
@@ -68,7 +69,11 @@ export default function CountrySelector({
 }: CountrySelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+  // Estado local de carga para la navegación, separado de la carga de países
+  const [isNavigating, setIsNavigating] = useState(false);
+
+  // Usar el hook para obtener países dinámicos
+  const { countries, isLoading: isCountriesLoading } = useCountries();
 
   // Ref para debounce
   const lastClickTimeRef = useRef<number>(0);
@@ -90,8 +95,8 @@ export default function CountrySelector({
         return;
       }
 
-      // Mostrar loading
-      setIsLoading(true);
+      // Mostrar loading de navegación
+      setIsNavigating(true);
 
       if (onCountryChange) {
         onCountryChange(countryCode);
@@ -101,7 +106,7 @@ export default function CountrySelector({
       setSearchQuery("");
 
       // Quitar loading después de un delay razonable
-      setTimeout(() => setIsLoading(false), 500);
+      setTimeout(() => setIsNavigating(false), 500);
     },
     [onCountryChange, selectedCountry],
   );
@@ -112,12 +117,12 @@ export default function CountrySelector({
       countries.filter((country) =>
         country.name.toLowerCase().includes(searchQuery.toLowerCase()),
       ),
-    [searchQuery],
+    [countries, searchQuery],
   );
 
   const selectedCountryData = useMemo(
     () => countries.find((c) => c.code === selectedCountry),
-    [selectedCountry],
+    [countries, selectedCountry],
   );
 
   return (
@@ -127,9 +132,14 @@ export default function CountrySelector({
         className="flex items-center gap-3 px-3 py-2 ml-2 rounded-lg bg-slate-800/50 border-2 border-slate-700 hover:border-slate-500 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-500"
         aria-label={`País seleccionado: ${selectedCountryData?.name || "Seleccionar país"}. Clic para cambiar.`}
         aria-expanded={isOpen}
+        disabled={isCountriesLoading}
       >
-        <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0 bg-slate-700">
-          {selectedCountryData && (
+        <div className="w-12 h-10 rounded-sm overflow-hidden flex-shrink-0 bg-slate-700 relative">
+          {isCountriesLoading ? (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+            </div>
+          ) : selectedCountryData ? (
             <Image
               src={selectedCountryData.flag}
               alt={selectedCountryData.name}
@@ -139,11 +149,15 @@ export default function CountrySelector({
               className="w-full h-full object-cover"
               unoptimized
             />
+          ) : (
+            <div className="w-full h-full bg-slate-600 animate-pulse"></div>
           )}
         </div>
         <div className="flex flex-col items-start">
           <span className="text-white font-semibold text-sm">
-            {selectedCountryData?.name || "Seleccionar"}
+            {isCountriesLoading
+              ? "Cargando..."
+              : selectedCountryData?.name || "Seleccionar"}
           </span>
           <span className="text-slate-500 text-xs">Cambiar país ▼</span>
         </div>
@@ -165,16 +179,23 @@ export default function CountrySelector({
               autoFocus
             />
             <div className="grid grid-cols-6 gap-2 max-h-64 overflow-y-auto p-1 custom-scrollbar">
-              {filteredCountries.map((country) => (
-                <CountryItem
-                  key={country.code}
-                  country={country}
-                  isSelected={selectedCountry === country.code}
-                  isLoading={isLoading}
-                  onSelect={handleCountrySelect}
-                />
-              ))}
-              {filteredCountries.length === 0 && (
+              {isCountriesLoading ? (
+                <div className="col-span-6 text-center py-4">
+                  <i className="fas fa-spinner fa-spin text-blue-500"></i>{" "}
+                  Cargando países...
+                </div>
+              ) : (
+                filteredCountries.map((country) => (
+                  <CountryItem
+                    key={country.code}
+                    country={country}
+                    isSelected={selectedCountry === country.code}
+                    isLoading={isNavigating}
+                    onSelect={handleCountrySelect}
+                  />
+                ))
+              )}
+              {!isCountriesLoading && filteredCountries.length === 0 && (
                 <p className="col-span-6 text-slate-500 text-xs text-center py-4">
                   No encontrado
                 </p>
