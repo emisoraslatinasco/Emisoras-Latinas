@@ -273,7 +273,12 @@ export const countries: Country[] = [
 console.log("[StationsByCountry] API Client Initialized v2");
 
 // Cache para evitar recargar datos ya obtenidos
-const stationsCache = new Map<CountryCode, StationByCountry[]>();
+const stationsCache = new Map<
+  CountryCode,
+  { data: StationByCountry[]; cachedAt: number }
+>();
+
+const STATIONS_CACHE_TTL_MS = 60 * 1000;
 
 // Para rastrear cargas en progreso y evitar duplicados
 const loadingPromises = new Map<CountryCode, Promise<StationByCountry[]>>();
@@ -308,8 +313,15 @@ export async function loadStationsByCountry(
   // 1. Verificar cache primero
   const cached = stationsCache.get(countryCode);
   if (cached) {
-    console.log(`[Cache HIT] País: ${countryCode} (${cached.length} emisoras)`);
-    return cached;
+    const ageMs = Date.now() - cached.cachedAt;
+    if (ageMs < STATIONS_CACHE_TTL_MS) {
+      console.log(
+        `[Cache HIT] País: ${countryCode} (${cached.data.length} emisoras) age=${Math.round(ageMs / 1000)}s`,
+      );
+      return cached.data;
+    }
+
+    stationsCache.delete(countryCode);
   }
 
   // 2. Si ya hay una carga en progreso para este país, esperarla
@@ -343,7 +355,7 @@ export async function loadStationsByCountry(
       }
 
       // Guardar en cache
-      stationsCache.set(countryCode, allStations);
+      stationsCache.set(countryCode, { data: allStations, cachedAt: Date.now() });
       console.log(
         `[API + Cached] País: ${countryCode} (${allStations.length} emisoras)`,
       );
