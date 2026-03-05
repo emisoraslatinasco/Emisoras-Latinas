@@ -24,6 +24,7 @@ export interface StationByCountry {
   frecuencia?: string;
   ubicacion?: string;
   logo?: string | null;
+  isVip?: boolean;
 }
 
 export type CountryCode =
@@ -301,6 +302,7 @@ function transformStation(station: Station): StationByCountry {
     frecuencia: station.frecuencia || undefined,
     ubicacion: station.ciudad || undefined,
     logo: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+    isVip: station.isVip || false,
   };
 }
 

@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { Footer } from "@/components/layout";
 import RedirectToCountry from "@/components/home/RedirectToCountry";
+import Link from "next/link";
 
 function RedirectFallback() {
   return (
@@ -70,68 +71,68 @@ export default function Home() {
                 </h3>
                 <ul className="grid grid-cols-2 md:grid-cols-4 gap-2">
                   <li>
-                    <a
+                    <Link
                       href="/radio/co"
                       className="text-blue-400 hover:underline"
                     >
                       Colombia
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/mx"
                       className="text-blue-400 hover:underline"
                     >
                       México
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/ar"
                       className="text-blue-400 hover:underline"
                     >
                       Argentina
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/pe"
                       className="text-blue-400 hover:underline"
                     >
                       Perú
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/es"
                       className="text-blue-400 hover:underline"
                     >
                       España
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/ec"
                       className="text-blue-400 hover:underline"
                     >
                       Ecuador
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/cl"
                       className="text-blue-400 hover:underline"
                     >
                       Chile
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="/radio/ve"
                       className="text-blue-400 hover:underline"
                     >
                       Venezuela
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

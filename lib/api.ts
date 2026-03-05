@@ -40,6 +40,7 @@ export interface Station {
   contenidoEnriquecido: boolean;
   fechaEnriquecimiento: string | null;
   activo: boolean;
+  isVip: boolean;
   country: Country;
   genres: Genre[];
   socialNetworks: SocialNetwork[];

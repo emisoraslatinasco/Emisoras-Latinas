@@ -298,3 +298,51 @@ input[type="range"].slider::-moz-range-thumb:hover {
 .animate-slideUp {
   animation: slideUp 0.5s ease-out;
 }
+
+/* Efecto de borde dorado neón para emisoras VIP */
+@keyframes golden-glow {
+  0%, 100% {
+    box-shadow: 
+      0 0 10px rgba(234, 179, 8, 0.6),
+      0 0 20px rgba(234, 179, 8, 0.4),
+      0 0 30px rgba(234, 179, 8, 0.2),
+      0 0 40px rgba(234, 179, 8, 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 15px rgba(234, 179, 8, 0.8),
+      0 0 30px rgba(234, 179, 8, 0.6),
+      0 0 45px rgba(234, 179, 8, 0.4),
+      0 0 60px rgba(234, 179, 8, 0.2);
+  }
+}
+
+.vip-card-border {
+  position: relative;
+  border: 2px solid #eab308;
+  animation: golden-glow 2s ease-in-out infinite;
+}
+
+.vip-card-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(
+    45deg,
+    #fbbf24,
+    #f59e0b,
+    #eab308,
+    #fbbf24
+  );
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.8;
+  animation: gradient-rotate 3s linear infinite;
+  pointer-events: none;
+  z-index: -1;
+}

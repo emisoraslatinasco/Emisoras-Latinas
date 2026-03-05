@@ -68,9 +68,21 @@ const StationCard = memo(function StationCard({ station, index, countryCode }: S
 
   return (
     <article
-      className="group relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20"
+      className={`group relative rounded-xl overflow-hidden transition-all duration-300 shadow-lg hover:scale-105 hover:shadow-2xl ${
+        station.isVip
+          ? 'vip-card-border hover:shadow-yellow-500/40'
+          : 'hover:shadow-blue-500/20'
+      }`}
       aria-label={`${station.nombre}${frequency ? ` en ${frequency}` : ''}${city ? ` desde ${city}` : ''}`}
     >
+      {/* Icono VIP */}
+      {station.isVip && (
+        <div className="absolute top-2 right-2 z-10 bg-gradient-to-br from-yellow-400 to-yellow-600 text-white px-2 py-1 rounded-full text-xs font-bold shadow-lg flex items-center gap-1">
+          <i className="fas fa-crown"></i>
+          <span>VIP</span>
+        </div>
+      )}
+      
       {/* Link que envuelve toda la tarjeta */}
       <Link href={stationUrl} className="block relative aspect-square">
         {/* Logo de fondo */}
