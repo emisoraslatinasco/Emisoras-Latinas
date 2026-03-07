@@ -109,6 +109,20 @@ export class AdminAPI {
     return response.json();
   }
 
+  static async createStation(data: Partial<Station>): Promise<Station> {
+    const response = await fetch(`${API_BASE_URL}/admin/stations`, {
+      method: 'POST',
+      headers: this.getHeaders(),
+      body: JSON.stringify(data),
+    });
+
+    if (!response.ok) {
+      throw new Error('Error al crear emisora');
+    }
+
+    return response.json();
+  }
+
   static async updateStation(id: string, data: Partial<Station>): Promise<Station> {
     const response = await fetch(`${API_BASE_URL}/admin/stations/${id}`, {
       method: 'PUT',

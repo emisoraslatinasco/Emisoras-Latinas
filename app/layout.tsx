@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -100,11 +101,6 @@ export default function RootLayout({
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
         <SeoJsonLd />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2219150000991117"
-          crossOrigin="anonymous"
-        />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="apple-touch-icon" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
@@ -114,6 +110,12 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} antialiased`}>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2219150000991117"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Providers>
           <RadioProvider>
             {children}

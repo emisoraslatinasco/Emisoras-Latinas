@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { AdminAPI, Station, PaginatedResponse } from '@/lib/api-admin';
 import { countries } from '@/data/stationsByCountry';
 import EditStationModal from '@/components/admin/EditStationModal';
+import CreateStationModal from '@/components/admin/CreateStationModal';
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
 
@@ -15,6 +16,7 @@ export default function EmisorasPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [editingStation, setEditingStation] = useState<Station | null>(null);
+  const [showCreateModal, setShowCreateModal] = useState(false);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [vipConfirm, setVipConfirm] = useState<{ station: Station; isVip: boolean } | null>(null);
 
@@ -62,6 +64,7 @@ export default function EmisorasPage() {
 
   const handleSave = () => {
     setEditingStation(null);
+    setShowCreateModal(false);
     loadStations();
   };
 
@@ -78,9 +81,18 @@ export default function EmisorasPage() {
 
   return (
     <div className="p-8">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-white mb-2">Gestión de Emisoras</h1>
-        <p className="text-slate-400">Administra las emisoras de radio</p>
+      <div className="mb-8 flex items-center justify-between">
+        <div>
+          <h1 className="text-3xl font-bold text-white mb-2">Gestión de Emisoras</h1>
+          <p className="text-slate-400">Administra las emisoras de radio</p>
+        </div>
+        <button
+          onClick={() => setShowCreateModal(true)}
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2"
+        >
+          <i className="fas fa-plus"></i>
+          Crear Emisora
+        </button>
       </div>
 
       {/* Filters */}
@@ -368,6 +380,14 @@ export default function EmisorasPage() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Create Station Modal */}
+      {showCreateModal && (
+        <CreateStationModal
+          onClose={() => setShowCreateModal(false)}
+          onSave={handleSave}
+        />
       )}
     </div>
   );

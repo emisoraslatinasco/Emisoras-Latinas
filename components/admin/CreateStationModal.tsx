@@ -1,48 +1,34 @@
 'use client';
 
 import { useState } from 'react';
-import { AdminAPI, Station } from '@/lib/api-admin';
+import { AdminAPI } from '@/lib/api-admin';
 import { countries } from '@/data/stationsByCountry';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
-
-interface EditStationModalProps {
-  station: Station;
+interface CreateStationModalProps {
   onClose: () => void;
   onSave: () => void;
 }
 
-const getLogoUrl = (logoUrl: string) => {
-  if (!logoUrl) return '/logos_general/logo_miniatura_emisoras_latinas.jpg';
-  if (logoUrl.startsWith('http')) return logoUrl;
-  if (logoUrl.startsWith('/static/')) {
-    return API_BASE_URL.replace('/api', '') + logoUrl;
-  }
-  return API_BASE_URL.replace('/api', '') + '/static' + logoUrl;
-};
-
-export default function EditStationModal({ station, onClose, onSave }: EditStationModalProps) {
+export default function CreateStationModal({ onClose, onSave }: CreateStationModalProps) {
   const [formData, setFormData] = useState({
-    nombre: station.nombre,
-    urlStream: station.urlStream,
-    logoUrl: station.logoUrl,
-    descripcion: station.descripcion,
-    descripcionExtendida: station.descripcionExtendida || '',
-    ciudad: station.ciudad,
-    frecuencia: station.frecuencia || '',
-    sitioWeb: station.sitioWeb || '',
-    eslogan: station.eslogan || '',
-    fundacion: station.fundacion || '',
-    priority: station.priority,
-    activo: station.activo,
-    countryCode: station.country.code,
+    nombre: '',
+    urlStream: '',
+    ciudad: '',
+    frecuencia: '',
+    sitioWeb: '',
+    eslogan: '',
+    fundacion: '',
+    descripcion: '',
+    descripcionExtendida: '',
+    priority: 0,
+    activo: true,
+    countryCode: 'CO',
   });
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [logoFile, setLogoFile] = useState<File | null>(null);
-  const [logoPreview, setLogoPreview] = useState<string>(getLogoUrl(station.logoUrl));
-  const [uploadingLogo, setUploadingLogo] = useState(false);
+  const [logoPreview, setLogoPreview] = useState<string>('');
 
   const handleLogoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -71,34 +57,27 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
     setError('');
 
     try {
-      // Preparar datos sin logoUrl
-      const { logoUrl: _logoUrl, ...dataWithoutLogo } = formData;
+      // Crear la emisora primero
+      const newStation = await AdminAPI.createStation(formData);
       
-      if (logoFile) {
-        // Si hay nuevo archivo, subir y agregar logoUrl
-        setUploadingLogo(true);
-        const { logoUrl } = await AdminAPI.uploadStationLogo(station.id, logoFile);
-        await AdminAPI.updateStation(station.id, { ...dataWithoutLogo, logoUrl });
-        setUploadingLogo(false);
-      } else {
-        // Si no hay nuevo archivo, actualizar sin logoUrl
-        await AdminAPI.updateStation(station.id, dataWithoutLogo);
+      // Si hay logo, subirlo después
+      if (logoFile && newStation.id) {
+        await AdminAPI.uploadStationLogo(newStation.id, logoFile);
       }
       
       onSave();
     } catch {
-      setError('Error al actualizar la emisora');
+      setError('Error al crear la emisora');
     } finally {
       setLoading(false);
-      setUploadingLogo(false);
     }
   };
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto">
-      <div className="bg-slate-800 rounded-lg p-6 max-w-2xl w-full border border-slate-700 my-8">
+      <div className="bg-slate-800 rounded-lg p-6 max-w-4xl w-full border border-slate-700 my-8">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-white">Editar Emisora</h2>
+          <h2 className="text-2xl font-bold text-white">Crear Nueva Emisora</h2>
           <button
             onClick={onClose}
             className="text-slate-400 hover:text-white transition-colors"
@@ -173,7 +152,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0">
                   <img
-                    src={logoPreview || '/placeholder-logo.png'}
+                    src={logoPreview || '/logos_general/logo_miniatura_emisoras_latinas.jpg'}
                     alt="Logo preview"
                     className="w-20 h-20 object-cover rounded-lg border-2 border-slate-600"
                   />
@@ -200,6 +179,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                 type="url"
                 value={formData.urlStream}
                 onChange={(e) => setFormData({ ...formData, urlStream: e.target.value })}
+                placeholder="https://ejemplo.com/stream"
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
@@ -213,6 +193,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                 type="url"
                 value={formData.sitioWeb}
                 onChange={(e) => setFormData({ ...formData, sitioWeb: e.target.value })}
+                placeholder="https://ejemplo.com"
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -225,6 +206,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                 type="text"
                 value={formData.eslogan}
                 onChange={(e) => setFormData({ ...formData, eslogan: e.target.value })}
+                placeholder="Tu emisora favorita"
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -249,7 +231,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
               <input
                 type="number"
                 value={formData.priority}
-                onChange={(e) => setFormData({ ...formData, priority: parseInt(e.target.value) })}
+                onChange={(e) => setFormData({ ...formData, priority: parseInt(e.target.value) || 0 })}
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -262,6 +244,20 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                 value={formData.descripcion}
                 onChange={(e) => setFormData({ ...formData, descripcion: e.target.value })}
                 rows={3}
+                placeholder="Descripción corta de la emisora"
+                className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div className="md:col-span-2">
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                Descripción Extendida
+              </label>
+              <textarea
+                value={formData.descripcionExtendida}
+                onChange={(e) => setFormData({ ...formData, descripcionExtendida: e.target.value })}
+                rows={4}
+                placeholder="Descripción detallada de la emisora"
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
@@ -289,26 +285,17 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
             <button
               type="button"
               onClick={onClose}
-              className="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition-colors"
+              className="px-4 py-2 bg-slate-700 text-white rounded-lg hover:bg-slate-600 transition-colors"
+              disabled={loading}
             >
               Cancelar
             </button>
             <button
               type="submit"
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               disabled={loading}
-              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 disabled:cursor-not-allowed text-white rounded-lg transition-colors flex items-center gap-2"
             >
-              {loading ? (
-                <>
-                  <i className="fas fa-spinner fa-spin"></i>
-                  Guardando...
-                </>
-              ) : (
-                <>
-                  <i className="fas fa-save"></i>
-                  Guardar Cambios
-                </>
-              )}
+              {loading ? 'Creando...' : 'Crear Emisora'}
             </button>
           </div>
         </form>
