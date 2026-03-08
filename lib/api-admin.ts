@@ -12,6 +12,7 @@ export interface Station {
   slug: string;
   urlStream: string;
   logoUrl: string;
+  sliderUrl?: string;
   descripcion: string;
   descripcionExtendida?: string;
   ciudad: string;

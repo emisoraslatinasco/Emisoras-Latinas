@@ -279,7 +279,7 @@ const stationsCache = new Map<
   { data: StationByCountry[]; cachedAt: number }
 >();
 
-const STATIONS_CACHE_TTL_MS = 60 * 1000;
+const STATIONS_CACHE_TTL_MS = 10 * 1000;
 
 // Para rastrear cargas en progreso y evitar duplicados
 const loadingPromises = new Map<CountryCode, Promise<StationByCountry[]>>();

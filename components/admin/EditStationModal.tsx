@@ -26,6 +26,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
     nombre: station.nombre,
     urlStream: station.urlStream,
     logoUrl: station.logoUrl,
+    sliderUrl: station.sliderUrl || '',
     descripcion: station.descripcion,
     descripcionExtendida: station.descripcionExtendida || '',
     ciudad: station.ciudad,
@@ -95,8 +96,8 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
   };
 
   return (
-    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto">
-      <div className="bg-slate-800 rounded-lg p-6 max-w-2xl w-full border border-slate-700 my-8">
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+      <div className="bg-slate-800 rounded-lg p-6 max-w-6xl w-full border border-slate-700 max-h-[90vh] overflow-y-auto my-auto">
         <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold text-white">Editar Emisora</h2>
           <button
@@ -108,7 +109,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-medium text-slate-300 mb-2">
                 Nombre *
@@ -166,7 +167,33 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
               />
             </div>
 
-            <div className="md:col-span-2">
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                URL de Stream *
+              </label>
+              <input
+                type="url"
+                value={formData.urlStream}
+                onChange={(e) => setFormData({ ...formData, urlStream: e.target.value })}
+                className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                URL del Slider
+              </label>
+              <input
+                type="url"
+                value={formData.sliderUrl}
+                onChange={(e) => setFormData({ ...formData, sliderUrl: e.target.value })}
+                placeholder="https://ejemplo.com/slider.jpg"
+                className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div className="col-span-2">
               <label className="block text-sm font-medium text-slate-300 mb-2">
                 Logo de la Emisora
               </label>
@@ -190,19 +217,6 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div className="md:col-span-2">
-              <label className="block text-sm font-medium text-slate-300 mb-2">
-                URL de Stream *
-              </label>
-              <input
-                type="url"
-                value={formData.urlStream}
-                onChange={(e) => setFormData({ ...formData, urlStream: e.target.value })}
-                className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                required
-              />
             </div>
 
             <div>
@@ -254,7 +268,7 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
               />
             </div>
 
-            <div className="md:col-span-2">
+            <div className="col-span-2">
               <label className="block text-sm font-medium text-slate-300 mb-2">
                 Descripción
               </label>
@@ -266,7 +280,19 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
               />
             </div>
 
-            <div className="md:col-span-2">
+            <div className="col-span-2">
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                Descripción Extendida
+              </label>
+              <textarea
+                value={formData.descripcionExtendida}
+                onChange={(e) => setFormData({ ...formData, descripcionExtendida: e.target.value })}
+                rows={4}
+                className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            <div className="col-span-2">
               <label className="flex items-center gap-2 text-slate-300">
                 <input
                   type="checkbox"
