@@ -10,6 +10,9 @@ import AdSpace from '@/components/ui/AdSpace';
 import IntegratedPlayer from '@/components/ui/IntegratedPlayer';
 import ReportButton from '@/components/ui/ReportButton';
 import StationImage from '@/components/ui/StationImage';
+import BannerAd from '@/components/ads/BannerAd';
+import { AdvertisementPosition } from '@/lib/api-admin-ads';
+import Script from 'next/script';
 
 // ========== INTERFACES ==========
 
@@ -26,6 +29,7 @@ interface Genre {
 }
 
 interface Station {
+  id: string;
   nombre: string;
   genres?: Genre[];  // Backend devuelve array de objetos Genre
   ciudad?: string;
@@ -340,7 +344,8 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* JSON-LD */}
-      <script
+      <Script
+        id={`station-jsonld-${station.id}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationJsonLd) }}
       />
@@ -446,8 +451,11 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         </div>
 
         {/* Publicidad */}
-        <div className="mb-8">
-          <AdSpace width="w-full max-w-4xl mx-auto" height="h-24" label="Publicidad" />
+        <div className="mb-8 flex justify-center">
+          <BannerAd
+            position={AdvertisementPosition.STATION_UNDER_REPORT}
+            stationId={station.id}
+          />
         </div>
 
         {/* Información Organizada en Grid */}

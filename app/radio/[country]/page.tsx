@@ -11,6 +11,9 @@ import DynamicHeader from "@/components/home/DynamicHeader";
 import { Footer } from "@/components/layout";
 import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
+import BannerAd from "@/components/ads/BannerAd";
+import { AdvertisementPosition } from "@/lib/api-admin-ads";
+import Script from "next/script";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
@@ -115,7 +118,8 @@ export default async function CountryPage({
       <CountrySync countryCode={code} />
 
       {/* JSON-LD Structured Data para SEO */}
-      <script
+      <Script
+        id="country-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(countryJsonLd) }}
       />
@@ -127,11 +131,10 @@ export default async function CountryPage({
         {/* Publicidad lateral izquierda - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <AdSpace
-              width="w-40"
-              height="h-[600px]"
-              label="Publicidad"
-              orientation="vertical"
+            <BannerAd
+              position={AdvertisementPosition.HOME_RIGHT}
+              countryId={country.id || country.code}
+              className="w-40 h-[600px]"
             />
           </div>
         </aside>
@@ -158,11 +161,10 @@ export default async function CountryPage({
           </div>
 
           {/* Publicidad Superior */}
-          <div className="mb-8">
-            <AdSpace
-              width="w-full max-w-4xl mx-auto"
-              height="h-24"
-              label="Publicidad"
+          <div className="mb-8 flex justify-center">
+            <BannerAd
+              position={AdvertisementPosition.HOME_TOP}
+              countryId={country.id || country.code}
             />
           </div>
 
@@ -215,11 +217,10 @@ export default async function CountryPage({
           </article>
 
           {/* Publicidad Inferior */}
-          <div className="mt-12 mb-8">
-            <AdSpace
-              width="w-full max-w-4xl mx-auto"
-              height="h-24"
-              label="Publicidad"
+          <div className="mt-12 mb-8 flex justify-center">
+            <BannerAd
+              position={AdvertisementPosition.HOME_BOTTOM}
+              countryId={country.id || country.code}
             />
           </div>
         </div>
@@ -227,11 +228,10 @@ export default async function CountryPage({
         {/* Publicidad lateral derecha - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <AdSpace
-              width="w-40"
-              height="h-[600px]"
-              label="Publicidad"
-              orientation="vertical"
+            <BannerAd
+              position={AdvertisementPosition.HOME_RIGHT}
+              countryId={country.id || country.code}
+              className="w-40 h-[600px]"
             />
           </div>
         </aside>

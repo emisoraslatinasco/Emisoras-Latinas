@@ -12,6 +12,7 @@ import {
  * pero ahora los datos vienen del backend
  */
 export interface StationByCountry {
+  id?: string;
   nombre: string;
   url_stream: string;
   logo_local: string | null;
@@ -63,6 +64,7 @@ export type CountryCode =
   | "TR";
 
 export interface Country {
+  id?: string;
   code: CountryCode;
   name: string;
   flag: string;
@@ -289,6 +291,7 @@ const loadingPromises = new Map<CountryCode, Promise<StationByCountry[]>>();
  */
 function transformStation(station: Station): StationByCountry {
   return {
+    id: station.id,
     nombre: station.nombre,
     url_stream: station.urlStream,
     // Modificado para usar siempre la URL del backend si existe

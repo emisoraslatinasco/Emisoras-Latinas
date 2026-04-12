@@ -82,6 +82,19 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <span>Emisoras</span>
               </Link>
             </li>
+            <li>
+              <Link
+                href="/admin-emisoras/publicidad"
+                className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
+                  pathname.startsWith('/admin-emisoras/publicidad')
+                    ? 'bg-blue-600 text-white'
+                    : 'text-slate-300 hover:bg-slate-700'
+                }`}
+              >
+                <i className="fas fa-ad w-5"></i>
+                <span>Publicidad</span>
+              </Link>
+            </li>
           </ul>
         </nav>
 
