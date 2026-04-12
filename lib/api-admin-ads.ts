@@ -40,7 +40,7 @@ export class AdminAdsAPI {
     };
   }
 
-  static async getAdvertisements(params?: Record<string, string | number | boolean>): Promise<Advertisement[]> {
+  static async getAdvertisements(params?: Record<string, string>): Promise<Advertisement[]> {
     const query = new URLSearchParams(params).toString();
     const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements${query ? `?${query}` : ''}`, {
       headers: this.getHeaders(),
