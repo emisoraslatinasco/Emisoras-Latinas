@@ -110,10 +110,9 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Script
-          id="monetag-multitag"
-          src="https://quge5.com/88/tag.min.js"
+          id="monetag-push"
+          src="https://5gvci.com/act/files/tag.min.js?z=11061710"
           strategy="afterInteractive"
-          data-zone="243360"
           data-cfasync="false"
         />
         <SeoJsonLd />
