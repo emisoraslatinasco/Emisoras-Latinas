@@ -109,6 +109,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <Script
+          id="monetag-multitag"
+          src="https://quge5.com/88/tag.min.js"
+          strategy="afterInteractive"
+          data-zone="243360"
+          data-cfasync="false"
+        />
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
