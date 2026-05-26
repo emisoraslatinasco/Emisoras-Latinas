@@ -16,8 +16,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.emisoraslatinas.online'),
   title: {
-    default: 'Emisoras Latinas - Más de 20.000 Radios Online Gratis de Latinoamérica',
-    template: '%s | Radio en Vivo Gratis y Sin Cortes - Emisoras Latinas'
+    // default: usado solo cuando una página no aporta su propio title (raro). 51 chars, cabe en SERP.
+    default: 'Emisoras Latinas - +20.000 Radios Gratis Online 24/7',
+    // template: se concatena a cada page.title. Recortado de 53 → 19 chars para no comerse el SERP.
+    template: '%s | Emisoras Latinas',
   },
   description: 'Escucha ahora +20.000 emisoras de Latinoamérica gratis. Radio en vivo 24/7 sin cortes. App gratis, streaming HD. Colombia, México, Argentina y más.',
   keywords: [

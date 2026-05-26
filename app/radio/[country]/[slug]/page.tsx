@@ -13,6 +13,7 @@ import StationImage from '@/components/ui/StationImage';
 import BannerAd from '@/components/ads/BannerAd';
 import { AdvertisementPosition } from '@/lib/api-admin-ads';
 import Script from 'next/script';
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 
 // ========== INTERFACES ==========
 
@@ -34,6 +35,7 @@ interface Station {
   genres?: Genre[];  // Backend devuelve array de objetos Genre
   ciudad?: string;
   descripcion?: string;
+  descripcionExtendida?: string;  // SEO 2.0: contenido enriquecido para meta description
   logoUrl?: string;  // Backend usa logoUrl, no logo_local
   sitioWeb?: string;  // Backend usa camelCase
   socialNetworks?: SocialNetwork[];  // Backend devuelve array de objetos
@@ -245,40 +247,75 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     const { station } = await res.json();
 
     getI18nFromCountry(code);
-    const stationFrequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
-    const frequency = stationFrequency ? ` ${stationFrequency}` : '';
     const location = station.ciudad || country.name;
+
+    // station.nombre suele incluir ya la frecuencia (ej. "Radio Caracol 89.7 FM");
+    // por eso no la añadimos aparte — evita duplicarla en el title del SERP.
+    // Title con marca dentro (no se usa template del layout para tener control de los 58 chars).
+    const buildSeoTitle = (): string => {
+      const brand = ' | Emisoras Latinas';
+      const budget = 58 - brand.length;
+      const full = `${station.nombre} En Vivo Gratis`;
+      if (full.length <= budget) return full + brand;
+      const short = `${station.nombre} En Vivo`;
+      if (short.length <= budget) return short + brand;
+      if (station.nombre.length <= budget) return station.nombre + brand;
+      return station.nombre.substring(0, budget - 1).trim() + "…" + brand;
+    };
+    const seoTitle = buildSeoTitle();
+
+    // Cascada de contenido para meta description: descripcionExtendida > descripcion > plantilla.
+    // descripcionExtendida suele ser más rica (200-500 chars) y la recortamos a 158 con … final.
+    const buildSeoDescription = (): string => {
+      const richSource = (station.descripcionExtendida || station.descripcion || '').trim();
+      if (richSource.length >= 50) {
+        const tail = ' Escucha en vivo gratis, sin cortes.';
+        const room = 158 - tail.length;
+        const trimmed = richSource.length <= room
+          ? richSource
+          : richSource.substring(0, room - 1).trim() + '…';
+        return `${trimmed}${tail}`;
+      }
+      const template = `Escucha ${station.nombre} desde ${location}, ${country.name}. Radio en vivo gratis 24/7, sin registro, sin cortes. Música y noticias en directo.`;
+      return template.length <= 158 ? template : template.substring(0, 157) + '…';
+    };
+    const seoDescription = buildSeoDescription();
     
-    // Título optimizado para CTR
-    const seoTitle = `Escuchar ${station.nombre} en VIVO${frequency} - ${location} | Gratis`;
-    
-    // Descripción persuasiva con CTA
-    const seoDescription = station.descripcion 
-      ? `▶️ ${station.descripcion.substring(0, 120)}... Escucha ahora gratis, sin cortes.`
-      : `▶️ Escucha ${station.nombre}${frequency} en vivo desde ${location}. Radio online gratis 24/7, sin cortes ni registro. ¡Dale play ahora!`;
-    
+    // OG/Twitter: emojis permitidos, contenido más emocional para social sharing (FB/WA/X).
+    const socialTitle = `▶️ ${station.nombre} EN VIVO 🎧 ${location}`;
+    const socialDescription = `Escucha ${station.nombre} en vivo desde ${location}, ${country.name}. Radio gratis 24/7, sin cortes ni registro. ¡Dale play ahora! 🎶`;
+    const socialImage = station.logoUrl
+      ? getStaticUrl(station.logoUrl)
+      : 'https://www.emisoraslatinas.online/logos_general/antena.png';
+
     return {
-      title: seoTitle,
+      // absolute: la marca ya viene incluida en seoTitle, no queremos el template del layout encima.
+      title: { absolute: seoTitle },
       description: seoDescription,
       alternates: {
         canonical: `/radio/${resolvedParams.country}/${resolvedParams.slug}`,
       },
       openGraph: {
-        title: `▶️ ${station.nombre} - Radio en Vivo Gratis`,
-        description: seoDescription,
+        title: socialTitle,
+        description: socialDescription,
         url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
         type: 'website',
         images: [
           {
-            url: station.logoUrl
-              ? getStaticUrl(station.logoUrl)
-              : 'https://www.emisoraslatinas.online/logos_general/antena.png',
+            url: socialImage,
             width: 800,
             height: 600,
             alt: station.nombre,
           }
         ]
-      }
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: socialTitle,
+        description: socialDescription,
+        images: [socialImage],
+        creator: '@emisoraslatinas',
+      },
     };
   } catch (error) {
     console.error('Error fetching station metadata:', error);
@@ -348,6 +385,19 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         id={`station-jsonld-${station.id}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationJsonLd) }}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Inicio", url: "https://www.emisoraslatinas.online" },
+          {
+            name: country.name,
+            url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}`,
+          },
+          {
+            name: station.nombre,
+            url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+          },
+        ]}
       />
       
       {/* Header */}

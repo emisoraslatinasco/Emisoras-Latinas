@@ -17,6 +17,7 @@ import Script from "next/script";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
+import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 function GridFallback() {
   return (
@@ -51,25 +52,63 @@ export async function generateMetadata({
     };
   }
 
+  // loadStationsByCountry tiene cache in-memory: la llamada del componente abajo hará cache-HIT.
+  const stations = await loadStationsByCountry(code);
+  const N = stations.length;
+
+  const buildSeoTitle = (): string => {
+    const full = `Radio ${country.name} En Vivo Gratis | Emisoras Latinas`;
+    if (full.length <= 58) return full;
+    const short = `Radio ${country.name} En Vivo | Emisoras Latinas`;
+    if (short.length <= 58) return short;
+    return `Radio ${country.name} | Emisoras Latinas`;
+  };
+
+  const buildSeoDescription = (): string => {
+    const base = N > 0
+      ? `Escucha ${N} emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas. Reproduce desde cualquier dispositivo.`
+      : `Escucha emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas. Reproduce desde cualquier dispositivo.`;
+    return base.length <= 158 ? base : base.substring(0, 157) + "…";
+  };
+
+  const seoTitle = buildSeoTitle();
+  const seoDescription = buildSeoDescription();
+
+  // OG/Twitter: emojis permitidos, longitud más laxa (FB/WA muestran ~88 chars).
+  // Buscan engagement social, no posicionamiento en Google.
+  const socialTitle = `▶️ Radio ${country.name} En Vivo${N > 0 ? ` · ${N}+ Emisoras` : ""} Gratis 🎧`;
+  const socialDescription = N > 0
+    ? `🎧 Escucha ${N} emisoras de ${country.name} en vivo gratis: música, noticias y deportes 24/7. Sin cortes, sin registro. ¡Dale play desde cualquier dispositivo!`
+    : `🎧 Escucha radios de ${country.name} en vivo gratis: música, noticias y deportes 24/7. Sin cortes, sin registro. ¡Dale play desde cualquier dispositivo!`;
+  const socialImage = country.flag || "/logos_general/logo_emisoras_latinas.jpg";
+
   return {
-    title: `Radio ${country.name} en Vivo Gratis - Sin Cortes ni Publicidad | Emisoras Latinas`,
-    description: `Escucha las mejores emisoras de ${country.name} online gratis. ✓ Carga instantánea ✓ Sin pop-ups ✓ Reproductor que no se detiene. Más de 500 radios en vivo.`,
+    // absolute: evita que el template global del layout se concatene y sature los 58 chars del SERP.
+    title: { absolute: seoTitle },
+    description: seoDescription,
     alternates: {
       canonical: `/radio/${resolvedParams.country}`,
     },
     openGraph: {
-      title: `Radio ${country.name} en Vivo - Experiencia Premium Gratis`,
-      description: `Escucha radio de ${country.name} sin cortes, sin publicidad molesta y con carga instantánea. La mejor experiencia de radio online.`,
+      title: socialTitle,
+      description: socialDescription,
       url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}`,
       type: "website",
       images: [
         {
-          url: country.flag || "/logos_general/logo_emisoras_latinas.jpg",
+          url: socialImage,
           width: 1200,
           height: 630,
           alt: `Radio ${country.name}`,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: socialTitle,
+      description: socialDescription,
+      images: [socialImage],
+      creator: "@emisoraslatinas",
     },
   };
 }
@@ -122,6 +161,15 @@ export default async function CountryPage({
         id="country-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(countryJsonLd) }}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Inicio", url: "https://www.emisoraslatinas.online" },
+          {
+            name: country.name,
+            url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}`,
+          },
+        ]}
       />
 
       {/* Header Dinámico */}
