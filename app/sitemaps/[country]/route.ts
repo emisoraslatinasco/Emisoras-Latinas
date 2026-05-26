@@ -4,10 +4,12 @@ import {
   CountryCode,
 } from "@/data/stationsByCountry";
 
-// ISR + headers Cache-Control para servir sitemaps cacheados 24h.
-// Los sitemaps NO necesitan ser frescos por request — Googlebot los lee
-// cada varias horas y la lista de emisoras cambia rara vez.
-export const revalidate = 86400;
+// Route handlers de sitemap: dynamic en runtime (no pre-render en build)
+// porque el handler accede a searchParams. El cacheado real lo hace el CDN
+// vía el header "Cache-Control: s-maxage=86400" del Response abajo.
+// Resultado: Googlebot recibe respuesta cacheada por Vercel CDN durante 24h
+// sin hits al backend.
+export const dynamic = "force-dynamic";
 export const dynamicParams = true;
 
 // Máximo de URLs por sitemap (Google recomienda max 50,000, pero usamos 1,000 para evitar timeouts)

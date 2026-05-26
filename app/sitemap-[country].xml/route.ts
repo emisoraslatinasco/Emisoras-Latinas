@@ -1,9 +1,10 @@
 import { NextRequest } from 'next/server';
 import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsByCountry';
 
-// ISR: el sitemap se regenera 1 vez al día. Combinado con Cache-Control
-// agresivo abajo, Googlebot recibe la versión cacheada sin pegarle a Neon.
-export const revalidate = 86400;
+// Route handler: dynamic en runtime. El cacheado lo hace el CDN de Vercel
+// vía Cache-Control: s-maxage=86400 en el Response. Googlebot recibe la
+// respuesta cacheada 24h sin hits al backend ni a Neon.
+export const dynamic = 'force-dynamic';
 export const dynamicParams = true;
 
 /**
