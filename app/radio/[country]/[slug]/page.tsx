@@ -367,7 +367,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     "@context": "https://schema.org",
     "@type": "RadioStation",
     "name": station.nombre,
-    "description": station.descripcion,
+    "description": station.descripcionExtendida || station.descripcion,
     "url": `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
     "broadcastFrequency": frequency || undefined,
     "areaServed": {
@@ -520,14 +520,18 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               {lang === 'es' ? 'Acerca de' : lang === 'en' ? 'About' : 'Sobre'} {station.nombre}
             </h2>
             <div className="text-slate-300 leading-relaxed space-y-3">
-              {/* ESTRATEGIA DE CASCADA: Prioridad 1 = descripción BD, Prioridad 2 = plantilla */}
-              {station.descripcion && station.descripcion.length > 50 ? (
-                // CASO 1: Tiene descripción única en BD (protege las 4,000 indexadas)
+              {/* CASCADA 3 NIVELES:
+                  1. descripcionExtendida (poblada por script, ~280 chars, única por emisora)
+                  2. descripcion corta + frase de frecuencia (las pocas con BD original)
+                  3. plantilla generateSmartDescription (fallback) */}
+              {station.descripcionExtendida && station.descripcionExtendida.length > 50 ? (
+                <p>{station.descripcionExtendida}</p>
+              ) : station.descripcion && station.descripcion.length > 50 ? (
                 <>
                   <p>{station.descripcion}</p>
                   {frequency && (
                     <p className="text-slate-400">
-                      {lang === 'es' 
+                      {lang === 'es'
                         ? `Sintoniza ${station.nombre} en el dial ${frequency}${location ? ` desde ${location}` : ''}. Transmitimos las 24 horas.`
                         : `Tune in to ${station.nombre} on ${frequency}${location ? ` from ${location}` : ''}. Broadcasting 24/7.`
                       }
@@ -535,7 +539,6 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   )}
                 </>
               ) : (
-                // CASO 2: NO tiene descripción - usar plantilla VARIADA con sinónimos
                 <p className="text-slate-400">
                   {generateSmartDescription(station, location, country.name, lang)}
                 </p>
