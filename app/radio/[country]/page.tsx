@@ -57,18 +57,28 @@ export async function generateMetadata({
   const N = stations.length;
 
   const buildSeoTitle = (): string => {
-    const full = `Radio ${country.name} En Vivo Gratis | Emisoras Latinas`;
-    if (full.length <= 58) return full;
-    const short = `Radio ${country.name} En Vivo | Emisoras Latinas`;
-    if (short.length <= 58) return short;
-    return `Radio ${country.name} | Emisoras Latinas`;
+    const brand = " | Emisoras Latinas";
+    const budget = 58 - brand.length;
+    // Prioridad 1: conteo de emisoras (diferenciador más fuerte para CTR en SERP)
+    if (N > 0) {
+      const withCount = `Radio ${country.name} · ${N.toLocaleString()}+ Emisoras`;
+      if (withCount.length <= budget) return withCount + brand;
+    }
+    // Prioridad 2: sin conteo, versión larga
+    const full = `Radio ${country.name} En Vivo Gratis`;
+    if (full.length <= budget) return full + brand;
+    // Prioridad 3: versión compacta
+    const short = `Radio ${country.name} En Vivo`;
+    if (short.length <= budget) return short + brand;
+    return `Radio ${country.name}` + brand;
   };
 
   const buildSeoDescription = (): string => {
+    const cta = " ¡Dale play ahora!";
     const base = N > 0
-      ? `Escucha ${N} emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas. Reproduce desde cualquier dispositivo.`
-      : `Escucha emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas. Reproduce desde cualquier dispositivo.`;
-    return base.length <= 158 ? base : base.substring(0, 157) + "…";
+      ? `Escucha ${N.toLocaleString()} emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas.${cta}`
+      : `Escucha emisoras de ${country.name} en vivo gratis 24/7. Música, noticias y deportes. Sin registro ni descargas.${cta}`;
+    return base.length <= 158 ? base : base.substring(0, 157 - cta.length) + "…" + cta;
   };
 
   const seoTitle = buildSeoTitle();
@@ -170,6 +180,48 @@ export default async function CountryPage({
             url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}`,
           },
         ]}
+      />
+
+      {/* FAQ Schema para featured snippet en SERP */}
+      <Script
+        id="country-faq"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": t.faq_how_question.replace("{country}", country.name),
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": t.faq_how_answer,
+                },
+              },
+              {
+                "@type": "Question",
+                "name": t.faq_count_question
+                  .replace("{count}", stations.length.toLocaleString())
+                  .replace("{country}", country.name),
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": t.faq_count_answer
+                    .replace("{count}", stations.length.toLocaleString())
+                    .replace("{country}", country.name),
+                },
+              },
+              {
+                "@type": "Question",
+                "name": t.faq_free_question,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": t.faq_free_answer,
+                },
+              },
+            ],
+          }),
+        }}
       />
 
       {/* Header Dinámico */}

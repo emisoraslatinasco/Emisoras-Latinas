@@ -43,18 +43,33 @@ interface Station {
   urlStream?: string;  // Backend usa urlStream, no stream_url
 }
 
-// ========== SEO 2.0: Generador de Contenido con Sinónimos Aleatorios ==========
+// ========== SEO 2.0: Generador de Contenido con Seed Determinístico ==========
 
 /**
- * Genera descripción inteligente con VARIACIONES ALEATORIAS usando sinónimos
- * Solo se usa si la emisora NO tiene descripción en la BD
+ * Hash determinístico desde string. Misma entrada = mismo número siempre.
+ * Garantiza que cada estación (mismo slug) obtenga la misma descripción en cada request,
+ * eliminando volatilidad de contenido para Google.
+ */
+function hashString(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash | 0;
+  }
+  return Math.abs(hash);
+}
+
+/**
+ * Genera descripción inteligente con VARIACIONES DETERMINÍSTICAS usando seed del slug.
+ * Solo se usa si la emisora NO tiene descripción en la BD.
  * 
- * MATEMÁTICAS DE VARIACIONES:
- * - Noticias (ES): 4 inicios × 3 conectores × 4 cierres = 48 combinaciones únicas
- * - Música (ES): 5 inicios × 4 conectores × 5 cierres = 100 combinaciones únicas
- * - Genérica (ES): 4 inicios × 3 conectores × 4 cierres = 48 combinaciones únicas
+ * Variaciones por tipo (~1,000+ combinaciones entre inicios/conectores/cierres para cada estación):
+ * - Noticias (ES): 4×3×4 = 48 combinaciones
+ * - Música (ES): 5×4×5 = 100 combinaciones
+ * - Genérica (ES): 4×3×4 = 48 combinaciones
  * 
- * TOTAL: ~400 combinaciones únicas (200 ES + 200 EN)
+ * Cada slug produce SIEMPRE la misma combinación → contenido estable para Google.
  */
 function generateSmartDescription(
   station: Station,
@@ -62,8 +77,8 @@ function generateSmartDescription(
   countryName: string,
   lang: string
 ): string {
-  // Función auxiliar para seleccionar elemento aleatorio
-  const random = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
+  const seed = station.slug || station.nombre;
+  const pick = <T,>(arr: T[], suffix: string): T => arr[hashString(seed + suffix) % arr.length];
 
   const genres = station.genres?.map((g: Genre) => g.name) || [];
   const hasNews = genres.some((g) => 
@@ -94,7 +109,7 @@ function generateSmartDescription(
         'Información verificada al instante.'
       ];
 
-      return `${random(inicios)} ${station.nombre}, ${random(conectores)} ${city}. ${random(cierres)}`;
+      return `${pick(inicios, 'newsInit')} ${station.nombre}, ${pick(conectores, 'newsConn')} ${city}. ${pick(cierres, 'newsClose')}`;
     }
 
     // ========== VARIACIÓN B: EMISORAS MUSICALES ==========
@@ -120,7 +135,7 @@ function generateSmartDescription(
         'la banda sonora de tu día.'
       ];
 
-      return `${random(inicios)} ${genres[0]} ${random(conectores)} ${city}, ${random(cierres)}`;
+      return `${pick(inicios, 'musicInit')} ${genres[0]} ${pick(conectores, 'musicConn')} ${city}, ${pick(cierres, 'musicClose')}`;
     }
 
     // ========== VARIACIÓN C: GENÉRICA (FALLBACK) ==========
@@ -142,7 +157,7 @@ function generateSmartDescription(
       'gratis para ti.'
     ];
 
-    return `${random(iniciosGen)} ${station.nombre}, ${random(conectoresGen)} ${city}, ${random(cierresGen)}`;
+    return `${pick(iniciosGen, 'genInit')} ${station.nombre}, ${pick(conectoresGen, 'genConn')} ${city}, ${pick(cierresGen, 'genClose')}`;
 
   } else {
     // ========== VERSIÓN INGLÉS (MISMA ESTRUCTURA) ==========
@@ -167,7 +182,7 @@ function generateSmartDescription(
         'The authoritative voice of the region.'
       ];
 
-      return `${random(inicios)} ${station.nombre}, ${random(conectores)} ${city}. ${random(cierres)}`;
+      return `${pick(inicios, 'enNewsInit')} ${station.nombre}, ${pick(conectores, 'enNewsConn')} ${city}. ${pick(cierres, 'enNewsClose')}`;
     }
 
     // VARIACIÓN B: MUSIC
@@ -193,7 +208,7 @@ function generateSmartDescription(
         'the soundtrack of your day.'
       ];
 
-      return `${random(inicios)} ${genres[0]} ${random(conectores)} ${city}, ${random(cierres)}`;
+      return `${pick(inicios, 'enMusicInit')} ${genres[0]} ${pick(conectores, 'enMusicConn')} ${city}, ${pick(cierres, 'enMusicClose')}`;
     }
 
     // VARIACIÓN C: GENERIC
@@ -215,7 +230,7 @@ function generateSmartDescription(
       'free for you.'
     ];
 
-    return `${random(iniciosGen)} ${station.nombre}, ${random(conectoresGen)} ${city}, ${random(cierresGen)}`;
+    return `${pick(iniciosGen, 'enGenInit')} ${station.nombre}, ${pick(conectoresGen, 'enGenConn')} ${city}, ${pick(cierresGen, 'enGenClose')}`;
   }
 }
 
@@ -271,14 +286,14 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     const buildSeoDescription = (): string => {
       const richSource = (station.descripcionExtendida || station.descripcion || '').trim();
       if (richSource.length >= 50) {
-        const tail = ' Escucha en vivo gratis, sin cortes.';
+        const tail = ' ¡Escucha en vivo ahora, sin cortes!';
         const room = 158 - tail.length;
         const trimmed = richSource.length <= room
           ? richSource
           : richSource.substring(0, room - 1).trim() + '…';
         return `${trimmed}${tail}`;
       }
-      const template = `Escucha ${station.nombre} desde ${location}, ${country.name}. Radio en vivo gratis 24/7, sin registro, sin cortes. Música y noticias en directo.`;
+      const template = `Escucha ${station.nombre} desde ${location}, ${country.name} en vivo online. Radio gratis 24/7, sin cortes ni registro. ¡Dale play ahora!`;
       return template.length <= 158 ? template : template.substring(0, 157) + '…';
     };
     const seoDescription = buildSeoDescription();
@@ -378,6 +393,24 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     },
     "genre": station.genres?.map((g: Genre) => g.name).join(', '),
     "image": station.logoUrl,
+    "potentialAction": {
+      "@type": "ListenAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+        "actionPlatform": [
+          "http://schema.org/DesktopWebPlatform",
+          "http://schema.org/MobileWebPlatform",
+        ]
+      },
+      "expectsAcceptanceOf": {
+        "@type": "Offer",
+        "name": station.nombre,
+        "availability": "https://schema.org/InStock",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
   };
 
   return (
