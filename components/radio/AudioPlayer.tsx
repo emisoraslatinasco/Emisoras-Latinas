@@ -46,8 +46,9 @@ export default function AudioPlayer() {
   };
 
   return (
-      <div 
-        className={`fixed bottom-0 left-0 right-0 shadow-2xl border-t border-slate-700 z-50 transition-all duration-500 ease-in-out ${
+      <div
+        data-audio-player
+        className={`fixed bottom-0 left-0 right-0 shadow-2xl border-t border-slate-700 z-[100000] transition-all duration-500 ease-in-out ${
           isExpanded ? 'bg-slate-900' : 'glass-effect'
         }`}
       >

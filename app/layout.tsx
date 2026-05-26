@@ -7,6 +7,7 @@ import { Providers } from "./providers";
 import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
+import AdInterferenceGuard from "@/components/ads/AdInterferenceGuard";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -115,6 +116,18 @@ export default function RootLayout({
           strategy="afterInteractive"
           data-cfasync="false"
         />
+        {/* Monetag Vignette Banner — full-screen entre transiciones */}
+        <Script id="monetag-vignette" strategy="afterInteractive">
+          {`(function(s){s.dataset.zone='11061798',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
+        </Script>
+        {/* Monetag In-Page Push / Social Bar — banner discreto in-page */}
+        <Script id="monetag-inpage" strategy="lazyOnload">
+          {`(function(s){s.dataset.zone='11061802',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
+        </Script>
+        {/* Monetag Onclick / Popunder — frequency cap 1/24h en dashboard */}
+        <Script id="monetag-onclick" strategy="afterInteractive">
+          {`(function(s){s.dataset.zone='11061806',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
+        </Script>
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
@@ -131,6 +144,7 @@ export default function RootLayout({
           <RadioProvider>
             {children}
             {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
+            <AdInterferenceGuard />
             <CookieConsent />
           </RadioProvider>
         </Providers>

@@ -1,0 +1,24 @@
+# ============================================================
+# ads.txt — emisoraslatinas.online
+# IAB Tech Lab — Authorized Digital Sellers
+# Last updated: 2026-05-26
+# ============================================================
+
+# ---- Google AdSense ----
+google.com, pub-2219150000991117, DIRECT, f08c47fec0942fa0
+
+# ---- Monetag / PropellerAds ----
+# IMPORTANTE: las siguientes lineas son una plantilla.
+# Reemplazalas con el bloque exacto que Monetag te da en:
+#   publishers.monetag.com -> emisoraslatinas.online -> "ads.txt" o
+#   "Sellers list".
+# Suelen ser entre 5 y 15 lineas con varios SSPs autorizados.
+#
+# Ejemplos del formato (NO COMMIT estos valores ficticios):
+# propellerads.com, REPLACE_WITH_YOUR_PROPELLER_ID, DIRECT
+# google.com, REPLACE_RESELLER_PUB_ID, RESELLER, f08c47fec0942fa0
+# openx.com, REPLACE_OPENX_ID, RESELLER, 6a698e2ec38604c6
+# pubmatic.com, REPLACE_PUBMATIC_ID, RESELLER, 5d62403b186f2ace
+
+# ---- Contact ----
+contact=emisoraslatinasco@gmail.com

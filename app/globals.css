@@ -7,6 +7,28 @@ body {
   color: #ffffff;
 }
 
+/* ===========================================================
+   Monetag overlap prevention — el reproductor de audio (z=100000)
+   debe siempre estar por encima de los ads en mobile. Estos
+   selectores cubren los iframes/banners que inyecta Monetag.
+   =========================================================== */
+@media (max-width: 768px) {
+  /* Cualquier ad de Monetag debe quedar por debajo del player y
+     desplazado bottom para que no se monten flush con él. */
+  [id^="mtg_"],
+  [class*="mtg-"],
+  iframe[src*="propellerads"],
+  iframe[src*="5gvci"],
+  iframe[src*="3nbf4"],
+  iframe[src*="n6wxm"],
+  iframe[src*="nap5k"],
+  iframe[src*="al5sm"],
+  iframe[src*="quge5"] {
+    z-index: 99999 !important;
+    bottom: 96px !important; /* alto típico del player + margen */
+  }
+}
+
 /* Animaciones de paginación */
 @keyframes slideLeft {
   from {
