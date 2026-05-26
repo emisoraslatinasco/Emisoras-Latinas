@@ -219,8 +219,10 @@ function generateSmartDescription(
   }
 }
 
-// Enable dynamic rendering for 21K+ pages
-export const dynamic = 'force-dynamic';
+// ISR: cada página se cachea 24h tras la primera generación on-demand.
+// Esto reduce queries a Neon en ~99% — antes con force-dynamic cada visita
+// disparaba una query fresca a la BD por el backend.
+export const revalidate = 86400;
 export const dynamicParams = true;
 
 // Generar metadata dinámica para SEO
@@ -237,7 +239,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
     const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
-      next: { revalidate: 3600 } // Cachear por 1 hora
+      next: { revalidate: 86400 } // 24h: alineado con el revalidate de la página
     });
 
     if (!res.ok) {
@@ -337,7 +339,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   try {
     console.log(`[StationPage] Fetching: ${API_URL}/stations/${resolvedParams.slug}/full`);
     const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
-      next: { revalidate: 3600 } // Cachear por 1 hora
+      next: { revalidate: 86400 } // 24h: alineado con el revalidate de la página
     });
 
     console.log(`[StationPage] Response status: ${res.status}`);

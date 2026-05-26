@@ -1,8 +1,9 @@
 import { NextRequest } from 'next/server';
 import { countries, CountryCode, loadStationsByCountry } from '@/data/stationsByCountry';
 
-// Forzar renderizado dinámico para evitar problemas de pre-rendering
-export const dynamic = 'force-dynamic';
+// ISR: el sitemap se regenera 1 vez al día. Combinado con Cache-Control
+// agresivo abajo, Googlebot recibe la versión cacheada sin pegarle a Neon.
+export const revalidate = 86400;
 export const dynamicParams = true;
 
 /**

@@ -4,8 +4,10 @@ import {
   CountryCode,
 } from "@/data/stationsByCountry";
 
-// Configuración de la ruta dinámica
-export const dynamic = "force-dynamic";
+// ISR + headers Cache-Control para servir sitemaps cacheados 24h.
+// Los sitemaps NO necesitan ser frescos por request — Googlebot los lee
+// cada varias horas y la lista de emisoras cambia rara vez.
+export const revalidate = 86400;
 export const dynamicParams = true;
 
 // Máximo de URLs por sitemap (Google recomienda max 50,000, pero usamos 1,000 para evitar timeouts)
@@ -49,7 +51,7 @@ export async function GET(
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
     const res = await fetch(`${API_URL}/stations/slugs/all`, {
-      next: { revalidate: 3600 } // Cachear por 1 hora
+      next: { revalidate: 86400 } // 24h: el listado de slugs cambia muy poco
     });
 
     if (!res.ok) {
