@@ -8,6 +8,7 @@ import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 import AdInterferenceGuard from "@/components/ads/AdInterferenceGuard";
+import MonetagPopunder from "@/components/ads/MonetagPopunder";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -124,10 +125,6 @@ export default function RootLayout({
         <Script id="monetag-inpage" strategy="lazyOnload">
           {`(function(s){s.dataset.zone='11061802',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
         </Script>
-        {/* Monetag Onclick / Popunder — frequency cap 1/24h en dashboard */}
-        <Script id="monetag-onclick" strategy="afterInteractive">
-          {`(function(s){s.dataset.zone='11061806',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
-        </Script>
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
@@ -145,6 +142,7 @@ export default function RootLayout({
             {children}
             {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
             <AdInterferenceGuard />
+            <MonetagPopunder />
             <CookieConsent />
           </RadioProvider>
         </Providers>
