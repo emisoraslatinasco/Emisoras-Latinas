@@ -4,6 +4,32 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useI18n } from '@/utils/useI18n';
 
+const popularCountries = [
+  { code: 'co', name: 'Colombia' },
+  { code: 'mx', name: 'México' },
+  { code: 'ar', name: 'Argentina' },
+  { code: 'pe', name: 'Perú' },
+  { code: 'es', name: 'España' },
+  { code: 'us', name: 'Estados Unidos' },
+  { code: 'cl', name: 'Chile' },
+  { code: 'ec', name: 'Ecuador' },
+  { code: 've', name: 'Venezuela' },
+  { code: 'br', name: 'Brasil' },
+  { code: 'fr', name: 'Francia' },
+  { code: 'it', name: 'Italia' },
+  { code: 'gb', name: 'Reino Unido' },
+  { code: 'pt', name: 'Portugal' },
+  { code: 'uy', name: 'Uruguay' },
+  { code: 'cr', name: 'Costa Rica' },
+  { code: 'pa', name: 'Panamá' },
+  { code: 'do', name: 'Rep. Dominicana' },
+];
+
+const popularGenres = [
+  'Salsa', 'Noticias', 'Rock', 'Pop', 'Deportes',
+  'Cristiana', 'Vallenato', 'Clásica', 'Jazz', 'Electrónica',
+];
+
 export default function Footer() {
   const { t, countryCode } = useI18n();
   
@@ -51,6 +77,30 @@ export default function Footer() {
           <a href="https://www.instagram.com/emisoras_latinas/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-pink-400 transition-colors" aria-label="Instagram">
             <i className="fab fa-instagram text-xl"></i>
           </a>
+        </div>
+
+        {/* Países */}
+        <div className="mb-6">
+          <p className="text-slate-500 text-xs font-semibold mb-3 uppercase tracking-wider">Países</p>
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
+            {popularCountries.map((c) => (
+              <Link key={c.code} href={`/radio/${c.code}`} className="text-slate-400 hover:text-blue-400 transition-colors">
+                {c.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Géneros populares */}
+        <div className="mb-6">
+          <p className="text-slate-500 text-xs font-semibold mb-3 uppercase tracking-wider">Géneros</p>
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
+            {popularGenres.map((g) => (
+              <Link key={g} href={`/radio/${countryCode}?categories=${encodeURIComponent(g)}`} className="text-slate-400 hover:text-blue-400 transition-colors">
+                {g}
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* Copyright */}

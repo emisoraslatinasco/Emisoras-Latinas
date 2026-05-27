@@ -105,6 +105,13 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
+        {/* Pre-conectar dominios de anuncios antes de que los scripts los necesiten */}
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://5gvci.com" />
+        <link rel="dns-prefetch" href="https://n6wxm.com" />
+        <link rel="dns-prefetch" href="https://nap5k.com" />
+        <link rel="dns-prefetch" href="https://al5sm.com" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         <Script
           id="adsbygoogle"
           async
@@ -133,6 +140,7 @@ export default function RootLayout({
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          crossOrigin="anonymous"
         />
       </head>
       <body className={`${inter.variable} antialiased`}>

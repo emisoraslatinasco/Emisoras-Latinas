@@ -44,12 +44,10 @@ interface Station {
   urlStream?: string;  // Backend usa urlStream, no stream_url
 }
 
-// ========== SEO 2.0: Generador de Contenido con Seed Determinístico ==========
+// ========== SEO 3.0: Generador de Contenido Extendido con Seed Determinístico ==========
 
 /**
  * Hash determinístico desde string. Misma entrada = mismo número siempre.
- * Garantiza que cada estación (mismo slug) obtenga la misma descripción en cada request,
- * eliminando volatilidad de contenido para Google.
  */
 function hashString(str: string): number {
   let hash = 0;
@@ -62,15 +60,10 @@ function hashString(str: string): number {
 }
 
 /**
- * Genera descripción inteligente con VARIACIONES DETERMINÍSTICAS usando seed del slug.
+ * Genera párrafo completo (300+ chars) con VARIACIONES DETERMINÍSTICAS usando seed del slug.
  * Solo se usa si la emisora NO tiene descripción en la BD.
  * 
- * Variaciones por tipo (~1,000+ combinaciones entre inicios/conectores/cierres para cada estación):
- * - Noticias (ES): 4×3×4 = 48 combinaciones
- * - Música (ES): 5×4×5 = 100 combinaciones
- * - Genérica (ES): 4×3×4 = 48 combinaciones
- * 
- * Cada slug produce SIEMPRE la misma combinación → contenido estable para Google.
+ * Cada slug produce SIEMPRE el mismo párrafo → contenido estable y sustancioso para Google.
  */
 function generateSmartDescription(
   station: Station,
@@ -90,148 +83,96 @@ function generateSmartDescription(
   );
 
   if (lang === 'es') {
-    // ========== VARIACIÓN A: EMISORAS DE NOTICIAS ==========
     if (hasNews) {
-      const inicios = [
-        'Mantente informado con',
-        'Sigue la actualidad en',
-        'Escucha las noticias más relevantes en',
-        'Conecta con la información de'
-      ];
-      const conectores = [
-        'la fuente líder de noticias en',
-        'tu estación de confianza desde',
-        'transmitiendo reportajes en vivo desde'
-      ];
-      const cierres = [
-        'Sucesos, análisis y debate en vivo.',
-        'Cobertura 24/7 sin interrupciones.',
-        'La voz autorizada de la región.',
-        'Información verificada al instante.'
-      ];
-
-      return `${pick(inicios, 'newsInit')} ${station.nombre}, ${pick(conectores, 'newsConn')} ${city}. ${pick(cierres, 'newsClose')}`;
+      const p1 = `${pick(['Mantente informado con','Sigue la actualidad en','Escucha las noticias más relevantes en','Conecta con la información de'], 'nP1')} ${station.nombre}, ${pick(['la fuente líder de noticias en','tu estación de confianza desde','transmitiendo reportajes en vivo desde'], 'nP1b')} ${city}. ${pick(['Sucesos, análisis y debate en vivo.','Cobertura 24/7 sin interrupciones.','La voz autorizada de la región.','Información verificada al instante.'], 'nP1c')}`;
+      const p2 = pick([
+        `Sintoniza desde cualquier dispositivo con streaming de alta calidad. Sin necesidad de registro ni suscripción, acceso libre las 24 horas.`,
+        `Disponible online para que escuches desde el navegador, el celular o la tablet. Sin descargas, sin cortes, completamente gratis.`,
+        `Transmisión en vivo desde ${city}, ${countryName}. Conéctate cuando quieras desde cualquier lugar del mundo con un solo clic.`,
+        `La señal llega directo a tu dispositivo sin interrupciones. Solo necesitas conexión a internet para mantenerte al día con las noticias de ${countryName}.`,
+      ], 'nP2');
+      const p3 = pick([
+        `${station.nombre} forma parte del directorio de Emisoras Latinas, la plataforma líder de radio online en Latinoamérica con más de 21,000 estaciones en vivo.`,
+        `Descubre más emisoras de ${countryName} en Emisoras Latinas. Navega por el catálogo sin que la transmisión se detenga.`,
+        `Explora otras emisoras de noticias, deportes y música en Emisoras Latinas. El catálogo más completo de radio en vivo de Latinoamérica.`,
+      ], 'nP3');
+      return `${p1} ${p2} ${p3}`;
     }
 
-    // ========== VARIACIÓN B: EMISORAS MUSICALES ==========
     if (hasMusic && genres[0]) {
-      const inicios = [
-        'Disfruta de la mejor selección de',
-        'Escucha los mejores éxitos de',
-        'Sintoniza ahora la mejor',
-        'Conéctate con los ritmos de',
-        'Vive la experiencia musical de'
-      ];
-      const conectores = [
-        `en ${station.nombre}. Transmitiendo desde el corazón de`,
-        `en ${station.nombre}, directo desde`,
-        `con ${station.nombre}, la señal líder de`,
-        `a través de ${station.nombre}, en vivo desde`
-      ];
-      const cierres = [
-        'sin cortes comerciales.',
-        'disponible online gratis.',
-        'con la mejor calidad de audio.',
-        'streaming 24/7 para ti.',
-        'la banda sonora de tu día.'
-      ];
-
-      return `${pick(inicios, 'musicInit')} ${genres[0]} ${pick(conectores, 'musicConn')} ${city}, ${pick(cierres, 'musicClose')}`;
+      const p1 = `${pick(['Disfruta de la mejor selección de','Escucha los mejores éxitos de','Sintoniza ahora la mejor','Conéctate con los ritmos de','Vive la experiencia musical de'], 'mP1')} ${genres[0]} ${pick([`en ${station.nombre}. Transmitiendo desde el corazón de`,`en ${station.nombre}, directo desde`,`con ${station.nombre}, la señal líder de`,`a través de ${station.nombre}, en vivo desde`], 'mP1b')} ${city}, ${pick(['sin cortes comerciales.','disponible online gratis.','con la mejor calidad de audio.','streaming 24/7 para ti.','la banda sonora de tu día.'], 'mP1c')}`;
+      const p2 = pick([
+        `Conéctate desde cualquier dispositivo y disfruta de programación continua sin interrupciones. Escucha desde el navegador, el móvil o la tablet sin necesidad de instalar nada.`,
+        `La música no se detiene. Reproduce en segundo plano mientras navegas por otras páginas. Acceso gratuito ilimitado, sin registro ni suscripciones.`,
+        `Transmisión en alta definición desde ${city}, ${countryName}. La mejor selección musical te espera con un solo clic. Streaming 24 horas al día.`,
+        `Dale play y deja que la música te acompañe. Señal estable y de calidad desde ${countryName} para todo el mundo. Sin cortes, 100% gratis.`,
+      ], 'mP2');
+      const p3 = pick([
+        `${station.nombre} es parte de Emisoras Latinas, el directorio de radio online más grande de Latinoamérica con más de 21,000 emisoras. Encuentra tu estación favorita y escucha sin límites.`,
+        `Descubre más emisoras de ${genres[0]} y otros géneros en Emisoras Latinas. Navega por el catálogo de ${countryName} mientras sigues escuchando tu música.`,
+        `Emisoras Latinas te conecta con las mejores radios de ${countryName} y toda Latinoamérica. Explora, descubre y disfruta de radio en vivo gratis.`,
+      ], 'mP3');
+      return `${p1} ${p2} ${p3}`;
     }
 
-    // ========== VARIACIÓN C: GENÉRICA (FALLBACK) ==========
-    const iniciosGen = [
-      'Escucha',
-      'Sintoniza ahora',
-      'Disfruta de',
-      'Conéctate con'
-    ];
-    const conectoresGen = [
-      'transmitiendo en vivo desde',
-      'la señal líder de',
-      'directo desde el corazón de'
-    ];
-    const cierresGen = [
-      'sin cortes.',
-      'disponible online.',
-      'con la mejor calidad de audio.',
-      'gratis para ti.'
-    ];
-
-    return `${pick(iniciosGen, 'genInit')} ${station.nombre}, ${pick(conectoresGen, 'genConn')} ${city}, ${pick(cierresGen, 'genClose')}`;
+    const p1 = `${pick(['Escucha','Sintoniza ahora','Disfruta de','Conéctate con'], 'gP1')} ${station.nombre}, ${pick(['transmitiendo en vivo desde','la señal líder de','directo desde el corazón de'], 'gP1b')} ${city}, ${pick(['sin cortes.','disponible online.','con la mejor calidad de audio.','gratis para ti.'], 'gP1c')}`;
+    const p2 = pick([
+      `Accede desde cualquier dispositivo con conexión a internet. Streaming continuo 24/7 sin necesidad de registro, suscripción ni descargas. Solo entra y dale play.`,
+      `La radio online más fácil de escuchar. Reproduce en el navegador, el celular o la tablet sin instalar aplicaciones. Señal estable desde ${city}, ${countryName}.`,
+      `Disfruta de programación variada desde ${countryName} para todo el mundo. Conexión gratuita e ilimitada los 7 días de la semana, las 24 horas del día.`,
+    ], 'gP2');
+    const p3 = pick([
+      `${station.nombre} forma parte del catálogo de Emisoras Latinas, donde encontrarás más de 21,000 radios en vivo de toda Latinoamérica. Explora, descubre y escucha sin límites.`,
+      `Emisoras Latinas es la plataforma líder de radio online en español. Navega por el directorio de ${countryName} y encuentra tu próxima emisora favorita.`,
+      `Busca más emisoras de ${countryName} y otros países en Emisoras Latinas. El catálogo de radio en vivo más completo de Latinoamérica, siempre gratis.`,
+    ], 'gP3');
+    return `${p1} ${p2} ${p3}`;
 
   } else {
-    // ========== VERSIÓN INGLÉS (MISMA ESTRUCTURA) ==========
-    
-    // VARIACIÓN A: NEWS
     if (hasNews) {
-      const inicios = [
-        'Stay informed with',
-        'Get the latest news from',
-        'Listen to breaking news on',
-        'Connect with current events via'
-      ];
-      const conectores = [
-        "your trusted news source in",
-        "broadcasting live from",
-        "the leading voice of"
-      ];
-      const cierres = [
-        'Live coverage and analysis.',
-        '24/7 news without interruptions.',
-        'Verified information instantly.',
-        'The authoritative voice of the region.'
-      ];
-
-      return `${pick(inicios, 'enNewsInit')} ${station.nombre}, ${pick(conectores, 'enNewsConn')} ${city}. ${pick(cierres, 'enNewsClose')}`;
+      const p1 = `${pick(['Stay informed with','Get the latest news from','Listen to breaking news on','Connect with current events via'], 'enNp1')} ${station.nombre}, ${pick(['your trusted news source in','broadcasting live from','the leading voice of'], 'enNp1b')} ${city}. ${pick(['Live coverage and analysis.','24/7 news without interruptions.','Verified information instantly.','The authoritative voice of the region.'], 'enNp1c')}`;
+      const p2 = pick([
+        `Tune in from any device with high-quality streaming. No registration or subscription needed — free access 24 hours a day.`,
+        `Available online for browser, phone, or tablet. No downloads, no interruptions, completely free.`,
+        `Live broadcast from ${city}, ${countryName}. Connect whenever you want from anywhere in the world with a single click.`,
+        `The signal reaches your device without interruptions. All you need is an internet connection to stay up to date with news from ${countryName}.`,
+      ], 'enNp2');
+      const p3 = pick([
+        `${station.nombre} is part of Emisoras Latinas, the leading online radio platform in Latin America with over 21,000 live stations.`,
+        `Discover more stations from ${countryName} on Emisoras Latinas. Browse the catalog while your broadcast keeps playing.`,
+        `Explore more news, sports and music stations on Emisoras Latinas. The most complete live radio directory in Latin America.`,
+      ], 'enNp3');
+      return `${p1} ${p2} ${p3}`;
     }
 
-    // VARIACIÓN B: MUSIC
     if (hasMusic && genres[0]) {
-      const inicios = [
-        'Enjoy the best',
-        'Listen to top hits of',
-        'Tune in to the finest',
-        'Connect with the rhythms of',
-        'Experience the best'
-      ];
-      const conectores = [
-        `on ${station.nombre}, broadcasting from`,
-        `via ${station.nombre}, live from`,
-        `with ${station.nombre}, streaming from`,
-        `through ${station.nombre}, direct from`
-      ];
-      const cierres = [
-        'commercial-free.',
-        'available online free.',
-        'with superior audio quality.',
-        '24/7 streaming for you.',
-        'the soundtrack of your day.'
-      ];
-
-      return `${pick(inicios, 'enMusicInit')} ${genres[0]} ${pick(conectores, 'enMusicConn')} ${city}, ${pick(cierres, 'enMusicClose')}`;
+      const p1 = `${pick(['Enjoy the best','Listen to top hits of','Tune in to the finest','Connect with the rhythms of','Experience the best'], 'enMp1')} ${genres[0]} ${pick([`on ${station.nombre}, broadcasting from`,`via ${station.nombre}, live from`,`with ${station.nombre}, streaming from`,`through ${station.nombre}, direct from`], 'enMp1b')} ${city}, ${pick(['commercial-free.','available online free.','with superior audio quality.','24/7 streaming for you.','the soundtrack of your day.'], 'enMp1c')}`;
+      const p2 = pick([
+        `Connect from any device and enjoy uninterrupted programming. Listen from your browser, phone, or tablet — no installation needed.`,
+        `The music never stops. Play in the background while browsing other pages. Unlimited free access, no registration or subscriptions.`,
+        `HD streaming from ${city}, ${countryName}. The best music selection is waiting for you with a single click. 24-hour broadcasting.`,
+        `Hit play and let the music accompany you. Stable, quality signal from ${countryName} to the world. No cuts, 100% free.`,
+      ], 'enMp2');
+      const p3 = pick([
+        `${station.nombre} is part of Emisoras Latinas, the largest online radio directory in Latin America with over 21,000 stations. Find your favorite and listen without limits.`,
+        `Discover more ${genres[0]} stations and other genres on Emisoras Latinas. Browse the ${countryName} catalog while your music keeps playing.`,
+        `Emisoras Latinas connects you with the best radio from ${countryName} and all of Latin America. Explore, discover, and enjoy free live radio.`,
+      ], 'enMp3');
+      return `${p1} ${p2} ${p3}`;
     }
 
-    // VARIACIÓN C: GENERIC
-    const iniciosGen = [
-      'Listen to',
-      'Tune in now to',
-      'Enjoy',
-      'Connect with'
-    ];
-    const conectoresGen = [
-      'broadcasting live from',
-      'the leading station of',
-      'streaming direct from'
-    ];
-    const cierresGen = [
-      'without interruptions.',
-      'available online.',
-      'with the best audio quality.',
-      'free for you.'
-    ];
-
-    return `${pick(iniciosGen, 'enGenInit')} ${station.nombre}, ${pick(conectoresGen, 'enGenConn')} ${city}, ${pick(cierresGen, 'enGenClose')}`;
+    const p1 = `${pick(['Listen to','Tune in now to','Enjoy','Connect with'], 'enGp1')} ${station.nombre}, ${pick(['broadcasting live from','the leading station of','streaming direct from'], 'enGp1b')} ${city}, ${pick(['without interruptions.','available online.','with the best audio quality.','free for you.'], 'enGp1c')}`;
+    const p2 = pick([
+      `Access from any device with an internet connection. Continuous 24/7 streaming with no registration, subscription, or downloads needed. Just enter and hit play.`,
+      `The easiest online radio to listen to. Play in your browser, phone, or tablet without installing apps. Stable signal from ${city}, ${countryName}.`,
+      `Enjoy diverse programming from ${countryName} for the world. Free, unlimited connection 7 days a week, 24 hours a day.`,
+    ], 'enGp2');
+    const p3 = pick([
+      `${station.nombre} is part of the Emisoras Latinas catalog, where you'll find over 21,000 live radio stations from all over Latin America. Explore, discover, and listen without limits.`,
+      `Emisoras Latinas is the leading online radio platform in Spanish and English. Browse the ${countryName} directory and find your next favorite station.`,
+      `Search for more stations from ${countryName} and other countries on Emisoras Latinas. The most complete live radio catalog in Latin America, always free.`,
+    ], 'enGp3');
+    return `${p1} ${p2} ${p3}`;
   }
 }
 
