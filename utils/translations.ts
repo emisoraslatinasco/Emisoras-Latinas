@@ -93,7 +93,7 @@ export const translations: Record<Language, Translations> = {
     why_choose_items: {
       fast_load: "Carga instantánea - La música suena en menos de 2 segundos.",
       no_ads:
-        "Sin publicidad intrusiva - Cero pop-ups, cero banners que tapan el reproductor.",
+        "Publicidad mínima - Solo anuncios necesarios para mantener el servicio gratuito.",
       continuous_play:
         "Reproducción continua - Navega por el sitio sin que la música se detenga.",
       premium_free:
@@ -148,7 +148,7 @@ export const translations: Record<Language, Translations> = {
     why_choose_items: {
       fast_load: "Instant load - Music starts in less than 2 seconds.",
       no_ads:
-        "No intrusive ads - Zero pop-ups, zero banners blocking the player.",
+        "Minimal ads - Only essential ads to keep the service free.",
       continuous_play:
         "Continuous play - Browse the site without music stopping.",
       premium_free:
@@ -204,7 +204,7 @@ export const translations: Record<Language, Translations> = {
       fast_load:
         "Chargement instantané - La musique démarre en moins de 2 secondes.",
       no_ads:
-        "Pas de publicités intrusives - Zéro pop-ups, zéro bannières bloquant le lecteur.",
+        "Publicité minimale - Uniquement les annonces nécessaires pour maintenir le service gratuit.",
       continuous_play:
         "Lecture continue - Naviguez sur le site sans arrêt de la musique.",
       premium_free:
@@ -261,7 +261,7 @@ export const translations: Record<Language, Translations> = {
       fast_load:
         "Carregamento instantâneo - A música começa em menos de 2 segundos.",
       no_ads:
-        "Sem anúncios intrusivos - Zero pop-ups, zero banners bloqueando o player.",
+        "Publicidade mínima - Apenas anúncios necessários para manter o serviço gratuito.",
       continuous_play:
         "Reprodução contínua - Navegue pelo site sem que a música pare.",
       premium_free:
@@ -317,7 +317,7 @@ export const translations: Record<Language, Translations> = {
       fast_load:
         "Caricamento istantaneo - La musica inizia in meno di 2 secondi.",
       no_ads:
-        "Nessuna pubblicità invadente - Zero pop-up, zero banner che bloccano il player.",
+        "Pubblicità minima - Solo annunci necessari per mantenere il servizio gratuito.",
       continuous_play:
         "Riproduzione continua - Naviga nel sito senza che la musica si fermi.",
       premium_free:
@@ -373,7 +373,7 @@ export const translations: Record<Language, Translations> = {
       fast_load:
         "Øjeblikkelig indlæsning - Musikken starter på under 2 sekunder.",
       no_ads:
-        "Ingen påtrængende reklamer - Nul pop-ups, nul bannere der blokerer afspilleren.",
+        "Minimal reklame - Kun nødvendige annoncer for at holde tjenesten gratis.",
       continuous_play:
         "Kontinuerlig afspilning - Naviger rundt på siden uden at musikken stopper.",
       premium_free:
@@ -425,7 +425,8 @@ export const translations: Record<Language, Translations> = {
     why_choose_items: {
       fast_load:
         "Миттєве завантаження - Музика починається менш ніж за 2 секунди.",
-      no_ads: "Без нав'язливої реклами - Нуль спливаючих вікон, нуль банерів.",
+      no_ads:
+        "Мінімум реклами - Лише необхідні оголошення для підтримки безкоштовного сервісу.",
       continuous_play:
         "Безперервне відтворення - Переглядайте сайт, не зупиняючи музику.",
       premium_free:

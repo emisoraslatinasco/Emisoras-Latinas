@@ -4,6 +4,26 @@ import Image from "next/image";
 import { getI18nFromCountry } from "@/utils/translations";
 import { countries, CountryCode } from "@/data/stationsByCountry";
 import { notFound } from "next/navigation";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ country: string }> }): Promise<Metadata> {
+  const resolvedParams = await params;
+  const { lang } = getI18nFromCountry(resolvedParams.country as CountryCode);
+  const country = countries.find(c => c.code === resolvedParams.country.toUpperCase());
+  const countryName = country?.name || resolvedParams.country.toUpperCase();
+  return {
+    title: lang === 'es' ? `Quiénes Somos · ${countryName} | Emisoras Latinas` :
+           lang === 'pt' ? `Quem Somos · ${countryName} | Emisoras Latinas` :
+           lang === 'fr' ? `À Propos · ${countryName} | Emisoras Latinas` :
+           `About Us · ${countryName} | Emisoras Latinas`,
+    description: lang === 'es'
+      ? `Conoce Emisoras Latinas, el directorio de radio online más completo de ${countryName}. +20.000 emisoras gratis, sin cortes, streaming 24/7.`
+      : lang === 'pt'
+      ? `Conheça a Emisoras Latinas, o diretório de rádio online mais completo da ${countryName}. +20.000 emissoras grátis, sem cortes, streaming 24/7.`
+      : `Discover Emisoras Latinas, the most complete online radio directory in ${countryName}. +20,000 free stations, no interruptions, 24/7 streaming.`,
+    robots: { index: true, follow: true },
+  };
+}
 
 export default async function AboutPage({ params }: { params: Promise<{ country: string }> }) {
   const resolvedParams = await params;

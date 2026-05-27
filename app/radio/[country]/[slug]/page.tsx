@@ -303,7 +303,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     const socialDescription = `Escucha ${station.nombre} en vivo desde ${location}, ${country.name}. Radio gratis 24/7, sin cortes ni registro. ¡Dale play ahora! 🎶`;
     const socialImage = station.logoUrl
       ? getStaticUrl(station.logoUrl)
-      : 'https://www.emisoraslatinas.online/logos_general/antena.png';
+      : 'https://www.emisoraslatinas.online/logos_general/logo_emisoras_latinas.jpg';
 
     return {
       // absolute: la marca ya viene incluida en seoTitle, no queremos el template del layout encima.
@@ -320,8 +320,8 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
         images: [
           {
             url: socialImage,
-            width: 800,
-            height: 600,
+            width: 1200,
+            height: 630,
             alt: station.nombre,
           }
         ]
