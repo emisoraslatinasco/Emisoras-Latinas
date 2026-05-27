@@ -9,6 +9,7 @@ import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 import AdInterferenceGuard from "@/components/ads/AdInterferenceGuard";
 import MonetagPopunder from "@/components/ads/MonetagPopunder";
+import DynamicLang from "@/components/seo/DynamicLang";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -143,6 +144,7 @@ export default function RootLayout({
             {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
             <AdInterferenceGuard />
             <MonetagPopunder />
+            <DynamicLang />
             <CookieConsent />
           </RadioProvider>
         </Providers>

@@ -14,6 +14,7 @@ import BannerAd from '@/components/ads/BannerAd';
 import { AdvertisementPosition } from '@/lib/api-admin-ads';
 import Script from 'next/script';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
+import { getHreflangFromCountry } from '@/utils/hreflang';
 
 // ========== INTERFACES ==========
 
@@ -311,6 +312,9 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
       description: seoDescription,
       alternates: {
         canonical: `/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+        languages: {
+          [getHreflangFromCountry(code)]: `/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+        },
       },
       openGraph: {
         title: socialTitle,
@@ -515,12 +519,13 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               {station.genres && station.genres.length > 0 && (
                 <div className="flex flex-wrap gap-2 mb-6">
                   {station.genres.slice(0, 5).map((genre: Genre, idx: number) => (
-                    <span
+                    <Link
                       key={idx}
-                      className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30"
+                      href={`/radio/${resolvedParams.country}?categories=${encodeURIComponent(genre.name)}`}
+                      className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30 hover:bg-blue-500/40 transition-colors"
                     >
                       {genre.name}
-                    </span>
+                    </Link>
                   ))}
                 </div>
               )}
@@ -663,12 +668,13 @@ export default async function StationPage({ params }: { params: Promise<{ countr
               </h3>
               <div className="flex flex-wrap gap-2">
                 {station.genres.map((genre: Genre, idx: number) => (
-                  <span
+                  <Link
                     key={idx}
-                    className="px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30"
+                    href={`/radio/${resolvedParams.country}?categories=${encodeURIComponent(genre.name)}`}
+                    className="px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 rounded-full text-sm border border-purple-500/30 hover:from-purple-500/40 hover:to-pink-500/40 transition-colors"
                   >
                     {genre.name}
-                  </span>
+                  </Link>
                 ))}
               </div>
             </div>

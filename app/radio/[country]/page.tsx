@@ -18,6 +18,7 @@ import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { getHreflangFromCountry } from "@/utils/hreflang";
 
 function GridFallback() {
   return (
@@ -98,6 +99,9 @@ export async function generateMetadata({
     description: seoDescription,
     alternates: {
       canonical: `/radio/${resolvedParams.country}`,
+      languages: {
+        [getHreflangFromCountry(code)]: `/radio/${resolvedParams.country}`,
+      },
     },
     openGraph: {
       title: socialTitle,

@@ -5,6 +5,8 @@ import { getI18nFromCountry } from "@/utils/translations";
 import { countries, CountryCode } from "@/data/stationsByCountry";
 import { notFound } from "next/navigation";
 import { Metadata } from 'next';
+import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
+import { getHreflangFromCountry } from "@/utils/hreflang";
 
 export async function generateMetadata({ params }: { params: Promise<{ country: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
@@ -18,6 +20,12 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
       : lang === 'pt'
       ? "Entre em contato com a equipe da Emisoras Latinas. Estamos aqui para ajudar com perguntas, sugestões ou problemas."
       : "Contact the Emisoras Latinas team. We're here to help with questions, suggestions, or to report issues.",
+    alternates: {
+      canonical: `/radio/${resolvedParams.country}/contacto`,
+      languages: {
+        [getHreflangFromCountry(resolvedParams.country)]: `/radio/${resolvedParams.country}/contacto`,
+      },
+    },
     robots: { index: true, follow: true },
   };
 }
@@ -34,6 +42,13 @@ export default async function ContactPage({ params }: { params: Promise<{ countr
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Inicio", url: "https://www.emisoraslatinas.online" },
+          { name: country.name, url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}` },
+          { name: isSpanish ? "Contacto" : isPortuguese ? "Contato" : "Contact", url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/contacto` },
+        ]}
+      />
       <header className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href={`/radio/${resolvedParams.country}`} className="flex items-center gap-3">
@@ -57,6 +72,13 @@ export default async function ContactPage({ params }: { params: Promise<{ countr
       </header>
 
       <div className="container mx-auto px-4 py-12 max-w-4xl">
+        <nav className="text-sm text-slate-500 mb-8 flex items-center gap-2">
+          <Link href="/" className="hover:text-blue-400">{isSpanish ? "Inicio" : isPortuguese ? "Início" : "Home"}</Link>
+          <i className="fas fa-chevron-right text-xs"></i>
+          <Link href={`/radio/${resolvedParams.country}`} className="hover:text-blue-400">{country.name}</Link>
+          <i className="fas fa-chevron-right text-xs"></i>
+          <span className="text-white">{isSpanish ? "Contacto" : isPortuguese ? "Contato" : "Contact"}</span>
+        </nav>
         <article className="glass-effect rounded-2xl p-8 md:p-12 shadow-2xl text-slate-300">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-8 border-b border-slate-700 pb-4">
             {isSpanish ? "Contacto" : isPortuguese ? "Contato" : "Contact"}
