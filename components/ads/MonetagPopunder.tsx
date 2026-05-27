@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
-const POPUNDER_DELAY_MS = 5000;
+const POPUNDER_DELAY_MS = 10000;
 
 export default function MonetagPopunder() {
   const pathname = usePathname();

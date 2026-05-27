@@ -475,7 +475,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
           
           {/* Reproductor Integrado - Ocupa todo el ancho */}
           <div className="mt-8">
-            <IntegratedPlayer station={station} countryCode={code} />
+            <IntegratedPlayer station={station} countryCode={code} autoPlay={true} />
             {/* Botón de reporte para User Signals */}
             <ReportButton stationName={station.nombre} country={country.name} lang={lang} />
           </div>

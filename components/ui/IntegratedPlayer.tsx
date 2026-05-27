@@ -7,9 +7,10 @@ import { useState, useEffect } from 'react';
 interface IntegratedPlayerProps {
   station: StationByCountry;
   countryCode: CountryCode;
+  autoPlay?: boolean;
 }
 
-export default function IntegratedPlayer({ station, countryCode }: IntegratedPlayerProps) {
+export default function IntegratedPlayer({ station, countryCode, autoPlay = false }: IntegratedPlayerProps) {
   const { 
     playStation, 
     togglePlayPause, 
@@ -28,12 +29,17 @@ export default function IntegratedPlayer({ station, countryCode }: IntegratedPla
   
   // Estado para animación de barras (menos barras para diseño compacto)
   const [bars, setBars] = useState([40, 70, 55, 85, 45, 75, 50, 80]);
-  
+
+  // Auto-play al cargar la página, solo si no está ya reproduciendo esta estación
+  useEffect(() => {
+    if (autoPlay && !isCurrentlyPlaying && !isThisStationLoading) {
+      playStation(station, countryCode);
+    }
+  }, [autoPlay, station.slug]);
+
   // Detener reproducción cuando el usuario sale de esta página
-  // Esto ocurre cuando navega hacia atrás al menú o a otra sección del sitio
   useEffect(() => {
     return () => {
-      // Cleanup: detener reproducción al desmontar el componente
       stopPlayback();
     };
   }, [stopPlayback]);
