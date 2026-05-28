@@ -98,40 +98,40 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* Hero */}
+      {/* Hero — compactado para que el grid de países se vea en el primer fold */}
       <section className="relative overflow-hidden border-b border-slate-800/60">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-purple-900/25 to-pink-900/20 animate-gradient-rotate pointer-events-none" />
-        <div className="relative z-10 container mx-auto px-4 py-16 md:py-24 max-w-6xl">
+        <div className="relative z-10 container mx-auto px-4 py-8 md:py-12 max-w-6xl">
           <div className="flex flex-col items-center text-center">
             <Image
               src="/logos_general/logo_emisoras_latinas.jpg"
               alt="Emisoras Latinas"
-              width={420}
-              height={112}
+              width={300}
+              height={80}
               priority
               unoptimized
-              className="h-24 md:h-28 w-auto mb-6"
+              className="h-14 md:h-20 w-auto mb-3"
             />
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 tracking-tight">
               Emisoras Latinas
             </h1>
-            <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-6">
-              Más de <strong className="text-white">21.000 radios en vivo gratis</strong> de Latinoamérica, España, Estados Unidos y Europa. Streaming 24/7 sin cortes, sin registro.
+            <p className="text-sm md:text-base text-slate-300 max-w-2xl mb-4">
+              Más de <strong className="text-white">21.000 radios en vivo gratis</strong> de Latinoamérica, España, EE.UU. y Europa. Streaming 24/7 sin cortes, sin registro.
             </p>
-            <div className="flex flex-wrap justify-center gap-3 mb-8">
-              <span className="flex items-center gap-2 px-4 py-2 bg-slate-800/70 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+            <div className="flex flex-wrap justify-center gap-2 mb-5">
+              <span className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-globe-americas text-blue-400"></i>
                 27 países
               </span>
-              <span className="flex items-center gap-2 px-4 py-2 bg-slate-800/70 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <span className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-signal text-green-400"></i>
                 En vivo 24/7
               </span>
-              <span className="flex items-center gap-2 px-4 py-2 bg-slate-800/70 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <span className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-gift text-purple-400"></i>
                 100% gratis
               </span>
-              <span className="flex items-center gap-2 px-4 py-2 bg-slate-800/70 backdrop-blur-sm rounded-full text-sm text-white border border-slate-700/50">
+              <span className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-mobile-alt text-pink-400"></i>
                 Multidispositivo
               </span>
@@ -143,12 +143,12 @@ export default function HomePage() {
       </section>
 
       {/* Country Grid */}
-      <section className="container mx-auto px-4 py-16 max-w-6xl">
-        <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
+      <section className="container mx-auto px-4 py-8 md:py-10 max-w-6xl">
+        <div className="text-center mb-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
             Explora por país
           </h2>
-          <p className="text-slate-400">
+          <p className="text-sm md:text-base text-slate-400">
             Elige tu país y empieza a escuchar al instante
           </p>
         </div>

@@ -8,7 +8,6 @@ import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 import AdInterferenceGuard from "@/components/ads/AdInterferenceGuard";
-import MonetagPopunder from "@/components/ads/MonetagPopunder";
 import DynamicLang from "@/components/seo/DynamicLang";
 
 const inter = Inter({
@@ -114,13 +113,14 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
+        {/* AdSense ownership tag — habilita Auto Ads cuando se activan en
+            adsense.google.com → Ads → Overview → toggle "Auto ads" ON. */}
+        <meta name="google-adsense-account" content="ca-pub-2219150000991117" />
         {/* Pre-conectar dominios de anuncios antes de que los scripts los necesiten */}
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://5gvci.com" />
-        <link rel="dns-prefetch" href="https://n6wxm.com" />
         <link rel="dns-prefetch" href="https://nap5k.com" />
-        <link rel="dns-prefetch" href="https://al5sm.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         {/* Google Analytics 4 — G-P9TELHQ4YF. afterInteractive para no bloquear LCP. */}
         <Script
@@ -147,10 +147,6 @@ gtag('config', 'G-P9TELHQ4YF');`}
           strategy="afterInteractive"
           data-cfasync="false"
         />
-        {/* Monetag Vignette Banner — full-screen entre transiciones */}
-        <Script id="monetag-vignette" strategy="afterInteractive">
-          {`(function(s){s.dataset.zone='11061798',s.src='https://n6wxm.com/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
-        </Script>
         {/* Monetag In-Page Push / Social Bar — banner discreto in-page */}
         <Script id="monetag-inpage" strategy="lazyOnload">
           {`(function(s){s.dataset.zone='11061802',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
@@ -173,7 +169,6 @@ gtag('config', 'G-P9TELHQ4YF');`}
             {children}
             {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
             <AdInterferenceGuard />
-            <MonetagPopunder />
             <DynamicLang />
             <CookieConsent />
           </RadioProvider>

@@ -3,6 +3,7 @@
 import { useRadio } from '@/context/RadioContext';
 import { StationByCountry, CountryCode } from '@/data/stationsByCountry';
 import { useState, useEffect } from 'react';
+import PrerollOverlay from '@/components/ui/PrerollOverlay';
 
 interface IntegratedPlayerProps {
   station: StationByCountry;
@@ -11,16 +12,17 @@ interface IntegratedPlayerProps {
 }
 
 export default function IntegratedPlayer({ station, countryCode, autoPlay = false }: IntegratedPlayerProps) {
-  const { 
-    playStation, 
-    togglePlayPause, 
+  const {
+    playStation,
+    togglePlayPause,
     stopPlayback,
-    currentStation, 
-    isPlaying, 
+    currentStation,
+    isPlaying,
     loadingStation,
-    volume, 
+    volume,
     setVolume,
-    error 
+    error,
+    preroll,
   } = useRadio();
   
   const isCurrentStation = currentStation?.nombre === station.nombre;
@@ -74,12 +76,23 @@ export default function IntegratedPlayer({ station, countryCode, autoPlay = fals
     return 'fa-volume-high';
   };
 
+  // Mientras suena el pre-roll mostramos el overlay del ad en lugar del player
+  // normal. Es la misma posición visual (data-audio-player) para que el
+  // AdInterferenceGuard siga protegiendo el área del player.
+  if (preroll) {
+    return (
+      <div className="w-full" data-audio-player>
+        <PrerollOverlay />
+      </div>
+    );
+  }
+
   return (
-    <div className="w-full">
+    <div className="w-full" data-audio-player>
       {/* Reproductor Compacto */}
       <div className={`relative rounded-2xl overflow-hidden transition-all duration-500 ${
-        isCurrentlyPlaying 
-          ? 'bg-gradient-to-br from-blue-600/30 via-purple-600/30 to-pink-600/30 border border-blue-500/50' 
+        isCurrentlyPlaying
+          ? 'bg-gradient-to-br from-blue-600/30 via-purple-600/30 to-pink-600/30 border border-blue-500/50'
           : 'bg-slate-800/60 border border-slate-700/50'
       }`}>
         
