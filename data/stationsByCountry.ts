@@ -196,7 +196,7 @@ export const countries: Country[] = [
   {
     code: "ES",
     name: "España",
-    flag: "/flags/españa.jpg",
+    flag: "/flags/espana.jpg",
     jsonFile: "emisoras_españa.json",
   },
   {

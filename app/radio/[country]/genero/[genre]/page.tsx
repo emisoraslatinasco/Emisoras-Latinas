@@ -55,7 +55,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: country.flag || "/logos_general/logo_emisoras_latinas.jpg",
+          url: "/logos_general/logo_emisoras_latinas.jpg",
           width: 1200,
           height: 630,
           alt: `Radio ${genreName} ${country.name}`,

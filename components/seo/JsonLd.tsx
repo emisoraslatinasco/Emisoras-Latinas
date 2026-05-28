@@ -35,10 +35,10 @@ export function OrganizationJsonLd() {
     logo: 'https://www.emisoraslatinas.online/logos_general/logo_emisoras_latinas.jpg',
     description: 'Directorio de radio online que conecta a millones de oyentes con las mejores emisoras de Latinoamérica.',
     sameAs: [
-      'https://facebook.com/emisoraslatinas',
-      'https://instagram.com/emisoraslatinas',
-      'https://twitter.com/emisoraslatinas',
-      'https://youtube.com/@emisoraslatinas',
+      'https://www.facebook.com/profile.php?id=61586652665186',
+      'https://www.instagram.com/emisoras_latinas/',
+      'https://www.youtube.com/@EmisorasLatinas',
+      'https://www.tiktok.com/@emisoraslatinas',
     ],
     contactPoint: {
       '@type': 'ContactPoint',

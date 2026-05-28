@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -15,6 +15,15 @@ const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
 });
+
+// viewport export separado (Next.js 15+). Antes estaba implícito; ser explícito
+// apaga warnings de mobile usability en Google Search Console.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#0f172a",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.emisoraslatinas.online'),
@@ -107,11 +116,24 @@ export default function RootLayout({
       <head>
         {/* Pre-conectar dominios de anuncios antes de que los scripts los necesiten */}
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://5gvci.com" />
         <link rel="dns-prefetch" href="https://n6wxm.com" />
         <link rel="dns-prefetch" href="https://nap5k.com" />
         <link rel="dns-prefetch" href="https://al5sm.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+        {/* Google Analytics 4 — G-P9TELHQ4YF. afterInteractive para no bloquear LCP. */}
+        <Script
+          id="ga4-loader"
+          src="https://www.googletagmanager.com/gtag/js?id=G-P9TELHQ4YF"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-P9TELHQ4YF');`}
+        </Script>
         <Script
           id="adsbygoogle"
           async

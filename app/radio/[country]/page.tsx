@@ -91,7 +91,9 @@ export async function generateMetadata({
   const socialDescription = N > 0
     ? `🎧 Escucha ${N} emisoras de ${country.name} en vivo gratis: música, noticias y deportes 24/7. Sin cortes, sin registro. ¡Dale play desde cualquier dispositivo!`
     : `🎧 Escucha radios de ${country.name} en vivo gratis: música, noticias y deportes 24/7. Sin cortes, sin registro. ¡Dale play desde cualquier dispositivo!`;
-  const socialImage = country.flag || "/logos_general/logo_emisoras_latinas.jpg";
+  // Usamos el logo principal (1200x630-friendly) como OG image. Las flags de /public/flags/ son
+  // thumbnails ~250x180 — sirven para UI pero Facebook/WhatsApp las rechazan como preview social.
+  const socialImage = "/logos_general/logo_emisoras_latinas.jpg";
 
   return {
     // absolute: evita que el template global del layout se concatene y sature los 58 chars del SERP.

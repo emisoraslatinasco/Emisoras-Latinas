@@ -44,6 +44,3 @@ Sitemap: https://www.emisoraslatinas.online/sitemaps/us
 Sitemap: https://www.emisoraslatinas.online/sitemaps/gb
 Sitemap: https://www.emisoraslatinas.online/sitemaps/fr
 Sitemap: https://www.emisoraslatinas.online/sitemaps/it
-
-# Crawl-delay para ser amigable con el servidor
-Crawl-delay: 1
