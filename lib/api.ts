@@ -73,7 +73,7 @@ export interface FilterParams {
  */
 export async function getCountries(): Promise<Country[]> {
   const res = await fetch(`${API_BASE_URL}/countries`, {
-    next: { revalidate: 3600 }, // Cache por 1 hora
+    next: { revalidate: 86400 }, // Catálogo casi inmutable: 24h
   });
 
   if (!res.ok) {
@@ -88,7 +88,7 @@ export async function getCountries(): Promise<Country[]> {
  */
 export async function getCountryByCode(code: string): Promise<Country> {
   const res = await fetch(`${API_BASE_URL}/countries/${code}`, {
-    next: { revalidate: 3600 },
+    next: { revalidate: 86400 },
   });
 
   if (!res.ok) {
@@ -117,7 +117,7 @@ export async function getStationsByCountry(
   const url = `${API_BASE_URL}/countries/${countryCode}/stations${queryString ? `?${queryString}` : ""}`;
 
   const res = await fetch(url, {
-    next: { revalidate: 60 }, // Cache por 1 minuto
+    next: { revalidate: 21600 }, // 6h: el catálogo de emisoras cambia muy poco
   });
 
   if (!res.ok) {
@@ -136,7 +136,7 @@ export async function getGenresByCountry(
   countryCode: string,
 ): Promise<string[]> {
   const res = await fetch(`${API_BASE_URL}/countries/${countryCode}/genres`, {
-    next: { revalidate: 3600 },
+    next: { revalidate: 86400 },
   });
 
   if (!res.ok) {
@@ -151,7 +151,7 @@ export async function getGenresByCountry(
  */
 export async function getStationBySlug(slug: string): Promise<Station> {
   const res = await fetch(`${API_BASE_URL}/stations/${slug}`, {
-    next: { revalidate: 60 },
+    next: { revalidate: 21600 },
   });
 
   if (!res.ok) {
@@ -200,7 +200,7 @@ export async function getAllStations(
   const url = `${API_BASE_URL}/stations${queryString ? `?${queryString}` : ""}`;
 
   const res = await fetch(url, {
-    next: { revalidate: 60 },
+    next: { revalidate: 21600 },
   });
 
   if (!res.ok) {
@@ -215,7 +215,7 @@ export async function getAllStations(
  */
 export async function getAllGenres(): Promise<Genre[]> {
   const res = await fetch(`${API_BASE_URL}/genres`, {
-    next: { revalidate: 3600 },
+    next: { revalidate: 86400 },
   });
 
   if (!res.ok) {

@@ -31,6 +31,12 @@ function GridFallback() {
   );
 }
 
+// ISR: la página de país se regenera cada 6h tras la primera visita. Antes
+// dependía del revalidate:60 del fetch interno, que disparaba una recarga
+// completa de todas las emisoras del país cada minuto contra Neon.
+export const revalidate = 21600;
+export const dynamicParams = true;
+
 // Generar rutas estáticas para todos los países disponibles
 export async function generateStaticParams() {
   return countries.map((country) => ({
