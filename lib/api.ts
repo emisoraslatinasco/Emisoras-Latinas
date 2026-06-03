@@ -232,6 +232,9 @@ export async function getAllGenres(): Promise<Genre[]> {
  * Construir URL completa para assets estáticos del backend
  */
 export function getStaticUrl(path: string): string {
+  // Si ya es una URL absoluta (p.ej. Cloudinary: https://res.cloudinary.com/...),
+  // devolverla tal cual; no anteponer el backend.
+  if (/^https?:\/\//i.test(path)) return path;
   // Usar API_BASE_URL que ya tiene corrección de protocolo y sufijo /api
   const baseUrl = API_BASE_URL.replace(/\/api$/, "");
   return `${baseUrl}${path}`;
