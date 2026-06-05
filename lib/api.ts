@@ -241,11 +241,29 @@ export function getStaticUrl(path: string): string {
 }
 
 /**
- * Obtener URL de logo de una emisora
+ * Inserta optimización automática de Cloudinary en una URL de entrega:
+ *  - f_auto: formato moderno (WebP/AVIF) según el navegador
+ *  - q_auto: calidad automática (recorta peso sin pérdida visible)
+ *  - w_{width}: ancho máximo (los logos se muestran pequeños) — opcional
+ * Reduce el ancho de banda ~80%. Para URLs que NO son de Cloudinary (p.ej.
+ * /static/flags del backend) la devuelve sin cambios.
  */
-export function getLogoUrl(station: Station): string | null {
+export function optimizeCloudinary(url: string, width?: number): string {
+  if (!url || !url.includes("res.cloudinary.com") || !url.includes("/upload/")) {
+    return url;
+  }
+  // Idempotente: si ya tiene una transformación, no la dupliques.
+  if (/\/upload\/[^/]*(f_auto|q_auto|w_\d)/.test(url)) return url;
+  const t = width ? `f_auto,q_auto,w_${width}` : "f_auto,q_auto";
+  return url.replace("/upload/", `/upload/${t}/`);
+}
+
+/**
+ * Obtener URL de logo de una emisora (optimizada para Cloudinary)
+ */
+export function getLogoUrl(station: Station, width = 256): string | null {
   if (!station.logoUrl) return null;
-  return getStaticUrl(station.logoUrl);
+  return optimizeCloudinary(getStaticUrl(station.logoUrl), width);
 }
 
 /**

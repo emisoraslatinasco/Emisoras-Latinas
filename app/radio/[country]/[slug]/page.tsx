@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { countries, CountryCode } from '@/data/stationsByCountry';
 import { getI18nFromCountry } from '@/utils/translations';
-import { getStaticUrl } from '@/lib/api';
+import { getStaticUrl, optimizeCloudinary } from '@/lib/api';
 import { Footer } from '@/components/layout';
 import AdSpace from '@/components/ui/AdSpace';
 import IntegratedPlayer from '@/components/ui/IntegratedPlayer';
@@ -421,7 +421,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             <div className="flex justify-center items-start">
               <div className="relative w-36 h-36 rounded-xl overflow-hidden border-2 border-slate-700/50 shadow-xl">
                 <StationImage
-                  src={station.logoUrl ? getStaticUrl(station.logoUrl) : '/logos_general/antena.png'}
+                  src={station.logoUrl ? optimizeCloudinary(getStaticUrl(station.logoUrl), 320) : '/logos_general/antena.png'}
                   alt={station.nombre}
                   fill
                   className="object-cover"
@@ -666,7 +666,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                 >
                   <div className="relative w-full aspect-square mb-3 rounded-lg overflow-hidden">
                     <StationImage
-                      src={related.logoUrl ? getStaticUrl(related.logoUrl) : '/logos_general/antena.png'}
+                      src={related.logoUrl ? optimizeCloudinary(getStaticUrl(related.logoUrl), 256) : '/logos_general/antena.png'}
                       alt={related.nombre}
                       fill
                       className="object-cover"

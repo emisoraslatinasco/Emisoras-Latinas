@@ -3,6 +3,7 @@ import {
   getStationsByCountry,
   getCountries as apiGetCountries,
   getStaticUrl,
+  optimizeCloudinary,
   type Station,
   type Country as ApiCountry,
 } from "@/lib/api";
@@ -294,8 +295,10 @@ function transformStation(station: Station): StationByCountry {
     id: station.id,
     nombre: station.nombre,
     url_stream: station.urlStream,
-    // Modificado para usar siempre la URL del backend si existe
-    logo_local: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+    // URL del logo optimizada (Cloudinary f_auto/q_auto/w) si aplica
+    logo_local: station.logoUrl
+      ? optimizeCloudinary(getStaticUrl(station.logoUrl), 256)
+      : null,
     slug: station.slug,
     descripcion: station.descripcion || undefined,
     generos: station.genres?.map((g) => g.name) || [],
@@ -304,7 +307,9 @@ function transformStation(station: Station): StationByCountry {
     ciudad: station.ciudad || undefined,
     frecuencia: station.frecuencia || undefined,
     ubicacion: station.ciudad || undefined,
-    logo: station.logoUrl ? getStaticUrl(station.logoUrl) : null,
+    logo: station.logoUrl
+      ? optimizeCloudinary(getStaticUrl(station.logoUrl), 256)
+      : null,
     isVip: station.isVip || false,
   };
 }

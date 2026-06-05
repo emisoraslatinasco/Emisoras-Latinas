@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { getPublicAdvertisements } from '@/lib/api-ads';
 import { Advertisement, AdvertisementPosition, AdvertisementScope } from '@/lib/api-admin-ads';
-import { getStaticUrl } from '@/lib/api';
+import { getStaticUrl, optimizeCloudinary } from '@/lib/api';
 
 interface BannerAdProps {
   position: AdvertisementPosition;
@@ -44,9 +44,11 @@ export default function BannerAd({ position, countryId, stationId, className = '
     return null; // No muestra banner si no hay data
   }
 
-  const imageUrl = ad.imageUrl.startsWith('http') 
-    ? ad.imageUrl 
-    : getStaticUrl(ad.imageUrl);
+  // Optimización de formato/calidad (sin recortar el ancho: los banners tienen
+  // tamaños variables y no queremos deformarlos).
+  const imageUrl = optimizeCloudinary(
+    ad.imageUrl.startsWith('http') ? ad.imageUrl : getStaticUrl(ad.imageUrl),
+  );
 
   const styleContext: React.CSSProperties = {
     width: ad.width || '100%',
