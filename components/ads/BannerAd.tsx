@@ -44,10 +44,11 @@ export default function BannerAd({ position, countryId, stationId, className = '
     return null; // No muestra banner si no hay data
   }
 
-  // Optimización de formato/calidad (sin recortar el ancho: los banners tienen
-  // tamaños variables y no queremos deformarlos).
+  // Optimización + tope de ancho a 1000px (c_limit: solo reduce, no deforma).
+  // Evita servir banners de varios MB a tamaño completo en cada carga.
   const imageUrl = optimizeCloudinary(
     ad.imageUrl.startsWith('http') ? ad.imageUrl : getStaticUrl(ad.imageUrl),
+    1000,
   );
 
   const styleContext: React.CSSProperties = {

@@ -254,7 +254,9 @@ export function optimizeCloudinary(url: string, width?: number): string {
   }
   // Idempotente: si ya tiene una transformación, no la dupliques.
   if (/\/upload\/[^/]*(f_auto|q_auto|w_\d)/.test(url)) return url;
-  const t = width ? `f_auto,q_auto,w_${width}` : "f_auto,q_auto";
+  // c_limit: solo reduce si la imagen es más grande que el ancho dado; nunca
+  // agranda ni recorta (seguro para banners de tamaños variables).
+  const t = width ? `f_auto,q_auto,c_limit,w_${width}` : "f_auto,q_auto";
   return url.replace("/upload/", `/upload/${t}/`);
 }
 
