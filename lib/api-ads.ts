@@ -21,7 +21,7 @@ export async function getPublicAdvertisements(params: {
   if (params.stationId) searchParams.set('stationId', params.stationId);
 
   const queryString = searchParams.toString();
-  const res = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements${queryString ? `?${queryString}` : ''}`, {
+  const res = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements${queryString ? `?${queryString}` : ''}`, {
     next: { revalidate: 60 }, // Cache por 1 minuto
   });
 

@@ -17,9 +17,9 @@ export default function PublicidadPage() {
     if (!url) return 'https://via.placeholder.com/150x50?text=Sin+Imagen';
     if (url.startsWith('http')) return url;
     if (url.startsWith('/static/')) {
-      return API_BASE_URL.replace('/api', '') + url;
+      return API_BASE_URL.replace(/\/api$/, '') + url;
     }
-    return API_BASE_URL.replace('/api', '') + '/static' + url;
+    return API_BASE_URL.replace(/\/api$/, '') + '/static' + url;
   };
 
   const loadAds = async () => {

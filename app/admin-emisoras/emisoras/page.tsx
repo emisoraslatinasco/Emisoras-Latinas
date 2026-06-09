@@ -24,9 +24,9 @@ export default function EmisorasPage() {
     if (!logoUrl) return '/logos_general/logo_miniatura_emisoras_latinas.jpg';
     if (logoUrl.startsWith('http')) return logoUrl;
     if (logoUrl.startsWith('/static/')) {
-      return API_BASE_URL.replace('/api', '') + logoUrl;
+      return API_BASE_URL.replace(/\/api$/, '') + logoUrl;
     }
-    return API_BASE_URL.replace('/api', '') + '/static' + logoUrl;
+    return API_BASE_URL.replace(/\/api$/, '') + '/static' + logoUrl;
   };
 
   const loadStations = async () => {

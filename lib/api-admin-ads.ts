@@ -42,7 +42,7 @@ export class AdminAdsAPI {
 
   static async getAdvertisements(params?: Record<string, string>): Promise<Advertisement[]> {
     const query = new URLSearchParams(params).toString();
-    const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements${query ? `?${query}` : ''}`, {
+    const response = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements${query ? `?${query}` : ''}`, {
       headers: this.getHeaders(),
     });
 
@@ -54,7 +54,7 @@ export class AdminAdsAPI {
   }
 
   static async createAdvertisement(data: Partial<Advertisement>): Promise<Advertisement> {
-    const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements`, {
+    const response = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements`, {
       method: 'POST',
       headers: this.getHeaders(),
       body: JSON.stringify(data),
@@ -68,7 +68,7 @@ export class AdminAdsAPI {
   }
 
   static async updateAdvertisement(id: string, data: Partial<Advertisement>): Promise<Advertisement> {
-    const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements/${id}`, {
+    const response = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements/${id}`, {
       method: 'PATCH',
       headers: this.getHeaders(),
       body: JSON.stringify(data),
@@ -82,7 +82,7 @@ export class AdminAdsAPI {
   }
 
   static async deleteAdvertisement(id: string): Promise<void> {
-    const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements/${id}`, {
+    const response = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements/${id}`, {
       method: 'DELETE',
       headers: this.getHeaders(),
     });
@@ -97,7 +97,7 @@ export class AdminAdsAPI {
     formData.append('file', file);
 
     const token = this.getToken();
-    const response = await fetch(`${API_BASE_URL.replace('/api', '')}/advertisements/${id}/image`, {
+    const response = await fetch(`${API_BASE_URL.replace(/\/api$/, '')}/advertisements/${id}/image`, {
       method: 'POST',
       headers: {
         ...(token && { Authorization: `Bearer ${token}` }),

@@ -53,8 +53,8 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
   const getLogoUrl = (url?: string) => {
     if (!url) return '';
     if (url.startsWith('http')) return url;
-    if (url.startsWith('/static/')) return API_BASE_URL.replace('/api', '') + url;
-    return API_BASE_URL.replace('/api', '') + '/static' + url;
+    if (url.startsWith('/static/')) return API_BASE_URL.replace(/\/api$/, '') + url;
+    return API_BASE_URL.replace(/\/api$/, '') + '/static' + url;
   };
   
   useEffect(() => {
