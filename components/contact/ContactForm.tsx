@@ -9,11 +9,39 @@ export default function ContactForm() {
     subject: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`✅ ¡Gracias ${formData.name}!\n\nTu mensaje ha sido recibido. Te contactaremos pronto a ${formData.email}.`);
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    setIsSubmitting(true);
+
+    try {
+      // FormSubmit.co — envío real sin backend. El primer envío dispara un
+      // correo de activación de FormSubmit a emisoraslatinasco@gmail.com que
+      // hay que confirmar una sola vez.
+      const res = await fetch('https://formsubmit.co/ajax/emisoraslatinasco@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: `${formData.message}\n\nAsunto: ${formData.subject}`,
+          _subject: `Contacto Emisoras Latinas: ${formData.subject}`,
+        }),
+      });
+
+      if (!res.ok) throw new Error('Error al enviar');
+
+      alert(`✅ ¡Gracias ${formData.name}!\n\nTu mensaje ha sido enviado. Te responderemos pronto a ${formData.email}.`);
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } catch {
+      alert('Hubo un error al enviar. Intenta de nuevo o escríbenos a emisoraslatinasco@gmail.com');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -107,10 +135,11 @@ export default function ContactForm() {
         {/* Submit Button */}
         <button
           type="submit"
-          className="submit-btn w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-4 px-6 rounded-lg shadow-lg transition-all duration-300"
+          disabled={isSubmitting}
+          className="submit-btn w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-4 px-6 rounded-lg shadow-lg transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          <i className="fas fa-paper-plane mr-2"></i>
-          Enviar Mensaje
+          <i className={`fas ${isSubmitting ? 'fa-spinner fa-spin' : 'fa-paper-plane'} mr-2`}></i>
+          {isSubmitting ? 'Enviando...' : 'Enviar Mensaje'}
         </button>
 
         <p className="text-slate-500 text-xs text-center">

@@ -6,6 +6,22 @@ import { usePathname } from 'next/navigation';
 
 const COOKIE_CONSENT_KEY = 'emisoras_latinas_cookie_consent';
 
+// Actualiza el Google Consent Mode v2. El estado por defecto (denied) se define
+// en app/layout.tsx; aquí lo elevamos a 'granted' o lo confirmamos 'denied'
+// según la decisión del usuario. Esto es lo que hace que GA4 y AdSense respeten
+// el consentimiento (cumplimiento GDPR/ePrivacy que revisa el bot de AdSense).
+const updateConsent = (granted: boolean) => {
+  const w = window as unknown as { gtag?: (...args: unknown[]) => void };
+  if (typeof w.gtag !== 'function') return;
+  const value = granted ? 'granted' : 'denied';
+  w.gtag('consent', 'update', {
+    ad_storage: value,
+    ad_user_data: value,
+    ad_personalization: value,
+    analytics_storage: value,
+  });
+};
+
 export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);
   const pathname = usePathname();
@@ -76,6 +92,14 @@ export default function CookieConsent() {
       }, 1500);
       return () => clearTimeout(timer);
     }
+    // Visitante recurrente: reaplicar su decisión previa al Consent Mode,
+    // porque el estado por defecto del layout es 'denied' en cada carga.
+    try {
+      const parsed = JSON.parse(consent);
+      updateConsent(parsed.advertising === true);
+    } catch {
+      // consent corrupto — se ignora, el banner no se muestra de nuevo
+    }
   }, []);
 
   const handleAccept = () => {
@@ -86,6 +110,7 @@ export default function CookieConsent() {
       advertising: true,
       date: new Date().toISOString()
     }));
+    updateConsent(true);
     setIsVisible(false);
   };
 
@@ -97,6 +122,7 @@ export default function CookieConsent() {
       advertising: false,
       date: new Date().toISOString()
     }));
+    updateConsent(false);
     setIsVisible(false);
   };
 

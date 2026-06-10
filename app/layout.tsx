@@ -7,7 +7,6 @@ import { Providers } from "./providers";
 import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
-import AdInterferenceGuard from "@/components/ads/AdInterferenceGuard";
 import DynamicLang from "@/components/seo/DynamicLang";
 
 const inter = Inter({
@@ -100,7 +99,11 @@ export const metadata: Metadata = {
     creator: '@emisoraslatinas',
   },
   verification: {
-    google: '', // Agregar código de Google Search Console
+    // PASO 5: pega aquí tu código de verificación de Google Search Console.
+    // search.google.com/search-console → Configuración → Verificación →
+    // Etiqueta HTML → copia SOLO el valor del atributo content (sin comillas).
+    // Ej: google: 'A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6Q7r8S9t0',
+    google: '',
   },
   category: 'entertainment',
 };
@@ -119,9 +122,23 @@ export default function RootLayout({
         {/* Pre-conectar dominios de anuncios antes de que los scripts los necesiten */}
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://5gvci.com" />
-        <link rel="dns-prefetch" href="https://nap5k.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+        {/* Google Consent Mode v2 — estado por defecto DENEGADO hasta que el
+            usuario acepte en el banner de cookies. Cumple GDPR/ePrivacy y es lo
+            que el bot de AdSense espera ver. CookieConsent.tsx hace el
+            gtag('consent','update',...) al aceptar/rechazar. beforeInteractive
+            para que se ejecute antes que GA4 y AdSense. */}
+        <Script id="google-consent-default" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});`}
+        </Script>
         {/* Google Analytics 4 — G-P9TELHQ4YF. afterInteractive para no bloquear LCP. */}
         <Script
           id="ga4-loader"
@@ -141,16 +158,9 @@ gtag('config', 'G-P9TELHQ4YF');`}
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        <Script
-          id="monetag-push"
-          src="https://5gvci.com/act/files/tag.min.js?z=11061710"
-          strategy="afterInteractive"
-          data-cfasync="false"
-        />
-        {/* Monetag In-Page Push / Social Bar — banner discreto in-page */}
-        <Script id="monetag-inpage" strategy="lazyOnload">
-          {`(function(s){s.dataset.zone='11061802',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`}
-        </Script>
+        {/* ⚠️ MONETAG DESACTIVADO — sus formatos Push/Popunder/OnClick violan las
+            políticas de Google AdSense y eran la causa raíz del rechazo. No
+            reactivar mientras AdSense esté en revisión o aprobado. */}
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
@@ -168,7 +178,6 @@ gtag('config', 'G-P9TELHQ4YF');`}
           <RadioProvider>
             {children}
             {/* AudioPlayer eliminado - La reproducción solo ocurre en páginas individuales */}
-            <AdInterferenceGuard />
             <DynamicLang />
             <CookieConsent />
           </RadioProvider>

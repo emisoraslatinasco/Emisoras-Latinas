@@ -182,6 +182,35 @@ function generateSmartDescription(
 export const revalidate = 86400;
 export const dynamicParams = true;
 
+/**
+ * Fetch al backend con 1 reintento ante errores transitorios (red/timeout o 5xx).
+ * Devuelve la Response para que el llamador distinga:
+ *   - 404  → la emisora NO existe (notFound legítimo)
+ *   - 5xx / red → backend caído (NO es un 404; conviene devolver 500 y reintentar)
+ * Esto evita que un tropiezo puntual de Neon/Render haga que Google des-indexe
+ * una página que sí existe (clave para la revisión de AdSense).
+ */
+async function fetchStationFull(url: string, retries = 1): Promise<Response> {
+  let lastErr: unknown;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, { next: { revalidate: 86400 } });
+      if (res.status >= 500 && attempt < retries) {
+        await new Promise((r) => setTimeout(r, 400)); // backoff corto antes de reintentar
+        continue;
+      }
+      return res;
+    } catch (err) {
+      lastErr = err; // error de red / timeout
+      if (attempt < retries) {
+        await new Promise((r) => setTimeout(r, 400));
+        continue;
+      }
+    }
+  }
+  throw lastErr ?? new Error('fetchStationFull: backend no disponible');
+}
+
 // Generar metadata dinámica para SEO
 export async function generateMetadata({ params }: { params: Promise<{ country: string; slug: string }> }): Promise<Metadata> {
   const resolvedParams = await params;
@@ -296,27 +325,42 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   
   let station, relatedStations;
+
+  let res: Response;
   try {
-    console.log(`[StationPage] Fetching: ${API_URL}/stations/${resolvedParams.slug}/full`);
-    const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
-      next: { revalidate: 86400 } // 24h: alineado con el revalidate de la página
-    });
+    res = await fetchStationFull(`${API_URL}/stations/${resolvedParams.slug}/full`);
+  } catch (error) {
+    // Red/timeout tras reintentos: el backend está caído, NO que la emisora no exista.
+    // Lanzamos para que Next devuelva 500 → Google reintenta luego en vez de tratarla
+    // como 404 y sacarla del índice (esto protege la revisión de AdSense).
+    console.error(`[StationPage] Backend inaccesible para ${resolvedParams.slug}:`, error);
+    throw new Error(`Backend no disponible para ${resolvedParams.slug}`);
+  }
 
-    console.log(`[StationPage] Response status: ${res.status}`);
-    
-    if (!res.ok) {
-      console.error(`[StationPage] API returned ${res.status} for ${resolvedParams.slug}`);
-      return notFound();
-    }
+  // 404 explícito = la emisora realmente no existe → notFound legítimo.
+  if (res.status === 404) {
+    return notFound();
+  }
+  // 5xx persistente tras el reintento → 500 (no 404), para que Google reintente.
+  if (!res.ok) {
+    console.error(`[StationPage] Backend respondió ${res.status} para ${resolvedParams.slug}`);
+    throw new Error(`Backend respondió ${res.status} para ${resolvedParams.slug}`);
+  }
 
+  try {
     const data = await res.json();
     station = data.station;
     relatedStations = data.relatedStations;
-    console.log(`[StationPage] Successfully loaded: ${station.nombre}`);
   } catch (error) {
-    console.error(`[StationPage] Fetch error:`, error);
+    console.error(`[StationPage] Respuesta inválida para ${resolvedParams.slug}:`, error);
+    throw new Error(`Respuesta inválida del backend para ${resolvedParams.slug}`);
+  }
+
+  // Defensa: si el backend respondió 200 pero sin la emisora, es inconsistencia de datos.
+  if (!station) {
     return notFound();
   }
+  relatedStations = relatedStations ?? [];
   
   const {t, lang} = getI18nFromCountry(code);
   
@@ -358,6 +402,37 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     },
   };
 
+  // FAQ factual por emisora: respuestas basadas en datos REALES (nombre,
+  // frecuencia, ciudad, país, géneros), no prosa hilada. Aporta contenido útil
+  // y único por página y habilita rich results (FAQPage), atacando el riesgo de
+  // "scaled content" mejorando el contenido en vez de ocultarlo.
+  const genreNames: string[] = station.genres?.map((g: Genre) => g.name) || [];
+  const stationFaqs: { q: string; a: string }[] = lang === 'en'
+    ? [
+        { q: `How can I listen to ${station.nombre} live?`, a: `Click play on this page. ${station.nombre} streams live for free, with no registration, from any device with a web browser.` },
+        ...(frequency ? [{ q: `What frequency does ${station.nombre} broadcast on?`, a: `${station.nombre} broadcasts on ${frequency}${location ? ` from ${location}` : ''}, ${country.name}.` }] : []),
+        { q: `Is it free to listen to ${station.nombre}?`, a: `Yes. Listening to ${station.nombre} on Emisoras Latinas is completely free, 24/7, with no subscription or sign-up.` },
+        ...(genreNames.length ? [{ q: `What does ${station.nombre} play?`, a: `${station.nombre} broadcasts ${genreNames.join(', ')}.` }] : []),
+        { q: `Where does ${station.nombre} broadcast from?`, a: `${station.nombre} broadcasts from ${location}, ${country.name}.` },
+      ]
+    : [
+        { q: `¿Cómo escuchar ${station.nombre} en vivo?`, a: `Haz clic en reproducir en esta página. ${station.nombre} transmite en vivo gratis, sin registro, desde cualquier dispositivo con navegador.` },
+        ...(frequency ? [{ q: `¿En qué frecuencia transmite ${station.nombre}?`, a: `${station.nombre} transmite en ${frequency}${location ? ` desde ${location}` : ''}, ${country.name}.` }] : []),
+        { q: `¿Es gratis escuchar ${station.nombre}?`, a: `Sí. Escuchar ${station.nombre} en Emisoras Latinas es completamente gratis, las 24 horas, sin suscripción ni registro.` },
+        ...(genreNames.length ? [{ q: `¿Qué tipo de programación tiene ${station.nombre}?`, a: `${station.nombre} emite ${genreNames.join(', ')}.` }] : []),
+        { q: `¿Desde dónde transmite ${station.nombre}?`, a: `${station.nombre} transmite desde ${location}, ${country.name}.` },
+      ];
+
+  const stationFaqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: stationFaqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* JSON-LD */}
@@ -365,6 +440,11 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         id={`station-jsonld-${station.id}`}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationJsonLd) }}
+      />
+      <Script
+        id={`station-faq-jsonld-${station.id}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(stationFaqJsonLd) }}
       />
       <BreadcrumbJsonLd
         items={[
@@ -647,6 +727,27 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             </div>
           </div>
         </div>
+
+        {/* Preguntas frecuentes de la emisora (contenido factual + FAQPage schema) */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
+              <i className="fas fa-circle-question text-blue-400"></i>
+            </div>
+            {lang === 'en' ? 'Frequently asked questions' : 'Preguntas frecuentes'}
+          </h2>
+          <div className="space-y-3">
+            {stationFaqs.map((faq, idx) => (
+              <details key={idx} className="group glass-effect rounded-xl p-5">
+                <summary className="flex items-center justify-between text-white font-semibold cursor-pointer list-none">
+                  <span>{faq.q}</span>
+                  <i className="fas fa-chevron-down text-blue-400 transition-transform group-open:rotate-180"></i>
+                </summary>
+                <p className="mt-3 text-slate-300 leading-relaxed">{faq.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
 
         {/* Emisoras Relacionadas */}
         {relatedStations.length > 0 && (

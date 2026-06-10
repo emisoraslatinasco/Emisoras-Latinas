@@ -32,7 +32,10 @@ const popularGenres = [
 
 export default function Footer() {
   const { t, countryCode } = useI18n();
-  
+  // useI18n devuelve el código en MAYÚSCULA ('CO'); las rutas canónicas son en
+  // minúscula ('/radio/co'). Normalizamos para no generar URLs duplicadas.
+  const cc = countryCode.toLowerCase();
+
   return (
     <footer className="glass-effect mt-20 py-8 mb-32">
       <div className="container mx-auto px-4 text-center">
@@ -55,16 +58,16 @@ export default function Footer() {
 
         {/* Enlaces legales principales */}
         <nav className="flex flex-wrap justify-center gap-6 mb-8 text-sm text-slate-400">
-          <Link href={`/radio/${countryCode}/nosotros`} className="hover:text-blue-400 transition-colors">
+          <Link href={`/radio/${cc}/nosotros`} className="hover:text-blue-400 transition-colors">
             {t.about_us || 'Quiénes Somos'}
           </Link>
-          <Link href={`/radio/${countryCode}/privacidad`} className="hover:text-blue-400 transition-colors">
+          <Link href={`/radio/${cc}/privacidad`} className="hover:text-blue-400 transition-colors">
             {t.privacy_policy || 'Política de Privacidad'}
           </Link>
-          <Link href={`/radio/${countryCode}/terminos`} className="hover:text-blue-400 transition-colors">
+          <Link href={`/radio/${cc}/terminos`} className="hover:text-blue-400 transition-colors">
             {t.terms || 'Términos de Uso'}
           </Link>
-          <Link href={`/radio/${countryCode}/contacto`} className="hover:text-blue-400 transition-colors">
+          <Link href={`/radio/${cc}/contacto`} className="hover:text-blue-400 transition-colors">
             {t.contact || 'Contacto'}
           </Link>
         </nav>
@@ -96,7 +99,7 @@ export default function Footer() {
           <p className="text-slate-500 text-xs font-semibold mb-3 uppercase tracking-wider">Géneros</p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
             {popularGenres.map((g) => (
-              <Link key={g} href={`/radio/${countryCode}?categories=${encodeURIComponent(g)}`} className="text-slate-400 hover:text-blue-400 transition-colors">
+              <Link key={g} href={`/radio/${cc}?categories=${encodeURIComponent(g)}`} className="text-slate-400 hover:text-blue-400 transition-colors">
                 {g}
               </Link>
             ))}

@@ -149,6 +149,23 @@ export default async function CountryPage({
   const stations = await loadStationsByCountry(code);
   const { t } = getI18nFromCountry(code);
 
+  // Proyección ligera para el grid cliente: solo los campos que el listado usa
+  // (tarjeta + búsqueda + filtro). Se omiten url_stream, redes_sociales,
+  // sitio_web, logo (duplicado), frecuencia, etc. que NO se renderizan en el
+  // grid. Esto recorta drásticamente el HTML serializado (la página de país
+  // pesaba ~2MB) SIN cambiar el comportamiento ni añadir consultas a Neon,
+  // porque la búsqueda/filtrado sigue siendo 100% en el navegador.
+  const slimStations = stations.map((s) => ({
+    nombre: s.nombre,
+    slug: s.slug,
+    logo_local: s.logo_local,
+    generos: s.generos,
+    descripcion: s.descripcion,
+    ciudad: s.ciudad,
+    isVip: s.isVip,
+    url_stream: "", // requerido por el tipo StationByCountry, no se usa en el listado
+  }));
+
   // Generar JSON-LD para la página de país (ItemList de RadioStations)
   const countryJsonLd = {
     "@context": "https://schema.org",
@@ -283,7 +300,7 @@ export default async function CountryPage({
           {/* Grid de Emisoras */}
           <section aria-label={`${t.stations_of} ${country.name}`}>
             <Suspense fallback={<GridFallback />}>
-              <PaginatedStationGrid stations={stations} countryCode={code} />
+              <PaginatedStationGrid stations={slimStations} countryCode={code} />
             </Suspense>
           </section>
 
