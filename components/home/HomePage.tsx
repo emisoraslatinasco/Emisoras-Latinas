@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import { Footer } from "@/components/layout";
 import ContinueListeningBanner from "@/components/home/ContinueListeningBanner";
 import { countries } from "@/data/stationsByCountry";
@@ -92,8 +91,7 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-slate-900">
-      <Script
-        id="home-faq-jsonld"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />

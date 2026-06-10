@@ -3,11 +3,13 @@ export function WebsiteJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': 'https://www.emisoraslatinas.online/#website',
     name: 'Emisoras Latinas',
     alternateName: 'Radio Online Latinoamérica',
     url: 'https://www.emisoraslatinas.online',
     description: 'Directorio de Radio Online #1 de Latinoamérica. Escucha gratis +21,000 emisoras de Colombia, Argentina, México, Perú y más.',
     inLanguage: 'es',
+    publisher: { '@id': 'https://www.emisoraslatinas.online/#organization' },
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -30,6 +32,7 @@ export function OrganizationJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': 'https://www.emisoraslatinas.online/#organization',
     name: 'Emisoras Latinas',
     url: 'https://www.emisoraslatinas.online',
     logo: 'https://www.emisoraslatinas.online/logos_general/logo_emisoras_latinas.jpg',

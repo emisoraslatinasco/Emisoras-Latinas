@@ -12,7 +12,6 @@ import ReportButton from '@/components/ui/ReportButton';
 import StationImage from '@/components/ui/StationImage';
 import BannerAd from '@/components/ads/BannerAd';
 import { AdvertisementPosition } from '@/lib/api-admin-ads';
-import Script from 'next/script';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { getHreflangFromCountry } from '@/utils/hreflang';
 
@@ -367,26 +366,54 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   // Extraer frecuencia del nombre si existe
   const frequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
   const location = station.ciudad || country.name;
-  
+
+  const pageUrl = `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`;
+
+  // sameAs: enlaza la entidad emisora con su web oficial y redes sociales reales.
+  // Es la señal de entidad más fuerte (entity disambiguation / Knowledge Graph).
+  // Solo datos verificados de la BD — nunca inventados.
+  const sameAs = [
+    station.sitioWeb,
+    ...(station.socialNetworks?.map((sn: SocialNetwork) => sn.url) || []),
+  ].filter((u): u is string => Boolean(u));
+
+  const schemaGenres: string[] = station.genres?.map((g: Genre) => g.name) || [];
+
+  // areaServed: City SOLO cuando hay ciudad real; si no, Country (evita marcar
+  // un país como "City", que es factualmente incorrecto).
+  const schemaAreaServed = station.ciudad
+    ? {
+        "@type": "City",
+        name: station.ciudad,
+        containedInPlace: { "@type": "Country", name: country.name },
+      }
+    : { "@type": "Country", name: country.name };
+
   // JSON-LD para SEO
   const stationJsonLd = {
     "@context": "https://schema.org",
     "@type": "RadioStation",
+    "@id": `${pageUrl}#radiostation`,
     "name": station.nombre,
     "description": station.descripcionExtendida || station.descripcion,
-    "url": `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+    "url": pageUrl,
+    "inLanguage": getHreflangFromCountry(code),
     "broadcastFrequency": frequency || undefined,
-    "areaServed": {
-      "@type": "City",
-      "name": location
+    "areaServed": schemaAreaServed,
+    "genre": schemaGenres.length ? schemaGenres : undefined,
+    "image": station.logoUrl ? getStaticUrl(station.logoUrl) : undefined,
+    "sameAs": sameAs.length ? sameAs : undefined,
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://www.emisoraslatinas.online/#website",
+      "name": "Emisoras Latinas",
+      "url": "https://www.emisoraslatinas.online",
     },
-    "genre": station.genres?.map((g: Genre) => g.name).join(', '),
-    "image": station.logoUrl,
     "potentialAction": {
       "@type": "ListenAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`,
+        "urlTemplate": pageUrl,
         "actionPlatform": [
           "http://schema.org/DesktopWebPlatform",
           "http://schema.org/MobileWebPlatform",
@@ -436,13 +463,11 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* JSON-LD */}
-      <Script
-        id={`station-jsonld-${station.id}`}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationJsonLd) }}
       />
-      <Script
-        id={`station-faq-jsonld-${station.id}`}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationFaqJsonLd) }}
       />

@@ -13,7 +13,6 @@ import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
 import BannerAd from "@/components/ads/BannerAd";
 import { AdvertisementPosition } from "@/lib/api-admin-ads";
-import Script from "next/script";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
@@ -196,8 +195,7 @@ export default async function CountryPage({
       <CountrySync countryCode={code} />
 
       {/* JSON-LD Structured Data para SEO */}
-      <Script
-        id="country-jsonld"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(countryJsonLd) }}
       />
@@ -212,8 +210,7 @@ export default async function CountryPage({
       />
 
       {/* FAQ Schema para featured snippet en SERP */}
-      <Script
-        id="country-faq"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
