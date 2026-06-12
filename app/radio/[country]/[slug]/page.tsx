@@ -8,6 +8,20 @@ import { getStaticUrl, optimizeCloudinary } from '@/lib/api';
 import { Footer } from '@/components/layout';
 import AdSpace from '@/components/ui/AdSpace';
 import IntegratedPlayer from '@/components/ui/IntegratedPlayer';
+
+function sanitizeHtml(html: string): string {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/\son\w+\s*=\s*["'][^"']*["']/gi, '')
+    .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+    .replace(/<[^>]*>/g, function(match: string) {
+      const tagName = match.match(/<\/?(\w+)/)?.[1]?.toLowerCase() || '';
+      if (['h2', 'h3', 'p', 'ul', 'ol', 'li', 'strong', 'em', 'br', 'div'].includes(tagName)) return match;
+      if (match.startsWith('</')) return match;
+      return '';
+    });
+}
 import ReportButton from '@/components/ui/ReportButton';
 import StationImage from '@/components/ui/StationImage';
 import BannerAd from '@/components/ads/BannerAd';
@@ -251,10 +265,10 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     };
     const seoTitle = buildSeoTitle();
 
-    // Cascada de contenido para meta description: descripcionExtendida > descripcion > plantilla.
-    // descripcionExtendida suele ser más rica (200-500 chars) y la recortamos a 158 con … final.
+    // Cascada de contenido para meta description: station.metaDescription > descripcionExtendida > descripcion > plantilla.
+    // Si el import de enriquecimiento pobló meta_description, úsalo directamente (viene truncado a 300 chars).
     const buildSeoDescription = (): string => {
-      const richSource = (station.descripcionExtendida || station.descripcion || '').trim();
+      const richSource = (station.metaDescription || station.descripcionExtendida || station.descripcion || '').trim();
       if (richSource.length >= 50) {
         const tail = ' ¡Escucha en vivo ahora, sin cortes!';
         const room = 158 - tail.length;
@@ -395,7 +409,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     "@type": "RadioStation",
     "@id": `${pageUrl}#radiostation`,
     "name": station.nombre,
-    "description": station.descripcionExtendida || station.descripcion,
+    "description": station.metaDescription || station.descripcionExtendida || station.descripcion,
     "url": pageUrl,
     "inLanguage": getHreflangFromCountry(code),
     "broadcastFrequency": frequency || undefined,
@@ -611,7 +625,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   2. descripcion corta + frase de frecuencia (las pocas con BD original)
                   3. plantilla generateSmartDescription (fallback) */}
               {station.descripcionExtendida && station.descripcionExtendida.length > 50 ? (
-                <p>{station.descripcionExtendida}</p>
+                <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(station.descripcionExtendida) }} className="prose prose-invert max-w-none prose-p:text-slate-300 prose-headings:text-white prose-headings:text-lg prose-headings:mt-4 prose-headings:mb-2" />
               ) : station.descripcion && station.descripcion.length > 50 ? (
                 <>
                   <p>{station.descripcion}</p>

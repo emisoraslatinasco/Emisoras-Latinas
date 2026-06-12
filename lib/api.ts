@@ -32,6 +32,8 @@ export interface Station {
   logoUrl: string | null;
   descripcion: string | null;
   descripcionExtendida: string | null;
+  metaTitle: string | null;
+  metaDescription: string | null;
   ciudad: string | null;
   frecuencia: string | null;
   sitioWeb: string | null;
