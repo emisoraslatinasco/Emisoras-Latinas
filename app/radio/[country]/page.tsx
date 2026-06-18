@@ -12,6 +12,7 @@ import { Footer } from "@/components/layout";
 import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
 import BannerAd from "@/components/ads/BannerAd";
+import StickyBottomAd from "@/components/ads/StickyBottomAd";
 import { AdvertisementPosition } from "@/lib/api-admin-ads";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
@@ -258,7 +259,7 @@ export default async function CountryPage({
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
             <BannerAd
-              position={AdvertisementPosition.HOME_RIGHT}
+              position={AdvertisementPosition.HOME_LEFT}
               countryId={country.id || country.code}
               className="w-40 h-[600px]"
             />
@@ -364,6 +365,11 @@ export default async function CountryPage({
       </div>
 
       <Footer />
+
+      {/* Banner inferior fijo (sticky 15%). Scope GENERAL filtrado por país,
+          igual que los demás banners HOME_*. Trae su propio anuncio y solo se
+          muestra si hay uno activo; incluye botón para cerrarlo. */}
+      <StickyBottomAd countryId={country.id || country.code} />
     </main>
   );
 }

@@ -9,14 +9,13 @@ interface AdSpaceProps {
 }
 
 /**
- * Componente placeholder para anuncios de Google AdSense
- * Actualmente retorna null (vacío). Una vez aprobado en AdSense,
- * aquí se insertará el código real de anuncios automáticos.
+ * Slot de anuncios reservado. Actualmente retorna null (no renderiza nada).
+ * Se descartó Google AdSense; estos espacios quedan libres para banners propios
+ * o de afiliado (Amazon) si se quieren rellenar más adelante. La monetización
+ * activa de Monetag (In-Page Push / Vignette) no usa este slot: son overlays.
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function AdSpace(_props: AdSpaceProps) {
-  // Retornar null para no mostrar placeholders visibles
-  // Google AdSense insertará los anuncios automáticamente una vez aprobado
   return null;
 }
 

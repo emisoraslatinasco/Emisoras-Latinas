@@ -8,6 +8,8 @@ import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 import DynamicLang from "@/components/seo/DynamicLang";
+import MonetagAds from "@/components/ads/MonetagAds";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -116,18 +118,14 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark" suppressHydrationWarning>
       <head>
-        {/* AdSense ownership tag — habilita Auto Ads cuando se activan en
-            adsense.google.com → Ads → Overview → toggle "Auto ads" ON. */}
-        <meta name="google-adsense-account" content="ca-pub-2219150000991117" />
-        {/* Pre-conectar dominios de anuncios antes de que los scripts los necesiten */}
-        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        {/* Pre-conectar dominios de terceros antes de que los scripts los usen */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
         {/* Google Consent Mode v2 — estado por defecto DENEGADO hasta que el
-            usuario acepte en el banner de cookies. Cumple GDPR/ePrivacy y es lo
-            que el bot de AdSense espera ver. CookieConsent.tsx hace el
+            usuario acepte en el banner de cookies. Cumple GDPR/ePrivacy y lo usa
+            GA4 para el consentimiento de analytics. CookieConsent.tsx hace el
             gtag('consent','update',...) al aceptar/rechazar. beforeInteractive
-            para que se ejecute antes que GA4 y AdSense. */}
+            para que se ejecute antes que GA4. */}
         <Script id="google-consent-default" strategy="beforeInteractive">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -151,16 +149,11 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-P9TELHQ4YF');`}
         </Script>
-        <Script
-          id="adsbygoogle"
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2219150000991117"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-        {/* ⚠️ MONETAG DESACTIVADO — sus formatos Push/Popunder/OnClick violan las
-            políticas de Google AdSense y eran la causa raíz del rechazo. No
-            reactivar mientras AdSense esté en revisión o aprobado. */}
+        {/* Monetag: formatos NO intrusivos In-Page Push + Vignette, cargados con
+            un simple <script> (sin service worker ni permiso de notificaciones;
+            el formato Push clásico sigue retirado en public/sw.js). Las zonas se
+            configuran dentro de MonetagAds.tsx. */}
+        <MonetagAds />
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
@@ -172,8 +165,6 @@ gtag('config', 'G-P9TELHQ4YF');`}
         />
       </head>
       <body className={`${inter.variable} antialiased`}>
-        {/* Google AdSense */}
-      
         <Providers>
           <RadioProvider>
             {children}
@@ -182,6 +173,8 @@ gtag('config', 'G-P9TELHQ4YF');`}
             <CookieConsent />
           </RadioProvider>
         </Providers>
+        {/* Botón flotante de WhatsApp, visible en todas las páginas */}
+        <WhatsAppButton />
       </body>
     </html>
   );

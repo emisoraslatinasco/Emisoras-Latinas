@@ -45,6 +45,17 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
   const [logoPreview, setLogoPreview] = useState<string>(getLogoUrl(station.logoUrl));
   const [uploadingLogo, setUploadingLogo] = useState(false);
 
+  // URLs de redes sociales. El backend las recibe como string[] y detecta la
+  // plataforma automáticamente. Se inicializan con las que ya tiene la emisora.
+  const [socialUrls, setSocialUrls] = useState<string[]>(
+    station.socialNetworks?.map((s) => s.url) || []
+  );
+  const addSocial = () => setSocialUrls([...socialUrls, '']);
+  const updateSocial = (index: number, value: string) =>
+    setSocialUrls(socialUrls.map((u, i) => (i === index ? value : u)));
+  const removeSocial = (index: number) =>
+    setSocialUrls(socialUrls.filter((_, i) => i !== index));
+
   const handleLogoChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
@@ -74,16 +85,24 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
     try {
       // Preparar datos sin logoUrl
       const { logoUrl: _logoUrl, ...dataWithoutLogo } = formData;
-      
+
+      // El backend espera socialNetworks como string[] (URLs); el tipo Station lo
+      // modela como objetos en la respuesta, de ahí el cast localizado. Se filtran
+      // entradas vacías.
+      const basePayload = {
+        ...dataWithoutLogo,
+        socialNetworks: socialUrls.map((u) => u.trim()).filter(Boolean),
+      } as unknown as Partial<Station>;
+
       if (logoFile) {
         // Si hay nuevo archivo, subir y agregar logoUrl
         setUploadingLogo(true);
         const { logoUrl } = await AdminAPI.uploadStationLogo(station.id, logoFile);
-        await AdminAPI.updateStation(station.id, { ...dataWithoutLogo, logoUrl });
+        await AdminAPI.updateStation(station.id, { ...basePayload, logoUrl });
         setUploadingLogo(false);
       } else {
         // Si no hay nuevo archivo, actualizar sin logoUrl
-        await AdminAPI.updateStation(station.id, dataWithoutLogo);
+        await AdminAPI.updateStation(station.id, basePayload);
       }
       
       onSave();
@@ -290,6 +309,44 @@ export default function EditStationModal({ station, onClose, onSave }: EditStati
                 rows={4}
                 className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
+            </div>
+
+            <div className="col-span-2">
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                Redes Sociales
+              </label>
+              <div className="space-y-2">
+                {socialUrls.map((url, i) => (
+                  <div key={i} className="flex gap-2">
+                    <input
+                      type="url"
+                      value={url}
+                      onChange={(e) => updateSocial(i, e.target.value)}
+                      placeholder="https://facebook.com/tuemisora"
+                      className="flex-1 px-3 py-2 bg-slate-700 border border-slate-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeSocial(i)}
+                      className="px-3 py-2 bg-red-600/80 hover:bg-red-600 text-white rounded-lg transition-colors"
+                      title="Eliminar"
+                    >
+                      <i className="fas fa-trash"></i>
+                    </button>
+                  </div>
+                ))}
+                <button
+                  type="button"
+                  onClick={addSocial}
+                  className="px-3 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg transition-colors text-sm flex items-center gap-2"
+                >
+                  <i className="fas fa-plus"></i>
+                  Agregar red social
+                </button>
+              </div>
+              <p className="text-xs text-slate-400 mt-1">
+                Pega la URL completa (Facebook, Instagram, X, YouTube, TikTok…). La plataforma se detecta automáticamente.
+              </p>
             </div>
 
             <div className="col-span-2">

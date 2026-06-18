@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { AdminAdsAPI, Advertisement, AdvertisementScope, AdvertisementPosition } from '@/lib/api-admin-ads';
-import { AdminAPI, Station } from '@/lib/api-admin';
 import { getCountries, Country as ApiCountry } from '@/lib/api';
 
 interface CreateAdModalProps {
@@ -15,8 +14,6 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
-  // Lista de estaciones para el select, al buscar por scope 'STATION'
-  const [stations, setStations] = useState<Station[]>([]);
   const [countries, setCountries] = useState<ApiCountry[]>([]);
 
   const [formData, setFormData] = useState({
@@ -36,18 +33,13 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    // Si entramos en modo estación y no hay, traemos todas (o algunas) para listar.
-    // Lo simple aquí es usar AdminAPI para traer estaciones activas para asociarles el banner.
-    // Solo si el scope es STATION.
-    if (formData.scope === AdvertisementScope.STATION) {
-      AdminAPI.getStations(1, 400).then(res => setStations(res.data)).catch(()=> {});
+    // Cargar países dinámicamente desde API (para tener los UUID reales). Aplica a
+    // AMBOS scopes: General segmenta la home/país y Personal (Emisora) segmenta las
+    // páginas de emisora, en ambos casos por país.
+    if (countries.length === 0) {
+      getCountries().then(setCountries).catch(() => {});
     }
-    
-    // Cargar países dinámicamente desde API para tener los UUID reales
-    if (formData.scope === AdvertisementScope.GENERAL && countries.length === 0) {
-       getCountries().then(setCountries).catch(()=> {});
-    }
-  }, [formData.scope, countries.length]);
+  }, [countries.length]);
 
   const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000/api';
   const getLogoUrl = (url?: string) => {
@@ -82,14 +74,17 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
     setLoading(true);
     setError(null);
 
-    // Filter clear values depending on scope
-    const submitData = { ...formData };
-    if (submitData.scope === AdvertisementScope.GENERAL) submitData.stationId = undefined;
-    if (submitData.scope === AdvertisementScope.STATION) submitData.countryId = undefined;
-
-    // Optional field cleans
-    if(submitData.countryId === "") submitData.countryId = undefined;
-    if(submitData.stationId === "") submitData.stationId = undefined;
+    // Ambos scopes se segmentan por país (countryId). "Todos los Países" = sin
+    // país = aplica a todo.
+    // PATCH semántico: enviamos `null` explícito (no `undefined`) cuando el campo
+    // está vacío, porque `undefined` se omite del JSON y el backend no limpiaría
+    // el valor anterior (p.ej. pasar de un país a "Todos"). stationId ya no se usa
+    // (la segmentación por emisora individual se sustituyó por país).
+    const submitData = {
+      ...formData,
+      countryId: formData.countryId || null,
+      stationId: null,
+    };
 
     try {
       let savedAd: Advertisement;
@@ -154,12 +149,11 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
                 value={formData.scope}
                 onChange={(e) => {
                   const newScope = e.target.value as AdvertisementScope;
-                  setFormData({ 
-                    ...formData, 
+                  setFormData({
+                    ...formData,
                     scope: newScope,
-                    position: newScope === AdvertisementScope.STATION 
-                      ? AdvertisementPosition.STATION_UNDER_REPORT 
-                      : AdvertisementPosition.HOME_TOP
+                    // Ambos scopes arrancan en HOME_TOP (posición común a los dos).
+                    position: AdvertisementPosition.HOME_TOP
                   });
                 }}
                 className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -178,49 +172,37 @@ export default function CreateAdModal({ onClose, onSave, ad }: CreateAdModalProp
                 onChange={(e) => setFormData({ ...formData, position: e.target.value as AdvertisementPosition })}
                 className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
-                {formData.scope === AdvertisementScope.GENERAL ? (
-                    <>
-                        <option value={AdvertisementPosition.HOME_TOP}>Arriba (debajo selector)</option>
-                        <option value={AdvertisementPosition.HOME_RIGHT}>Derecha (aside)</option>
-                        <option value={AdvertisementPosition.HOME_BOTTOM}>Abajo (footer / paginación)</option>
-                    </>
-                ) : (
-                        <option value={AdvertisementPosition.STATION_UNDER_REPORT}>Debajo Reportar Problema</option>
+                {/* Las posiciones HOME_* aplican a AMBOS scopes: en General se
+                    renderizan en la página de país y en Emisora (Station) en la
+                    página de la emisora. STATION_UNDER_REPORT es exclusiva de
+                    Emisora (banner bajo el reproductor / botón de reporte). */}
+                <option value={AdvertisementPosition.HOME_TOP}>Arriba</option>
+                <option value={AdvertisementPosition.HOME_LEFT}>Izquierda (aside)</option>
+                <option value={AdvertisementPosition.HOME_RIGHT}>Derecha (aside)</option>
+                <option value={AdvertisementPosition.HOME_BOTTOM}>Abajo</option>
+                <option value={AdvertisementPosition.HOME_STICKY_BOTTOM}>Inferior Fija (sticky 15%)</option>
+                {formData.scope === AdvertisementScope.STATION && (
+                    <option value={AdvertisementPosition.STATION_UNDER_REPORT}>Debajo del reproductor (reportar)</option>
                 )}
               </select>
             </div>
 
-            {formData.scope === AdvertisementScope.GENERAL && (
-              <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
-                  País (Opcional - Todos si está vacío)
-                </label>
-                <select
-                  value={formData.countryId || ''}
-                  onChange={(e) => setFormData({ ...formData, countryId: e.target.value })}
-                  className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option value="">Todos los Países</option>
-                  {countries.map(c => <option key={c.code} value={c.id || c.code}>{c.name}</option>)}
-                </select>
-              </div>
-            )}
-
-            {formData.scope === AdvertisementScope.STATION && (
-              <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">
-                  Emisora Específica (Opcional - Todas si vacio)
-                </label>
-                <select
-                  value={formData.stationId || ''}
-                  onChange={(e) => setFormData({ ...formData, stationId: e.target.value })}
-                  className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  <option value="">Cualquier Emisora</option>
-                  {stations.map(s => <option key={s.id} value={s.id}>{s.nombre} ({s.country.name})</option>)}
-                </select>
-              </div>
-            )}
+            {/* Segmentación por país para AMBOS scopes. En General filtra la
+                página de país; en Personal (Emisora), las páginas de emisora de
+                ese país. Vacío = "Todos los Países" = aplica a todo. */}
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">
+                País (Opcional - Todos si está vacío)
+              </label>
+              <select
+                value={formData.countryId || ''}
+                onChange={(e) => setFormData({ ...formData, countryId: e.target.value })}
+                className="w-full px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Todos los Países</option>
+                {countries.map(c => <option key={c.code} value={c.id || c.code}>{c.name}</option>)}
+              </select>
+            </div>
 
             <div className="col-span-full">
               <label className="block text-sm font-medium text-slate-300 mb-2">URL de Redireccionamiento (Destino al clickear)</label>

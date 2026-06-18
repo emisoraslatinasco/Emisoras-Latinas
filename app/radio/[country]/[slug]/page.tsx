@@ -25,7 +25,8 @@ function sanitizeHtml(html: string): string {
 import ReportButton from '@/components/ui/ReportButton';
 import StationImage from '@/components/ui/StationImage';
 import BannerAd from '@/components/ads/BannerAd';
-import { AdvertisementPosition } from '@/lib/api-admin-ads';
+import StickyBottomAd from '@/components/ads/StickyBottomAd';
+import { AdvertisementPosition, AdvertisementScope } from '@/lib/api-admin-ads';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { getHreflangFromCountry } from '@/utils/hreflang';
 
@@ -523,7 +524,29 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-12 max-w-6xl">
+      <div className="flex justify-center gap-4 px-2 xl:px-4">
+        {/* Publicidad lateral izquierda (scope Emisora) - solo pantallas grandes */}
+        <aside className="hidden 2xl:block flex-shrink-0 pt-12">
+          <div className="sticky top-24">
+            <BannerAd
+              position={AdvertisementPosition.HOME_LEFT}
+              scope={AdvertisementScope.STATION}
+              countryId={country.id || country.code}
+              className="w-40 h-[600px]"
+            />
+          </div>
+        </aside>
+
+        <div className="container mx-auto px-4 py-12 max-w-6xl flex-1 min-w-0">
+        {/* Publicidad superior (scope Emisora) */}
+        <div className="mb-8 flex justify-center">
+          <BannerAd
+            position={AdvertisementPosition.HOME_TOP}
+            scope={AdvertisementScope.STATION}
+            countryId={country.id || country.code}
+          />
+        </div>
+
         {/* Breadcrumbs */}
         <nav className="text-sm text-slate-500 mb-8 flex items-center gap-2">
           <Link href="/" className="hover:text-blue-400">{t.home}</Link>
@@ -604,7 +627,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         <div className="mb-8 flex justify-center">
           <BannerAd
             position={AdvertisementPosition.STATION_UNDER_REPORT}
-            stationId={station.id}
+            countryId={country.id || country.code}
           />
         </div>
 
@@ -833,9 +856,34 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             <span>{lang === 'es' ? 'Ver todas las emisoras de' : lang === 'en' ? 'View all stations from' : 'Voir toutes les radios de'} {country.name}</span>
           </Link>
         </div>
+
+        {/* Publicidad inferior (scope Emisora) */}
+        <div className="mt-12 flex justify-center">
+          <BannerAd
+            position={AdvertisementPosition.HOME_BOTTOM}
+            scope={AdvertisementScope.STATION}
+            countryId={country.id || country.code}
+          />
+        </div>
+        </div>
+
+        {/* Publicidad lateral derecha (scope Emisora) - solo pantallas grandes */}
+        <aside className="hidden 2xl:block flex-shrink-0 pt-12">
+          <div className="sticky top-24">
+            <BannerAd
+              position={AdvertisementPosition.HOME_RIGHT}
+              scope={AdvertisementScope.STATION}
+              countryId={country.id || country.code}
+              className="w-40 h-[600px]"
+            />
+          </div>
+        </aside>
       </div>
 
       <Footer />
+
+      {/* Banner inferior fijo (sticky 15%) específico de la emisora */}
+      <StickyBottomAd scope={AdvertisementScope.STATION} countryId={country.id || country.code} />
     </main>
   );
 }

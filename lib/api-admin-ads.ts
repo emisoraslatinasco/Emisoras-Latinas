@@ -7,8 +7,10 @@ export enum AdvertisementScope {
 
 export enum AdvertisementPosition {
   HOME_TOP = 'HOME_TOP',
+  HOME_LEFT = 'HOME_LEFT',
   HOME_RIGHT = 'HOME_RIGHT',
   HOME_BOTTOM = 'HOME_BOTTOM',
+  HOME_STICKY_BOTTOM = 'HOME_STICKY_BOTTOM',
   STATION_UNDER_REPORT = 'STATION_UNDER_REPORT',
 }
 
