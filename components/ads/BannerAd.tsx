@@ -69,7 +69,7 @@ export default function BannerAd({ position, countryId, stationId, className = '
     // "sponsored" marca el enlace como publicidad/afiliado ante Google (evita
     // penalización SEO por venta de enlaces). "nofollow" da cobertura con
     // buscadores que aún no interpretan "sponsored". Aplica a todos los banners
-    // porque todos son anuncios pagados (Amazon afiliados, Monetag, anunciantes).
+    // porque todos son anuncios pagados (Amazon afiliados, anunciantes).
     rel: "noopener noreferrer sponsored nofollow"
   };
 

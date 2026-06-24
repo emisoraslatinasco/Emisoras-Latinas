@@ -8,7 +8,6 @@ import { RadioProvider } from "@/context/RadioContext";
 import CookieConsent from "@/components/ui/CookieConsent";
 import SeoJsonLd from "@/components/seo/JsonLd";
 import DynamicLang from "@/components/seo/DynamicLang";
-import MonetagAds from "@/components/ads/MonetagAds";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const inter = Inter({
@@ -149,11 +148,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-P9TELHQ4YF');`}
         </Script>
-        {/* Monetag: formatos NO intrusivos In-Page Push + Vignette, cargados con
-            un simple <script> (sin service worker ni permiso de notificaciones;
-            el formato Push clásico sigue retirado en public/sw.js). Las zonas se
-            configuran dentro de MonetagAds.tsx. */}
-        <MonetagAds />
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />

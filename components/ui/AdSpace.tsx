@@ -11,8 +11,7 @@ interface AdSpaceProps {
 /**
  * Slot de anuncios reservado. Actualmente retorna null (no renderiza nada).
  * Se descartó Google AdSense; estos espacios quedan libres para banners propios
- * o de afiliado (Amazon) si se quieren rellenar más adelante. La monetización
- * activa de Monetag (In-Page Push / Vignette) no usa este slot: son overlays.
+ * o de afiliado (Amazon) si se quieren rellenar más adelante.
  */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function AdSpace(_props: AdSpaceProps) {

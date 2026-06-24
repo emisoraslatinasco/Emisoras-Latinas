@@ -1,10 +1,9 @@
 // Service worker NEUTRALIZADO.
-// Antes registraba las Push Notifications de Monetag (zona 11061710, 3nbf4.com),
-// formato que viola las políticas de Google AdSense.
-//
-// Ahora hace lo contrario: se auto-elimina y cancela cualquier suscripción push
-// que haya quedado registrada en navegadores de visitantes anteriores, para
-// limpiar por completo el rastro de Monetag. No reactivar.
+// Un service worker de publicidad (push) quedó registrado en su día. Este archivo
+// existe solo para deshacerlo: se auto-elimina y cancela cualquier suscripción
+// push que haya quedado en navegadores de visitantes anteriores. NO añadir
+// funcionalidad aquí ni reactivar push: en cuanto un navegador con el SW antiguo
+// vuelve a comprobar actualizaciones, recibe esta versión y se limpia solo.
 self.addEventListener('install', () => self.skipWaiting());
 
 self.addEventListener('activate', (event) => {
