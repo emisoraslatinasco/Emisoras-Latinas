@@ -12,6 +12,44 @@ Disallow: /api/
 Allow: /sitemap.xml
 Allow: /sitemap-*.xml
 Allow: /manifest.json
+Allow: /llms.txt
+
+# ===== Crawlers de IA generativa — BIENVENIDOS (GEO) =====
+# Permitimos explícitamente que ChatGPT, Perplexity, Claude, Gemini, Copilot y
+# otros indexen y CITEN nuestro contenido. Queremos aparecer en las respuestas
+# de IA (AI Overviews, Perplexity, ChatGPT Search). Guía limpia en /llms.txt.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
 
 # Sitemap Index (apunta a sitemaps por país)
 Sitemap: https://www.emisoraslatinas.online/sitemap.xml

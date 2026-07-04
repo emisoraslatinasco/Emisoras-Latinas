@@ -147,7 +147,55 @@ export default async function CountryPage({
   if (!country) return notFound();
 
   const stations = await loadStationsByCountry(code);
-  const { t } = getI18nFromCountry(code);
+  const { t, lang } = getI18nFromCountry(code);
+
+  // FAQ del país: UNA sola fuente para el schema Y el acordeón visible (Google
+  // exige que el contenido FAQ sea visible en la página). Incluye preguntas
+  // agregadas/comparativas de alto tráfico (AEO) además de las 3 base.
+  const faqCount = stations.length.toLocaleString();
+  const isEn = lang === "en";
+  const countryFaqs: { q: string; a: string }[] = [
+    {
+      q: t.faq_how_question.replace("{country}", country.name),
+      a: t.faq_how_answer,
+    },
+    {
+      q: t.faq_count_question
+        .replace("{count}", faqCount)
+        .replace("{country}", country.name),
+      a: t.faq_count_answer
+        .replace("{count}", faqCount)
+        .replace("{country}", country.name),
+    },
+    { q: t.faq_free_question, a: t.faq_free_answer },
+    isEn
+      ? {
+          q: `Can I listen to ${country.name} radio from abroad?`,
+          a: `Yes. Since it's internet radio, you can listen to ${country.name} stations from anywhere in the world, free and with no restrictions.`,
+        }
+      : {
+          q: `¿Puedo escuchar radio de ${country.name} desde el extranjero?`,
+          a: `Sí. Al ser radio por internet, puedes escuchar las emisoras de ${country.name} desde cualquier país del mundo, gratis y sin restricciones.`,
+        },
+    isEn
+      ? {
+          q: `Do I need an app or account to listen?`,
+          a: `No. Emisoras Latinas works right in your browser — no app to download and no sign-up required.`,
+        }
+      : {
+          q: `¿Necesito una app o registro para escuchar?`,
+          a: `No. Emisoras Latinas funciona en el navegador; no necesitas descargar ninguna app ni crear una cuenta.`,
+        },
+    isEn
+      ? {
+          q: `What kinds of stations can I find from ${country.name}?`,
+          a: `You'll find music (pop, rock, tropical, regional), news, sports and Christian radio from ${country.name}. Use the search box or genre filters to narrow down.`,
+        }
+      : {
+          q: `¿Qué tipo de emisoras de ${country.name} puedo encontrar?`,
+          a: `Encontrarás emisoras de música (pop, rock, tropical, regional), noticias, deportes y radio cristiana de ${country.name}. Usa el buscador o los filtros de género para afinar.`,
+        },
+  ];
 
   // Proyección ligera para el grid cliente: solo los campos que el listado usa
   // (tarjeta + búsqueda + filtro). Se omiten url_stream, redes_sociales,
@@ -210,43 +258,19 @@ export default async function CountryPage({
         ]}
       />
 
-      {/* FAQ Schema para featured snippet en SERP */}
+      {/* FAQ Schema para featured snippet en SERP. Se genera del MISMO array
+          que el acordeón visible de abajo (Google exige coincidencia). */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": t.faq_how_question.replace("{country}", country.name),
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": t.faq_how_answer,
-                },
-              },
-              {
-                "@type": "Question",
-                "name": t.faq_count_question
-                  .replace("{count}", stations.length.toLocaleString())
-                  .replace("{country}", country.name),
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": t.faq_count_answer
-                    .replace("{count}", stations.length.toLocaleString())
-                    .replace("{country}", country.name),
-                },
-              },
-              {
-                "@type": "Question",
-                "name": t.faq_free_question,
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": t.faq_free_answer,
-                },
-              },
-            ],
+            "mainEntity": countryFaqs.map((f) => ({
+              "@type": "Question",
+              "name": f.q,
+              "acceptedAnswer": { "@type": "Answer", "text": f.a },
+            })),
           }),
         }}
       />
@@ -342,6 +366,34 @@ export default async function CountryPage({
               <li>{t.why_choose_items.mobile_friendly}</li>
             </ul>
           </article>
+
+          {/* Preguntas frecuentes VISIBLES (coinciden con el FAQPage schema) */}
+          <section className="mt-16 max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
+                <i className="fas fa-circle-question text-blue-400"></i>
+              </div>
+              {isEn
+                ? `Frequently asked questions about ${country.name} radio`
+                : `Preguntas frecuentes sobre la radio de ${country.name}`}
+            </h2>
+            <div className="space-y-3">
+              {countryFaqs.map((faq, idx) => (
+                <details
+                  key={idx}
+                  className="group bg-slate-800/30 border border-slate-700/30 rounded-xl p-5"
+                >
+                  <summary className="flex items-center justify-between text-white font-semibold cursor-pointer list-none">
+                    <span>{faq.q}</span>
+                    <i className="fas fa-chevron-down text-blue-400 transition-transform group-open:rotate-180"></i>
+                  </summary>
+                  <p className="faq-answer mt-3 text-slate-300 leading-relaxed">
+                    {faq.a}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </section>
 
           {/* Publicidad Inferior */}
           <div className="mt-12 mb-8 flex justify-center">

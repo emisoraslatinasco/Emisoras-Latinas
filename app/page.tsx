@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import HomePage from "@/components/home/HomePage";
+import { DatasetJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: { absolute: "Emisoras Latinas · +21.000 Radios En Vivo Gratis 24/7" },
@@ -35,5 +36,10 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <HomePage />;
+  return (
+    <>
+      <DatasetJsonLd />
+      <HomePage />
+    </>
+  );
 }

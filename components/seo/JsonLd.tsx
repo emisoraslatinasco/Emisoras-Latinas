@@ -34,9 +34,34 @@ export function OrganizationJsonLd() {
     '@type': 'Organization',
     '@id': 'https://www.emisoraslatinas.online/#organization',
     name: 'Emisoras Latinas',
+    alternateName: 'Radio Online Latinoamérica',
     url: 'https://www.emisoraslatinas.online',
-    logo: 'https://www.emisoraslatinas.online/logos_general/logo_emisoras_latinas.jpg',
-    description: 'Directorio de radio online que conecta a millones de oyentes con las mejores emisoras de Latinoamérica.',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.emisoraslatinas.online/logos_general/logo_emisoras_latinas.jpg',
+      width: 1200,
+      height: 630,
+    },
+    description: 'Directorio de radio online que conecta a millones de oyentes con más de 22.000 emisoras en vivo de Latinoamérica, España, Estados Unidos y Europa.',
+    slogan: 'Escucha la radio de Latinoamérica en vivo, gratis y sin cortes.',
+    foundingDate: '2025',
+    // Señales de entidad para el Knowledge Graph / motores generativos (GEO):
+    // de qué trata la organización y a qué territorio sirve.
+    knowsAbout: [
+      'Radio online',
+      'Emisoras de radio en vivo',
+      'Streaming de radio',
+      'Radio latinoamericana',
+      'Radio en español',
+    ],
+    areaServed: [
+      { '@type': 'Place', name: 'Latinoamérica' },
+      { '@type': 'Country', name: 'Colombia' },
+      { '@type': 'Country', name: 'México' },
+      { '@type': 'Country', name: 'Argentina' },
+      { '@type': 'Country', name: 'España' },
+      { '@type': 'Country', name: 'Estados Unidos' },
+    ],
     sameAs: [
       'https://www.facebook.com/profile.php?id=61586652665186',
       'https://www.instagram.com/emisoras_latinas/',
@@ -49,6 +74,54 @@ export function OrganizationJsonLd() {
       contactType: 'customer service',
       availableLanguage: ['Spanish', 'English'],
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+}
+
+/**
+ * Dataset schema: un directorio de +22.000 emisoras ES un dataset. Declararlo
+ * es una señal de autoridad fuerte para motores generativos (GEO) y habilita
+ * aparición en Google Dataset Search. Enlaza a la organización como publisher.
+ */
+export function DatasetJsonLd() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    '@id': 'https://www.emisoraslatinas.online/#dataset',
+    name: 'Directorio de Emisoras de Radio de Latinoamérica',
+    description:
+      'Base de datos de más de 22.000 emisoras de radio en vivo de 27 países (Latinoamérica, España, Estados Unidos y Europa), con nombre, ciudad, frecuencia, géneros, enlaces oficiales y stream de audio gratuito.',
+    url: 'https://www.emisoraslatinas.online',
+    keywords: [
+      'radio online',
+      'emisoras en vivo',
+      'radio latinoamericana',
+      'streaming de radio',
+      'radio gratis',
+    ],
+    license: 'https://www.emisoraslatinas.online/terminos',
+    isAccessibleForFree: true,
+    inLanguage: ['es', 'en'],
+    creator: { '@id': 'https://www.emisoraslatinas.online/#organization' },
+    publisher: { '@id': 'https://www.emisoraslatinas.online/#organization' },
+    spatialCoverage: {
+      '@type': 'Place',
+      name: 'Latinoamérica, España, Estados Unidos y Europa',
+    },
+    variableMeasured: [
+      'Nombre de la emisora',
+      'País',
+      'Ciudad',
+      'Frecuencia',
+      'Géneros musicales',
+      'URL de streaming',
+    ],
   };
 
   return (

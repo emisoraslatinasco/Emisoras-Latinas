@@ -56,6 +56,8 @@ interface Station {
   socialNetworks?: SocialNetwork[];  // Backend devuelve array de objetos
   slug: string;
   urlStream?: string;  // Backend usa urlStream, no stream_url
+  createdAt?: string;  // ISO — para datePublished (señal de frescura GEO)
+  updatedAt?: string;  // ISO — para dateModified (señal de frescura GEO)
 }
 
 // ========== SEO 3.0: Generador de Contenido Extendido con Seed Determinístico ==========
@@ -417,6 +419,10 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     "description": station.metaDescription || station.descripcionExtendida || station.descripcion,
     "url": pageUrl,
     "inLanguage": getHreflangFromCountry(code),
+    // Frescura: los motores generativos (AI Overviews, Perplexity) priorizan
+    // contenido reciente. Exponemos las fechas reales de la BD.
+    "datePublished": station.createdAt || undefined,
+    "dateModified": station.updatedAt || station.createdAt || undefined,
     "broadcastFrequency": frequency || undefined,
     "areaServed": schemaAreaServed,
     "genre": schemaGenres.length ? schemaGenres : undefined,
@@ -479,6 +485,27 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     })),
   };
 
+  // WebPage: ancla la página como entidad, con fechas de frescura (GEO) y
+  // `speakable` para asistentes de voz (AEO). Enlaza a la RadioStation (about)
+  // y al WebSite global (isPartOf) → grafo de entidades coherente.
+  const webPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${pageUrl}#webpage`,
+    "url": pageUrl,
+    "name": `${station.nombre} en vivo`,
+    "inLanguage": getHreflangFromCountry(code),
+    "isPartOf": { "@id": "https://www.emisoraslatinas.online/#website" },
+    "about": { "@id": `${pageUrl}#radiostation` },
+    "primaryImageOfPage": station.logoUrl ? getStaticUrl(station.logoUrl) : undefined,
+    "datePublished": station.createdAt || undefined,
+    "dateModified": station.updatedAt || station.createdAt || undefined,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", ".faq-answer"],
+    },
+  };
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* JSON-LD */}
@@ -489,6 +516,10 @@ export default async function StationPage({ params }: { params: Promise<{ countr
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(stationFaqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
       />
       <BreadcrumbJsonLd
         items={[
@@ -809,7 +840,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                   <span>{faq.q}</span>
                   <i className="fas fa-chevron-down text-blue-400 transition-transform group-open:rotate-180"></i>
                 </summary>
-                <p className="mt-3 text-slate-300 leading-relaxed">{faq.a}</p>
+                <p className="faq-answer mt-3 text-slate-300 leading-relaxed">{faq.a}</p>
               </details>
             ))}
           </div>
