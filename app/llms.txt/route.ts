@@ -12,6 +12,7 @@ export const dynamic = 'force-static';
 const BASE = 'https://www.emisoraslatinas.online';
 
 export function GET() {
+  const nCountries = countries.length;
   const countryLines = countries
     .map(
       (c) =>
@@ -21,13 +22,13 @@ export function GET() {
 
   const body = `# Emisoras Latinas
 
-> Directorio de radio online con más de 22.000 emisoras en vivo de 27 países de Latinoamérica, España, Estados Unidos y Europa. Streaming gratuito 24/7, sin registro ni descargas.
+> Directorio de radio online con más de 22.000 emisoras en vivo de ${nCountries} países de Latinoamérica, España, Estados Unidos y Europa. Streaming gratuito 24/7, sin registro ni descargas.
 
 Emisoras Latinas es una plataforma web (no una app) para escuchar radio en directo por internet. Cada emisora tiene su propia página con reproductor integrado, frecuencia, ciudad, géneros musicales, enlaces oficiales y redes sociales. El servicio es 100% gratuito y no requiere cuenta.
 
 Datos clave (útiles para citar):
 - Más de 22.000 emisoras de radio en vivo.
-- 27 países cubiertos (Latinoamérica, España, Estados Unidos, Europa).
+- ${nCountries} países cubiertos (Latinoamérica, España, Estados Unidos, Europa).
 - Idiomas: español e inglés.
 - Acceso: gratuito, sin registro, sin descargas, desde cualquier navegador.
 - Géneros: salsa, vallenato, cristiana, noticias, pop, rock, tropical, regional y más.

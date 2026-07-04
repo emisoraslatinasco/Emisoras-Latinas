@@ -1,4 +1,6 @@
 // Schema.org JSON-LD para SEO estructurado
+import { countries } from '@/data/stationsByCountry';
+
 export function WebsiteJsonLd() {
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -96,7 +98,7 @@ export function DatasetJsonLd() {
     '@id': 'https://www.emisoraslatinas.online/#dataset',
     name: 'Directorio de Emisoras de Radio de Latinoamérica',
     description:
-      'Base de datos de más de 22.000 emisoras de radio en vivo de 27 países (Latinoamérica, España, Estados Unidos y Europa), con nombre, ciudad, frecuencia, géneros, enlaces oficiales y stream de audio gratuito.',
+      `Base de datos de más de 22.000 emisoras de radio en vivo de ${countries.length} países (Latinoamérica, España, Estados Unidos y Europa), con nombre, ciudad, frecuencia, géneros, enlaces oficiales y stream de audio gratuito.`,
     url: 'https://www.emisoraslatinas.online',
     keywords: [
       'radio online',
