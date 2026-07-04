@@ -4,8 +4,9 @@
 User-agent: *
 Allow: /
 
-# Bloquear rutas internas de Next.js
-Disallow: /_next/static/
+# NO bloqueamos /_next/static/: Google necesita el CSS/JS para RENDERIZAR la
+# página y evaluar Core Web Vitals. Bloquearlo generaba "recursos bloqueados"
+# en el Rich Results Test. Solo bloqueamos la API interna (webhook de revalidación).
 Disallow: /api/
 
 # Permitir archivos importantes

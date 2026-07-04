@@ -425,6 +425,13 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     "dateModified": station.updatedAt || station.createdAt || undefined,
     "broadcastFrequency": frequency || undefined,
     "areaServed": schemaAreaServed,
+    // address: reduce los avisos "no críticos" del Rich Results Test (Google lee
+    // RadioStation como LocalBusiness). Solo datos reales de la BD.
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": station.ciudad || undefined,
+      "addressCountry": country.name,
+    },
     "genre": schemaGenres.length ? schemaGenres : undefined,
     "image": station.logoUrl ? getStaticUrl(station.logoUrl) : undefined,
     "sameAs": sameAs.length ? sameAs : undefined,
