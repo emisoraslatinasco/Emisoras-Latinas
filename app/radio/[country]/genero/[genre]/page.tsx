@@ -13,7 +13,9 @@ import { notFound } from "next/navigation";
 import StationCard from "@/components/radio/StationCard";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
-export const revalidate = 86400;
+// 7 días: cada regeneración pagina todo el catálogo del país (costoso) y el
+// contenido por género cambia muy poco. Reduce hits al origen (blindaje coste).
+export const revalidate = 604800;
 export const dynamicParams = true;
 
 export async function generateMetadata({
@@ -83,6 +85,85 @@ export default async function GenrePage({
 
   const isSpanish = lang === "es";
 
+  // Guarda contra "thin content": una página de género sin emisoras no aporta
+  // valor y no debe indexarse.
+  if (filtered.length === 0) return notFound();
+
+  const base = "https://www.emisoraslatinas.online";
+
+  // Las emisoras vienen ordenadas por prioridad (VIP/priority) desde la API, así
+  // que "las primeras" = las más destacadas → base del ranking comparativo.
+  const topStations = filtered.slice(0, 10);
+  const topNames = topStations.slice(0, 5).map((s) => s.nombre);
+  const namesSentence = topNames.slice(0, 3).join(", ");
+
+  // ItemList RANKEADO: es lo que habilita listas "mejores X" en resultados y lo
+  // que los motores de IA citan como ranking.
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: isSpanish
+      ? `Mejores emisoras de ${genreName} en ${country.name}`
+      : `Best ${genreName} radio stations in ${country.name}`,
+    numberOfItems: filtered.length,
+    itemListElement: topStations.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${base}/radio/${resolvedParams.country}/${s.slug}`,
+      name: s.nombre,
+    })),
+  };
+
+  // FAQ específico de género+país (alto tráfico AEO). Respuestas factuales que
+  // nombran emisoras reales y el conteo real.
+  const genreFaqs: { q: string; a: string }[] = isSpanish
+    ? [
+        {
+          q: `¿Cuál es la mejor emisora de ${genreName} en ${country.name}?`,
+          a: `Entre las emisoras de ${genreName} más populares de ${country.name} están ${namesSentence}. Puedes escucharlas todas gratis, en vivo y sin registro en Emisoras Latinas.`,
+        },
+        {
+          q: `¿Cuántas emisoras de ${genreName} hay en ${country.name}?`,
+          a: `En Emisoras Latinas encuentras ${filtered.length} emisoras de ${genreName} de ${country.name}, todas en vivo y gratuitas.`,
+        },
+        {
+          q: `¿Cómo escuchar radio ${genreName} de ${country.name} gratis?`,
+          a: `Elige una de las ${filtered.length} emisoras de esta página y pulsa reproducir. El streaming empieza al instante, sin descargas, suscripción ni registro.`,
+        },
+        {
+          q: `¿Puedo escuchar ${genreName} de ${country.name} desde el extranjero?`,
+          a: `Sí. Al ser radio por internet, puedes escuchar estas emisoras de ${genreName} desde cualquier país del mundo, gratis y sin restricciones.`,
+        },
+      ]
+    : [
+        {
+          q: `What is the best ${genreName} radio station in ${country.name}?`,
+          a: `Some of the most popular ${genreName} stations from ${country.name} are ${namesSentence}. You can listen to them all free, live and with no sign-up on Emisoras Latinas.`,
+        },
+        {
+          q: `How many ${genreName} radio stations are there in ${country.name}?`,
+          a: `On Emisoras Latinas you'll find ${filtered.length} ${genreName} stations from ${country.name}, all live and free.`,
+        },
+        {
+          q: `How can I listen to ${genreName} radio from ${country.name} for free?`,
+          a: `Pick one of the ${filtered.length} stations on this page and hit play. Streaming starts instantly — no downloads, subscription or sign-up.`,
+        },
+        {
+          q: `Can I listen to ${genreName} from ${country.name} abroad?`,
+          a: `Yes. Since it's internet radio, you can listen to these ${genreName} stations from anywhere in the world, free and with no restrictions.`,
+        },
+      ];
+
+  const genreFaqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: genreFaqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <BreadcrumbJsonLd
@@ -91,6 +172,14 @@ export default async function GenrePage({
           { name: country.name, url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}` },
           { name: genreName, url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/genero/${resolvedParams.genre}` },
         ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(genreFaqJsonLd) }}
       />
 
       <header className="bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 sticky top-0 z-50">
@@ -132,6 +221,31 @@ export default async function GenrePage({
             : `${filtered.length} ${genreName} stations available from ${country.name}. Listen free online, no cuts, 24/7.`}
         </p>
 
+        {/* Ranking visible (respuesta directa AEO/GEO) que nombra las emisoras
+            más populares y enlaza a cada una (link interno = mejor rastreo). */}
+        <section className="mb-10 bg-slate-800/30 border border-slate-700/30 rounded-2xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4">
+            {isSpanish
+              ? `Las emisoras de ${genreName} más populares de ${country.name}`
+              : `The most popular ${genreName} stations in ${country.name}`}
+          </h2>
+          <ol className="list-decimal list-inside space-y-2 text-slate-300">
+            {topStations.map((s) => (
+              <li key={s.slug || s.nombre}>
+                <Link
+                  href={`/radio/${resolvedParams.country}/${s.slug}`}
+                  className="text-blue-400 hover:text-blue-300 font-medium"
+                >
+                  {s.nombre}
+                </Link>
+                {s.ciudad ? (
+                  <span className="text-slate-500"> — {s.ciudad}</span>
+                ) : null}
+              </li>
+            ))}
+          </ol>
+        </section>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 mb-12">
           {filtered.map((station, idx) => (
             <StationCard
@@ -160,6 +274,34 @@ export default async function GenrePage({
               : `Just choose a station and click play. Streaming starts instantly with no registration, subscription, or downloads needed. Enjoy ${genreName} from ${country.name} wherever and whenever you want.`}
           </p>
         </article>
+
+        {/* FAQ visible (coincide con el FAQPage schema) — género + país */}
+        <section className="mb-12 max-w-4xl">
+          <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+            <div className="w-10 h-10 bg-blue-500/20 rounded-xl flex items-center justify-center">
+              <i className="fas fa-circle-question text-blue-400" />
+            </div>
+            {isSpanish
+              ? `Preguntas frecuentes sobre radio ${genreName} de ${country.name}`
+              : `FAQ about ${genreName} radio from ${country.name}`}
+          </h2>
+          <div className="space-y-3">
+            {genreFaqs.map((faq, idx) => (
+              <details
+                key={idx}
+                className="group bg-slate-800/30 border border-slate-700/30 rounded-xl p-5"
+              >
+                <summary className="flex items-center justify-between text-white font-semibold cursor-pointer list-none">
+                  <span>{faq.q}</span>
+                  <i className="fas fa-chevron-down text-blue-400 transition-transform group-open:rotate-180" />
+                </summary>
+                <p className="faq-answer mt-3 text-slate-300 leading-relaxed">
+                  {faq.a}
+                </p>
+              </details>
+            ))}
+          </div>
+        </section>
 
         <div className="text-center">
           <Link

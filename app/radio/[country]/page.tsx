@@ -2,6 +2,8 @@ import { Suspense } from "react";
 import {
   countries,
   loadStationsByCountry,
+  getCategories,
+  filterByCategory,
   CountryCode,
 } from "@/data/stationsByCountry";
 import PaginatedStationGrid from "@/components/radio/PaginatedStationGrid";
@@ -197,6 +199,14 @@ export default async function CountryPage({
         },
   ];
 
+  // Géneros más populares del país (por nº de emisoras) para enlazar a las
+  // páginas /genero/<x>: contenido comparativo + descubrimiento (antes esas
+  // páginas estaban huérfanas). Top 18 para no saturar ni diluir link equity.
+  const topGenres = getCategories(stations, code)
+    .map((g) => ({ name: g, count: filterByCategory(stations, g).length }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 18);
+
   // Proyección ligera para el grid cliente: solo los campos que el listado usa
   // (tarjeta + búsqueda + filtro). Se omiten url_stream, redes_sociales,
   // sitio_web, logo (duplicado), frecuencia, etc. que NO se renderizan en el
@@ -325,6 +335,32 @@ export default async function CountryPage({
               <PaginatedStationGrid stations={slimStations} countryCode={code} />
             </Suspense>
           </section>
+
+          {/* Explora por género: enlaza a las páginas comparativas /genero/<x>.
+              Antes estaban huérfanas (sin enlaces internos) → sin rastreo. */}
+          {topGenres.length > 0 && (
+            <section className="mt-16 max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold text-white mb-6">
+                {isEn
+                  ? `Explore ${country.name} radio by genre`
+                  : `Explora la radio de ${country.name} por género`}
+              </h2>
+              <div className="flex flex-wrap gap-3">
+                {topGenres.map((g) => (
+                  <Link
+                    key={g.name}
+                    href={`/radio/${resolvedParams.country}/genero/${encodeURIComponent(
+                      g.name,
+                    )}`}
+                    className="px-4 py-2 bg-slate-800/60 hover:bg-slate-700 text-slate-200 rounded-full text-sm border border-slate-700/50 transition-colors"
+                  >
+                    {isEn ? `${g.name} radio` : `Radio ${g.name}`}
+                    <span className="ml-2 text-slate-500">{g.count}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Texto SEO Rico */}
           <article className="prose prose-invert mt-16 max-w-4xl mx-auto text-slate-400 bg-slate-800/20 p-8 rounded-2xl border border-slate-700/30">
