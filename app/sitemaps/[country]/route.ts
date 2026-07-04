@@ -53,7 +53,9 @@ export async function GET(
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
     const res = await fetch(`${API_URL}/stations/slugs/all`, {
-      next: { revalidate: 86400 } // 24h: el listado de slugs cambia muy poco
+      // 7 días: la lista de 22k slugs es una query pesada y cambia muy poco.
+      // Se invalida on-demand (tag `sitemap-slugs`) cuando el admin crea/borra emisoras.
+      next: { revalidate: 604800, tags: ['sitemap-slugs'] }
     });
 
     if (!res.ok) {
@@ -188,7 +190,7 @@ ${urls
   return new Response(sitemap, {
     headers: {
       "Content-Type": "application/xml",
-      "Cache-Control": "public, max-age=3600, s-maxage=86400",
+      "Cache-Control": "public, max-age=3600, s-maxage=604800",
     },
   });
 }
@@ -226,7 +228,7 @@ ${sitemaps
   return new Response(sitemapIndex, {
     headers: {
       "Content-Type": "application/xml",
-      "Cache-Control": "public, max-age=3600, s-maxage=86400",
+      "Cache-Control": "public, max-age=3600, s-maxage=604800",
     },
   });
 }

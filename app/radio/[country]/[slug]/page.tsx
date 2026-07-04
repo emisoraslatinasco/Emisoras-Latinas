@@ -190,10 +190,13 @@ function generateSmartDescription(
   }
 }
 
-// ISR: cada página se cachea 24h tras la primera generación on-demand.
-// Esto reduce queries a Neon en ~99% — antes con force-dynamic cada visita
-// disparaba una query fresca a la BD por el backend.
-export const revalidate = 86400;
+// ISR: la página se cachea 30 DÍAS tras la primera generación on-demand.
+// El catálogo casi no cambia (solo ediciones puntuales del admin), así que un
+// TTL largo minimiza las regeneraciones -> casi ningún hit al origen/BD. La
+// frescura inmediata la da la revalidación on-demand: el backend invalida el
+// tag `station-<slug>` (ver app/api/revalidate) al editar/crear/borrar/VIP.
+// Los 30 días son solo una red de seguridad por si un webhook fallara.
+export const revalidate = 2592000; // 30 días
 export const dynamicParams = true;
 
 /**
@@ -204,11 +207,11 @@ export const dynamicParams = true;
  * Esto evita que un tropiezo puntual de Neon/Render haga que Google des-indexe
  * una página que sí existe (clave para la revisión de AdSense).
  */
-async function fetchStationFull(url: string, retries = 1): Promise<Response> {
+async function fetchStationFull(url: string, tag: string, retries = 1): Promise<Response> {
   let lastErr: unknown;
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
-      const res = await fetch(url, { next: { revalidate: 86400 } });
+      const res = await fetch(url, { next: { revalidate: 2592000, tags: [tag] } });
       if (res.status >= 500 && attempt < retries) {
         await new Promise((r) => setTimeout(r, 400)); // backoff corto antes de reintentar
         continue;
@@ -239,7 +242,8 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
     const res = await fetch(`${API_URL}/stations/${resolvedParams.slug}/full`, {
-      next: { revalidate: 86400 } // 24h: alineado con el revalidate de la página
+      // Mismo tag y TTL que la página: una sola invalidación (station-<slug>) los busta a ambos.
+      next: { revalidate: 2592000, tags: [`station-${resolvedParams.slug}`] }
     });
 
     if (!res.ok) {
@@ -342,7 +346,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
 
   let res: Response;
   try {
-    res = await fetchStationFull(`${API_URL}/stations/${resolvedParams.slug}/full`);
+    res = await fetchStationFull(`${API_URL}/stations/${resolvedParams.slug}/full`, `station-${resolvedParams.slug}`);
   } catch (error) {
     // Red/timeout tras reintentos: el backend está caído, NO que la emisora no exista.
     // Lanzamos para que Next devuelva 500 → Google reintenta luego en vez de tratarla
