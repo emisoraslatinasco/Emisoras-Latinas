@@ -239,7 +239,13 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   if (!country) {
     return { title: 'Emisoras Latinas' };
   }
-  
+
+  // Canonical derivado de la URL (independiente del backend): SIEMPRE debe
+  // emitirse, incluso si el fetch falla. Si no, un rastreo durante un error del
+  // backend deja la página sin canonical -> Google la marca "duplicada sin
+  // canónica" (fue la causa de ese bucket en GSC durante los apagones de Neon).
+  const canonicalPath = `/radio/${resolvedParams.country}/${resolvedParams.slug}`;
+
   // SEO 2.0: Llamar al backend para obtener emisora
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
@@ -249,7 +255,16 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     });
 
     if (!res.ok) {
-      return { title: 'Emisora no encontrada | Emisoras Latinas' };
+      // 404 real = la emisora no existe → noindex (no queremos indexarla).
+      if (res.status === 404) {
+        return {
+          title: 'Emisora no encontrada | Emisoras Latinas',
+          robots: { index: false, follow: true },
+        };
+      }
+      // 5xx u otro error transitorio: la emisora probablemente existe. Emitimos
+      // el canonical para no caer en "duplicada sin canónica".
+      return { title: 'Emisoras Latinas', alternates: { canonical: canonicalPath } };
     }
 
     const { station } = await res.json();
@@ -330,7 +345,9 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
     };
   } catch (error) {
     console.error('Error fetching station metadata:', error);
-    return { title: 'Emisoras Latinas' };
+    // Error de red/timeout: la emisora existe, el backend falló. Emitimos el
+    // canonical para evitar "duplicada sin canónica" en un rastreo desafortunado.
+    return { title: 'Emisoras Latinas', alternates: { canonical: canonicalPath } };
   }
 }
 
