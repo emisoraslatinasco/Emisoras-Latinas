@@ -52,10 +52,17 @@ export async function POST(request: NextRequest) {
     }
   }
 
-  // Altas/bajas de emisoras cambian la lista de slugs de los sitemaps.
+  // Altas/bajas de emisoras cambian la lista de slugs de los sitemaps
+  // Y el listado de la página de país (que antes quedaba servido stale
+  // hasta las 6h de su propio ISR).
   if (sitemap) {
     revalidateTag('sitemap-slugs', { expire: 0 });
     revalidated.push('tag:sitemap-slugs');
+
+    if (country) {
+      revalidatePath(`/radio/${country.toLowerCase()}`, 'page');
+      revalidated.push(`path:/radio/${country.toLowerCase()}`);
+    }
   }
 
   if (revalidated.length === 0) {
