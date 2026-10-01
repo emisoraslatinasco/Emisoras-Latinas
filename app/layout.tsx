@@ -148,6 +148,14 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-P9TELHQ4YF');`}
         </Script>
+        {/* Monetag Multitag (zone 289200). Plain <script> so it ships in the
+            server HTML exactly as Monetag provides it. */}
+        <script
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="289200"
+          async
+          data-cfasync="false"
+        />
         <SeoJsonLd />
         <link rel="icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
         <link rel="shortcut icon" type="image/jpeg" href="/logos_general/logo_miniatura_emisoras_latinas.jpg" />
