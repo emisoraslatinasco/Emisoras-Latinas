@@ -24,9 +24,9 @@ function sanitizeHtml(html: string): string {
 }
 import ReportButton from '@/components/ui/ReportButton';
 import StationImage from '@/components/ui/StationImage';
-import BannerAd from '@/components/ads/BannerAd';
+import AdsterraBanner, { AdsterraLeaderboard, AdsterraNativeBanner } from '@/components/ads/AdsterraBanner';
 import StickyBottomAd from '@/components/ads/StickyBottomAd';
-import { AdvertisementPosition, AdvertisementScope } from '@/lib/api-admin-ads';
+import { AdvertisementScope } from '@/lib/api-admin-ads';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { getHreflangFromCountry } from '@/utils/hreflang';
 
@@ -587,23 +587,14 @@ export default async function StationPage({ params }: { params: Promise<{ countr
         {/* Publicidad lateral izquierda (scope Emisora) - solo pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-12">
           <div className="sticky top-24">
-            <BannerAd
-              position={AdvertisementPosition.HOME_LEFT}
-              scope={AdvertisementScope.STATION}
-              countryId={country.id || country.code}
-              className="w-40 h-[600px]"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
 
         <div className="container mx-auto px-4 py-12 max-w-6xl flex-1 min-w-0">
         {/* Publicidad superior (scope Emisora) */}
         <div className="mb-8 flex justify-center">
-          <BannerAd
-            position={AdvertisementPosition.HOME_TOP}
-            scope={AdvertisementScope.STATION}
-            countryId={country.id || country.code}
-          />
+          <AdsterraLeaderboard />
         </div>
 
         {/* Breadcrumbs */}
@@ -684,10 +675,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
 
         {/* Publicidad */}
         <div className="mb-8 flex justify-center">
-          <BannerAd
-            position={AdvertisementPosition.STATION_UNDER_REPORT}
-            countryId={country.id || country.code}
-          />
+          <AdsterraBanner format="300x250" />
         </div>
 
         {/* Información Organizada en Grid */}
@@ -918,23 +906,14 @@ export default async function StationPage({ params }: { params: Promise<{ countr
 
         {/* Publicidad inferior (scope Emisora) */}
         <div className="mt-12 flex justify-center">
-          <BannerAd
-            position={AdvertisementPosition.HOME_BOTTOM}
-            scope={AdvertisementScope.STATION}
-            countryId={country.id || country.code}
-          />
+          <AdsterraNativeBanner />
         </div>
         </div>
 
         {/* Publicidad lateral derecha (scope Emisora) - solo pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-12">
           <div className="sticky top-24">
-            <BannerAd
-              position={AdvertisementPosition.HOME_RIGHT}
-              scope={AdvertisementScope.STATION}
-              countryId={country.id || country.code}
-              className="w-40 h-[600px]"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
       </div>

@@ -13,9 +13,8 @@ import DynamicHeader from "@/components/home/DynamicHeader";
 import { Footer } from "@/components/layout";
 import { notFound } from "next/navigation";
 import AdSpace from "@/components/ui/AdSpace";
-import BannerAd from "@/components/ads/BannerAd";
+import AdsterraBanner, { AdsterraLeaderboard, AdsterraNativeBanner } from "@/components/ads/AdsterraBanner";
 import StickyBottomAd from "@/components/ads/StickyBottomAd";
-import { AdvertisementPosition } from "@/lib/api-admin-ads";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
@@ -292,11 +291,7 @@ export default async function CountryPage({
         {/* Publicidad lateral izquierda - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <BannerAd
-              position={AdvertisementPosition.HOME_LEFT}
-              countryId={country.id || country.code}
-              className="w-40 h-[600px]"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
 
@@ -323,10 +318,7 @@ export default async function CountryPage({
 
           {/* Publicidad Superior */}
           <div className="mb-8 flex justify-center">
-            <BannerAd
-              position={AdvertisementPosition.HOME_TOP}
-              countryId={country.id || country.code}
-            />
+            <AdsterraLeaderboard />
           </div>
 
           {/* Grid de Emisoras */}
@@ -433,21 +425,14 @@ export default async function CountryPage({
 
           {/* Publicidad Inferior */}
           <div className="mt-12 mb-8 flex justify-center">
-            <BannerAd
-              position={AdvertisementPosition.HOME_BOTTOM}
-              countryId={country.id || country.code}
-            />
+            <AdsterraNativeBanner />
           </div>
         </div>
 
         {/* Publicidad lateral derecha - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <BannerAd
-              position={AdvertisementPosition.HOME_RIGHT}
-              countryId={country.id || country.code}
-              className="w-40 h-[600px]"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
       </div>

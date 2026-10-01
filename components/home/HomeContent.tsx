@@ -13,7 +13,7 @@ import {
 import { StationCard, CategoryFilters, SearchBar } from "@/components/radio";
 import CountrySelector from "./CountrySelector";
 import Pagination from "@/components/ui/Pagination";
-import AdSpace from "@/components/ui/AdSpace";
+import AdsterraBanner, { AdsterraLeaderboard } from "@/components/ads/AdsterraBanner";
 import DynamicHeader from "./DynamicHeader";
 import { useDebounce } from "@/utils/useDebounce";
 
@@ -241,12 +241,7 @@ export default function HomeContent() {
         {/* Publicidad lateral izquierda - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <AdSpace
-              width="w-40"
-              height="h-[600px]"
-              label="Publicidad"
-              orientation="vertical"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
 
@@ -391,24 +386,14 @@ export default function HomeContent() {
             )}
 
             {/* Espacio para anuncio intermedio */}
-            <AdSpace
-              width="w-full max-w-4xl mx-auto"
-              height="h-24"
-              label="Publicidad"
-              className="mt-12 mb-8"
-            />
+            <AdsterraLeaderboard className="mt-12 mb-8" />
           </main>
         </div>
 
         {/* Publicidad lateral derecha - solo visible en pantallas grandes */}
         <aside className="hidden 2xl:block flex-shrink-0 pt-8">
           <div className="sticky top-4">
-            <AdSpace
-              width="w-40"
-              height="h-[600px]"
-              label="Publicidad"
-              orientation="vertical"
-            />
+            <AdsterraBanner format="160x600" />
           </div>
         </aside>
       </div>
