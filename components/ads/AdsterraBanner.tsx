@@ -11,6 +11,10 @@ import { useEffect, useRef, useState } from 'react';
  * El iframe aísla esa global y además se vuelve a cargar al navegar (SPA).
  */
 
+// Adsterra está en pausa mientras se negocia un contrato de publicidad directo.
+// Poner en true para reactivarlo; los tres componentes devuelven null si es false.
+const ADSTERRA_ENABLED = false;
+
 const BANNER_KEYS = {
   '728x90': 'cddcbdcf15a6c273daa9cb52f9919157',
   '468x60': 'f040b4c37c50bca5600870d67d3616ce',
@@ -38,6 +42,8 @@ interface AdsterraBannerProps {
 }
 
 export default function AdsterraBanner({ format, className = '' }: AdsterraBannerProps) {
+  if (!ADSTERRA_ENABLED) return null;
+
   const [width, height] = format.split('x').map(Number);
 
   return (
@@ -81,7 +87,7 @@ export function AdsterraNativeBanner({ className = '' }: { className?: string })
 
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!ADSTERRA_ENABLED || !container) return;
 
     const script = document.createElement('script');
     script.async = true;
@@ -94,6 +100,8 @@ export function AdsterraNativeBanner({ className = '' }: { className?: string })
       container.innerHTML = '';
     };
   }, []);
+
+  if (!ADSTERRA_ENABLED) return null;
 
   return (
     <div className={`w-full ${className}`}>
