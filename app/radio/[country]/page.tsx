@@ -210,16 +210,20 @@ export default async function CountryPage({
   // (tarjeta + búsqueda + filtro). Se omiten url_stream, redes_sociales,
   // sitio_web, logo (duplicado), frecuencia, etc. que NO se renderizan en el
   // grid. Esto recorta drásticamente el HTML serializado (la página de país
-  // pesaba ~2MB) SIN cambiar el comportamiento ni añadir consultas a Neon,
-  // porque la búsqueda/filtrado sigue siendo 100% en el navegador.
+  // pesaba ~2MB) sin añadir consultas a la BD, porque la búsqueda/filtrado
+  // sigue siendo 100% en el navegador.
+  //
+  // `descripcion` tampoco se envía: la tarjeta no la muestra y era el 59% del
+  // payload (EE. UU. pesaba 2,97 MB). Solo servía al buscador, y el texto es
+  // una plantilla que repite nombre, ciudad y géneros, que ya son buscables.
   const slimStations = stations.map((s) => ({
     nombre: s.nombre,
     slug: s.slug,
     logo_local: s.logo_local,
     generos: s.generos,
-    descripcion: s.descripcion,
     ciudad: s.ciudad,
-    isVip: s.isVip,
+    // Solo cuando es true: un `false` por emisora son miles de bytes de más.
+    ...(s.isVip ? { isVip: true } : {}),
     url_stream: "", // requerido por el tipo StationByCountry, no se usa en el listado
   }));
 
