@@ -201,6 +201,15 @@ function generateSmartDescription(
 export const revalidate = 2592000; // 30 días
 export const dynamicParams = true;
 
+// Sin generateStaticParams, Next ignora el `revalidate` de arriba y renderiza
+// la página en CADA petición (en producción salía `Cache-Control: no-store`).
+// Devolver [] no pre-genera nada en el build: cada URL se genera en su primera
+// visita y a partir de ahí se sirve desde la caché ISR hasta que expire o se
+// invalide on-demand.
+export async function generateStaticParams() {
+  return [];
+}
+
 /**
  * Fetch al backend con 1 reintento ante errores transitorios (red/timeout o 5xx).
  * Devuelve la Response para que el llamador distinga:

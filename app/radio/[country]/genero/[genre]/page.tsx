@@ -18,6 +18,15 @@ import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 export const revalidate = 604800;
 export const dynamicParams = true;
 
+// Sin generateStaticParams, Next ignora el `revalidate` de arriba y renderiza
+// la página en CADA petición (en producción salía `Cache-Control: no-store`).
+// Devolver [] no pre-genera nada en el build: cada URL se genera en su primera
+// visita y a partir de ahí se sirve desde la caché ISR hasta que expire o se
+// invalide on-demand.
+export async function generateStaticParams() {
+  return [];
+}
+
 export async function generateMetadata({
   params,
 }: {
