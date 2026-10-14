@@ -354,6 +354,20 @@ export default async function CountryPage({
             </section>
           )}
 
+          {/* Índice A-Z: única ruta de rastreo HTML hacia las emisoras que el
+              grid paginado en cliente no llega a enlazar. */}
+          <div className="mt-10 max-w-5xl mx-auto">
+            <Link
+              href={`/radio/${resolvedParams.country}/todas`}
+              className="inline-flex items-center gap-2 px-5 py-3 bg-slate-800/60 hover:bg-slate-700 text-slate-200 rounded-xl text-sm border border-slate-700/50 transition-colors"
+            >
+              <i className="fas fa-list"></i>
+              {isEn
+                ? `See all ${faqCount} stations from ${country.name} (A-Z)`
+                : `Ver las ${faqCount} emisoras de ${country.name} (A-Z)`}
+            </Link>
+          </div>
+
           {/* Texto SEO Rico */}
           <article className="prose prose-invert mt-16 max-w-4xl mx-auto text-slate-400 bg-slate-800/20 p-8 rounded-2xl border border-slate-700/30">
             <h2 className="text-2xl font-bold text-white mb-4">
