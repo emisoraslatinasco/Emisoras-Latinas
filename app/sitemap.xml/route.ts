@@ -1,14 +1,14 @@
-// Sitemap-index real: /sitemap.xml apunta a los 27 sitemaps por país que están
-// en /sitemaps/[country]. Estructura jerárquica que Google entiende mejor que
+import { countries } from "@/data/stationsByCountry";
+
+// Sitemap-index real: /sitemap.xml apunta a un sitemap por país en
+// /sitemaps/[country]. Estructura jerárquica que Google entiende mejor que
 // una lista plana con miles de URLs.
 export const dynamic = "force-static";
 export const revalidate = 86400;
 
-const COUNTRY_CODES = [
-  "co", "ar", "pe", "br", "ve", "ec", "mx", "gt", "bo", "sv",
-  "hn", "ni", "jm", "pr", "do", "ua", "uy", "cl", "cr", "dk",
-  "es", "pt", "tt", "us", "gb", "fr", "it",
-];
+// Derivado de `countries`: la lista escrita a mano se había quedado en 27 de
+// los 33 países y dejaba 6 fuera del sitemap.
+const COUNTRY_CODES = countries.map((c) => c.code.toLowerCase());
 
 export async function GET() {
   const baseUrl = "https://www.emisoraslatinas.online";

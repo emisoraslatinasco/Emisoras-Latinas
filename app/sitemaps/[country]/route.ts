@@ -12,8 +12,12 @@ import {
 export const dynamic = "force-dynamic";
 export const dynamicParams = true;
 
-// Máximo de URLs por sitemap (Google recomienda max 50,000, pero usamos 1,000 para evitar timeouts)
-const MAX_URLS_PER_SITEMAP = 1000;
+// Máximo de URLs por sitemap: el límite del protocolo (50.000). Antes era 1.000,
+// pero /sitemap.xml solo enlaza /sitemaps/<país> (la página 1), así que las
+// emisoras a partir de la 1.001 de cada país grande quedaban fuera del sitemap.
+// El país más grande ronda las 4.200 emisoras: cabe entero en un solo archivo y
+// no añade consultas (la lista de slugs ya se trae completa en un único fetch).
+const MAX_URLS_PER_SITEMAP = 50000;
 
 /**
  * Genera sitemaps individuales por país de forma dinámica
@@ -62,7 +66,7 @@ export async function GET(
       return new Response('Error loading stations', { status: 500 });
     }
 
-    const allStations: Array<{ slug: string; countryCode: string; updatedAt: Date }> = await res.json();
+    const allStations: Array<{ slug: string; countryCode: string; updatedAt: string }> = await res.json();
     
     // Filtrar emisoras del país actual
     const stationsWithSlug = allStations
@@ -72,7 +76,10 @@ export async function GET(
         updatedAt: s.updatedAt
       }));
 
-    const totalPages = Math.ceil(stationsWithSlug.length / MAX_URLS_PER_SITEMAP);
+    const totalPages = Math.max(
+      1,
+      Math.ceil(stationsWithSlug.length / MAX_URLS_PER_SITEMAP),
+    );
 
     // Si es solicitud de índice, generar sitemap index
     if (isIndexRequest) {
@@ -124,7 +131,7 @@ export async function GET(
 function generateSitemapPage(
   baseUrl: string,
   country: string,
-  allStations: Array<{ slug?: string }>,
+  allStations: Array<{ slug?: string; updatedAt?: string }>,
   page: number,
   currentDate: string,
 ) {
@@ -148,6 +155,14 @@ function generateSitemapPage(
       priority: 0.9,
     });
 
+    // Índice A-Z con enlace HTML a todas las emisoras del país
+    urls.push({
+      url: `${baseUrl}/radio/${country}/todas`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    });
+
     // Páginas legales de este país
     const legalPages = ["nosotros", "privacidad", "terminos", "contacto"];
     legalPages.forEach((pageName) => {
@@ -165,7 +180,9 @@ function generateSitemapPage(
     if (station.slug) {
       urls.push({
         url: `${baseUrl}/radio/${country}/${station.slug}`,
-        lastModified: currentDate,
+        // Fecha real de última modificación de la emisora: con la hora de la
+        // petición en todas las URLs, Google descarta el lastmod por poco fiable.
+        lastModified: toIsoDate(station.updatedAt) ?? currentDate,
         changeFrequency: "monthly",
         priority: 0.7,
       });
@@ -193,6 +210,12 @@ ${urls
       "Cache-Control": "public, max-age=3600, s-maxage=604800",
     },
   });
+}
+
+function toIsoDate(value?: string): string | null {
+  if (!value) return null;
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date.toISOString();
 }
 
 /**
@@ -237,35 +260,8 @@ ${sitemaps
  * Genera las rutas estáticas para cada país
  */
 export async function generateStaticParams() {
-  const countryCodes = [
-    "co",
-    "ar",
-    "pe",
-    "br",
-    "ve",
-    "ec",
-    "mx",
-    "gt",
-    "bo",
-    "sv",
-    "hn",
-    "ni",
-    "jm",
-    "pr",
-    "do",
-    "ua",
-    "uy",
-    "cl",
-    "cr",
-    "dk",
-    "es",
-    "pt",
-    "tt",
-    "us",
-    "gb",
-    "fr",
-    "it",
-  ];
+  // Derivado de `countries` para que un país nuevo entre solo al sitemap.
+  const countryCodes = countries.map((c) => c.code.toLowerCase());
 
   // Incluir tanto los países normales como sus índices para países grandes
   const params = countryCodes.map((country) => ({ country }));
