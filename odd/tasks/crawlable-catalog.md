@@ -47,11 +47,18 @@ Frontend only (`Emisoras-Latinas`). No backend, database or API changes.
 - Index pages: US 4,170 links / 1.32 MB, FR 2,386 / 0.76 MB, CO 1,659 /
   0.56 MB, JM 67 / 0.08 MB; unknown country returns 404.
 
+## Delivery
+
+- Commits `a0794760` (T1) and `366bf9fe` (T2), fast-forwarded to `master` and
+  deployed on 2026-10-13.
+- Verified in production: 33 country sitemaps, 22,497 URLs; `/radio/co/todas`,
+  `/radio/us/todas` and `/radio/au/todas` return 200 with 1,659 / 4,170 / 906
+  links; country pages link to their index.
+
 ## Pending
 
-- Not deployed: lives on branch `feat/crawlable-catalog`.
+- Resubmit `sitemap.xml` in Search Console (owner action).
 - Engram mirror `odd/crawlable-catalog/tasks` pending (server unavailable).
-- Not verified in production or in Search Console.
 
 ## Follow-ups found, out of scope
 
@@ -59,3 +66,5 @@ Frontend only (`Emisoras-Latinas`). No backend, database or API changes.
   they render on every request (`Cache-Control: no-store` in production).
 - The `/stations/slugs/all` response (2.6 MB) exceeds the 2 MB Next data cache
   limit, so it is refetched on every uncached sitemap request.
+- The US country page (`/radio/us`) weighs 2.97 MB of HTML because it
+  serialises the whole catalog for the client-side grid.
