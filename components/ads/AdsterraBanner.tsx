@@ -13,7 +13,7 @@ import { useEffect, useRef, useState } from 'react';
 
 // Adsterra está en pausa mientras se negocia un contrato de publicidad directo.
 // Poner en true para reactivarlo; los tres componentes devuelven null si es false.
-const ADSTERRA_ENABLED = false;
+const ADSTERRA_ENABLED = true;
 
 const BANNER_KEYS = {
   '728x90': 'cddcbdcf15a6c273daa9cb52f9919157',

@@ -12,7 +12,7 @@ import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 // Monetag is paused while a direct advertising deal is negotiated.
 // Set to true to resume it; remove the flag and the script to drop it for good.
-const MONETAG_ENABLED = false;
+const MONETAG_ENABLED = true;
 
 const inter = Inter({
   variable: "--font-inter",
