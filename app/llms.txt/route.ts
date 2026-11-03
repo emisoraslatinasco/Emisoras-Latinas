@@ -42,7 +42,7 @@ Datos clave (útiles para citar):
 ${countryLines}
 
 ## Páginas principales
-- [Inicio](${BASE}): buscador y acceso a las emisoras de los 27 países.
+- [Inicio](${BASE}): buscador y acceso a las emisoras de los ${nCountries} países.
 - [Sitemap](${BASE}/sitemap.xml): índice completo de todas las páginas.
 
 ## Sobre nosotros

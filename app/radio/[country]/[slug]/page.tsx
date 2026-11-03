@@ -108,7 +108,7 @@ function generateSmartDescription(
         `La señal llega directo a tu dispositivo sin interrupciones. Solo necesitas conexión a internet para mantenerte al día con las noticias de ${countryName}.`,
       ], 'nP2');
       const p3 = pick([
-        `${station.nombre} forma parte del directorio de Emisoras Latinas, la plataforma líder de radio online en Latinoamérica con más de 21,000 estaciones en vivo.`,
+        `${station.nombre} forma parte del directorio de Emisoras Latinas, la plataforma líder de radio online en Latinoamérica con más de 22,000 estaciones en vivo.`,
         `Descubre más emisoras de ${countryName} en Emisoras Latinas. Navega por el catálogo sin que la transmisión se detenga.`,
         `Explora otras emisoras de noticias, deportes y música en Emisoras Latinas. El catálogo más completo de radio en vivo de Latinoamérica.`,
       ], 'nP3');
@@ -124,7 +124,7 @@ function generateSmartDescription(
         `Dale play y deja que la música te acompañe. Señal estable y de calidad desde ${countryName} para todo el mundo. Sin cortes, 100% gratis.`,
       ], 'mP2');
       const p3 = pick([
-        `${station.nombre} es parte de Emisoras Latinas, el directorio de radio online más grande de Latinoamérica con más de 21,000 emisoras. Encuentra tu estación favorita y escucha sin límites.`,
+        `${station.nombre} es parte de Emisoras Latinas, el directorio de radio online más grande de Latinoamérica con más de 22,000 emisoras. Encuentra tu estación favorita y escucha sin límites.`,
         `Descubre más emisoras de ${genres[0]} y otros géneros en Emisoras Latinas. Navega por el catálogo de ${countryName} mientras sigues escuchando tu música.`,
         `Emisoras Latinas te conecta con las mejores radios de ${countryName} y toda Latinoamérica. Explora, descubre y disfruta de radio en vivo gratis.`,
       ], 'mP3');
@@ -138,7 +138,7 @@ function generateSmartDescription(
       `Disfruta de programación variada desde ${countryName} para todo el mundo. Conexión gratuita e ilimitada los 7 días de la semana, las 24 horas del día.`,
     ], 'gP2');
     const p3 = pick([
-      `${station.nombre} forma parte del catálogo de Emisoras Latinas, donde encontrarás más de 21,000 radios en vivo de toda Latinoamérica. Explora, descubre y escucha sin límites.`,
+      `${station.nombre} forma parte del catálogo de Emisoras Latinas, donde encontrarás más de 22,000 radios en vivo de toda Latinoamérica. Explora, descubre y escucha sin límites.`,
       `Emisoras Latinas es la plataforma líder de radio online en español. Navega por el directorio de ${countryName} y encuentra tu próxima emisora favorita.`,
       `Busca más emisoras de ${countryName} y otros países en Emisoras Latinas. El catálogo de radio en vivo más completo de Latinoamérica, siempre gratis.`,
     ], 'gP3');
@@ -154,7 +154,7 @@ function generateSmartDescription(
         `The signal reaches your device without interruptions. All you need is an internet connection to stay up to date with news from ${countryName}.`,
       ], 'enNp2');
       const p3 = pick([
-        `${station.nombre} is part of Emisoras Latinas, the leading online radio platform in Latin America with over 21,000 live stations.`,
+        `${station.nombre} is part of Emisoras Latinas, the leading online radio platform in Latin America with over 22,000 live stations.`,
         `Discover more stations from ${countryName} on Emisoras Latinas. Browse the catalog while your broadcast keeps playing.`,
         `Explore more news, sports and music stations on Emisoras Latinas. The most complete live radio directory in Latin America.`,
       ], 'enNp3');
@@ -170,7 +170,7 @@ function generateSmartDescription(
         `Hit play and let the music accompany you. Stable, quality signal from ${countryName} to the world. No cuts, 100% free.`,
       ], 'enMp2');
       const p3 = pick([
-        `${station.nombre} is part of Emisoras Latinas, the largest online radio directory in Latin America with over 21,000 stations. Find your favorite and listen without limits.`,
+        `${station.nombre} is part of Emisoras Latinas, the largest online radio directory in Latin America with over 22,000 stations. Find your favorite and listen without limits.`,
         `Discover more ${genres[0]} stations and other genres on Emisoras Latinas. Browse the ${countryName} catalog while your music keeps playing.`,
         `Emisoras Latinas connects you with the best radio from ${countryName} and all of Latin America. Explore, discover, and enjoy free live radio.`,
       ], 'enMp3');
@@ -184,7 +184,7 @@ function generateSmartDescription(
       `Enjoy diverse programming from ${countryName} for the world. Free, unlimited connection 7 days a week, 24 hours a day.`,
     ], 'enGp2');
     const p3 = pick([
-      `${station.nombre} is part of the Emisoras Latinas catalog, where you'll find over 21,000 live radio stations from all over Latin America. Explore, discover, and listen without limits.`,
+      `${station.nombre} is part of the Emisoras Latinas catalog, where you'll find over 22,000 live radio stations from all over Latin America. Explore, discover, and listen without limits.`,
       `Emisoras Latinas is the leading online radio platform in Spanish and English. Browse the ${countryName} directory and find your next favorite station.`,
       `Search for more stations from ${countryName} and other countries on Emisoras Latinas. The most complete live radio catalog in Latin America, always free.`,
     ], 'enGp3');

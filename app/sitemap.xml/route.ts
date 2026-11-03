@@ -10,14 +10,14 @@ export const revalidate = 86400;
 // los 33 países y dejaba 6 fuera del sitemap.
 const COUNTRY_CODES = countries.map((c) => c.code.toLowerCase());
 
+// No <lastmod>: this index does not load station data, and a request-time date
+// would be discarded by Google as unreliable. Omitting it is the honest option.
 export async function GET() {
   const baseUrl = "https://www.emisoraslatinas.online";
-  const lastmod = new Date().toISOString();
 
   const sitemaps = COUNTRY_CODES.map(
     (code) => `  <sitemap>
     <loc>${baseUrl}/sitemaps/${code}</loc>
-    <lastmod>${lastmod}</lastmod>
   </sitemap>`,
   ).join("\n");
 

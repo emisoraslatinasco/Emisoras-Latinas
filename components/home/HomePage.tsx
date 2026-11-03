@@ -51,7 +51,7 @@ export default function HomePage() {
         name: "¿Qué es Emisoras Latinas?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Emisoras Latinas es el directorio de radio online más completo de Latinoamérica con más de 21.000 emisoras de 27 países. Escuchas en vivo, gratis, sin registro ni descargas, desde cualquier dispositivo con internet.",
+          text: "Emisoras Latinas es el directorio de radio online más completo de Latinoamérica con más de 22.000 emisoras de 33 países. Escuchas en vivo, gratis, sin registro ni descargas, desde cualquier dispositivo con internet.",
         },
       },
       {
@@ -75,7 +75,7 @@ export default function HomePage() {
         name: "¿Cuántos países y emisoras tienen?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Más de 21.000 emisoras de 27 países: Colombia, México, Argentina, Perú, Chile, España, Estados Unidos, Ecuador, Venezuela, Brasil, Francia, Italia, Reino Unido, Portugal, Uruguay, Costa Rica, Panamá, República Dominicana y más.",
+          text: "Más de 22.000 emisoras de 33 países: Colombia, México, Argentina, Perú, Chile, España, Estados Unidos, Ecuador, Venezuela, Brasil, Francia, Italia, Reino Unido, Portugal, Uruguay, Costa Rica, Panamá, República Dominicana y más.",
         },
       },
       {
@@ -114,12 +114,12 @@ export default function HomePage() {
               Emisoras Latinas
             </h1>
             <p className="text-sm md:text-base text-slate-300 max-w-2xl mb-4">
-              Más de <strong className="text-white">21.000 radios en vivo gratis</strong> de Latinoamérica, España, EE.UU. y Europa. Streaming 24/7 sin cortes, sin registro.
+              Más de <strong className="text-white">22.000 radios en vivo gratis</strong> de Latinoamérica, España, EE.UU. y Europa. Streaming 24/7 sin cortes, sin registro.
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-5">
               <span className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-globe-americas text-blue-400"></i>
-                27 países
+                33 países
               </span>
               <span className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/70 backdrop-blur-sm rounded-full text-xs md:text-sm text-white border border-slate-700/50">
                 <i className="fas fa-signal text-green-400"></i>
@@ -211,7 +211,7 @@ export default function HomePage() {
           </h2>
           <p className="mb-4 leading-relaxed">
             <strong>Emisoras Latinas</strong> es el directorio de radio online más
-            completo de habla hispana. Reunimos más de <strong>21.000 estaciones</strong>{" "}
+            completo de habla hispana. Reunimos más de <strong>22.000 estaciones</strong>{" "}
             en vivo de Colombia, México, Argentina, Perú, Chile, Ecuador, Venezuela,
             Bolivia, Uruguay, Paraguay, España, Estados Unidos, Brasil, Francia,
             Italia, Reino Unido, Portugal y muchos países más. Toda la cultura sonora
@@ -253,7 +253,7 @@ export default function HomePage() {
           </h3>
           <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>
-              <strong className="text-white">Catálogo gigante:</strong> +21.000 emisoras
+              <strong className="text-white">Catálogo gigante:</strong> +22.000 emisoras
               verificadas, el directorio más grande de radio online en español.
             </li>
             <li>
@@ -292,7 +292,7 @@ export default function HomePage() {
             Continental, Aspen. En España Cadena SER, COPE, Onda Cero, RNE, los 40
             Principales, Cadena 100, Kiss FM. En Estados Unidos las emisoras latinas
             de Miami, Los Ángeles, Nueva York, Houston y Chicago. Y miles más en cada
-            uno de los 27 países que cubrimos.
+            uno de los 33 países que cubrimos.
           </p>
 
           <p className="mb-2 leading-relaxed">

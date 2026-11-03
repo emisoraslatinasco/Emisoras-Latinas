@@ -51,8 +51,6 @@ export async function GET(
     return new Response("Country not found", { status: 404 });
   }
 
-  const currentDate = new Date().toISOString();
-
   // SEO 2.0: Llamar al backend para obtener todos los slugs desde la BD
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   try {
@@ -76,6 +74,16 @@ export async function GET(
         updatedAt: s.updatedAt
       }));
 
+    // Latest real station update for this country; undefined when unknown, in
+    // which case <lastmod> is omitted rather than faked with the request time.
+    const countryLastmod = stationsWithSlug.reduce<string | undefined>(
+      (max, s) => {
+        const iso = toIsoDate(s.updatedAt);
+        return iso && (!max || iso > max) ? iso : max;
+      },
+      undefined,
+    );
+
     const totalPages = Math.max(
       1,
       Math.ceil(stationsWithSlug.length / MAX_URLS_PER_SITEMAP),
@@ -87,7 +95,7 @@ export async function GET(
         baseUrl,
         country.replace("-index", ""),
         totalPages,
-        currentDate,
+        countryLastmod,
       );
     }
 
@@ -99,7 +107,7 @@ export async function GET(
         country,
         stationsWithSlug,
         1,
-        currentDate,
+        countryLastmod,
       );
     }
 
@@ -117,7 +125,7 @@ export async function GET(
       country,
       stationsWithSlug,
       page,
-      currentDate,
+      countryLastmod,
     );
   } catch (error) {
     console.error('Error generating sitemap:', error);
@@ -133,7 +141,7 @@ function generateSitemapPage(
   country: string,
   allStations: Array<{ slug?: string; updatedAt?: string }>,
   page: number,
-  currentDate: string,
+  countryLastmod?: string,
 ) {
   const startIndex = (page - 1) * MAX_URLS_PER_SITEMAP;
   const endIndex = startIndex + MAX_URLS_PER_SITEMAP;
@@ -141,7 +149,7 @@ function generateSitemapPage(
 
   const urls: Array<{
     url: string;
-    lastModified: string;
+    lastModified?: string;
     changeFrequency: string;
     priority: number;
   }> = [];
@@ -150,7 +158,7 @@ function generateSitemapPage(
   if (page === 1) {
     urls.push({
       url: `${baseUrl}/radio/${country}`,
-      lastModified: currentDate,
+      lastModified: countryLastmod,
       changeFrequency: "weekly",
       priority: 0.9,
     });
@@ -158,20 +166,9 @@ function generateSitemapPage(
     // Índice A-Z con enlace HTML a todas las emisoras del país
     urls.push({
       url: `${baseUrl}/radio/${country}/todas`,
-      lastModified: currentDate,
+      lastModified: countryLastmod,
       changeFrequency: "weekly",
       priority: 0.6,
-    });
-
-    // Páginas legales de este país
-    const legalPages = ["nosotros", "privacidad", "terminos", "contacto"];
-    legalPages.forEach((pageName) => {
-      urls.push({
-        url: `${baseUrl}/radio/${country}/${pageName}`,
-        lastModified: currentDate,
-        changeFrequency: "monthly",
-        priority: 0.5,
-      });
     });
   }
 
@@ -182,7 +179,7 @@ function generateSitemapPage(
         url: `${baseUrl}/radio/${country}/${station.slug}`,
         // Fecha real de última modificación de la emisora: con la hora de la
         // petición en todas las URLs, Google descarta el lastmod por poco fiable.
-        lastModified: toIsoDate(station.updatedAt) ?? currentDate,
+        lastModified: toIsoDate(station.updatedAt) ?? countryLastmod,
         changeFrequency: "monthly",
         priority: 0.7,
       });
@@ -196,8 +193,8 @@ ${urls
   .map(
     ({ url, lastModified, changeFrequency, priority }) => `  <url>
     <loc>${url}</loc>
-    <lastmod>${lastModified}</lastmod>
-    <changefreq>${changeFrequency}</changefreq>
+    ${lastModified ? `<lastmod>${lastModified}</lastmod>
+    ` : ""}<changefreq>${changeFrequency}</changefreq>
     <priority>${priority}</priority>
   </url>`,
   )
@@ -225,14 +222,14 @@ function generateSitemapIndex(
   baseUrl: string,
   country: string,
   totalPages: number,
-  currentDate: string,
+  lastmod?: string,
 ) {
   const sitemaps = [];
 
   for (let page = 1; page <= totalPages; page++) {
     sitemaps.push({
       loc: `${baseUrl}/sitemaps/${country}?page=${page}`,
-      lastmod: currentDate,
+      lastmod,
     });
   }
 
@@ -242,7 +239,7 @@ ${sitemaps
   .map(
     ({ loc, lastmod }) => `  <sitemap>
     <loc>${loc}</loc>
-    <lastmod>${lastmod}</lastmod>
+    ${lastmod ? `<lastmod>${lastmod}</lastmod>` : ""}
   </sitemap>`,
   )
   .join("\n")}

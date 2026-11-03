@@ -98,7 +98,7 @@ export default async function AboutPage({ params }: { params: Promise<{ country:
                   streaming y una experiencia limpia y moderna.
                 </p>
                 <p>
-                  Actualmente ofrecemos más de <strong>21,000 emisoras de radio en vivo</strong> de {country.name} y más de 30 países
+                  Actualmente ofrecemos más de <strong>22,000 emisoras de radio en vivo</strong> de {country.name} y más de 30 países
                   incluyendo Colombia, México, Argentina, España, Estados Unidos, Brasil, Francia, Perú, Chile, Ecuador, Venezuela,
                   y muchos más. Nuestro reproductor premium integrado permite escuchar radio mientras navegas, sin cortes ni buffering.
                 </p>
@@ -129,7 +129,7 @@ export default async function AboutPage({ params }: { params: Promise<{ country:
                   streaming e uma experiência limpa e moderna.
                 </p>
                 <p>
-                  Atualmente oferecemos mais de <strong>21.000 emissoras de rádio ao vivo</strong> de {country.name} e mais de 30 países
+                  Atualmente oferecemos mais de <strong>22.000 emissoras de rádio ao vivo</strong> de {country.name} e mais de 30 países
                   incluindo Colômbia, México, Argentina, Espanha, Estados Unidos, Brasil, França, Peru, Chile, Equador, Venezuela,
                   e muitos mais. Nosso player premium integrado permite ouvir rádio enquanto navega, sem cortes ou buffering.
                 </p>
@@ -160,7 +160,7 @@ export default async function AboutPage({ params }: { params: Promise<{ country:
                   quality and a clean, modern experience.
                 </p>
                 <p>
-                  We currently offer over <strong>21,000 live radio stations</strong> from {country.name} and more than 30 countries
+                  We currently offer over <strong>22,000 live radio stations</strong> from {country.name} and more than 30 countries
                   including Colombia, Mexico, Argentina, Spain, the United States, Brazil, France, Peru, Chile, Ecuador, Venezuela,
                   and many more. Our integrated premium player lets you listen to radio while browsing, without cuts or buffering.
                 </p>

@@ -8,10 +8,10 @@ Allow: /
 # página y evaluar Core Web Vitals. Bloquearlo generaba "recursos bloqueados"
 # en el Rich Results Test. Solo bloqueamos la API interna (webhook de revalidación).
 Disallow: /api/
+Disallow: /admin-emisoras
 
 # Permitir archivos importantes
 Allow: /sitemap.xml
-Allow: /sitemap-*.xml
 Allow: /manifest.json
 Allow: /llms.txt
 
@@ -52,34 +52,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-# Sitemap Index (apunta a sitemaps por país)
+# Sitemap Index (lista los sitemaps de todos los países)
 Sitemap: https://www.emisoraslatinas.online/sitemap.xml
-
-# Sitemaps individuales por país (27 países)
-Sitemap: https://www.emisoraslatinas.online/sitemaps/co
-Sitemap: https://www.emisoraslatinas.online/sitemaps/ar
-Sitemap: https://www.emisoraslatinas.online/sitemaps/pe
-Sitemap: https://www.emisoraslatinas.online/sitemaps/br
-Sitemap: https://www.emisoraslatinas.online/sitemaps/ve
-Sitemap: https://www.emisoraslatinas.online/sitemaps/ec
-Sitemap: https://www.emisoraslatinas.online/sitemaps/mx
-Sitemap: https://www.emisoraslatinas.online/sitemaps/gt
-Sitemap: https://www.emisoraslatinas.online/sitemaps/bo
-Sitemap: https://www.emisoraslatinas.online/sitemaps/sv
-Sitemap: https://www.emisoraslatinas.online/sitemaps/hn
-Sitemap: https://www.emisoraslatinas.online/sitemaps/ni
-Sitemap: https://www.emisoraslatinas.online/sitemaps/jm
-Sitemap: https://www.emisoraslatinas.online/sitemaps/pr
-Sitemap: https://www.emisoraslatinas.online/sitemaps/do
-Sitemap: https://www.emisoraslatinas.online/sitemaps/ua
-Sitemap: https://www.emisoraslatinas.online/sitemaps/uy
-Sitemap: https://www.emisoraslatinas.online/sitemaps/cl
-Sitemap: https://www.emisoraslatinas.online/sitemaps/cr
-Sitemap: https://www.emisoraslatinas.online/sitemaps/dk
-Sitemap: https://www.emisoraslatinas.online/sitemaps/es
-Sitemap: https://www.emisoraslatinas.online/sitemaps/pt
-Sitemap: https://www.emisoraslatinas.online/sitemaps/tt
-Sitemap: https://www.emisoraslatinas.online/sitemaps/us
-Sitemap: https://www.emisoraslatinas.online/sitemaps/gb
-Sitemap: https://www.emisoraslatinas.online/sitemaps/fr
-Sitemap: https://www.emisoraslatinas.online/sitemaps/it
