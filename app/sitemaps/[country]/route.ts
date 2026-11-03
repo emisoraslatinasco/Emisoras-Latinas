@@ -2,7 +2,10 @@ import { NextRequest } from "next/server";
 import {
   countries,
   CountryCode,
+  getCategories,
+  loadStationsByCountry,
 } from "@/data/stationsByCountry";
+import { genreSlug } from "@/utils/genreSlug";
 
 // Route handlers de sitemap: dynamic en runtime (no pre-render en build)
 // porque el handler accede a searchParams. El cacheado real lo hace el CDN
@@ -18,6 +21,49 @@ export const dynamicParams = true;
 // El país más grande ronda las 4.200 emisoras: cabe entero en un solo archivo y
 // no añade consultas (la lista de slugs ya se trae completa en un único fetch).
 const MAX_URLS_PER_SITEMAP = 50000;
+
+// Genre pages with fewer active stations are thin content and stay out.
+const MIN_STATIONS_PER_GENRE = 3;
+
+interface GenreSitemapEntry {
+  slug: string;
+  lastmod?: string;
+}
+
+/**
+ * Genre pages worth indexing for a country: canonical slugs with at least
+ * MIN_STATIONS_PER_GENRE stations. The slugs endpoint carries no genres, so
+ * this reuses loadStationsByCountry (same cached fetches the country and genre
+ * pages already make; revalidate 6h, no dedicated origin call). lastmod is the
+ * newest updatedAt among the genre's stations.
+ */
+async function buildGenreEntries(
+  code: CountryCode,
+  updatedAtBySlug: Map<string, string | undefined>,
+): Promise<GenreSitemapEntry[]> {
+  const stations = await loadStationsByCountry(code);
+  const namesBySlug = new Map<string, Set<string>>();
+  for (const name of getCategories(stations, code)) {
+    const slug = genreSlug(name);
+    if (!slug) continue;
+    const names = namesBySlug.get(slug) ?? new Set<string>();
+    names.add(name);
+    namesBySlug.set(slug, names);
+  }
+
+  const entries: GenreSitemapEntry[] = [];
+  for (const [slug, names] of namesBySlug) {
+    const matching = stations.filter((s) => s.generos?.some((g) => names.has(g)));
+    if (matching.length < MIN_STATIONS_PER_GENRE) continue;
+    let lastmod: string | undefined;
+    for (const st of matching) {
+      const iso = toIsoDate(updatedAtBySlug.get(st.slug ?? ""));
+      if (iso && (!lastmod || iso > lastmod)) lastmod = iso;
+    }
+    entries.push({ slug, lastmod });
+  }
+  return entries.sort((a, b) => a.slug.localeCompare(b.slug));
+}
 
 /**
  * Genera sitemaps individuales por país de forma dinámica
@@ -108,6 +154,7 @@ export async function GET(
         stationsWithSlug,
         1,
         countryLastmod,
+        await genreEntriesFor(actualCountryCode, stationsWithSlug),
       );
     }
 
@@ -126,6 +173,7 @@ export async function GET(
       stationsWithSlug,
       page,
       countryLastmod,
+      page === 1 ? await genreEntriesFor(actualCountryCode, stationsWithSlug) : [],
     );
   } catch (error) {
     console.error('Error generating sitemap:', error);
@@ -142,6 +190,7 @@ function generateSitemapPage(
   allStations: Array<{ slug?: string; updatedAt?: string }>,
   page: number,
   countryLastmod?: string,
+  genreEntries: GenreSitemapEntry[] = [],
 ) {
   const startIndex = (page - 1) * MAX_URLS_PER_SITEMAP;
   const endIndex = startIndex + MAX_URLS_PER_SITEMAP;
@@ -170,6 +219,18 @@ function generateSitemapPage(
       changeFrequency: "weekly",
       priority: 0.6,
     });
+  }
+
+  // Genre pages (only listed on page 1, alongside the country URLs)
+  if (page === 1) {
+    for (const genre of genreEntries) {
+      urls.push({
+        url: `${baseUrl}/radio/${country}/genero/${genre.slug}`,
+        lastModified: genre.lastmod ?? countryLastmod,
+        changeFrequency: "weekly",
+        priority: 0.6,
+      });
+    }
   }
 
   // Emisoras de esta página
@@ -207,6 +268,22 @@ ${urls
       "Cache-Control": "public, max-age=3600, s-maxage=604800",
     },
   });
+}
+
+/** Genre entries; a failure here must not break the station sitemap. */
+async function genreEntriesFor(
+  code: CountryCode,
+  stations: Array<{ slug: string; updatedAt?: string }>,
+): Promise<GenreSitemapEntry[]> {
+  try {
+    return await buildGenreEntries(
+      code,
+      new Map(stations.map((s) => [s.slug, s.updatedAt])),
+    );
+  } catch (error) {
+    console.error("Error building genre sitemap entries:", error);
+    return [];
+  }
 }
 
 function toIsoDate(value?: string): string | null {

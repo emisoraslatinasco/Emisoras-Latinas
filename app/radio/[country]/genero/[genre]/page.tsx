@@ -4,12 +4,14 @@ import { Footer } from "@/components/layout";
 import {
   countries,
   CountryCode,
+  StationByCountry,
   loadStationsByCountry,
-  filterByCategory,
+  getCategories,
 } from "@/data/stationsByCountry";
 import { getI18nFromCountry } from "@/utils/translations";
 import { getHreflangFromCountry } from "@/utils/hreflang";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import { resolveGenreParam } from "@/utils/genreSlug";
 import StationCard from "@/components/radio/StationCard";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
@@ -27,6 +29,14 @@ export async function generateStaticParams() {
   return [];
 }
 
+/** Stations that carry any of the given raw genre names. */
+function filterByNames(
+  stations: StationByCountry[],
+  names: string[],
+): StationByCountry[] {
+  return stations.filter((s) => s.generos?.some((g) => names.includes(g)));
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -37,9 +47,13 @@ export async function generateMetadata({
   const country = countries.find((c) => c.code === code);
   if (!country) return { title: "Emisoras Latinas" };
 
-  const genreName = decodeURIComponent(resolvedParams.genre);
   const stations = await loadStationsByCountry(code);
-  const count = filterByCategory(stations, genreName).length;
+  const resolved = resolveGenreParam(resolvedParams.genre, getCategories(stations, code));
+  // Unknown genre: the page itself returns notFound(); keep metadata inert.
+  if (!resolved) return { title: "Emisoras Latinas", robots: { index: false } };
+  const genreName = resolved.label;
+  const genrePath = `/radio/${resolvedParams.country}/genero/${resolved.slug}`;
+  const count = filterByNames(stations, resolved.names).length;
   const { lang } = getI18nFromCountry(code);
 
   const titleEs = `Radio ${genreName} ${country.name} En Vivo Gratis | Emisoras Latinas`;
@@ -54,15 +68,15 @@ export async function generateMetadata({
     title: { absolute: title },
     description,
     alternates: {
-      canonical: `/radio/${resolvedParams.country}/genero/${resolvedParams.genre}`,
+      canonical: genrePath,
       languages: {
-        [getHreflangFromCountry(code)]: `/radio/${resolvedParams.country}/genero/${resolvedParams.genre}`,
+        [getHreflangFromCountry(code)]: genrePath,
       },
     },
     openGraph: {
       title: `▶️ Radio ${genreName} ${country.name} En Vivo Gratis 🎧`,
       description,
-      url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/genero/${resolvedParams.genre}`,
+      url: `https://www.emisoraslatinas.online${genrePath}`,
       type: "website",
       images: [
         {
@@ -87,9 +101,17 @@ export default async function GenrePage({
   const country = countries.find((c) => c.code === code);
   if (!country) return notFound();
 
-  const genreName = decodeURIComponent(resolvedParams.genre);
   const stations = await loadStationsByCountry(code);
-  const filtered = filterByCategory(stations, genreName);
+  const resolved = resolveGenreParam(resolvedParams.genre, getCategories(stations, code));
+  if (!resolved) return notFound();
+
+  // Legacy URLs (raw API names such as "Christian" or "Pop%20Music", any case)
+  // and other non-canonical forms get a permanent redirect to the Spanish slug.
+  const canonicalPath = `/radio/${resolvedParams.country}/genero/${resolved.slug}`;
+  if (!resolved.isCanonical) permanentRedirect(canonicalPath);
+
+  const genreName = resolved.label;
+  const filtered = filterByNames(stations, resolved.names);
   const { lang } = getI18nFromCountry(code);
 
   const isSpanish = lang === "es";
@@ -179,7 +201,7 @@ export default async function GenrePage({
         items={[
           { name: "Inicio", url: "https://www.emisoraslatinas.online" },
           { name: country.name, url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}` },
-          { name: genreName, url: `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/genero/${resolvedParams.genre}` },
+          { name: genreName, url: `https://www.emisoraslatinas.online${canonicalPath}` },
         ]}
       />
       <script

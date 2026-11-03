@@ -3,18 +3,19 @@ import Link from "next/link";
 import { Footer } from "@/components/layout";
 import ContinueListeningBanner from "@/components/home/ContinueListeningBanner";
 import { countries } from "@/data/stationsByCountry";
+import { slugify } from "@/utils/genreSlug";
 
 const FEATURED_GENRES = [
   { name: "Salsa", icon: "fa-music", country: "co" },
-  { name: "Vallenato", icon: "fa-guitar", country: "co" },
+  { name: "Jazz", icon: "fa-guitar", country: "co" },
   { name: "Reggaetón", icon: "fa-headphones", country: "co" },
   { name: "Noticias", icon: "fa-newspaper", country: "co" },
-  { name: "Pop Latino", icon: "fa-microphone", country: "mx" },
+  { name: "Pop", icon: "fa-microphone", country: "mx" },
   { name: "Cristiana", icon: "fa-cross", country: "co" },
   { name: "Rock", icon: "fa-drum", country: "ar" },
-  { name: "Cumbia", icon: "fa-music", country: "co" },
-  { name: "Bachata", icon: "fa-music", country: "do" },
-  { name: "Tango", icon: "fa-music", country: "ar" },
+  { name: "Cumbia", icon: "fa-music", country: "pe" },
+  { name: "Bachata", icon: "fa-music", country: "pe" },
+  { name: "Clásica", icon: "fa-music", country: "co" },
   { name: "Deportes", icon: "fa-futbol", country: "ar" },
   { name: "Electrónica", icon: "fa-headphones", country: "es" },
 ];
@@ -192,7 +193,7 @@ export default function HomePage() {
           {FEATURED_GENRES.map((g) => (
             <Link
               key={g.name}
-              href={`/radio/${g.country}/genero/${encodeURIComponent(g.name)}`}
+              href={`/radio/${g.country}/genero/${slugify(g.name)}`}
               prefetch={false}
               className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-blue-500/15 to-purple-500/15 hover:from-blue-500/30 hover:to-purple-500/30 text-white rounded-full border border-blue-500/30 transition-colors"
             >

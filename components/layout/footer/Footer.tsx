@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useI18n } from '@/utils/useI18n';
+import { slugify } from '@/utils/genreSlug';
 
 const popularCountries = [
   { code: 'co', name: 'Colombia' },
@@ -27,14 +28,22 @@ const popularCountries = [
 
 const popularGenres = [
   'Salsa', 'Noticias', 'Rock', 'Pop', 'Deportes',
-  'Cristiana', 'Vallenato', 'Clásica', 'Jazz', 'Electrónica',
+  'Cristiana', 'Clásica', 'Jazz', 'Electrónica',
 ];
+
+// Countries that have every genre above. A genre page for a genre the country
+// lacks is a 404, so other countries fall back to Colombia for these links.
+const GENRE_LINK_COUNTRIES = new Set([
+  'ar', 'au', 'bo', 'br', 'cl', 'co', 'cr', 'ec', 'es', 'us', 'gt', 'it',
+  'mx', 'pe', 'gb', 'do', 've',
+]);
 
 export default function Footer() {
   const { t, countryCode } = useI18n();
   // useI18n devuelve el código en MAYÚSCULA ('CO'); las rutas canónicas son en
   // minúscula ('/radio/co'). Normalizamos para no generar URLs duplicadas.
   const cc = countryCode.toLowerCase();
+  const genreCc = GENRE_LINK_COUNTRIES.has(cc) ? cc : 'co';
 
   return (
     <footer className="glass-effect mt-20 py-8 mb-32">
@@ -99,7 +108,7 @@ export default function Footer() {
           <p className="text-slate-500 text-xs font-semibold mb-3 uppercase tracking-wider">Géneros</p>
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
             {popularGenres.map((g) => (
-              <Link key={g} href={`/radio/${cc}?categories=${encodeURIComponent(g)}`} className="text-slate-400 hover:text-blue-400 transition-colors">
+              <Link key={g} href={`/radio/${genreCc}/genero/${slugify(g)}`} className="text-slate-400 hover:text-blue-400 transition-colors">
                 {g}
               </Link>
             ))}

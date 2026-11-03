@@ -3,7 +3,6 @@ import {
   countries,
   loadStationsByCountry,
   getCategories,
-  filterByCategory,
   CountryCode,
 } from "@/data/stationsByCountry";
 import PaginatedStationGrid from "@/components/radio/PaginatedStationGrid";
@@ -18,6 +17,7 @@ import StickyBottomAd from "@/components/ads/StickyBottomAd";
 import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
+import { genreLabelEs, genreSlug } from "@/utils/genreSlug";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { getHreflangFromCountry } from "@/utils/hreflang";
 
@@ -201,8 +201,21 @@ export default async function CountryPage({
   // Géneros más populares del país (por nº de emisoras) para enlazar a las
   // páginas /genero/<x>: contenido comparativo + descubrimiento (antes esas
   // páginas estaban huérfanas). Top 18 para no saturar ni diluir link equity.
-  const topGenres = getCategories(stations, code)
-    .map((g) => ({ name: g, count: filterByCategory(stations, g).length }))
+  // Raw genre names that share a canonical slug (synonyms, scraping duplicates)
+  // are merged into one chip, matching what the genre page lists.
+  const genreGroups = new Map<string, Set<string>>();
+  for (const g of getCategories(stations, code)) {
+    const slug = genreSlug(g);
+    if (!slug) continue;
+    const group = genreGroups.get(slug) ?? new Set<string>();
+    group.add(g);
+    genreGroups.set(slug, group);
+  }
+  const topGenres = Array.from(genreGroups, ([slug, names]) => ({
+    slug,
+    name: genreLabelEs(Array.from(names)[0]),
+    count: stations.filter((s) => s.generos?.some((g) => names.has(g))).length,
+  }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 18);
 
@@ -344,10 +357,8 @@ export default async function CountryPage({
               <div className="flex flex-wrap gap-3">
                 {topGenres.map((g) => (
                   <Link
-                    key={g.name}
-                    href={`/radio/${resolvedParams.country}/genero/${encodeURIComponent(
-                      g.name,
-                    )}`}
+                    key={g.slug}
+                    href={`/radio/${resolvedParams.country}/genero/${g.slug}`}
                     className="px-4 py-2 bg-slate-800/60 hover:bg-slate-700 text-slate-200 rounded-full text-sm border border-slate-700/50 transition-colors"
                   >
                     {isEn ? `${g.name} radio` : `Radio ${g.name}`}
