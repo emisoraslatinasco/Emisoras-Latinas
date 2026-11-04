@@ -30,6 +30,7 @@ import { AdvertisementScope } from '@/lib/api-admin-ads';
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd';
 import { getHreflangFromCountry } from '@/utils/hreflang';
 import { genreSlug } from '@/utils/genreSlug';
+import { MIN_STATIONS_PER_REGION, regionSlug } from '@/utils/regionSlug';
 
 // ========== INTERFACES ==========
 
@@ -372,6 +373,7 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
   
   let station, relatedStations;
+  let regionStationCount = 0;
 
   let res: Response;
   try {
@@ -398,6 +400,8 @@ export default async function StationPage({ params }: { params: Promise<{ countr
     const data = await res.json();
     station = data.station;
     relatedStations = data.relatedStations;
+    // Missing on older backends: 0 keeps the region as plain text.
+    regionStationCount = Number(data.regionStationCount) || 0;
   } catch (error) {
     console.error(`[StationPage] Respuesta inválida para ${resolvedParams.slug}:`, error);
     throw new Error(`Respuesta inválida del backend para ${resolvedParams.slug}`);
@@ -414,6 +418,14 @@ export default async function StationPage({ params }: { params: Promise<{ countr
   // Extraer frecuencia del nombre si existe
   const frequency = station.nombre.match(/(\d{2,3}\.?\d?\s*(?:FM|AM))/i)?.[0];
   const location = station.ciudad || country.name;
+
+  // Link the region only when its page exists (>= MIN_STATIONS_PER_REGION).
+  // The backend count is by raw ciudad, so it never exceeds the page's own count.
+  const stationRegionSlug = regionSlug(station.ciudad, { code, name: country.name });
+  const regionHref =
+    stationRegionSlug && regionStationCount >= MIN_STATIONS_PER_REGION
+      ? `/radio/${resolvedParams.country}/region/${stationRegionSlug}`
+      : null;
 
   const pageUrl = `https://www.emisoraslatinas.online/radio/${resolvedParams.country}/${resolvedParams.slug}`;
 
@@ -649,7 +661,13 @@ export default async function StationPage({ params }: { params: Promise<{ countr
                 {location && (
                   <div className="flex items-center gap-2">
                     <i className="fas fa-map-marker-alt text-red-400"></i>
-                    <span>{location}</span>
+                    {regionHref ? (
+                      <Link href={regionHref} className="hover:text-white underline-offset-2 hover:underline">
+                        {location}
+                      </Link>
+                    ) : (
+                      <span>{location}</span>
+                    )}
                   </div>
                 )}
                 <div className="flex items-center gap-2">
@@ -831,7 +849,13 @@ export default async function StationPage({ params }: { params: Promise<{ countr
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-slate-300">
                 <i className="fas fa-city text-slate-500"></i>
-                <span>{location || 'Ciudad no especificada'}</span>
+                {regionHref ? (
+                  <Link href={regionHref} className="hover:text-white underline-offset-2 hover:underline">
+                    {location}
+                  </Link>
+                ) : (
+                  <span>{location || 'Ciudad no especificada'}</span>
+                )}
               </div>
               <div className="flex items-center gap-2 text-slate-300">
                 <i className="fas fa-flag text-slate-500"></i>
