@@ -12,6 +12,11 @@ import { getI18nFromCountry } from "@/utils/translations";
 import { getHreflangFromCountry } from "@/utils/hreflang";
 import { notFound, permanentRedirect } from "next/navigation";
 import { resolveGenreParam } from "@/utils/genreSlug";
+import {
+  MIN_STATIONS_PER_REGION,
+  groupStationsByRegion,
+  regionSlug,
+} from "@/utils/regionSlug";
 import StationCard from "@/components/radio/StationCard";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 
@@ -121,6 +126,15 @@ export default async function GenrePage({
   if (filtered.length === 0) return notFound();
 
   const base = "https://www.emisoraslatinas.online";
+
+  // Region pages exist only for regions with enough stations; link just those.
+  const regionCtx = { code, name: country.name };
+  const regionGroups = groupStationsByRegion(stations, regionCtx);
+  const regionLink = (ciudad?: string | null) => {
+    const slug = regionSlug(ciudad, regionCtx);
+    const group = slug ? regionGroups.get(slug) : undefined;
+    return group && group.stations.length >= MIN_STATIONS_PER_REGION ? group : null;
+  };
 
   // Las emisoras vienen ordenadas por prioridad (VIP/priority) desde la API, así
   // que "las primeras" = las más destacadas → base del ranking comparativo.
@@ -270,7 +284,22 @@ export default async function GenrePage({
                   {s.nombre}
                 </Link>
                 {s.ciudad ? (
-                  <span className="text-slate-500"> — {s.ciudad}</span>
+                  <span className="text-slate-500">
+                    {" — "}
+                    {(() => {
+                      const region = regionLink(s.ciudad);
+                      return region ? (
+                        <Link
+                          href={`/radio/${resolvedParams.country}/region/${region.slug}`}
+                          className="hover:text-slate-300 underline decoration-slate-600"
+                        >
+                          {s.ciudad}
+                        </Link>
+                      ) : (
+                        s.ciudad
+                      );
+                    })()}
+                  </span>
                 ) : null}
               </li>
             ))}

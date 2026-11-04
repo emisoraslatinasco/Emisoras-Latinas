@@ -18,6 +18,7 @@ import CountrySelector from "@/components/home/CountrySelector";
 import CountrySync from "@/components/home/CountrySync";
 import { getI18nFromCountry } from "@/utils/translations";
 import { genreLabelEs, genreSlug } from "@/utils/genreSlug";
+import { groupStationsByRegion, qualifyingRegions } from "@/utils/regionSlug";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { getHreflangFromCountry } from "@/utils/hreflang";
 
@@ -219,6 +220,12 @@ export default async function CountryPage({
     .sort((a, b) => b.count - a.count)
     .slice(0, 18);
 
+  // Regions (stored in `ciudad`) with enough stations to have their own page.
+  // Capped to keep the link list focused; sorted by station count.
+  const topRegions = qualifyingRegions(
+    groupStationsByRegion(stations, { code, name: country.name }),
+  ).slice(0, 24);
+
   // Proyección ligera para el grid cliente: solo los campos que el listado usa
   // (tarjeta + búsqueda + filtro). Se omiten url_stream, redes_sociales,
   // sitio_web, logo (duplicado), frecuencia, etc. que NO se renderizan en el
@@ -363,6 +370,29 @@ export default async function CountryPage({
                   >
                     {isEn ? `${g.name} radio` : `Radio ${g.name}`}
                     <span className="ml-2 text-slate-500">{g.count}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Explora por región: enlaza a /region/<x> (solo regiones con >= 5 emisoras). */}
+          {topRegions.length > 0 && (
+            <section className="mt-12 max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold text-white mb-6">
+                {isEn
+                  ? `${country.name} radio stations by region`
+                  : `Emisoras por región de ${country.name}`}
+              </h2>
+              <div className="flex flex-wrap gap-3">
+                {topRegions.map((r) => (
+                  <Link
+                    key={r.slug}
+                    href={`/radio/${resolvedParams.country}/region/${r.slug}`}
+                    className="px-4 py-2 bg-slate-800/60 hover:bg-slate-700 text-slate-200 rounded-full text-sm border border-slate-700/50 transition-colors"
+                  >
+                    {r.label}
+                    <span className="ml-2 text-slate-500">{r.stations.length}</span>
                   </Link>
                 ))}
               </div>

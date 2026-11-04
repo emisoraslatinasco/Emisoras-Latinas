@@ -6,6 +6,7 @@ import {
   loadStationsByCountry,
 } from "@/data/stationsByCountry";
 import { genreSlug } from "@/utils/genreSlug";
+import { groupStationsByRegion, qualifyingRegions } from "@/utils/regionSlug";
 
 // Route handlers de sitemap: dynamic en runtime (no pre-render en build)
 // porque el handler accede a searchParams. El cacheado real lo hace el CDN
@@ -61,6 +62,30 @@ async function buildGenreEntries(
       if (iso && (!lastmod || iso > lastmod)) lastmod = iso;
     }
     entries.push({ slug, lastmod });
+  }
+  return entries.sort((a, b) => a.slug.localeCompare(b.slug));
+}
+
+/**
+ * Region pages worth indexing: regions (stored in `ciudad`) with at least
+ * MIN_STATIONS_PER_REGION stations. Same cached station list as the genre
+ * entries; lastmod is the newest updatedAt among the region's stations.
+ */
+async function buildRegionEntries(
+  code: CountryCode,
+  updatedAtBySlug: Map<string, string | undefined>,
+): Promise<GenreSitemapEntry[]> {
+  const stations = await loadStationsByCountry(code);
+  const country = countries.find((c) => c.code === code);
+  const groups = groupStationsByRegion(stations, { code, name: country?.name });
+  const entries: GenreSitemapEntry[] = [];
+  for (const group of qualifyingRegions(groups)) {
+    let lastmod: string | undefined;
+    for (const st of group.stations) {
+      const iso = toIsoDate(updatedAtBySlug.get(st.slug ?? ""));
+      if (iso && (!lastmod || iso > lastmod)) lastmod = iso;
+    }
+    entries.push({ slug: group.slug, lastmod });
   }
   return entries.sort((a, b) => a.slug.localeCompare(b.slug));
 }
@@ -155,6 +180,7 @@ export async function GET(
         1,
         countryLastmod,
         await genreEntriesFor(actualCountryCode, stationsWithSlug),
+        await regionEntriesFor(actualCountryCode, stationsWithSlug),
       );
     }
 
@@ -174,6 +200,7 @@ export async function GET(
       page,
       countryLastmod,
       page === 1 ? await genreEntriesFor(actualCountryCode, stationsWithSlug) : [],
+      page === 1 ? await regionEntriesFor(actualCountryCode, stationsWithSlug) : [],
     );
   } catch (error) {
     console.error('Error generating sitemap:', error);
@@ -191,6 +218,7 @@ function generateSitemapPage(
   page: number,
   countryLastmod?: string,
   genreEntries: GenreSitemapEntry[] = [],
+  regionEntries: GenreSitemapEntry[] = [],
 ) {
   const startIndex = (page - 1) * MAX_URLS_PER_SITEMAP;
   const endIndex = startIndex + MAX_URLS_PER_SITEMAP;
@@ -227,6 +255,18 @@ function generateSitemapPage(
       urls.push({
         url: `${baseUrl}/radio/${country}/genero/${genre.slug}`,
         lastModified: genre.lastmod ?? countryLastmod,
+        changeFrequency: "weekly",
+        priority: 0.6,
+      });
+    }
+  }
+
+  // Region pages (page 1 only, next to the genre URLs)
+  if (page === 1) {
+    for (const region of regionEntries) {
+      urls.push({
+        url: `${baseUrl}/radio/${country}/region/${region.slug}`,
+        lastModified: region.lastmod ?? countryLastmod,
         changeFrequency: "weekly",
         priority: 0.6,
       });
@@ -282,6 +322,22 @@ async function genreEntriesFor(
     );
   } catch (error) {
     console.error("Error building genre sitemap entries:", error);
+    return [];
+  }
+}
+
+/** Region entries; a failure here must not break the station sitemap. */
+async function regionEntriesFor(
+  code: CountryCode,
+  stations: Array<{ slug: string; updatedAt?: string }>,
+): Promise<GenreSitemapEntry[]> {
+  try {
+    return await buildRegionEntries(
+      code,
+      new Map(stations.map((s) => [s.slug, s.updatedAt])),
+    );
+  } catch (error) {
+    console.error("Error building region sitemap entries:", error);
     return [];
   }
 }
